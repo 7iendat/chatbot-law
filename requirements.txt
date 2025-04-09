@@ -1,0 +1,13 @@
+langchain
+langchain-community
+langchain-huggingface
+sentence-transformers
+# faiss-cpu # Có thể xóa nếu không dùng FAISS nữa
+chromadb # Thêm ChromaDB
+tiktoken
+gradio # Vẫn giữ nếu bạn muốn chạy cả app.py
+python-dotenv
+torch
+regex
+fastapi
+uvicorn[standard] # standard bao gồm các dependencies cần thiết

@@ -1,0 +1,1326 @@
+CHÍNH PHỦ CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+———— Độc lập - Tự do - Hạnh phúc
+
+Số: 156/2024/NĐ-CP —
+
+Hà Nội, ngày 10 tháng 12 năm 2024
+NGHỊ ĐỊNH
+Quy định về đấu giá biển số xe
+
+Căn cứ Luật Tổ chức Chính phủ ngày 19 tháng 6 năm 2015; Luật sửa đổi, bổ sung một số
+điều của Luật Tổ chức Chính phủ và Luật Tổ chức chính quyền địa phương ngày 22 tháng 11 năm
+2019;
+
+Căn cứ Bộ luật Dân sự ngày 24 tháng 11 năm 2015;
+
+Căn cứ Luật Trật tự, an toàn giao thông đường bộ ngày 27 tháng 6 năm 2024;
+
+Căn cứ Luật Đấu giá tài sản ngày 17 tháng 11 năm 2016; Luật sửa đổi, bổ sung một số điều
+của Luật Đấu giá tài sản ngày 27 tháng 6 năm 2024;
+
+Căn cứ Luật Quản lý, sử dụng tài sản công ngày 21 tháng 6 năm 2017;
+
+Căn cứ Luật Công nghệ thông tin ngày 29 tháng 6 năm 2006;
+
+Căn cứ Luật An toàn thông tin mạng ngày 19 tháng 11 năm 2015;
+
+Căn cứ Luật An ninh mạng ngày 12 tháng 6 năm 2018;
+
+Chính phủ ban hành Nghị định quy định về đấu giá biển số xe.
+
+Chương I
+QUY ĐỊNH CHUNG
+
+Điều 1. Phạm vi điều chỉnh
+
+Nghị định này quy định chỉ tiết Điều 37 và Điều 38 của Luật Trật tự, an toàn giao thông
+đường bộ năm 2024 về đấu giá biển số xe, bao gồm biển số xe đưa ra đấu giá, giá khởi điểm, tiền
+đặt trước, bước giá, tiền bán hồ sơ, hình thức, phương thức, trình tự, thủ tục đấu giá biển số xe,
+quyền và nghĩa vụ của người trúng đấu giá biển số xe, thu, nộp, xử lý tiền đặt trước, hoàn tiền trúng
+đấu giá.
+
+Điều 2. Đối tượng áp dụng
+
+1. Bộ Công an.
+
+2. Tổ chức hành nghề đấu giá tài sản, đấu giá viên được lựa chọn để đấu giá biển số xe.
+
+3. Tổ chức, cá nhân tham gia đấu giá.
+
+4. Cơ quan, tổ chức, cá nhân khác có liên quan.
+
+Điều 3. Giải thích từ ngữ
+
+Trong Nghị định này, các từ ngữ dưới đây được hiểu như sau:
+
+1. Người tham gia đấu giá là tổ chức, cá nhân Việt Nam đăng ký tham gia đấu giá thông qua
+việc nộp hồ sơ tham gia đấu giá hợp lệ và tiền đặt trước cho tổ chức hành nghề đấu giá tài sản theo
+quy định của Nghị định này và quy định khác của pháp luật có liên quan.
+
+2. Người trúng đấu giá là người tham gia đấu giá trực tuyến biển số xe có mức trả giá cao
+nhất so với giá khởi điểm hoặc bằng giá khởi điểm theo quy định tại Nghị định này.
+
+3. Cuộc đấu giá biển số xe là toàn bộ quá trình đấu giá đối với một biển số xe.
+
+4. Phiên đấu giá biển số xe bao gồm các cuộc đấu giá biển số xe được tổ chức thực hiện
+trong kế hoạch tổ chức đấu giá đã được phê duyệt.
+
+5. Tiền trúng đấu giá là số tiền mà người trúng đấu giá nộp để được cấp quyền sử dụng biển
+Số xe thông qua việc được cấp Quyết định xác nhận biển số xe trúng đấu giá.
+
+6. Hệ thống quản lý đấu giá biển số xe của Bộ Công an là một tập hợp các trang thiết bị phần
+cứng, phần mềm, hạ tầng và đường truyền được thiết kế chuyên biệt để phục vụ công tác quản lý
+đấu giá biển số xe.
+
+7. Hệ thống đăng ký, quản lý xe là tập hợp các trang thiết bị phần cứng, phần mềm, cơ sở dữ
+liệu, thiết bị mạng, thiết bị bảo mật và các thiết bị khác được kết nối từ Bộ Công an đến Công an các
+đơn vị, địa phương để sản xuất, truyền nhận, thu thập, xử lý, lưu trữ và trao đổi thông tin số, phục vụ
+cho một hoặc nhiều hoạt động nghiệp vụ đăng ký xe.
+
+Điều 4. Hình thức, phương thức đấu giá
+
+1. Hình thức đấu giá là đấu giá trực tuyến.
+
+2. Phương thức đấu giá là phương thức trả giá lên.
+
+Điều 5. Biển số xe đưa ra đấu giá
+
+1. Biển số xe đưa ra đấu giá là biển số xe ô tô, xe mô tô, xe gắn máy được quy định tại điểm
+c và điểm d khoản 2 Điều 36 của Luật Trật tự, an toàn giao thông đường bộ năm 2024.
+
+2. Bộ trưởng Bộ Công an quyết định số lượng biển số xe đưa ra đấu giá tại mỗi phiên đấu
+giá, bao gồm biển số xe của các tỉnh, thành phố trực thuộc trung ương, đang trong Hệ thống đăng ký,
+quản lý xe của Bộ Công an và bổ sung số lượng biển số xe cho Công an các tỉnh, thành phố trực
+thuộc trung ương trong trường hợp hết biển số xe để đăng ký khi chưa đến phiên đấu giá tiếp theo.
+
+Điều 6. Giá khởi điểm của một biển số xe đưa ra đấu giá
+
+1. Giá khởi điểm của một biển số xe ô tô đưa ra đấu giá là 40 (bốn mươi) triệu đồng, ba năm
+tăng một lần tính từ ngày 01 tháng 01 năm 2025, môi lần tăng 5 (năm) triệu đồng.
+
+2. Giá khởi điểm của một biển số xe mô tô, xe gắn máy đưa ra đấu giá là 5 (năm) triệu đồng,
+ba năm tăng một lần tính từ ngày 01 tháng 01 năm 2025, mỗi lần tăng 1 (một) triệu đồng.
+
+3. Giá khởi điểm của biển số xe có định dạng AAAAA (A>4), ABCDE (A<B<C<D<E, A>4)
+đưa ra đấu giá lại sau lần thứ hai là 500 (năm trăm) triệu đồng đối với biển số xe ô tô và 50 (năm
+mươi) triệu đồng đối với biển số xe mô tô, xe gắn máy.
+
+Điều 7. Tiền đặt trước, bước giá
+
+1. Tiền đặt trước bằng giá khởi điểm của một biển số xe đưa ra đấu giá. Tiền đặt trước được
+gửi vào một tài khoản thanh toán riêng của tổ chức hành nghề đấu giá tài sản mở tại ngân hàng kể từ
+ngày niêm yết việc đấu giá tài sản đến trước ngày mở cuộc đấu giá 02 ngày. Trường hợp trúng đấu
+giá, tiền đặt trước được chuyển vào tài khoản chuyên thu của Bộ Công an để nộp vào ngân sách nhà
+nước theo quy định.
+
+2. Bước giá đối với đấu giá biển số xe ô tô là 5 (năm) triệu đồng; đối với đấu giá biển số xe
+mô tô, xe gắn máy là 500 (năm trăm) nghìn đồng.
+
+Điều 8. Tiền bán hồ sơ, xử lý tiền bán hồ sơ tham gia đấu giá
+
+1. Tiền bán hồ sơ tham gia đấu giá là 100 (một trăm) nghìn đồng trên một biển số xe ô tô và
+50 (năm mươi) nghìn đồng trên một biển số xe mô tô, xe gắn máy.
+
+2. Tổ chức hành nghề đấu giá tài sản có trách nhiệm thu, quản lý, sử dụng tiền bán hồ sơ
+theo quy định tại khoản 3 Điều 66 và điểm d khoản 2 Điều 78 Luật Đấu giá tài sản năm 2016 (được
+sửa đổi, bổ sung năm 2024).
+
+- Chương -
+TRÌNH TỰ, THỦ TỤC ĐẤU GIÁ BIỂN SỐ XE
+
+Điều 9. Lựa chọn tổ chức hành nghề đấu giá tài sản
+
+1. Bộ Công an lựa chọn tổ chức hành nghề đấu giá tài sản có Trang thông tin đấu giá trực
+tuyến, bảo đảm điều kiện an toàn, an ninh mạng khi kết nối với Hệ thống quản lý đấu giá biển số xe
+để tổ chức đấu giá biển số xe.
+
+2. Điều kiện lựa chọn tổ chức hành nghề đấu giá tài sản để tổ chức đấu giá biển số xe được
+thực hiện trên cơ sở tiêu chí, đánh giá, chấm điểm tổ chức hành nghề đấu giá tài sản và yêu cầu tính
+
+năng kỹ thuật Trang thông tin đấu giá trực tuyến được quy định tại Phụ lục I, Phụ lục II ban hành kèm
+theo Nghị định này.
+
+3. Thông báo lựa chọn và kết quả lựa chọn tổ chức hành nghề đấu giá tài sản được quy định
+tại Phụ lục III, Phụ lục IV ban hành kèm theo Nghị định này.
+
+4. Trình tự lựa chọn tổ chức hành nghề đấu giá tài sản được thực hiện như sau:
+
+a) Thông báo về việc lựa chọn tổ chức hành nghề đấu giá tài sản trên Cổng Đấu giá tài sản
+quốc gia và Cổng thông tin điện tử Bộ Công an;
+
+b) Thành lập Tổ tư vấn xét duyệt hồ sơ lựa chọn tổ chức hành nghề đấu giá tài sản gồm các
+đơn vị nghiệp vụ có liên quan trực thuộc Bộ Công an;
+
+c) Tiến hành lựa chọn, thông báo kết quả lựa chọn tổ chức hành nghề đấu giá tài sản trên
+Cổng Đấu giá tài sản quốc gia và Cổng thông tin điện tử Bộ Công an.
+
+5. Bộ Công an sẽ lựa chọn lại tổ chức hành nghề đấu giá tài sản trọng trường hợp tổ chức
+hành nghề đấu giá tài sản đã được lựa chọn chấm dứt hoạt động, không đáp ứng tiêu chuẩn, điều
+kiện để tổ chức đấu giá biển số xe hoặc hợp đồng bị chấm dứt thực hiện theo quy định của pháp luật.
+
+Điều 10. Hợp đồng dịch vụ đấu giá, giá dịch vụ đấu giá, chỉ phí đấu giá thanh toán cho
+tổ chức hành nghề đấu giá tài sản
+
+1. Hợp đồng dịch vụ đấu giá biển số xe
+
+Bộ Công an ký hợp đồng dịch vụ đấu giá biển số xe với tổ chức hành nghề đấu giá tài sản để
+thực hiện đấu giá biển số xe. Hợp đồng dịch vụ đấu giá biển số xe phải được lập thành văn bản,
+được thực hiện theo quy định của pháp luật dân sự và pháp luật về đấu giá tài sản.
+
+2. Giá dịch vụ đấu giá, chi phí đấu giá thanh toán cho tổ chức hành nghề đấu giá tài sản:
+
+a) Đối với mỗi biển số xe đấu giá thành, giá dịch vụ đấu giá thanh toán cho tổ chức hành
+nghề đấu giá tài sản được tính bằng 8% giá khởi điểm quy định tại khoản 1 và khoản 2 Điều 6 Nghị
+định này, chưa bao gồm thuế giá trị gia tăng và chỉ phí đấu giá;
+
+b) Chi phí đấu giá thanh toán cho tổ chức hành nghề đấu giá tài sản là 10 (mười) nghìn đồng
+trên một biển số xe ô tô đưa ra đấu giá và 2 (hai) nghìn đồng trên một biển số xe mô tô, xe gắn máy
+đưa ra đấu giá.
+
+Điều 11. Kế hoạch tổ chức đấu giá
+
+1. Bộ trưởng Bộ Công an phê duyệt kế hoạch tổ chức đấu giá biển số xe cho từng phiến đấu
+giá.
+
+2. Kế hoạch tổ chức đấu giá bao gồm các nội dung chính sau đây:
+
+a) Danh sách biển số xe đưa ra đấu giá;
+
+b) Giá khởi điểm, bước giá và tiền đặt trước;
+
+c) Hình thức, phương thức tổ chức đấu giá;
+
+d) Thời gian tổ chức đấu giá;
+
+đ) Các nội dung khác có liên quan.
+
+3. Kế hoạch tổ chức đấu giá phải được thông báo công khai trên Cổng thông tin điện tử của
+Bộ Công an, Trang thông tin điện tử Cục Cảnh sát giao thông có đường dẫn đến Trang thông tin đấu
+giá trực tuyến của tổ chức hành nghề đấu giá tài sản trong thời hạn 05 ngày làm việc kể từ ngày phê
+duyệt.
+
+Điều 12. Quy chế đấu giá
+
+Căn cứ kế hoạch tổ chức đấu giá, tổ chức hành nghề đấu giá tài sản ban hành Quy chế đấu
+giá, gồm các nội dung sau: Danh sách biển số xe đưa ra đấu giá; thời gian đấu giá; giá khởi điểm,
+bước giá; tài khoản thanh toán tiền đặt trước tham gia đấu giá; cách thức tham gia đấu giá.
+
+Điều 13. Niêm yết, thông báo công khai việc đấu giá tài sản
+
+1. Bộ Công an chuyển danh sách biển số xe đưa ra đấu giá cho tổ chức hành nghề đấu giá
+tài sản, đồng thời thông báo công khai kế hoạch tổ chức đấu giá biển số xe trên Cổng thông tin điện
+
+tử Bộ Công an, Trang thông tin điện tử Cục Cảnh sát giao thông, có đường dẫn đến Trang thông tin
+đấu giá trực tuyến của tổ chức hành nghề đấu giá tài sản.
+
+2. Tổ chức hành nghề đấu giá tài sản thông báo công khai thông tin kế hoạch tổ chức đấu giá
+tài sản, danh sách biển số xe đưa ra đấu giá trên Cổng Đấu giá tài sản quốc gia hoặc Trang thông tin
+đấu giá trực tuyến của tổ chức hành nghề đấu giá tài sản và niêm yết tại trụ sở. Quy chế đấu giá
+được niêm yết, thông báo công khai trên Trang thông tin đấu giá trực tuyến và trụ sở của tổ chức
+hành nghề đấu giá tài sản.
+
+3. Thời gian thông báo công khai, niêm yết Quy chế đấu giá, danh sách biển số xe đưa ra
+đấu giá ít nhất 30 ngày trước ngày tổ chức phiên đấu giá.
+
+4. Tổ chức hành nghề đấu giá tài sản công khai số lượng người đăng ký tham gia đấu giá
+của từng biển số đang niêm yết.
+
+Điều 14. Các bước thực hiện một cuộc đấu giá biển số xe
+
+1. Đăng ký tham gia đấu giá
+
+a) Việc đăng ký tham gia đấu giá được thực hiện hoàn toàn trên môi trường mạng tại Trang
+thông tin đấu giá trực tuyến của tổ chức hành nghề đấu giá tài sản; người tham gia đấu giá đăng ký
+tham gia đấu giá, nộp hồ sơ đăng ký tham gia đấu giá trên Trang thông tin đấu giá trực tuyến; người
+tham gia đấu giá từ chịu trách nhiệm về tính chính xác, tính trung thực việc kê khai thông tin để đăng
+ký tham gia đấu giá.
+
+b) Người tham gia đấu giá được cấp một tài khoản truy cập, được hướng dẫn về cách sử
+dụng tài khoản, cách trả giá và các nội dung khác trên Trang thông tin đấu giá trực tuyến để thực hiện
+việc đấu giá;
+
+c) Người tham gia đấu giá được lựa chọn biển số xe theo nhu cầu trong danh sách biển số
+xe đưa ra đấu giá của tất cả các tỉnh, thành phố trực thuộc trung ương trên toàn quốc để tham gia
+đấu giá;
+
+d) Người tham gia đấu giá nộp tiền hồ sơ, tiền đặt trước của biển số xe đã lựa chọn tham gia
+đấu giá vào tài khoản của tổ chức hành nghề đấu giá tài sản theo quy định tại khoản 1 Điều 7 và
+khoản 1 Điều 8 Nghị định này và được cấp mã đấu giá của cuộc đấu giá biển số xe đó;
+
+đ) Tổ chức hành nghề đấu giá tài sản bán hồ sơ tham gia đấu giá, tiếp nhận hồ sơ tham gia
+đấu giá kể từ ngày niêm yết việc đấu giá tài sản cho đến trước ngày mở cuộc đấu giá 02 ngày.
+
+2. Người tham gia đấu giá truy cập vào Trang thông tin đấu giải trực tuyến bằng tài khoản
+truy cập của mình và thực hiện thủ tục đấu giá theo Quy chế đấu giá
+
+3. Tại thời điểm kết thúc cuộc đấu giá trực tuyến, Trang thông tin đấu giá trực tuyến xác định
+người trúng đấu giá, thông báo kết quả cuộc đấu giá, hiển thị biên bản đấu giá để người trúng đấu
+giá xác nhận, gửi thông báo vào địa chỉ thư điện tử của người tham gia đấu giá đã đăng ký với tổ
+chức hành nghề đấu giá tài sản.
+
+4. Khi hết thời hạn đăng ký tham gia đấu giá mà chỉ có một người đăng ký tham gia đấu giá
+thì người đó được xác định là người trúng đấu giá biển số xe, người trúng đấu giá sẽ nhận được
+thông báo và biên bản trúng đấu giá của biển số đó trước thời điểm tổ chức cuộc đấu giá.
+
+5. Tổ chức hành nghề đấu giá tài sản chịu trách nhiệm xét duyệt hồ sơ, đối chiếu thông tin
+của người tham gia đấu giá, phân công đấu giá viên điều hành cuộc đấu giá trực tuyến trên Trang
+thông tin đấu giá trực tuyến, xác thực vào biên bản đấu giá bằng chữ ký số để gửi cho người trúng
+đấu giá.
+
+6. Bộ Công an giám sát quá trình tổ chức đấu giá, kết quả đấu giá, xác thực vào biên bản
+đấu giá bằng chữ ký số và các nội dung khác có liên quan.
+
+Điều 15. Trường hợp dừng cuộc đấu giá, truất quyền tham gia đấu giá và xử lý tình
+huống phát sinh
+
+1. Tổ chức hành nghề đấu giá tài sản, đấu giá viên buộc phải dừng cuộc đấu giá trong các
+trường hợp sau:
+
+a) Bộ Công an yêu cầu tổ chức hành nghề đấu giá tài sản dừng việc tổ chức đấu giá khi có
+căn cứ cho rằng tổ chức hành nghề đấu giá tài sản hoặc đấu giá viên có hành vi vi phạm chuẩn mực
+đạo đức nghề nghiệp đấu giá viên và các quy định khác trong Quy chế đấu giá;
+
+b) Sự kiện bất khả kháng.
+
+2. Bộ Công an quyết định việc thực hiện tổ chức đấu giá lại sau khi đáp ứng đủ điều kiện tổ
+chức đấu giá theo quy định tại khoản 2 Điều 9 Nghị định này và quy định khác của pháp luật có liên
+quan.
+
+3. Các trường hợp bị truất quyền tham gia đấu giá:
+
+a) Cung cấp thông tin, tài liệu sai sự thật; sử dụng giấy tờ giả mạo để đăng ký tham gia đấu
+giá, tham gia cuộc đấu giá;
+
+b) Thông đồng, móc nối với đấu giá viên, tổ chức hành nghề đấu giá tài sản, người có tài sản
+đấu giá, người tham gia đấu giá khác, cá nhân, tổ chức khác để dìm giá, làm sai lệch kết quả đấu giá
+tài sản;
+
+c) Cản trở hoạt động đấu giá tài sản, có hành vi sử dụng phần mềm tác động đến quá trình
+đấu giá hoặc kết quả cuộc đấu giá; gây nhiêu loạn cuộc đấu giá;
+
+d) Đe dọa, cưỡng ép đấu giá viên, người tham gia đấu giá khác nhằm làm sai lệch kết quả
+đấu giá tài sản;
+
+đ) Các hành vi bị nghiêm cấm khác theo quy định của pháp luật.
+
+4. Trường hợp vi phạm quy định tại khoản 3 Điều này, tổ chức hành nghề đấu giá tài sản báo
+cáo Bộ Công an dừng công nhận hoặc hủy kết quả đấu giá, chuyển cơ quan có thẩm quyền xử lý
+theo quy định.
+
+Điều 16. Niêm yết và chuyển kết quả đấu giá
+
+1. Trong thời hạn 01 ngày làm việc kể từ ngày kết thúc đấu giá, tổ chức hành nghề đấu giá
+tài sản phải công khai niêm yết trên Trang thông tin đấu giá trực tuyến kết quả đấu giá biển số xe.
+
+2. Trong thời hạn 03 ngày làm việc kể từ ngày kết thúc đấu giá, tổ chức hành nghề đấu giá
+tài sản phải chuyển kết quả đấu giá, biên bản đấu giá, danh sách người trúng đấu giá bằng văn bản
+điện tử đồng thời chuyển tiền đặt trước cho Bộ Công an để phê duyệt kết quả trúng đấu giá và hoàn
+thiện các thủ tục liên quan.
+
+Điều 17. Phê duyệt kết quả trúng đấu giá
+
+Trong thời hạn 07 ngày làm việc kể từ ngày nhận được kết quả đấu giá biên bản đấu giá,
+danh sách người trúng đấu giá bằng văn bản điện tử từ tổ chức hành nghề đấu giá tài sản, Bộ Công
+an ban hành Quyết định phê duyệt kết quả trúng đấu giá.
+
+Điều 18. Thông báo kết quả trúng đấu giá
+
+1. Bộ Công an gửi văn bản điện tử Thông báo kết quả trúng đấu giá biển số xe vào địa chỉ
+thư điện tử và gửi tin nhắn thông báo tới số điện thoại đã đăng ký tại tài khoản truy cập cho người
+trúng đấu giá trong vòng 07 ngày làm việc sau khi phê duyệt kết quả trúng đấu giá; văn bản điện tử
+Thông báo kết quả trúng đấu giá biển số xe thay thế hợp đồng mua bán tài sản đấu giá hoặc hợp
+đồng bán tài sản nhà nước.
+
+2. Nội dung Thông báo kết quả trúng đấu giá gồm: Biển số xe trúng đấu giá, tên, mã định
+danh của cá nhân, tổ chức (trường hợp tổ chức chưa được cấp mã định danh thì ghi mã số thuế
+hoặc số quyết định thành lập tổ chức), địa chỉ người trúng đấu giá, giá trúng đấu giá, số tiền phải nộp,
+số tài khoản chuyên thu do Bộ Công an mở tại ngân hàng, chi nhánh ngân hàng nước ngoài để nộp
+tiền trúng đấu giá, thời hạn nộp tiền trúng đấu giá, việc hủy kết quả đấu giá nếu không nộp đủ số tiền
+trúng đấu giá theo quy định.
+
+Điều 19. Nộp tiền trúng đấu giá
+
+Trong thời hạn 30 ngày kể từ ngày có văn bản điện tử Thông báo kết quả trúng đấu giá,
+người trúng đấu giá phải nộp toàn bộ số tiền trúng đấu giá sau khi đã trừ số tiền đặt trước vào tài
+khoản chuyên thu của Bộ Công an mở tại ngân hàng, chi nhánh ngân hàng nước ngoài. Tiền trúng
+đấu giá không bao gồm lệ phí đăng ký xe.
+
+Điều 20. Cấp Quyết định xác nhận biển số xe trúng đấu giá
+
+Ngay sau khi nhận đủ số tiền trúng đấu giá, Bộ Công an cấp hóa đơn điện tử bán tài sản
+công và văn bản điện tử Quyết định xác nhận biển số xe trúng đấu giá gửi vào địa chỉ thư điện tử cho
+người trúng đấu giá để làm thủ tục đăng ký xe.
+
+Điều 21. Hủy kết quả trúng đấu giá
+
+1. Kết quả đấu giá biển số xe bị hủy trong các trường hợp sau:
+
+- a) Người trúng đấu giá, tổ chức hành nghề đấu giá tài sản có đề nghị và được sự chấp thuận
+bằng văn bản của Bộ Công an.
+
+b) Hợp đồng dịch vụ đấu giá tài sản, Thông báo kết quả trúng đấu giá, Quyết định xác nhận
+biển số xe trúng đấu giá bị Tòa án tuyên bố vô hiệu được xác định không phải do vi phạm của người
+trúng đấu giá theo quy định của pháp luật về dân sự.
+
+c) Người trúng đấu giá chết trong thời hạn 30 ngày kể từ ngày có Thông báo kết quả trúng
+đấu giá nhưng chưa được cấp Quyết định xác nhận biển số xe trúng đấu giá;
+
+d) Người trúng đấu giá chết trong thời hạn 12 tháng kể từ ngày được cấp Quyết định xác
+nhận biển số xe trúng đấu giá hoặc trong thời gian được Bộ Công an phê duyệt gia hạn thời hạn
+đăng ký biển số xe trúng đấu giá nhưng chưa thực hiện thủ tục đăng ký xe;
+
+đ) Người trúng đấu giá không nộp tiền hoặc không nộp đủ tiền trúng đấu giá trong thời hạn
+quy định tại Điều 19 Nghị định này. Bộ Công an sẽ gửi thông báo bằng văn bản điện tử về việc không
+được tham gia đấu giá trong thời hạn 12 tháng kể từ ngày có Thông báo kết quả trúng đấu giá theo
+quy định tại điểm a khoản 2 Điều 38 Luật Trật tự, an toàn giao thông đường bộ năm 2024;
+
+e) Người trúng đấu giá không làm thủ tục đăng ký biển số xe trúng đấu giá theo quy định tại
+điểm b khoản 2 Điều 38 Luật Trật tự, an toàn giao thông đường bộ năm 2024;
+
+g) Các trường hợp bị truất quyền tham gia đấu giá theo quy định tại khoản 3 Điều 15 Nghị
+định này.
+
+2. Người trúng đấu giá không xác nhận biên bản đấu giá, Bộ Công an sẽ không ban hành
+Thông báo kết quả trúng đấu giá trong trường hợp này.
+
+3. Biển số xe trúng đấu giá được đưa ra đấu giá lại hoặc chuyển về Hệ thống đăng ký, quản
+lý xe; số tiền đặt trước, số tiền trúng đấu giá mà người trúng đấu giá đã nộp không được hoàn trả lại
+và được nộp vào ngân sách nhà nước trừ các trường hợp quy định tại điểm a, b, c, d khoản 1 Điều
+này.
+
+Điều 22. Quản lý biển số xe trúng đấu giá
+
+1. Biển số xe trúng đấu giá chỉ được cấp cho người trúng đấu giá trừ trường hợp quy định tại
+điểm c khoản 1 Điều 38 Luật Trật tự, an toàn giao thông đường bộ năm 2024.
+
+2. Thủ tục đăng ký biển số xe trúng đấu giá thực hiện theo quy định của pháp luật về đăng ký
+xe.
+
+Điều 23. Gia hạn thời hạn đăng ký xe trong trường hợp sự kiện bất khả kháng hoặc trở
+ngại khách quan
+
+1. Trường hợp xảy ra sự kiện bất khả kháng hoặc trở ngại khách quan, người trúng đấu giá
+chưa thực hiện thủ tục đăng ký xe để gắn biến số trúng đấu giá thì người trúng đấu giá phải gửi Đơn
+đề nghị gia hạn thời hạn đăng ký xe (theo Mâu số 01 ban hành kèm theo Nghị định này) qua Hệ
+thống quản lý đấu giá biển số xe của Bộ Công an và gửi tài liệu chứng minh (bản chính) về Bộ Công
+an qua Cục Cảnh sát giao thông để xem xét giải quyết.
+
+- 2. Bộ Công an xem xét, giải quyết và thông báo kết quả gia hạn cho người trúng đấu giá
+bằng văn bản điện tử.
+
+3. Thời gian gia hạn không quá 06 tháng theo quy định tại điểm b khoản 2 Điều 38 Luật Trật
+tự, an toàn giao thông đường bộ năm 2024.
+
+- - - ChươngII - - -
+THU, NỘP, XỬ LÝ TIỀN ĐẶT TRƯỚC, HOÀN TIỀN TRÚNG ĐẤU GIÁ
+
+Điều 24. Thu, nộp tiền trúng đấu giá và chỉ phục vụ hoạt động đấu giá trước khi nộp
+vào ngân sách nhà nước
+
+1. Giao Bộ Công an mở tài khoản chuyên thu tại ngân hàng, chi nhánh ngân hàng nước
+ngoài để thu tiền trúng đấu giá.
+
+2. Nội dung chỉ phục vụ hoạt động đấu giá trước khi nộp vào ngân sách nhà nước gồm:
+
+a) Các khoản chỉ phí tổ chức đấu giá (giá dịch vụ đấu giá, chỉ phí đấu giá thanh toán cho tổ
+chức hành nghề đấu giá tài sản theo quy định tại khoản 2 Điều 10 Nghị định này, chỉ phí gửi tin nhăn,
+chi phí hóa đơn, chỉ phí giải đáp thắc mắc trong quá trình tổ chức đấu giá và các chi phí hợp lệ khác);
+
+b) Chi phí quảng cáo;
+
+c) Chi phí quản trị Hệ thống quản lý đấu giá biển số xe.
+
+3. Số tiền thu được từ đấu giá biển số xe sau khi trừ các khoản chi phục vụ hoạt động đấu
+giá (sau đây viết gọn là tiền bán đấu giá) và tiền lãi phát sinh (nếu có) trên số dư tài khoản chuyên thu
+của Bộ Công an thực hiện kê khai, nộp, quyết toán với cơ quan thuế. Cơ quan thuế quản lý kê khai,
+nộp, quyết toán khoản thu này theo quy định pháp luật về quản lý thuế.
+
+a) Chậm nhất ngày 20 hàng tháng, Bộ Công an (hoặc cơ quan được Bộ Công an giao quản
+lý thu, nộp tiền bán đấu giá) kê khai, nộp tiền bán đấu giá thu được tháng trước với cơ quan thuế
+(theo Mẫu số 02 ban hành kèm theo Nghị định này). Bộ Công an (hoặc cơ quan được Bộ Công an
+giao quản lý thu, nộp tiền bán đấu giá) thực hiện quyết toán tiền bán đấu giá theo năm (theo Mâu số
+03 ban hành kèm theo Nghị định này) theo quy định pháp luật quản lý thuế;
+
+b) Số tiền bán đấu giá nộp toàn bộ vào ngân sách trung ương;
+
+c) Tiền lãi phát sinh (nếu có) trên số dư tài khoản chuyên thu của Bộ Công an tại ngân hàng,
+chỉ nhánh ngân hàng nước ngoài phải nộp toàn bộ vào ngân sách trung ương, cùng với số tiền bán
+đấu giá thu được trong tháng phát sinh.
+
+Điều 25. Xử lý tiền đặt trước
+
+1. Đối với các trường hợp người tham gia đấu giá thanh toán không đúng quy định theo
+khoản 1 Điều 14 Nghị định này dẫn tới không đủ điều kiện tham gia đấu giá, tổ chức hành nghề đấu
+giá tài sản sẽ thực hiện hoàn lại khoản thanh toán này trong thời hạn 03 ngày làm việc kể từ ngày
+nhận được đầy đủ hồ sơ bao gồm đơn đề nghị hoàn tiền (bản chính) và hình ảnh chứng minh giao
+dịch của người tham gia đấu giá đó.
+
+2. Trường hợp cuộc đấu giá không tổ chức được theo khoản 1 Điều 15 Nghị định này thì
+người tham gia đấu giá biển số xe được hoàn trả lại tiền hồ sơ và tiền đặt trước đã nộp trong thời
+hạn 03 ngày làm việc, kể từ ngày cuộc đấu giá bị dừng.
+
+3. Trường hợp người tham gia đấu giá không trúng đấu giá hoặc không thuộc trường hợp
+không được nhận lại khoản tiền đặt trước sẽ được hoàn trả tiền đặt trước trong thời hạn 03 ngày làm
+việc kể từ ngày kết thúc cuộc đấu giá.
+
+4. Các trường hợp không được nhận lại khoản tiền đặt trước: Người đủ điều kiện tham gia
+cuộc đấu giá biển số xe mà không đăng nhập vào tài khoản đã được cấp và truy cập vào phòng đấu
+giá để tham gia đấu giá trong thời gian đấu giá chính thức thì được coi là không tham gia cuộc đấu
+giá, ngoại trừ trường hợp bất khả kháng theo quy định của pháp luật; bị truất quyền tham gia đấu giá
+do có hành vi quy định tại khoản 3 Điều 15 Nghị định này; người trúng đấu giá không xác nhận biên
+bản đấu giá trong thời gian quy định tại Quy chế đấu giá.
+
+Điều 26. Hoàn tiền trúng đấu giá
+
+1. Hoàn đủ số tiền trúng đấu giá đã nộp trong các trường hợp hủy kết quả đấu giá theo quy
+định tại điểm a, b, c, d khoản 1 Điều 21 Nghị định này.
+
+2. Người trúng đấu giá, người quản lý di sản, người thừa kế theo di chúc hoặc người thừa kế
+theo pháp luật của người trúng đấu giá nộp hồ sơ đề nghị hoàn tiền trúng đấu giá theo Phụ lục V ban
+hành kèm theo Nghị định này.
+
+3. Sau khi nhận đủ hồ sơ đề nghị hoàn tiền, Bộ Công an có trách nhiệm kiểm tra đối chiếu hồ
+sơ và làm thủ tục hoàn trả như sau:
+
+a) Trường hợp hoàn trả trước thời điểm nộp ngân sách nhà nước: Thực hiện hoàn tiền từ tài
+khoản chuyên thu của Bộ Công an mở tại ngân hàng, chi nhánh ngân hàng nước ngoài;
+
+b) Trường hợp hoàn trả sau thời điểm nộp ngân sách nhà nước: Bộ Công an kiểm tra đối
+chiếu hồ sơ đề nghị hoàn trả với các chứng từ nộp ngân sách nhà nước của khoản đã nộp trước đó,
+nếu phù hợp thì Bộ Công an ban hành quyết định hoàn trả gửi Cơ quan thuế lập lệnh hoàn trả khoản
+
+thu ngân sách nhà nước, chuyển cho Kho bạc Nhà nước nơi đã thu ngân sách nhà nước để thực
+hiện hoàn trả cho người nộp ngân sách nhà nước;
+
+c) Trường hợp hồ sơ không hợp lệ, Bộ Công an gửi thông báo cho người trúng đấu giá,
+người quản lý di sản, người thừa kế theo di chúc hoặc người thừa kế theo pháp luật của người trúng
+đấu giá.
+
+Chương IV
+HIỆU LỰC THỊ HÀNH
+
+Điều 27. Hiệu lực thi hành
+
+1. Nghị định này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2025.
+
+2. Nghị định số 39/2023/NĐ-CP ngày 26 tháng 6 năm 2023 của Chính phủ quy định chỉ tiết
+một số điều Nghị quyết số 73/2022/QH15 ngày 15 tháng 11 năm 2022 của Quốc hội về thí điểm đấu
+giá biển số xe ô tô hết hiệu lực kể từ ngày Nghị định này có hiệu lực thi hành, trừ trường hợp quy
+định tại Điều 28 Nghị định này.
+
+Điều 28. Điều khoản chuyển tiếp
+
+Việc đấu giá biển số xe ô tô được thực hiện trước ngày Nghị định này có hiệu lực thi hành và
+đã được cấp Quyết định xác nhận biển số xe trúng đấu giá thì tiếp tục thực hiện theo quy định tại
+Nghị định số 39/2023/NĐ-CP ngày 26 tháng 6 năm 2023 của Chính phủ quy định chỉ tiết một số điều
+Nghị quyết số 73/2022/QH15 ngày 15 tháng 11 năm 2022 của Quốc hội về thí điểm đấu giá biển số
+xe ô tô; trường hợp chưa được cấp Quyết định xác nhận biển số xe trúng đấu giá thi tiếp tục thực
+hiện theo Nghị định số 39/2023/NĐ-CP ngày 26 tháng 6 năm 2023 của Chính phủ và quy định tại
+điểm d khoản 1 Điều 38 của Luật Trật tự, an toàn giao thông đường bộ năm 2024.
+
+Điều 29. Tổ chức thực hiện
+
+Bộ Công an chủ trì, phối hợp với các bộ, ngành liên quan tổ chức thực hiện Nghị định này và
+giao các đơn vị chức năng giám sát, bảo đảm an ninh, an toàn quá trình tổ chức đấu giá biển số xe.
+
+Nơi nhận: TM. CHÍNH PHỦ
+- Ban Bí thư Trung ương Đảng; KT. THỦ TƯỚNG
+- Thủ tướng, các Phó Thủ tướng Chính phủ; PHÓ THỦ TƯỚNG
+- Các bộ, cơ quan ngang bộ, cơ quan thuộc
+
+Chính phủ;
+
+- HĐND, UBND các tỉnh, thành phố trực thuộc
+
+trung ương;
+
+- Văn phòng Trung ương và các Ban của Đảng; Vũ Đức Phớc
+- Văn phòng Tổng Bí thư;
+
+- Văn phòng Chủ tịch nước;
+
+- Hội đồng Dân tộc và các Ủy ban của Quốc hội;
+
+- Văn phòng Quốc hội;
+
+- Tòa án nhân dân tối cao;
+
+- Viện kiểm sát nhân dân tối cao;
+
+- Kiểm toán nhà nước;
+
+- Ủy ban Giám sát tài chính Quốc gia;
+
+- Ngân hàng Chính sách xã hội;
+
+- Ngân hàng Phát triển Việt Nam;
+
+- Ủy ban trung ương Mặt trận Tổ quốc Việt
+
+Nam;
+
+- Cơ quan trung ương của các đoàn thể;
+
+- VPCP: BTCN, các PCN, Trợ lý TTg, TGĐÐ
+
+Cổng TTĐT, các Vụ, Cục, đơn vị trực thuộc,
+
+Công báo;
+
+- Lưu: VT, KTTH (2)
+
+Phụ lục I
+BẢNG TIỀÊU CHÍ ĐÁNH GIÁ, CHẤM ĐIỂM
+TỔ CHỨC HÀNH NGHỀ ĐẤU GIÁ TÀI SẢN
+(Kèm theo Nghị định số 156/2024/NĐ-CP
+ngày 10 tháng 12 năm 2024 của Chính phủ)
+Mức điểm
+mm — ———.-
+__ A |CÁCTIÊUCHÍCHẤMĐIỆM
++ BE im nhún ominemEnEdgmei5 [ me —-
+ới biển số xe }
+IEEDRET:-tiiHökukikiooloil RE
+1.1 . 2 SA v3 2,0
+địa chỉ thư điện tử
+| 12 Lan mvàn nàn ve PCCO| no CN GD AP GÀ | áp
+1.2 = ` AT 4,0
+quản lý ra vào, an toàn về PCCC
+|__ 2 |Trang thiết bị cần thiết bảo đảm phục vụ tổ chức đấu giá trựctuến | 80 _
+ộ giá, có thể kết nối camera giám sát với người có tài sản Ử
+| 29 [n6 mái tôimbanbond tien kmdmm | so —
+2.3 riển khai tổ chức đấu giá, có lớp khóa bảo mật sinh trắc học, bảo đảm an 1,0
+oàn phòng đấu giá
+|! Năng lực, kinh nghiệm và uy tín của tổ chức hành nghề đấu giá tài sản | 38,0 _
+Jm.-.- ca. lan
+rước (tính đến thời điểm nộp hồ sơ
+| 13 |ừ5001đến7/500cuộc | 60 —_
+| 14 lrên7500cuộc 7 77 7 7 7 7 |} 80 —_
+| ? [Ê nhe banganshesemimioeamahmie | so -
+2 nghề đấu giá tài sản có đăng ký hoạt động tại tổ chức và đóng bảo hiểm
+rách nhiệm nghề
+|__ 2.3 _ |irên 10 đấu giá viêntrởiê | 60 —_
+Sản (Tính theo số lượng cuộc đấu giá trực tuyến đã điều hành ;
+ộ uyến/đấu giá viên ;
+' uộc đấu giá trực tuyến/đấu giá viên ;
+' rực tuyến/đấu giá viên ;
+
+L + BE HH TC nen SGnENTHĐ[ ngộ
+4 3 . ` a..— 2,0
+ủa khách hàng và chủ tài sản
+KN...-... cỶỶnE TH
+5 À X2 v2 2 v TT X2 HÀ điển CA Đa 5,0
+rừ thuế giá trị gia tăng (tính tới thời điểm nộp hồ sơ
+Biệt hong diện loeb khung Hư | nn
+đấu giá tài sản (có tham gia bảo hiểm xã hội tại tổ chức hành nghề đấu giá 5,0
+ài sản
+L° Bnkmmapminiraeaeeiebr] sn
+7 ^ . s. . 3Ù Đố An LẠ » ¬ Ẩn ¬i⁄ ~ 3,0
+môn phụ trách giám sát, quản lý, vận hành phần mềm đấu giá trực tuyến.
+_ 8 |Cótổngđàihotinehỗtgkháhhang | 20 |
++ ng in nnaennnenrrmmnrimcnE[ Tum -
+bị, công cụ, dụng cụ ,
+_ HH — Nêu cầu chức năng của Trang thông tin đấu giátrựctuyến | 160 |
+Công an ộ
+"4... SẺ
+2 l 2: LỊA tOÃ 3 l2 51: n6 hiển cÃ và nửa DA À 2,0
+ích hợp với Hệ thống quản lý đấu giá biển số xe của Bộ Công an
+động xử lý các sự kiện bảo mật được ghi nhận (SOAR Ẻ
+ïN-.......
+giá an ninh, an toàn (pentest) bởi tổ chức có thẩm quyền (Báo cáo Pentest
+4 được thực hiện trên hệ thống máy tính, website, ứng dụng di động, hạ tầng 4,0
+mạng, phương thức kết nối với các giao diện, ứng dụng khác (API), mã
+nguồn (source code
+êu cầu tính năng kỹ thuật Trang thông tin đấu giá trực tuyến (tại Phụ
+lục II kèm theo)
+IV Tổ chức hành nghề đấu giá tài sản thiếu 01 chức năng sẽ trừ 0,25
+điểm; chức năng có dấu * trừ 2,0 điểm cho đến khi hết số điểm trong
+mục nà
+__ _ jMổngsốđểm | 100 |
+__ B_ CÁC TIÊU CHÍ BẮT BUỘC PHẢÁĐÁPỨNG | |
+m......n
+1 pháp tỉnh/thành phố trực thuộc trung ương) phê duyệt đủ điều kiện thực
+hiện hình thức đấu giá trực tuyến
+ ? EScCneirtsetongienemeees|
+2 được cơ quan có thẩm quyền của Bộ Công an kiểm tra, đánh giá đáp ứng
+ác yêu cầu bảo đảm an ninh, an toàn cấp độ 3 trở lên
+| › EEE 2n HEEIMEAHEOUEA —
+được cơ quan có thẩm quyền của Bộ Công an (Cục An ninh mạng và Phòng
+3 hống tội phạm sử dụng công nghệ cao) kiểm tra, đánh giá đảm bảo an ninh
+mạng, an toàn thông tin và đủ điều kiện kết nối với Hệ thống quản lý đấu giá
+biển số xe của Bộ Công an
+
+L En n enE [TT
+4 3 TIỂU VKẤ HAI nh v2: HÀ điển LAn HẠ
+bảo hiểm xã hội (tính tới thời điểm nộp hồ sơ
+ổ chức hành nghề đấu giá tài sản phải đáp ứng đồng thời các mục 1, 2, 3
+à 4 mới được đánh giá là đạt. Thiếu 1 trong số các mục trên không đủ điều
+kiện được lựa chọn
+
+Ghi chú:
+
+1. Tổ chức hành nghề đấu giá tài sản đạt số điểm cao nhất và đủ điều kiện theo mục B được
+lựa chọn. Trường hợp các tổ chức có số điểm bằng nhau thì xem xét lựa chọn tổ chức có điểm số
+tính năng kỹ thuật Trang thông tin đấu giá trực tuyến cao hơn (mục IV).
+
+2. Trong trường hợp người đại diện theo pháp luật, đấu giá viên của tổ chức hành nghề đấu
+giá tài sản bị kết án băng bản án có hiệu lực về tội phạm quy định về hoạt động bán đấu giá tài sản;
+tổ chức hành nghề đấu giá tài sản, đấu giá viên đang bị khởi tố, truy tố hình sự; tổ chức hành nghề
+đấu giá tài sản bị cơ quan có thẩm quyền xác định không thực hiện thông báo công khai việc đấu giá
+tài sản trên Cổng thông tin điện tử quốc gia về đấu giá tài sản trong thời hạn 12 tháng tính đến ngày
+nộp hồ sơ thì tổ chức hành nghề đấu giá tài sản không đủ điều kiện tham gia chấm điểm lựa chọn.
+
+Phụ lục II
+YÊU CẦU TÍNH NĂNG KỸ THUẬT
+TRANG THÔNG TIN ĐẤU GIÁ TRỰC TUYẾN
+(Kèm theo Nghị định số 156/2024/NĐ-CP
+ngày 10 tháng 12 năm 2024 của Chính phủ)
+I. Yêu cầu các chức năng chính Trang thông tin đấu giá trực tuyến
+Trang thông tin đấu giá trực tuyến là nơi cung cấp các thông tin liên quan đến đấu giá biển số
+xe, là nơi người tham gia đấu giá có thể tìm kiếm, đăng ký, tham gia đấu giá biển số xe và nhận kết
+quả sau đấu giá.
+j1 Hướngdn |
+_ HH luảnlýngườidùng 7 |
+6 |ăngkýtàkhoảncánhn |
+__ 8 Cóchức năng OCR khi đăng ký tài khoản |
+__ 9 Đăng nhập trên thiết bị chưa được xácmin |
+giọng nói, đánh dấu vào ô đồng ý, cú pháp đồng ý qua tin nhắn
+_ IH Đăngkýđấug. |
+bước trong quá trình đấu giá)*
+
+hơn
+EÍïẽ"........a. li
+49 _ lại, thông tin biển số, diễn biến cuộc đấu giá, giá hiện tại, danh sách phòng đấu giá khác
+nếu có (phòng đấu giá đã đăng ký diễn ra cùng thời điểm)*
+hời điểm, cùng một tài khoản đấu giá
+L8 Dong 2H go nÿn 3 an gac 900 0 1n0ềc GUÊc
+56 òng đấu chính thức với mức giá xác định và tại các vòng đấu gia hạn nếu có, cảnh báo
+ho người tham gia về các mốc thời gian quan trọng
+__ 60_ |Tải xuống quy chế đấu giá của phiên đấugá |
+_ 66 |6ửi thông báo trúng đấu giá qua SMS, Email hệthống |
+_ 68 __ |Trang đấu giá có phân hệ tiếp nhận giải quyết ý kiến, khiếu nại của người tham gia đấu giá |
+|_ 69__ |Tài khoản đăng nhập vào hệ thống bằng chức năng SSO quaVNeliD” |
+II. Yêu cầu kỹ thuật ứng dụng di động đấu giá biển số
+Ứng dụng đấu giá biển số có khả năng cài đặt trên hệ điều hành IOS và hệ điều hành
+Android. Cung cấp thêm lựa chọn cho người tham gia đấu giá khi tham gia quá trình đấu giá biển số
+xe.
+1 Hướndẫn CC |
+_ H Kuảnlýngườùng 77 7 |
+_ 6 Đăngkýtàkhoảncánhn |
+
+__ 8 [Có chức năng OCR khi đăng ký tài khoản |
+_ 9 Đăng nhập trên thiết bị không an toàn (Root với Android, Jailbreak vớilOS) |
+giọng nói, đánh dấu vào ô đồng ý, cú pháp đồng ý qua tin nhắn
+_ IH Đăngkýđấug. 77 7 |
+bước trong quá trình đấu giá) *
+Íï"”...........i
+40 nhu cầu đấu giá đối với những biển số xe đã có kế hoạch đấu giá nhưng chưa được lựa
+họn hoặc những biển số xe đấu giá không thành để đưa vào kế hoạch nếu đủ điều kiện
+ơn
+L2 bể hn ch 50 S0 hy 090 0D
+48 _ lại, thông tin biển số, diễn biến cuộc đấu giá, giá hiện tại, danh sách phòng đấu giá khác
+nếu có (phòng đấu giá đã đăng ký diễn ra cùng thời điểm) *
+hời điểm, cùng một tài khoản đấu giá
+
+L9 nh hang ni viec 90 n0 TÔ
+55 òng đấu chính thức với mức giá xác định và tại các vòng đấu gia hạn nếu có, cảnh báo
+ho người tham gia về các mốc thời gian quan trọng
+__ 60 Nhận thông báo từ ứng dụng (khi không chạy ứng dụng):__________ |
+III. Yêu cầu kỹ thuật Trang quản trị hệ thống đấu giá
+Trang quản trị hệ thống đấu giá là nơi quản trị các nghiệp vụ trong quá trình tổ chức đấu giá
+biển số. Phần mềm có khả năng tích hợp dữ liệu với phần mềm trung gian của Bộ Công an đảm bảo
+các nghiệp vụ như: đồng bộ danh sách biển số đấu giá, kết quả đấu giá,... Ngoài ra phần mềm cung
+cấp khả năng tạo lập kế hoạch đấu giá, tạo các cuộc đấu giá theo thời gian. Cung cấp chức năng
+điều hành cuộc đấu giá cho đấu giá viên, chức năng giám sát cuộc đấu giá cho giám sát viên theo
+thời gian thực.
+1 Kuảnlýhệthống 7
+__ 6 Hiển thị màn hình đổi mật khẩu khi đăng nhập mà mật khẩu hếthna |
+_ 8 Kuản ý sự đồng ý chia sẻ dữ liệu của kháchhàng |
+| 9 Jnkết quả đồng ý chia sẻ dữ liệu củakháchhàng |
+_ IÚ ấuhìnhhệthống 7 |
+mm. ñð na
+
+rặc về hệ thống thanh toán
+được thực hiện đúng hạn
+rả giá bất thường, hành vi gian lận
+rước
+L Tam nu va ngang hoang vioietei vụn c
+41 bia phòng đấu, khách hàng không hợp lệ, khách hàng không xác nhận biên bản để tổng
+hợp báo cáo tài chính kết nối luồng tài chính sang bên Hệ thống Quản lý đấu giá biển số xe*
+SỐ xe
+nhiệm của họ trong quá trình giám sát cuộc đấu giá
+hông tin quan trọng của cuộc đấu giá
+hái đấu giá, đã được lập danh sách trong các kế hoạch, đơn vị đang quản lý
+đối soát tức thì theo Phiên với Hệ thống quản lý đấu giá biển số xe.
+lý đấu giá biển số xe
+lệ
+L= EEnrmemrrsnnnsmnnnnmrrwsrsrsrmsnm_
+58 .
+gian thực”
+mili giây hiển thị trên giao diện người tham gia đấu giá*
+Lm Di mang nh main tin oa tản bieoonâr
+hiện hành vi đáng ngờ qua việc theo dõi địa chỉ IP, thiết bị hoặc các dấu hiệu khác cho thấy
+ó thể có hành động cố ý gây nhiễu loạn hoặc thao túng cuộc đấu giá
+lich sử các lệnh trả giá (có hiển thị theo thời gian thực và thời gian đếm ngược
+IEEN<-- th bukcisionciiiikshobioikouiol
+gian yêu cầu
+khoảng thời gian yêu cầu
+
+L9 Bo men smesecnrsemerms'
+đã tham gia
+NT bảnghobdioelioinial
+giá hoặc sử dụng tài khoản giả
+sniping), thao túng giá, hoặc vi phạm các quy định của đấu giá
+hể kiểm tra lại khi cần thiết
+ác xu hướng đấu giá để giám sát viên dê dàng theo dõi
+ác cuộc đấu giá thành công và không thành công
+|__80__ kết nối các yêu cầu khác từ khách hàng (chỉnh sửa thông tin, nhu cầu đấu giá..) |
+| 86 |Thêm sửatintứcđấugá
+| 89 __ kuản lý danh sách câu hỏi thường gặp
+IV. Các yêu cầu phi chức năng
+1. Yêu cầu chung
+- Dữ liệu người sử dụng tham gia đấu giá phải được lưu trữ tại Việt Nam.
+- Sử dụng SSL Certificate đối với các trang HTTPS.
+- Chuỗi kết nối CSDL (Connection string) và mật khẩu CSDL không được lập trình cứng (hard
+coded) trong ứng dụng mà phải lưu trên một file cấu hình hoặc trong file CSDL được mã hóa.
+2. Yêu cầu phi chức năng
+L1 Mácthự 7 77 7 7 7 7 7 77 77 77 7 |
+1.1 tụng khi truy cập, quản trị cấu hình Phần mềm.
+Phần mềm.
+L°2 aaSôNi tực bí nộ com SinÓ HHN
+1.2 có mã hóa thông tin xác thực hệ Bử dụng thuật toán hash từ SHA-256, SHA-512, SHA-3 và
+hống. ác thuật toán tương đương
+hính sách mật khẩu người sử lđăng nhập lần đầu sử dụng mật khẩu mặc định.
+Số ký tự, loại ký tự.
+đổi mật khẩu.
+
+l7 7 77 7777
+khẩu của tài khoản đó hết hạn thời gian hợp lệ.
+ới trường hợp mật khẩu hết hạn thời gian hợp lệ.
+lần đăng nhập sai trong khoảng thời gian nhất định.
+14 số lần đăng nhập sai trong hính sách.
+khoản nhất định. khi vi phạm chính sách trên.
+hính sách trên.
+. ông tin xác thực trước khi gửi An SA
+qua môi trường mạng. qua môi trường mạng.
+1.6 |cơ chế xác thực đa nhân tố để — - ——z TT z
+đối với trường hợp này được kích hoạt.
+_ 2 Kiểmsoáttruycập 7 7 777 7 77 |
+¬ . LẠ timeout) để đóng phiên kết nối khi Phần mềm không nhận
+2.1 Tu thời gian chờ tìmeouU" Hược Đu cầu từ ng ười dùng. P
+nh em ga
+gian timeout và yêu cầu đăng nhập lại.
+TU CỐ - ` a) Có giao diện cho phép quản trị viên quản lý chính sách
+Eó chức năng co phép phân
+quyền và cấp quyên tồi thiểu truy
+Áp, QUẦn tị, SE cùng TÀI nguyên
+2.2 khác nhau của Phần mềm với ——- s 7¬
+người sử dụng/ nhóm người sử
+dụng có chức năng, yêu cầu ) Có chức năng thực thi chính sách phân quyền và cấp:
+nghiệp vụ khác nhau. quyền tối thiều truy cập, quản trị, sử dụng tài nguyên khác
+nhau ở trên.
+ứng dụng theo quyền hạn. ài khoản ở trên.
+_ 3 Nhậtkýhệthống 7 7 |
+Có chức năng cho phép ghi nhật
+3⁄1 hệ trống côn những thông tạ
+ê nhật ký hệ thống.
+¬ l ..._. nhật ký qua giao diện trên.
+Có chức năng cho phép quản lý
+3£ he thống quân V tập trung, tên
+| 4 JAn toàn ứng dụng vàmãnguồ _—DDDDD__D |
+
+Có chức nang cho phép kiêm tra Có chức năng thực thi việc kiểm tra tính hợp lệ của thông
+4.1 lính hợp lệ của thông tin, dữ liệu Ƒ .— . ¬.
+SA R _ in, dữ liệu đầu vào trước khi xử lý.
+đầu vào trước khi xử lý.
+Có chức năng cho phép bảo vệ |Phần mềm được kiểm tra, đánh giá, kiểm thử xâm nhập
+ứng dụng chống lại những dạng theo tiêu chuẩn OWASP và không tồn tại điểm yếu cho phép
+4.2 lấn công phổ biến: SQL Injection, kẻ tấn công khai thác thông qua các dạng tấn công: SQL
+OS command injection, RFI, LFI, lInjection, OS command injection, RFI, LFI, Xpath Injection,
+path injection, XSS, CSRE SS, CSRF.
+Có chức hạng cho phép bảo đảm hông tin xác thực, bí mật không được đưa trực tiếp vào mã
+không lưu trữ thông tin xác thực, _ ` hai ¬— ˆ ; :A
+4.3 hô ¬ = ¬ nguồn ứng dụng mà phải được thiết lập thông qua giao diện
+ông tin bí mật trên mã nguồn Xà ^ + aấ
+ứng dụng. ấu hình hệ thống.
+
+Phụ lục III
+(Kèm theo Nghị định số 156/2024/NĐ-CP
+ngày 10 tháng 12 năm 2024 của Chính phủ)
+BỘ CÔNG AN CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+_—===== Độc lập - Tự do - Hạnh phúc
+Số: .../TB-BCA-CSGT Hà Nội, ngày ... tháng... năm...
+THÔNG BÁO
+Về việc lựa chọn tổ chức hành nghề đấu giá tài sản
+
+Căn cứ Luật Trật tự, an toàn giao thông đường bộ số 36/2024/QH15 ngày 27 tháng 6 năm
+2024 của Quốc hội;
+
+Căn cứ Nghị định số ngày .... tháng .... năm ... của Chính phủ quy định về đấu giá biển số xe.
+
+Bộ Công an thông báo lựa chọn tổ chức hành nghề đấu giá tài sản, nội dung cụ thể như sau:
+
+1. Người có tài sản đấu giá: Bộ Công an.
+
+2. Tài sản đấu giá: Biển số xe ô tô, xe mô tô, xe gắn máy.
+
+3. Giá khởi điểm: Giá khởi điểm của một biển số xe ô tô đưa ra đấu giá là 40 (bốn mươi) triệu
+đồng; giá khởi điểm của một biển số xe mô tô, xe gắn máy đưa ra đấu giá là 5 (năm) triệu đồng; giá
+khởi điểm của biển số xe có định dạng AAAAA (A>4), ABCDE (A<B<C<D<E, A>4) đưa ra đấu giá lại
+sau lần thứ hai là 500 (năm trăm) triệu đồng đối với biển số xe ô tô và 50 (năm mươi) triệu đồng đối
+với biển số xe mô tô, xe gắn máy.
+
+4. Giá dịch vụ đấu giá, chi phí đấu giá thanh toán cho tổ chức hành nghề đấu giá tài sản:
+
+a) Đối với mỗi biển số xe đấu giá thành, giá dịch vụ đấu giá thanh toán cho tổ chức hành
+nghề đấu giá tài sản được tính bằng 8% giá khởi điểm quy định tại khoản 1 và khoản 2 Điều 6 Nghị
+định ..........., chưa bao gồm thuế giá trị gia tăng và chi phí đấu giá;
+
+b) Chi phí đấu giá thanh toán cho tổ chức hành nghề đấu giá tài sản là 10 (mười) nghìn đồng
+trên một biển số xe ô tô đưa ra đấu giá và 2 (hai) nghìn đồng trên một biển số xe mô tô, xe gắn máy
+đưa ra đấu giá.
+
+5. Tiêu chí lựa chọn tổ chức hành nghề đấu giá tài sản: theo Phụ lục I và Phụ lục II ban hành
+kèm theo Nghị định ...................
+
+Lưu ý: Tổ chức hành nghề đấu giá tài sản chịu trách nhiệm đối với thông tin, các giấy tờ, tài
+liệu chứng minh trong hồ sơ đăng ký tham gia lựa chọn của mình. Tổ chức hành nghề đấu giá tài sản
+có thể gửi kèm theo bản đánh máy hoặc bản chụp các giấy tờ, tài liệu chứng minh trong hồ sơ đăng
+ký tham gia lựa chọn của mình.
+
+6. Thời gian, địa điểm nộp hồ sơ đăng ký tham gia tổ chức đấu giá:
+
+- Thời gian nhận hồ sơ kể từ ...h... ngày .../.../... đến ...h...ngày .../.../.... (trong giờ hành
+chính).
+
+- Địa điểm tiếp nhận hồ sơ: Cục Cảnh sát giao thông, địa chỉ: 112 Lê Duẩn, phường Cửa
+Nam, quận Hoàn Kiếm, thành phố Hà Nội.
+
+7. Hình thức tiếp nhận hồ sơ:
+
+- Tổ chức hành nghề đấu giá tài sản nộp hồ sơ trực tiếp tại Cục Cảnh sát giao thông. Người
+nộp phải có giấy giới thiệu của tổ chức hành nghề đấu giá tài sản và xuất trình Căn cước công dân
+bản chính.
+
+- Bộ Công an sẽ ban hành văn bản thông báo kết quả cho tổ chức hành nghề đấu giá tài sản
+được lựa chọn. Những đơn vị không được thông báo kết quả được hiểu là không được lựa chọn. Bộ
+Công an không hoàn trả hồ sơ với những đơn vị không được lựa chọn.
+
+Ghi chú: Thông báo này được đăng trên Cổng Đấu giá tài sản quốc gia dgts.moj.gov.vn;
+Cổng thông tin điện tử Bộ Công an: bocongan.gov.vn; Cổng thông tin điện tử Cục Cảnh sát giao
+thông: www.csgt.vn.
+Nơi nhận: BỘ TRƯỞNG
+- Cổng Đấu giá tài sản quốc gia;
+- Cổng thông tin điện tử Bộ Công an;
+- Lưu: VT, CSGT.
+
+Phụ lục IV
+(Kèm theo Nghị định số 156/2024/NĐ-CP
+ngày 10 tháng 12 năm 2024 của Chính phủ)
+BỘ CÔNG AN CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+_-==== Độc lập - Tự do - Hạnh phúc
+Số: .../TB-BCA-CSGT Hà Nội, ngày ... tháng... năm...
+THÔNG BÁO
+Kết quả lựa chọn tổ chức hành nghề đấu giá tài sản
+
+Căn cứ Luật Trật tự, an toàn giao thông đường bộ số 36/2024/QH15 ngày 27 tháng 6 năm
+2024 của Quốc hội;
+
+Căn cứ Nghị định số ...ngày ... tháng ... năm ... của Chính phủ quy định về đấu giá biển số
+xe;
+
+Căn cứ Quyết định số .../QĐÐ-BCA-C08 ngày ... tháng ... năm ... của Bộ trưởng Bộ Công an
+về việc thành lập Tổ tư vấn, xét duyệt hồ sơ lựa chọn tổ chức hành nghề đấu giá tài sản để thực hiện
+đấu giá biển số xe;
+
+Căn cứ Thông báo số .../TB-BCA-CSGT ngày ... tháng ... năm ... của Bộ Công an về việc lựa
+chọn tổ chức hành nghề đấu giá tài sản;
+
+Căn cứ Biên bản chấm điểm, xét duyệt hồ sơ lựa chọn tổ chức hành nghề đấu giá tài sản.
+
+Bộ Công an thông báo kết quả lựa chọn tổ chức hành nghề đấu giá tài sản, cụ thể như sau:
+
+I. Kết quả lựa chọn
+
+1. Tên, địa chỉ tổ chức hành nghề đấu giá tài sản được lựa chọn:
+
+Tên: .....................
+
+Địa chỉ: ...........................
+
+2. Tổng số điểm của tổ chức hành nghề đấu giá tài sản được lựa chọn: ...... (điểm).
+
+II. Kết quả chấm điểm
+
+Tên tổ chức hành
+TT nghề đấu giá tài
+sản
+|__A_ CÁC TIÊU CHÍ CHẤM ĐIỂM
+crỊ ơ sở vật chất, trang thiết bị cần thiết bảo đảm cho việc đấu giá đối 2.
+ới biển số xe
+ơ sở vật chất bảo đảm cho việc đấu giá 7 |
+11 ó trụ sở ổn định, địa chỉ rõ ràng kèm theo thông tin liên hệ (số điện thoại,
+, địa chỉ thư điện tử
+ó phòng đấu giá trực tuyến/giám sát đấu giá trực tuyến (Đảm bảo an
+1.2 ` 3Ề Tử ` `
+
+oàn quản lý ra vào, an toàn về PCCC
+| 1.2.1 Diện tích dưới 50 m? ___... |
+| 1.2.2 Diện tích từ 50 mỂ - 100 m° „|
+| 1.2.3 |Diện tích từ 100 m? - 150 m° „|
+| 1.2.4 Diện tích trên 150 m? „|
+ó phòng giải quyết ý kiến, khiếu nại của khách hàng 7 |
+rang thiết bị cần thiết bảo đảm phục vụ tổ chức đấu giá trực tuyến 2. |
+| 21 |Cómàn hình giám sátđấugá. ____ }_ .. —
+2.1.1 Dưới 08 màn hình giám sát đấu giá Du Ị
+ừ 08 màn hình giám sát đấu giá trở lên DỊ
+
+EB-Yt=20:2-1-1-+1.t0tt- son
+'“ lđấu giá, có thể kết nối camera giám sát với người có tài sản
+L?2 [go ch du liebiauengeisriehinanm| „- —-
+2.3 triển khai tổ chức đấu giá, có lớp khóa bảo mật sinh trắc học, bảo đảm an
+oàn phòng đấu giá
+|_2.4_ |Có số lượng máy tính đáp ứng phục vụ đấu giá trực tuyến ____ | _... —_
+| 2.41 Dưới 50 máytính 7 7E
+| 2.4.2 |Từ 50 đến 100 máy tính |.
+| 2.4.3 [rên 100 máytính |
+| 3__ |Có nơi lưu trữ hồ sơ đấu giá riêng biệt, có khóa an toàn bảo mậ | _... —_
+ER-20k¿zk2ibnkiiieuioiaianll NON
+Sản
+ER--S--~--lgndudekoiuil BREENN
+rước (tính đến thời điểm nộp hồ sơ
+mem... ăšă.
+| 12 |Từ 2000 đến 5.000cuộc |}... —
+| 13 jừ 5.001 đến 7500 cuộc 77 7 7 7 7 7 |
+| 14 lrên7500 cuộc 77 77 7 7 7 7 7 7 7 7E
+HN...
+2 hành nghề đấu giá tài sản có đăng ký hoạt động tại tổ chức và đóng bảo
+hiểm trách nhiệm nghề
+| 21 Dưới08đấugiávên 77 |
+| 2.2 jTừ 8 đến 10 đấu giá viên |... —
+| 2.3 |Trên 10 đấu giá viên rở lê | _ ..
+KEO HN
+ài sản (Tính theo số lượng cuộc đấu giá trực tuyến đã điều hành
+Lm HE on nh h0 G06 BTỊ TT _-
+' rực tuyến/đấu giá viên
+L TH nho nrEnE TT __
+3.2 TT HÀ. Am
+1.000 cuộc đấu giá trực tuyến/đấu giá viên
+EI+1”-E? bào kbukiiibtsoobliNBEONN
+' rực tuyến/đấu giá viên
+L+ E he hHư Em nE HE Han SE —
+ý của khách hàng và chủ tài sản
+| 41 Códưới10nhânsự 77 7E
+| 4.2 JTừ 10 nhân sựtởlên 7 | re.
+L+ na ae ni mini |
+5 1¬ 1 Am vớ ^
+nước, trừ thuế giá trị gia tăng (tính tới thời điểm nộp hồ sơ
+mm
+| 5.2 jTừ 1 tỷ đồng đến dưới3tÿđồng |... —
+| 5.3 jừ 3tÿđồngtrởlên 77 |
+L9 lệ tung eenDmiankshenahddeeieienne| . —-
+nghề đấu giá tài sản (có tham gia bảo hiểm xã hội tại tổ chức hành nghề
+đấu giá tài sản
+| 61 Dưới50nhânvên 7 |
+|_6.2 jừ 50 đến 70 nhânviên |
+| 63 jrên 70nhânviên SE
+L7 Lạp he ieonEtet ván ihinninnknddemd
+7 huyến môn phụ trách giám sát, quản lý, vận hành phần mềm đấu giá trực
+uyến.
+| 71 Dưới10nhânvên 7 77
+| 7.2_|Từ 10 đến dưới 15 nhân viên |}... —_
+| 7.3 jTừ 15 nhân viên trởiê 7 |.
+| 8 |Cótổng đài hotline hỗ trợkháchhàng |... —
+| 81 jTừ 03 đến 08 tổng đàivên |.
+| 8.2 jTrên 08tổng đàivên 7 |
+|__9__ Có nhân viên bảo vệ thường trực đảm bảo an toàn, an ninh máy móc |... —_
+
+| _ lhiếtbi côngcu dụngc ______D______D_D___D |} |
+| 10_ Năng lực khác của tổ chức hành nghề đấu giá tài sn |... |
+_ II |Yêu cầu chức năng của Trang thông tin đấu giá trựctuyến — |... |
+ER:-266001002cskiiioiisol RREONN
+ông an
+L: Ben mm ng | —
+năng tích hợp với Hệ thống quản lý đấu giá biển số xe của Bộ Công an
+EEGGC- GEN
+động xử lý các sự kiện bảo mật được ghi nhận (SOAR
+Hệ thống mã nguồn phải được kiểm định đánh giá kiểm thử, rà quét đánh
+giá an ninh, an toàn (pentest) bởi tổ chức có thẩm quyền
+4 (Báo cáo Pentest được thực hiện trên hệ thống máy tính, website, ứng
+dụng di động, hạ tầng mạng, phương thức kết nối với các giao diện, ứng
+dụng khác (API), mã nguồn (source code
+_ 5_ Hệ thống có các tính năng tối ưukhc |... |
+| IV Yêu cầu tính năng kỹ thuật Trang thông tin đấu giá trực tuyến |... |
+_ _ lổngsốđểm | .... |
+_ B |CÁC TIÊU CHÍ BĂT BUỘC PHẢIĐÁPỨNG | |
+ổ chức hành nghề đấu giá tài sản được cơ quan có thẩm quyền (Sở Tư
+1 pháp tỉnh/thành phố trực thuộc trung ương) phê duyệt đủ điều kiện thực
+hiện hình thức đấu giá trực tuyến
+rang thông tin điện tử đấu giá trực tuyến của tổ chức hành nghề đấu giá
+2. lài sản được cơ quan có thẩm quyền của Bộ Công an kiểm tra, đánh giá
+đáp ứng các yêu cầu bảo đảm an ninh, an toàn cấp độ 3 trở lên
+rang thông tin điện tử đấu giá trực tuyến của tổ chức hành nghề đấu giá
+ài sản được cơ quan có thẩm quyền của Bộ Công an (Cục An ninh mạng
+3 à Phòng chống tội phạm sử dụng công nghệ cao) kiểm tra, đánh giá đảm
+bảo an ninh mạng, an toàn thông tin và đủ điều kiện kết nối với Hệ thống
+quản lý đấu giá biển số xe của Bộ Công an
+L+ tha toim ai men nen
+4 b LIT 3 LAI Bố h s2: hờ để cAn ba
+bảo hiểm xã hội (tính tới thời điểm nộp hồ sơ
+Ghi chú: Thông báo này được đăng trên Cổng Đấu giá tài sản quốc gia dgts.moj.gov.vn;
+Cổng thông tin điện tử Bộ Công an: bocongan.gov.vn; Cổng thông tin điện tử Cục Cảnh sát giao
+thông: www.csgt.vn.
+Nơi nhận: BỘ TRƯỞNG
+- Cổng Đấu giá tài sản quốc gia;
+- Cổng thông tin điện tử Bộ Công an;
+- Lưu: VT, CSGT.
+
+Phụ lục V - -
+HỒ SƠ ĐỀ NGHỊ HOÀN TIỀN TRÚNG ĐẤU GIÁ
+(Kèm theo Nghị định số 156/2024/NĐ-CP
+ngày 10 tháng 12 năm 2024 của Chính phủ)
+TT | Nộidunngg —” | Đặcđiểmhàiliệu |
+mw rường hợp hủy kết quả đấu giá theo quy định tại điểm a khoản 1 Điều 21 Nghị định
+nà
+Đơn đề nghị hoàn tiền trúng đấu giá biển số xe (theo Mẫu số 04 ban › l
+1. hành kèm theo Nghị định nà Bản chính
+| 2 Quyết định xác nhận biển số xe trúng đấu giá (nếu có
+3 án bản đề nghị hủy kết quả đấu giá của người trúng đấu giá và tổ Bản chính
+hức hành nghề đấu giá tài sản
+iấy tờ tùy thân theo quy định pháp luật
+mN rường hợp hủy kết quả đấu giá theo quy định tại điểm b khoản 1 Điều 21 Nghị định
+nà
+Đơn đề nghị hoàn tiền trúng đấu giá biển số xe (theo Mẫu số 04 ban › l
+1. hành kèm theo Nghị định nà Bản chính
+| 2 Quyết định xác nhận biến số xe trúng đấu giá (nếu có
+3 Quyết định của tòa án hoặc trích lục bản án
+iấy tờ tùy thân theo quy định pháp luật
+rường hợp hủy kết quả đấu giá theo quy định tại điểm c, d khoản 1 Điều 21 Nghị
+định nà
+Đơn đề nghị hoàn tiền trúng đấu giá biển số xe (theo Mẫu số 04 ban › l
+1. hành kèm theo Nghị định nà Bản chính
+| 2 Quyết định xác nhận biển số xe trúng đấu giá (nếu có
+3 ăn bản khai nhận di sản thừa kế hoặc văn bản thoả thuận phân chia |_ Bản sao có công
+di sản thừa kế chứng
+5 iấy tờ tùy thân theo quy định pháp luật của người thừa kế hoặc Bản sao có công
+người quản lý di sản chứng
+
+Phụ lục VI
+(Kèm theo Nghị định số 156/2024/NĐ-CP
+ngày 10 tháng 12 năm 2024 của Chính phủ)
+
+- SỐ - SỐ. Mẫu số 01
+CỘNG HÓA XÃ HỘI CHỦ NGHIA VIỆT NAM
+Độc lập - Tự do - Hạnh phúc
+ĐƠN ĐỀ NGHỊ GIA HẠN THỜI HẠN ĐĂNG KÝ XE
+Kính gửi: Cục Cảnh sát giao thông, Bộ Công an.
+
+Tên cá nhân/tổ chức trúng đấu giá: ..............................-..-..------ --- +-- 222 c3 cS‡ S22 x2
+
+Mã định danh (Số CCCD/mã số thuế): ....................................-.-- cà cà Sàn se he
+
+Ngày cấp: ..../...../...... NƠÏ CẤp: .....................-.c cọ. TH HT ng TH HT nh kh nen kh kh ve
+
+Nơi Cư trÚ/TTỤ SỞ: .............................. QC SE nh KT Kon ko no Ki ĐK kh kư n ba
+
+Số điện thoại: ...............................-..-..--.cc- CĐ HS KH ng TH KĐT kh n kh như kh
+
+Đã trúng đấu giá biển số xe:.......................................... NgầY....../....../........
+
+Biển số trên có thời hạn đăng ký xe đến ngày ...../....../.......
+
+Người đại diện theo pháp luật”: ........................... -.:--:--- ccc c2 S22 S31 S21 S12 S11 Sxx kh ch x kh khe sé
+
+Số CCCD:.......................................... Ngày cấp: ............ /.......
+
+NƠi CẤP: ............................ cQ QnQ Qnn Snn TH TH TT kh KH TH HE kh kg kg TK kh Tà Tp ky
+
+Email: .............................. QC Q HH nh KH nọ KT Ki Ki KT ki Kế ĐK bến
+
+Số điện thoại: ...............................-..-..--.cc- CĐ HS KH ng TH KĐT kh n kh như kh
+
+Đề nghị Cục Cảnh sát giao thông gia hạn thời hạn đăng ký biển số xe.........................
+
+h0
+
+Tài liệu gửi kèm theo:
+
+- Bản sao công chứng CCCD/Giấy chứng nhận đăng ký kinh doanh.
+
+- Bản sao công chứng CCCD của người đại diện theo pháp luật đối với trường hợp người
+trúng đấu giá là tổ chúc.
+
+- Bản chính các giấy tờ chứng minh sự hiện bất khả kháng hoặc trở ngại khách quan theo
+quy định của Bộ luật Dân sự”.
+
+Tôi xin cam đoan những điều trình bày trên là đúng sự thật, nếu sai tôi xin hoàn toàn chịu
+trách nhiệm trước pháp luật.
+
+Trân trọng cảm ơn!
+
+......, Ngày.... tháng ..... năm.....
+Người làm đơn
+(Ký, đóng dấu, ghi rõ họ tên)
+
+1 Đối với trường hợp người trúng đấu giá là tổ chức.
+
+? Người trúng đấu giá nêu rõ lý do đề nghị gia hạn.
+
+3 Thống kê rõ tên các loại giấy tờ.
+
+- SỐ SỐ. Mẫu số 02
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+Độc lập - Tự do - Hạnh phúc
+TỜ KHAI TIỀN BÁN ĐẤU GIÁ BIỂN SỐ XE
+[01] Kỳ tính thuế: Tháng .... năm..........
+[02] Lần đầu: ¬ [03] Bổ sung lần thứ:...
+
+[04] Người nộp thuế: .............................................-..-.c CC co 2n Sn nh nen khe kh ky
+
+[06] Đại lý thuế (nếu có): .......................................c QC. cọ TH nh n ke nh nh nh nh khen
+
+[08] Hợp đồng đại lý thuế: Số:.......................................... HdẦY............. co bàn nàn se
+
+Ti Đơn vị Tân na Chỉ phí liên quan được trừ NSNN
+s. tiền 9 Giá dịch | Chi phí | Số tiền hoàn |Chi phí
+STT giá thu được Am... 3 ấn ¬Z .
+vụ đấu giái| đấu giá | trả (nếu có khác
+8) = (3) - (4) -
+ng
+
+TT} TT }L |} |} |} |} |}
+lạm | | | |] | |} | —
+
+cộng
+
+Tôi cam đoan số liệu khai trên là đúng và chịu trách nhiệm trước pháp luật về số liệu đã khai.
+
+NHÂN VIÊN ĐẠI LÝ THUẾ _...„ ngây... tháng.....năm....
+Họ và tên: ............................... NGƯỜI NỘP THUẾ hoặc ĐẠI DIỆN HỢP
+Chứng chỉ hành nghề số: ........... PHÁP CỦA NGƯỜI NỘP THUÊ
+(Chữ ký, ghi rõ họ tên; chức vụ và đóng dấu
+(nếu có)/Ký điện tử)
+
+Lưu ý:
+
+- Người nộp thuế có thể khai chi tiết theo biển số xe đấu giá hoặc chỉ khai số liệu tổng tại
+dòng “Tổng cộng”. Trong trường hợp chỉ khai số liệu tổng, người nộp thuế phải quản lý và lập danh
+mục chỉ tiết biển số xe đấu giá, số tiền đấu giá thu được, chi phí liên quan được trừ (trường hợp
+trong cùng một phiên đấu giá có nhiều biển số đấu giá thì phân bổ chi phí cho từng biển số) để lưu
+trữ tại trụ sở của người nộp thuế và cung cấp cho cơ quan thuế khi có yêu cầu.
+
+- Chỉ tiêu (1): Điền tổng số lượng biển số xe đấu giá tại dòng “Tổng cộng”.
+
+- Chỉ tiêu (3), (4), (5), (6), (7): Xác định theo quy định tại Nghị định này. Đối với các chi phí
+phát sinh qua nhiều tháng thì thực hiện phân bổ theo tháng, trường hợp khai chỉ tiết theo biển số xe
+đấu giá thì tiếp tục thực hiện phân bổ theo số lượng biển số xe đấu giá trong kỳ kê khai.
+
+- SỐ SỐ. Mẫu số 03
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+Độc lập - Tự do - Hạnh phúc
+TỜ KHAI QUYẾT TOÁN TIỀN BÁN ĐẤU GIÁ BIỂN SỐ XE
+[01] Kỳ tính thuế: Năm.............
+[02] Lần đầu: ¬ [03] Bổ sung lần thứ:...
+
+[04] Người nộp thuế: .............................................----.c-cccn nnn.nnnsn kh nhe
+
+[06] Đại lý thuế (nếu có): .......................................-.. cọc nn nn nnn Hs kh nhe
+
+[08] Hợp đồng đại lý thuế: Số:............................................... NgầY.....................
+
+Số tiền lệch giữa
+° Chỉ phí liên quan được trừ Số tiền phải| đã kệ số quyết
+Biển Số tiền : nộp NSNN | khai toán và số
+x —T- -ltoán và số
+Số xe |Đơn vi|đẫu giá rong k kê khai
+đấu | tiền thu Chỉ
+STT giá được |Giá dịch ‹ | Số tiền -
+*x phí › „ Chi phí
+vụ đấu ~ hoàn trả :
+sư đấu ~. ¬<\| Khác
+giá niá (nếu có)
+(6) = (3) - (4) -
+10) = ()-
+@|@|®|@®@ || @ |0 |-9-@-| @ |£ðĐ
+
+|} } } |} |} |} } |} |} |} —|
+Tổng
+lảm | |, | | | | | | | —
+Tôi cam đoan số liệu khai trên là đúng và chịu trách nhiệm trước pháp luật về số liệu đã khai.
+NHÂN VIÊN ĐẠI LÝ THUẾ _.... ngày... tháng.....năm....
+Họ và tên: ............................... NGƯỜI NỘP THUẾ hoặc ĐẠI DIỆN HỢP
+Chứng chỉ hành nghề số: ........... PHÁP CỦA NGƯỜI NỘP THUÊ
+(Chữ ký, ghi rõ họ tên; chức vụ và đóng dấu
+(nếu có)/Ký điện tử)
+
+Lưu ý:
+
+- Người nộp thuế có thể khai chi tiết theo biển số xe đấu giá hoặc chỉ khai số liệu tổng tại
+dòng “Tổng cộng”. Trong trường hợp chỉ khai số liệu tổng, người nộp thuế phải quản lý và lập danh
+mục chỉ tiết biển số xe đấu giá, số tiền đấu giá thu được, chi phí liên quan được trừ (trường hợp
+trong cùng một phiên đấu giá có nhiều biển số đấu giá thì phân bổ chi phí cho từng biển số) để lưu
+trữ tại trụ sở của người nộp thuế và cung cấp cho cơ quan thuế khi có yêu cầu.
+
+- Chỉ tiêu (1): Điền tổng số lượng biển số xe đấu giá tại dòng “Tổng cộng”.
+
+- Chỉ tiêu (3), (4), (5), (6), (7): Xác định theo quy định tại Nghị định này. Đối với các chi phí
+phát sinh qua nhiều tháng thì thực hiện phân bổ theo tháng, trường hợp khai chỉ tiết theo biển số xe
+đấu giá thì tiếp tục thực hiện phân bổ theo số lượng biển số xe đấu giá trong kỳ kê khai.
+
+- SỐ - SỐ. Mẫu số 04
+CỘNG HÒA XÃ HỘI CHỦ NGHIA VIỆT NAM
+Độc lập - Tự do - Hạnh phúc
+ĐƠN ĐỀ NGHỊ HOÀN TIỀN TRÚNG ĐẤU GIÁ BIỂN SỐ XE
+Kính gửi: Cục Cảnh sát giao thông, Bộ Công an.
+
+Tên cá nhân/tổ chức trúng đấu giá: ..............................-..-..------------ c2 c‡‡ cs‡ s2
+
+Mã định danh (Số CCCD/mã số thuế): ........................................-- 7c cẰ cà cà cà sào
+
+Ngày cấp: ..../....../..... NƠI CẤP: ..................... cc Q2 cọ TH nn nnn nnn ng TH Tp Kế kh kh se
+
+Nơi Cư trÚ/TTỤ SỞ: .............................. CC ST SE HE HE BE ko TK ki kế by
+
+Số điện thoại: ..............................-..-..--. c-. CC CĐ HH TT ng ĐK TK ki kh n kh khu
+
+Đã trúng đấu giá biển số xe:..................... ngày .../............. với số tiền trúng đấu giá là:
+cá+..+.............- đỒnG (Bằng ChữỮ:..............................-..-««s<<55)
+
+Người đại diện nhận tiền”: ..............................-.- 2. 221 2n SH 1 SH ĐH n KH n EHn kh kh kh kh ke
+
+Số CCCD:.......................................... Ngày cấp: ..../....../......
+
+Nơi CẤP: ........................... QQ QnQn nn SH TH TH nen kh KĐT KT Tho TT kg Tin kEn kkk kRy
+
+Email: ............................... TQ nh ĐK KT Ki kh KT Ki KT ki KT SH
+
+Số điện thoại: ....................................--. cc. CĐ ĐT TT TH TK KH KT nh kh rà
+
+Tôi/chúng tôi làm đơn này đề nghị Cục Cảnh sát giao thông hoàn lại số tiền: .....................
+đồng (Bằng chữ:.......................................---Ÿ cà S2 s+x xxx ssxsx2}
+
+Lý do xin hoàn lại tiền”: ................................c. c0 22 9n SE HT nhe nhe nh nhện
+
+Thông tin nhận lại tiền như sau:
+
+Chủ tài khOẢn: ...........................-‹-c.c cn Sn HS SH HT KH TT nh nh nà tk tết
+
+Số tài khoản: ...........................‹.. cọc HS nn SH HT HT HT Kế KT TK Tp KT tin vn cv ky
+
+Ngân hàng: .................................--. CS cọ SH Hs n TH TK TK KKn tk th nến
+
+Rất mong Cục Cảnh sát giao thông hỗ trợ để tôi/chúng tôi được nhận lại khoản tiền trên.
+
+I-!Ÿ!/>7N‹)Y,Š‹-)(8:::-© NAÁÁAIẠ)lAÀRlRadaÝẢẢẢ.... ... . .. e..
+
+Trân trọng cảm ơn!
+
+...., Ngày....tháng....năm ......
+Người làm đơn
+(Ký, đóng dấu, ghi rõ họ tên)
+
+1 Người đại diện theo pháp luật (đối với trường hợp người trúng đấu giá là tổ chức); người
+thừa kế hoặc người quản lý di sản (đối với trường hợp người trúng đấu giá chết).
+
+? Nêu rõ lý do hoàn lại tiền.
+
+3 Liệt kê các tài liệu gửi kèm theo.
