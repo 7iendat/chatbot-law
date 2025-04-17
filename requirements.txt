@@ -1,7 +1,14 @@
 langchain
 langchain-community
+groq
 langchain-huggingface
+langchain-core
+langchain-groq
 sentence-transformers
+python-multipart
+pymupdf # PyMuPDF
+pytesseract # OCR
+pillow # Hỗ trợ ảnh
 # faiss-cpu # Có thể xóa nếu không dùng FAISS nữa
 chromadb # Thêm ChromaDB
 tiktoken
@@ -10,4 +17,8 @@ python-dotenv
 torch
 regex
 fastapi
+tqdm
 uvicorn[standard] # standard bao gồm các dependencies cần thiết
+# langchain-redis
+redis
+bcrypt

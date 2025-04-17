@@ -1,0 +1,34 @@
+services:
+    app:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        container_name: law_rag_chatbot
+        ports:
+            - "5000:5000"
+        env_file:
+            - .env
+        volumes:
+            - ./api.py:/app/api.py
+            - ./rag_components.py:/app/rag_components.py
+            - ./build_vectorstore.py:/app/build_vectorstore.py
+            - ./config.py:/app/config.py
+            - ./prompt_templete.py:/app/prompt_templete.py
+            - ./utils.py:/app/utils.py
+            - ./data:/app/data
+            - ./vector_store:/app/vector_store
+        restart: unless-stopped
+        depends_on:
+            - redis # đảm bảo redis khởi động trước app
+
+    redis:
+        image: redis:7.2-alpine
+        container_name: redis-chatbot
+        ports:
+            - "6379:6379"
+        volumes:
+            - redis_data:/data
+        restart: always
+
+volumes:
+    redis_data:

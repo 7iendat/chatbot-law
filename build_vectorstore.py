@@ -1,10 +1,11 @@
 # build_vectorstore.py
 import os
 import torch
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+# from langchain.text_splitter import RecursiveCharacterTextSplitter
 import time
 import gc
-
+from tqdm import tqdm
+import asyncio
 # Import từ các file khác trong project
 import config
 import utils
@@ -27,19 +28,42 @@ def build_store():
         print("Không có tài liệu nào được tải. Dừng quá trình.")
         return
 
-    # --- 3. Chunking ---
-    print("\n--- Bước 3: Chunking ---")
-    text_splitter = RecursiveCharacterTextSplitter(
-        chunk_size=config.CHUNK_SIZE,
-        chunk_overlap=config.CHUNK_OVERLAP,
-        length_function=len,
-        add_start_index=True,
-    )
-    chunks = text_splitter.split_documents(docs)
-    print(f"Đã chia thành {len(chunks)} chunks.")
-    if not chunks:
-        print("Không có chunks nào được tạo. Dừng quá trình.")
-        return
+    # # --- 3. Chunking chia theo token ---
+    # print("\n--- Bước 3: Chunking ---")
+    # text_splitter = RecursiveCharacterTextSplitter(
+    #     chunk_size=config.CHUNK_SIZE,
+    #     chunk_overlap=config.CHUNK_OVERLAP,
+    #     length_function=len,
+    #     add_start_index=True,
+    # )
+    # chunks = text_splitter.split_documents(docs)
+    # print(f"Đã chia thành {len(chunks)} chunks.")
+    # if not chunks:
+    #     print("Không có chunks nào được tạo. Dừng quá trình.")
+    #     return
+    # del docs
+    # gc.collect()
+
+    # --- 3. Chunking theo Cấu trúc ---
+    print("\n--- Bước 3: Chunking theo cấu trúc (Điều/Khoản) ---")
+    chunks = []
+    if not docs:
+         print("Không có tài liệu để chunking.")
+    else:
+         # Lặp qua từng Document (từng file luật)
+         for doc in tqdm(docs, desc="Chunking tài liệu"):
+             doc_chunks = utils.split_by_structure(doc, max_chunk_size=config.CHUNK_SIZE*2) # Cho phép chunk lớn hơn một chút khi chia theo điều
+             print(f"Tài liệu: {doc.metadata.get('source', 'Không rõ')} => {len(doc_chunks)} chunks")
+             chunks.extend(doc_chunks)
+
+         print(f"Đã chia thành {len(chunks)} chunks theo cấu trúc.")
+         if not chunks:
+             print("Không có chunks nào được tạo. Dừng quá trình.")
+             return
+         # Xem thử chunk đầu tiên
+         print("\n--- Chunk đầu tiên (ví dụ): ---")
+         print(f"Metadata: {chunks[0].metadata}")
+         print(chunks[0].page_content[:500] + "...")
     del docs
     gc.collect()
 
@@ -61,6 +85,8 @@ def build_store():
         chunks=chunks # << Truyền chunks vào đây
     )
     end_time = time.time()
+    print(">> TYPE vectorstore:", type(vectorstore))
+
 
     if vectorstore:
         print(f"Quá trình tạo/cập nhật Vector Store hoàn tất sau {end_time - start_time:.2f} giây.")

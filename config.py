@@ -1,17 +1,23 @@
 # config.py
 import os
+from langchain.output_parsers import RegexParser
+
+
+API_HOST = "0.0.0.0"
+API_PORT = 5000
 
 # --- Cấu hình Đường dẫn ---
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 INPUT_TXT_FOLDER = os.path.join(BASE_DIR, "data")
+TESSDATA_DIR = os.path.join(BASE_DIR, "..", "data", "tessdata")
 # Cấu hình cho ChromaDB
 CHROMA_PERSIST_DIR = os.path.join(BASE_DIR, "vector_store")
 CHROMA_COLLECTION_NAME = "luat_vn_docs" # Đặt tên cho collection
 
 # --- Cấu hình Model ---
-# EMBEDDING_MODEL_NAME = "bkai-foundation-models/vietnamese-bi-encoder"
-EMBEDDING_MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
-LLM_REPO_ID = "mistralai/Mixtral-8x7B-Instruct-v0.1"
+EMBEDDING_MODEL_NAME = "bkai-foundation-models/vietnamese-bi-encoder"
+# EMBEDDING_MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
+GROQ_MODEL_NAME = "llama3-70b-8192"
 
 # --- Cấu hình Chunking và Retrieval ---
 CHUNK_SIZE = 1000
@@ -22,12 +28,6 @@ SEARCH_K = 5
 LLM_TEMPERATURE = 0.2
 LLM_MAX_NEW_TOKENS = 1024
 
-# --- Cấu hình Prompt ---
-PROMPT_TEMPLATE = """Sử dụng thông tin dưới đây để trả lời câu hỏi. Nếu bạn không biết câu trả lời dựa trên thông tin này, hãy nói rằng bạn không biết, đừng cố bịa ra câu trả lời. Hãy trả lời bằng tiếng Việt một cách đầy đủ và rõ ràng.
-
-Ngữ cảnh:
-{context}
-
-Câu hỏi: {question}
-
-Câu trả lời chi tiết bằng tiếng Việt:"""
+# REDIS_HOST = "epic-whale-20059.upstash.io"
+# REDIS_PORT = 6379
+# REDIS_PASSWORD = "AU5bAAIjcDFmODMwYzI5MGE4YWI0OTc4ODQ4NzJmMWY1MTI0MjM5NnAxMA"
