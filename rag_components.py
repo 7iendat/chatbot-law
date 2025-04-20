@@ -8,19 +8,18 @@ from langchain_community.vectorstores import Chroma
 import config
 import prompt_templete
 from langchain.memory.chat_message_histories import RedisChatMessageHistory
-from langchain.chains import RetrievalQA
-from langchain.chains import LLMChain, MultiPromptChain,ConversationalRetrievalChain
+# from langchain.chains import RetrievalQA
+from langchain.chains import LLMChain,ConversationalRetrievalChain
 from langchain.memory import ConversationBufferMemory
-from langchain.schema.runnable.config import RunnableConfig
+# from langchain.schema.runnable.config import RunnableConfig
 from langchain.prompts import PromptTemplate
 from langchain_groq import ChatGroq
-from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
-from custom_output_parser import CustomOutputParser
-from models import WrappedLLMChain
-from langchain_community.document_compressors.rankllm_rerank import RankLLMRerank
+from langchain_core.prompts import ChatPromptTemplate
+# from custom_output_parser import CustomOutputParser
+from utils.utils import WrappedLLMChain
 from langchain_core.runnables import RunnableLambda
 
-import utils
+import utils.utils as utils
 
 # Hàm get_huggingface_embeddings giữ nguyên
 def get_huggingface_embeddings(model_name, device='cpu'):

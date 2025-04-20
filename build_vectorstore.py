@@ -5,10 +5,10 @@ import torch
 import time
 import gc
 from tqdm import tqdm
-import asyncio
+
 # Import từ các file khác trong project
 import config
-import utils
+import utils.utils as utils
 import rag_components
 
 def build_store():

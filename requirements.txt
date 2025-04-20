@@ -22,3 +22,6 @@ uvicorn[standard] # standard bao gồm các dependencies cần thiết
 # langchain-redis
 redis
 bcrypt
+pymongo[srv]
+pydantic[email]
+python-jose

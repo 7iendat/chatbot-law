@@ -13,8 +13,15 @@ import json
 from typing import List, Optional
 from pathlib import Path
 from langchain_core.runnables import RunnableLambda, Runnable
-from models import ChatHistoryItem, ChatHistoryResponse
+from schemas.chat import ChatHistoryItem, ChatHistoryResponse
 from redis.client import Redis
+import bcrypt
+from datetime import datetime, timedelta
+from jose import jwt
+from config import SECRET_KEY, ALGORITHM, ACCESS_TOKEN_EXPIRE_MINUTES
+from langchain_core.runnables import Runnable
+from typing import Dict, Any
+
 
 def router_as_runnable(
     routes: dict[str, Runnable],
@@ -312,3 +319,25 @@ def save_chat_to_redis(r:Redis, session_id: str, question: str, answer: str):
 def get_redis_history(r:Redis, session_id: str) -> List[ChatHistoryItem]:
     history_raw = r.lrange(f"chat:{session_id}", 0, -1)
     return [ChatHistoryItem(**json.loads(item)) for item in history_raw]
+
+
+def hash_password(password: str) -> str:
+    return bcrypt.hashpw(password.encode('utf-8'), bcrypt.gensalt()).decode('utf-8')
+
+def verify_password(password: str, hashed: str) -> bool:
+    return bcrypt.checkpw(password.encode('utf-8'), hashed.encode('utf-8'))
+
+def create_access_token(data: dict, expires_delta: timedelta = None):
+    to_encode = data.copy()
+    expire = datetime.now() + (expires_delta or timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES))
+    to_encode.update({"exp": expire})
+    return jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)
+
+
+class WrappedLLMChain(Runnable):
+    def __init__(self, chain):
+        self.chain = chain
+
+    def invoke(self, input: Dict[str, Any], config: dict = None, **kwargs) -> Dict[str, Any]:
+        response = self.chain.invoke(input, config=config, **kwargs)
+        return {"answer": response}
