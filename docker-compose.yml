@@ -9,14 +9,21 @@ services:
         env_file:
             - .env
         volumes:
-            - ./api.py:/app/api.py
+            - ./main.py:/app/main.py
             - ./rag_components.py:/app/rag_components.py
             - ./build_vectorstore.py:/app/build_vectorstore.py
             - ./config.py:/app/config.py
             - ./prompt_templete.py:/app/prompt_templete.py
-            - ./utils.py:/app/utils.py
+            - ./custom_output_parser.py:/app/custom_output_parser.py
+            - ./dependencies.py:/app/dependencies.py
             - ./data:/app/data
+            - ./utils:/app/utils
             - ./vector_store:/app/vector_store
+            - ./db:/app/db
+            - ./routers:/app/routers
+            - ./schemas:/app/schemas
+            - ./services:/app/services
+
         restart: unless-stopped
         depends_on:
             - redis # đảm bảo redis khởi động trước app

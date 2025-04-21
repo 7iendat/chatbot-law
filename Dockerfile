@@ -32,4 +32,4 @@ ENV TESSDATA_PREFIX=/app/data/tessdata/
 EXPOSE 5000
 
 # Khởi động ứng dụng FastAPI
-CMD ["uvicorn", "api:app", "--host", "0.0.0.0", "--port", "5000", "--reload"]
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "5000", "--reload"]
