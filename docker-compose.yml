@@ -16,6 +16,7 @@ services:
             - ./prompt_templete.py:/app/prompt_templete.py
             - ./custom_output_parser.py:/app/custom_output_parser.py
             - ./dependencies.py:/app/dependencies.py
+            - ./time_priority_retriever.py:/app/time_priority_retriever.py
             - ./data:/app/data
             - ./utils:/app/utils
             - ./vector_store:/app/vector_store
@@ -23,10 +24,14 @@ services:
             - ./routers:/app/routers
             - ./schemas:/app/schemas
             - ./services:/app/services
-
+            - hf_cache:/app/cache
+        environment:
+            - TRANSFORMERS_CACHE=/app/cache
+            - HF_HOME=/app/cache
+            - HF_HUB_DISABLE_SYMLINKS_WARNING=1
         restart: unless-stopped
         depends_on:
-            - redis # đảm bảo redis khởi động trước app
+            - redis
 
     redis:
         image: redis:7.2-alpine
@@ -39,3 +44,4 @@ services:
 
 volumes:
     redis_data:
+    hf_cache:

@@ -1,6 +1,5 @@
 # config.py
 import os
-from langchain.output_parsers import RegexParser
 
 
 API_HOST = "0.0.0.0"
@@ -15,9 +14,11 @@ CHROMA_PERSIST_DIR = os.path.join(BASE_DIR, "vector_store")
 CHROMA_COLLECTION_NAME = "luat_vn_docs" # Đặt tên cho collection
 
 # --- Cấu hình Model ---
-EMBEDDING_MODEL_NAME = "bkai-foundation-models/vietnamese-bi-encoder"
+# EMBEDDING_MODEL_NAME = "bkai-foundation-models/vietnamese-bi-encoder"
+EMBEDDING_MODEL_NAME = "BAAI/bge-m3"
 # EMBEDDING_MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
 GROQ_MODEL_NAME = "llama3-70b-8192"
+# RERANKER_MODEL_NAME = "cross-encoder/ms-marco-MiniLM-L-6-v2"
 
 # --- Cấu hình Chunking và Retrieval ---
 CHUNK_SIZE = 1000

@@ -13,13 +13,12 @@ class RegisterResponse(BaseModel):
     message: str
 
 class LoginRequest(BaseModel):
-    username: str
+    email: str
     password: str
 
 class LoginResponse(BaseModel):
     access_token: str
     token_type: str = "bearer"
-    session_id: str
     username: str
     email: EmailStr
     role: Optional[str] = "user"

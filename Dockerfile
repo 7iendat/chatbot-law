@@ -1,6 +1,5 @@
 FROM python:3.10-slim
 
-# Cài đặt các gói cần thiết
 RUN apt-get update && apt-get install -y \
     tesseract-ocr \
     tesseract-ocr-vie \
@@ -10,26 +9,33 @@ RUN apt-get update && apt-get install -y \
     libxrender1 \
     libxext6 \
     build-essential \
+    git \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
-# Thiết lập thư mục làm việc
+
 WORKDIR /app
 
-# Copy requirements.txt riêng để tận dụng cache khi build
-COPY requirements.txt .
 
-# Cài thư viện Python trước
+COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy toàn bộ code vào sau
+
+ENV TRANSFORMERS_CACHE=/app/cache
+ENV HF_HOME=/app/cache
+ENV HF_HUB_DISABLE_SYMLINKS_WARNING=1
+
+
 COPY . .
 
-# Thiết lập biến môi trường Tesseract cho tiếng Việt
+
+RUN python -c "from langchain_huggingface import HuggingFaceEmbeddings; HuggingFaceEmbeddings(model_name='BAAI/bge-m3')"
+
+
 ENV TESSDATA_PREFIX=/app/data/tessdata/
 
-# Expose port cho FastAPI (nếu cần)
+
 EXPOSE 5000
 
-# Khởi động ứng dụng FastAPI
+
 CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "5000", "--reload"]

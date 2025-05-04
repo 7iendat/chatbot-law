@@ -46,7 +46,7 @@ async def update_vectorstore_bg(new_file_path: str, app_state):
             return
 
         vectorstore.add_documents(doc_chunks)
-        await asyncio.to_thread(vectorstore.persist)
+        vectorstore.persist()
         del doc, doc_chunks, content
         gc.collect()
         print(f"[BG Task] => Đã thêm dữ liệu từ {os.path.basename(new_file_path)} vào Vector Store.", flush=True)

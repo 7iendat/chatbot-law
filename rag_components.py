@@ -1,43 +1,59 @@
-# rag_components.py
+
 import os
 
-import uuid
 from langchain_huggingface import HuggingFaceEmbeddings
-from langchain.retrievers.multi_query import MultiQueryRetriever
+
 from langchain_community.vectorstores import Chroma
 import config
 import prompt_templete
 from langchain.memory.chat_message_histories import RedisChatMessageHistory
-# from langchain.chains import RetrievalQA
 from langchain.chains import LLMChain,ConversationalRetrievalChain
 from langchain.memory import ConversationBufferMemory
-# from langchain.schema.runnable.config import RunnableConfig
 from langchain.prompts import PromptTemplate
 from langchain_groq import ChatGroq
 from langchain_core.prompts import ChatPromptTemplate
-# from custom_output_parser import CustomOutputParser
 from utils.utils import WrappedLLMChain
 from langchain_core.runnables import RunnableLambda
-
 import utils.utils as utils
+import logging
+logger = logging.getLogger(__name__)
 
 # Hàm get_huggingface_embeddings giữ nguyên
-def get_huggingface_embeddings(model_name, device='cpu'):
-    # ... (code giữ nguyên từ trước) ...
-    print(f"Đang khởi tạo model embedding: {model_name} trên thiết bị {device}...")
-    model_kwargs = {'device': device}
-    encode_kwargs = {'normalize_embeddings': True}
+def get_huggingface_embeddings(model_name: str, device: str = 'cpu'):
+    """
+    Hàm khởi tạo HuggingFaceEmbeddings với model chỉ định.
+
+    Args:
+        model_name (str): Tên model trên HuggingFace Hub.
+        device (str, optional): 'cpu' hoặc 'cuda'. Defaults to 'cpu'.
+
+    Returns:
+        HuggingFaceEmbeddings: Instance đã khởi tạo thành công.
+
+    Raises:
+        Exception: Nếu khởi tạo thất bại.
+    """
+    print(f"🚀 Đang khởi tạo model embedding: {model_name} trên thiết bị {device}...")
+
+    model_kwargs = {
+        'device': device,
+        'trust_remote_code': True  # thêm để đảm bảo load được những model custom
+    }
+    encode_kwargs = {
+        'normalize_embeddings': True  # normalize để cosine similarity chuẩn
+    }
+
     try:
         embeddings = HuggingFaceEmbeddings(
             model_name=model_name,
             model_kwargs=model_kwargs,
             encode_kwargs=encode_kwargs
         )
-        print("Khởi tạo model embedding thành công.")
+        print("✅ Khởi tạo model embedding thành công.")
         return embeddings
     except Exception as e:
-        print(f"Lỗi khi khởi tạo model embedding: {e}")
-        return None
+        print(f"❌ Lỗi khi khởi tạo model embedding: {e}")
+        raise Exception(f"Khởi tạo model embedding thất bại: {str(e)}")
 
 # Hàm này sẽ được gọi bởi cả build script và API
 def create_or_load_chroma_vectorstore(embeddings, persist_directory, collection_name, chunks=None):
@@ -108,7 +124,7 @@ def get_groq_llm(groq_api_key, temperature=0.2, max_new_tokens=1024): # Bỏ rep
             ("user", "{input}")
         ])
         # Tạo LLM từ Groq
-        llm = prompt | ChatGroq(
+        llm = prompt |  ChatGroq(
             groq_api_key=groq_api_key,
             temperature=temperature, # Điều chỉnh nhiệt độ nếu cần
             max_tokens=max_new_tokens,
@@ -116,6 +132,7 @@ def get_groq_llm(groq_api_key, temperature=0.2, max_new_tokens=1024): # Bỏ rep
             # model_name="llama3-70b-8192", # << Mặc định, nhưng bạn có thể thử 'mixtral-8x7b-32768'
             #  context_length = 4096, # Thay đổi độ dài ngữ cảnh nếu cần
         )
+
         print("Khởi tạo Groq LLM thành công.")
         return llm
     except Exception as e:
@@ -123,15 +140,17 @@ def get_groq_llm(groq_api_key, temperature=0.2, max_new_tokens=1024): # Bỏ rep
         return None
 
 # Hàm create_qa_chain giữ nguyên
-def create_qa_chain(llm, vectorstore,  search_k=5 ,redis_instance=None,session_id=None):
+def create_qa_chain(llm, vectorstore,retriever,chat_id=None):
     # ... (code giữ nguyên từ trước) ...
     if not llm or not vectorstore:
         print("Lỗi: Thiếu LLM hoặc Vector Store để tạo QA Chain.")
         return None
-    if not session_id:
-        session_id = str(uuid.uuid4())  # Tạo một session_id mới nếu không có
     # print("Đang tạo RetrievalQA Chain...")
     print("Đang tạo ConversationalRetrievalChain...")
+    redis_instance= os.environ.get("REDIS_URL")
+    if redis_instance is not None and chat_id is None:
+        print("Warning: chat_id is None but redis_instance is provided. Using default chat_id.")
+        chat_id = "default_chat"  # Provide a default value
 
     # query_gen_prompt = PromptTemplate.from_template(config.QUERY_GEN_PROMPT_TEMPLATE)
 
@@ -143,10 +162,18 @@ def create_qa_chain(llm, vectorstore,  search_k=5 ,redis_instance=None,session_i
     # print(f"Retriever sẽ lấy {search_k} chunks.")
 
     # C2: Sử dụng MultiQueryRetriever
-    multi_retriever = MultiQueryRetriever.from_llm(
-        retriever=vectorstore.as_retriever(search_kwargs={"k": search_k}),
-        llm=llm,
-    )
+
+
+
+    # # Tạo retriever mới
+    # print("Đang tạo FallbackMultiQueryRetriever...")
+    # years_priority = utils.extract_years_from_vectorstore(vectorstore)
+    # print("=> get year.", years_priority)
+    # print("check", type(llm))
+    # fallback_multi = FallbackMultiQueryRetriever(vectorstore=vectorstore, llm=llm, years=years_priority, search_k=search_k)
+    # print("Đã tạo FallbackMultiQueryRetriever thành công.")
+
+
     # print("Đã tạo MultiQueryRetriever.")
     # ... (phần còn lại giữ nguyên) ...
     # Prompt tùy chọn
@@ -160,13 +187,13 @@ def create_qa_chain(llm, vectorstore,  search_k=5 ,redis_instance=None,session_i
     ])
 
     condense_question_prompt = PromptTemplate(
-        input_variables=["chat_history", "question"],
+        input_variables=["chat_history", "question", "context"],
         template=prompt_templete.CONDENSE_QUESTION_PROMPT
     )
 
     message_history = RedisChatMessageHistory(
         url=redis_instance,
-        session_id=session_id
+        session_id=chat_id
     )
 
     # Memory buffer để lưu lịch sử chat
@@ -189,21 +216,36 @@ def create_qa_chain(llm, vectorstore,  search_k=5 ,redis_instance=None,session_i
         # )
         # print("Tạo QA Chain thành công.")
         # return qa_chain
+        # Kiểm tra giá trị của các đối số đầu vào trước khi gọi các chain
+        if llm is None or generic_prompt is None:
+            logger.error("LLM or Generic Prompt is None")
+            raise ValueError("LLM or Generic Prompt must not be None")
+
         generic_chain =  WrappedLLMChain(LLMChain(llm=llm, prompt=generic_prompt, output_key="answer").with_config({"run_name": "General Info"}))
+
+        if retriever is None or memory is None or condense_question_prompt is None:
+            logger.error("Multi retriever, memory, or condense question prompt is None")
+            raise ValueError("Multi retriever, memory, or condense question prompt must not be None")
 
         legal_chain = ConversationalRetrievalChain.from_llm(
             llm=llm,
-            retriever=multi_retriever,
+            retriever=retriever,
             memory=memory,
             condense_question_prompt=condense_question_prompt,
             return_source_documents=True,
-            output_key="answer"
+            output_key="answer",
+            verbose=True,
         )
+        print("Đã tạo ConversationalRetrievalChain thành công.")
 
         # Chain trả về duy nhất "answer"
         wrapped_legal_chain = WrappedLLMChain(legal_chain).with_config({"run_name": "Legal QA"})
 
         route_logic_runnable = RunnableLambda(lambda input: utils.route_logic(input))
+
+
+
+
         # Router setup
         router = utils.router_as_runnable(
             routes={

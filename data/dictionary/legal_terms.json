@@ -1,0 +1,884 @@
+{
+    "dictionary": [
+        {
+            "term": "An ninh quốc gia",
+            "definition": "Bảo vệ độc lập, chủ quyền, thống nhất và toàn vẹn lãnh thổ của Tổ quốc, sự ổn định và phát triển bền vững của chế độ xã hội chủ nghĩa và Nhà nước."
+        },
+        {
+            "term": "Án lệ",
+            "definition": "Những bản án, quyết định của Tòa án đã có hiệu lực pháp luật, được Hội đồng Thẩm phán Tòa án nhân dân tối cao lựa chọn và được Chánh án Tòa án nhân dân tối cao công bố là án lệ để các Tòa án nghiên cứu, áp dụng trong xét xử."
+        },
+        {
+            "term": "Bản án",
+            "definition": "Văn bản pháp lý do Tòa án ban hành để giải quyết vụ án, thể hiện quyết định của Tòa án đối với vụ án đó."
+        },
+        {
+            "term": "Bào chữa",
+            "definition": "Hoạt động đưa ra các lập luận để bảo vệ quyền và lợi ích hợp pháp của người bị buộc tội trong quá trình tố tụng hình sự."
+        },
+        {
+            "term": "Bị can",
+            "definition": "Người đã bị khởi tố về hình sự nhưng chưa bị đưa ra xét xử."
+        },
+        {
+            "term": "Bị cáo",
+            "definition": "Người đã bị Tòa án quyết định đưa ra xét xử."
+        },
+        {
+            "term": "Bị hại",
+            "definition": "Cá nhân trực tiếp bị thiệt hại về thể chất, tinh thần, tài sản hoặc tổ chức bị thiệt hại về tài sản, uy tín do tội phạm gây ra."
+        },
+        {
+            "term": "Biên bản",
+            "definition": "Văn bản ghi nhận diễn biến, nội dung của hoạt động tố tụng do người có thẩm quyền tiến hành."
+        },
+        {
+            "term": "Bồi thường",
+            "definition": "Việc người gây thiệt hại phải bù đắp, khắc phục những tổn thất về vật chất và tinh thần do hành vi trái pháp luật của mình gây ra."
+        },
+        {
+            "term": "Bộ luật Dân sự",
+            "definition": "Văn bản luật quy định địa vị pháp lý, chuẩn mực pháp lý cho cách ứng xử của cá nhân, pháp nhân, bảo vệ quyền, lợi ích hợp pháp của cá nhân, tổ chức, lợi ích của Nhà nước, lợi ích công cộng."
+        },
+        {
+            "term": "Bộ luật Hình sự",
+            "definition": "Văn bản luật quy định về tội phạm và hình phạt."
+        },
+        {
+            "term": "Bộ Tư pháp",
+            "definition": "Cơ quan của Chính phủ thực hiện chức năng quản lý nhà nước về các lĩnh vực công tác tư pháp."
+        },
+        {
+            "term": "Cáo trạng",
+            "definition": "Văn bản của Viện kiểm sát truy tố bị can ra trước Tòa án để xét xử về vụ án hình sự."
+        },
+        {
+            "term": "Chính phủ",
+            "definition": "Cơ quan hành chính nhà nước cao nhất của nước Cộng hòa xã hội chủ nghĩa Việt Nam, thực hiện quyền hành pháp, là cơ quan chấp hành của Quốc hội."
+        },
+        {
+            "term": "Chủ quyền",
+            "definition": "Quyền tối cao của một quốc gia trong việc quyết định các vấn đề đối nội và đối ngoại mà không bị can thiệp bởi một quốc gia khác."
+        },
+        {
+            "term": "Công chứng",
+            "definition": "Việc công chứng viên của một tổ chức hành nghề công chứng chứng nhận tính xác thực, hợp pháp của hợp đồng, giao dịch dân sự khác bằng văn bản."
+        },
+        {
+            "term": "Cơ quan điều tra",
+            "definition": "Cơ quan có thẩm quyền tiến hành tố tụng hình sự để xác định tội phạm, người thực hiện hành vi phạm tội và các tình tiết khác liên quan."
+        },
+        {
+            "term": "Cưỡng chế thi hành án",
+            "definition": "Việc sử dụng các biện pháp cưỡng chế theo quy định của pháp luật để buộc người phải thi hành án thực hiện nghĩa vụ thi hành án."
+        },
+        {
+            "term": "Dân sự",
+            "definition": "Quan hệ xã hội liên quan đến lợi ích riêng của cá nhân, tổ chức, được điều chỉnh bởi pháp luật dân sự."
+        },
+        {
+            "term": "Di chúc",
+            "definition": "Văn bản thể hiện ý chí của cá nhân nhằm chuyển tài sản của mình cho người khác sau khi chết."
+        },
+        {
+            "term": "Điều tra",
+            "definition": "Hoạt động của cơ quan có thẩm quyền để thu thập thông tin, chứng cứ về vụ án và người phạm tội."
+        },
+        {
+            "term": "Độc lập tư pháp",
+            "definition": "Nguyên tắc theo đó cơ quan tư pháp hoạt động độc lập, không chịu sự can thiệp của bất kỳ cơ quan, tổ chức, cá nhân nào."
+        },
+        {
+            "term": "Dự thảo luật",
+            "definition": "Bản thảo của một đạo luật đang trong quá trình soạn thảo và chưa được thông qua."
+        },
+        {
+            "term": "Đại biểu Quốc hội",
+            "definition": "Người được bầu vào Quốc hội để thực hiện quyền lực nhà nước tại cơ quan quyền lực nhà nước cao nhất."
+        },
+        {
+            "term": "Đơn phương chấm dứt hợp đồng",
+            "definition": "Việc một bên trong hợp đồng đơn phương chấm dứt thực hiện hợp đồng."
+        },
+        {
+            "term": "Giám đốc thẩm",
+            "definition": "Thủ tục xét lại bản án, quyết định của Tòa án đã có hiệu lực pháp luật nhưng phát hiện có vi phạm pháp luật nghiêm trọng hoặc có tình tiết mới."
+        },
+        {
+            "term": "Giấy phép",
+            "definition": "Văn bản của cơ quan nhà nước có thẩm quyền cho phép tổ chức, cá nhân thực hiện một hoạt động nhất định."
+        },
+        {
+            "term": "Giao dịch dân sự",
+            "definition": "Hợp đồng hoặc hành vi pháp lý đơn phương làm phát sinh, thay đổi hoặc chấm dứt quyền, nghĩa vụ dân sự."
+        },
+        {
+            "term": "Hành chính",
+            "definition": "Hoạt động quản lý nhà nước, quản lý xã hội của các cơ quan trong bộ máy nhà nước."
+        },
+        {
+            "term": "Hiến pháp",
+            "definition": "Đạo luật cơ bản của Nhà nước, có hiệu lực pháp lý cao nhất, quy định những vấn đề cơ bản về chế độ chính trị, kinh tế, văn hóa, xã hội, quốc phòng, an ninh, quyền và nghĩa vụ cơ bản của công dân."
+        },
+        {
+            "term": "Hiệp định quốc tế",
+            "definition": "Thỏa thuận bằng văn bản được ký kết nhân danh Nhà nước hoặc Chính phủ nước Cộng hòa xã hội chủ nghĩa Việt Nam với bên ký kết nước ngoài."
+        },
+        {
+            "term": "Hình sự",
+            "definition": "Liên quan đến tội phạm và hình phạt, được điều chỉnh bởi pháp luật hình sự."
+        },
+        {
+            "term": "Hòa giải",
+            "definition": "Quá trình giải quyết tranh chấp thông qua trung gian để các bên đạt được thỏa thuận phù hợp với quy định của pháp luật."
+        },
+        {
+            "term": "Hội đồng xét xử",
+            "definition": "Tập thể Thẩm phán và Hội thẩm được phân công để tiến hành xét xử một vụ án cụ thể."
+        },
+        {
+            "term": "Hợp đồng",
+            "definition": "Thỏa thuận giữa các bên về việc xác lập, thay đổi hoặc chấm dứt quyền và nghĩa vụ dân sự."
+        },
+        {
+            "term": "Khởi tố",
+            "definition": "Quyết định của cơ quan có thẩm quyền về việc bắt đầu giải quyết vụ án hình sự."
+        },
+        {
+            "term": "Kiểm sát viên",
+            "definition": "Người được bổ nhiệm theo quy định của Luật tổ chức Viện kiểm sát nhân dân để thực hành quyền công tố và kiểm sát các hoạt động tư pháp."
+        },
+        {
+            "term": "Kiến nghị",
+            "definition": "Đề xuất, yêu cầu cơ quan, tổ chức, cá nhân có thẩm quyền xem xét, giải quyết vấn đề liên quan đến quyền và lợi ích hợp pháp."
+        },
+        {
+            "term": "Lao động",
+            "definition": "Hoạt động có mục đích, có ích của con người nhằm tạo ra sản phẩm vật chất hoặc tinh thần đáp ứng nhu cầu của bản thân và xã hội."
+        },
+        {
+            "term": "Luật sư",
+            "definition": "Người có đủ tiêu chuẩn hành nghề luật sư theo quy định của Luật luật sư, thực hiện dịch vụ pháp lý cho khách hàng."
+        },
+        {
+            "term": "Luật",
+            "definition": "Văn bản quy phạm pháp luật do cơ quan nhà nước có thẩm quyền ban hành, quy định các quy tắc xử sự chung, có hiệu lực bắt buộc đối với mọi cơ quan, tổ chức, cá nhân."
+        },
+        {
+            "term": "Lệ phí tòa án",
+            "definition": "Khoản tiền mà cá nhân, tổ chức phải nộp khi Tòa án giải quyết vụ việc dân sự, vụ án hành chính theo quy định của pháp luật."
+        },
+        {
+            "term": "Nguyên đơn",
+            "definition": "Người khởi kiện vụ án dân sự để yêu cầu Tòa án bảo vệ quyền và lợi ích hợp pháp của mình."
+        },
+        {
+            "term": "Nghị định",
+            "definition": "Văn bản quy phạm pháp luật do Chính phủ ban hành để quy định chi tiết một số điều, khoản được giao trong luật, nghị quyết của Quốc hội, pháp lệnh, nghị quyết của Ủy ban thường vụ Quốc hội."
+        },
+        {
+            "term": "Nhiệm vụ",
+            "definition": "Những công việc phải thực hiện theo quy định của pháp luật hoặc theo thỏa thuận."
+        },
+        {
+            "term": "Nhân chứng",
+            "definition": "Người biết các tình tiết liên quan đến vụ án và được Tòa án triệu tập đến phiên tòa để trình bày những tình tiết đó."
+        },
+        {
+            "term": "Pháp luật",
+            "definition": "Hệ thống các quy tắc xử sự chung do Nhà nước ban hành hoặc thừa nhận, có tính bắt buộc chung và được bảo đảm thực hiện bằng quyền lực nhà nước."
+        },
+        {
+            "term": "Pháp nhân",
+            "definition": "Tổ chức được thành lập hợp pháp, có cơ cấu tổ chức chặt chẽ, có tài sản độc lập với cá nhân, tổ chức khác và tự chịu trách nhiệm bằng tài sản đó."
+        },
+        {
+            "term": "Phán quyết",
+            "definition": "Quyết định của Tòa án về vụ việc đưa ra xét xử."
+        },
+        {
+            "term": "Phạm tội",
+            "definition": "Thực hiện hành vi nguy hiểm cho xã hội bị coi là tội phạm theo quy định của Bộ luật hình sự."
+        },
+        {
+            "term": "Phiên tòa",
+            "definition": "Hình thức tổ chức xét xử công khai của Tòa án."
+        },
+        {
+            "term": "Phúc thẩm",
+            "definition": "Việc Tòa án cấp trên trực tiếp xét xử lại vụ án mà bản án, quyết định của Tòa án cấp sơ thẩm chưa có hiệu lực pháp luật bị kháng cáo, kháng nghị."
+        },
+        {
+            "term": "Quyền con người",
+            "definition": "Những quyền tự nhiên, vốn có và không thể tách rời của con người, được pháp luật công nhận và bảo vệ."
+        },
+        {
+            "term": "Quyền lợi",
+            "definition": "Những lợi ích vật chất và tinh thần mà pháp luật ghi nhận và bảo vệ."
+        },
+        {
+            "term": "Quyền sở hữu",
+            "definition": "Quyền của chủ sở hữu được chiếm hữu, sử dụng, định đoạt tài sản của mình theo quy định của pháp luật."
+        },
+        {
+            "term": "Quốc hội",
+            "definition": "Cơ quan đại biểu cao nhất của Nhân dân, cơ quan quyền lực nhà nước cao nhất của nước Cộng hòa xã hội chủ nghĩa Việt Nam."
+        },
+        {
+            "term": "Sở hữu trí tuệ",
+            "definition": "Quyền của tổ chức, cá nhân đối với tài sản trí tuệ, bao gồm quyền tác giả và quyền liên quan, quyền sở hữu công nghiệp, quyền đối với giống cây trồng."
+        },
+        {
+            "term": "Sơ thẩm",
+            "definition": "Việc Tòa án xét xử vụ án lần đầu tiên."
+        },
+        {
+            "term": "Tài sản",
+            "definition": "Vật có thực và quyền tài sản được xác lập theo các quy định của pháp luật."
+        },
+        {
+            "term": "Tái phạm",
+            "definition": "Đã bị kết án, chưa được xóa án tích mà lại thực hiện hành vi phạm tội do cố ý hoặc do vô ý."
+        },
+        {
+            "term": "Tham nhũng",
+            "definition": "Hành vi của người có chức vụ, quyền hạn đã lợi dụng chức vụ, quyền hạn đó vì vụ lợi."
+        },
+        {
+            "term": "Thẩm phán",
+            "definition": "Người được bổ nhiệm theo quy định của pháp luật để xét xử các vụ án, vụ việc thuộc thẩm quyền của Tòa án."
+        },
+        {
+            "term": "Thừa kế",
+            "definition": "Việc chuyển quyền sở hữu tài sản của người chết cho người còn sống theo quy định của pháp luật hoặc theo di chúc."
+        },
+        {
+            "term": "Thủ tục tố tụng",
+            "definition": "Trình tự, cách thức tiến hành và quan hệ giữa cơ quan tiến hành tố tụng với người tham gia tố tụng và cá nhân, cơ quan, tổ chức hữu quan khi giải quyết vụ án."
+        },
+        {
+            "term": "Tòa án nhân dân",
+            "definition": "Cơ quan xét xử của nước Cộng hòa xã hội chủ nghĩa Việt Nam, thực hiện quyền tư pháp."
+        },
+        {
+            "term": "Tội phạm",
+            "definition": "Hành vi nguy hiểm cho xã hội được quy định trong Bộ luật hình sự, do người có năng lực trách nhiệm hình sự hoặc pháp nhân thương mại thực hiện một cách cố ý hoặc vô ý, xâm phạm độc lập, chủ quyền, thống nhất, toàn vẹn lãnh thổ Tổ quốc, xâm phạm chế độ chính trị, chế độ kinh tế, nền văn hóa, quốc phòng, an ninh, trật tự, an toàn xã hội, quyền, lợi ích hợp pháp của tổ chức, xâm phạm quyền con người, quyền, lợi ích hợp pháp của công dân, xâm phạm những lĩnh vực khác của trật tự pháp luật xã hội chủ nghĩa."
+        },
+        {
+            "term": "Tranh chấp",
+            "definition": "Bất đồng, mâu thuẫn về quyền và nghĩa vụ giữa các chủ thể trong quan hệ pháp luật."
+        },
+        {
+            "term": "Trách nhiệm pháp lý",
+            "definition": "Hậu quả pháp lý bất lợi mà chủ thể phải gánh chịu do hành vi vi phạm pháp luật gây ra."
+        },
+        {
+            "term": "Trọng tài",
+            "definition": "Phương thức giải quyết tranh chấp thông qua trọng tài viên do các bên thỏa thuận lựa chọn hoặc được chỉ định theo quy định của pháp luật để giải quyết tranh chấp."
+        },
+        {
+            "term": "Truy tố",
+            "definition": "Quyết định đưa một vụ án hình sự ra Tòa án để xét xử."
+        },
+        {
+            "term": "Tư pháp",
+            "definition": "Hoạt động của các cơ quan tư pháp trong việc xét xử các vụ án và giải quyết những vấn đề khác thuộc thẩm quyền của mình theo quy định của pháp luật."
+        },
+        {
+            "term": "Từ chối nhận di sản",
+            "definition": "Việc người thừa kế từ chối không nhận di sản."
+        },
+        {
+            "term": "Tự do kinh doanh",
+            "definition": "Quyền của cá nhân, tổ chức được tự do quyết định việc thành lập, lựa chọn hình thức tổ chức, ngành nghề, địa bàn, quy mô và hoạt động kinh doanh theo quy định của pháp luật."
+        },
+        {
+            "term": "Văn bản pháp luật",
+            "definition": "Văn bản do cơ quan nhà nước có thẩm quyền ban hành theo thẩm quyền, hình thức, trình tự, thủ tục được pháp luật quy định, trong đó có quy tắc xử sự chung, có hiệu lực bắt buộc chung, được Nhà nước bảo đảm thực hiện."
+        },
+        {
+            "term": "Vi phạm hành chính",
+            "definition": "Hành vi vi phạm pháp luật có mức độ nguy hiểm cho xã hội thấp hơn tội phạm, do cá nhân, tổ chức thực hiện một cách cố ý hoặc vô ý, xâm phạm các quan hệ xã hội được pháp luật bảo vệ."
+        },
+        {
+            "term": "Viện kiểm sát nhân dân",
+            "definition": "Cơ quan thực hành quyền công tố, kiểm sát hoạt động tư pháp của nước Cộng hòa xã hội chủ nghĩa Việt Nam."
+        },
+        {
+            "term": "Vi phạm pháp luật",
+            "definition": "Hành vi trái pháp luật của cá nhân, tổ chức xâm phạm các quan hệ xã hội được pháp luật bảo vệ."
+        },
+        {
+            "term": "Xét xử",
+            "definition": "Hoạt động của Tòa án nhằm giải quyết vụ án theo quy định của pháp luật."
+        },
+        {
+            "term": "Xử phạt hành chính",
+            "definition": "Việc cơ quan, người có thẩm quyền áp dụng biện pháp xử lý đối với cá nhân, tổ chức có hành vi vi phạm pháp luật hành chính."
+        },
+        {
+            "term": "Yêu cầu",
+            "definition": "Đòi hỏi, đề nghị được thực hiện một quyền hoặc nghĩa vụ theo quy định của pháp luật."
+        },
+        {
+            "term": "Yếu tố pháp lý",
+            "definition": "Những dấu hiệu cần và đủ được quy định trong các quy phạm pháp luật để xác định một hiện tượng pháp lý."
+        },
+        {
+            "term": "Ác ý",
+            "definition": "Trạng thái tâm lý của người cố ý thực hiện hành vi trái pháp luật với mục đích gây thiệt hại."
+        },
+        {
+            "term": "Bất khả kháng",
+            "definition": "Sự kiện xảy ra một cách khách quan không thể lường trước được và không thể khắc phục được mặc dù đã áp dụng mọi biện pháp cần thiết và khả năng cho phép."
+        },
+        {
+            "term": "Bình đẳng trước pháp luật",
+            "definition": "Nguyên tắc theo đó mọi công dân đều được đối xử như nhau trước pháp luật, không phân biệt dân tộc, giới tính, tín ngưỡng, tôn giáo, thành phần, địa vị xã hội."
+        },
+        {
+            "term": "Buộc thôi việc",
+            "definition": "Hình thức kỷ luật cao nhất áp dụng đối với cán bộ, công chức, viên chức vi phạm pháp luật, không còn đủ điều kiện để tiếp tục làm việc."
+        },
+        {
+            "term": "Cam kết",
+            "definition": "Sự hứa hẹn, đảm bảo thực hiện một nghĩa vụ nào đó."
+        },
+        {
+            "term": "Cải chính bản án",
+            "definition": "Việc Tòa án tự sửa chữa hoặc bổ sung những sai sót trong bản án đã tuyên nhưng không làm thay đổi nội dung của bản án."
+        },
+        {
+            "term": "Chế độ tài sản của vợ chồng",
+            "definition": "Tổng thể các quy định về xác lập, thực hiện, chấm dứt quyền, nghĩa vụ về tài sản của vợ chồng."
+        },
+        {
+            "term": "Chứng cứ",
+            "definition": "Những gì có thật được đưa ra để xác định có hay không có một sự việc, hành vi được dùng làm căn cứ để xác định yêu cầu hay tranh chấp của các đương sự là có căn cứ và hợp pháp."
+        },
+        {
+            "term": "Chứng thực",
+            "definition": "Việc cơ quan, tổ chức có thẩm quyền chứng nhận chữ ký, bản sao từ bản chính, chứng nhận các hợp đồng, giao dịch có thật theo quy định của pháp luật."
+        },
+        {
+            "term": "Chuyển nhượng quyền sử dụng đất",
+            "definition": "Việc người sử dụng đất chuyển quyền sử dụng đất của mình cho người khác thông qua hợp đồng theo quy định của pháp luật."
+        },
+        {
+            "term": "Cố ý",
+            "definition": "Người thực hiện hành vi biết hành vi đó nguy hiểm cho xã hội, thấy trước hậu quả của hành vi đó và mong muốn hoặc có ý thức để mặc cho hậu quả xảy ra."
+        },
+        {
+            "term": "Công chứng viên",
+            "definition": "Người được bổ nhiệm để hành nghề công chứng tại tổ chức hành nghề công chứng."
+        },
+        {
+            "term": "Cưỡng bức lao động",
+            "definition": "Việc dùng vũ lực, đe dọa dùng vũ lực hoặc các biện pháp khác nhằm buộc người khác phải lao động trái ý muốn của họ."
+        },
+        {
+            "term": "Đa hôn",
+            "definition": "Việc một người đang có vợ, có chồng mà kết hôn với người khác hoặc việc người chưa có vợ, chưa có chồng mà kết hôn với người mà mình biết là đang có chồng, có vợ."
+        },
+        {
+            "term": "Đại diện theo pháp luật",
+            "definition": "Người đại diện theo quy định của pháp luật thay mặt người được đại diện thực hiện giao dịch trong phạm vi đại diện."
+        },
+        {
+            "term": "Đại diện theo ủy quyền",
+            "definition": "Việc một người (người được ủy quyền) nhân danh và vì lợi ích của người khác (người ủy quyền) thực hiện giao dịch dân sự trong phạm vi được ủy quyền."
+        },
+        {
+            "term": "Đăng ký doanh nghiệp",
+            "definition": "Việc cơ quan nhà nước có thẩm quyền ghi nhận thông tin về doanh nghiệp vào Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp."
+        },
+        {
+            "term": "Đình chỉ giải quyết vụ án",
+            "definition": "Việc Tòa án quyết định chấm dứt việc giải quyết vụ án khi có một trong các căn cứ theo quy định của pháp luật."
+        },
+        {
+            "term": "Điều kiện kinh doanh",
+            "definition": "Điều kiện mà cá nhân, tổ chức phải đáp ứng theo quy định của pháp luật khi thực hiện quyền tự do kinh doanh trong một số ngành, nghề nhất định."
+        },
+        {
+            "term": "Đình công",
+            "definition": "Sự ngừng việc tạm thời, tự nguyện và có tổ chức của người lao động nhằm đạt được yêu cầu trong quá trình giải quyết tranh chấp lao động."
+        },
+        {
+            "term": "Đương sự",
+            "definition": "Cơ quan, tổ chức, cá nhân khởi kiện, bị kiện, người có quyền lợi, nghĩa vụ liên quan trong vụ án dân sự, vụ án hành chính."
+        },
+        {
+            "term": "Giả mạo công văn, giấy tờ",
+            "definition": "Hành vi làm giả toàn bộ hoặc một phần nội dung của công văn, giấy tờ để sử dụng hoặc đưa cho người khác sử dụng vào mục đích trái pháp luật."
+        },
+        {
+            "term": "Giải thể doanh nghiệp",
+            "definition": "Việc chấm dứt sự tồn tại của doanh nghiệp theo quy định của pháp luật."
+        },
+        {
+            "term": "Giám định pháp y",
+            "definition": "Hoạt động khám nghiệm tử thi, thương tích hay các dấu vết khác của con người, phục vụ công tác điều tra, truy tố, xét xử và giải quyết các vụ việc khác theo quy định của pháp luật."
+        },
+        {
+            "term": "Giám định tư pháp",
+            "definition": "Việc người giám định tư pháp sử dụng kiến thức, phương tiện, phương pháp chuyên môn để đánh giá, kết luận về những vấn đề có liên quan đến hoạt động điều tra, truy tố, xét xử và thi hành án."
+        },
+        {
+            "term": "Giao kèo",
+            "definition": "Thỏa thuận giữa các bên về việc thực hiện những công việc nhất định."
+        },
+        {
+            "term": "Giết người",
+            "definition": "Hành vi cố ý tước đoạt tính mạng của người khác trái pháp luật."
+        },
+        {
+            "term": "Hành chính công",
+            "definition": "Các hoạt động quản lý nhà nước và cung cấp dịch vụ công của các cơ quan nhà nước."
+        },
+        {
+            "term": "Hối lộ",
+            "definition": "Hành vi của người có chức vụ, quyền hạn trực tiếp hoặc qua trung gian nhận hoặc sẽ nhận bất kỳ lợi ích nào cho chính bản thân người đó hoặc cho người hoặc tổ chức khác để làm hoặc không làm một việc vì lợi ích hoặc theo yêu cầu của người đưa hối lộ."
+        },
+        {
+            "term": "Hôn nhân cưỡng bức",
+            "definition": "Việc dùng vũ lực, đe dọa dùng vũ lực hoặc các thủ đoạn khác ép buộc người khác phải kết hôn trái với ý muốn của họ."
+        },
+        {
+            "term": "Hoạt động tư pháp",
+            "definition": "Những hoạt động của các cơ quan tư pháp trong quá trình tố tụng, bao gồm hoạt động điều tra, truy tố, xét xử và thi hành án."
+        },
+        {
+            "term": "Hợp đồng lao động",
+            "definition": "Thỏa thuận giữa người lao động và người sử dụng lao động về việc làm có trả công, tiền lương, điều kiện lao động, quyền và nghĩa vụ của các bên trong quan hệ lao động."
+        },
+        {
+            "term": "Khám xét",
+            "definition": "Hoạt động tố tụng do cơ quan có thẩm quyền tiến hành theo quy định của pháp luật để tìm kiếm, thu giữ vật chứng, tài liệu liên quan đến vụ án, truy tìm tội phạm."
+        },
+        {
+            "term": "Khiếu kiện",
+            "definition": "Việc công dân, cơ quan, tổ chức theo thủ tục do luật định đề nghị cơ quan, tổ chức, cá nhân có thẩm quyền xem xét lại quyết định hành chính, hành vi hành chính khi có căn cứ cho rằng quyết định hoặc hành vi đó vi phạm pháp luật, xâm phạm quyền, lợi ích hợp pháp của mình."
+        },
+        {
+            "term": "Khiếu nại",
+            "definition": "Việc công dân, cơ quan, tổ chức hoặc cán bộ, công chức đề nghị cơ quan, tổ chức, cá nhân có thẩm quyền xem xét lại quyết định hành chính, hành vi hành chính của cơ quan hành chính nhà nước, của người có thẩm quyền trong cơ quan hành chính nhà nước khi có căn cứ cho rằng quyết định hoặc hành vi đó vi phạm pháp luật, xâm phạm quyền, lợi ích hợp pháp của mình."
+        },
+        {
+            "term": "Miễn truy cứu trách nhiệm hình sự",
+            "definition": "Việc người có thẩm quyền quyết định không truy cứu trách nhiệm hình sự đối với người phạm tội trong những trường hợp luật định."
+        },
+        {
+            "term": "Miễn trách nhiệm hình sự",
+            "definition": "Việc miễn việc áp dụng hình phạt đối với người phạm tội trong những trường hợp nhất định theo quy định của pháp luật."
+        },
+        {
+            "term": "Lệnh bắt",
+            "definition": "Quyết định của người có thẩm quyền để bắt người trong trường hợp khẩn cấp, để tạm giam, để bắt tạm giam theo quy định của pháp luật."
+        },
+        {
+            "term": "Lệnh truy nã",
+            "definition": "Quyết định của người có thẩm quyền để tìm kiếm và bắt người đang bị truy cứu trách nhiệm hình sự, đã bỏ trốn."
+        },
+        {
+            "term": "Lợi tức",
+            "definition": "Khoản lợi mà chủ sở hữu thu được từ việc khai thác tài sản của mình theo quy định của pháp luật."
+        },
+        {
+            "term": "Lưu trữ tư pháp",
+            "definition": "Việc bảo quản, lưu giữ hồ sơ, tài liệu liên quan đến hoạt động tư pháp theo quy định của pháp luật."
+        },
+        {
+            "term": "Lương tối thiểu",
+            "definition": "Mức thấp nhất để trả cho người lao động làm công việc giản đơn nhất trong điều kiện lao động bình thường, bảo đảm đời sống tối thiểu của người lao động và gia đình họ."
+        },
+        {
+            "term": "Mặt nạ doanh nghiệp",
+            "definition": "Hành vi sử dụng hình thức của doanh nghiệp để che đậy mục đích và hoạt động thật sự nhằm trốn tránh trách nhiệm pháp lý."
+        },
+        {
+            "term": "Mua bán người",
+            "definition": "Hành vi dùng tiền, tài sản hoặc các lợi ích vật chất khác để trao đổi, chuyển giao người từ người này cho người khác."
+        },
+        {
+            "term": "Ngân sách nhà nước",
+            "definition": "Toàn bộ các khoản thu, chi của Nhà nước đã được cơ quan nhà nước có thẩm quyền quyết định và được thực hiện trong một năm để bảo đảm thực hiện các chức năng, nhiệm vụ của Nhà nước."
+        },
+        {
+            "term": "Nguyên tắc suy đoán vô tội",
+            "definition": "Người bị buộc tội được coi là không có tội cho đến khi được chứng minh theo trình tự, thủ tục do Bộ luật tố tụng hình sự quy định và có bản án kết tội của Tòa án đã có hiệu lực pháp luật."
+        },
+        {
+            "term": "Nghĩa vụ chung",
+            "definition": "Nghĩa vụ của mọi cá nhân, tổ chức tham gia quan hệ pháp luật phải thực hiện theo quy định của pháp luật."
+        },
+        {
+            "term": "Phá sản",
+            "definition": "Tình trạng doanh nghiệp, hợp tác xã mất khả năng thanh toán và bị Tòa án nhân dân ra quyết định mở thủ tục phá sản."
+        },
+        {
+            "term": "Phân hóa tội phạm",
+            "definition": "Việc phân loại tội phạm theo tính chất, mức độ nguy hiểm cho xã hội để có biện pháp xử lý phù hợp."
+        },
+        {
+            "term": "Phản biện xã hội",
+            "definition": "Việc nhân dân trực tiếp hoặc thông qua các tổ chức chính trị - xã hội, tổ chức xã hội và các chuyên gia phát biểu ý kiến của mình về các chủ trương, chính sách của Đảng và pháp luật của Nhà nước."
+        },
+        {
+            "term": "Quyền đại diện",
+            "definition": "Quyền của người đại diện thực hiện giao dịch dân sự nhân danh và vì lợi ích của người được đại diện trong phạm vi đại diện."
+        },
+        {
+            "term": "Quyền được xét xử công bằng",
+            "definition": "Quyền của mọi cá nhân, tổ chức được xét xử bởi một tòa án độc lập, khách quan theo đúng trình tự, thủ tục pháp luật quy định."
+        },
+        {
+            "term": "Quyền ưu tiên thanh toán",
+            "definition": "Quyền của chủ nợ được thanh toán trước các chủ nợ khác khi người có nghĩa vụ không có khả năng thanh toán đủ cho tất cả các chủ nợ."
+        },
+        {
+            "term": "Sở hữu chung",
+            "definition": "Tài sản thuộc sở hữu của hai hoặc nhiều chủ thể."
+        },
+        {
+            "term": "Thừa nhận con",
+            "definition": "Việc một người thừa nhận người nào đó là con của mình theo quy định của pháp luật."
+        },
+        {
+            "term": "Thực nghiệm điều tra",
+            "definition": "Hoạt động điều tra được tiến hành để kiểm tra, xác minh khả năng tồn tại của những tình tiết của vụ án hình sự."
+        },
+        {
+            "term": "Thời hiệu khởi kiện",
+            "definition": "Thời hạn mà chủ thể có quyền khởi kiện để yêu cầu Tòa án giải quyết vụ việc dân sự bảo vệ quyền và lợi ích hợp pháp bị xâm phạm; nếu thời hạn đó kết thúc thì mất quyền khởi kiện."
+        },
+        {
+            "term": "Thời hiệu truy cứu trách nhiệm hình sự",
+            "definition": "Thời hạn do Bộ luật hình sự quy định mà khi hết thời hạn đó thì người phạm tội không bị truy cứu trách nhiệm hình sự."
+        },
+        {
+            "term": "Tố giác tội phạm",
+            "definition": "Việc công dân phát hiện và trình báo với cơ quan có thẩm quyền về hành vi có dấu hiệu tội phạm."
+        },
+        {
+            "term": "Tố tụng trọng tài",
+            "definition": "Trình tự, thủ tục tiến hành giải quyết tranh chấp tại trọng tài thương mại."
+        },
+        {
+            "term": "Trách nhiệm bồi thường của Nhà nước",
+            "definition": "Trách nhiệm của Nhà nước bồi thường thiệt hại do người thi hành công vụ gây ra trong khi thi hành công vụ."
+        },
+        {
+            "term": "Trưng cầu giám định",
+            "definition": "Việc cơ quan tiến hành tố tụng yêu cầu người giám định thực hiện giám định những vấn đề cần có ý kiến chuyên môn cho việc giải quyết vụ án."
+        },
+        {
+            "term": "Trưng bày chứng cứ",
+            "definition": "Việc các bên trong tố tụng đưa ra chứng cứ để chứng minh yêu cầu của mình hoặc bác bỏ yêu cầu của người khác theo quy định của pháp luật tố tụng."
+        },
+        {
+            "term": "Vi phạm nghĩa vụ",
+            "definition": "Người có nghĩa vụ không thực hiện hoặc thực hiện không đúng nghĩa vụ của mình."
+        },
+        {
+            "term": "Vô hiệu hóa giao dịch",
+            "definition": "Việc làm cho một giao dịch không phát sinh, thay đổi, chấm dứt quyền, nghĩa vụ dân sự của các bên kể từ thời điểm giao dịch được xác lập."
+        },
+        {
+            "term": "Vụ án dân sự",
+            "definition": "Vụ việc có tranh chấp về dân sự, hôn nhân và gia đình, kinh doanh, thương mại, lao động được Tòa án thụ lý, giải quyết theo quy định của pháp luật tố tụng dân sự."
+        },
+        {
+            "term": "Xuất cảnh",
+            "definition": "Việc công dân Việt Nam, người nước ngoài từ lãnh thổ Việt Nam đi ra nước ngoài qua cửa khẩu của Việt Nam."
+        },
+        {
+            "term": "Xử lý vi phạm hành chính",
+            "definition": "Việc cơ quan, người có thẩm quyền áp dụng biện pháp xử lý hành chính đối với cá nhân, tổ chức thực hiện hành vi vi phạm hành chính theo quy định của pháp luật về xử lý vi phạm hành chính."
+        },
+        {
+            "term": "Bảo hộ công dân",
+            "definition": "Việc Nhà nước bảo vệ quyền và lợi ích hợp pháp của công dân Việt Nam ở nước ngoài thông qua các biện pháp phù hợp với pháp luật Việt Nam, pháp luật của nước sở tại và luật pháp quốc tế."
+        },
+        {
+            "term": "Bảo hiểm xã hội",
+            "definition": "Sự bảo đảm thay thế hoặc bù đắp một phần thu nhập của người lao động khi họ bị giảm hoặc mất thu nhập do ốm đau, thai sản, tai nạn lao động, bệnh nghề nghiệp, hết tuổi lao động hoặc chết, trên cơ sở đóng vào quỹ bảo hiểm xã hội."
+        },
+        {
+            "term": "Bảo lãnh ngân hàng",
+            "definition": "Cam kết bằng văn bản của tổ chức tín dụng với bên nhận bảo lãnh về việc thực hiện nghĩa vụ tài chính thay cho khách hàng khi khách hàng không thực hiện hoặc thực hiện không đầy đủ nghĩa vụ đã cam kết."
+        },
+        {
+            "term": "Bản quyền tác giả",
+            "definition": "Quyền của tác giả đối với tác phẩm do mình sáng tạo ra, bao gồm các quyền nhân thân và quyền tài sản."
+        },
+        {
+            "term": "Biện pháp bảo đảm thực hiện nghĩa vụ",
+            "definition": "Những cách thức nhằm đảm bảo việc thực hiện đúng các nghĩa vụ dân sự, quy định trong Bộ luật dân sự."
+        },
+        {
+            "term": "Bưu kiện",
+            "definition": "Vật phẩm, hàng hóa được chấp nhận, vận chuyển và phát theo quy trình, tiêu chuẩn của dịch vụ bưu chính."
+        },
+        {
+            "term": "Cải tạo không giam giữ",
+            "definition": "Hình phạt được áp dụng đối với người phạm tội ít nghiêm trọng hoặc phạm tội nghiêm trọng do Bộ luật hình sự quy định mà không phải đưa vào cơ sở giam giữ nếu người đó có nơi cư trú rõ ràng."
+        },
+        {
+            "term": "Cầm cố tài sản",
+            "definition": "Việc một bên (gọi là bên cầm cố) giao tài sản thuộc quyền sở hữu của mình cho bên kia (gọi là bên nhận cầm cố) để bảo đảm thực hiện nghĩa vụ dân sự."
+        },
+        {
+            "term": "Căn hộ chung cư",
+            "definition": "Một phần của nhà chung cư được thiết kế để ở và sử dụng độc lập cho một hộ gia đình, cá nhân, có phần diện tích riêng, phần diện tích thuộc sở hữu chung, có lối đi chung và các công trình tiện ích chung của nhà chung cư."
+        },
+        {
+            "term": "Chính quyền địa phương",
+            "definition": "Cấp chính quyền hoạt động trong phạm vi địa phương, gồm Hội đồng nhân dân và Ủy ban nhân dân các cấp."
+        },
+        {
+            "term": "Chứng từ điện tử",
+            "definition": "Thông tin được tạo lập, gửi, nhận và lưu trữ bằng phương tiện điện tử."
+        },
+        {
+            "term": "Chứng chỉ hành nghề",
+            "definition": "Văn bản chứng nhận một cá nhân đủ điều kiện hành nghề trong một lĩnh vực chuyên môn nhất định."
+        },
+        {
+            "term": "Chuyển hóa tội phạm",
+            "definition": "Hiện tượng tội phạm và người phạm tội biến đổi để phù hợp với hoàn cảnh mới, nhằm trốn tránh, đối phó với cơ quan bảo vệ pháp luật."
+        },
+        {
+            "term": "Công dân danh dự",
+            "definition": "Danh hiệu vinh dự được trao tặng cho người nước ngoài có đóng góp đặc biệt xuất sắc vào sự nghiệp xây dựng và phát triển của địa phương, đất nước."
+        },
+        {
+            "term": "Công ty con",
+            "definition": "Doanh nghiệp thuộc một trong các trường hợp sau: (a) Công ty mẹ sở hữu trên 50% vốn điều lệ hoặc tổng số cổ phần phổ thông của công ty đó; (b) Công ty mẹ có quyền trực tiếp hoặc gián tiếp quyết định bổ nhiệm đa số hoặc tất cả thành viên Hội đồng quản trị, Giám đốc hoặc Tổng giám đốc."
+        },
+        {
+            "term": "Công ước quốc tế",
+            "definition": "Thỏa thuận bằng văn bản được ký kết giữa các quốc gia và/hoặc các tổ chức quốc tế, tạo lập quyền và nghĩa vụ ràng buộc về mặt pháp lý quốc tế."
+        },
+        {
+            "term": "Cưỡng chế hành chính",
+            "definition": "Việc sử dụng các biện pháp cưỡng chế theo quy định của pháp luật để buộc các cá nhân, tổ chức thực hiện quyết định hành chính của cơ quan, người có thẩm quyền."
+        },
+        {
+            "term": "Cử tri",
+            "definition": "Công dân Việt Nam, đủ mười tám tuổi trở lên, có quyền bầu cử theo quy định của pháp luật."
+        },
+        {
+            "term": "Dấu hiệu nhận biết",
+            "definition": "Những yếu tố được sử dụng để phân biệt hàng hóa, dịch vụ của các tổ chức, cá nhân khác nhau như nhãn hiệu, tên thương mại."
+        },
+        {
+            "term": "Đầu tư công",
+            "definition": "Hoạt động đầu tư của Nhà nước vào các chương trình, dự án xây dựng kết cấu hạ tầng kinh tế - xã hội và đầu tư vào các chương trình, dự án phục vụ phát triển kinh tế - xã hội."
+        },
+        {
+            "term": "Đấu giá tài sản",
+            "definition": "Hình thức bán tài sản công khai thông qua tổ chức đấu giá tài sản trung gian để chọn người mua tài sản là người trả giá cao nhất theo trình tự, thủ tục theo quy định của pháp luật."
+        },
+        {
+            "term": "Đề nghị phá sản",
+            "definition": "Việc chủ nợ, người lao động, đại diện công đoàn, đại diện hợp pháp của người lao động hoặc chính doanh nghiệp, hợp tác xã đề nghị Tòa án mở thủ tục phá sản khi doanh nghiệp, hợp tác xã mất khả năng thanh toán."
+        },
+        {
+            "term": "Điều kiện đình chỉ vụ án",
+            "definition": "Những trường hợp mà cơ quan tiến hành tố tụng ra quyết định chấm dứt việc giải quyết vụ án."
+        },
+        {
+            "term": "Định đoạt tài sản",
+            "definition": "Quyền của chủ sở hữu được chuyển giao quyền sở hữu tài sản, từ bỏ quyền sở hữu, tiêu dùng hoặc tiêu hủy tài sản."
+        },
+        {
+            "term": "Độc quyền",
+            "definition": "Tình trạng một doanh nghiệp hoặc một nhóm doanh nghiệp chiếm lĩnh thị trường, kiểm soát giá cả và nguồn cung ứng hàng hóa, dịch vụ, gây bất lợi cho người tiêu dùng."
+        },
+        {
+            "term": "Đơn kiện",
+            "definition": "Văn bản yêu cầu Tòa án giải quyết vụ việc dân sự, bảo vệ quyền và lợi ích hợp pháp của cá nhân, cơ quan, tổ chức."
+        },
+        {
+            "term": "Giấy chứng tử",
+            "definition": "Giấy tờ do cơ quan nhà nước có thẩm quyền cấp để xác nhận sự kiện một người đã chết."
+        },
+        {
+            "term": "Giấy chứng nhận quyền sử dụng đất",
+            "definition": "Giấy tờ pháp lý do cơ quan nhà nước có thẩm quyền cấp cho người sử dụng đất để bảo hộ quyền và lợi ích hợp pháp của người sử dụng đất."
+        },
+        {
+            "term": "Giấy khai sinh",
+            "definition": "Giấy tờ pháp lý do cơ quan nhà nước có thẩm quyền cấp, xác nhận sự kiện sinh, quốc tịch và quan hệ cha, mẹ, con của một người."
+        },
+        {
+            "term": "Giấy phép xây dựng",
+            "definition": "Văn bản pháp lý do cơ quan nhà nước có thẩm quyền cấp cho chủ đầu tư để xây dựng mới, sửa chữa, cải tạo, di dời công trình."
+        },
+        {
+            "term": "Giám hộ",
+            "definition": "Việc một cá nhân, tổ chức (người giám hộ) được pháp luật quy định hoặc được cử để thực hiện việc chăm sóc và bảo vệ quyền, lợi ích hợp pháp của người chưa thành niên, người mất năng lực hành vi dân sự (người được giám hộ)."
+        },
+        {
+            "term": "Giấy ủy quyền",
+            "definition": "Văn bản thể hiện sự ủy quyền giữa cá nhân, tổ chức ủy quyền và cá nhân, tổ chức được ủy quyền."
+        },
+        {
+            "term": "Hạ tầng kỹ thuật",
+            "definition": "Hệ thống công trình, thiết bị kỹ thuật cung cấp các dịch vụ thiết yếu như giao thông, cấp nước, thoát nước, xử lý nước thải, chiếu sáng, thông tin liên lạc, cung cấp năng lượng."
+        },
+        {
+            "term": "Hành chính công",
+            "definition": "Hoạt động thực thi công quyền của Nhà nước để phục vụ công dân, tổ chức."
+        },
+        {
+            "term": "Hệ thống pháp luật",
+            "definition": "Tổng thể các quy phạm pháp luật có mối liên hệ nội tại và thống nhất với nhau, điều chỉnh các quan hệ xã hội theo những nguyên tắc và phương châm nhất định."
+        },
+        {
+            "term": "Hiệu lực pháp luật",
+            "definition": "Hiệu lực thực tế của văn bản quy phạm pháp luật sau khi được ban hành và có hiệu lực thi hành."
+        },
+        {
+            "term": "Hình phạt bổ sung",
+            "definition": "Hình phạt có thể được áp dụng kèm theo hình phạt chính để tăng thêm tính trừng phạt đối với người phạm tội trong những trường hợp do Bộ luật hình sự quy định."
+        },
+        {
+            "term": "Hình phạt chính",
+            "definition": "Hình phạt cơ bản được áp dụng độc lập đối với mỗi tội phạm."
+        },
+        {
+            "term": "Hộ chiếu",
+            "definition": "Giấy tờ tùy thân do cơ quan có thẩm quyền của một nước cấp cho công dân nước đó, làm cơ sở để công dân xuất cảnh, nhập cảnh và chứng minh quốc tịch của người mang hộ chiếu khi ở nước ngoài."
+        },
+        {
+            "term": "Hộ khẩu",
+            "definition": "Sổ đăng ký cư trú trước đây được sử dụng để quản lý cư trú và xác định mối quan hệ giữa các thành viên trong một hộ gia đình (đã được thay thế bằng cơ sở dữ liệu về cư trú)."
+        },
+        {
+            "term": "Hợp đồng thương mại",
+            "definition": "Thỏa thuận giữa các bên về việc mua bán hàng hóa, cung ứng dịch vụ nhằm mục đích thương mại."
+        },
+        {
+            "term": "Hợp đồng vô hiệu",
+            "definition": "Hợp đồng không có hiệu lực pháp luật ngay từ thời điểm giao kết, không làm phát sinh, thay đổi, chấm dứt quyền và nghĩa vụ dân sự của các bên."
+        },
+        {
+            "term": "Hủy án",
+            "definition": "Việc Tòa án cấp trên hủy bỏ bản án hoặc quyết định đã có hiệu lực pháp luật của Tòa án cấp dưới và chuyển hồ sơ vụ án để Tòa án cấp dưới xét xử lại theo thủ tục chung."
+        },
+        {
+            "term": "Kê biên tài sản",
+            "definition": "Biện pháp cưỡng chế thi hành án dân sự được áp dụng để đảm bảo thi hành án khi người phải thi hành án có điều kiện thi hành án nhưng không tự nguyện thi hành."
+        },
+        {
+            "term": "Kê khai tài sản",
+            "definition": "Việc cá nhân, tổ chức kê khai số lượng, giá trị tài sản thuộc quyền sở hữu hoặc quản lý của mình theo quy định của pháp luật."
+        },
+        {
+            "term": "Kế thừa tố tụng",
+            "definition": "Việc một người thay thế người tham gia tố tụng đã chết, bị mất năng lực hành vi dân sự hoặc bị thay đổi địa vị pháp lý để tiếp tục tham gia vào quá trình tố tụng."
+        },
+        {
+            "term": "Kiểm soát thị trường",
+            "definition": "Hoạt động kiểm tra, giám sát của cơ quan nhà nước có thẩm quyền đối với các hoạt động sản xuất, kinh doanh, thương mại trên thị trường."
+        },
+        {
+            "term": "Kiến trúc đô thị",
+            "definition": "Tổ chức không gian, kiến trúc, cảnh quan của đô thị nhằm tạo lập môi trường sống tiện nghi, thẩm mỹ, an toàn, bảo vệ môi trường, phù hợp với điều kiện tự nhiên, kinh tế - xã hội, bản sắc văn hóa và lịch sử của từng đô thị."
+        },
+        {
+            "term": "Kiểm tra hộ tịch",
+            "definition": "Hoạt động của cơ quan có thẩm quyền nhằm kiểm tra việc thực hiện các quy định của pháp luật về đăng ký và quản lý hộ tịch."
+        },
+        {
+            "term": "Kiểm toán",
+            "definition": "Việc xem xét, đánh giá và xác nhận báo cáo tài chính hoặc báo cáo quyết toán dự án hoàn thành, báo cáo quyết toán ngân sách, tuân thủ pháp luật, tính kinh tế, hiệu lực, hiệu quả trong quản lý, sử dụng tài chính, tài sản công."
+        },
+        {
+            "term": "Luật áp dụng",
+            "definition": "Một hệ thống pháp luật cụ thể được áp dụng cho một quan hệ pháp luật nhất định, đặc biệt là trong trường hợp có yếu tố nước ngoài."
+        },
+        {
+            "term": "Luật tục",
+            "definition": "Những quy tắc xử sự chung trong cộng đồng được hình thành từ thói quen, trở thành truyền thống và được thừa nhận trong đời sống cộng đồng."
+        },
+        {
+            "term": "Mạng lưới an sinh xã hội",
+            "definition": "Hệ thống chính sách và chương trình nhằm giúp đỡ cá nhân, hộ gia đình và cộng đồng đối phó với những rủi ro, giảm nghèo bền vững và hỗ trợ các đối tượng yếu thế."
+        },
+        {
+            "term": "Mất tích",
+            "definition": "Tình trạng một người biệt tích, không biết rõ người đó còn sống hay đã chết và được Tòa án tuyên bố mất tích theo yêu cầu của người có quyền, lợi ích liên quan."
+        },
+        {
+            "term": "Mất năng lực hành vi dân sự",
+            "definition": "Tình trạng một người do bị bệnh tâm thần hoặc mắc bệnh khác mà không thể nhận thức, làm chủ được hành vi của mình và được Tòa án tuyên bố là người mất năng lực hành vi dân sự theo yêu cầu của người có quyền, lợi ích liên quan hoặc của cơ quan, tổ chức hữu quan."
+        },
+        {
+            "term": "Ngân hàng Nhà nước",
+            "definition": "Cơ quan ngang bộ thuộc Chính phủ, là ngân hàng Trung ương của nước Cộng hòa xã hội chủ nghĩa Việt Nam."
+        },
+        {
+            "term": "Người chưa thành niên",
+            "definition": "Người chưa đủ mười tám tuổi."
+        },
+        {
+            "term": "Nhà đất",
+            "definition": "Tài sản bao gồm nhà ở và quyền sử dụng đất gắn liền với nhà ở đó."
+        },
+        {
+            "term": "Nhà nước pháp quyền",
+            "definition": "Nhà nước được tổ chức và hoạt động trên cơ sở Hiến pháp, tôn trọng và bảo vệ Hiến pháp và pháp luật, kiểm soát được quyền lực nhà nước, bảo đảm quyền con người, quyền công dân."
+        },
+        {
+            "term": "Phúc lợi xã hội",
+            "definition": "Các lợi ích về vật chất và tinh thần mà Nhà nước và xã hội cung cấp để bảo đảm đời sống của người dân."
+        },
+        {
+            "term": "Quản lý nhà nước",
+            "definition": "Quá trình tổ chức, điều hành, kiểm tra hoạt động của hệ thống chính trị và đời sống xã hội của cơ quan hành pháp theo quy định của pháp luật."
+        },
+        {
+            "term": "Quy chế",
+            "definition": "Văn bản quy định về nguyên tắc, trách nhiệm, quan hệ phối hợp, trình tự, thủ tục và phương pháp thực hiện công việc của các cơ quan, tổ chức, cá nhân."
+        },
+        {
+            "term": "Quyền sở hữu trí tuệ",
+            "definition": "Quyền của tổ chức, cá nhân đối với tài sản trí tuệ, bao gồm quyền tác giả và quyền liên quan đến quyền tác giả, quyền sở hữu công nghiệp và quyền đối với giống cây trồng."
+        },
+        {
+            "term": "Tạm đình chỉ",
+            "definition": "Việc cơ quan tiến hành tố tụng quyết định tạm ngừng tiến hành tố tụng trong một thời hạn nhất định khi có căn cứ do pháp luật quy định."
+        },
+        {
+            "term": "Tín dụng",
+            "definition": "Quan hệ chuyển nhượng quyền sử dụng vốn từ người sở hữu tiền tệ sang người sử dụng tiền tệ trong một thời gian nhất định với một khoản chi phí nhất định."
+        },
+        {
+            "term": "Tố cáo",
+            "definition": "Việc công dân báo cho cơ quan, tổ chức, cá nhân có thẩm quyền biết về hành vi vi phạm pháp luật của bất cứ cơ quan, tổ chức, cá nhân nào gây thiệt hại hoặc đe dọa gây thiệt hại lợi ích của Nhà nước, quyền, lợi ích hợp pháp của công dân, cơ quan, tổ chức."
+        },
+        {
+            "term": "Tố quyền",
+            "definition": "Khả năng sử dụng các biện pháp bảo vệ quyền do cơ quan nhà nước có thẩm quyền áp dụng khi có hành vi vi phạm pháp luật."
+        },
+        {
+            "term": "Trách nhiệm vật chất",
+            "definition": "Trách nhiệm bồi thường thiệt hại vật chất do hành vi trái pháp luật gây ra."
+        },
+        {
+            "term": "Truy thu thuế",
+            "definition": "Việc cơ quan thuế yêu cầu người nộp thuế nộp đủ số tiền thuế còn thiếu, bị trốn, bị gian lận trong thời gian trước đó."
+        },
+        {
+            "term": "Tự nguyện ly hôn",
+            "definition": "Việc vợ, chồng cùng tự nguyện chấm dứt quan hệ hôn nhân."
+        },
+        {
+            "term": "Tư pháp quốc tế",
+            "definition": "Hệ thống các quy phạm pháp luật điều chỉnh các quan hệ dân sự có yếu tố nước ngoài."
+        }
+    ]
+}

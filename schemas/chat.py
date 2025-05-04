@@ -4,22 +4,21 @@ from pydantic import Field
 
 class QueryRequest(BaseModel):
     question: str
-    session_id: Optional[str] = Field(default=None, example=None)
 
 class SourceDocument(BaseModel):
     source: str
     page_content_preview: str
 
 class AnswerResponse(BaseModel):
-    session_id: str
     answer: str
     sources: Optional[List[SourceDocument]] = None
     processing_time: float
+
 
 class ChatHistoryItem(BaseModel):
     question: str
     answer: str
 
 class ChatHistoryResponse(BaseModel):
-    session_id: str
+    chat_id: str
     history: List[ChatHistoryItem]

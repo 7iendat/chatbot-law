@@ -15,7 +15,9 @@ app_state = {
     "qa_chain": None,
     "device": "cpu",
     "groq_api_key": None,
-
+    "dict": {},
+    "redis": None,
+    "retriever": None,
 }
 
 @asynccontextmanager

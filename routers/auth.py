@@ -15,7 +15,7 @@ async def login(request: LoginRequest):
 
 @router.post("/register", response_model=RegisterResponse)
 async def register(request: RegisterRequest):
-    return register_user(request)
+    return await register_user(request)
 
 @router.post("/logout")
 async def logout(credentials: HTTPAuthorizationCredentials = Depends(bearer_scheme)):

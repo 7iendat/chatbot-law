@@ -9,6 +9,9 @@ import torch
 import rag_components
 from db.redis import r
 from config import SECRET_KEY, ALGORITHM
+from utils.utils import load_legal_dictionary
+from time_priority_retriever import create_retriever
+
 # Bearer token security scheme
 bearer_scheme = HTTPBearer()
 
@@ -24,6 +27,8 @@ def initialize_api_components(app_state):
     load_dotenv()
     # --- Kiểm tra kết nối tới Redis ---
     app_state['redis'] = r
+    app_state['dict'] = load_legal_dictionary('./data/dictionary/legal_terms.json')
+
     # --- Kiểm tra kết nối tới MongoDB ---
     if user_collection is  None:
         raise HTTPException(status_code=500, detail="Lỗi kết nối tới database.")
@@ -54,32 +59,44 @@ def initialize_api_components(app_state):
     )
 
 
-    print("DEBUG => type vectorstore:", type(app_state["vectorstore"]))
-
 
     if not app_state["vectorstore"]:
          raise HTTPException(status_code=500, detail="Failed to load or create Vectorstore")
 
     # 3. Tải LLM (thay đổi để dùng Groq)
     print(f"Đang tải LLM (Groq)...")
-    app_state["llm"] = rag_components.get_groq_llm(
+    llm = rag_components.get_groq_llm(
         app_state["groq_api_key"],
         temperature=config.LLM_TEMPERATURE,
         max_new_tokens=config.LLM_MAX_NEW_TOKENS
     )
+
+    app_state["llm"] = llm
+
+
     if not app_state["llm"]:
         raise HTTPException(status_code=500, detail="Failed to load LLM")
 
-    # 4. Tạo QA Chain (giữ nguyên)
+    # 4. Tạo retriever (giữ nguyên)
+    print(f"=> Đang tạo retriever...")
+    app_state["retriever"] = create_retriever(
+        app_state["vectorstore"],
+        app_state["embeddings"],
+        llm
+    )
+    if app_state["retriever"] is None:
+        raise HTTPException(status_code=500, detail="Failed to create retriever")
+    print(f"=> Đã tạo retriever thành công.")
+
+    # 5. Tạo QA Chain (giữ nguyên)
     print(f"Đang tạo QA Chain...")
     app_state["qa_chain"] = rag_components.create_qa_chain(
         app_state["llm"],
         app_state["vectorstore"],
-        config.SEARCH_K,
-        redis_instance= os.environ.get("REDIS_URL"),
-        session_id=None # Không cần session_id khi khởi tạo API
+        app_state["retriever"],
+        chat_id=None
     )
-    if not app_state["qa_chain"]:
+    if app_state["qa_chain"] is None:
         raise HTTPException(status_code=500, detail="Failed to create QA Chain")
 
     print(f"***** Khởi tạo API Components hoàn tất *****")
@@ -96,13 +113,12 @@ def get_current_user(credentials: HTTPAuthorizationCredentials = Depends(bearer_
     try:
         # Giải mã token
         payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])
-        username: str = payload.get("sub")
-        session_id: str = payload.get("session_id")
+        email: str = payload.get("sub")
 
-        if username is None or session_id is None:
+        if email is None:
             raise HTTPException(status_code=401, detail="Token không hợp lệ")
 
-        return {"username": username, "session_id": session_id}
+        return email
 
     except JWTError:
         raise HTTPException(status_code=401, detail="Token không hợp lệ")

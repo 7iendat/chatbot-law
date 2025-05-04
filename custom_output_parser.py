@@ -1,19 +1,26 @@
-# custom_output_parser.py
 
 from langchain.schema import BaseOutputParser
 import re
+from typing import Union
 
 class CustomOutputParser(BaseOutputParser):
-    def parse(self, text: str) -> dict:
+    def parse(self, text: Union[str, dict]) -> dict:
         """
-        Hàm này nhận vào đầu ra từ LLM và trả về một dictionary với các phần đã được tùy chỉnh:
-        - raw: văn bản ban đầu.
-        - markdown: văn bản đã được chuyển đổi thành markdown.
-        - highlight: văn bản đã được tô đậm các điều luật (nếu có).
+        Parse đầu ra từ LLM, có thể là string hoặc dict.
+        Trả về:
+        - raw: gốc
+        - markdown: có định dạng <br>
+        - highlight: tô đậm Điều, Khoản, Mục, Chương...
         """
-        raw_output = text
-        markdown_output = self.convert_to_markdown(text)
-        highlighted_output = self.highlight_laws(text)
+        if isinstance(text, dict):
+            text = text.get("answer", "")
+
+        if not isinstance(text, str):
+            raise ValueError("Input to parser must be string or dict with 'answer' key.")
+
+        raw_output = text.strip()
+        markdown_output = self.convert_to_markdown(raw_output)
+        highlighted_output = self.highlight_legal_terms(markdown_output)
 
         return {
             "raw": raw_output,
@@ -23,13 +30,15 @@ class CustomOutputParser(BaseOutputParser):
 
     def convert_to_markdown(self, text: str) -> str:
         """
-        Chuyển đổi văn bản thành markdown (ví dụ: thêm tiêu đề, danh sách, các đoạn mã).
+        Chuyển văn bản sang markdown với dòng cách (thay \n bằng <br>).
         """
-        # Đơn giản chỉ là chuyển đổi xuống dòng thành <br> để hiển thị tốt hơn trong Markdown
-        return text.replace("\n", "<br>")
+        return "<br>".join(line.strip() for line in text.splitlines() if line.strip())
 
-    def highlight_laws(self, text: str) -> str:
+    def highlight_legal_terms(self, text: str) -> str:
         """
-        Tô đậm các Điều luật trong văn bản. Ví dụ: 'Điều 12' sẽ được tô đậm.
+        Tô đậm các từ khóa pháp lý như: Điều, Khoản, Mục, Chương.
         """
-        return re.sub(r"(Điều\s+\d+)", r"**\1**", text)
+        keywords = [r"(Điều\s+\d+)", r"(Khoản\s+\d+)", r"(Mục\s+\d+)", r"(Chương\s+\w+)"]
+        for kw in keywords:
+            text = re.sub(kw, r"**\1**", text, flags=re.IGNORECASE)
+        return text

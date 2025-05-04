@@ -1,7 +1,6 @@
 # build_vectorstore.py
 import os
 import torch
-# from langchain.text_splitter import RecursiveCharacterTextSplitter
 import time
 import gc
 from tqdm import tqdm
@@ -19,13 +18,13 @@ def build_store():
     # --- 1. Tải cấu hình ---
     print("--- Bước 1: Tải cấu hình ---")
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
-    print(f"Sử dụng thiết bị: {device}")
+    print(f"=> Sử dụng thiết bị: {device}")
 
     # --- 2. Tải và Làm sạch Dữ liệu ---
     print("\n--- Bước 2: Tải và Làm sạch Dữ liệu ---")
     docs = utils.load_and_clean_documents(config.INPUT_TXT_FOLDER)
     if not docs:
-        print("Không có tài liệu nào được tải. Dừng quá trình.")
+        print("=> Không có tài liệu nào được tải. Dừng quá trình.")
         return
 
     # # --- 3. Chunking chia theo token ---
@@ -48,17 +47,17 @@ def build_store():
     print("\n--- Bước 3: Chunking theo cấu trúc (Điều/Khoản) ---")
     chunks = []
     if not docs:
-         print("Không có tài liệu để chunking.")
+         print("=> Không có tài liệu để chunking.")
     else:
          # Lặp qua từng Document (từng file luật)
          for doc in tqdm(docs, desc="Chunking tài liệu"):
              doc_chunks = utils.split_by_structure(doc, max_chunk_size=config.CHUNK_SIZE*2) # Cho phép chunk lớn hơn một chút khi chia theo điều
-             print(f"Tài liệu: {doc.metadata.get('source', 'Không rõ')} => {len(doc_chunks)} chunks")
+             print(f"=> Tài liệu: {doc.metadata.get('source', 'Không rõ')} => {len(doc_chunks)} chunks")
              chunks.extend(doc_chunks)
 
-         print(f"Đã chia thành {len(chunks)} chunks theo cấu trúc.")
+         print(f"=> Đã chia thành {len(chunks)} chunks theo cấu trúc.")
          if not chunks:
-             print("Không có chunks nào được tạo. Dừng quá trình.")
+             print("=> Không có chunks nào được tạo. Dừng quá trình.")
              return
          # Xem thử chunk đầu tiên
          print("\n--- Chunk đầu tiên (ví dụ): ---")

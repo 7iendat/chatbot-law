@@ -20,27 +20,30 @@ def create_access_token(data: dict, expires_delta: timedelta = None):
 
 # Hàm đăng ký người dùng
 async def register_user(user: RegisterRequest):
-    # Kiểm tra username đã tồn tại chưa
-    existing_user = user_collection.find_one({"username": user.username})
-    if existing_user:
-        raise HTTPException(status_code=400, detail="Tài khoản đã tồn tại.")
 
-    # Mã hóa mật khẩu
-    hashed_password = hash_password(user.password)
+    try:
+                # Kiểm tra username đã tồn tại chưa
+        existing_user = user_collection.find_one({"email": user.email})
+        if existing_user:
+            raise HTTPException(status_code=400, detail="Tài khoản đã tồn tại.")
 
-    # Lưu user mới
-    user_collection.insert_one({
-        "username": user.username,
-        "password": hashed_password,
-        "email": user.email,
-        "role": user.role or "user"
-    })
+        # Mã hóa mật khẩu
+        hashed_password = hash_password(user.password)
 
-    return {"message": "Đăng ký thành công."}
+        # Lưu user mới
+        user_collection.insert_one({
+            "username": user.username,
+            "password": hashed_password,
+            "email": user.email,
+            "role": user.role or "user"
+        })
 
+        return {"message": "Đăng ký thành công."}
+    except HTTPException as e:
+        raise HTTPException(status_code=e.status_code, detail=e.detail)
 # Hàm xác thực đăng nhập
 def authenticate_user(request: LoginRequest):
-    user = user_collection.find_one({"username": request.username})
+    user = user_collection.find_one({"email": request.email})
     if not user:
         raise HTTPException(status_code=401, detail="Sai tài khoản hoặc mật khẩu")
 
@@ -53,12 +56,10 @@ def authenticate_user(request: LoginRequest):
 def login_user(request: LoginRequest):
     user = authenticate_user(request)
 
-    session_id = str(uuid.uuid4())
-    access_token = create_access_token(data={"sub": request.username, "session_id": session_id})
+    access_token = create_access_token(data={"sub": request.email})
 
     return  {
         "access_token": access_token,
-        "session_id": session_id,
         "username": user["username"],
         "email": user["email"],
         "role": user.get("role", "user")
