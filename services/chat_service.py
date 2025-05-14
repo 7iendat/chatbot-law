@@ -1,17 +1,18 @@
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import Depends, HTTPException
 from schemas.chat import QueryRequest, AnswerResponse, SourceDocument
 from dependencies import get_current_user
 import time
-import uuid
-from utils.utils import get_redis_history, save_chat_to_redis, search_term_in_dictionary,preprocess_vietnamese_query
-
-from custom_output_parser import CustomOutputParser
+import json
+from utils.utils import  save_chat_to_redis, search_term_in_dictionary,preprocess_vietnamese_query
+# from langchain.memory import ConversationBufferMemory
+import os
 import logging
-import rag_components
-
+from langchain_community.chat_message_histories import RedisChatMessageHistory
 
 logger = logging.getLogger(__name__)
-def ask_question_service(app_state,chat_id: str, request: QueryRequest,user_email: str=Depends(get_current_user)):
+def ask_question_service(app_state, request: QueryRequest,user_email: str=Depends(get_current_user)):
+    chat_id = request.chat_id
+    question = request.question
     if not app_state['redis'].exists(f"chat:{chat_id}:meta"):
         raise HTTPException(status_code=404, detail="Chat ID not found")
     user_in_redis = app_state["redis"].hget(f"chat:{chat_id}:meta", "user")
@@ -23,7 +24,7 @@ def ask_question_service(app_state,chat_id: str, request: QueryRequest,user_emai
 
 
     start_time = time.time()
-    question = preprocess_vietnamese_query(request.question)['accented']
+    question = preprocess_vietnamese_query(question)['accented']
 
 
     if not app_state.get("qa_chain"):
@@ -33,6 +34,26 @@ def ask_question_service(app_state,chat_id: str, request: QueryRequest,user_emai
     term_result = search_term_in_dictionary(question, app_state['dict'])
 
     try:
+        # Initialize Redis memory for this chat_id
+        redis_url = os.environ.get("REDIS_URL")
+        if not redis_url:
+            logger.error("REDIS_URL not set.")
+            raise ValueError("Redis URL is required.")
+
+        # memory = ConversationBufferMemory(
+        #     memory_key="chat_history",
+        #     chat_memory=RedisChatMessageHistory(url=redis_url, session_id=chat_id),
+        #     return_messages=True,
+        #     output_key="answer"
+        # )
+
+        chat_history = RedisChatMessageHistory(
+            url=redis_url,
+            session_id=chat_id
+        )
+        def get_chat_history(_):
+            return chat_history.messages
+
 
         if term_result:
             answer_def = term_result.get("definition", "Không thể tạo câu trả lời.")
@@ -43,60 +64,77 @@ def ask_question_service(app_state,chat_id: str, request: QueryRequest,user_emai
                 processing_time=0.0
             )
 
+        # Prepare input for qa_chain
+        # input_data = {
+        #     "chat_history": memory.load_memory_variables({}).get("chat_history", []),
+        #     "question": question
+        # }
+
+        input_data = {
+            "chat_history": chat_history.messages,
+            "question": question
+        }
+
+        # Call qa_chain
+        try:
+            result = app_state["qa_chain"].invoke(input_data)
+            logger.info(f"🔸QA Chain raw result for chat_id {chat_id}: {result}")
+            # Handle unexpected output format
+            if isinstance(result, dict) and "answer" in result:
+                if isinstance(result["answer"], str):
+                    try:
+                        # Try parsing answer as JSON
+                        parsed_answer = json.loads(result["answer"])
+                        if isinstance(parsed_answer, dict) and "answer" in parsed_answer:
+                            logger.warning(f"🔸Parsed JSON answer for chat_id {chat_id}: {parsed_answer}")
+                            result = {"answer": parsed_answer["answer"]}
+                        else:
+                            logger.warning(f"🔸Answer is a JSON string but not a valid answer dict: {result['answer']}")
+                    except json.JSONDecodeError:
+                        # Not a JSON string, use as is
+                        pass
+                elif "question" in result:
+                    logger.warning(f"🔸Unexpected 'question' key in result for chat_id {chat_id}: {result}")
+                    result = {"answer": "Không thể xử lý câu hỏi. Vui lòng thử lại."}
+                elif "raw" in result:
+                    logger.warning(f"🔸Unexpected 'raw' key in result for chat_id {chat_id}: {result}")
+                    result = {"answer": result["raw"]}
 
 
-        # Get chat history
-        chat_history = get_redis_history(app_state['redis'], chat_id)
+            if not isinstance(result, dict) or "answer" not in result:
+                logger.error(f"🔸Invalid QA Chain result for chat_id {chat_id}: {result}")
+                raise ValueError("QA Chain did not return a valid response.")
 
-        # New code date: 2025-04-30
-        # expanded_query = expand_query(question, llm=app_state["llm"])
-        # retrieved_docs = app_state["retriever"].get_relevant_documents(expanded_query)
-        # final_docs = rerank(expanded_query, retrieved_docs,top_k=5, reranker=app_state["reranker"])
-        # Create a new QA chain for this specific chat session
-        qa_chain = rag_components.create_qa_chain(
-            app_state["llm"],
-            app_state["vectorstore"],
-            app_state["retriever"],
-            chat_id=chat_id  # Pass the actual chat_id
-        )
+            response = result["answer"]
+            if not isinstance(response, str):
+                logger.warning(f"🔸Response is not a string for chat_id {chat_id}: {response}")
+                response = str(response)
+        except Exception as chain_error:
+            logger.error(f"🔸QA Chain error for chat_id {chat_id}: {chain_error}")
+            raise HTTPException(status_code=500, detail=f"QA Chain processing failed: {str(chain_error)}")
 
-
-        if qa_chain is None:
-            raise ValueError("Failed to create QA chain for this chat session")
-
-
-        # Use the newly created chain
-        raw_result = qa_chain.invoke({
-            "question": question,
-            "chat_history": chat_history,
-        })
-
-        # Áp dụng CustomOutputParser để xử lý phần answer nếu cần
-        parser = CustomOutputParser()
-        parsed_result = parser.parse(raw_result["answer"])
-
+        # Save response to memory (for legal chain)
+        # memory.save_context({"question": question}, {"answer": response})
+        chat_history.add_user_message(question)
+        chat_history.add_ai_message(response)
         end_time = time.time()
-        if isinstance(raw_result.get("answer"), dict):
-            answer_data = raw_result["answer"]
-            answer = answer_data.get("answer", "Không thể tạo câu trả lời.")
-            source_documents = answer_data.get("source_documents", None)
-        else:
-            answer = raw_result.get("answer", "Không thể tạo câu trả lời.")
-            source_documents = None
 
-
-        print("Source documents:", raw_result.get("source_documents"))
         # Lưu vào Redis
-        save_chat_to_redis(app_state['redis'],chat_id, question, answer)
+        save_chat_to_redis(app_state['redis'],chat_id, question, response)
         sources_list = []
-        if raw_result.get("source_documents"):
-            for doc in raw_result["source_documents"]:
+        if result.get("source_documents"):
+            for doc in result["source_documents"]:
                  sources_list.append(SourceDocument(
                      source=doc.metadata.get('source', 'N/A'),
                      page_content_preview=doc.page_content[:200] + "..."
                  ))
+
+        logger.info(f"🔸Question: {question}")
+        logger.info(f"🔸Sources list:{sources_list}")
+        logger.info("🔸Answer: {response}")
+
         return AnswerResponse(
-            answer=parsed_result['highlight'],
+            answer=response,
             sources=sources_list if sources_list else None,
             processing_time=round(end_time - start_time, 2)
         )

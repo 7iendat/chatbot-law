@@ -3,6 +3,7 @@ from typing import List, Optional
 from pydantic import Field
 
 class QueryRequest(BaseModel):
+    chat_id: str
     question: str
 
 class SourceDocument(BaseModel):

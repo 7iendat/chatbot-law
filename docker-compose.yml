@@ -19,19 +19,23 @@ services:
             - ./time_priority_retriever.py:/app/time_priority_retriever.py
             - ./data:/app/data
             - ./utils:/app/utils
-            - ./vector_store:/app/vector_store
+            # - ./vector_store:/app/vector_store
             - ./db:/app/db
             - ./routers:/app/routers
             - ./schemas:/app/schemas
             - ./services:/app/services
             - hf_cache:/app/cache
         environment:
-            - TRANSFORMERS_CACHE=/app/cache
             - HF_HOME=/app/cache
             - HF_HUB_DISABLE_SYMLINKS_WARNING=1
+            - TESSDATA_PREFIX=/app/data/tessdata/
+            - WEAVIATE_URL=http://weaviate:8080
         restart: unless-stopped
         depends_on:
             - redis
+            - weaviate
+        networks:
+            - law-network
 
     redis:
         image: redis:7.2-alpine
@@ -41,7 +45,33 @@ services:
         volumes:
             - redis_data:/data
         restart: always
+        networks:
+            - law-network
+
+    weaviate:
+        image: cr.weaviate.io/semitechnologies/weaviate:1.30.2
+        container_name: weaviate-law
+        ports:
+            - "8080:8080"
+            - "50051:50051"
+        volumes:
+            - weaviate_data:/var/lib/weaviate
+        restart: on-failure:0
+        environment:
+            QUERY_DEFAULTS_LIMIT: 25
+            AUTHENTICATION_ANONYMOUS_ACCESS_ENABLED: "true"
+            PERSISTENCE_DATA_PATH: "/var/lib/weaviate"
+            ENABLE_API_BASED_MODULES: "true"
+            CLUSTER_HOSTNAME: "node1"
+            DEFAULT_VECTORIZER_MODULE: "none"
+        networks:
+            - law-network
 
 volumes:
     redis_data:
     hf_cache:
+    weaviate_data:
+
+networks:
+    law-network:
+        driver: bridge

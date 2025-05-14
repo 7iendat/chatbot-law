@@ -1,21 +1,26 @@
 
 import os
-
 from langchain_huggingface import HuggingFaceEmbeddings
-
-from langchain_community.vectorstores import Chroma
+import json
+# from langchain_chroma import Chroma
 import config
 import prompt_templete
-from langchain.memory.chat_message_histories import RedisChatMessageHistory
-from langchain.chains import LLMChain,ConversationalRetrievalChain
-from langchain.memory import ConversationBufferMemory
-from langchain.prompts import PromptTemplate
+from langchain.chains import ConversationalRetrievalChain
 from langchain_groq import ChatGroq
 from langchain_core.prompts import ChatPromptTemplate
-from utils.utils import WrappedLLMChain
-from langchain_core.runnables import RunnableLambda
+from langchain_core.runnables import RunnableLambda, RunnableSequence
 import utils.utils as utils
+from langchain_core.documents import Document
 import logging
+from langchain_core.output_parsers import StrOutputParser
+from langchain_community.vectorstores.utils import filter_complex_metadata
+from typing import List, Dict, Any
+from langchain_weaviate.vectorstores import WeaviateVectorStore
+
+
+
+
+logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 logger = logging.getLogger(__name__)
 
 # Hàm get_huggingface_embeddings giữ nguyên
@@ -33,13 +38,14 @@ def get_huggingface_embeddings(model_name: str, device: str = 'cpu'):
     Raises:
         Exception: Nếu khởi tạo thất bại.
     """
-    print(f"🚀 Đang khởi tạo model embedding: {model_name} trên thiết bị {device}...")
+    logger.info(f"🔸Đang khởi tạo model embedding: {model_name} trên thiết bị {device}...")
 
     model_kwargs = {
         'device': device,
         'trust_remote_code': True  # thêm để đảm bảo load được những model custom
     }
     encode_kwargs = {
+        'batch_size': 32,  # kích thước batch cho embedding
         'normalize_embeddings': True  # normalize để cosine similarity chuẩn
     }
 
@@ -49,72 +55,214 @@ def get_huggingface_embeddings(model_name: str, device: str = 'cpu'):
             model_kwargs=model_kwargs,
             encode_kwargs=encode_kwargs
         )
-        print("✅ Khởi tạo model embedding thành công.")
+        logger.info("🔸 Khởi tạo model embedding thành công.")
         return embeddings
     except Exception as e:
-        print(f"❌ Lỗi khi khởi tạo model embedding: {e}")
+        logger.error(f"🔸Lỗi khi khởi tạo model embedding: {e}")
         raise Exception(f"Khởi tạo model embedding thất bại: {str(e)}")
 
-# Hàm này sẽ được gọi bởi cả build script và API
-def create_or_load_chroma_vectorstore(embeddings, persist_directory, collection_name, chunks=None):
+def create_or_load_vectorstore(embeddings, weaviate_url, collection_name, weaviate_client, chunks=None):
     """
-    Tạo ChromaDB vector store nếu chunks được cung cấp và chưa tồn tại,
+    Tạo Weaviate vector store nếu chunks được cung cấp và chưa tồn tại,
     hoặc tải nếu đã tồn tại.
     """
     vectorstore = None
 
     if not embeddings:
-        print("=> Lỗi: Không có model embedding để tạo/tải vector store.")
+        logger.error("🔸Không có model embedding để tạo/tải vector store.")
         return None
 
-    print(f"=> Kiểm tra/Truy cập ChromaDB tại: {persist_directory} với collection: {collection_name}")
+    logger.info(f"🔸Truy cập Weaviate tại: {weaviate_url} với collection: {collection_name}")
 
-    # Kiểm tra sự tồn tại của thư mục persist
-    db_exists = os.path.exists(persist_directory) and os.listdir(persist_directory)
+    try:
+        # Kết nối tới Weaviate
+        client = weaviate_client
+        if not client:
+            logger.error("🔸Không thể kết nối tới Weaviate.")
+            return None
+        # Tên collection cần kiểm tra
+        collection_name = "LawDocuments"
 
+        # Kiểm tra xem collection có tồn tại không
+        collection_exists = client.collections.exists(collection_name)
 
-    if chunks is not None and not db_exists: # Chỉ tạo mới nếu có chunks và DB chưa tồn tại
-        print(f"Tạo ChromaDB mới từ {len(chunks)} chunks...")
-        try:
-            vectorstore = Chroma.from_documents(
-                documents=chunks,
+        print(f"Collection {collection_name} exists: {collection_exists}")
+
+        if chunks is not None and not collection_exists:
+            logger.info(f"🔸Tạo Weaviate collection mới từ {len(chunks)} chunks...")
+
+            # Kiểm tra mẫu dữ liệu đầu tiên
+            logger.info(f"🔸Chunk đầu tiên:\n{chunks[0].metadata}")
+            logger.info(f"🔸Nội dung:\n{chunks[0].page_content[:500]}...")
+
+            # Lọc metadata để đảm bảo tương thích với Weaviate
+            chunks = filter_complex_metadata(chunks)
+
+            # Tạo vectorstore
+            max_batch_size = 1000  # Kích thước batch an toàn
+            total_chunks = len(chunks)
+            logger.info("🔸Đang nhúng dữ liệu...")
+
+            # Tạo collection mới
+            vectorstore = WeaviateVectorStore.from_documents(
+                documents=chunks[:1],  # Khởi tạo với 1 tài liệu để tạo schema
                 embedding=embeddings,
-                collection_name=collection_name,
-                persist_directory=persist_directory
+                client=client,
+                index_name=collection_name,
+                text_key="text",  # Tên trường văn bản trong tài liệu
             )
-            vectorstore.persist()
-            print(f"=> Tạo và lưu ChromaDB thành công vào: {persist_directory}")
-        except Exception as e:
-            print(f"=> Lỗi khi tạo ChromaDB mới: {e}")
-            return None
-    elif db_exists: # Nếu DB tồn tại, chỉ tải
-        print(f"Tải ChromaDB đã tồn tại từ: {persist_directory}")
-        try:
-            vectorstore = Chroma(
-                collection_name=collection_name,
-                embedding_function=embeddings,
-                persist_directory=persist_directory
+
+            # Thêm tài liệu theo batch
+            for i in range(1, total_chunks, max_batch_size):
+                end_idx = min(i + max_batch_size, total_chunks)
+                current_batch = chunks[i:end_idx]
+                logger.info(f"🔸Đang xử lý batch {i//max_batch_size + 1}/{(total_chunks-1)//max_batch_size + 1}: từ {i} đến {end_idx-1}")
+
+                try:
+                    vectorstore.add_documents(current_batch)
+                    logger.info(f"🔸Đã thêm batch {i//max_batch_size + 1} thành công")
+                except Exception as batch_error:
+                    logger.error(f"🔸Lỗi khi xử lý batch từ {i} đến {end_idx-1}: {str(batch_error)}")
+                    # Thử với batch nhỏ hơn
+                    smaller_batch_size = max_batch_size // 2
+                    if smaller_batch_size >= 10:
+                        logger.info(f"🔸Thử lại với batch size nhỏ hơn: {smaller_batch_size}")
+                        for j in range(i, end_idx, smaller_batch_size):
+                            end_j = min(j + smaller_batch_size, end_idx)
+                            smaller_batch = chunks[j:end_j]
+                            try:
+                                vectorstore.add_documents(smaller_batch)
+                                logger.info(f"🔸Đã thêm batch nhỏ từ {j} đến {end_j-1} thành công")
+                            except Exception as small_batch_error:
+                                logger.error(f"🔸Vẫn lỗi với batch nhỏ hơn từ {j} đến {end_j-1}: {str(small_batch_error)}")
+                    else:
+                        logger.error(f"🔸Batch size đã quá nhỏ, không thể giảm thêm. Bỏ qua batch này.")
+            logger.info(f"🔸Tạo Weaviate collection thành công: {collection_name}")
+
+        elif collection_exists:
+            logger.info(f"🔸Tải Weaviate collection đã tồn tại: {collection_name}")
+            vectorstore = WeaviateVectorStore(
+                client=client,
+                index_name=collection_name,
+                embedding=embeddings,
+                text_key="text",  # Tên trường văn bản trong tài liệu
             )
-            print("=> Tải ChromaDB thành công.")
+            logger.info("🔸Tải Weaviate collection thành công.")
 
-
-        except Exception as e:
-            print(f"Lỗi khi tải ChromaDB: {e}")
+        else:
+            logger.error(f"🔸Collection '{collection_name}' không tồn tại và không có dữ liệu chunks để tạo mới.")
             return None
-    else: # Trường hợp không có chunks và DB cũng không tồn tại
-        print(f"Lỗi: Vector store tại '{persist_directory}' không tồn tại và không có dữ liệu chunks để tạo mới.")
+
+        logger.info("🔸Vectorstore sẵn sàng.")
+        return vectorstore
+
+    except Exception as e:
+        if client:
+            client.close()
+            logger.info("🔸Đã đóng kết nối tới Weaviate.")
+        logger.error(f"🔸Lỗi khi tạo/tải Weaviate vector store: {e}")
         return None
 
-    print("=> Vectorstore sẵn sàng.")
+# Hàm này sẽ được gọi bởi cả build script và API
+# def create_or_load_chroma_vectorstore(embeddings, persist_directory, collection_name, chunks=None):
+#     """
+#     Tạo ChromaDB vector store nếu chunks được cung cấp và chưa tồn tại,
+#     hoặc tải nếu đã tồn tại.
+#     """
+#     vectorstore = None
 
-    return vectorstore
+#     if not embeddings:
+#         logger.error("🔸Không có model embedding để tạo/tải vector store.")
+#         return None
+
+#     logger.info(f"🔸Truy cập ChromaDB tại: {persist_directory} với collection: {collection_name}")
+
+#     # Kiểm tra sự tồn tại của thư mục persist
+#     db_exists = os.path.exists(persist_directory) and os.listdir(persist_directory)
+
+
+#     if chunks is not None and not db_exists: # Chỉ tạo mới nếu có chunks và DB chưa tồn tại
+#         logger.info(f"🔸Tạo ChromaDB mới từ {len(chunks)} chunks...")
+#         try:
+#             # Kiểm tra mẫu dữ liệu đầu tiên
+#             logger.info(f"🔸Chunk đầu tiên:\n{chunks[0].metadata}")
+#             logger.info(f"🔸Nội dung:\n{chunks[0].page_content[:500]}...")
+
+#             chunks = filter_complex_metadata(chunks)
+#             # Kích thước batch tối đa an toàn
+#             max_batch_size = 1000  # Thấp hơn giới hạn 5461 để đảm bảo an toàn
+#             total_chunks = len(chunks)
+#             logger.info("🔸Đang nhúng dữ liệu...")
+#             # Tạo vectorstore từ chunks
+#             vectorstore = Chroma(
+#                 embedding_function=embeddings,
+#                 collection_name=collection_name,
+#                 persist_directory=persist_directory
+#             )
+#             # Thêm tài liệu theo từng batch
+#             for i in range(0, total_chunks, max_batch_size):
+#                 end_idx = min(i + max_batch_size, total_chunks)
+#                 current_batch = chunks[i:end_idx]
+
+#                 logger.info(f"🔸Đang xử lý batch {i//max_batch_size + 1}/{(total_chunks-1)//max_batch_size + 1}: từ {i} đến {end_idx-1}")
+
+#                 try:
+#                     # Thêm batch hiện tại vào vectorstore
+#                     vectorstore.add_documents(current_batch)
+
+#                     logger.info(f"🔸Đã thêm và lưu batch {i//max_batch_size + 1} thành công")
+
+#                 except Exception as batch_error:
+#                     logger.error(f"🔸Lỗi khi xử lý batch từ {i} đến {end_idx-1}: {str(batch_error)}")
+
+#                     # Thử với batch nhỏ hơn nếu có lỗi
+#                     smaller_batch_size = max_batch_size // 2
+#                     if smaller_batch_size >= 10:  # Đảm bảo batch không quá nhỏ
+#                         logger.info(f"🔸Thử lại với batch size nhỏ hơn: {smaller_batch_size}")
+
+#                         for j in range(i, end_idx, smaller_batch_size):
+#                             end_j = min(j + smaller_batch_size, end_idx)
+#                             smaller_batch = chunks[j:end_j]
+
+#                             try:
+#                                 vectorstore.add_documents(smaller_batch)
+#                                 logger.info(f"🔸Đã thêm và lưu batch nhỏ từ {j} đến {end_j-1} thành công")
+#                             except Exception as small_batch_error:
+#                                 logger.error(f"🔸Vẫn lỗi với batch nhỏ hơn từ {j} đến {end_j-1}: {str(small_batch_error)}")
+#                     else:
+#                         logger.error(f"🔸Batch size đã quá nhỏ, không thể giảm thêm. Bỏ qua batch này.")
+#             logger.info(f"🔸Tạo và lưu ChromaDB thành công vào: {persist_directory}")
+#         except Exception as e:
+#             logger.error(f"🔸Lỗi khi tạo ChromaDB mới: {e}")
+#             return None
+#     elif db_exists: # Nếu DB tồn tại, chỉ tải
+#         logger.info(f"🔸Loading ChromaDB đã tồn tại từ: {persist_directory}")
+#         try:
+#             vectorstore = Chroma(
+#                 collection_name=collection_name,
+#                 embedding_function=embeddings,
+#                 persist_directory=persist_directory
+#             )
+#             logger.info("🔸Loaded ChromaDB thành công.")
+
+
+#         except Exception as e:
+#             logger.error(f"🔸Lỗi khi tải ChromaDB: {e}")
+#             return None
+#     else: # Trường hợp không có chunks và DB cũng không tồn tại
+#         logger.error(f"🔸Vector store tại '{persist_directory}' không tồn tại và không có dữ liệu chunks để tạo mới.")
+#         return None
+
+#     logger.info("🔸Vectorstore sẵn sàng.")
+
+#     return vectorstore
 
 def get_groq_llm(groq_api_key, temperature=0.2, max_new_tokens=1024): # Bỏ repo_id
     """Khởi tạo LLM từ Groq."""
-    print("Đang khởi tạo LLM từ Groq...")
+    logger.info("🔸Đang khởi tạo LLM từ Groq...")
 
     if not groq_api_key:
-        print("Lỗi: Groq API Key không được cung cấp.")
+        logger.error("🔸Groq API Key không được cung cấp.")
         return None
 
     try:
@@ -133,133 +281,159 @@ def get_groq_llm(groq_api_key, temperature=0.2, max_new_tokens=1024): # Bỏ rep
             #  context_length = 4096, # Thay đổi độ dài ngữ cảnh nếu cần
         )
 
-        print("Khởi tạo Groq LLM thành công.")
+        logger.info("🔸Khởi tạo Groq LLM thành công.")
         return llm
     except Exception as e:
-        print(f"Lỗi khi khởi tạo Groq LLM: {e}")
+        logger.error(f"🔸Lỗi khi khởi tạo Groq LLM: {e}")
         return None
 
-# Hàm create_qa_chain giữ nguyên
-def create_qa_chain(llm, vectorstore,retriever,chat_id=None):
-    # ... (code giữ nguyên từ trước) ...
+
+def create_qa_chain(llm, vectorstore, retriever=None):
     if not llm or not vectorstore:
-        print("Lỗi: Thiếu LLM hoặc Vector Store để tạo QA Chain.")
+        logger.error("🔸Thiếu LLM hoặc Vector Store để tạo QA Chain.")
         return None
-    # print("Đang tạo RetrievalQA Chain...")
-    print("Đang tạo ConversationalRetrievalChain...")
-    redis_instance= os.environ.get("REDIS_URL")
-    if redis_instance is not None and chat_id is None:
-        print("Warning: chat_id is None but redis_instance is provided. Using default chat_id.")
-        chat_id = "default_chat"  # Provide a default value
 
-    # query_gen_prompt = PromptTemplate.from_template(config.QUERY_GEN_PROMPT_TEMPLATE)
-
-    # query_gen_chain = query_gen_prompt | llm | config.OUTPUT_PARSER
-    # print("query gen chain initialized (RunnableSequence).")
-
-    # C1: Sử dụng retriever mặc định của vectorstore
-    # retriever = vectorstore.as_retriever(search_kwargs={"k": search_k})
-    # print(f"Retriever sẽ lấy {search_k} chunks.")
-
-    # C2: Sử dụng MultiQueryRetriever
-
-
-
-    # # Tạo retriever mới
-    # print("Đang tạo FallbackMultiQueryRetriever...")
-    # years_priority = utils.extract_years_from_vectorstore(vectorstore)
-    # print("=> get year.", years_priority)
-    # print("check", type(llm))
-    # fallback_multi = FallbackMultiQueryRetriever(vectorstore=vectorstore, llm=llm, years=years_priority, search_k=search_k)
-    # print("Đã tạo FallbackMultiQueryRetriever thành công.")
-
-
-    # print("Đã tạo MultiQueryRetriever.")
-    # ... (phần còn lại giữ nguyên) ...
-    # Prompt tùy chọn
-    generic_prompt = ChatPromptTemplate.from_messages([
-        ("system", (
-            "Bạn là một trợ lý ảo AI thân thiện, bạn tên là ***Angel***, nhiệt tình và thông minh, được thiết kế để trả lời các câu hỏi tổng quát "
-            "từ người dùng, bao gồm cả các chủ đề như công nghệ, đời sống, sức khỏe, du lịch, học tập, v.v. "
-            "Nếu câu hỏi vượt ngoài phạm vi kiến thức chuyên sâu, hãy trả lời một cách lịch sự và đề xuất người dùng tìm kiếm thêm thông tin."
-        )),
-        ("human", "{question}")
-    ])
-
-    condense_question_prompt = PromptTemplate(
-        input_variables=["chat_history", "question", "context"],
-        template=prompt_templete.CONDENSE_QUESTION_PROMPT
-    )
-
-    message_history = RedisChatMessageHistory(
-        url=redis_instance,
-        session_id=chat_id
-    )
-
-    # Memory buffer để lưu lịch sử chat
-    memory = ConversationBufferMemory(
-        memory_key="chat_history",
-        chat_memory=message_history,
-        k = 4,
-        return_messages=True,
-        output_key="answer"
-    )
+    logger.info("🔸Đang tạo ConversationalRetrievalChain...")
 
     try:
-        # qa_chain = RetrievalQA.from_chain_type(
-        #     llm=llm,
-        #     chain_type="stuff",
-        #     retriever=retriever,
-        #     chain_type_kwargs=qa_prompt,
-        #     return_source_documents=True,
-        #     output_parser=CustomOutputParser()
-        # )
-        # print("Tạo QA Chain thành công.")
-        # return qa_chain
-        # Kiểm tra giá trị của các đối số đầu vào trước khi gọi các chain
-        if llm is None or generic_prompt is None:
-            logger.error("LLM or Generic Prompt is None")
-            raise ValueError("LLM or Generic Prompt must not be None")
+        # Prompt tổng quát cho câu hỏi không liên quan đến pháp luật
+        generic_prompt = ChatPromptTemplate.from_messages([
+            ("system", (
+                "Bạn là một trợ lý ảo AI thân thiện, bạn tên là ***Angel***, nhiệt tình và thông minh, được thiết kế để trả lời các câu hỏi tổng quát "
+                "từ người dùng, bao gồm cả các chủ đề như công nghệ, đời sống, sức khỏe, du lịch, học tập, v.v. "
+                "Nếu câu hỏi vượt ngoài phạm vi kiến thức chuyên sâu, hãy trả lời một cách lịch sự và đề xuất người dùng tìm kiếm thêm thông tin."
+            )),
+            ("human", "{question}")
+        ])
 
-        generic_chain =  WrappedLLMChain(LLMChain(llm=llm, prompt=generic_prompt, output_key="answer").with_config({"run_name": "General Info"}))
+        logger.info("🔸Đang tạo condense prompt ....")
+        condense_prompt = ChatPromptTemplate.from_template(prompt_templete.CONDENSE_QUESTION_PROMPT)
+        logger.info("🔸Đã tạo condense prompt thành công.")
 
-        if retriever is None or memory is None or condense_question_prompt is None:
-            logger.error("Multi retriever, memory, or condense question prompt is None")
-            raise ValueError("Multi retriever, memory, or condense question prompt must not be None")
+        logger.info("🔸Đang tạo qa prompt ....")
+        qa_prompt = ChatPromptTemplate.from_messages([
+            ("system", prompt_templete.SYSTEM_PROMPT),
+            ("human", prompt_templete.QA_PROMPT_TEMPLATE)
+        ])
+        logger.info("🔸Đã tạo qa prompt thành công.")
 
+        # Khởi tạo ConversationalRetrievalChain cho câu hỏi pháp luật
+        logger.info("🔸Đang tạo ConversationalRetrievalChain cho câu hỏi pháp luật...")
         legal_chain = ConversationalRetrievalChain.from_llm(
             llm=llm,
-            retriever=retriever,
-            memory=memory,
-            condense_question_prompt=condense_question_prompt,
+            retriever=retriever or vectorstore.as_retriever(),
+            condense_question_prompt=condense_prompt,
+            combine_docs_chain_kwargs={
+                "prompt": qa_prompt
+            },
             return_source_documents=True,
             output_key="answer",
-            verbose=True,
+            verbose=True
         )
-        print("Đã tạo ConversationalRetrievalChain thành công.")
+        logger.info("🔸Đã tạo ConversationalRetrievalChain thành công.")
 
-        # Chain trả về duy nhất "answer"
-        wrapped_legal_chain = WrappedLLMChain(legal_chain).with_config({"run_name": "Legal QA"})
+        # Sửa generic_chain để đảm bảo đầu ra là dictionary với key "answer"
+        generic_chain = RunnableSequence(
+            generic_prompt | llm | StrOutputParser() | (lambda x: {"answer": x})
+        ).with_config({"run_name": "GeneralChain"})
 
+        # Hàm định dạng metadata cho source_documents
+        def format_metadata(docs: List[Document]) -> str:
+            if not docs:
+                logger.warning("🔸Không có tài liệu nào được cung cấp.")
+                return "Không có metadata tài liệu."
+            metadata_list = []
+            for doc in docs:
+                metadata = doc.metadata or {}
+                penalty = metadata.get("penalty", "Không có thông tin mức phạt")
+                source = metadata.get("source", "Không có thông tin nguồn")
+                metadata_str = f"- Nguồn: {source}, Mức phạt: {penalty}"
+                metadata_list.append(metadata_str)
+            return "\n".join(metadata_list) or "Không có metadata tài liệu."
+
+        # Hàm router
+        def route_with_history(input: Any) -> Dict[str, Any]:
+            logger.info(f"🔸Router input: {input} (type: {type(input)})")
+
+            # Xử lý các loại đầu vào
+            if isinstance(input, str):
+                logger.warning(f"🔸String input received, converting to dict: {input}")
+                input = {"question": input, "chat_history": []}
+            elif isinstance(input, dict):
+                if "question" not in input:
+                    logger.error(f"🔸Dictionary input missing 'question' key: {input}")
+                    raise ValueError("Input dictionary must contain 'question' key.")
+            else:
+                logger.error(f"🔸Invalid input type: {type(input)}, value: {input}")
+                raise ValueError("Input must be a string or a dictionary with 'question' key.")
+
+            route_key = utils.route_logic(input["question"])
+            chain = {
+                "general": generic_chain,
+                "legal": legal_chain
+            }.get(route_key, generic_chain)
+
+            logger.info(f"🔸Selected chain: {route_key}")
+
+            try:
+                if route_key == "legal":
+                    source_documents = retriever.invoke(input["question"]) if retriever else vectorstore.as_retriever().invoke(input["question"])
+                    logger.info(f"Retrieved {len(source_documents)} source documents for question: {input['question']}")
+                    chain_input = {
+                        "question": input["question"],
+                        "chat_history": input.get("chat_history", []),
+                        "source_documents": format_metadata(source_documents)
+                    }
+                    result = chain.invoke(chain_input)
+                    logger.info(f"🔸Raw legal_chain result: {result} (type: {type(result)})")
+                else:
+                    result = chain.invoke({"question": input["question"]})
+                    logger.info(f"🔸Raw generic_chain result: {result} (type: {type(result)})")
+
+                # Xử lý định dạng đầu ra
+                if not isinstance(result, dict):
+                    logger.warning(f"🔸Chain returned non-dict result: {result} (type: {type(result)})")
+                    result = {"answer": str(result) if result else "Không thể xử lý câu hỏi. Vui lòng thử lại."}
+                elif "answer" not in result:
+                    logger.warning(f"🔸Chain result missing 'answer' key: {result}")
+                    if "result" in result:
+                        result = {"answer": str(result["result"])}
+                    elif "text" in result:
+                        result = {"answer": str(result["text"])}
+                    else:
+                        result = {"answer": "Không thể xử lý câu hỏi. Vui lòng thử lại."}
+
+                # Xử lý chuỗi JSON nếu có
+                if isinstance(result.get("answer"), str):
+                    try:
+                        parsed_answer = json.loads(result["answer"])
+                        if isinstance(parsed_answer, dict) and "answer" in parsed_answer:
+                            logger.warning(f"🔸Parsed JSON answer in chain result: {parsed_answer}")
+                            result["answer"] = parsed_answer["answer"]
+                    except json.JSONDecodeError:
+                        pass
+
+                logger.info(f"🔸Processed chain result: {result}")
+                return result
+
+            except Exception as chain_error:
+                logger.error(f"🔸Chain invocation failed: {chain_error}")
+                raise ValueError(f"Chain invocation failed: {str(chain_error)}")
+
+        # Thiết lập router
         route_logic_runnable = RunnableLambda(lambda input: utils.route_logic(input))
-
-
-
-
-        # Router setup
         router = utils.router_as_runnable(
             routes={
-                # "general": generic_chain.with_config({"run_name": "General Info"}),
                 "general": generic_chain,
-                "legal": wrapped_legal_chain
+                "legal": legal_chain
             },
             get_key=route_logic_runnable,
             default=generic_chain.with_config({"run_name": "Default"})
         )
-        print("=> Tạo chain thành công với memory.")
+        logger.info("🔸Tạo chain thành công với router.")
 
-        # print("Router chain initialized.")
         return router
+
     except Exception as e:
-        print(f"Lỗi khi tạo QA Chain: {e}")
+        logger.error(f"🔸Lỗi khi tạo QA Chain: {e}")
         return None

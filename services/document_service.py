@@ -1,17 +1,19 @@
 import os
-import time
-import asyncio
 import gc
 from fastapi import UploadFile, BackgroundTasks, HTTPException, Request
 from langchain.schema import Document
 import config
 import utils.utils as utils
+import logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logger = logging.getLogger(__name__)
+
 
 async def update_vectorstore_bg(new_file_path: str, app_state):
-    print(f"[BG Task] => Bắt đầu cập nhật với file: {new_file_path}", flush=True)
+    logger.info(f"🔸[BG Task] => Bắt đầu cập nhật với file: {new_file_path}", flush=True)
 
     if not os.path.exists(new_file_path):
-        print(f"[BG Task] => File không tồn tại: {new_file_path}", flush=True)
+        logger.error(f"🔸[BG Task] => File không tồn tại: {new_file_path}", flush=True)
         return
 
     try:
@@ -24,35 +26,35 @@ async def update_vectorstore_bg(new_file_path: str, app_state):
             with open(new_file_path, 'r', encoding='utf-8') as f:
                 content = f.read()
         else:
-            print(f"[BG Task] => Định dạng file '{ext}' chưa được hỗ trợ.", flush=True)
+            logger.error(f"🔸[BG Task] => Định dạng file '{ext}' chưa được hỗ trợ.", flush=True)
             return
 
         if not content.strip():
-            print(f"[BG Task] => Không thể trích xuất nội dung từ file: {new_file_path}", flush=True)
+            logger.error(f"🔸[BG Task] => Không thể trích xuất nội dung từ file: {new_file_path}", flush=True)
             return
 
         doc = Document(page_content=content, metadata={"source": os.path.basename(new_file_path)})
-        doc_chunks = utils.split_by_structure(doc, max_chunk_size=config.CHUNK_SIZE * 2)
+        doc_chunks = utils.split_by_law_structure(doc, max_chunk_size=config.CHUNK_SIZE * 2)
 
         if not doc_chunks:
-            print("[BG Task] => Không có chunk nào được tạo.", flush=True)
+            logger.error("🔸[BG Task] => Không có chunk nào được tạo.", flush=True)
             return
 
         embeddings = app_state.get("embeddings")
         vectorstore = app_state.get("vectorstore")
 
         if not embeddings or not vectorstore:
-            print(f"=> Không tìm thấy embeddings hoặc vectorstore trong app_state.", flush=True)
+            logger.error(f"🔸Không tìm thấy embeddings hoặc vectorstore trong app_state.", flush=True)
             return
 
         vectorstore.add_documents(doc_chunks)
         vectorstore.persist()
         del doc, doc_chunks, content
         gc.collect()
-        print(f"[BG Task] => Đã thêm dữ liệu từ {os.path.basename(new_file_path)} vào Vector Store.", flush=True)
+        logger.info(f"🔸[BG Task] => Đã thêm dữ liệu từ {os.path.basename(new_file_path)} vào Vector Store.", flush=True)
 
     except Exception as e:
-        print(f"=> Lỗi khi cập nhật Vector Store: {e}", flush=True)
+        logger.error(f"🔸Lỗi khi cập nhật Vector Store: {e}", flush=True)
 
 async def upload_and_index_document(file: UploadFile, user, background_tasks: BackgroundTasks, request: Request):
     filename = file.filename

@@ -26,10 +26,10 @@ async def create_chat(request: Request,user_email: str = Depends(get_current_use
     return {"chat_id": chat_id}
 
 
-@router.post("/{chat_id}", response_model=AnswerResponse)
-async def chat_message(chat_id: str,request_body: QueryRequest,request: Request, user_email:str=Depends(get_current_user)):
+@router.post("/", response_model=AnswerResponse)
+async def chat_message(request_body: QueryRequest,request: Request, user_email:str=Depends(get_current_user)):
     app_state = get_app_state(request=request)
-    result = ask_question_service(app_state,chat_id,request_body, user_email)
+    result = ask_question_service(app_state,request_body, user_email)
 
     if not result:
         raise HTTPException(status_code=500, detail="Error during QA Chain invocation")

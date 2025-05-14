@@ -1,4 +1,4 @@
-from db.mongoDB import user_collection, blacklist_collection
+from db.mongoDB import user_collection
 from fastapi import HTTPException
 
 

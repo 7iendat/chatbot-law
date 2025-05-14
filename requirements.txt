@@ -1,5 +1,6 @@
 langchain
 langchain-community
+# langchain-chroma
 groq
 langchain-huggingface
 langchain-core
@@ -10,7 +11,7 @@ pymupdf # PyMuPDF
 pytesseract # OCR
 pillow # Hỗ trợ ảnh
 # faiss-cpu # Có thể xóa nếu không dùng FAISS nữa
-chromadb # Thêm ChromaDB
+# chromadb # Thêm ChromaDB
 tiktoken
 gradio # Vẫn giữ nếu bạn muốn chạy cả app.py
 python-dotenv
@@ -25,3 +26,9 @@ bcrypt
 pymongo[srv]
 pydantic[email]
 python-jose
+underthesea
+opencv-python
+tenacity
+rank_bm25
+langchain-weaviate
+weaviate-client

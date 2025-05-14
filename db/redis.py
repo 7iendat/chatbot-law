@@ -1,6 +1,8 @@
 import redis
 import os
-
+import logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logger = logging.getLogger(__name__)
 
 redis_url = os.environ.get("REDIS_URL")
 r = redis.Redis.from_url(redis_url)
@@ -8,7 +10,7 @@ r = redis.Redis.from_url(redis_url)
 try:
     r = redis.Redis.from_url(redis_url)
     r.ping()  # Kiểm tra kết nối
-    print("=> [Redis] Connected successfully.")
+    logger.info("🔸[Redis] Connected successfully.")
 except redis.RedisError as e:
-    print(f"=> [Redis] Connection failed: {e}")
+    logger.error(f"🔸[Redis] Connection failed: {e}")
     r = None

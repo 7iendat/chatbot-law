@@ -18,6 +18,7 @@ app_state = {
     "dict": {},
     "redis": None,
     "retriever": None,
+    "weaviateDB": None,
 }
 
 @asynccontextmanager
