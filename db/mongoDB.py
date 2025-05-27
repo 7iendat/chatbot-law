@@ -19,6 +19,7 @@ try:
     db = client[DB_NAME]
     user_collection = db["users"]
     blacklist_collection = db["token_blacklist"]
+    conversations_collection = db["conversations"]
 
     # ⚠️ Tạo TTL index để MongoDB tự động xoá token khi tới hạn
     # Chỉ tạo index nếu chưa tồn tại

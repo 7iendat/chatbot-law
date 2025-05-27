@@ -9,7 +9,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 logger = logging.getLogger(__name__)
 
 
-async def update_vectorstore_bg(new_file_path: str, app_state):
+async def update_vectorstore_bg(new_file_path: str, app_state, filename: str):
     logger.info(f"🔸[BG Task] => Bắt đầu cập nhật với file: {new_file_path}", flush=True)
 
     if not os.path.exists(new_file_path):
@@ -33,22 +33,37 @@ async def update_vectorstore_bg(new_file_path: str, app_state):
             logger.error(f"🔸[BG Task] => Không thể trích xuất nội dung từ file: {new_file_path}", flush=True)
             return
 
-        doc = Document(page_content=content, metadata={"source": os.path.basename(new_file_path)})
+
+        year = utils.extract_year_from_filename(filename) or utils.extract_year_from_text(content)
+        law_structure = utils.extract_law_structure(content)
+        cleaned_content = utils.clean_text_optimized(content)
+        field = utils.infer_field(cleaned_content)
+
+        doc = Document(
+            page_content=content,
+            metadata = {
+                "source": os.path.basename(new_file_path),
+                "year": year,
+                "field": field,
+                "entity_type": utils.infer_entity_type(cleaned_content, field),
+                "penalty": utils.extract_penalty(cleaned_content, field),
+                **law_structure,  # Thêm số hiệu, loại văn bản, ngày ban hành
+            }
+        )
         doc_chunks = utils.split_by_law_structure(doc, max_chunk_size=config.CHUNK_SIZE * 2)
 
         if not doc_chunks:
             logger.error("🔸[BG Task] => Không có chunk nào được tạo.", flush=True)
             return
 
-        embeddings = app_state.get("embeddings")
-        vectorstore = app_state.get("vectorstore")
+        embeddings = app_state.embeddings
+        vectorstore = app_state.vectorstore
 
         if not embeddings or not vectorstore:
             logger.error(f"🔸Không tìm thấy embeddings hoặc vectorstore trong app_state.", flush=True)
             return
 
         vectorstore.add_documents(doc_chunks)
-        vectorstore.persist()
         del doc, doc_chunks, content
         gc.collect()
         logger.info(f"🔸[BG Task] => Đã thêm dữ liệu từ {os.path.basename(new_file_path)} vào Vector Store.", flush=True)
@@ -94,7 +109,7 @@ async def upload_and_index_document(file: UploadFile, user, background_tasks: Ba
             f.write(cleaned_text)
 
         app_state = request.app.state.app_state
-        background_tasks.add_task(update_vectorstore_bg, new_file_path=output_path, app_state=app_state)
+        background_tasks.add_task(update_vectorstore_bg, new_file_path=output_path, app_state=app_state, filename=filename)
 
         return {"message": f"=> File '{filename}' đã được tải lên. Vector store đang được cập nhật nền."}
 

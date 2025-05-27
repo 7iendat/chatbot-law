@@ -24,7 +24,7 @@ GROQ_MODEL_NAME = "llama3-70b-8192"
 
 # --- Cấu hình Chunking và Retrieval ---
 CHUNK_SIZE = 1000
-CHUNK_OVERLAP = 250
+CHUNK_OVERLAP = 150
 SEARCH_K = 10
 
 # --- Cấu hình LLM Endpoint ---

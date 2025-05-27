@@ -32,3 +32,6 @@ tenacity
 rank_bm25
 langchain-weaviate
 weaviate-client
+unidecode
+resend
+passlib

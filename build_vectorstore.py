@@ -6,8 +6,34 @@ import config
 import utils.utils as utils
 import rag_components
 import logging
+import weaviate
+from db.weaviateDB import connect_to_weaviate
+
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
+
+def clear_weaviate_collection( collection_name):
+    """Xóa collection cũ trong Weaviate nếu tồn tại."""
+    try:
+        # Kết nối đến Weaviate
+        client = connect_to_weaviate()
+
+        try:
+            collection = client.collections.get(collection_name)
+            # Nếu không lỗi, tức là collection tồn tại
+            logger.info(f"🔸Collection '{collection_name}' đã tồn tại. Đang xóa...")
+            client.collections.delete(collection_name)
+            logger.info(f"🔸Đã xóa collection '{collection_name}' thành công.")
+        except weaviate.exceptions.WeaviateQueryError:
+            # Collection không tồn tại
+            logger.info(f"🔸Collection '{collection_name}' không tồn tại. Không cần xóa.")
+
+        client.close()
+        return True
+
+    except Exception as e:
+        logger.error(f"🔸Lỗi khi xóa collection: {str(e)}")
+        return False
 
 def build_store():
     """Hàm chính để xây dựng hoặc cập nhật Vector Store."""
@@ -18,6 +44,11 @@ def build_store():
     logger.info("🔸Tải cấu hình")
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
     logger.info(f"🔸Sử dụng thiết bị: {device}")
+
+    # --- 1.5. Xóa dữ liệu cũ ---
+    logger.info("🔸Xóa dữ liệu cũ trong Weaviate")
+    if not clear_weaviate_collection(config.WEAVIATE_COLLECTION_NAME):
+        logger.warning("🔸Không thể xóa collection cũ, nhưng sẽ tiếp tục quá trình.")
 
     # --- 2. Tải và Làm sạch Dữ liệu ---
     logger.info("🔸Tải và Làm sạch Dữ liệu")
@@ -33,7 +64,8 @@ def build_store():
     if not docs:
         logger.error("🔸Không có tài liệu để chunking.")
     else:
-         # Lặp qua từng Document (từng file luật)
+
+        # Lặp qua từng Document (từng file luật)
         for doc in tqdm(docs, desc="Chunking tài liệu"):
             doc_chunks = utils.split_by_law_structure(doc, max_chunk_size=config.CHUNK_SIZE*1.5) # Cho phép chunk lớn hơn một chút khi chia theo điều
             logger.info(f"🔸Tài liệu: {doc.metadata.get('source', 'Không rõ')} => {len(doc_chunks)} chunks")
@@ -43,7 +75,8 @@ def build_store():
         if not chunks:
             logger.error("🔸Không có chunks nào được tạo. Dừng quá trình.")
             return
-         # Xem thử chunk đầu tiên
+
+        # Xem thử chunk đầu tiên
         logger.info("🔸Chunk đầu tiên (ví dụ):")
         logger.info(f"🔸Metadata: {chunks[0].metadata}")
         logger.info(chunks[0].page_content[:500] + "...")
@@ -68,10 +101,12 @@ def build_store():
     #     chunks=chunks # << Truyền chunks vào đây
     # )
 
+    weaviate_client = connect_to_weaviate()
     vectorstore = rag_components.create_or_load_vectorstore(
         embeddings=embeddings,
         weaviate_url=config.WEAVIATE_URL,
         collection_name=config.WEAVIATE_COLLECTION_NAME,
+        weaviate_client=weaviate_client,
         chunks=chunks
     )
     end_time = time.time()

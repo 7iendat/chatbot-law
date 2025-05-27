@@ -7,7 +7,7 @@ import config
 import prompt_templete
 from langchain.chains import ConversationalRetrievalChain
 from langchain_groq import ChatGroq
-from langchain_core.prompts import ChatPromptTemplate
+from langchain_core.prompts import ChatPromptTemplate,MessagesPlaceholder
 from langchain_core.runnables import RunnableLambda, RunnableSequence
 import utils.utils as utils
 from langchain_core.documents import Document
@@ -18,6 +18,11 @@ from typing import List, Dict, Any
 from langchain_weaviate.vectorstores import WeaviateVectorStore
 
 
+from langchain_core.prompts import PromptTemplate
+from langchain.chains import create_history_aware_retriever, create_retrieval_chain
+from langchain.chains.combine_documents import create_stuff_documents_chain
+from langchain_core.messages import HumanMessage, AIMessage
+
 
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
@@ -25,19 +30,6 @@ logger = logging.getLogger(__name__)
 
 # Hàm get_huggingface_embeddings giữ nguyên
 def get_huggingface_embeddings(model_name: str, device: str = 'cpu'):
-    """
-    Hàm khởi tạo HuggingFaceEmbeddings với model chỉ định.
-
-    Args:
-        model_name (str): Tên model trên HuggingFace Hub.
-        device (str, optional): 'cpu' hoặc 'cuda'. Defaults to 'cpu'.
-
-    Returns:
-        HuggingFaceEmbeddings: Instance đã khởi tạo thành công.
-
-    Raises:
-        Exception: Nếu khởi tạo thất bại.
-    """
     logger.info(f"🔸Đang khởi tạo model embedding: {model_name} trên thiết bị {device}...")
 
     model_kwargs = {
@@ -55,17 +47,13 @@ def get_huggingface_embeddings(model_name: str, device: str = 'cpu'):
             model_kwargs=model_kwargs,
             encode_kwargs=encode_kwargs
         )
-        logger.info("🔸 Khởi tạo model embedding thành công.")
+        logger.info("🔸Khởi tạo model embedding thành công.")
         return embeddings
     except Exception as e:
         logger.error(f"🔸Lỗi khi khởi tạo model embedding: {e}")
         raise Exception(f"Khởi tạo model embedding thất bại: {str(e)}")
 
 def create_or_load_vectorstore(embeddings, weaviate_url, collection_name, weaviate_client, chunks=None):
-    """
-    Tạo Weaviate vector store nếu chunks được cung cấp và chưa tồn tại,
-    hoặc tải nếu đã tồn tại.
-    """
     vectorstore = None
 
     if not embeddings:
@@ -145,7 +133,18 @@ def create_or_load_vectorstore(embeddings, weaviate_url, collection_name, weavia
                 client=client,
                 index_name=collection_name,
                 embedding=embeddings,
-                text_key="text",  # Tên trường văn bản trong tài liệu
+                text_key="text",
+                attributes=[
+                    'year',
+                    'source',
+                    'field',
+                    'penalty',
+                    'entity_type',
+                    "so_hieu",
+                    "loai_van_ban",
+                    "ngay_ban_hanh",
+                    "nam_ban_hanh"
+                ]  # Tên trường văn bản trong tài liệu
             )
             logger.info("🔸Tải Weaviate collection thành công.")
 
@@ -258,7 +257,6 @@ def create_or_load_vectorstore(embeddings, weaviate_url, collection_name, weavia
 #     return vectorstore
 
 def get_groq_llm(groq_api_key, temperature=0.2, max_new_tokens=1024): # Bỏ repo_id
-    """Khởi tạo LLM từ Groq."""
     logger.info("🔸Đang khởi tạo LLM từ Groq...")
 
     if not groq_api_key:
@@ -266,13 +264,15 @@ def get_groq_llm(groq_api_key, temperature=0.2, max_new_tokens=1024): # Bỏ rep
         return None
 
     try:
-
         prompt = ChatPromptTemplate.from_messages([
             ("system", prompt_templete.SYSTEM_PROMPT),
-            ("user", "{input}")
+            ("human", "{input}")
         ])
-        # Tạo LLM từ Groq
-        llm = prompt |  ChatGroq(
+
+
+
+        def create_chat_groq():
+            return ChatGroq(
             groq_api_key=groq_api_key,
             temperature=temperature, # Điều chỉnh nhiệt độ nếu cần
             max_tokens=max_new_tokens,
@@ -281,11 +281,70 @@ def get_groq_llm(groq_api_key, temperature=0.2, max_new_tokens=1024): # Bỏ rep
             #  context_length = 4096, # Thay đổi độ dài ngữ cảnh nếu cần
         )
 
+        llm = create_chat_groq()
+
+        llm_chain = prompt | llm
+
         logger.info("🔸Khởi tạo Groq LLM thành công.")
-        return llm
+        return llm_chain
     except Exception as e:
         logger.error(f"🔸Lỗi khi khởi tạo Groq LLM: {e}")
         return None
+
+# def get_google_llm(google_api_key):
+#     logger.info("🔸Đang khởi tạo LLM từ Google Generative AI...")
+#     if not google_api_key:
+#         logger.error("🔸Google API Key không được cung cấp.")
+#         return None
+#     try:
+#         # System prompt đã được định nghĩa trong prompt_templete.SYSTEM_PROMPT
+#         # prompt = ChatPromptTemplate.from_messages([
+#         #     ("system", prompt_templete.SYSTEM_PROMPT),
+#         #     ("human", "{input}")
+#         # ])
+
+#         def create_chat_google():
+#             return ChatGoogleGenerativeAI(
+#                 model="gemini-2.0-flash",
+#                 temperature=0.1,
+#                 max_tokens=4096,
+#                 timeout=60,
+#                 max_retries=3,
+#                 google_api_key=google_api_key,
+#                 top_p=0.85,
+#                 top_k=40,
+#                 # safety_settings=[
+#                 #     {"category": "HARM_CATEGORY_DANGEROUS_CONTENT", "threshold": "BLOCK_MEDIUM_AND_ABOVE"},
+#                 #     {"category": "HARM_CATEGORY_HARASSMENT", "threshold": "BLOCK_MEDIUM_AND_ABOVE"},
+#                 # ],
+#                 # generation_config={
+#                 #     "stop_sequences": ["DISCLAIMER:", "LƯU Ý QUAN TRỌNG:"],
+#                 #     "candidate_count": 1,
+#                 #     "response_mime_type": "text/plain",
+#                 # },
+#                 convert_system_message_to_human=False,  # Quan trọng: giữ nguyên system message
+#                 # KHÔNG sử dụng additional_kwargs với system_instruction ở đây
+#             )
+
+#         llm = create_chat_google()
+#         # llm_chain = prompt | llm
+
+#         logger.info("🔸Khởi tạo Google Generative AI LLM thành công.")
+#         return llm
+#     except Exception as e:
+#         logger.error(f"🔸Lỗi khi khởi tạo Google Generative AI LLM: {e}")
+#         return None
+
+def format_chat_history(chat_history):
+    if not chat_history:
+        return []
+    formatted_history = []
+    for message in chat_history:
+        if isinstance(message, tuple) and len(message) == 2:
+            human_msg, ai_msg = message
+            formatted_history.append(HumanMessage(content=human_msg))
+            formatted_history.append(AIMessage(content=ai_msg))
+    return formatted_history
 
 
 def create_qa_chain(llm, vectorstore, retriever=None):
@@ -293,147 +352,86 @@ def create_qa_chain(llm, vectorstore, retriever=None):
         logger.error("🔸Thiếu LLM hoặc Vector Store để tạo QA Chain.")
         return None
 
-    logger.info("🔸Đang tạo ConversationalRetrievalChain...")
-
     try:
-        # Prompt tổng quát cho câu hỏi không liên quan đến pháp luật
+        logger.info("🔸Bắt đầu tạo ConversationalRetrievalChain...")
+
+        # ----- PROMPTS -----
         generic_prompt = ChatPromptTemplate.from_messages([
-            ("system", (
-                "Bạn là một trợ lý ảo AI thân thiện, bạn tên là ***Angel***, nhiệt tình và thông minh, được thiết kế để trả lời các câu hỏi tổng quát "
-                "từ người dùng, bao gồm cả các chủ đề như công nghệ, đời sống, sức khỏe, du lịch, học tập, v.v. "
-                "Nếu câu hỏi vượt ngoài phạm vi kiến thức chuyên sâu, hãy trả lời một cách lịch sự và đề xuất người dùng tìm kiếm thêm thông tin."
-            )),
-            ("human", "{question}")
+            ("system", prompt_templete.GENERAL_PROMPT),
+            ("human", "{input}")
         ])
 
-        logger.info("🔸Đang tạo condense prompt ....")
-        condense_prompt = ChatPromptTemplate.from_template(prompt_templete.CONDENSE_QUESTION_PROMPT)
-        logger.info("🔸Đã tạo condense prompt thành công.")
+        condense_prompt = ChatPromptTemplate.from_messages([
+            ("system", prompt_templete.CONDENSE_QUESTION_PROMPT),
+            MessagesPlaceholder(variable_name="chat_history"),
+            ("human", "{input}")
+        ])
 
-        logger.info("🔸Đang tạo qa prompt ....")
         qa_prompt = ChatPromptTemplate.from_messages([
             ("system", prompt_templete.SYSTEM_PROMPT),
             ("human", prompt_templete.QA_PROMPT_TEMPLATE)
         ])
-        logger.info("🔸Đã tạo qa prompt thành công.")
 
-        # Khởi tạo ConversationalRetrievalChain cho câu hỏi pháp luật
-        logger.info("🔸Đang tạo ConversationalRetrievalChain cho câu hỏi pháp luật...")
-        legal_chain = ConversationalRetrievalChain.from_llm(
+        # ----- TẠO CHAIN XỬ LÝ TÀI LIỆU -----
+        document_chain = create_stuff_documents_chain(
             llm=llm,
-            retriever=retriever or vectorstore.as_retriever(),
-            condense_question_prompt=condense_prompt,
-            combine_docs_chain_kwargs={
-                "prompt": qa_prompt
-            },
-            return_source_documents=True,
-            output_key="answer",
-            verbose=True
+            prompt=qa_prompt,
+            document_variable_name="context",
+            output_parser=StrOutputParser()
         )
-        logger.info("🔸Đã tạo ConversationalRetrievalChain thành công.")
 
-        # Sửa generic_chain để đảm bảo đầu ra là dictionary với key "answer"
-        generic_chain = RunnableSequence(
-            generic_prompt | llm | StrOutputParser() | (lambda x: {"answer": x})
+        _retriever = retriever or vectorstore.as_retriever()
+
+        retriever_chain = create_history_aware_retriever(
+            llm=llm,
+            retriever=_retriever,
+            prompt=condense_prompt,
+        )
+
+        legal_chain = create_retrieval_chain(
+            retriever_chain,
+            document_chain
+        )
+
+
+
+        # ----- TẠO CHAIN TỔNG QUÁT -----
+        # generic_chain = RunnableSequence(
+        #     generic_prompt
+        #     | llm
+        #     | RunnableLambda(lambda x: {"answer": x})
+        # ).with_config({"run_name": "GeneralChain"})
+
+        general_chain = (
+            generic_prompt
+            | llm # Dùng llm_model gốc
+            | StrOutputParser()
+            | RunnableLambda(lambda text_answer: {"answer": text_answer, "context": []}) # Thêm context rỗng cho đồng nhất
         ).with_config({"run_name": "GeneralChain"})
 
-        # Hàm định dạng metadata cho source_documents
+        # ----- FORMAT METADATA (nếu cần hiển thị thêm) -----
         def format_metadata(docs: List[Document]) -> str:
             if not docs:
-                logger.warning("🔸Không có tài liệu nào được cung cấp.")
                 return "Không có metadata tài liệu."
-            metadata_list = []
-            for doc in docs:
-                metadata = doc.metadata or {}
-                penalty = metadata.get("penalty", "Không có thông tin mức phạt")
-                source = metadata.get("source", "Không có thông tin nguồn")
-                metadata_str = f"- Nguồn: {source}, Mức phạt: {penalty}"
-                metadata_list.append(metadata_str)
-            return "\n".join(metadata_list) or "Không có metadata tài liệu."
-
-        # Hàm router
-        def route_with_history(input: Any) -> Dict[str, Any]:
-            logger.info(f"🔸Router input: {input} (type: {type(input)})")
-
-            # Xử lý các loại đầu vào
-            if isinstance(input, str):
-                logger.warning(f"🔸String input received, converting to dict: {input}")
-                input = {"question": input, "chat_history": []}
-            elif isinstance(input, dict):
-                if "question" not in input:
-                    logger.error(f"🔸Dictionary input missing 'question' key: {input}")
-                    raise ValueError("Input dictionary must contain 'question' key.")
-            else:
-                logger.error(f"🔸Invalid input type: {type(input)}, value: {input}")
-                raise ValueError("Input must be a string or a dictionary with 'question' key.")
-
-            route_key = utils.route_logic(input["question"])
-            chain = {
-                "general": generic_chain,
-                "legal": legal_chain
-            }.get(route_key, generic_chain)
-
-            logger.info(f"🔸Selected chain: {route_key}")
-
-            try:
-                if route_key == "legal":
-                    source_documents = retriever.invoke(input["question"]) if retriever else vectorstore.as_retriever().invoke(input["question"])
-                    logger.info(f"Retrieved {len(source_documents)} source documents for question: {input['question']}")
-                    chain_input = {
-                        "question": input["question"],
-                        "chat_history": input.get("chat_history", []),
-                        "source_documents": format_metadata(source_documents)
-                    }
-                    result = chain.invoke(chain_input)
-                    logger.info(f"🔸Raw legal_chain result: {result} (type: {type(result)})")
-                else:
-                    result = chain.invoke({"question": input["question"]})
-                    logger.info(f"🔸Raw generic_chain result: {result} (type: {type(result)})")
-
-                # Xử lý định dạng đầu ra
-                if not isinstance(result, dict):
-                    logger.warning(f"🔸Chain returned non-dict result: {result} (type: {type(result)})")
-                    result = {"answer": str(result) if result else "Không thể xử lý câu hỏi. Vui lòng thử lại."}
-                elif "answer" not in result:
-                    logger.warning(f"🔸Chain result missing 'answer' key: {result}")
-                    if "result" in result:
-                        result = {"answer": str(result["result"])}
-                    elif "text" in result:
-                        result = {"answer": str(result["text"])}
-                    else:
-                        result = {"answer": "Không thể xử lý câu hỏi. Vui lòng thử lại."}
-
-                # Xử lý chuỗi JSON nếu có
-                if isinstance(result.get("answer"), str):
-                    try:
-                        parsed_answer = json.loads(result["answer"])
-                        if isinstance(parsed_answer, dict) and "answer" in parsed_answer:
-                            logger.warning(f"🔸Parsed JSON answer in chain result: {parsed_answer}")
-                            result["answer"] = parsed_answer["answer"]
-                    except json.JSONDecodeError:
-                        pass
-
-                logger.info(f"🔸Processed chain result: {result}")
-                return result
-
-            except Exception as chain_error:
-                logger.error(f"🔸Chain invocation failed: {chain_error}")
-                raise ValueError(f"Chain invocation failed: {str(chain_error)}")
-
-        # Thiết lập router
-        route_logic_runnable = RunnableLambda(lambda input: utils.route_logic(input))
+            return "\n".join(
+                f"- Nguồn: {doc.metadata.get('source', 'Không rõ')}, Mức phạt: {doc.metadata.get('penalty', 'Không có')}"
+                for doc in docs
+            )
+        def get_route_key(input_dict):
+            return utils.route_logic(input_dict)
+        # ----- ROUTER -----
         router = utils.router_as_runnable(
             routes={
-                "general": generic_chain,
+                "general": general_chain,
                 "legal": legal_chain
             },
-            get_key=route_logic_runnable,
-            default=generic_chain.with_config({"run_name": "Default"})
-        )
-        logger.info("🔸Tạo chain thành công với router.")
+            get_key=RunnableLambda(get_route_key),
+            default=general_chain
+        ).with_config({"run_name": "QAChainRouter"})
 
+        logger.info("🔸Đã tạo thành công QA Router Chain.")
         return router
 
     except Exception as e:
-        logger.error(f"🔸Lỗi khi tạo QA Chain: {e}")
+        logger.error(f"🔸Lỗi khi tạo QA Chain: {e}", exc_info=True)
         return None
