@@ -7,6 +7,7 @@ from datetime import datetime , timezone
 from services.user_service import get_paginated_users,get_current_user_profile, delete_user,change_password,reset_password_request,reset_password, generate_and_store_verification_code, authenticate_user, verify_login_code,refresh_access_token,verify_forgot_password_code
 from dependencies import bearer_scheme, get_current_user, admin_required, get_app_state
 from schemas.user import LoginRequest, LoginResponse, RegisterRequest, RegisterResponse, UserOut,PaginatedResponse,ProfileResponse,ChangePasswordRequest,PasswordResetRequest,PasswordReset,VerifyLoginRequest,RefreshTokenRequest,VerifyForgotPassRequest, ResentVerifyCode,TokenValidationResponse,TokenValidationRequest
+from typing import Dict, List
 
 router = APIRouter()
 
@@ -121,9 +122,21 @@ async def complete_password_reset(request: PasswordReset):
 async def register(request: RegisterRequest):
     return await register_user(request)
 
+# @router.post("/logout")
+# async def logout(req: Request,credentials: HTTPAuthorizationCredentials = Depends(bearer_scheme)):
+#     return await logout_user(req, credentials)
+
 @router.post("/logout")
-async def logout(req: Request,credentials: HTTPAuthorizationCredentials = Depends(bearer_scheme)):
-    return await logout_user(req, credentials)
+async def logout_user(response: Response):
+    """
+    Đăng xuất người dùng bằng cách xóa HttpOnly cookies.
+    """
+
+    response.delete_cookie(key="access_token_cookie", path="/", samesite="lax") # Đảm bảo các thuộc tính khớp với lúc set
+    response.delete_cookie(key="refresh_token", path="/", samesite="lax")
+    # Có thể thêm logic thu hồi refresh token ở backend nếu cần
+
+    return {"message": "Đăng xuất thành công"}
 
 @router.get("/list_users", response_model=PaginatedResponse)
 async def list_users(
@@ -147,7 +160,8 @@ async def list_users(
 @router.get("/me", response_model=ProfileResponse)
 async def get_profile(current_user: UserOut = Depends(get_current_user)):
     """Lấy thông tin profile của người dùng hiện tại"""
-    return await get_current_user_profile(current_user.email)
+
+    return current_user
 
 @router.delete("/{user_id}", status_code=status.HTTP_204_NO_CONTENT)
 async def remove_user(

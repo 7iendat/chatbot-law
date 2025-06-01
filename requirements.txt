@@ -7,6 +7,7 @@ langchain-core
 langchain-groq
 sentence-transformers
 python-multipart
+huggingface-hub[hf-xet]
 pymupdf # PyMuPDF
 pytesseract # OCR
 pillow # Hỗ trợ ảnh
@@ -35,3 +36,5 @@ weaviate-client
 unidecode
 resend
 passlib
+python-Levenshtein
+langchain-google-genai

@@ -1,6 +1,6 @@
 from fastapi import APIRouter, UploadFile, File, BackgroundTasks, HTTPException, Depends, Request
 from services.document_service import (
-    upload_and_index_document
+    upload_document_and_schedule_processing
 )
 from dependencies import get_current_user
 
@@ -13,4 +13,4 @@ async def upload_doc(
     request: Request = None,
     user=Depends(get_current_user)
 ):
-    return await upload_and_index_document(file, user, background_tasks, request)
+    return await upload_document_and_schedule_processing(file, user, background_tasks, request)

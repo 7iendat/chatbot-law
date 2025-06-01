@@ -1,5 +1,6 @@
 from fastapi import Depends, HTTPException
 from schemas.chat import QueryRequest, AnswerResponse, SourceDocument
+from schemas.user import UserOut
 from dependencies import get_current_user
 import time
 import json
@@ -146,7 +147,7 @@ logger = logging.getLogger(__name__)
 #         raise HTTPException(status_code=500, detail=f"Internal Server Error: {str(e)}")
 
 
-async def ask_question_service(app_state, request: QueryRequest, user: str = Depends(get_current_user)):
+async def ask_question_service(app_state, request: QueryRequest, user: UserOut = Depends(get_current_user)):
     chat_id = request.chat_id
     question_content = request.input # Giữ lại câu hỏi gốc của user để lưu
 
@@ -170,14 +171,16 @@ async def ask_question_service(app_state, request: QueryRequest, user: str = Dep
 
     # --- 2. Tiền xử lý câu hỏi ---
     cleaned_question = preprocess_input(question_content)
+
+    logger.info(f'Cleaned ques: {cleaned_question}')
     # Sử dụng câu hỏi đã xử lý bởi Groq cho chain, nhưng lưu câu hỏi gốc/cleaned vào DB/Redis
-    question_for_chain = process_with_groq(app_state.process_input_llm, cleaned_question)
-    logger.info(f"Question for chain (chat_id: {chat_id}): {question_for_chain}")
+    # question_for_chain = process_with_groq(app_state.process_input_llm, cleaned_question)
+    # logger.info(f"Question for chain (chat_id: {chat_id}): {question_for_chain}")
 
 
     # --- 3. Kiểm tra từ điển thuật ngữ (nếu có) ---
-    if hasattr(app_state, 'dict') and app_state.dict: # Kiểm tra xem app_state.dict có tồn tại không
-        term_result = search_term_in_dictionary(question_for_chain, app_state.dict)
+    if hasattr(app_state, 'dict') and app_state.dict:
+        term_result = search_term_in_dictionary(cleaned_question, app_state.dict)
         if term_result:
             answer_def = term_result.get("definition", "Không thể tìm thấy định nghĩa.")
             assistant_response_time = datetime.now(timezone.utc)
@@ -186,12 +189,18 @@ async def ask_question_service(app_state, request: QueryRequest, user: str = Dep
             save_chat_to_redis(
                 app_state.redis, chat_id, question_content, answer_def, current_utc_time, assistant_response_time
             )
-            save_chat_to_mongo(
+            await save_chat_to_mongo(
                 conversations_collection, chat_id, user.email, question_content, answer_def, current_utc_time, assistant_response_time
             )
+            friendly_answer = f"Xin chào! Về câu hỏi '{question_content}' của bạn, tôi đã tìm thấy thông tin sau:\n\n{answer_def}\n\nHy vọng thông tin này hữu ích cho bạn. Bạn có muốn tìm hiểu thêm về chủ đề này hoặc có câu hỏi nào khác không? 😊"
             return AnswerResponse(
-                answer=answer_def,
-                sources='legal_terms', # Hoặc cấu trúc SourceDocument
+                answer=friendly_answer,
+                sources=[
+                    SourceDocument(
+                        source="Thuật ngữ pháp lý",
+                        page_content_preview=f"Định nghĩa thuật ngữ từ cơ sở dữ liệu"
+                    )
+                ],
                 processing_time=round(time.time() - start_time, 2)
             )
 
@@ -243,7 +252,7 @@ async def ask_question_service(app_state, request: QueryRequest, user: str = Dep
 
         input_data_for_chain = {
             "chat_history":  langchain_chat_history.messages, # Lấy messages đã được đồng bộ
-            "input": question_for_chain
+            "input": cleaned_question
         }
 
     except Exception as e:
@@ -287,7 +296,7 @@ async def ask_question_service(app_state, request: QueryRequest, user: str = Dep
     )
     # Lưu vào MongoDB
     # Chạy ngầm hoặc sau khi trả lời user để không làm chậm response (nếu có thể)
-    save_chat_to_mongo(
+    await save_chat_to_mongo(
         conversations_collection, chat_id, user.email, question_content, assistant_response_content, current_utc_time, assistant_response_time
     )
     # Langchain's RedisChatMessageHistory cũng sẽ tự lưu nếu chain được cấu hình với memory.
@@ -337,13 +346,13 @@ async def stream_chat_generator(
     try:
         # --- 1. Xác thực và kiểm tra metadata từ Redis (Tương tự ask_question_service) ---
         meta_key = f"conversation_meta:{chat_id}"
-        if not await app_state.redis.exists(meta_key):
+        if not  app_state.redis.exists(meta_key):
             logger.warning(f"Stream: Metadata cho chat_id {chat_id} không tìm thấy.")
             error_payload = {"error": "Chat ID not found or session expired. Please reload."}
             yield f"event: error\ndata: {json.dumps(error_payload)}\n\n"
             return
 
-        user_in_redis_bytes = await app_state.redis.hget(meta_key, "user_id")
+        user_in_redis_bytes =  app_state.redis.hget(meta_key, "user_id")
         if not user_in_redis_bytes:
             logger.error(f"Stream: user_id không có trong metadata của chat {chat_id}.")
             error_payload = {"error": "Chat metadata corrupted."}
@@ -361,15 +370,15 @@ async def stream_chat_generator(
         cleaned_question = preprocess_input(question_content)
         # Sử dụng Groq để xử lý trước (nếu cần và nó nhanh)
         # Cân nhắc: Nếu process_with_groq chậm, nó có thể làm delay chunk đầu tiên.
-        question_for_chain = process_with_groq(app_state.process_input_llm, cleaned_question)
-        logger.info(f"Stream: Question for chain (chat_id: {chat_id}): {question_for_chain}")
+        # question_for_chain = process_with_groq(app_state.process_input_llm, cleaned_question)
+        # logger.info(f"Stream: Question for chain (chat_id: {chat_id}): {question_for_chain}")
         initial_processing_done_time = time.time()
         logger.info(f"Stream: Initial processing for {chat_id} took {initial_processing_done_time - start_time_total:.2f}s")
 
 
         # --- 3. Kiểm tra từ điển thuật ngữ (nếu có, và nó nhanh) ---
         if hasattr(app_state, 'dict') and app_state.dict:
-            term_result = search_term_in_dictionary(question_for_chain, app_state.dict)
+            term_result = search_term_in_dictionary(cleaned_question, app_state.dict)
             if term_result:
                 answer_def = term_result.get("definition", "Không thể tìm thấy định nghĩa.")
                 assistant_response_time_dict = datetime.now(timezone.utc)
@@ -401,10 +410,10 @@ async def stream_chat_generator(
         # --- 4. Lấy lịch sử chat cho Langchain Chain (Tương tự) ---
         try:
             # get_langchain_chat_history nên là async nếu redis client là async
-            langchain_chat_history = await get_langchain_chat_history(app_state, chat_id)
+            langchain_chat_history = await  get_langchain_chat_history(app_state, chat_id)
             input_data_for_chain = {
                 "chat_history": langchain_chat_history.messages,
-                "input": question_for_chain
+                "input": cleaned_question
             }
         except Exception as e:
             logger.error(f"Stream: Lỗi khi chuẩn bị chat history (chat_id: {chat_id}): {e}", exc_info=True)
@@ -447,14 +456,14 @@ async def stream_chat_generator(
             elif hasattr(chunk, 'content'): # Giống AIMessageChunk
                 token = chunk.content
             elif isinstance(chunk, dict):
-                token = chunk.get("answer", chunk.get("token", "")) # Ưu tiên "answer", rồi "token"
+                token = chunk.get("answer") or chunk.get("token") or chunk.get("content") or ""
                 # Kiểm tra sources nếu chunk là dict và chưa stream sources
                 if not sources_streamed and "source_documents" in chunk:
                     current_sources = chunk["source_documents"]
 
             if token:
                 full_answer_for_saving += token
-                data_payload = {"token": token}
+                data_payload = {"token": token, "is_final": False}
                 yield f"data: {json.dumps(data_payload)}\n\n"
                 chunk_count += 1
 
@@ -513,11 +522,11 @@ async def stream_chat_generator(
     except HTTPException as e: # Bắt HTTPException đã được raise từ các hàm con
         logger.error(f"Stream: HTTPException for chat_id {chat_id}: {e.detail}", exc_info=True)
         error_payload = {"error": e.detail, "status_code": e.status_code}
-        yield f"event: error\ndata: {json.dumps(error_payload)}\n\n"
+        yield f"event: error_stream\ndata: {json.dumps(error_payload)}\n\n"
     except Exception as e:
         logger.error(f"Stream: Unhandled exception for chat_id {chat_id}: {e}", exc_info=True)
         error_payload = {"error": "An unexpected server error occurred during streaming."}
-        yield f"event: error\ndata: {json.dumps(error_payload)}\n\n"
+        yield f"event: error_stream\ndata: {json.dumps(error_payload)}\n\n"
     finally:
         # Đảm bảo generator kết thúc đúng cách.
         # EventSource trên client sẽ tự động đóng khi generator kết thúc.

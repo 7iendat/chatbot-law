@@ -11,6 +11,8 @@ from services.send_email import send_reset_password_email,send_verification_code
 from schemas.user import LoginRequest
 from utils.utils import create_access_token,create_refresh_token, verify_password
 import json
+import os
+
 
 logger = logging.getLogger(__name__)
 # Initialize password hashing context
@@ -156,6 +158,7 @@ async def get_current_user_profile(email: str):
     """
     try:
         user =  user_collection.find_one({"email": email}, {"_id": 0, "password": 0})
+        logger.info(f"check user user_service: {user}")
         if not user:
             raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Người dùng không tồn tại")
         return user
@@ -405,60 +408,196 @@ async def generate_and_store_verification_code(email: str) -> bool:
         )
 
 
-async def verify_login_code( email: str, code: str, res: Response) -> dict:
+# async def verify_login_code( email: str, code: str, res: Response) -> dict:
+#     """
+#     Xác minh mã đăng nhập và trả về thông tin đăng nhập kèm refresh token.
+
+#     Args:
+#         email (str): Địa chỉ email của người dùng.
+#         code (str): Mã xác minh do người dùng cung cấp.
+
+#     Returns:
+#         dict: Thông tin đăng nhập bao gồm access_token, refresh_token, username, email, role.
+
+#     Raises:
+#         HTTPException: Nếu mã không hợp lệ, đã hết hạn hoặc có lỗi hệ thống.
+#     """
+#     try:
+#         # Find user by email and code
+#         user =  user_collection.find_one({
+#             "email": email.lower(),
+#             "login_verification_code": code
+#         })
+#         if not user:
+#             logger.warning(f"Mã xác minh không hợp lệ: {code} cho email: {email}")
+#             raise HTTPException(
+#                 status_code=status.HTTP_400_BAD_REQUEST,
+#                 detail="Mã xác minh không hợp lệ"
+#             )
+
+#         # Check if code is expired
+#         expiry = user.get("login_verification_expiry")
+#         if not expiry or expiry < datetime.now():
+#             logger.warning(f"Mã xác minh đã hết hạn cho email: {email}")
+#             raise HTTPException(
+#                 status_code=status.HTTP_400_BAD_REQUEST,
+#                 detail="Mã xác minh đã hết hạn"
+#             )
+
+#         # Generate access and refresh tokens
+#         accessToken = create_access_token(data={"sub": email})
+#         refresh_token = await create_refresh_token(email)
+
+#         # Set refresh token as HttpOnly cookie
+#         res.set_cookie(
+#             key="refresh_token",
+#             value=refresh_token,
+#             max_age=7 * 24 * 60 * 60,  # 7 days in seconds
+#             httponly=True,              # Prevents JavaScript access
+#             secure=False,                # HTTPS only (set to False for development)
+#             samesite="lax",          # CSRF protection
+#             path="/",                   # Available for all routes
+#         )
+
+
+#         # Clear verification code
+#         user_collection.update_one(
+#             {"_id": ObjectId(user["_id"])},
+#             {
+#                 "$unset": {
+#                     "login_verification_code": "",
+#                     "login_verification_expiry": "",
+#                     "login_verification_timestamp": ""
+#                 },
+#                 "$set": {
+#                     "last_login": datetime.now()
+#                 }
+#             }
+#         )
+
+#         logger.info(f"Đăng nhập thành công cho email: {email}")
+#         return {
+#             "accessToken": accessToken,
+#             "user": {
+#                 "email": email.lower(),
+#                 "username": user.get("username", "N/A"),
+#                 "role": user.get("role", "user"),
+#                 "avatar_url": user.get("avatar_url", None)
+#             },
+#             "message": "Đăng nhập thành công"
+#         }
+
+#     except HTTPException as he:
+#         raise he
+#     except Exception as e:
+#         logger.error(f"Lỗi khi xác minh mã đăng nhập: {str(e)}")
+#         raise HTTPException(
+#             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+#             detail="Lỗi hệ thống khi xác minh mã đăng nhập."
+#         )
+
+async def verify_login_code(email: str, code: str, res: Response): # Bỏ kiểu trả về dict, để FastAPI tự suy luận hoặc dùng Pydantic model
     """
-    Xác minh mã đăng nhập và trả về thông tin đăng nhập kèm refresh token.
+    Xác minh mã đăng nhập, set access và refresh tokens vào HttpOnly cookies,
+    và trả về thông tin người dùng.
 
     Args:
         email (str): Địa chỉ email của người dùng.
         code (str): Mã xác minh do người dùng cung cấp.
+        res (Response): Đối tượng Response của FastAPI để set cookies.
 
     Returns:
-        dict: Thông tin đăng nhập bao gồm access_token, refresh_token, username, email, role.
+        dict: Thông tin người dùng và thông báo thành công.
 
     Raises:
         HTTPException: Nếu mã không hợp lệ, đã hết hạn hoặc có lỗi hệ thống.
     """
     try:
-        # Find user by email and code
-        user =  user_collection.find_one({
+        user =  user_collection.find_one({ # Sử dụng await nếu user_collection là async (ví dụ Motor)
             "email": email.lower(),
             "login_verification_code": code
         })
+        # Nếu user_collection là đồng bộ (ví dụ PyMongo)
+        # user = user_collection.find_one({ ... })
+
         if not user:
             logger.warning(f"Mã xác minh không hợp lệ: {code} cho email: {email}")
             raise HTTPException(
                 status_code=status.HTTP_400_BAD_REQUEST,
-                detail="Mã xác minh không hợp lệ"
+                detail="Mã xác minh không hợp lệ hoặc đã được sử dụng." # Thêm "đã được sử dụng"
             )
 
-        # Check if code is expired
         expiry = user.get("login_verification_expiry")
-        if not expiry or expiry < datetime.now():
+        if not expiry or expiry < datetime.now(expiry.tzinfo if expiry.tzinfo else None): # So sánh aware với aware, naive với naive
             logger.warning(f"Mã xác minh đã hết hạn cho email: {email}")
+            # Xóa mã đã hết hạn để tránh sử dụng lại
+            user_collection.update_one(
+                {"_id": ObjectId(user["_id"])},
+                {
+                    "$unset": {
+                        "login_verification_code": "",
+                        "login_verification_expiry": "",
+                        "login_verification_timestamp": ""
+                    }
+                }
+            )
             raise HTTPException(
                 status_code=status.HTTP_400_BAD_REQUEST,
-                detail="Mã xác minh đã hết hạn"
+                detail="Mã xác minh đã hết hạn."
             )
 
-        # Generate access and refresh tokens
-        accessToken = create_access_token(data={"sub": email})
-        refresh_token = await create_refresh_token(email)
+        try:
+            token_expire_minutes_str = os.getenv("ACCESS_TOKEN_EXPIRE_MINUTES", "60") # Default là chuỗi "60"
+            ACCESS_TOKEN_EXPIRE_MINUTES_INT = int(token_expire_minutes_str)
+            if ACCESS_TOKEN_EXPIRE_MINUTES_INT <= 0:
+                logger.warning(f"Giá trị ACCESS_TOKEN_EXPIRE_MINUTES ('{token_expire_minutes_str}') không hợp lệ, sử dụng mặc định 60 phút.")
+                ACCESS_TOKEN_EXPIRE_MINUTES_INT = 60
+        except ValueError:
+            logger.error(f"Không thể chuyển đổi ACCESS_TOKEN_EXPIRE_MINUTES ('{os.getenv('ACCESS_TOKEN_EXPIRE_MINUTES')}') sang số nguyên. Sử dụng mặc định 60 phút.")
+            ACCESS_TOKEN_EXPIRE_MINUTES_INT = 60
 
-        # Set refresh token as HttpOnly cookie
+        logger.info(f"Sử dụng thời gian hết hạn cho access token: {ACCESS_TOKEN_EXPIRE_MINUTES_INT} phút.")
+        access_token_expires = timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES_INT) # Sử dụng biến đã chuyển đổi
+        refresh_token_expires = timedelta(days=7) # Sử dụng biến đã chuyển đổi
+        access_token = create_access_token(
+            data={"sub": email.lower()}, expires_delta=access_token_expires
+        ) # Giả sử create_access_token chấp nhận expires_delta
+
+        IS_PRODUCTION = os.getenv("APP_ENVIRONMENT", "development").lower() == "production"
+        # Generate refresh token (logic của bạn đã có)
+        refresh_token_value = await  create_refresh_token(email.lower()) # Đảm bảo email là lowercase
+        # --- SET COOKIES ---
+        # Môi trường (ví dụ: "development", "production")
+        # Bạn nên có một biến môi trường để xác định điều này
+        # IS_PRODUCTION = os.getenv("ENVIRONMENT") == "production"
+        # Tạm đặt là True, bạn nên lấy từ biến môi trường
+        max_age_seconds = int(access_token_expires.total_seconds())
+        logger.info(f"Setting access_token_cookie with Max-Age: {max_age_seconds} seconds")
+        # Access Token Cookie
         res.set_cookie(
-            key="refresh_token",
-            value=refresh_token,
-            max_age=7 * 24 * 60 * 60,  # 7 days in seconds
-            httponly=True,              # Prevents JavaScript access
-            secure=False,                # HTTPS only (set to False for development)
-            samesite="lax",          # CSRF protection
-            path="/",                   # Available for all routes
+            key="access_token_cookie", # Tên cookie cho access token
+            value=access_token,
+            max_age=int(access_token_expires.total_seconds()), # Thời gian sống bằng access token
+            httponly=True,
+            secure=IS_PRODUCTION, # True trong production (HTTPS), False khi dev với HTTP
+            samesite="lax", # Hoặc "strict"
+            path="/",
         )
 
+        # Refresh Token Cookie (logic của bạn đã có, điều chỉnh secure)
+        res.set_cookie(
+            key="refresh_token",
+            value=refresh_token_value,
+            max_age=int(refresh_token_expires.total_seconds()),
+            httponly=True,
+            secure=IS_PRODUCTION, # True trong production, False khi dev với HTTP
+            samesite="lax",
+            path="/api/user/refresh-token",
+        )
+        # --------------------
 
-        # Clear verification code
-        user_collection.update_one(
+        # Clear verification code và cập nhật last_login
+        update_result =  user_collection.update_one( # Sử dụng await nếu là async
             {"_id": ObjectId(user["_id"])},
             {
                 "$unset": {
@@ -467,30 +606,37 @@ async def verify_login_code( email: str, code: str, res: Response) -> dict:
                     "login_verification_timestamp": ""
                 },
                 "$set": {
-                    "last_login": datetime.now()
+                    "last_login": datetime.now(timezone.utc if expiry.tzinfo else None) # Giữ timezone nhất quán
                 }
             }
         )
+        # if update_result.modified_count == 0:
+            # logger.warning(f"Không thể cập nhật user sau khi xác minh: {email}")
+            # Cân nhắc có nên raise lỗi ở đây không, hoặc chỉ log
 
-        logger.info(f"Đăng nhập thành công cho email: {email}")
+        logger.info(f"Đăng nhập thành công cho email: {email}. Tokens đã được set vào cookies.")
+
+        # Response trả về không còn chứa accessToken
         return {
-            "accessToken": accessToken,
+            # "accessToken": access_token, # KHÔNG TRẢ VỀ ACCESS TOKEN TRONG BODY NỮA
             "user": {
                 "email": email.lower(),
-                "username": user.get("username", "N/A"),
+                "username": user.get("username", email.lower().split('@')[0]), # Cung cấp username mặc định nếu không có
                 "role": user.get("role", "user"),
-                "avatar_url": user.get("avatar_url", None)
+                "avatar_url": user.get("avatar_url", None) # Hoặc một avatar mặc định
             },
-            "message": "Đăng nhập thành công"
+            "message": "Đăng nhập thành công. Tokens đã được lưu trữ an toàn."
         }
 
     except HTTPException as he:
+        # Ghi log chi tiết hơn cho HTTPException nếu cần
+        # logger.error(f"HTTPException trong verify_login_code cho {email}: {he.detail}", exc_info=not (he.status_code < 500))
         raise he
     except Exception as e:
-        logger.error(f"Lỗi khi xác minh mã đăng nhập: {str(e)}")
+        logger.error(f"Lỗi hệ thống khi xác minh mã đăng nhập cho {email}: {e}", exc_info=True)
         raise HTTPException(
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
-            detail="Lỗi hệ thống khi xác minh mã đăng nhập."
+            detail="Lỗi hệ thống, vui lòng thử lại sau."
         )
 
 
@@ -543,7 +689,9 @@ async def refresh_access_token(req: Request  , res: Response ) -> dict:
             )
 
         # Find user by refresh token in database
-        user = await user_collection.find_one({"refresh_token": refresh_token})
+        user =  user_collection.find_one({"refresh_token": refresh_token})
+
+
         if not user:
             logger.warning(f"Refresh token không hợp lệ: {refresh_token}")
             await send_suspicious_activity_email(user.get("email", "unknown") if user else "unknown")
@@ -555,7 +703,7 @@ async def refresh_access_token(req: Request  , res: Response ) -> dict:
 
         # Check if refresh token is expired
         expiry = user.get("refresh_token_expiry")
-        if not expiry or expiry < datetime.now(tz=timezone.utc):
+        if not expiry or expiry < datetime.now():
             logger.warning(f"Refresh token đã hết hạn cho email: {user['email']}")
             await send_suspicious_activity_email(user["email"])
             raise HTTPException(
@@ -564,44 +712,67 @@ async def refresh_access_token(req: Request  , res: Response ) -> dict:
                 headers={"WWW-Authenticate": "Bearer"}
             )
 
+        email = user.get('email')
         # Generate new access token
-        accessToken = create_access_token(data={"sub": user["email"]})
+        token_expire_minutes_str = os.getenv("ACCESS_TOKEN_EXPIRE_MINUTES", "60") # Default là chuỗi "60"
+        ACCESS_TOKEN_EXPIRE_MINUTES_INT = int(token_expire_minutes_str)
+        access_token_expires = timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES_INT) # Sử dụng biến đã chuyển đổi
+        access_token = create_access_token(
+            data={"sub": email.lower()}, expires_delta=access_token_expires
+        ) # Giả sử create_access_token chấp nhận expires_delta
 
+        IS_PRODUCTION = os.getenv("APP_ENVIRONMENT", "development").lower() == "production"
         # Generate new refresh token (rotation)
-        new_refresh_token = await create_refresh_token(user["email"])
+        new_refresh_token = await create_refresh_token(email)
 
         # Update database with new refresh token
-        await user_collection.update_one(
+        user_collection.update_one(
             {"_id": user["_id"]},
             {
                 "$set": {
                     "refresh_token": new_refresh_token,
-                    "refresh_token_expiry": datetime.now(tz=timezone.utc) + timedelta(days=7)
+                    "refresh_token_expiry": datetime.now() + timedelta(days=7),
+                    "last_login": datetime.now(timezone.utc)
                 }
             }
         )
 
-        # Prepare response
-        response_data = {
-            "accessToken": accessToken,
-            "username": user["username"],
-            "email": user["email"],
-            "role": user.get("role", "user")
-        }
+
+
+         # Set access token mới vào cookie
+        res.set_cookie(
+            key="access_token_cookie", # Đảm bảo tên này khớp với client mong đợi
+            value=access_token,
+            max_age= access_token_expires, # tính bằng giây
+            httponly=True,
+            secure=IS_PRODUCTION,
+            samesite='lax', # type: ignore
+            path='/',
+        )
 
         # Set new refresh token in cookie
         res.set_cookie(
             key="refresh_token",
             value=new_refresh_token,
-            max_age=7 * 24 * 60 * 60,  # 30 days
+            max_age=7 * 24 * 60 * 60,  # 7 days
             httponly=True,
-            secure=False,  # Set to False for local development
+            secure=IS_PRODUCTION,  # Set to False for local development
             samesite="lax",  # CSRF protection
-            path="/",
+            path="/api/user/refresh-token",
         )
 
         logger.info(f"Access token refreshed for email: {user['email']}")
-        return response_data
+        return {
+            "success": True,
+            "message": "Token đã được làm mới thành công.",
+            "user": {
+                "username": user['username'], # Lấy username, fallback về email
+                "email": user['email'],
+                "role": user['role'],
+                "avatar_url": user['avatar_url']
+            }
+            # Không cần trả về token trong body nếu chúng đã được set trong HttpOnly cookies
+        }
 
     except HTTPException as he:
         raise he

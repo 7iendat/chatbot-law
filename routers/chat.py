@@ -1,8 +1,9 @@
 from fastapi import APIRouter, Depends, HTTPException, Request
 from schemas.chat import QueryRequest, AnswerResponse, ChatHistoryResponse
+from schemas.user import UserOut
 from dependencies import get_current_user
 from services.chat_service import ask_question_service, stream_chat_generator
-from utils.utils import get_redis_history,delete_chat_from_redis
+from utils.utils import delete_chat_from_redis
 from dependencies import get_app_state
 import logging
 import uuid
@@ -43,7 +44,7 @@ router = APIRouter()
 @router.post("/create-chat")
 async def create_chat(
     fastapi_request: Request, # Sử dụng Request từ FastAPI
-    current_user: str = Depends(get_current_user) # Sử dụng User model của bạn
+    current_user: UserOut = Depends(get_current_user) # Sử dụng User model của bạn
 ):
     app_state = get_app_state(request=fastapi_request)
     redis_client: Redis = app_state.redis # Nên đặt tên rõ ràng là redis_client
@@ -113,7 +114,7 @@ async def create_chat(
 
 
 @router.post("/", response_model=AnswerResponse)
-async def chat_message(request_body: QueryRequest,request: Request, user:str=Depends(get_current_user)):
+async def chat_message(request_body: QueryRequest,request: Request, user:UserOut=Depends(get_current_user)):
     app_state = get_app_state(request=request)
     result = await ask_question_service(app_state,request_body, user)
 
@@ -126,7 +127,7 @@ async def stream_chat_endpoint(
     chat_id: str,  # Lấy từ query param
     input: str,    # Lấy từ query param (tên param này phải khớp với FE)
     request: Request,
-    user: dict = Depends(get_current_user) # Sửa kiểu user
+    user: UserOut = Depends(get_current_user) # Sửa kiểu user
 ):
     app_state = get_app_state(request=request)
     user_email = getattr(user, 'email', str(user)) # Lấy email an toàn
@@ -146,13 +147,13 @@ async def stream_chat_endpoint(
     )
 
 @router.delete("/chats/{chat_id}")
-async def delete_chat(chat_id: str, request: Request, user: str = Depends(get_current_user)):
+async def delete_chat(chat_id: str, request: Request, user: UserOut = Depends(get_current_user)):
     app_state = get_app_state(request=request)
     redis = app_state.redis
 
-
+    meta_key = f"conversation_meta:{chat_id}"
     # Kiểm tra quyền trước khi xóa
-    user_in_chat =  redis.hget(f"chat:{chat_id}:meta", "user")
+    user_in_chat =  redis.hget(meta_key, "user_id")
     if user_in_chat is None:
         raise HTTPException(status_code=404, detail="Chat not found")
 
@@ -166,7 +167,7 @@ async def delete_chat(chat_id: str, request: Request, user: str = Depends(get_cu
     if result.deleted_count == 0:
         raise HTTPException(status_code=404, detail="Chat not found in MongoDB")
 
-    return {"detail": "Chat deleted successfully"}
+    return {"message": "Chat deleted successfully"}
 
 # @router.get("/{chat_id}/history",response_model=ChatHistoryResponse)
 # async def history(request: Request,chat_id: str):
@@ -184,7 +185,7 @@ async def delete_chat(chat_id: str, request: Request, user: str = Depends(get_cu
 #         raise HTTPException(status_code=500, detail="Internal Server Error")
 
 @router.get("/conversations", response_model=List[ConversationResponse])
-async def get_conversations(user: str = Depends(get_current_user)):
+async def get_conversations(user: UserOut = Depends(get_current_user)):
     try:
         logger.info(f"Attempting to get conversations for user: {user.email}")
         db_conversations_cursor = conversations_collection.find({"user_id": user.email})
@@ -252,7 +253,7 @@ async def get_conversations(user: str = Depends(get_current_user)):
 async def load_conversation_and_sync_redis(
     fastapi_request: Request, # Đổi tên biến request
     chat_id: str, # Lấy trực tiếp từ path param
-    current_user: str = Depends(get_current_user) # Sử dụng User model
+    current_user: UserOut = Depends(get_current_user) # Sử dụng User model
 ):
     app_state = get_app_state(request=fastapi_request)
     redis_client = app_state.redis # Nên là client async nếu có thể
@@ -312,7 +313,7 @@ async def load_conversation_and_sync_redis(
             }
             # Xóa meta cũ và đặt lại, hoặc dùng hmset để cập nhật
             pipe.delete(meta_redis_key)
-            pipe.hmset(meta_redis_key, conversation_meta_data)
+            pipe.hset(meta_redis_key, conversation_meta_data)
             pipe.expire(meta_redis_key, 86400)
 
             # Đồng bộ hóa với key của Langchain RedisChatMessageHistory (QUAN TRỌNG)

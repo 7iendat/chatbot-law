@@ -101,8 +101,8 @@ class UserResponse(BaseModel):
     avatar_url: Optional[str] = None
 
 class LoginResponse(BaseModel):
-    accessToken: str
-    token_type: str = "bearer"
+    # accessToken: str
+    # token_type: str = "bearer"
     user: UserResponse
     message: str
 
@@ -119,6 +119,8 @@ class UserOut(BaseModel):
     username: str
     email: EmailStr
     role: UserRole = Field(default=UserRole.USER, description="User role", example=UserRole.USER)
+    avatar_url: Optional[str] = None
+    is_active:bool = Field(default=True)
 
 class RefreshTokenRequest(BaseModel):
     refresh_token: str

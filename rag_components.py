@@ -8,17 +8,17 @@ import prompt_templete
 from langchain.chains import ConversationalRetrievalChain
 from langchain_groq import ChatGroq
 from langchain_core.prompts import ChatPromptTemplate,MessagesPlaceholder
-from langchain_core.runnables import RunnableLambda, RunnableSequence
+from langchain_core.runnables import RunnableLambda, RunnablePassthrough, RunnableParallel
 import utils.utils as utils
 from langchain_core.documents import Document
 import logging
 from langchain_core.output_parsers import StrOutputParser
 from langchain_community.vectorstores.utils import filter_complex_metadata
-from typing import List, Dict, Any
+from typing import List, Dict
 from langchain_weaviate.vectorstores import WeaviateVectorStore
-
-
-from langchain_core.prompts import PromptTemplate
+from langchain_google_genai import ChatGoogleGenerativeAI
+from utils.route_logic import route_logic
+# from langchain_core.prompts import PromptTemplate
 from langchain.chains import create_history_aware_retriever, create_retrieval_chain
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain_core.messages import HumanMessage, AIMessage
@@ -291,49 +291,40 @@ def get_groq_llm(groq_api_key, temperature=0.2, max_new_tokens=1024): # Bỏ rep
         logger.error(f"🔸Lỗi khi khởi tạo Groq LLM: {e}")
         return None
 
-# def get_google_llm(google_api_key):
-#     logger.info("🔸Đang khởi tạo LLM từ Google Generative AI...")
-#     if not google_api_key:
-#         logger.error("🔸Google API Key không được cung cấp.")
-#         return None
-#     try:
-#         # System prompt đã được định nghĩa trong prompt_templete.SYSTEM_PROMPT
-#         # prompt = ChatPromptTemplate.from_messages([
-#         #     ("system", prompt_templete.SYSTEM_PROMPT),
-#         #     ("human", "{input}")
-#         # ])
+def get_google_llm(google_api_key):
+    logger.info("🔸Đang khởi tạo LLM từ Google Generative AI...")
+    if not google_api_key:
+        logger.error("🔸Google API Key không được cung cấp.")
+        return None
+    try:
+        # System prompt đã được định nghĩa trong prompt_templete.SYSTEM_PROMPT
+        # prompt = ChatPromptTemplate.from_messages([
+        #     ("system", prompt_templete.SYSTEM_PROMPT),
+        #     ("human", "{input}")
+        # ])
 
-#         def create_chat_google():
-#             return ChatGoogleGenerativeAI(
-#                 model="gemini-2.0-flash",
-#                 temperature=0.1,
-#                 max_tokens=4096,
-#                 timeout=60,
-#                 max_retries=3,
-#                 google_api_key=google_api_key,
-#                 top_p=0.85,
-#                 top_k=40,
-#                 # safety_settings=[
-#                 #     {"category": "HARM_CATEGORY_DANGEROUS_CONTENT", "threshold": "BLOCK_MEDIUM_AND_ABOVE"},
-#                 #     {"category": "HARM_CATEGORY_HARASSMENT", "threshold": "BLOCK_MEDIUM_AND_ABOVE"},
-#                 # ],
-#                 # generation_config={
-#                 #     "stop_sequences": ["DISCLAIMER:", "LƯU Ý QUAN TRỌNG:"],
-#                 #     "candidate_count": 1,
-#                 #     "response_mime_type": "text/plain",
-#                 # },
-#                 convert_system_message_to_human=False,  # Quan trọng: giữ nguyên system message
-#                 # KHÔNG sử dụng additional_kwargs với system_instruction ở đây
-#             )
+        def create_chat_google():
+            return ChatGoogleGenerativeAI(
+                model="gemini-2.5-flash-preview-04-17", # Hoặc "gemini-pro" nếu 1.5 Pro chưa ổn định/có vấn đề
+                google_api_key=google_api_key,
+                temperature=0.1, # Điều chỉnh nhiệt độ nếu cần, 0.1-0.3 thường tốt cho RAG
+                # convert_system_message_to_human=True # Có thể cần cho một số prompt phức tạp, thử nghiệm
+                safety_settings={ # Tùy chỉnh cài đặt an toàn nếu cần
+                    # HarmCategory.HARM_CATEGORY_UNSPECIFIED: HarmBlockThreshold.BLOCK_NONE,
+                    # HarmCategory.HARM_CATEGORY_DEROGATORY: HarmBlockThreshold.BLOCK_NONE,
+                    # ... (thêm các category khác)
+                    # Tham khảo: from google.generativeai.types import HarmCategory, HarmBlockThreshold
+                }
+            )
 
-#         llm = create_chat_google()
-#         # llm_chain = prompt | llm
+        llm = create_chat_google()
+        # llm_chain = prompt | llm
 
-#         logger.info("🔸Khởi tạo Google Generative AI LLM thành công.")
-#         return llm
-#     except Exception as e:
-#         logger.error(f"🔸Lỗi khi khởi tạo Google Generative AI LLM: {e}")
-#         return None
+        logger.info("🔸Khởi tạo Google Generative AI LLM thành công.")
+        return llm
+    except Exception as e:
+        logger.error(f"🔸Lỗi khi khởi tạo Google Generative AI LLM: {e}")
+        return None
 
 def format_chat_history(chat_history):
     if not chat_history:
@@ -347,7 +338,7 @@ def format_chat_history(chat_history):
     return formatted_history
 
 
-def create_qa_chain(llm, vectorstore, retriever=None):
+def create_qa_chain(llm, vectorstore, retriever, process_input_llm=None):
     if not llm or not vectorstore:
         logger.error("🔸Thiếu LLM hoặc Vector Store để tạo QA Chain.")
         return None
@@ -380,19 +371,32 @@ def create_qa_chain(llm, vectorstore, retriever=None):
             output_parser=StrOutputParser()
         )
 
-        _retriever = retriever or vectorstore.as_retriever()
+        _retriever = retriever or vectorstore.as_retriever(
+            search_type="similarity_score_threshold",
+            search_kwargs={"k": 10, "score_threshold": 0.5} # Cấu hình retriever mặc định của bạn
+        )
 
-        retriever_chain = create_history_aware_retriever(
+        # history_aware_retriever sẽ nhận {input: câu hỏi đã xử lý bởi Groq, chat_history: ...}
+        history_aware_retriever = create_history_aware_retriever(
             llm=llm,
             retriever=_retriever,
             prompt=condense_prompt,
         )
 
-        legal_chain = create_retrieval_chain(
-            retriever_chain,
+        # legal_chain_retrieval_part sẽ xử lý câu hỏi đã được process_with_groq
+        legal_chain_retrieval_part = create_retrieval_chain(
+            history_aware_retriever, # Retriever này sẽ nhận câu hỏi đã được xử lý
             document_chain
         )
 
+        def process_question_for_legal_chain(input_dict: Dict):
+            # input_dict ở đây sẽ là {"input": cleaned_question, "chat_history": ...}
+            # từ RunnablePassthrough trong router
+            cleaned_question = input_dict.get("input", "")
+            question_for_chain = utils.process_with_groq(process_input_llm, cleaned_question) # Gọi hàm của bạn
+            logger.info(f"[Legal Branch] Question processed by Groq: {question_for_chain}")
+            # Trả về dict mới cho history_aware_retriever và legal_chain_retrieval_part
+            return {"input": question_for_chain, "chat_history": input_dict.get("chat_history", [])}
 
 
         # ----- TẠO CHAIN TỔNG QUÁT -----
@@ -402,11 +406,35 @@ def create_qa_chain(llm, vectorstore, retriever=None):
         #     | RunnableLambda(lambda x: {"answer": x})
         # ).with_config({"run_name": "GeneralChain"})
 
+        # general_chain = (
+        #     generic_prompt
+        #     | llm # Dùng llm_model gốc
+        #     | StrOutputParser()
+        #     | RunnableLambda(lambda text_answer: {"answer": text_answer, "context": []}) # Thêm context rỗng cho đồng nhất
+        # ).with_config({"run_name": "GeneralChain"})
+
+
+
+        # Full legal chain
+        # Nó sẽ nhận input là {"input": cleaned_question, "chat_history": ...}
+        # sau đó process_question_for_legal_chain sẽ biến đổi "input"
+        # rồi đưa vào legal_chain_retrieval_part
+        legal_chain_full = (
+            RunnableLambda(process_question_for_legal_chain)
+            | legal_chain_retrieval_part
+        ).with_config({"run_name": "LegalChainWithGroqProcessing"})
+
+        # ----- CHAIN TỔNG QUÁT (GENERAL) -----
+        # general_chain sẽ nhận trực tiếp {input: cleaned_question, chat_history: ...}
+        # và chỉ sử dụng "input" cho generic_prompt
         general_chain = (
-            generic_prompt
-            | llm # Dùng llm_model gốc
-            | StrOutputParser()
-            | RunnableLambda(lambda text_answer: {"answer": text_answer, "context": []}) # Thêm context rỗng cho đồng nhất
+            RunnablePassthrough.assign( # Giữ lại chat_history nếu cần, nhưng generic_prompt không dùng
+                input_for_prompt=lambda x: x["input"]
+            )
+            | {
+                "answer": generic_prompt | llm | StrOutputParser(),
+                "context": lambda x: [] # Trả về context rỗng
+              }
         ).with_config({"run_name": "GeneralChain"})
 
         # ----- FORMAT METADATA (nếu cần hiển thị thêm) -----
@@ -418,19 +446,43 @@ def create_qa_chain(llm, vectorstore, retriever=None):
                 for doc in docs
             )
         def get_route_key(input_dict):
-            return utils.route_logic(input_dict)
+            return route_logic(input_dict)
         # ----- ROUTER -----
-        router = utils.router_as_runnable(
+        # router = utils.router_as_runnable(
+        #     routes={
+        #         "general": general_chain,
+        #         "legal": legal_chain
+        #     },
+        #     get_key=RunnableLambda(get_route_key),
+        #     default=general_chain
+        # ).with_config({"run_name": "QAChainRouter"})
+
+        # logger.info("🔸Đã tạo thành công QA Router Chain.")
+        # return router
+
+        # ----- ROUTER -----
+        # Input cho router sẽ là: {"input": cleaned_question, "chat_history": ...}
+        # get_route_key sẽ chỉ dùng "input" (cleaned_question) để quyết định nhánh
+        def get_route_key_from_input_dict(input_dict_for_router: Dict) -> str:
+            question_for_routing = input_dict_for_router.get("input", "")
+            logger.info(f"DEBUG get_route_key: question_for_routing NHẬN ĐƯỢC = '{question_for_routing}'")
+            # << Thêm toàn bộ các log debug bên trong route_logic như đã thảo luận ở lần trước >>
+            route = route_logic({"input": question_for_routing})
+            logger.info(f"DEBUG get_route_key: route_logic TRẢ VỀ = '{route}' CHO INPUT = '{question_for_routing}'")
+            return route
+
+
+        qa_router_chain = utils.router_as_runnable( # Đảm bảo router_as_runnable của bạn hoạt động đúng
             routes={
                 "general": general_chain,
-                "legal": legal_chain
+                "legal": legal_chain_full # Sử dụng legal_chain đã bao gồm xử lý Groq
             },
-            get_key=RunnableLambda(get_route_key),
-            default=general_chain
-        ).with_config({"run_name": "QAChainRouter"})
+            get_key=RunnableLambda(get_route_key_from_input_dict), # Truyền cleaned_question vào route_logic
+            default=general_chain # Hoặc legal_chain tùy theo hành vi mặc định bạn muốn
+        ).with_config({"run_name": "MainQARouter"})
 
         logger.info("🔸Đã tạo thành công QA Router Chain.")
-        return router
+        return qa_router_chain
 
     except Exception as e:
         logger.error(f"🔸Lỗi khi tạo QA Chain: {e}", exc_info=True)

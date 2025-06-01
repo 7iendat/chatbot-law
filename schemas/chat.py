@@ -9,8 +9,8 @@ class AppState(BaseModel):
     process_input_llm: Optional[Any] = None
     qa_chain: Optional[Any] = None
     device: str = "cpu"
-    # google_api_key: Optional[str] = None
-    groq_api_key: Optional[str] = None
+    google_api_key: Optional[str] = None
+    # groq_api_key: Optional[str] = None
     dict: Dict = {}
     redis: Optional[Any] = None
     retriever: Optional[Any] = None

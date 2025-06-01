@@ -16,7 +16,7 @@ import logging
 logger = logging.getLogger(__name__)
 # Khởi tạo context mật khẩu
 
-bearer_scheme = HTTPBearer()
+bearer_scheme = HTTPBearer(auto_error=False)
 
 # Initialize password hashing context
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
@@ -46,7 +46,8 @@ async def register_user(user: RegisterRequest):
             "password": hashed_password,
             "email": user.email,
             "avatar_url": avatar,
-            "role": user.role or "user"
+            "role": user.role or "user",
+            "is_active": True,
         })
 
         return {"message": "Đăng ký thành công."}
