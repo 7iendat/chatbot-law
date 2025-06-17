@@ -1,0 +1,734 @@
+CHÍNH PHỦ                     CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+            __________                           Độc lập - Tự do - Hạnh phúc
+        Số: 56/2025/NĐ-CP                            ______________________
+                                                Hà Nội, ngày 03 tháng 3 năm 2025
+                                                   NGHỊ ĐỊNH
+                    Quy định chi tiết một số điều của Luật Điện lực về quy hoạch phát triển
+                    điện lực, phương án phát triển mạng lưới cấp điện, đầu tư xây dựng dự án
+                       điện lực và đấu thầu lựa chọn nhà đầu tư dự án kinh doanh điện lực
+                                               _________________
+       Căn cứ Luật Tổ chức Chính phủ ngày 18 tháng 02 năm 2025;
+       Căn cứ Luật Tổ chức chính quyền địa phương ngày 19 tháng 02 năm 2025;
+       Căn cứ Luật Điện lực ngày 30 tháng 11 năm 2024;
+       Căn cứ Luật Đấu thầu ngày 23 tháng 6 năm 2023;
+       Căn cứ Luật Đầu tư ngày 17 tháng 6 năm 2020;
+       Căn cứ Luật Công nghệ thông tin ngày 02 tháng 8 năm 2023;
+       Căn cứ Luật Giao dịch điện tử ngày 22 tháng 6 năm 2023;
+       Căn cứ Luật Tiếp cận thông tin ngày 06 tháng 4 năm 2016;
+       Căn cứ Luật An toàn thông tin mạng ngày 19 tháng 11 năm 2015;
+       Căn cứ Luật An ninh mạng ngày 12 tháng 6 năm 2018;
+       Căn cứ Luật Quy hoạch ngày 24 tháng 11 năm 2017, được sửa đổi, bổ sung bởi Luật Khám
+bệnh, chữa bệnh ngày 09 tháng 01 năm 2023; Luật Giá ngày 19 tháng 6 năm 2023; Luật Tài nguyên
+nước ngày 27 tháng 11 năm 2023; Luật Đất đai ngày 18 tháng 01 năm 2024; Luật Đường bộ ngày 27
+tháng 6 năm 2024; Luật Công nghiệp quốc phòng, an ninh và động viên công nghiệp ngày 27 tháng 6
+năm 2024; Luật sửa đổi, bổ sung một số điều của Luật Đất đai, Luật Nhà ở, Luật Kinh doanh bất
+động sản và Luật Các tổ chức tín dụng ngày 29 tháng 6 năm 2024; Luật sửa đổi, bổ sung một số điều
+của Luật Quy hoạch, Luật Đầu tư, Luật Đầu tư theo phương thức đối tác công tư và Luật Đấu thầu
+ngày 29 tháng 11 năm 2024;
+       Theo đề nghị của Bộ trưởng Bộ Công Thương;
+       Chính phủ ban hành Nghị định quy định chi tiết một số điều của Luật Điện lực về quy hoạch
+phát triển điện lực, phương án phát triển mạng lưới cấp điện, đầu tư xây dựng dự án điện lực và đấu
+thầu lựa chọn nhà đầu tư dự án kinh doanh điện lực.
+                                                    Chương I
+                                                 QUY ĐỊNH CHUNG
+       Điều 1. Phạm vi điều chỉnh
+       Nghị định này quy định chi tiết, hướng dẫn thi hành khoản 3 Điều 8, khoản 6 Điều 10, khoản
+1 Điều 12, khoản 2 Điều 12, khoản 4 Điều 12, khoản 4 Điều 13, khoản 2 Điều 14, khoản 5 Điều 17,
+khoản 1 Điều 19, khoản 3 Điều 19, khoản 1 Điều 81 Luật Điện lực.
+       Điều 2. Đối tượng áp dụng
+       Nghị định này áp dụng đối với cơ quan, tổ chức, cá nhân tham gia hoặc có liên quan đến các
+hoạt động quy hoạch và đầu tư phát triển điện lực.
+       Điều 3. Giải thích từ ngữ
+       Trong Nghị định này, các từ ngữ dưới đây được hiểu như sau:
+       1. Bên mua điện là Tập đoàn Điện lực Việt Nam (hoặc đơn vị đại diện theo phân cấp, ủy
+quyền), Tổng công ty Điện lực miền Bắc, Tổng công ty Điện lực miền Trung, Tổng công ty Điện lực
+miền Nam, Tổng công ty Điện lực thành phố Hà Nội, Tổng công ty Điện lực Thành phố Hồ Chí Minh,
+các khách hàng sử dụng điện lớn, các đơn vị mua buôn điện khác theo quy định của thị trường điện.
+         LuatVietnam                                                       LuatVietnam.vn
+ Ton ch van ban luai
+
+               2. Đơn vị phát điện/Bên bán điện là tổ chức, cá nhân theo quy định pháp luật Việt Nam sở
+hữu một hoặc nhiều nhà máy điện.
+           3. Dự án nhiệt điện khí là các dự án đầu tư nhà máy nhiệt điện khí sử dụng nhiên liệu là khí
+thiên nhiên khai thác trong nước hoặc khí thiên nhiên hóa lỏng.
+        4. Dự án nhiệt điện than là các dự án đầu tư nhà máy nhiệt điện sử dụng nhiên liệu chính là
+than khai thác trong nước, than nhập khẩu hoặc phối trộn giữa than khai thác trong nước và than
+nhập khẩu.
+                    5. Bên mời quan tâm là cơ quan, đơn vị thuộc Bộ Công Thương; cơ quan chuyên môn, cơ
+quan, đơn vị trực thuộc Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương (sau đây gọi là cấp
+tỉnh); cơ quan, đơn vị trực thuộc Ban Quản lý khu kinh tế (đối với dự án thực hiện tại khu kinh tế); Ủy
+ban nhân dân cấp huyện được giao thực hiện thủ tục mời quan tâm.
+        6. Cơ quan có thẩm quyền theo quy định của pháp luật về đấu thầu là cơ quan chấp thuận
+chủ trương đầu tư theo quy định của pháp luật về đầu tư hoặc cơ quan quyết định tổ chức đấu thầu
+lựa chọn nhà đầu tư. Đối với dự án thuộc thẩm quyền chấp thuận chủ trương đầu tư của Quốc hội,
+Thủ tướng Chính phủ, cơ quan có thẩm quyền theo quy định của pháp luật về đấu thầu là cơ quan
+quyết định tổ chức đấu thầu lựa chọn nhà đầu tư.
+        7. Cơ quan quyết định tổ chức đấu thầu lựa chọn nhà đầu tư thực hiện dự án đầu tư kinh
+doanh điện lực gồm Bộ Công Thương, Ủy ban nhân dân cấp tỉnh, Ban Quản lý khu kinh tế.
+        8. Khí thiên nhiên hóa lỏng (LNG) là sản phẩm hydrocacbon ở thể lỏng, có nguồn gốc từ khí
+thiên nhiên với thành phần chủ yếu là metan (công thức hóa học: CH4, tên tiếng Anh: Liquefied
+Natural Gas).
+        9. Tái hóa khí là hoạt động chuyển đổi LNG ở trạng thái lỏng sang trạng thái khí.
+                                           Chương II
+                     QUY HOẠCH PHÁT TRIỂN ĐIỆN LỰC VÀ PHƯƠNG ÁN
+                                 PHÁT TRIỂN MẠNG LƯỚI CẤP ĐIỆN
+        Điều 4. Quy mô công suất nguồn điện, cấp điện áp lưới điện thuộc quy hoạch phát
+triển điện lực và phương án phát triển mạng lưới cấp điện trong quy hoạch tỉnh
+        1. Quy mô công suất nguồn điện, cấp điện áp lưới điện thuộc quy hoạch phát triển điện lực
+được xác định như sau:
+        a) Tổng công suất lắp đặt các nguồn điện của hệ thống điện quốc gia theo cơ cấu từng loại
+hình nguồn điện, bao gồm cả hệ thống lưu trữ điện nhưng không bao gồm hệ thống lưu trữ điện kết
+hợp với nguồn điện năng lượng tái tạo; tổng công suất lắp đặt theo cơ cấu từng loại hình nguồn điện
+của từng địa phương;
+        b) Nguồn điện có quy mô công suất lắp đặt từ 50 MW trở lên và lưới điện đấu nối đồng bộ
+nguồn điện này;
+        c) Nguồn điện có quy mô công suất lắp đặt dưới 50 MW và lưới điện đấu nối đồng bộ nguồn
+điện này từ cấp điện áp 220 kV trở lên;
+        d) Lưới điện từ cấp điện áp 220 kV trở lên.
+        2. Quy mô công suất nguồn điện, cấp điện áp lưới điện thuộc phương án phát triển mạng
+lưới cấp điện trong quy hoạch tỉnh được xác định như sau:
+        a) Nguồn điện có quy mô công suất lắp đặt dưới 50 MW và lưới điện đấu nối đồng bộ nguồn
+điện này từ cấp điện áp 110 kV trở xuống;
+        b) Lưới điện cấp điện áp 110 kV;
+        c) Dự kiến tổng quy mô lưới điện trung áp;
+        d) Quy mô nguồn điện, lưới điện trên địa bàn tỉnh đã xác định trong quy hoạch phát triển điện
+lực.
+        Điều 5. Các trường hợp nguồn điện, lưới điện không thuộc quy hoạch phát triển điện
+lực, phương án phát triển mạng lưới cấp điện trong quy hoạch tỉnh
+
+       1. Nguồn điện không tác động đến hệ thống điện quốc gia bao gồm:
+       a) Nguồn điện tại miền núi, biên giới, hải đảo chưa đấu nối, liên kết với hệ thống điện quốc
+gia;
+       b) Nguồn điện tự sản xuất, tự tiêu thụ từ nguồn năng lượng tái tạo, năng lượng mới không
+đấu nối vào hệ thống điện quốc gia.
+       2. Nguồn điện tác động nhỏ đến hệ thống điện quốc gia bao gồm:
+       a) Nguồn điện có đấu nối hệ thống điện quốc gia và có lắp đặt hệ thống thiết bị chống phát
+ngược vào hệ thống điện quốc gia;
+       b) Nguồn điện tự sản xuất, tự tiêu thụ từ nguồn năng lượng tái tạo, năng lượng mới đấu nối
+lưới điện ở cấp hạ áp;
+       c) Nguồn điện tự sản xuất, tự tiêu thụ từ nguồn năng lượng tái tạo, năng lượng mới của hộ
+gia đình sử dụng nhà ở riêng lẻ, trụ sở cơ quan nhà nước và công trình công cộng;
+       d) Nguồn điện sử dụng nguồn nhiệt dư từ dây chuyền sản xuất sản phẩm cho nhu cầu tự sử
+dụng có đấu nối hoặc không đấu nối với lưới điện quốc gia và không bán điện lên hệ thống điện.
+       3. Nguồn điện không đấu nối, không bán điện vào hệ thống điện quốc gia, trừ trường hợp
+xuất khẩu, nhập khẩu điện.
+       4. Lưới điện hạ áp.
+       5. Cải tạo, nâng cấp dự án điện lực không làm tăng quy mô công suất hoặc cấp điện áp,
+không phát sinh nhu cầu sử dụng đất bao gồm:
+       a) Cải tạo, nâng cấp nhà máy điện, trạm biến áp không làm tăng quy mô công suất, không
+phát sinh nhu cầu sử dụng đất ngoài phạm vi nhà máy và các công trình hiện hữu;
+       b) Cải tạo, nâng cấp, hạ ngầm lưới điện không làm tăng cấp điện áp, không phát sinh nhu
+cầu sử dụng đất;
+       c) Di dời các công trình lưới điện để thực hiện bồi thường, giải phóng mặt bằng của dự án
+đầu tư khác ngoài lĩnh vực điện lực theo yêu cầu của cơ quan nhà nước có thẩm quyền để phát triển
+kinh tế - xã hội mà không thay đổi cấp điện áp hoặc quy mô công suất.
+                                           Chương III
+                            CHUYỂN ĐỔI SỐ, QUẢN LÝ VẬN HÀNH HỆ THỐNG
+                          THÔNG TIN, DỮ LIỆU LĨNH VỰC ĐIỆN LỰC
+       Điều 6. Chuyển đổi số, hệ thống thông tin, dữ liệu lĩnh vực điện lực
+       1. Chuyển đổi số, hệ thống thông tin, dữ liệu lĩnh vực điện lực bao gồm hạ tầng kỹ thuật công
+nghệ thông tin, phần mềm ứng dụng, cơ sở dữ liệu phù hợp nền tảng công nghệ số được xây dựng,
+tích hợp vào hệ thống thông tin năng lượng để phục vụ công tác quản lý nhà nước về hoạt động chỉ
+đạo điều hành phát triển điện lực nhằm phục vụ phát triển kinh tế - xã hội; bảo đảm an ninh năng
+lượng; triển khai các giải pháp, cơ chế, chính sách về phát triển điện lực hiệu quả; các yêu cầu về
+chuyển đổi số ngành điện.
+       2. Hạ tầng kỹ thuật công nghệ thông tin là hệ thống trang thiết bị phục vụ cho việc sản xuất,
+truyền đưa, thu thập, xử lý, lưu trữ và trao đổi thông tin số, bao gồm mạng Internet, mạng máy tính,
+thiết bị tính toán (máy chủ, máy trạm), thiết bị kết nối mạng, thiết bị an ninh an toàn, thiết bị ngoại vi
+và thiết bị phụ trợ.
+       3. Phần mềm ứng dụng phù hợp các tiêu chuẩn kỹ thuật về ứng dụng công nghệ thông tin
+trong cơ quan nhà nước, đáp ứng yêu cầu về công tác chỉ đạo điều hành của nhà nước về phát triển
+điện lực và các cấp độ chia sẻ thông tin, an toàn thông tin; khuyến khích triển khai các công nghệ mới
+bao gồm trí tuệ nhân tạo, dữ liệu lớn, chuỗi khối, điện toán đám mây, công nghệ 5G.
+       4. Cơ sở dữ liệu của hệ thống thông tin, dữ liệu trong lĩnh vực điện lực bao gồm:
+       a) Đặc điểm kỹ thuật cơ sở hạ tầng của các nhà máy điện, đường dây điện và trạm điện;
+       b) Thông tin, số liệu sản xuất, kinh doanh điện;
+       c) Thông tin, số liệu cung cấp năng lượng sơ cấp để sản xuất điện;
+
+       d) Thông tin, số liệu sản xuất và chuyển đổi năng lượng để sản xuất điện;
+             đ) Thông tin giá điện bình quân theo kỳ, giá năng lượng bình quân theo kỳ phục vụ cho sản
+xuất điện;
+              e) Các thông tin khác theo chỉ tiêu thống kê năng lượng thuộc trách nhiệm công bố của Bộ
+Công Thương.
+                    Điều 7. Chính sách của Nhà nước về hoạt động chuyển đổi số, hệ thống thông tin, dữ
+liệu lĩnh vực điện lực
+              1. Nhà nước bảo đảm nguồn lực cần thiết cho hoạt động chuyển đổi số, hệ thống thông tin,
+dữ liệu về lĩnh vực điện lực, cụ thể:
+            a) Bố trí kinh phí đầu tư để xây dựng hạ tầng, nâng cấp hệ thống thông tin đáp ứng yêu cầu
+quản lý, kết nối, chia sẻ dữ liệu lĩnh vực điện lực và an toàn thông tin;
+        b) Bố trí kinh phí theo dự toán quản lý, vận hành, nâng cấp và duy trì các hệ thống thông tin,
+cơ sở dữ liệu và thực hiện các điều tra, thu thập, cập nhật cơ sở dữ liệu điện lực được cân đối từ
+nguồn kinh phí chi thường xuyên ngân sách nhà nước hàng năm theo phân cấp ngân sách (kinh phí
+thực hiện nhiệm vụ không thường xuyên, không thực hiện chế độ tự chủ) của cơ quan nhà nước;
+              c) Bồi dưỡng nâng cao năng lực chuyên môn, nghiệp vụ tuyên truyền, kỹ năng sử dụng thiết
+bị kỹ thuật, công nghệ, kỹ năng chuyển đổi số cho người tham gia thực hiện và vận hành.
+       2. Nhà nước bảo đảm nguồn nhân lực vận hành, kết nối, chia sẻ dữ liệu, như sau:
+             a) Nhân lực bảo đảm kết nối, chia sẻ dữ liệu được tận dụng từ nguồn nhân lực tại chỗ đang
+thực hiện quản lý, vận hành các hệ thống thông tin; thuê dịch vụ công nghệ thông tin và các nguồn
+khác theo quy định của pháp luật;
+               b) Cơ quan nhà nước cung cấp và sử dụng dữ liệu có trách nhiệm bảo đảm các điều kiện về
+nhân lực phục vụ quản lý, kết nối, chia sẻ.
+                       3. Doanh nghiệp do Nhà nước nắm giữ 100% vốn điều lệ hoặc doanh nghiệp do doanh
+nghiệp này nắm giữ 100% vốn điều lệ thuộc các bộ, cơ quan ngang bộ làm đại diện chủ sở hữu có
+ngành nghề hoạt động liên quan tự bố trí kinh phí theo các điểm a, b, c khoản 1 Điều này để vận
+hành và kết nối được hệ thống thông tin, dữ liệu lĩnh vực điện lực của Bộ Công Thương.
+            4. Các tổ chức, cá nhân có ngành nghề hoạt động liên quan tự bố trí kinh phí theo các điểm
+a, b, c khoản 1 Điều này để vận hành và kết nối được hệ thống thông tin, dữ liệu lĩnh vực điện lực
+cấp tỉnh, được hưởng các chính sách theo quy định pháp luật.
+                  Điều 8. Tổ chức thực hiện và hoạt động quản lý chuyển đổi số, hệ thống thông tin, dữ
+liệu lĩnh vực điện lực
+              1. Bộ Công Thương xây dựng hạ tầng và vận hành hệ thống thông tin, dữ liệu lĩnh vực điện
+lực cấp trung ương; thực hiện các hoạt động quản trị dữ liệu, quản trị chia sẻ, khai thác dữ liệu lĩnh
+vực điện lực; tổ chức điều tra, thu thập, tổng hợp và cập nhật dữ liệu thông tin điện lực; hướng dẫn
+các cơ quan, tổ chức liên quan cung cấp dữ liệu, danh mục dữ liệu để cơ quan nhà nước khai thác,
+sử dụng; quản lý sử dụng và cung cấp dữ liệu theo cấp độ chia sẻ dữ liệu.
+             2. Bộ Tài chính thực hiện theo phạm vi nhiệm vụ, trách nhiệm được giao và cân đối, bố trí
+kinh phí để thực hiện hoạt động chuyển đổi số, hệ thống thông tin, dữ liệu về lĩnh vực điện lực theo
+khoản 1 Điều 7 Nghị định này.
+                  3. Các bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ thực hiện và chỉ đạo các đơn vị
+chuyên môn tổ chức thực hiện điều tra, thu thập cơ sở dữ liệu điện lực của ngành, lĩnh vực và thực
+hiện chuyển đổi số trong lĩnh vực điện lực thuộc phạm vi quản lý gửi Bộ Công Thương theo định kỳ,
+năm để tổng hợp; bảo đảm các hoạt động kết nối, chia sẻ dữ liệu.
+            4. Ủy ban nhân dân cấp tỉnh trình Hội đồng nhân dân cấp tỉnh bố trí kinh phí nguồn vốn bảo
+đảm theo khoản 1 Điều 7 Nghị định này; chỉ đạo Sở Công Thương thực hiện xây dựng hạ tầng, vận
+hành hệ thống thông tin, dữ liệu lĩnh vực điện lực cấp tỉnh phù hợp với phát triển điện lực tại địa
+phương và kết nối vào hệ thống thông tin, dữ liệu điện lực của Bộ Công Thương; thực hiện báo cáo
+gửi Bộ Công Thương theo định kỳ, năm để tổng hợp.
+                       5. Doanh nghiệp do Nhà nước nắm giữ 100% vốn điều lệ hoặc doanh nghiệp do doanh
+nghiệp này nắm giữ 100% vốn điều lệ thuộc các bộ, cơ quan ngang bộ làm đại diện chủ sở hữu có
+
+ngành nghề hoạt động liên quan thực hiện chế độ báo cáo theo định kỳ, năm về Bộ Công Thương;
+các tổ chức, cá nhân có ngành nghề hoạt động liên quan thực hiện chế độ báo cáo theo định kỳ, năm
+về Sở Công Thương.
+                                           Chương IV
+                                 ĐẦU TƯ XÂY DỰNG DỰ ÁN ĐIỆN LỰC
+        Điều 9. Quy định chung
+        1. Việc đầu tư xây dựng dự án điện lực được thực hiện theo quy định pháp luật về quy
+hoạch, đầu tư, xây dựng, bảo vệ môi trường, điện lực và quy định pháp luật liên quan khác.
+        2. Ưu tiên phát triển hạ tầng kho cảng nhập khí thiên nhiên hóa lỏng theo mô hình kho cảng
+LNG trung tâm, quy mô công suất lớn và hệ thống đường ống cung cấp khí LNG tái hóa từ kho cảng
+LNG trung tâm đến các nhà máy nhiệt điện nhằm tối ưu hóa hạ tầng dùng chung.
+        Điều 10. Các mốc tiến độ thực hiện mục tiêu từng giai đoạn của dự án đầu tư xây dựng
+nguồn điện
+        1. Các mốc tiến độ thực hiện mục tiêu từng giai đoạn của dự án đầu tư xây dựng nguồn điện
+theo quy định tại khoản 1 Điều 12 Luật Điện lực bao gồm các mốc tiến độ theo quy định của pháp luật
+về đầu tư và các mốc tiến độ sau đây:
+        a) Quyết định đầu tư dự án;
+        b) Khởi công công trình chính của dự án;
+        c) Đưa dự án vào vận hành.
+        2. Các mốc tiến độ tại khoản 1 Điều này phải được quy định trong Giấy chứng nhận đăng ký
+đầu tư hoặc văn bản chấp thuận chủ trương đầu tư của dự án đầu tư xây dựng nguồn điện.
+        Điều 11. Tiêu chí xác định dự án điện lực thuộc danh mục ưu tiên đầu        tư của Nhà
+nước
+        Dự án điện lực do doanh nghiệp Nhà nước nắm giữ 100% vốn điều lệ hoặc doanh nghiệp do
+doanh nghiệp này nắm giữ 100% vốn điều lệ thực hiện đầu tư thuộc danh mục ưu tiên đầu tư của
+Nhà nước theo các tiêu chí như sau:
+        1. Đầu tư dự án điện lực để bảo đảm an ninh năng lượng quốc gia, giải quyết các vấn đề bức
+thiết về bảo đảm an ninh cung cấp điện bao gồm:
+        a) Dự án, công trình điện lực khẩn cấp;
+        b) Dự án quan trọng quốc gia, dự án ưu tiên của ngành điện theo quy hoạch phát triển điện
+lực;
+        c) Dự án điện lực do Nhà nước độc quyền đầu tư xây dựng theo quy định tại điểm b khoản 2
+Điều 5 của Luật Điện lực;
+        d) Dự án điện lực phục vụ quốc phòng, an ninh theo quyết định của cấp có thẩm quyền.
+        2. Dự án lưới điện thuộc trường hợp nhà nước thu hồi đất để phát triển kinh tế - xã hội vì lợi
+ích quốc gia, công cộng theo quy định của Luật Đất đai.
+        3. Dự án điện lực cung cấp điện vùng nông thôn, vùng đồng bào dân tộc thiểu số, miền núi,
+biên giới, hải đảo và vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn.
+        4. Dự án điện năng lượng mới, năng lượng tái tạo thúc đẩy quá trình chuyển dịch năng
+lượng, giảm phát thải khí nhà kính phù hợp với các mục tiêu, cam kết của quốc gia.
+        Điều 12. Hồ sơ, trình tự, thủ tục lập, thẩm định đề nghị chấp thuận, điều chỉnh chủ
+trương đầu tư dự án đầu tư lưới điện có cấp điện áp từ 220 kV trở xuống đi qua địa giới hành
+chính từ 02 đơn vị hành chính cấp tỉnh trở lên thuộc diện chấp thuận chủ trương đầu tư theo
+quy định của Luật Đầu tư
+        1.Hồ sơ, trình tự, thủ tục lập, thẩm định đề nghị chấp thuận chủ trương đầu tư thực hiện theo
+quy định pháp luật về đầu tư và khoản 2 Điều 13 của Luật Điện lực; cơ quan có thẩm quyền chấp
+thuận chủ trương đầu tư được xác định theo quy định tại điểm a khoản 2 Điều 13 của Luật Điện lực.
+
+         2. Việc lấy ý kiến và trả lời ý kiến trong quá trình thẩm định đề nghị chấp thuận chủ trương
+đầu tư thực hiện theo quy định tại các điểm d và đ khoản 2 Điều 13 của Luật Điện lực chỉ bao gồm
+các nội dung liên quan đến quy hoạch, kế hoạch sử dụng đất, hướng tuyến đường dây trong phạm vi
+địa giới hành chính của tỉnh được lấy ý kiến.
+       3. Hồ sơ, trình tự, thủ tục phê duyệt điều chỉnh chủ trương đầu tư thực hiện theo pháp luật về
+đầu tư. Trường hợp nếu có nội dung điều chỉnh thuộc phạm vi địa giới hành chính của các tỉnh nơi có
+tuyến đường dây đi qua, Ủy ban nhân dân cấp tỉnh có thẩm quyền điều chỉnh chủ trương đầu tư lấy ý
+kiến Ủy ban nhân dân cấp tỉnh đó theo quy định tại khoản 2 Điều này.
+              Điều 13. Trình tự, thủ tục phê duyệt, điều chỉnh danh mục đầu tư lưới điện trung áp, hạ
+áp
+             Căn cứ phương án phát triển mạng lưới cấp điện trong quy hoạch tỉnh, nhu cầu đầu tư lưới
+điện trung áp, hạ áp, đơn vị điện lực hoặc nhà đầu tư đề xuất Ủy ban nhân dân cấp tỉnh phê duyệt
+danh mục theo quy định tại khoản 3 Điều 13 của Luật Điện lực thực hiện như sau:
+       1. Hồ sơ đề nghị phê duyệt danh mục đầu tư lưới điện trung áp, hạ áp bao gồm:
+           a) Tờ trình đề nghị phê duyệt danh mục đầu tư lưới điện trung áp, hạ áp theo Mẫu số 01 tại
+Phụ lục ban hành kèm theo Nghị định này;
+       b) Tài liệu về tư cách pháp lý của đơn vị điện lực, nhà đầu tư, bao gồm: thẻ Căn cước, thẻ
+Căn cước công dân, hộ chiếu còn hiệu lực, các giấy tờ chứng thực cá nhân khác đối với cá nhân;
+thông tin mã số doanh nghiệp đối với tổ chức;
+          c) Tài liệu chứng minh năng lực tài chính của đơn vị điện lực, nhà đầu tư gồm một trong các
+tài liệu sau: báo cáo tài chính 02 năm gần nhất của đơn vị điện lực, nhà đầu tư; cam kết hỗ trợ tài
+chính của công ty mẹ; cam kết hỗ trợ tài chính của tổ chức tài chính; bảo lãnh về năng lực tài chính
+của nhà đầu tư; tài liệu khác chứng minh năng lực tài chính của nhà đầu tư.
+           2. Nội dung thẩm định đề nghị phê duyệt danh mục đầu tư lưới điện trung áp, hạ áp bao gồm:
+                   a) Đánh giá sự phù hợp danh mục đầu tư dự án với dự kiến khối lượng trung áp trong
+phương án phát triển mạng lưới cấp điện trong quy hoạch tỉnh;
+       b) Đánh giá sự cần thiết đầu tư, mục tiêu đầu tư.
+               3. Trong thời hạn 03 ngày làm việc kể từ ngày nhận được hồ sơ, Sở Công Thương có trách
+nhiệm kiểm tra tính đầy đủ và hợp lệ của hồ sơ. Trường hợp hồ sơ chưa đầy đủ, hợp lệ, Sở Công
+Thương có văn bản yêu cầu đơn vị điện lực, nhà đầu tư sửa đổi, bổ sung hồ sơ.
+            Trong thời hạn 07 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ và hợp lệ theo quy định
+tại khoản 1 Điều này, Sở Công Thương lập báo cáo thẩm định gồm các nội dung thẩm định theo quy
+định tại khoản 2 Điều này, trình Ủy ban nhân dân cấp tỉnh phê duyệt.
+               4. Trong thời hạn 05 ngày làm việc kể từ ngày nhận được hồ sơ và báo cáo thẩm định, Ủy
+ban nhân dân cấp tỉnh xem xét phê duyệt danh mục đầu tư lưới điện trung áp, hạ áp theo Mẫu số 02
+tại Phụ lục ban hành kèm theo Nghị định này. Trường hợp không phê duyệt, Ủy ban nhân dân cấp
+tỉnh trả lời đơn vị điện lực, nhà đầu tư bằng văn bản và nêu rõ lý do.
+          5. Hồ sơ quy định tại khoản 1 Điều này nộp 01 bộ trên Hệ thống thông tin giải quyết thủ tục
+hành chính của tỉnh, thành phố trực thuộc trung ương hoặc gửi qua đường bưu chính hoặc nộp trực
+tiếp tại Sở Công Thương tỉnh, thành phố trực thuộc trung ương.
+           6. Trong quá trình thực hiện các dự án đầu tư lưới điện trung áp, hạ áp theo danh mục được
+Ủy ban nhân dân cấp tỉnh phê duyệt, khi có nhu cầu bổ sung, thay thế hoặc loại bỏ dự án trong danh
+mục, đơn vị điện lực, nhà đầu tư thực hiện việc điều chỉnh danh mục dự án như sau:
+             a) Hồ sơ đề nghị điều chỉnh danh mục dự án bao gồm: Tờ trình đề nghị điều chỉnh danh mục
+dự án đầu tư theo Mẫu số 01 tại Phụ lục ban hành kèm theo Nghị định này và thông tin tình hình triển
+khai dự án thuộc danh mục; tài liệu liên quan đến việc điều chỉnh (nếu có);
+        b) Trình tự, thủ tục phê duyệt điều chỉnh danh mục đầu tư lưới điện trung áp, hạ áp thực hiện
+theo quy định tại các khoản 2, 3, 4 và 5 Điều này.
+       Điều 14. Nguyên tắc, tiêu chí xác định dự án, công trình điện lực khẩn cấp
+       1. Dự án, công trình điện lực khẩn cấp phải bảo đảm các nguyên tắc như sau:
+
+           a) Thuộc danh mục dự án điện lực trong quy hoạch phát triển điện lực, phương án phát triển
+mạng lưới cấp điện trong quy hoạch tỉnh hoặc kế hoạch thực hiện quy hoạch phát triển điện lực, kế
+hoạch thực hiện quy hoạch tỉnh trong đó có nội dung phương án phát triển mạng lưới cấp điện.
+Trường hợp dự án chưa có trong quy hoạch hoặc kế hoạch thì phải được cấp có thẩm quyền phê
+duyệt điều chỉnh, bổ sung quy hoạch hoặc điều chỉnh kế hoạch theo quy định pháp luật về quy hoạch;
+        b) Chưa xác định chủ đầu tư và cần rút ngắn thời gian đầu tư xây dựng so với trình tự thủ tục
+đầu tư xây dựng thông thường để bảo đảm kịp thời đáp ứng yêu cầu giải quyết các vấn đề bức thiết
+về bảo đảm an ninh cung cấp điện.
+             2. Dự án, công trình xây dựng nguồn điện và lưới điện đấu nối đồng bộ khẩn cấp thuộc một
+trong các tiêu chí như sau:
+        a) Dự án, công trình xây dựng nguồn điện và lưới điện đấu nối đồng bộ cân đầu tư xây dựng
+để thay thế một hoặc nhiều dự án chậm tiến độ so với tiến độ theo văn bản chấp thuận hoặc điều
+chỉnh chủ trương đầu tư của cơ quan có thẩm quyền, dừng thực hiện đầu tư, chấm dứt hoạt động
+đầu tư hoặc do phụ tải tăng đột biến gây nguy cơ thiếu điện, không bảo đảm an ninh cung cấp điện
+trong thời kỳ quy hoạch;
+               b) Dự án, công trình xây dựng nguồn điện và lưới điện đấu nối đồng bộ bị chấm dứt hoạt
+động của dự án đầu tư theo quy định pháp luật về đầu tư và được cấp có thẩm quyền giao lại cho
+doanh nghiệp do nhà nước nắm giữ 100% vốn điều lệ hoặc doanh nghiệp do doanh nghiệp này nắm
+giữ 100% vốn điều lệ thực hiện đầu tư xây dựng, cần rút ngắn thời gian thực hiện để bảo đảm an
+ninh cung cấp điện trong thời kỳ quy hoạch do các nguyên nhân quy định tại điểm a khoản này.
+         3. Dự án, công trình xây dựng lưới điện khẩn cấp có vai trò quan trọng trong việc truyền tải
+công suất nguồn điện giữa các khu vực để chống quá tải của lưới điện thuộc một trong các tiêu chí
+như sau:
+            a) Dự án, công trình cần đầu tư xây dựng đế thay thế một hoặc nhiều dự án chậm tiến độ so
+với tiến độ theo văn bản chấp thuận hoặc điều chỉnh chủ trương đầu tư của cơ quan có thẩm quyền,
+có nguy cơ gây thiếu điện, phải tiết giảm phụ tải, giảm phát công suất của hệ thống điện được dự báo
+cho 02 năm tới tính từ thời điểm đề xuất và được cấp có thẩm quyền phê duyệt dự án khẩn cấp;
+          b) Dự án, công trình cần hoàn thành trong thời gian gấp để kịp thời đáp ứng nhu cầu phụ tải
+tăng đột biến và thời gian thực hiện dự án tính từ thời điểm được cấp có thẩm quyền phê duyệt là dự
+án điện lực khẩn cấp đến thời điểm đưa vào vận hành dưới 24 tháng đối với các dự án, công trình
+lưới điện có cấp điện áp 500 kV; dưới 18 tháng đối với các dự án, công trình lưới điện có cấp điện áp
+220 kV;
+            c) Các dự án, công trình xuất tuyến 110 kV phục vụ khai thác đồng bộ trạm biến áp 220 kV,
+500 kV khẩn cấp;
+        d) Dự án, công trình lưới điện liên kết khu vực từ cấp điện áp 110 kV trở lên được Đơn vị vận
+hành hệ thống điện tính toán lưới điện khu vực không bảo đảm vận hành an toàn được dự báo cho
+02 năm tới tính từ thời điểm đề xuất và được cấp có thẩm quyền phê duyệt là dự án điện lực khẩn
+cấp.
+            4. Dự án, công trình lưới điện khẩn cấp theo yêu cầu cấp bách bảo đảm quốc phòng, an ninh
+hoặc yêu cầu cấp bách cho phát triển kinh tế - xã hội của địa phương đáp ứng một trong các tiêu chí
+như sau:
+        a) Dự án, công trình điện lực thực hiện theo yêu cầu cấp bách bảo đảm quốc phòng, an ninh;
+          b) Dự án, công trình cần hoàn thành trong thời gian gấp để kịp thời đáp ứng nhu cầu phụ tải
+tăng đột biến theo yêu cầu cấp bách cho phát triển kinh tế - xã hội của địa phương và thời gian thực
+hiện dự án, công trình tính từ thời điểm được cấp có thẩm quyền phê duyệt là dự án khẩn cấp đến
+thời điểm đưa vào vận hành dưới 18 tháng đối với các dự án, công trình lưới điện có cấp điện áp 110
+kV.
+              5. Trên cơ sở báo cáo về hoạt động quy hoạch, báo cáo đánh giá thực hiện quy hoạch định
+kỳ hoặc đột xuất theo quy định của pháp luật về quy hoạch hoặc báo cáo tình hình vận hành hệ thống
+điện, các nguyên tắc, tiêu chí xác định dự án, công trình điện lực khẩn cấp quy định tại Điều này, Bộ
+Công Thương, Ủy ban nhân dân cấp tỉnh đề xuất các dự án, công trình điện lực khẩn cấp theo phân
+cấp quy mô công suất quy định tại Điều 4 Nghị định này trình Thủ tướng Chính phủ phê duyệt theo
+quy định.
+
+                   Điều 15. Nguyên tắc chuyển ngang giá nhiên liệu sang giá điện; sản lượng điện hợp
+đồng tối thiểu dài hạn cho các dự án nhiệt điện khí
+         1. Theo từng cấp độ phát triển của thị trường điện cạnh tranh, các dự án nhà máy nhiệt điện
+         khí được áp dụng cơ chế, chính sách phát triển phù hợp nhằm bảo đảm an ninh năng lượng, bảo
+đảm hài hòa lợi ích tổng thể của quốc gia, lợi ích giữa bên mua điện và bên bán điện.
+        2. Nguyên tắc chuyển ngang giá nhiên liệu sang giá điện:
+        a) Giá nhiên liệu trong tính toán giá điện tại hợp đồng mua bán điện ký giữa Bên bán điện và
+        Bên mua điện được xác định bằng giá nhiên liệu cung cấp tại nhà máy điện. Trường hợp Bên bán
+    điện ký nhiều hợp đồng mua bán nhiên liệu, giá nhiên liệu được xác định bằng bình quân gia quyền
+theo khối lượng của các hóa đơn của các hợp đồng mua bán nhiên liệu;
+            b) Đối với dự án nhà máy điện có hạ tầng kho cảng, đường ống khí để nhập khẩu và sử dụng
+  trực tiếp LNG, Bên bán điện được phép thu hồi chi phí hợp lý, hợp lệ khi thực hiện đầu tư các hạng
+        mục hạ tầng kho cảng, đường ống khí thông qua giá hợp đồng mua bán điện do Bên bán điện thỏa
+        thuận với Bên mua điện, bảo đảm nguyên tắc không tính trùng chi phí đầu tư hạ tầng kho cảng,
+đường ống khí trong giá nhiên liệu cung cấp tại nhà máy điện;
+               c) Đối với dự án nhà máy điện dùng chung hạ tầng kho cảng, đường ống khí để mua và sử
+dụng LNG sau tái hóa:
+            Giá nhiên liệu cung cấp tại nhà máy điện được tính toán trên cơ sở giá LNG nhập khẩu đến
+cảng phía Việt Nam và giá dịch vụ tồn trữ, tái hoá, vận chuyển và phân phối LNG;
+        Bộ Công Thương định giá dịch vụ tồn trữ, tái hoá, vận chuyển và phân phối LNG.
+        3. Nguyên tắc xác định sản lượng điện hợp đồng tối thiểu dài hạn:
+           Các dự án nhiệt điện khí trực tiếp tham gia thị trường điện cạnh tranh các cấp độ và phải
+         được Bên bán điện và Bên mua điện thỏa thuận, thống nhất trong hợp đồng mua bán điện về sản
+lượng điện hợp đồng tối thiểu dài hạn trên cơ sở các nguyên tắc sau:
+          a) Đối với các dự án nhiệt điện khí sử dụng khí thiên nhiên trong nước, sản lượng điện hợp
+   đồng tối thiểu dài hạn được xác định ở mức tối đa theo khả năng cấp khí, đáp ứng các yêu cầu ràng
+buộc về nhiên liệu và công suất, sản lượng phát điện khả dụng của dự án nhiệt điện khí;
+        b) Đối với các dự án nhiệt điện khí sử dụng LNG nhập khẩu:
+                Sản lượng điện hợp đồng tối thiểu dài hạn không thấp hơn mức 65% sản lượng điện phát
+     bình quân nhiều năm của dự án nhiệt điện khí. Sản lượng điện hợp đồng tối thiểu dài hạn được áp
+       dụng trong thời hạn trả nợ gốc và lãi vay nhưng không quá 10 năm kể từ ngày đưa dự án vào vận
+hành phát điện;
+            Sau thời gian áp dụng sản lượng điện hợp đồng tối thiểu dài hạn, sản lượng điện hợp đồng
+      hoặc tỷ lệ điện năng thanh toán theo giá hợp đồng cho các năm còn lại được Bên bán điện và Bên
+    mua điện thống nhất trong quá trình đàm phán, thỏa thuận hợp đồng mua bán điện theo các quy định
+có liên quan;
+                 Sản lượng điện phát bình quân nhiều năm được xác định theo Quy định phương pháp xác
+định giá dịch vụ phát điện; nguyên tắc tính giá điện để thực hiện dự án điện lực; nội dung chính của
+           hợp đồng mua bán điện do Bộ trưởng Bộ Công Thương ban hành và quy định trong hợp đồng mua
+bán điện.
+        4. Quy định tại khoản 2 và khoản 3 Điều này được áp dụng như sau:
+                a) Đối với các dự án nhiệt điện khí sử dụng LNG nhập khẩu có ngày vận hành phát điện
+        trước ngày 01 tháng 01 năm 2031 sau khi được cơ quan nhà nước có thẩm quyền ra văn bản thông
+báo chấp thuận kết quả nghiệm thu hoàn thành công trình của chủ đầu tư;
+             b) Đối với các dự án nhiệt điện khí sử dụng khí thiên nhiên trong nước có ngày vận hành
+        phát điện trước ngày 01 tháng 01 năm 2036 sau khi được cơ quan nhà nước có thẩm quyền ra văn
+bản thông báo chấp thuận kết quả nghiệm thu hoàn thành công trình của chủ đầu tư.
+        5. Trách nhiệm của Bên mua điện và Bên bán điện:
+           a) Đàm phán, thỏa thuận thống nhất sản lượng điện hợp đồng tối thiểu dài hạn và thời gian
+    áp dụng trong hợp đồng mua bán điện tuân thủ các quy định tại Điều này và quy định khác của pháp
+
+luật có liên quan;
+                  b) Bên bán điện có trách nhiệm cung cấp cho Bên mua điện đầy đủ các số liệu, thông số kỹ
+thuật, thông số kinh tế - tài chính và các thông tin cần thiết khác của dự án nhiệt điện khí để làm cơ
+sở đàm phán hợp đồng mua bán điện; bảo đảm tính chính xác, tin cậy.
+                6. Trách nhiệm của Đơn vị điều độ hệ thống điện quốc gia và Đơn vị điều hành giao dịch thị
+trường điện:
+                 a) Lập kế hoạch vận hành, điều hành giao dịch thị trường điện cạnh tranh bảo đảm tuân thủ
+các quy định tại Điều này và quy định của pháp luật về vận hành thị trường điện cạnh tranh các cấp
+độ và vận hành, điều độ hệ thống điện do Bộ trưởng Bộ Công Thương ban hành;
+                   b) Phối hợp chặt chẽ với Bên mua điện và Bên bán điện để bảo đảm vận hành, điều độ, huy
+động các nhà máy điện sử dụng khí thiên nhiên khai thác trong nước và LNG nhập khẩu tuân thủ quy
+định của pháp luật về vận hành thị trường điện cạnh tranh các cấp độ và vận hành, điều độ hệ thống
+điện do Bộ trưởng Bộ Công Thương ban hành.
+                7. Các dự án nhà máy nhiệt điện khí đầu tư, phát triển theo phương thức đối tác công tư áp
+dụng loại hợp đồng xây dựng - kinh doanh - chuyển giao (BOT) được lựa chọn áp dụng các quy định
+tại Điều này, các quy định khác của pháp luật có liên quan.
+                         Điều 16. Hỗ trợ đầu tư sau công tơ cấp điện sinh hoạt cho hộ gia đình ở vùng nông
+thôn, đồng bào dân tộc thiểu số, miền núi, biên giới, hải đảo và vùng có điều kiện kinh tế - xã
+hội đặc biệt khó khăn
+                   1. Hỗ trợ cấp điện mục đích sử dụng sinh hoạt sau công tơ điện cho các hộ gia đình (bao
+gồm dây dẫn điện, bảng điện chính, aptomat, công tắc, ổ cắm, bóng điện và vật tư, vật liệu phụ khác)
+theo các đối tượng ở vùng nông thôn, đồng bào dân tộc thiểu số, miền núi, biên giới, hải đảo và vùng
+có điều kiện kinh tế - xã hội đặc biệt khó khăn, hộ gia đình có nhà ở bị thiệt hại do thiên tai, cháy, nổ,
+phải xây dựng nhà mới.
+        2. Hỗ trợ đầu tư đường dây dẫn điện từ sau công tơ đến bảng điện chính của cấp điện sinh
+hoạt cho các hộ gia đình theo các đối tượng ở vùng nông thôn, đồng bào dân tộc thiểu số, miền núi,
+biên giới, hải đảo và vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn, hộ gia đình có nhà ở bị thiệt
+hại do thiên tai, cháy, nổ, nhưng không phải xây dựng nhà mới.
+                  3. Hình thức hỗ trợ của Nhà nước tại khoản 1, khoản 2 Điều này thực hiện theo các Chương
+trình, dự án, công trình đầu tư cấp điện từ nguồn lực đầu tư của nhà nước.
+                                            Chương V
+                     ĐẤU THẦU LỰA CHỌN NHÀ ĐẦU TƯ DỰ ÁN ĐẦU TƯ
+                                      KINH DOANH ĐIỆN LỰC
+                          Điều 17. Dự án đầu tư kinh doanh điện lực thuộc trường hợp phải tổ chức đấu thầu
+lựa chọn nhà đầu tư
+                 1. Dự án đầu tư kinh doanh điện lực thuộc khoản 1 Điều 19 của Luật Điện lực nằm trong Quy
+hoạch phát triển điện lực quốc gia thời kỳ 2021 - 2030, tầm nhìn đến năm 2050 hoặc Quy hoạch các
+tỉnh thời kỳ 2021 - 2030, tầm nhìn đến năm 2050 phải tổ chức đấu thầu khi có từ 02 nhà đầu tư trở
+lên quan tâm, bao gồm:
+        a) Dự án nhiệt điện khí, nhiệt điện than;
+        b) Dự án điện năng lượng tái tạo gồm: điện mặt trời, điện gió, thuỷ điện, điện sinh khối.
+                  2. Hoạt động đấu thầu lựa chọn nhà đầu tư các dự án đầu tư kinh doanh điện lực thực hiện
+theo quy định của pháp luật về đấu thầu và Nghị định này.
+        Điều 18. Yêu cầu đặc thù trong hồ sơ mời thầu dự án đầu tư kinh doanh điện lực
+                    1. Đối với các dự án thuộc quy hoạch hoặc kế hoạch thực hiện quy hoạch, phương án phát
+triển mạng lưới điện trong quy hoạch tỉnh, Tập đoàn Điện lực Việt Nam (hoặc đơn vị đại diện theo
+phân cấp, ủy quyền), Tổng công ty Điện lực miền Bắc, Tổng công ty Điện lực miền Trung, Tổng công
+ty Điện lực miền Nam, Tổng công ty Điện lực Thành phố Hà Nội, Tổng công ty Điện lực Thành phố
+Hồ Chí Minh có trách nhiệm mua điện theo yêu cầu của cơ quan có thẩm quyền theo quy định của
+pháp luật về đấu thầu hoặc cơ quan quyết định tổ chức đấu thầu lựa chọn nhà đầu tư.
+
+        2. Cơ quan có thẩm quyền theo quy định của pháp luật về đấu thầu hoặc cơ quan quyết định
+tổ chức đấu thầu lựa chọn nhà đầu tư có trách nhiệm xác định Bên mua điện theo quy định tại khoản
+1 Điều này sẽ ký kết hợp đồng mua bán điện với nhà đầu tư.
+        3. Hồ sơ mời thầu dự án đầu tư kinh doanh điện lực bao gồm:
+        a) Thông tin về Bên mua điện theo quy định tại khoản 1 Điều này;
+        b) Các tài liệu được lập theo quy định của pháp luật về đấu thầu;
+        c) Báo cáo nghiên cứu tiền khả thi của dự án;
+        d) Dự thảo hợp đồng mua bán điện do Bên mua điện đề xuất và được thống nhất với cơ
+quan quyết định tổ chức đấu thầu lựa chọn nhà đầu tư;
+        đ) Yêu cầu về tỷ lệ nội địa hóa đối với những hạng mục thiết bị và dịch vụ tư vấn quan trọng
+để duy trì cung cấp điện liên tục, bảo đảm an ninh năng lượng quốc gia theo quy định của pháp luật
+về điện lực;
+        e) Các cơ chế bảo đảm đầu tư theo quy định tại Điều 15 của Nghị định này.
+        4. Trách nhiệm chi trả kinh phí khảo sát, lập Báo cáo nghiên cứu tiền khả thi:
+        a) Nhà đầu tư chi trả trong trường hợp nhà đầu tư tự đề xuất dự án;
+        b) Cơ quan có thẩm quyền theo quy định của pháp luật về đấu thầu, cơ quan quyết định tổ
+chức đấu thầu lựa chọn nhà đầu tư sử dụng nguồn chi thường xuyên để chi trả, trừ trường hợp quy
+định tại điểm a khoản này;
+        c) Nhà đầu tư được lựa chọn chịu trách nhiệm hoàn trả chi phí quy định tại điểm b khoản
+này;
+        d) Trường hợp chi phí đã chi trả theo quy định tại điểm a khoản này nhưng dự án không
+được chấp thuận chủ trương đầu tư hoặc không lựa chọn được nhà đầu tư trúng thầu thì nhà đầu tư
+đề xuất dự án chịu mọi chi phí, rủi ro;
+        đ) Trường hợp chi phí đã chi trả theo quy định tại điểm b khoản này nhưng dự án không lựa
+chọn được nhà đầu tư trúng thầu hoặc bị dừng triển khai theo yêu cầu của cấp có thẩm quyền thì chi
+phí này được quyết toán vào chi phí hợp lý của cơ quan có thẩm quyền theo quy định của pháp luật
+về đấu thầu, cơ quan quyết định tổ chức đấu thầu lựa chọn nhà đầu tư.
+        Điều 19. Tiêu chuẩn đánh giá về hiệu quả phát triển ngành điện
+        1. Đối với dự án đầu tư kinh doanh điện lực có khung giá do Bộ Công Thương ban hành, tiêu
+chuẩn đánh giá về hiệu quả phát triển ngành điện là giá điện, thực hiện như sau:
+        a) Mức trần giá điện trong hồ sơ mời thầu là mức giá tối đa của khung giá phát điện tương
+ứng loại hình nguồn điện do Bộ Công Thương ban hành tại năm đấu thầu;
+        b) Nhà đầu tư đề xuất giá điện trong hồ sơ dự thầu không cao hơn mức trần giá điện được
+quy định tại hồ sơ mời thầu;
+        c) Giá điện trúng thầu là giá điện tối đa để Bên mua điện đàm phán giá hợp đồng mua bán
+điện với nhà đầu tư trúng thầu.
+        2. Đối với dự án đầu tư kinh doanh điện lực không có khung giá do Bộ Công Thương ban
+hành, thực hiện như sau:
+        a) Tiêu chuẩn đánh giá về hiệu quả phát triển ngành điện là giá trị tối thiểu bằng tiền nộp
+ngân sách nhà nước hằng năm. Nhà đầu tư đề xuất giá trị này trong hồ sơ dự thầu không thấp hơn
+mức tối thiểu quy định tại hồ sơ mời thầu;
+        b) Giá trị quy định tại điểm a khoản này độc lập với nghĩa vụ của nhà đầu tư đối với ngân
+sách nhà nước theo quy định của pháp luật;
+        c) Việc nộp vào ngân sách nhà nước giá trị quy định tại điểm a khoản này được thực hiện
+như sau: giá trị nộp ngân sách nhà nước hằng năm được xác định căn cứ giá trị do nhà đầu tư đề
+xuất tại hồ sơ dự thầu; hình thức, tiến độ và thời hạn nộp giá trị quy định tại điểm a khoản này được
+quy định cụ thể tại hợp đồng dự án đầu tư kinh doanh.
+        Điều 20. Đàm phán, giao kết hợp đồng dự án đầu tư kinh doanh, hợp đồng mua bán
+
+điện
+                  Việc đàm phán, giao kết hợp đồng mua bán điện với nhà đầu tư trúng thầu thực hiện như
+sau:
+           1. Thời gian tối đa để nhà đầu tư trúng thầu phải phê duyệt Báo cáo nghiên cứu khả thi dự án
+đầu tư xây dựng dự án điện lực kể từ ngày ký hợp đồng dự án đầu tư kinh doanh được quy định như
+sau:
+        a) Đối với dự án thủy điện, nhiệt điện khí, nhiệt điện than và điện gió, thời gian tối đa là 15
+tháng;
+        b) Đối với dự án điện sinh khối, điện mặt trời, thời gian tối đa là 06 tháng.
+             2. Trên cơ sở kết quả đấu thầu lựa chọn nhà đầu tư dự án đầu tư kinh doanh điện lực và Báo
+cáo nghiên cứu khả thi đầu tư xây dựng dự án đầu tư kinh doanh điện lực được phê duyệt, Bên mua
+điện và nhà đầu tư trúng thầu có trách nhiệm và nghĩa vụ đàm phán, giao kết hợp đồng mua bán
+điện. Thời gian tối đa để thực hiện đàm phán, giao kết hợp đồng mua bán điện kể từ ngày nhà đầu tư
+nộp hồ sơ hợp lệ đến Bên mua điện là 03 tháng.
+        3. Bên mua điện và nhà đầu tư trúng thầu chịu trách nhiệm về thời gian đàm phán, giao kết
+hợp đồng mua bán điện để bảo đảm tiến độ thực hiện dự án theo quy hoạch phát triển điện lực, quy
+hoạch tỉnh và an ninh cung cấp điện.
+                                           Chương VI
+                                      TỔ CHỨC THỰC HIỆN
+        Điều 21. Trách nhiệm thực hiện
+             1. Bộ Công Thương có trách nhiệm chủ trì, phối hợp với các cơ quan, tổ chức liên quan thực
+hiện:
+        a) Hướng dẫn, kiểm tra các tổ chức, cá nhân thực hiện Nghị định này;
+                b) Định kỳ hằng năm tổng kết, đánh giá kết quả thực hiện Nghị định này và báo cáo Chính
+phủ xem xét, sửa đổi phù hợp với thực tiễn.
+        2. Ủy ban nhân dân cấp tỉnh:
+         a) Tổ chức triển khai thực hiện, kiểm tra, giám sát thi hành Nghị định này, thực hiện công tác
+quản lý nhà nước về phát triển nguồn điện, lưới điện tại địa phương;
+              b) Giao Sở Công Thương chủ trì, phối hợp với cơ quan, đơn vị liên quan kiểm tra việc tuân
+thủ các quy định về quy hoạch, đầu tư xây dựng và đấu thầu lựa chọn nhà đầu tư kinh doanh điện
+lực đối với các dự án điện lực theo quy định tại Nghị định này.
+                         Điều 22. Sửa đổi và bãi bỏ một số điều của Nghị định số 115/2024/NĐ-CP ngày 16
+tháng 9 năm 2024 quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa
+chọn nhà đầu tư thực hiện dự án đầu tư có sử dụng đất
+        1. Sửa đổi khoản 1 Điều 14:
+                 “1. Bên mời thầu giao tổ chuyên gia lập hồ sơ mời thầu gồm những nội dung quy định tại
+Điều 48 của Luật Đấu thầu để nhà đầu tư lập hồ sơ dự thầu. Đối với dự án đầu tư xây dựng công
+trình năng lượng, hồ sơ mời thầu bao gồm cả dự thảo hợp đồng mua bán điện do Bên mua điện đề
+xuất và được thống nhất với cơ quan quyết định tổ chức đấu thầu theo quy định của pháp luật về
+điện lực.”.
+        2. Sửa đổi điểm d khoản 2 Điều 19:
+            “d) Giá trị do nhà đầu tư đề xuất về hiệu quả đầu tư phát triển ngành, lĩnh vực, địa phương
+trong đơn dự thầu gồm một trong các thông tin sau: giá trị bằng tiền nộp ngân sách nhà nước; tỷ lệ
+doanh thu nhà đầu tư đề xuất nộp ngân sách nhà nước; giá hàng hóa, dịch vụ; số lượng công trình
+công cộng không có mục đích kinh doanh; giá trị của hoạt động trợ giúp xã hội hoặc hoạt động phúc
+lợi xã hội khác dành cho đối tượng bảo trợ xã hội được xác định theo giá trị bằng tiền hoặc số lượng
+người được hỗ trợ; loại, mức độ độc hại và tổng lượng chất ô nhiễm thải vào môi trường; diện tích sử
+dụng đất, hệ số sử dụng đất; mức nộp ngân sách nhà nước và tỷ lệ tăng thêm nhà đầu tư đề xuất
+thực hiện dự án đầu tư xây dựng công trình dịch vụ hàng không; giá trị bằng tiền nộp ngân sách nhà
+
+nước hằng năm, giá điện đối với dự án đầu tư xây dựng công trình năng lượng; thời gian bàn giao
+nhà ở phục vụ tái định cư đối với dự án đầu tư cải tạo, xây dựng lại nhà chung cư (đối với trường
+hợp áp dụng tiêu chuẩn đánh giá về hiệu quả đầu tư phát triển ngành, lĩnh vực, địa phương);”.
+        3. Sửa đổi khoản 2 Điều 49:
+        “2. Đối với dự án đầu tư xây dựng công trình năng lượng, tiêu chuẩn đánh giá về hiệu quả
+đầu tư phát triển ngành, lĩnh vực, địa phương thực hiện theo quy định của pháp luật về điện lực.”.
+        4. Bãi bỏ Điều 70.
+        5. Sửa đổi, bổ sung điểm a khoản 7 mục II thuộc Phụ lục III:
+         “a) Giá trị do nhà đầu tư đề xuất gồm một trong các thông tin sau: giá trị bằng tiền nộp ngân
+sách nhà nước; tỷ lệ doanh thu nhà đầu tư đề xuất nộp ngân sách nhà nước; giá hàng hóa, dịch vụ;
+số lượng công trình công cộng không có mục đích kinh doanh; giá trị của hoạt động trợ giúp xã hội
+hoặc hoạt động phúc lợi xã hội khác dành cho đối tượng bảo trợ xã hội được xác định theo giá trị
+bằng tiền hoặc số lượng người được hỗ trợ; loại, mức độ độc hại và tổng lượng chất ô nhiễm thải
+vào môi trường; diện tích sử dụng đất, hệ số sử dụng đất; mức nộp ngân sách nhà nước và tỷ lệ tăng
+thêm nhà đầu tư đề xuất thực hiện dự án đầu tư xây dựng công trình dịch vụ hàng không; giá trị bằng
+tiền nộp ngân sách nhà nước hằng năm, giá điện đối với dự án đầu tư xây dựng công trình năng
+lượng; thời gian bàn giao nhà ở phục vụ tái định cư đối với dự án đầu tư cải tạo, xây dựng lại nhà
+chung cư;”.
+        Điều 23. Hiệu lực thi hành
+        Nghị định này có hiệu lực thi hành kể từ ngày ký ban hành.
+        Điều 24. Quy định chuyển tiếp
+               1. Các dự án điện lực đã có trong quy hoạch phát triển điện lực, kế hoạch thực hiện quy
+hoạch phát triển điện lực nhưng có quy mô công suất thuộc phương án phát triển mạng lưới cấp điện
+trong quy hoạch tỉnh theo quy định tại Điều 4 của Nghị định này thì tiếp tục được thực hiện theo quyết
+định đã được cấp có thẩm quyền phê duyệt. Các dự án này được cập nhật vào quy hoạch tỉnh hoặc
+kế hoạch thực hiện quy hoạch tỉnh khi lập, điều chỉnh quy hoạch tỉnh sau khi Nghị định này có hiệu
+lực thi hành.
+             2. Các dự án lưới điện trung áp, hạ áp đã được cơ quan đăng ký đầu tư tiếp nhận hồ sơ hợp
+lệ đề nghị chấp thuận, điều chỉnh chủ trương đầu tư trước ngày Nghị định này có hiệu lực thi hành thì
+được tiếp tục thực hiện theo quy định của pháp luật về đầu tư.
+            3. Đối với các dự án đầu tư kinh doanh điện lực đấu thầu lựa chọn nhà đầu tư thực hiện như
+sau:
+                 a) Trường hợp đến ngày Nghị định này có hiệu lực thi hành mà chưa phát hành hồ sơ mời
+thầu thì phải lập hồ sơ mời thầu theo quy định tại Nghị định này;
+               b) Trường hợp đã phát hành hồ sơ mời thầu theo quy định tại Nghị định số 115/2024/NĐ-CP
+ngày 16 tháng 9 năm 2024 quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa
+chọn nhà đầu tư thực hiện dự án đầu tư có sử dụng đất và các văn bản quy phạm pháp luật hướng
+dẫn nhưng đến ngày Nghị định này có hiệu lực thi hành mà chưa phê duyệt kết quả lựa chọn nhà
+đầu tư thì thực hiện như sau: nếu đã nhận được hồ sơ dự thầu thì tiếp tục đánh giá hồ sơ dự thầu
+trên cơ sở hồ sơ mời thầu đã phát hành; nếu chưa nhận được hồ sơ dự thầu thì cơ quan quyết định
+tổ chức đấu thầu lựa chọn nhà đầu tư được gia hạn thời điểm đóng thầu và chỉnh sửa hồ sơ mời
+thầu theo quy định của Nghị định này.
+        Điều 25.Trách nhiệm thi hành
+                   Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ
+tịch Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương chịu trách nhiệm thi hành Nghị định này.
+ Nơi nhận:                                                         TM. CHÍNH PHỦ
+ - Ban Bí thư Trung ương Đảng;                                     KT. THỦ TƯỚNG
+ - Thủ tướng, các Phó Thủ tướng Chính phủ;                         PHÓ THỦ TƯỚNG
+ - Các bộ, cơ quan ngang bộ, cơ quan thuộc Chính
+ phủ;
+ - HĐND, UBND các tỉnh, thành phố trực thuộc trung
+
+ương;
+- Văn phòng Trung ương và các Ban của Đảng;                      Bùi Thanh Sơn
+- Văn phòng Tổng Bí thư;
+- Văn phòng Chủ tịch nước;
+- Hội đồng Dân tộc và các Ủy ban của Quốc hội;
+- Văn phòng Quốc hội;
+- Tòa án nhân dân tối cao;
+- Viện kiểm sát nhân dân tối cao;
+- Kiểm toán nhà nước;
+- Ngân hàng Chính sách xã hội;
+- Ngân hàng Phát triển Việt Nam;
+- Ủy ban trung ương Mặt trận Tổ quốc Việt Nam;
+- Cơ quan trung ương của các đoàn thể;
+- VPCP: BTCN, các PCN, Trợ lý TTg, TGĐ Cổng
+TTĐT, các Vụ, Cục, đơn vị trực thuộc, Công báo;
+- Lưu: VT, CN (2b).
+
+                                      Phụ lục
+                        (Kèm theo Nghị định số 56/2025/NĐ-CP
+                      ngày 03 tháng 3 năm 2025 của Chính phủ)
+                                      ________
+Mẫu số 01    Tờ trình đề nghị phê duyệt danh mục (hoặc phê duyệt điều chỉnh danh mục) đầu
+             tư lưới điện trung áp, hạ áp
+Mẫu số 02    Quyết định phê duyệt danh mục (hoặc phê duyệt điều chỉnh danh mục) đầu tư
+             lưới điện trung áp, hạ áp
+
+       Mẫu số 01: Tờ trình đề nghị phê duyệt danh mục (hoặc phê duyệt điều chỉnh danh
+mục) đầu tư lưới điện trung áp, hạ áp
+           TÊN TỔ CHỨC                           CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+            __________                             Độc lập - Tự do - Hạnh phúc
+             Số:………..                                     ______________________
+                                                      ……., ngày……tháng……năm……
+                                            TỜ TRÌNH
+                    Phê duyệt danh mục (hoặc phê duyệt điều chỉnh danh mục)
+                                đầu tư lưới điện trung áp, hạ áp
+                                            ________
+                                Kính gửi: Sở Công Thương tỉnh...
+       Căn cứ Luật Điện lực số 61/2024/QH15 ngày 30 tháng 11 năm 2024;
+       Căn cứ Nghị định số………./2025/NĐ-CP ngày... tháng ... năm 2025 của Chính phủ quy định
+chi tiết một số nội dung về quy hoạch phát triển điện lực, phương án phát triển mạng lưới cấp điện,
+đầu tư xây dựng dự án điện lực và đấu thầu lựa chọn nhà đầu tư dự án kinh doanh điện lực;
+       (Tên Đơn vị điện lực/Nhà đầu tư) trình Sở Công Thương tỉnh .... thẩm định đề nghị phê duyệt
+danh mục (hoặc điều chỉnh danh mục) đầu tư lưới điện trung áp, hạ áp.
+       I. THÔNG TIN DANH MỤC DỰ ÁN
+       1. Danh mục dự án bao gồm các thông tin: tên dự án, quy mô dự kiến (công suất, cấp điện
+áp, chiều dài,...), dự kiến (vốn đầu tư, nguồn vốn, tiến độ, khu vực cấp điện, nhu cầu sử dụng đất)
+theo phụ lục đính kèm.
+       2. Tên đơn vị điện lực/nhà đầu tư và các thông tin để liên lạc (điện thoại, địa chỉ):………..
+       3. Sự cần thiết đầu tư, mục tiêu đầu tư; sự phù hợp với phương án phát triển mạng lưới cấp
+điện trong quy hoạch tỉnh.
+       Trường hợp tờ trình phê duyệt điều chỉnh danh mục: bổ sung thông tin tình hình triển khai dự
+án thuộc danh mục, tài liệu liên quan đến việc điều chỉnh (nếu có).
+       II. DANH MỤC HỒ SƠ GỬI KÈM BAO GỒM
+       1. Tài liệu về tư cách pháp lý của đơn vị điện lực, nhà đầu tư, bao gồm:
+       Thẻ Căn cước, thẻ Căn cước công dân, hộ chiếu còn hiệu lực, các giấy tờ chứng thực cá
+nhân khác đối với cá nhân; thông tin mã số doanh nghiệp đối với tổ chức.
+       2. Tài liệu chứng minh năng lực tài chính của đơn vị điện lực, nhà đầu tư gồm một trong các
+tài liệu sau: báo cáo tài chính 02 năm gần nhất của đơn vị điện lực, nhà đầu tư; cam kết hỗ trợ tài
+chính của công ty mẹ; cam kết hỗ trợ tài chính của tổ chức tài chính; bảo lãnh về năng lực tài chính
+của nhà đầu tư; tài liệu khác chứng minh năng lực tài chính của nhà đầu tư.
+       (Tên Đơn vị điện lực/Nhà đầu tự) trình Sở Công Thương thẩm định danh mục (hoặc điều
+chỉnh danh mục) đầu tư lưới điện trung áp, hạ áp theo các nội dung nêu trên.
+ Nơi nhận:                                                       ĐẠI DIỆN TỔ CHỨC
+ - Như trên;                                         (Ký, ghi rõ họ tên, chức vụ và đóng dấu)
+ - Lưu:….
+
+                                  Phụ lục
+                DANH MỤC (HOẶC ĐIỀU CHỈNH DANH MỤC) ĐẦU TƯ
+                         LƯỚI ĐIỆN TRUNG ÁP, HẠ ÁP
+                                  ________
+TT   Tên dự án  Quy mô dự  Sơ bộ   Nguồn vốn Dự kiến tiến  Dự kiến Dự kiến nhu
+                   kiến   vốn đầu    đầu tư       độ       khu vực cầu sử dụng
+                             tư                           cấp điện   đất (ha)
+1
+2
+
+        Mẫu số 02: Quyết định phê duyệt danh mục (hoặc phê duyệt điều chỉnh danh mục) đầu
+tư lưới điện trung áp, hạ áp trên địa bàn tỉnh ....
+        ỦY BAN NHÂN DÂN TỈNH …                 CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+              __________                          Độc lập - Tự do - Hạnh phúc
+             Số:……/QĐ-…..                                ______________________
+                                                    ……., ngày……tháng……năm……
+                                           QUYẾT ĐỊNH
+                Về việc phê duyệt danh mục (hoặc phê duyệt điều chỉnh danh mục)
+                                đầu tư lưới điện trung áp, hạ áp
+                                            ________
+                                       ỦY BAN NHÂN DÂN...
+        Căn cứ Luật Điện lực ngày 30 tháng 11 năm 2024;
+        Căn cứ Nghị định số....../2025/NĐ-CP ngày... tháng ... năm 2025 của Chính phủ quy định chi
+tiết một số nội dung về quy hoạch phát triển điện lực, phương án phát triển mạng lưới cấp điện, đầu
+tư xây dựng dự án điện lực và đấu thầu lựa chọn nhà đầu tư dự án kinh doanh điện lực;
+        Các căn cứ pháp lý khác có liên quan (Quy hoạch tỉnh; kế hoạch thực hiện quy hoạch tỉnh);
+        Căn cứ.... quy định chức năng, nhiệm vụ, quyền hạn và tổ chức bộ máy của... Sở Công
+Thương;
+        Căn cứ Tờ trình đề nghị phê duyệt danh mục/phê duyệt điều chỉnh danh mục đầu tư lưới điện
+trung áp, hạ áp và hồ sơ kèm theo do ……………….. nộp ngày …………….. và hồ sơ bổ sung nộp
+ngày ………..... (nếu có) của (Đơn vị điện lực/Nhà đầu tư);
+        Xét báo cáo thẩm định số……………….. ngày…..tháng…..năm…….của Sở Công Thương; ý
+kiến của các đơn vị/cơ quan liên quan (nếu có).
+                                         QUYẾT ĐỊNH:
+        Điều 1. Phê duyệt danh mục (hoặc phê duyệt điều chỉnh danh mục) đầu tư lưới điện trung
+áp, hạ áp với các nội dung sau đây:
+        1. Danh mục dự án (hoặc phê duyệt điều chỉnh danh mục) bao gồm các thông tin: tên dự án,
+quy mô dự kiến (công suất, cấp điện áp, chiều dài,...), dự kiến (vốn đầu tư, nguồn vốn, tiến độ, khu
+vực cấp điện, nhu cầu sử dụng đất) theo phụ lục đính kèm.
+        2. Tên Đơn vị điện lực/nhà đầu tư và các thông tin để liên lạc (điện thoại, địa chỉ,...):……….
+        3. Mục tiêu đầu tư:………...
+        Điều 2. Tổ chức thực hiện
+        1. Trách nhiệm Đơn vị điện lực/Nhà đầu tư:
+        2. Trách nhiệm của Sở Công Thương:
+        3. Trách nhiệm của các cơ quan liên quan thuộc tỉnh (nêu có):
+        Điều 3. Quyết định này có hiệu lực kể từ ngày ký.
+        Sở Công Thương và Đơn vị điện lực/Nhà đầu tư có tên tại Điều 1 chịu trách nhiệm thi hành
+Quyết định này.
+        Văn phòng Ủy ban nhân dân ... chịu trách nhiệm đăng tải Quyết định này trên Cổng Thông tin
+điện tử của ...........
+ Nơi nhận:                                                   TM. ỦY BAN NHÂN DÂN
+                                                                   CHỦ TỊCH
+                                                       (Ký và ghi rõ họ tên, đóng dấu)
+
+                                   Phụ lục
+                DANH MỤC (HOẶC ĐIỀU CHỈNH DANH MỤC) ĐẦU TƯ
+                          LƯỚI ĐIỆN TRUNG ÁP, HẠ ÁP
+                                   ________
+TT   Tên dự án Quy mô dự   Sơ bộ   Nguồn vốn   Dự kiến tiến Dự kiến khu Dự kiến nhu
+                  kiến    vốn đầu    đầu tư   độ thực hiện vực cấp   cầu sử dụng
+                             tư                              điện      đất (ha)
+1
+2

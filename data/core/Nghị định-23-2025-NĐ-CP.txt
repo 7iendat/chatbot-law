@@ -1,0 +1,1365 @@
+CHÍNH PHỦ                                 CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+                  _______                                     Độc lập – Tự do – Hạnh phúc
+             Số: 23/2025/NĐ-CP                                  _______________________
+                                                          Hà Nội, ngày 21 tháng 02 năm 2025
+                                                NGHỊ ĐỊNH
+                              Quy định về chữ ký điện tử và dịch vụ tin cậy
+                                                  __________
+         Căn cứ Luật Tổ chức Chính phủ ngày 19 tháng 6 năm 2015; Luật sửa đổi, bổ sung một số điều của Luật
+Tổ chức Chính phủ và Luật Tổ chức chính quyền địa phương ngày 22 tháng 11 năm 2019;
+         Căn cứ Luật Giao dịch điện tử ngày 22 tháng 6 năm 2023;
+         Căn cứ Luật Phí và lệ phí ngày 25 tháng 11 năm 2015;
+         Theo đề nghị của Bộ trưởng Bộ Thông tin và Truyền thông;
+         Chính phủ ban hành Nghị định quy định về chữ ký điện tử và dịch vụ tin cậy.
+                                                 Chương I
+                                           NHỮNG QUY ĐỊNH CHUNG
+         Điều 1. Phạm vi điều chỉnh
+         Nghị định này quy định về chữ ký điện tử và dịch vụ tin cậy, trừ chữ ký số chuyên dùng công vụ và
+dịch vụ chứng thực chữ ký số chuyên dùng công vụ.
+         Điều 2. Đối tượng áp dụng
+         Nghị định này áp dụng đối với cơ quan, tổ chức, cá nhân tham gia trực tiếp hoặc có liên quan đến chữ
+ký điện tử và dịch vụ tin cậy.
+         Điều 3. Giải thích từ ngữ
+         Trong Nghị định này, các từ ngữ dưới đây được hiểu như sau:
+         1. “Khóa” là một chuỗi các số nhị phân (0 và 1) dùng trong các hệ thống mật mã.
+         2. “Ký số” là việc đưa khóa bí mật vào một chương trình phần mềm để tự động tạo và gắn chữ ký số
+vào thông điệp dữ liệu.
+         3. “Chứng thư chữ ký số có hiệu lực” là chứng thư chữ ký số chưa hết hạn, không bị tạm dừng hoặc bị
+thu hồi.
+         4. “Mã bảo đảm toàn vẹn thông điệp dữ liệu” là một dãy ký tự được sử dụng để kiểm tra được tính
+toàn vẹn của thông điệp dữ liệu.
+         5. “Thuê bao” là cơ quan, tổ chức, cá nhân giao kết hợp đồng cung cấp và sử dụng dịch vụ tin cậy với
+tổ chức cung cấp dịch vụ tin cậy.
+         6. “Tổ chức cung cấp dịch vụ chứng thực điện tử quốc gia” là Trung tâm Chứng thực điện tử quốc gia
+trực thuộc Bộ Thông tin và Truyền thông.
+         7. “Quy chế chứng thực” là văn bản về chính sách và quy trình, thủ tục cấp, quản lý chứng thư chữ ký
+điện tử hoặc chứng thư chữ ký số, sử dụng chữ ký điện tử chuyên dùng bảo đảm an toàn hoặc dịch vụ tin cậy
+của tổ chức cung cấp dịch vụ chứng thực điện tử quốc gia, tổ chức cung cấp dịch vụ tin cậy, tổ chức tạo lập chữ
+ký điện tử chuyên dùng bảo đảm an toàn.
+         8. “Phí dịch vụ duy trì hệ thống kiểm tra trạng thái chứng thư chữ ký số” là khoản tiền để duy trì hệ
+thống thông tin phục vụ việc kiểm tra trạng thái chứng thư chữ ký số đối với dịch vụ chứng thực chữ ký số công
+cộng, dịch vụ cấp dấu thời gian, dịch vụ chứng thực thông điệp dữ liệu.
+         9. “Phương tiện lưu khóa bí mật” là phương tiện chứa khóa bí mật của thuê bao.
+ LualVietnam                                                                         LuatVietnam.vn
+  Tien Ich van bản Iuai
+
+                                                 Chương II
+                                             CHỮ KÝ ĐIỆN TỬ
+                                                   Mục 1
+                                          CHỨNG THƯ CHỮ KÝ ĐIỆN TỬ
+         Điều 4. Chứng thư chữ ký điện tử
+         Chứng thư chữ ký điện tử được phân loại như sau:
+         1. Chứng thư chữ ký số gốc của tổ chức cung cấp dịch vụ chứng thực điện tử quốc gia là chứng thư
+chữ ký số do tổ chức cung cấp dịch vụ chứng thực điện tử quốc gia tự cấp cho mình tương ứng với từng loại
+dịch vụ tin cậy.
+         2. Chứng thư chữ ký số của tổ chức cung cấp dịch vụ tin cậy là chứng thư chữ ký số do tổ chức cung
+cấp dịch vụ chứng thực điện tử quốc gia cấp cho tổ chức cung cấp dịch vụ tin cậy tương ứng với từng loại dịch
+vụ tin cậy, bao gồm: chứng thư chữ ký số cho dịch vụ cấp dấu thời gian, chứng thư chữ ký số cho dịch vụ chứng
+thực thông điệp dữ liệu, chứng thư chữ ký số cho dịch vụ chứng thực chữ ký số công cộng.
+         3. Chứng thư chữ ký số công cộng là chứng thư chữ ký số do tổ chức cung cấp dịch vụ chứng thực chữ
+ký số công cộng cấp cho thuê bao.
+         4. Chứng thư chữ ký điện tử chuyên dùng là chứng thư chữ ký điện tử do cơ quan, tổ chức tạo lập chữ
+ký điện tử chuyên dùng cấp.
+         Điều 5. Nội dung của chứng thư chữ ký điện tử
+         Nội dung chứng thư chữ ký điện tử bao gồm:
+         1. Thông tin về cơ quan, tổ chức tạo lập chứng thư chữ ký điện tử.
+         2. Thông tin về cơ quan, tổ chức, cá nhân được cấp chứng thư chữ ký điện tử, bao gồm tên cơ quan,
+tổ chức, cá nhân; mã/số định danh của cơ quan, tổ chức, cá nhân hoặc danh tính điện tử của cơ quan, tổ chức,
+cá nhân được cấp chứng thư chữ ký điện tử và các thông tin cần thiết khác (nếu có).
+         3. Số hiệu của chứng thư chữ ký điện tử.
+         4. Thời hạn có hiệu lực của chứng thư chữ ký điện tử.
+         5. Dữ liệu để kiểm tra chữ ký điện tử của cơ quan, tổ chức, cá nhân được cấp chứng thư chữ ký điện
+tử.
+         6. Chữ ký điện tử của cơ quan, tổ chức tạo lập chứng thư chữ ký điện tử.
+         7. Mục đích, phạm vi sử dụng của chứng thư chữ ký điện tử.
+         8. Trách nhiệm pháp lý của cơ quan, tổ chức cấp chứng thư chữ ký điện tử.
+         Điều 6. Nội dung của chứng thư chữ ký số
+         1. Nội dung chứng thư chữ ký số gốc của tổ chức cung cấp dịch vụ chứng thực điện tử quốc gia bao
+gồm:
+         a) Tên của tổ chức cung cấp dịch vụ chứng thực điện tử quốc gia;
+         b) Số hiệu chứng thư chữ ký số;
+         c) Thời hạn có hiệu lực của chứng thư chữ ký số;
+         d) Khóa công khai của tổ chức cung cấp dịch vụ chứng thực điện tử quốc gia;
+         đ) Chữ ký số của tổ chức cung cấp dịch vụ chứng thực điện tử quốc gia;
+         e) Mục đích, phạm vi sử dụng của chứng thư chữ ký số;
+         g) Trách nhiệm pháp lý của tổ chức cung cấp dịch vụ chứng thực điện tử quốc gia;
+         h) Thuật toán khóa không đối xứng.
+         2. Nội dung chứng thư chữ ký số của tổ chức cung cấp dịch vụ tin cậy tương ứng với từng loại dịch vụ
+
+bao gồm:
+         a) Tên của tổ chức cấp chứng thư chữ ký số;
+         b) Tên của tổ chức cung cấp dịch vụ tin cậy;
+         c) Số hiệu chứng thư chữ ký số;
+         d) Thời hạn có hiệu lực của chứng thư chữ ký số;
+         đ) Khóa công khai của tổ chức cung cấp dịch vụ tin cậy;
+         e) Chữ ký số của tổ chức cấp chứng thư chữ ký số;
+         g) Mục đích, phạm vi sử dụng của chứng thư chữ ký số;
+         h) Trách nhiệm pháp lý của tổ chức cung cấp dịch vụ tin cậy;
+         i) Thuật toán khóa không đối xứng.
+         3. Nội dung của chứng thư chữ ký số công cộng bao gồm:
+         a) Tên của tổ chức phát hành chứng thư chữ ký số;
+         b) Tên của thuê bao;
+         c) Số hiệu chứng thư chữ ký số;
+         d) Thời hạn có hiệu lực của chứng thư chữ ký số;
+         đ) Khóa công khai của thuê bao;
+         e) Chữ ký số của tổ chức phát hành chứng thư chữ ký số;
+         g) Mục đích, phạm vi sử dụng của chứng thư chữ ký số;
+         h) Trách nhiệm pháp lý của tổ chức cung cấp dịch vụ chứng thực chữ ký số công cộng;
+         i) Thuật toán khóa không đối xứng.
+         Điều 7. Thời hạn có hiệu lực của chứng thư chữ ký điện tử, chứng thư chữ ký số
+         1. Thời hạn có hiệu lực của chứng thư chữ ký số gốc của tổ chức cung cấp dịch vụ chứng thực điện tử
+quốc gia là 25 năm.
+         2. Thời hạn có hiệu lực của chứng thư chữ ký số của tổ chức cung cấp dịch vụ tin cậy:
+         a) Chứng thư chữ ký số cho dịch vụ cấp dấu thời gian có hiệu lực tối đa là 05 năm;
+         b) Chứng thư chữ ký số cho dịch vụ chứng thực thông điệp dữ liệu có hiệu lực tối đa là 05 năm;
+         c) Chứng thư chữ ký số cho dịch vụ chứng thực chữ ký số công cộng có hiệu lực tối đa là 10 năm.
+         3. Thời hạn có hiệu lực của chứng thư chữ ký số công cộng tối đa là 03 năm.
+         4. Thời hạn có hiệu lực của chứng thư chữ ký điện tử chuyên dùng trong trường hợp chữ ký điện tử
+chuyên dùng được bảo đảm bởi chứng thư chữ ký điện tử chuyên dùng là 10 năm.
+         Điều 8. Định dạng chứng thư chữ ký điện tử, chứng thư chữ ký số
+         Khi cấp, phát hành chứng thư chữ ký điện tử, chứng thư chữ ký số, cơ quan, tổ chức tạo lập chữ ký
+điện tử chuyên dùng, các tổ chức cung cấp dịch vụ tin cậy phải tuân thủ quy định về định dạng chứng thư chữ
+ký điện tử, định dạng chứng thư chữ ký số theo quy định của Bộ trưởng Bộ Thông tin và Truyền thông.
+                                                   Mục 2
+                            CHỮ KÝ ĐIỆN TỬ CHUYÊN DÙNG BẢO ĐẢM AN TOÀN
+         Điều 9. Chữ ký điện tử chuyên dùng bảo đảm an toàn
+         1. Chữ ký điện tử chuyên dùng bảo đảm an toàn phải đáp ứng đủ các yêu cầu theo quy định tại khoản
+2 Điều 22 Luật Giao dịch điện tử.
+
+        Chữ ký điện tử chuyên dùng được bảo đảm bởi chứng thư chữ ký điện tử của cơ quan, tổ chức tạo lập
+được xem là đáp ứng đủ các yêu cầu tại khoản 2 Điều 22 Luật Giao dịch điện tử.
+        2. Chữ ký điện tử chuyên dùng bảo đảm an toàn do cơ quan, tổ chức tạo lập, sử dụng riêng cho hoạt
+động của cơ quan, tổ chức đó phù hợp với chức năng, nhiệm vụ, bao gồm:
+        a) Hoạt động nội bộ của cơ quan, tổ chức tạo lập;
+        b) Hoạt động chuyên ngành hoặc lĩnh vực, có cùng tính chất hoạt động hoặc mục đích công việc và
+được liên kết với nhau thông qua điều lệ hoạt động hoặc văn bản quy định về cơ cấu tổ chức, hình thức liên
+kết, hoạt động chung;
+        c) Hoạt động đại diện cho chính cơ quan, tổ chức tạo lập chữ ký điện tử chuyên dùng bảo đảm an
+toàn để giao dịch với tổ chức, cá nhân khác.
+        3. Cơ quan, tổ chức tạo lập chữ ký điện tử chuyên dùng bảo đảm an toàn chịu trách nhiệm trước pháp
+luật đối với việc sử dụng chữ ký điện tử chuyên dùng bảo đảm an toàn theo quy định tại khoản 2 Điều này.
+        Điều 10. Hồ sơ đề nghị cấp, cấp lại chứng nhận chữ ký điện tử chuyên dùng bảo đảm an toàn
+        1. Hồ sơ cấp chứng nhận chữ ký điện tử chuyên dùng bảo đảm an toàn:
+        a) Đơn đề nghị cấp chứng nhận chữ ký điện tử chuyên dùng bảo đảm an toàn theo Mẫu số 01 tại Phụ
+lục ban hành kèm theo Nghị định này;
+        b) Bản sao hợp lệ, bao gồm bản sao được cấp từ sổ gốc hoặc bản sao có chứng thực hoặc bản sao đối
+chiếu với bản chính của một trong các giấy tờ sau: giấy chứng nhận đăng ký doanh nghiệp, giấy chứng nhận
+đăng ký đầu tư đối với nhà đầu tư nước ngoài, quyết định thành lập hoặc văn bản quy định về cơ cấu, tổ chức
+hoặc giấy chứng nhận, giấy phép tương đương hợp lệ khác theo quy định của pháp luật về đầu tư và pháp luật
+về doanh nghiệp;
+        c) Điều lệ hoạt động, văn bản quy định về cơ cấu, tổ chức; về hình thức liên kết, hoạt động chung để
+chứng minh việc sử dụng chữ ký điện tử chuyên dùng bảo đảm an toàn theo khoản 2 Điều 9 của Nghị định này;
+        d) Văn bản chứng minh việc tạo lập chữ ký điện tử chuyên dùng bảo đảm an toàn đáp ứng đủ các yêu
+cầu tại khoản 1 Điều 9 của Nghị định này theo Mẫu số 03 tại Phụ lục ban hành kèm theo Nghị định này;
+        đ) Quy chế chứng thực theo quy định tại Điều 29 của Nghị định này.
+        2. Hồ sơ cấp lại chứng nhận chữ ký điện tử chuyên dùng bảo đảm an toàn:
+        a) Đơn đề nghị cấp chứng nhận chữ ký điện tử chuyên dùng bảo đảm an toàn do hết hạn theo Mẫu số
+01 tại Phụ lục ban hành kèm theo Nghị định này;
+        b) Văn bản chứng minh việc tạo lập chữ ký điện tử chuyên dùng bảo đảm an toàn đáp ứng đủ các yêu
+cầu tại khoản 1 Điều 9 của Nghị định này theo Mẫu số 03 tại Phụ lục ban hành kèm theo Nghị định này;
+        c) Những thông tin thay đổi trong hồ sơ đề nghị cấp quy định tại các điểm b, c, đ khoản 1 Điều này;
+        d) Báo cáo tình hình thực hiện giấy chứng nhận kể từ ngày được cấp tới ngày đề nghị cấp lại theo Mẫu
+số 08 tại Phụ lục ban hành kèm theo Nghị định này.
+        Điều 11. Quy trình tiếp nhận, giải quyết hồ sơ cấp, cấp lại chứng nhận chữ ký điện tử chuyên dùng
+bảo đảm an toàn
+        1. Cơ quan, tổ chức chuẩn bị 01 bộ hồ sơ tương ứng với đề nghị cấp, cấp lại tại Điều 10 của Nghị định
+này.
+        2. Hồ sơ đề nghị được nộp trực tiếp tại Bộ Thông tin và Truyền thông hoặc gửi qua đường bưu chính
+hoặc qua hệ thống dịch vụ công trực tuyến (Cổng Dịch vụ công quốc gia, https://dichvucong.gov.vn hoặc Cổng
+dịch vụ công của Bộ Thông tin và Truyền thông, https://dichvucong.mic.gov.vn).
+        3. Việc kiểm tra tính hợp lệ của hồ sơ được thực hiện dựa trên các tiêu chí sau:
+        a) Hồ sơ được lập theo đúng quy định tại khoản 1 Điều này;
+        b) Hồ sơ phải được làm bằng tiếng Việt. Hồ sơ phải có đủ dấu xác nhận của cơ quan, tổ chức, dấu
+chứng thực bản sao; các tài liệu bản in do cơ quan, tổ chức lập có từ 02 tờ văn bản trở lên thì phải đóng dấu
+
+giáp lai.
+          4. Trong thời hạn 07 ngày làm việc kể từ ngày nhận được hồ sơ cấp, cấp lại chứng nhận chữ ký điện tử
+chuyên dùng bảo đảm an toàn, Bộ Thông tin và Truyền thông kiểm tra tính hợp lệ của hồ sơ theo quy định tại
+khoản 3 Điều này.
+        a) Trường hợp chưa hợp lệ, Bộ Thông tin và Truyền thông gửi thông báo và nêu rõ lý do;
+               b) Trường hợp hồ sơ hợp lệ, Bộ Thông tin và Truyền thông đề nghị phối hợp thẩm tra hồ sơ với Bộ
+Công an, Ban Cơ yếu Chính phủ và cơ quan, tổ chức có liên quan. Trong thời hạn 15 ngày kể từ ngày nhận được
+đề nghị phối hợp thẩm tra hồ sơ, Bộ Công an, Ban Cơ yếu Chính phủ và cơ quan, tổ chức có liên quan có trách
+nhiệm trả lời bằng văn bản;
+            c) Trong thời hạn 20 ngày kể từ ngày nhận được đầy đủ ý kiến phối hợp thẩm tra quy định tại điểm b
+khoản này, Bộ Thông tin và Truyền thông thẩm tra, đánh giá thực tế hệ thống thông tin tạo lập và cấp, cấp lại
+chứng nhận chữ ký điện tử chuyên dùng bảo đảm an toàn cho cơ quan, tổ chức. Mẫu chứng nhận chữ ký điện
+tử chuyên dùng bảo đảm an toàn quy định theo Mẫu số 02 tại Phụ lục ban hành kèm theo Nghị định này.
+Trường hợp từ chối, Bộ Thông tin và Truyền thông có văn bản thông báo và nêu rõ lý do. Chứng nhận chữ ký
+điện tử chuyên dùng bảo đảm an toàn của cơ quan, tổ chức có thời hạn tối đa là 10 năm.
+              5. Trường hợp cơ quan, tổ chức lựa chọn thực hiện thủ tục cấp, cấp lại chứng nhận chữ ký điện tử
+chuyên dùng bảo đảm an toàn trên môi trường điện tử, việc tiếp nhận và xử lý hồ sơ thực hiện theo quy định
+của Chính phủ về thực hiện thủ tục hành chính trên môi trường điện tử, cung cấp dịch vụ công trực tuyến của
+cơ quan nhà nước trên môi trường mạng và pháp luật về giao dịch điện tử, trừ trường hợp đánh giá thực tế
+quy định tại điểm c khoản 4 Điều này.
+                  6. Trường hợp chữ ký điện tử chuyên dùng bảo đảm an toàn không đáp ứng một trong các yêu cầu
+quy định tại khoản 2 Điều 22 Luật Giao dịch điện tử, Bộ Thông tin và Truyền thông thu hồi chứng nhận chứng
+nhận  chữ  ký  điện tử  chuyên  dùng   bảo  đảm  an  toàn  và  công  bố  trên trang  thông  tin điện        tử
+(https://rootca.gov.vn/) về việc chữ ký điện tử chuyên dùng không bảo đảm an toàn.
+                                                 Mục 3
+                                              CHỮ KÝ SỐ
+        Điều 12. Chữ ký số công cộng
+               Chữ ký số công cộng là chữ ký số được sử dụng trong hoạt động công cộng, được bảo đảm bởi chứng
+thư chữ ký số công cộng và đáp ứng đủ các yêu cầu quy định tại khoản 3 Điều 22 Luật Giao dịch điện tử.
+        Điều 13. Chứng thư chữ ký số của cơ quan, tổ chức và người có thẩm quyền của cơ quan, tổ chức
+          1. Tất cả các cơ quan, tổ chức, người có thẩm quyền của cơ quan, tổ chức theo quy định của pháp luật
+được thành lập và hoạt động hợp pháp đều có quyền được cấp, phát hành chứng thư chữ ký số.
+              2. Chứng thư chữ ký số cấp cho người có thẩm quyền của cơ quan, tổ chức phải nêu rõ chức danh và
+tên cơ quan, tổ chức của người đó.
+                 Điều 14. Sử dụng chữ ký số và chứng thư chữ ký số của cơ quan, tổ chức và người có thẩm quyền
+của cơ quan, tổ chức
+             1. Chữ ký số của cơ quan, tổ chức và người có thẩm quyền của cơ quan, tổ chức được cấp, phát hành
+chứng thư chữ ký số theo quy định tại Điều 13 của Nghị định này chỉ được sử dụng để thực hiện các giao dịch
+và các hoạt động theo đúng thẩm quyền của cơ quan, tổ chức và chức danh được cấp, phát hành chứng thư
+chữ ký số.
+          2. Việc ký thay, ký thừa lệnh theo quy định của pháp luật thực hiện bởi người được giao, ủy quyền sử
+dụng chữ ký số của mình, được hiểu căn cứ vào chức danh của người ký số ghi trên chứng thư chữ ký số.
+        Điều 15. Nghĩa vụ của người ký trước khi thực hiện ký số
+        1. Trước khi ký số, người ký phải thực hiện quy trình kiểm tra trạng thái chứng thư chữ ký số như sau:
+          a) Kiểm tra trạng thái chứng thư chữ ký số của mình trên hệ thống thông tin của cơ quan, tổ chức tạo
+lập cấp, phát hành chứng thư chữ ký số đó;
+
+         b) Kiểm tra trạng thái chứng thư chữ ký số của tổ chức tạo lập, phát hành chứng thư chữ ký số cho
+mình trên hệ thống chứng thực dịch vụ tin cậy của tổ chức cung cấp dịch vụ chứng thực điện tử quốc gia;
+         c) Trường hợp kết quả kiểm tra tại các điểm a và điểm b khoản này đồng thời có hiệu lực, người ký
+thực hiện ký số. Trường hợp kết quả kiểm tra tại điểm a hoặc điểm b khoản này là không có hiệu lực, người ký
+số không thực hiện ký số.
+         2. Sử dụng phần mềm ký số đáp ứng yêu cầu tại Điều 17 của Nghị định này.
+         Điều 16. Nghĩa vụ của người nhận khi nhận thông điệp dữ liệu được ký số
+         1. Trước khi chấp nhận chữ ký số của người ký số, người nhận phải kiểm tra các thông tin sau:
+         a) Trạng thái chứng thư chữ ký số, phạm vi sử dụng, giới hạn trách nhiệm và các thông tin trên chứng
+thư chữ ký số của người ký phải bảo đảm được định danh theo quy định pháp luật về định danh và xác thực
+điện tử;
+         b) Chữ ký số phải được tạo bởi khóa bí mật tương ứng với khóa công khai trên chứng thư chữ ký số
+của người ký;
+         c) Đối với chữ ký số được tạo ra bởi chứng thư chữ ký số nước ngoài được công nhận tại Việt Nam,
+người nhận phải kiểm tra hiệu lực chứng thư chữ ký số trên cả hệ thống chứng thực dịch vụ tin cậy của tổ chức
+cung cấp dịch vụ chứng thực điện tử quốc gia và hệ thống cung cấp dịch vụ chứng thực chữ ký điện tử của tổ
+chức nước ngoài.
+         2. Người nhận phải thực hiện quy trình kiểm tra trạng thái chứng thư chữ ký số như sau:
+         a) Kiểm tra trạng thái chứng thư chữ ký số tại thời điểm thực hiện ký số, phạm vi sử dụng, giới hạn
+trách nhiệm và các thông tin trên chứng thư chữ ký số đó theo quy định tại Điều 6 của Nghị định này trên hệ
+thống thông tin của cơ quan, tổ chức tạo lập cấp, phát hành chứng thư chữ ký số đó;
+         b) Trong trường hợp người ký số sử dụng chứng thư chữ ký số công cộng do tổ chức cung cấp dịch vụ
+chứng thực chữ ký số công cộng cấp: kiểm tra trạng thái chứng thư chữ ký số công cộng của tổ chức cung cấp
+dịch vụ chứng thực chữ ký số công cộng đã phát hành chứng thư chữ ký số công cộng đó tại thời điểm thực
+hiện ký số trên hệ thống chứng thực dịch vụ tin cậy của tổ chức cung cấp dịch vụ chứng thực điện tử quốc gia;
+         c) Chữ ký số trên thông điệp dữ liệu chỉ có hiệu lực khi kết quả kiểm tra tại các điểm a và điểm b
+khoản này đồng thời có hiệu lực.
+         3. Người nhận chịu trách nhiệm về việc chấp nhận chứng thư chữ ký số trong các trường hợp sau:
+         a) Không tuân thủ các quy định tại khoản 1 và khoản 2 Điều này;
+         b) Đã biết hoặc được thông báo về tình trạng tạm dừng, thu hồi, hết hạn chứng thư chữ ký số của
+thuê bao.
+         4. Sử dụng phần mềm kiểm tra chữ ký số đáp ứng yêu cầu tại Điều 17 của Nghị định này.
+         Điều 17. Yêu cầu đối với phần mềm ký số, phần mềm kiểm tra chữ ký số
+         1. Phần mềm ký số, phần mềm kiểm tra chữ ký số phải tuân thủ các tiêu chuẩn kỹ thuật về chữ ký số
+trên thông điệp dữ liệu; không sử dụng rào cản kỹ thuật, công nghệ để hạn chế việc kiểm tra hiệu lực chữ ký
+số.
+         2. Đối với phần mềm ký số phải có chức năng sau:
+         a) Chức năng xác thực chủ thể ký và ký số;
+         b) Chức năng kiểm tra hiệu lực của chứng thư chữ ký số trong đó thông tin trong chứng thư chữ ký số
+đã bảo đảm được định danh theo quy định pháp luật về định danh và xác thực điện tử; chức năng kết nối với
+Cổng kết nối dịch vụ chứng thực chữ ký số công cộng;
+         c) Chức năng lưu trữ và hủy bỏ các thông tin kèm theo thông điệp dữ liệu ký số;
+         d) Chức năng thay đổi (thêm, bớt) chứng thư chữ ký số của cơ quan, tổ chức tạo lập cấp, phát hành
+chứng thư chữ ký số;
+         đ) Chức năng thông báo (bằng chữ/bằng ký hiệu) cho người ký số biết việc ký số vào thông điệp dữ
+
+liệu thành công hay không thành công.
+         3. Đối với phần mềm kiểm tra chữ ký số phải có chức năng sau:
+         a) Chức năng kiểm tra tính hợp lệ của chữ ký số trên thông điệp dữ liệu;
+         b) Chức năng lưu trữ và hủy bỏ các thông tin kèm theo thông điệp dữ liệu ký số;
+              c) Chức năng thay đổi (thêm, bớt) chứng thư chữ ký số của cơ quan, tổ chức tạo lập cấp, phát hành
+chứng thư chữ ký số;
+           d) Chức năng thông báo (bằng chữ/bằng ký hiệu) việc kiểm tra tính hợp lệ của chữ ký số là hợp lệ hay
+không hợp lệ.
+         4. Bộ trưởng Bộ Thông tin và Truyền thông quy định yêu cầu kỹ thuật đối với chức năng phần mềm ký
+số, phần mềm kiểm tra chữ ký số.
+                                                 Chương III
+                                              DỊCH VỤ TIN CẬY
+                                                   Mục 1
+                                         KINH DOANH DỊCH VỤ TIN CẬY
+         Điều 18. Điều kiện kinh doanh
+              Doanh nghiệp được quyền đăng ký một hoặc các dịch vụ tin cậy. Khi đăng ký bất kỳ dịch vụ tin cậy,
+doanh nghiệp phải đáp ứng đủ các điều kiện quy định tại khoản 1 Điều 29 Luật Giao dịch điện tử. Trong đó, các
+điều kiện tại điểm b, c, d, đ khoản 1 Điều 29 Luật Giao dịch điện tử được quy định chi tiết như sau:
+          1. Về điều kiện tài chính để giải quyết rủi ro và các khoản đền bù có thể xảy ra trong quá trình cung
+cấp dịch vụ và thanh toán chi phí tiếp nhận, duy trì cơ sở dữ liệu thông tin liên quan đến hoạt động cung cấp
+dịch vụ, doanh nghiệp được lựa chọn thực hiện một trong các hình thức sau:
+              a) Ký quỹ tại một ngân hàng thương mại tại Việt Nam áp dụng cho một hoặc các dịch vụ tin cậy. Mức
+ký quỹ là 10 tỷ đồng Việt Nam cho mỗi 300 nghìn thuê bao và không thấp hơn 10 tỷ đồng Việt Nam, với điều
+kiện doanh nghiệp không được thu tiền trả trước quá 01 năm từ thuê bao;
+             b) Mua bảo hiểm trách nhiệm, thiệt hại đối với hoạt động cung cấp dịch vụ tin cậy để bảo đảm quyền
+lợi của thuê bao trong suốt thời gian cung cấp dịch vụ.
+         2. Điều kiện nhân lực quản lý và kỹ thuật:
+                a) Nhân lực về vận hành hệ thống gồm: quản trị, vận hành, an toàn, an ninh thông tin, kiểm soát
+quyền ra vào, giám sát và kiểm tra, quản lý vòng đời chứng thư chữ ký số, quản lý vòng đời khóa;
+              b) Nhân lực cung cấp dịch vụ gồm: kiểm toán kỹ thuật, bảo mật, cấp, tạm dừng, huỷ, cài đặt và bảo
+hành; xác minh danh tính thuê bao (đối với dịch vụ chứng thực chữ ký số công cộng và dịch vụ chứng thực
+thông điệp dữ liệu);
+          c) Nhân lực chịu trách nhiệm về an toàn, an ninh thông tin, bảo mật có trình độ từ đại học trở lên về
+an toàn thông tin và có kinh nghiệm tối thiểu 02 năm tương ứng với ngành được đào tạo;
+         d) Nhân lực chịu trách nhiệm về quản trị, vận hành, kiểm toán kỹ thuật, cấp, tạm dừng, huỷ, cài đặt và
+bảo hành, giám sát và kiểm tra, quản lý vòng đời khóa có trình độ từ đại học trở lên về công nghệ thông tin
+hoặc gần đào tạo về công nghệ thông tin và có kinh nghiệm tối thiểu 02 năm tương ứng với ngành được đào
+tạo.
+           3. Phương án kỹ thuật phục vụ hoạt động cung cấp dịch vụ áp dụng chung cho các loại dịch vụ tin cậy,
+phải thể hiện các nội dung sau:
+           a) Tuân thủ tiêu chuẩn, quy chuẩn kỹ thuật, yêu cầu kỹ thuật về chữ ký số, chứng thư chữ ký số; dịch
+vụ tin cậy; an toàn thông tin mạng; an ninh mạng;
+           b) Lưu trữ đầy đủ, chính xác và cập nhật thông tin thuê bao; cập nhật danh sách các chứng thư chữ ký
+số có hiệu lực, bị tạm dừng, bị thu hồi; thuê bao có thể truy cập, sử dụng Internet truy nhập trực tuyến 24 giờ
+trong ngày và 07 ngày trong tuần;
+
+         c) Bảo đảm mỗi cặp khóa được tạo ra ngẫu nhiên và đúng một lần duy nhất; có tính năng bảo đảm
+khóa bí mật không bị phát hiện khi có khóa công khai tương ứng;
+         d) Cảnh báo, ngăn chặn và phát hiện truy nhập bất hợp pháp trên môi trường điện tử;
+         đ) Thành phần quản lý vòng đời chứng thư chữ ký số được thiết kế theo xu hướng giảm thiểu tối đa
+sự tiếp xúc trực tiếp với môi trường điện tử và độc lập với các hệ thống không phục vụ cho dịch vụ tin cậy;
+         e) Hệ thống thông tin phải bảo đảm an toàn thông tin mạng tối thiểu cấp độ 3 và bảo vệ dữ liệu cá
+nhân theo quy định của pháp luật về an toàn thông tin mạng và an ninh mạng;
+         g) Kiểm soát sự ra vào, quyền truy nhập hệ thống, quyền ra vào nơi đặt thiết bị;
+         h) Dự phòng bảo đảm duy trì hoạt động an toàn, liên tục và khắc phục khi có sự cố xảy ra, các quy
+trình thực hiện sao lưu dữ liệu, sao lưu trực tuyến dữ liệu, khôi phục dữ liệu, có khả năng phục hồi dữ liệu
+chậm nhất là 08 giờ làm việc kể từ thời điểm hệ thống gặp sự cố; trung tâm dự phòng cách xa trung tâm dữ
+liệu chính tối thiểu 20 kilomet và sẵn sàng hoạt động khi hệ thống chính gặp sự cố;
+         i) Hệ thống thông tin cung cấp dịch vụ đặt tại Việt Nam;
+         k) Quy chế chứng thực theo quy định tại Điều 29 của Nghị định này.
+         4. Đối với dịch vụ chứng thực chữ ký số công cộng, phương án kỹ thuật phải đáp ứng quy định tại
+khoản 3 Điều này và bổ sung các nội dung sau:
+         a) Hệ thống phân phối khóa cho thuê bao phải bảo đảm sự toàn vẹn và bảo mật của cặp khóa. Trong
+trường hợp phân phối khóa thông qua môi trường mạng máy tính thì hệ thống phân phối khóa phải sử dụng
+các giao thức bảo mật bảo đảm không lộ thông tin trên đường truyền;
+         b) Giải pháp cung cấp thông tin (chứng thư chữ ký số, báo cáo định kỳ và đột xuất theo quy định) bằng
+phương tiện điện tử cho tổ chức cung cấp dịch vụ chứng thực điện tử quốc gia, phục vụ công tác quản lý nhà
+nước.
+         5. Đối với dịch vụ dấu thời gian và dịch vụ chứng thực thông điệp dữ liệu, phương án kỹ thuật phải
+đáp ứng quy định tại khoản 3 Điều này và bổ sung các nội dung sau:
+         a) Nguồn thời gian theo quy định của pháp luật về nguồn thời gian chuẩn quốc gia;
+         b) Giải pháp cung cấp thông tin (mã bảo đảm toàn vẹn thông điệp dữ liệu, sự kiện giao dịch (event
+log), báo cáo định kỳ và đột xuất theo quy định) bằng phương tiện điện tử cho tổ chức cung cấp dịch vụ chứng
+thực điện tử quốc gia, phục vụ công tác quản lý nhà nước.
+         Điều 19. Hồ sơ đề nghị cấp, cấp lại, thay đổi nội dung, gia hạn giấy phép kinh doanh dịch vụ tin cậy
+         1. Hồ sơ đề nghị cấp giấy phép kinh doanh dịch vụ tin cậy:
+         a) Đơn đề nghị cấp giấy phép kinh doanh dịch vụ tin cậy theo Mẫu số 04 tại Phụ lục ban hành kèm
+theo Nghị định này, trong đó nêu rõ loại hình dịch vụ tin cậy sẽ kinh doanh;
+         b) Bản sao hợp lệ bao gồm bản sao được cấp từ sổ gốc hoặc bản sao có chứng thực hoặc bản sao đối
+chiếu với bản chính của một trong các giấy tờ sau: giấy chứng nhận đăng ký doanh nghiệp, giấy chứng nhận
+đăng ký đầu tư đối với nhà đầu tư nước ngoài, quyết định thành lập hoặc giấy chứng nhận, giấy phép tương
+đương hợp lệ khác theo quy định của pháp luật về đầu tư và pháp luật về doanh nghiệp;
+         c) Văn bản chứng minh đáp ứng được các điều kiện về tài chính quy định khoản 1 Điều 18 của Nghị
+định này;
+         d) Hồ sơ nhân lực quản lý và kỹ thuật gồm: lý lịch tư pháp, bản sao có chứng thực bằng đại học trở lên
+của đội ngũ nhân lực quản lý và kỹ thuật theo quy định tại khoản 2 Điều 18 của Nghị định này, bản mô tả về
+công việc và kinh nghiệm đã có tương ứng với vị trí nhân lực quản lý và kỹ thuật, hợp đồng lao động và quyết
+định phân công;
+         đ) Phương án kỹ thuật phục vụ hoạt động cung cấp dịch vụ phù hợp với từng loại dịch vụ tin cậy nhằm
+bảo đảm quy định tại các khoản 3, 4 và 5 Điều 18 của Nghị định này;
+         e) Quy chế chứng thực theo quy định tại Điều 29 của Nghị định này.
+         2. Hồ sơ đề nghị cấp lại giấy phép kinh doanh dịch vụ tin cậy:
+
+         a) Đơn đề nghị cấp lại giấy phép do giấy phép cũ hết hạn theo Mẫu số 05 tại Phụ lục ban hành kèm
+theo Nghị định này;
+         b) Văn bản chứng minh đáp ứng được các điều kiện về tài chính quy định tại khoản 1 Điều 18 của Nghị
+định này;
+         c) Những thông tin về việc thay đổi của doanh nghiệp liên quan đến điều kiện kinh doanh theo quy
+định tại Điều 29 Luật Giao dịch điện tử (nếu có);
+         d) Báo cáo tình hình thực hiện giấy phép kể từ ngày được cấp tới ngày đề nghị cấp lại theo Mẫu số 08
+tại Phụ lục ban hành kèm theo Nghị định này.
+         3. Hồ sơ đề nghị thay đổi nội dung giấy phép kinh doanh dịch vụ tin cậy
+         a) Đơn đề nghị thay đổi nội dung giấy phép theo Mẫu số 05 tại Phụ lục ban hành kèm theo Nghị định
+này;
+         b) Báo cáo mô tả chi tiết nội dung đề nghị thay đổi và các tài liệu liên quan.
+         4. Hồ sơ đề nghị gia hạn giấy phép kinh doanh dịch vụ tin cậy
+         a) Đơn đề nghị gia hạn giấy phép kinh doanh dịch vụ tin cậy của doanh nghiệp do giấy phép cũ hết hạn
+theo Mẫu số 05 tại Phụ lục ban hành kèm theo Nghị định này;
+         b) Văn bản chứng minh đáp ứng được các điều kiện về tài chính quy định tại khoản 1 Điều 18 của Nghị
+định này;
+         c) Báo cáo tình hình thực hiện giấy phép kể từ ngày được cấp tới ngày đề nghị gia hạn theo Mẫu số 08
+tại Phụ lục ban hành kèm theo Nghị định này.
+         Điều 20. Quy trình tiếp nhận hồ sơ đề nghị cấp, cấp lại, thay đổi nội dung, gia hạn giấy phép kinh
+doanh dịch vụ tin cậy
+         1. Doanh nghiệp chuẩn bị 01 bộ hồ sơ tương ứng với đề nghị cấp, cấp lại, thay đổi nội dung, gia hạn
+giấy phép kinh doanh dịch vụ tin cậy quy định tại Điều 19 của Nghị định này.
+         2. Hồ sơ đề nghị được nộp trực tiếp tại Bộ Thông tin và Truyền thông hoặc gửi qua đường bưu chính
+hoặc qua hệ thống dịch vụ công trực tuyến (Cổng Dịch vụ công quốc gia, https://dichvucong.gov.vn hoặc Cổng
+dịch vụ công của Bộ Thông tin và Truyền thông, https://dichvucong.mic.gov.vn).
+         3. Việc kiểm tra tính hợp lệ của hồ sơ được thực hiện dựa trên các tiêu chí sau:
+         a) Hồ sơ được lập theo đúng quy định tại khoản 1 Điều này;
+         b) Hồ sơ phải được làm bằng tiếng Việt. Hồ sơ phải có đủ dấu xác nhận của cơ quan, tổ chức, dấu
+chứng thực bản sao; các tài liệu bản in do cơ quan, tổ chức lập có từ 02 tờ văn bản trở lên thì phải đóng dấu
+giáp lai.
+         4. Trong thời hạn 07 ngày làm việc kể từ ngày nhận được hồ sơ cấp, cấp lại, thay đổi nội dung, gia hạn
+giấy phép kinh doanh dịch vụ tin cậy, Bộ Thông tin và Truyền thông kiểm tra tính hợp lệ của hồ sơ theo quy
+định tại khoản 3 Điều này.
+         a) Trường hợp chưa hợp lệ, Bộ Thông tin và Truyền thông gửi thông báo và nêu rõ lý do;
+         b) Trường hợp hồ sơ hợp lệ Bộ Thông tin và Truyền thông xem xét, giải quyết theo quy định tại Điều
+21 của Nghị định này.
+         5. Trường hợp doanh nghiệp lựa chọn thực hiện thủ tục cấp, cấp lại, thay đổi nội dung, gia hạn giấy
+phép kinh doanh dịch vụ tin cậy trên môi trường điện tử, việc tiếp nhận và xử lý hồ sơ thực hiện theo quy định
+của Chính phủ về thực hiện thủ tục hành chính trên môi trường điện tử, cung cấp dịch vụ công trực tuyến của
+cơ quan nhà nước trên môi trường mạng và pháp luật về giao dịch điện tử, trừ trường hợp đánh giá thực tế
+quy định tại khoản 1 và khoản 2 Điều 21 Nghị định này.
+         Điều 21. Quy trình giải quyết hồ sơ đề nghị cấp, cấp lại, thay đổi nội dung, gia hạn giấy phép kinh
+doanh dịch vụ tin cậy
+         1. Đối với hồ sơ đề nghị cấp giấy phép kinh doanh dịch vụ tin cậy
+
+            a) Trong thời hạn 07 ngày làm việc, kể từ ngày nhận được hồ sơ hợp lệ, Bộ Thông tin và Truyền thông
+đề nghị phối hợp thẩm tra hồ sơ của Bộ Công an, Ban Cơ yếu Chính phủ và cơ quan, tổ chức có liên quan.
+Trong thời gian 20 ngày kể từ ngày nhận được đề nghị phối hợp thẩm tra hồ sơ, Bộ Công an, Ban Cơ yếu Chính
+phủ và cơ quan, tổ chức có liên quan có trách nhiệm trả lời bằng văn bản;
+             b) Trong thời hạn 20 ngày kể từ ngày nhận được đầy đủ ý kiến phối hợp thẩm tra quy định tại điểm a
+khoản này, Bộ Thông tin và Truyền thông thẩm tra và cấp giấy phép theo Mẫu số 06 tại Phụ lục ban hành kèm
+theo Nghị định này. Trường hợp từ chối, Bộ Thông tin và Truyền thông có văn bản thông báo và nêu rõ lý do;
+            c) Trong vòng 01 năm kể từ khi được cấp phép, tổ chức cung cấp dịch vụ tin cậy phải triển khai trên
+thực tế các điều kiện quy định tại Điều 18 của Nghị định này; báo cáo triển khai hoạt động cung cấp dịch vụ tin
+cậy theo Mẫu số 07 tại Phụ lục ban hành kèm theo Nghị định này;
+            d) Chứng thư chữ ký số được cấp, cấp lại cho tổ chức cung cấp dịch vụ tin cậy trong vòng 30 ngày kể
+từ ngày nhận được báo cáo quy định tại điểm c khoản này và dựa trên đánh giá thực tế về quy trình vận hành
+hệ thống và quy chế chứng thực; sự phù hợp của hệ thống thông tin cung cấp dịch vụ tin cậy với hồ sơ cấp giấy
+phép và chứng kiến việc tạo cặp khóa (khóa bí mật và khóa công khai) của tổ chức cung cấp dịch vụ tin cậy.
+Trường hợp từ chối, tổ chức cung cấp dịch vụ chứng thực điện tử quốc gia phải thông báo bằng văn bản và nêu
+rõ lý do.
+         2. Đối với hồ sơ đề nghị cấp lại giấy phép kinh doanh dịch vụ tin cậy
+             a) Trường hợp mong muốn tiếp tục cung cấp dịch vụ, doanh nghiệp phải đề nghị cấp lại giấy phép tối
+thiểu 90 ngày trước ngày giấy phép hết hạn;
+              b) Trong thời hạn 10 ngày kể từ ngày nhận được hồ sơ hợp lệ, Bộ Thông tin và Truyền thông đề nghị
+phối hợp thẩm tra hồ sơ với Bộ Công an, Ban Cơ yếu Chính phủ và cơ quan, tổ chức có liên quan. Trong thời
+gian 20 ngày kể từ ngày nhận được đề nghị phối hợp thẩm tra hồ sơ, Bộ Công an, Ban Cơ yếu Chính phủ và cơ
+quan, tổ chức có liên quan có trách nhiệm trả lời bằng văn bản;
+             c) Trong thời hạn 15 ngày kể từ ngày nhận được đầy đủ ý kiến phối hợp thẩm tra quy định tại điểm a
+khoản này, Bộ Thông tin và Truyền thông thẩm tra hồ sơ, và cấp lại giấy phép dựa trên việc đáp ứng điều kiện
+kinh doanh theo quy định tại Điều 18 của Nghị định này và đánh giá thực tế kết quả hoạt động kinh doanh dịch
+vụ tin cậy. Trường hợp từ chối, Bộ Thông tin và Truyền thông có văn bản thông báo và nêu rõ lý do.
+         3. Đối với hồ sơ đề nghị thay đổi nội dung giấy phép kinh doanh dịch vụ tin cậy
+          a) Trường hợp có thay đổi một trong các thông tin về địa chỉ trụ sở, tên giao dịch, doanh nghiệp phải
+đề nghị thay đổi nội dung giấy phép;
+               b) Trong thời hạn 07 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ, Bộ Thông tin và Truyền thông
+thẩm tra, cấp giấy phép cho doanh nghiệp với các nội dung thay đổi. Trường hợp từ chối cấp, Bộ Thông tin và
+Truyền thông thông báo bằng văn bản và nêu rõ lý do. Thời hạn của giấy phép thay đổi là thời hạn còn lại của
+giấy phép đã được cấp.
+         4. Đối với hồ sơ đề nghị gia hạn giấy phép kinh doanh dịch vụ tin cậy
+            a) Trường hợp giấy phép kinh doanh dịch vụ tin cậy còn ít nhất 60 ngày trước ngày giấy phép hết hạn
+nhưng đang trong quá trình chia, tách, hợp nhất, sáp nhập và không bị xử lý vi phạm hành chính trong hoạt
+động kinh doanh dịch vụ tin cậy trong thời hạn 12 tháng tính đến thời điểm nộp hồ sơ đề nghị gia hạn, doanh
+nghiệp muốn gia hạn giấy phép kinh doanh dịch vụ tin cậy phải gửi đề nghị gia hạn;
+         b) Trong thời hạn 30 ngày kể từ ngày nhận đủ hồ sơ hợp lệ, Bộ Thông tin và Truyền thông cấp giấy
+phép gia hạn theo Mẫu số 06 tại Phụ lục ban hành kèm theo Nghị định này. Trường hợp từ chối, Bộ Thông tin
+và Truyền thông thông báo bằng văn bản và nêu rõ lý do. Thời hạn của giấy phép gia hạn không quá 01 năm kể
+từ ngày giấy phép hết hạn.
+         Điều 22. Tạm đình chỉ giấy phép
+           1. Tổ chức cung cấp dịch vụ tin cậy bị tạm đình chỉ giấy phép không quá 06 tháng khi thuộc một trong
+các trường hợp sau:
+         a) Cung cấp dịch vụ sai với nội dung ghi trên giấy phép;
+             b) Không đáp ứng được một trong các điều kiện kinh doanh quy định tại Điều 18 của Nghị định này kể
+
+từ thời điểm bắt đầu cung cấp dịch vụ;
+         c) Không thực hiện đúng, đủ trách nhiệm kê khai, nộp phí dịch vụ duy trì hệ thống kiểm tra trạng thái
+chứng thư chữ ký số theo quy định của pháp luật về phí và lệ phí quá 06 tháng.
+         2. Thủ tục tạm đình chỉ giấy phép, tạm dừng chứng thư chữ ký số
+          a) Bộ Thông tin và Truyền thông tổ chức làm việc và lập biên bản làm việc với tổ chức cung cấp dịch vụ
+tin cậy thuộc một trong các trường hợp quy định tại khoản 1 Điều này. Trong vòng 07 ngày làm việc kể từ ngày
+phát hành biên bản, Bộ Thông tin và Truyền thông xem xét, ban hành quyết định tạm đình chỉ;
+               b) Trong thời hạn 05 ngày làm việc, tổ chức cung cấp dịch vụ chứng thực điện tử quốc gia tạm dừng
+chứng thư chữ ký số của tổ chức cung cấp dịch vụ tin cậy và công bố trên trang thông tin điện tử
+(https://rootca.gov.vn/) trong trường hợp giấy phép kinh doanh dịch vụ tin cậy bị tạm đình chỉ hoặc hệ thống
+thông tin cung cấp dịch vụ tin cậy không đáp ứng các quy định về kiểm toán kỹ thuật.
+             3. Trong thời gian bị tạm đình chỉ giấy phép, trường hợp tổ chức cung cấp dịch vụ tin cậy khắc phục
+xong lý do bị tạm đình chỉ, Bộ Thông tin và Truyền thông sẽ cho phép tổ chức cung cấp dịch vụ tin cậy được
+tiếp tục cung cấp dịch vụ; phục hồi chứng thư chữ ký số trong thời hạn 07 ngày làm việc kể từ ngày khắc phục
+lý do bị tạm dừng.
+         Điều 23. Thu hồi giấy phép
+         1. Tổ chức cung cấp dịch vụ tin cậy bị thu hồi giấy phép trong các trường hợp sau đây:
+         a) Không muốn tiếp tục cung cấp dịch vụ;
+         b) Giải thể, chấm dứt hoạt động;
+         c) Bị Tòa án ra quyết định tuyên bố phá sản;
+         d) Bị sáp nhập, hợp nhất;
+            đ) Trong vòng 01 năm kể từ khi được cấp phép, tổ chức cung cấp dịch vụ tin cậy không triển khai trên
+thực tế các điều kiện quy định tại Điều 18 của Nghị định này, trừ sự kiện bất khả kháng hoặc trở ngại khách
+quan theo quy định của pháp luật mà tổ chức cung cấp dịch vụ tin cậy đã có báo cáo bằng văn bản tới Bộ
+Thông tin và Truyền thông;
+         e) Có hành vi giả mạo các văn bản trong hồ sơ đề nghị cấp, gia hạn, cấp lại giấy phép hoặc tẩy xóa, sửa
+chữa nội dung giấy phép đã được cấp;
+            g) Không khắc phục lý do bị tạm đình chỉ quy định tại khoản 1 Điều 22 của Nghị định này sau thời hạn
+tạm đình chỉ ấn định của cơ quan có thẩm quyền;
+         h) Thực hiện các hành vi bị nghiêm cấm theo quy định tại Điều 6 Luật Giao dịch điện tử.
+          2. Thủ tục thu hồi giấy phép kinh doanh dịch vụ tin cậy của tổ chức cung cấp dịch vụ tin cậy được thực
+hiện như sau:
+          a) Bộ Thông tin và Truyền thông tổ chức làm việc và lập biên bản làm việc với tổ chức cung cấp dịch vụ
+tin cậy thuộc một trong các trường hợp quy định tại khoản 1 Điều này. Trong vòng 30 ngày kể từ ngày phát
+hành biên bản, Bộ Thông tin và Truyền thông xem xét, ra quyết định thu hồi, đồng thời yêu cầu tổ chức cung
+cấp dịch vụ tin cậy: dừng ngay việc giao kết hợp đồng kinh doanh dịch vụ tin cậy; thực hiện bàn giao với tổ
+chức cung cấp dịch vụ tin cậy khác theo thỏa thuận hoặc theo chỉ định của Bộ Thông tin và Truyền thông hồ sơ,
+cơ sở dữ liệu sau có liên quan đến hoạt động cung cấp dịch vụ:
+               Đối với dịch vụ chứng thực chữ ký số công cộng: thông tin thuê bao, hồ sơ thuê bao, dữ liệu chứng
+thư chữ ký số (danh sách công bố chứng thư chữ ký số, toàn bộ danh sách thu hồi chứng thư chữ ký số trong
+thời gian cung cấp dịch vụ);
+           Đối với dịch vụ chứng thực thông điệp dữ liệu: thông tin thuê bao, hồ sơ thuê bao, thông tin xác nhận
+người nhận, người gửi (dựa trên thông tin thuê bao đăng ký); thông tin về thời gian gửi, nhận thông điệp dữ
+liệu; thông điệp dữ liệu; mã bảo đảm toàn vẹn thông điệp dữ liệu;
+                Đối với dịch vụ cấp dấu thời gian: thông tin thuê bao, hồ sơ thuê bao, mã bảo đảm toàn vẹn thông
+điệp dữ liệu để phục vụ việc xác nhận.
+
+         b) Trong thời hạn 05 ngày làm việc, tổ chức cung cấp dịch vụ chứng thực điện tử quốc gia thu hồi
+chứng thư chữ ký số của tổ chức cung cấp dịch vụ tin cậy và công bố trên trang thông tin điện tử
+(https://rootca.gov.vn/) thuộc một trong các trường hợp: giấy phép kinh doanh dịch vụ tin cậy bị thu hồi;
+chứng thư chữ ký số hết hạn sử dụng; yêu cầu bằng văn bản từ cơ quan có thẩm quyền; yêu cầu bằng văn bản
+của tổ chức cung cấp dịch vụ tin cậy trong đó nêu rõ lý do thu hồi.
+         3. Doanh nghiệp không được cấp giấy phép trong thời hạn 03 năm, kể từ ngày bị thu hồi giấy phép vì
+vi phạm các nội dung quy định tại các điểm đ, e và g khoản 1 Điều này.
+         4. Bộ Thông tin và Truyền thông giám sát và hướng dẫn việc bàn giao giữa các tổ chức cung cấp dịch
+vụ tin cậy để bảo đảm việc sử dụng dịch vụ không bị gián đoạn của các thuê bao; yêu cầu tổ chức cung cấp dịch
+vụ tin cậy bị thu hồi phải hoàn tất thủ tục về bảo hiểm hoặc ký quỹ để giải quyết rủi ro và các khoản đền bù xảy
+ra và thanh toán chi phí tiếp nhận, duy trì cơ sở dữ liệu thông tin liên quan đến hoạt động cung cấp dịch vụ.
+                                                   Mục 2
+                                         HOẠT ĐỘNG DỊCH VỤ TIN CẬY
+         Điều 24. Dịch vụ cấp dấu thời gian
+         Dịch vụ cấp dấu thời gian do tổ chức cung cấp dịch vụ tin cậy cung cấp bao gồm các hoạt động sau:
+         1. Gắn thời gian vào thông điệp dữ liệu; thời gian được gắn vào thông điệp dữ liệu là ngày và thời gian
+mà tổ chức cung cấp dịch vụ cấp dấu thời gian nhận được thông điệp dữ liệu đó.
+         2. Cung cấp thông tin cần thiết để giúp chứng thực thông điệp dữ liệu đó của thuê bao đã gắn ngày,
+tháng, năm và thời gian trên thông điệp dữ liệu.
+         3. Thực hiện việc lưu trữ, quản lý thông tin người sử dụng dịch vụ.
+         4. Cấp, gia hạn, tạm dừng, phục hồi và thu hồi tài khoản của thuê bao.
+         5. Duy trì trực tuyến dữ liệu về thông tin người sử dụng dịch vụ, dấu thời gian đã cấp.
+         Điều 25. Dịch vụ chứng thực thông điệp dữ liệu
+         1. Dịch vụ chứng thực thông điệp dữ liệu gồm:
+         a) Dịch vụ lưu trữ và xác nhận tính toàn vẹn của thông điệp dữ liệu;
+         b) Dịch vụ gửi, nhận thông điệp dữ liệu bảo đảm.
+         2. Dịch vụ lưu trữ và xác nhận tính toàn vẹn của thông điệp dữ liệu bao gồm các hoạt động sau:
+         a) Thực hiện việc lưu trữ, quản lý thông tin người sử dụng dịch vụ (dữ liệu nhận dạng sử dụng dịch vụ,
+dữ liệu xác thực sử dụng dịch vụ);
+         b) Lưu trữ dữ liệu về bằng chứng danh tính người gửi đã được xác minh;
+         c) Lưu trữ nhật ký hoạt động của dịch vụ gửi nhận bảo đảm, xác minh danh tính của người gửi và
+người nhận và các trao đổi thông tin hoặc dữ liệu giữa người gửi hoặc người nhận;
+         d) Lưu trữ bằng chứng xác minh danh tính của người nhận trước khi gửi;
+         đ) Chứng minh thông tin trong thông điệp dữ liệu được bảo đảm toàn vẹn trong quá trình gửi nhận;
+         e) Cung cấp thông tin tham chiếu đến hoặc bản liệt kê toàn bộ quá trình, nội dung gửi nhận thông
+điệp dữ liệu và nội dung sửa đổi (nếu có) kèm theo dấu thời gian.
+         3. Dịch vụ gửi, nhận thông điệp dữ liệu bảo đảm bao gồm các hoạt động sau:
+         a) Chứng thực người gửi;
+         b) Chứng thực được người nhận trước khi gửi dữ liệu;
+         c) Việc gửi và nhận dữ liệu được bảo đảm bằng chữ ký số của nhà cung cấp dịch vụ tin cậy đủ điều
+kiện;
+         d) Thông báo cho người gửi và người nhận dữ liệu về bất kỳ thay đổi nào của dữ liệu cần thiết cho
+mục đích gửi hoặc nhận dữ liệu;
+
+         đ) Gắn dấu thời gian gửi, nhận thông điệp dữ liệu.
+         Điều 26. Dịch vụ chứng thực chữ ký số công cộng
+         1. Dịch vụ chứng thực chữ ký số công cộng là dịch vụ do tổ chức cung cấp dịch vụ chứng thực chữ ký
+số công cộng cung cấp để xác thực chủ thể ký số trên thông điệp dữ liệu, bảo đảm tính chống chối bỏ của chủ
+thể ký với thông điệp dữ liệu và bảo đảm tính toàn vẹn của thông điệp dữ liệu được ký. Dịch vụ chứng thực
+chữ ký số công cộng gồm:
+         a) Dịch vụ chứng thực chữ ký số công cộng theo mô hình ký số trên các phương tiện lưu khóa bí mật
+bằng thiết bị phần cứng;
+         b) Dịch vụ chứng thực chữ ký số công cộng theo mô hình ký số trên thiết bị di động;
+         c) Dịch vụ chứng thực chữ ký số công cộng theo mô hình ký số từ xa.
+         2. Dịch vụ chứng thực chữ ký số công cộng do tổ chức cung cấp dịch vụ tin cậy cung cấp bao gồm các
+hoạt động quy định tại các Điều 35, 36, 37, 38, 39, 40, 41, 42, 43 và 44 của Nghị định này.
+         Điều 27. Kiểm toán kỹ thuật
+         1. Kiểm toán kỹ thuật là hoạt động đánh giá độc lập, khách quan đối với hệ thống thông tin, quy trình
+cung cấp dịch vụ nhằm xác định việc đáp ứng tiêu chuẩn kỹ thuật bắt buộc áp dụng, quy chuẩn kỹ thuật, yêu
+cầu kỹ thuật của chữ ký điện tử bảo đảm an toàn, chứng thư chữ ký điện tử bảo đảm an toàn, chữ ký số,
+chứng thư chữ ký số và dịch vụ tin cậy.
+         2. Bộ Thông tin và Truyền thông quy định kiểm toán kỹ thuật theo quy định tại khoản 1 Điều này phù
+hợp với pháp luật về tiêu chuẩn, quy chuẩn kỹ thuật.
+         Điều 28. Mã quản lý thiết bị
+         1. Mã quản lý thiết bị là một dãy số hoặc chữ hoặc ký hiệu được sử dụng để định danh thiết bị trong
+hệ thống thông tin dịch vụ tin cậy theo quy định tại khoản 2 Điều này phục vụ công tác quản lý nhà nước.
+         Mã quản lý bao gồm các trường thông tin: tên, cấu hình, số sê-ri của thiết bị; địa điểm đặt thiết bị và
+chức năng của thiết bị.
+         2. Các thiết bị trong hệ thống thông tin cung cấp dịch vụ tin cậy phải gắn mã bao gồm: máy chủ; thiết
+bị thuộc thành phần quản lý vòng đời chứng thư chữ ký số; thiết bị lưu khóa bí mật; thiết bị lưu trữ; thiết bị
+mạng và bảo mật.
+         3. Cấp mã quản lý
+         a) Phương thức thực hiện được hướng dẫn và đăng ký tự động qua hệ thống dịch vụ công trực tuyến
+(Cổng Dịch vụ công quốc gia, https://dichvucong.gov.vn hoặc Cổng dịch vụ công của Bộ Thông tin và Truyền
+thông, https://dichvucong.mic.gov.vn hoặc cổng dịch vụ công của Trung tâm Chứng thực điện tử quốc gia,
+https://neac.gov.vn);
+         b) Thời điểm đăng ký và gắn mã quản lý trước khi hệ thống bắt đầu cung cấp dịch vụ tin cậy và ngay
+khi thay đổi bất kỳ thiết bị gắn mã;
+         c) Thời hạn cấp mã quản lý: trong vòng 08 giờ làm việc kể từ khi nhận được thông báo tự động hoàn
+tất đăng ký.
+         4. Tổ chức cung cấp dịch vụ tin cậy có trách nhiệm đăng ký và gắn mã được cấp tự động vào thiết bị
+theo quy định tại khoản 2 và khoản 3 Điều này.
+         Điều 29. Quy chế chứng thực mẫu
+         1. Quy chế chứng thực mẫu bao gồm tối thiểu các nội dung về chính sách chứng thư chữ ký điện tử,
+phạm vi, mục đích sử dụng, đối tượng được cấp, phát hành, yêu cầu đối với vòng đời hoạt động của chứng thư
+chữ ký điện tử/chứng thư chữ ký số.
+         2. Bộ Thông tin và Truyền thông ban hành quy chế chứng thực mẫu theo quy định tại khoản 1 Điều
+này.
+         3. Tổ chức cung cấp dịch vụ chứng thực điện tử quốc gia, tổ chức cung cấp dịch vụ tin cậy và tổ chức
+tạo lập chữ ký điện tử chuyên dùng bảo đảm an toàn có trách nhiệm xây dựng, công khai, thực hiện quy chế
+
+chứng thực trên cơ sở quy chế chứng thực mẫu. Khi có sự thay đổi thông tin trong quy chế chứng thực phải
+thông báo bằng văn bản đến Bộ Thông tin và Truyền thông (Trung tâm Chứng thực điện tử quốc gia).
+         Điều 30. Liên thông với tổ chức cung cấp dịch vụ chứng thực điện tử quốc gia
+          Việc liên thông của tổ chức cung cấp dịch vụ chứng thực điện tử quốc gia với tổ chức cung cấp dịch vụ
+chứng thực chữ ký số công cộng, với tổ chức cung cấp dịch vụ chứng thực chữ ký số chuyên dùng công vụ; việc
+cập nhật trạng thái của chứng thư chữ ký điện tử nước ngoài vào hệ thống chứng thực dịch vụ tin cậy phải bảo
+đảm các yêu cầu sau theo quy định của Bộ Thông tin và Truyền thông:
+            1. Hệ thống thông tin phải bảo đảm cho việc kiểm tra trạng thái chứng thư chữ ký điện tử, chứng thư
+chữ ký số và kiểm tra hiệu lực chữ ký số.
+         2. Hệ thống thông tin phải có công cụ, biện pháp để bảo vệ dữ liệu và xác thực dữ liệu trong quá trình
+kết nối liên thông.
+          3. Các điều kiện kỹ thuật phục vụ liên thông, kết nối cung cấp thông tin để kiểm tra trạng thái chứng
+thư chữ ký điện tử, chứng thư chữ ký số và kiểm tra hiệu lực chữ ký số.
+         Điều 31. Trách nhiệm của tổ chức cung cấp dịch vụ tin cậy
+         1. Thực hiện trách nhiệm theo quy định tại Điều 30 Luật Giao dịch điện tử, quy định pháp luật về an
+toàn thông tin mạng, an ninh mạng, bảo vệ dữ liệu cá nhân.
+         2. Thực hiện kiểm toán kỹ thuật định kỳ 02 năm.
+         3. Trường hợp bị tạm đình chỉ, tổ chức cung cấp dịch vụ tin cậy có trách nhiệm duy trì hệ thống cơ sở
+dữ liệu liên quan đến chứng thư chữ ký số công cộng đã phát hành cho đến khi được phục hồi chứng thư chữ
+ký số.
+           4. Trường hợp bị tạm đình chỉ, tổ chức cung cấp dịch vụ tin cậy có trách nhiệm duy trì cơ sở dữ liệu
+thông tin liên quan đến hoạt động cung cấp dịch vụ cho đến khi được phục hồi chứng thư chữ ký số.
+                Điều 32. Trách nhiệm của tổ chức, cá nhân khi áp dụng dấu thời gian, kiểm tra dấu thời gian của
+thông điệp dữ liệu và phát triển phần mềm ứng dụng dấu thời gian
+               1. Trường hợp cần xác thực về thời gian ký thông điệp dữ liệu, người nhận kiểm tra dấu thời gian
+được gắn với thông điệp dữ liệu và các thông tin liên quan về dấu thời gian phải được cấp bởi tổ chức cung cấp
+dịch vụ tin cậy về dấu thời gian được cấp phép.
+                  2. Người nhận sử dụng công cụ phần mềm kiểm tra và quy trình kiểm tra đáp ứng tiêu chuẩn, quy
+chuẩn kỹ thuật về dấu thời gian hoặc kiểm tra dấu thời gian trên cả hệ thống chứng thực dịch vụ tin cậy của tổ
+chức cung cấp dịch vụ chứng thực điện tử quốc gia và hệ thống thông tin của tổ chức cung cấp dịch vụ tin cậy.
+         3. Người nhận phải chịu trách nhiệm về việc chấp nhận dấu thời gian trong các trường hợp sau:
+         a) Không tuân thủ các quy định tại khoản 1 và khoản 2 Điều này;
+             b) Đã biết hoặc được thông báo về tình trạng tạm dừng, thu hồi, hết hạn chứng thư chữ ký số của tổ
+chức cung cấp dịch vụ tin cậy về dấu thời gian trên trên trang thông tin điện tử https://rootca.gov.vn/.
+         Điều 33. Trách nhiệm của tổ chức cung cấp dịch vụ chứng thực điện tử quốc gia
+           1. Xây dựng, quản lý, khai thác và phát triển hạ tầng chứng thực điện tử quốc gia; quản lý, cung cấp
+dịch vụ cho các tổ chức cung cấp dịch vụ tin cậy, các cơ quan, tổ chức được cấp chứng nhận chữ ký điện tử
+chuyên dùng bảo đảm an toàn, tổ chức, cá nhân sử dụng chữ ký số, chứng thư chữ ký số, các tổ chức cung cấp
+dịch vụ chứng thực chữ ký điện tử nước ngoài và các cơ quan, tổ chức, cá nhân sử dụng chữ ký điện tử, chứng
+thư chữ ký điện tử được công nhận tại Việt Nam.
+           2. Công bố và cập nhật trên trang thông tin điện tử https://rootca.gov.vn/ những thông tin sau: danh
+sách các tổ chức cung cấp dịch vụ tin cậy, các cơ quan, tổ chức được cấp chứng nhận chữ ký điện tử chuyên
+dùng bảo đảm an toàn, các tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử nước ngoài, chữ ký điện tử
+nước ngoài, chứng thư chữ ký điện tử nước ngoài được công nhận tại Việt Nam; quy chế chứng thực; danh
+sách chứng thư chữ ký số có hiệu lực, hết hạn, bị tạm dừng, bị thu hồi và những thông tin cần thiết khác.
+         3. Điều phối các hoạt động xử lý sự cố liên quan đến dịch vụ chứng thực chữ ký số và xác thực điện tử,
+dịch vụ cấp dấu thời gian và các dịch vụ khác theo quy định pháp luật giao dịch điện tử; cập nhật, lưu trữ đầy
+
+đủ, chính xác thông tin yêu cầu chứng thực theo quy định của pháp luật.
+              4. Đánh giá thực tế quy trình vận hành hệ thống thông tin cung cấp dịch vụ tin cậy, quy chế chứng
+thực, sự phù hợp của hệ thống thông tin cung cấp dịch vụ tin cậy với hồ sơ cấp giấy phép, việc tạo lập chữ ký
+điện tử chuyên dùng bảo đảm an toàn và chứng kiến việc tạo cặp khóa bí mật và khóa công khai của tổ chức
+cung cấp dịch vụ tin cậy.
+             5. Tự cấp chứng thư chữ ký số, tạo cặp khóa cho mình và cấp, tạm dừng, thu hồi chứng thư chữ ký số
+cho các tổ chức cung cấp dịch vụ tin cậy được quy định tại Chương III Nghị định này: tổ chức cung cấp dịch vụ
+chứng thực điện tử quốc gia đóng vai trò và có quyền, nghĩa vụ như tổ chức cung cấp dịch vụ tin cậy theo quy
+định tại Chương III của Nghị định này. Các tổ chức cung cấp dịch vụ tin cậy đóng vai trò và có quyền, nghĩa vụ
+như thuê bao theo quy định tại Chương III của Nghị định này.
+           6. Tổ chức thu, quản lý và sử dụng phí dịch vụ duy trì hệ thống kiểm tra trạng thái chứng thư chữ ký
+số theo quy định pháp luật phí và lệ phí.
+         7. Nghiên cứu, xây dựng, quản lý, vận hành hệ thống thử nghiệm, kiểm tra, đánh giá, hiệu chuẩn và đo
+kiểm tiêu chuẩn, chất lượng sản phẩm, dịch vụ chuyên ngành liên quan đến chữ ký điện tử và dịch vụ tin cậy
+theo quy định pháp luật giao dịch điện tử.
+             8. Kiểm tra việc đáp ứng các yêu cầu đối với chữ ký điện tử chuyên dùng bảo đảm an toàn và sự tuân
+thủ các điều kiện kinh doanh dịch vụ tin cậy.
+         9. Triển khai các hoạt động hợp tác quốc tế về chữ ký điện tử và dịch vụ tin cậy; phối hợp, hỗ trợ các
+cơ quan, tổ chức liên quan tích hợp dịch vụ tin cậy vào các ứng dụng công nghệ thông tin nhằm bảo đảm xác
+thực, an toàn.
+                                                  Mục 3
+                                  HOẠT ĐỘNG CUNG CẤP DỊCH VỤ CHỨNG THỰC
+                                         CHỮ KÝ SỐ CÔNG CỘNG
+         Điều 34. Hồ sơ đề nghị phát hành chứng thư chữ ký số công cộng
+               1. Giấy đề nghị phát hành chứng thư chữ ký số công cộng dưới dạng bản giấy hoặc điện tử theo mẫu
+của tổ chức cung cấp dịch vụ chứng thực chữ ký số công cộng.
+         2. Tài liệu kèm theo bao gồm:
+             a) Đối với cá nhân: giấy tờ tùy thân bao gồm thẻ căn cước công dân hoặc thẻ căn cước hoặc căn cước
+điện tử hoặc giấy chứng nhận căn cước hoặc tài khoản định danh điện tử mức độ 2 hoặc hộ chiếu còn thời
+hạn; thị thực nhập cảnh còn thời hạn hoặc giấy tờ chứng minh được miễn thị thực nhập cảnh (đối với cá nhân
+là người nước ngoài);
+                b) Đối với tổ chức: quyết định thành lập hoặc quyết định quy định về chức năng, nhiệm vụ, quyền
+hạn, cơ cấu tổ chức hoặc giấy chứng nhận đăng ký doanh nghiệp hoặc giấy chứng nhận đầu tư hoặc giấy chứng
+nhận đăng ký hộ kinh doanh và giấy tờ tùy thân của người đại diện theo pháp luật của tổ chức, bao gồm thẻ
+căn cước công dân hoặc thẻ căn cước hoặc giấy chứng nhận căn cước hoặc tài khoản định danh điện tử mức
+độ 2 hoặc hộ chiếu; hoặc tài khoản định danh điện tử của tổ chức.
+         3. Cá nhân, tổ chức có quyền lựa chọn nộp bản sao từ sổ gốc, bản sao có chứng thực hoặc bản sao
+điện tử hoặc nộp bản sao trình kèm bản chính để đối chiếu hoặc sử dụng tài khoản định danh điện tử mức độ
+2 theo quy định của pháp luật về định danh và xác thực điện tử.
+            Đối với trường hợp xuất trình bản chính để đối chiếu, tổ chức cung cấp dịch vụ chứng thực chữ ký số
+công cộng phải xác nhận vào bản sao và chịu trách nhiệm về tính chính xác của bản sao so với bản chính. Việc
+hợp pháp hóa lãnh sự đối với các giấy tờ do cơ quan có thẩm quyền của nước ngoài cấp thực hiện theo quy
+định của pháp luật. Trường hợp giấy tờ trong hồ sơ là bản sao điện tử, tổ chức cung cấp dịch vụ chứng thực
+chữ ký số công cộng phải có giải pháp, công nghệ để thu thập, kiểm tra và đối chiếu, bảo đảm bản sao điện tử
+có nội dung đầy đủ, chính xác và khớp đúng so với bản chính theo quy định của pháp luật.
+               4. Trường hợp cá nhân, người đại diện theo pháp luật của tổ chức cung cấp hoặc sử dụng thông tin
+trong thẻ căn cước công dân hoặc thẻ căn cước hoặc căn cước điện tử hoặc giấy chứng nhận căn cước hoặc
+thông tin trong tài khoản định danh điện tử mức độ 2 của cá nhân hoặc thông tin trong tài khoản định danh
+
+của tổ chức thì tổ chức cung cấp dịch vụ chứng thực chữ ký số công cộng (đã có văn bản chấp thuận cho phép
+thực hiện kết nối với hệ thống định danh và xác thực điện tử theo quy định pháp luật về định danh và xác thực
+điện tử hoặc có đầy đủ phương tiện đọc dữ liệu trong chip điện tử, dữ liệu trong tài khoản định danh điện tử
+mức độ 2) khai thác dữ liệu trong chip điện tử, dữ liệu của tài khoản định danh điện tử mức độ 2 của cá nhân,
+tài khoản định danh điện tử của tổ chức; không yêu cầu cá nhân, người đại diện theo pháp luật của tổ chức
+nộp các hồ sơ, tài liệu theo quy định tại khoản 2 Điều này.
+         Điều 35. Đề nghị phát hành chứng thư chữ ký số công cộng
+            1. Khi có nhu cầu đề nghị phát hành chứng thư chữ ký số công cộng, tổ chức, cá nhân lập 01 bộ hồ sơ
+theo quy định tại Điều 34 của Nghị định này nộp trực tiếp hoặc gửi qua đường bưu chính hoặc phương tiện
+điện tử đến tổ chức cung cấp dịch vụ chứng thực chữ ký số công cộng.
+             2. Khi nhận được hồ sơ đề nghị của tổ chức, cá nhân, tổ chức cung cấp dịch vụ chứng thực chữ ký số
+công cộng phải kiểm tra, đối chiếu các giấy tờ trong hồ sơ đề nghị phát hành và xử lý:
+          a) Nếu các giấy tờ tại hồ sơ đề nghị phát hành chứng thư chữ ký số đã đầy đủ, hợp pháp, hợp lệ và các
+yếu tố kê khai tại giấy đề nghị phát hành hoàn toàn khớp đúng với các giấy tờ trong hồ sơ đề nghị phát hành
+chứng thư chữ ký số, tổ chức cung cấp dịch vụ chứng thực chữ ký số công cộng thực hiện phát hành chứng thư
+chữ ký số công cộng cho tổ chức, cá nhân theo quy định tại khoản 3 Điều này;
+             b) Nếu các giấy tờ trong hồ sơ đề nghị phát hành chứng thư chữ ký số chưa đầy đủ, hợp pháp, hợp lệ
+hoặc các yếu tố kê khai tại giấy đề nghị phát hành chứng thư chữ ký số công cộng chưa khớp đúng với các giấy
+tờ trong hồ sơ đề nghị phát hành chứng thư chữ ký số công cộng, tổ chức cung cấp dịch vụ chứng thực chữ ký
+số công cộng thông báo cho tổ chức, cá nhân để hoàn thiện hồ sơ;
+              c) Trường hợp tổ chức cung cấp dịch vụ chứng thực chữ ký số công cộng từ chối phát hành chứng thư
+chữ ký số công cộng thì phải thông báo cho tổ chức, cá nhân biết.
+         3. Sau khi hoàn thành việc kiểm tra, đối chiếu, xác minh thông tin nhận biết tổ chức, cá nhân, tổ chức
+cung cấp dịch vụ chứng thực chữ ký số công cộng tiến hành giao kết hợp đồng và phát hành chứng thư chữ ký
+số công cộng cho thuê bao theo quy định tại Điều 38 của Nghị định này.
+               4. Phát hành chứng thư chữ ký số công cộng bằng phương thức điện tử được thực hiện theo quy định
+tại Điều 36 của Nghị định này.
+               5. Việc phát hành chứng thư chữ ký số công cộng cho tổ chức, cá nhân mà tổ chức cung cấp dịch vụ
+chứng thực chữ ký số công cộng đã thiết lập mối quan hệ và hoàn thành việc nhận biết, xác minh thông tin
+nhận biết tổ chức, cá nhân do tổ chức cung cấp dịch vụ chứng thực chữ ký số công cộng đó quyết định nhưng
+phải bảo đảm có hoặc thu thập được đầy đủ thông tin, giấy tờ trong hồ sơ đề nghị phát hành chứng thư chữ ký
+số công cộng theo quy định tại Điều 34 của Nghị định này.
+         Điều 36. Phát hành chứng thư chữ ký số công cộng bằng phương thức điện tử
+         1. Tổ chức cung cấp dịch vụ chứng thực chữ ký số công cộng thực hiện phát hành chứng thư chữ ký số
+công cộng bằng phương thức điện tử phải xây dựng, ban hành, công khai quy trình, thủ tục phát hành chứng
+thư chữ ký số bằng phương thức điện tử phù hợp với quy định tại Điều này, pháp luật về giao dịch điện tử, các
+quy định pháp luật liên quan về an toàn thông tin, an ninh mạng, bảo vệ dữ liệu cá nhân, việc phát hành chứng
+thư chữ ký số công cộng bao gồm tối thiểu các bước như sau:
+               a) Thu thập thông tin về hồ sơ đề nghị phát hành chứng thư chữ ký số công cộng theo quy định tại
+Điều 34 của Nghị định này;
+         b) Thực hiện kiểm tra, đối chiếu và xác minh thông tin nhận biết tổ chức, cá nhân;
+              c) Cảnh báo cho tổ chức, cá nhân về các hành vi không được thực hiện trong quá trình phát hành và
+sử dụng chứng thư chữ ký số công cộng bằng phương thức điện tử;
+              d) Cung cấp cho tổ chức, cá nhân nội dung hợp đồng và thực hiện giao kết hợp đồng với tổ chức, cá
+nhân.
+               2. Tổ chức cung cấp dịch vụ chứng thực chữ ký số công cộng được quyết định biện pháp, hình thức,
+công nghệ để nhận biết và xác minh tổ chức, cá nhân phục vụ việc phát hành chứng thư chữ ký số công cộng
+bằng phương thức điện tử; chịu trách nhiệm về rủi ro phát sinh (nếu có) và phải đáp ứng các yêu cầu tối thiểu
+sau:
+
+                  a) Có giải pháp, công nghệ để thu thập, kiểm tra, đối chiếu, bảo đảm sự khớp đúng giữa thông tin
+nhận biết tổ chức, cá nhân, dữ liệu sinh trắc học người đại diện theo pháp luật của tổ chức, cá nhân (là các yếu
+tố, đặc điểm sinh học gắn liền với người đại diện theo pháp luật của tổ chức, cá nhân thực hiện định danh, khó
+làm giả, có tỷ lệ trùng nhau thấp như vân tay, khuôn mặt, mống mắt, giọng nói và các yếu tố sinh trắc học
+khác) với các thông tin, yếu tố sinh trắc học tương ứng trên giấy tờ tùy thân của người đại diện theo pháp luật
+của tổ chức, cá nhân quy định tại khoản 2 Điều 34 của Nghị định này và bảo đảm được định danh đúng chủ thể
+và thực hiện xác thực danh tính theo quy định của pháp luật về định danh và xác thực điện tử;
+                   b) Có biện pháp kỹ thuật để xác nhận việc tổ chức, cá nhân đã được định danh đồng ý với các nội
+dung tại hợp đồng;
+            c) Xây dựng quy trình quản lý, kiểm soát, đánh giá rủi ro, trong đó có biện pháp ngăn chặn các hành vi
+mạo danh, can thiệp, chỉnh sửa, làm sai lệch việc xác minh thông tin nhận biết tổ chức, cá nhân trước, trong và
+sau khi phát hành chứng thư chữ ký số cho thuê bao; trường hợp phát hiện có rủi ro, sai lệch hoặc có dấu hiệu
+bất thường giữa các thông tin nhận biết tổ chức, cá nhân với các yếu tố sinh trắc học của tổ chức, cá nhân hoặc
+phát hiện giao dịch đáng ngờ trong quá trình ký số, tổ chức cung cấp dịch vụ chứng thực chữ ký số công cộng
+phải kịp thời từ chối hoặc tạm ngưng chứng thư chữ ký số công cộng và tiến hành xác minh lại thông tin nhận
+biết tổ chức, cá nhân. Quy trình quản lý, kiểm soát rủi ro phải thường xuyên được rà soát, hoàn thiện dựa trên
+những thông tin, dữ liệu cập nhật trong quá trình cung ứng dịch vụ;
+         d) Lưu trữ, bảo quản đầy đủ, chi tiết theo thời gian đối với các thông tin, dữ liệu nhận biết tổ chức, cá
+nhân trong quá trình phát hành chứng thư chữ ký số công cộng và sử dụng dịch vụ chứng thực chữ ký số công
+cộng như: thông tin nhận biết tổ chức, cá nhân; các yếu tố sinh trắc học của người đại diện theo pháp luật của
+tổ chức, cá nhân; âm thanh, hình ảnh, bản ghi hình, ghi âm; số điện thoại thực hiện giao dịch; nhật ký giao
+dịch. Các thông tin, dữ liệu phải được lưu trữ an toàn, bảo mật, được sao lưu dự phòng, bảo đảm tính đầy đủ,
+toàn vẹn của dữ liệu để phục vụ cho công tác kiểm tra, đối chiếu, giải quyết tra soát, khiếu nại, tranh chấp và
+cung cấp thông tin khi có yêu cầu từ cơ quan quản lý nhà nước có thẩm quyền. Thời gian lưu trữ thực hiện
+theo quy định của pháp luật về lưu trữ, bảo vệ thông tin cá nhân.
+         Điều 37. Tạo khóa, phân phối và quản lý khóa cho thuê bao
+                   1. Tổ chức, cá nhân đề nghị phát hành chứng thư chữ ký số công cộng có thể tự tạo cặp khóa hoặc
+yêu cầu bằng văn bản tổ chức cung cấp dịch vụ chứng thực chữ ký số công cộng tạo cặp khóa cho mình.
+                2. Trường hợp tổ chức, cá nhân đề nghị phát hành chứng thư chữ ký số công cộng tự tạo cặp khóa, tổ
+chức cung cấp dịch vụ chứng thực chữ ký số công cộng cần bảo đảm chắc chắn rằng tổ chức, cá nhân đó đã sử
+dụng thiết bị tạo cặp khóa theo đúng quy chuẩn kỹ thuật, tiêu chuẩn kỹ thuật bắt buộc áp dụng để tạo ra và
+lưu trữ cặp khóa.
+                    3. Trường hợp tổ chức cung cấp dịch vụ chứng thực chữ ký số công cộng tạo cặp khóa, tổ chức đó
+phải bảo đảm sử dụng các phương thức an toàn để chuyển giao khóa bí mật đến tổ chức, cá nhân đề nghị phát
+hành chứng thư chữ ký số công cộng và chỉ được lưu bản sao của khóa bí mật khi tổ chức, cá nhân đề nghị
+phát hành chứng thư chữ ký số công cộng có yêu cầu bằng văn bản.
+                4. Trường hợp tổ chức cung cấp dịch vụ chứng thực chữ ký số công cộng theo mô hình ký số từ xa, tổ
+chức đó được lưu khóa bí mật của tổ chức, cá nhân đề nghị phát hành chứng thư chữ ký số công cộng và phải
+bảo đảm sử dụng các phương thức an toàn để lưu trữ.
+               5. Liên quan đến hoạt động quản lý khóa, tổ chức cung cấp dịch vụ chứng thực chữ ký số công cộng có
+trách nhiệm sau:
+                 a) Thông báo ngay cho thuê bao, đồng thời áp dụng những biện pháp ngăn chặn và khắc phục kịp thời
+trong trường hợp phát hiện thấy dấu hiệu khóa bí mật của thuê bao đã bị lộ, không còn toàn vẹn hoặc bất cứ
+sự sai sót nào khác có nguy cơ ảnh hưởng xấu đến quyền lợi của thuê bao;
+              b) Khuyến cáo cho thuê bao việc thay đổi cặp khóa khi cần thiết nhằm bảo đảm tính tin cậy và an toàn
+cao nhất cho cặp khóa;
+         c) Khôi phục phương tiện lưu khóa bí mật theo đề nghị của thuê bao.
+         Điều 38. Phát hành chứng thư chữ ký số công cộng cho thuê bao
+                     1. Tổ chức cung cấp dịch vụ chứng thực chữ ký số công cộng phát hành chứng thư chữ ký số công
+cộng cho thuê bao sau khi kiểm tra được các nội dung sau đây:
+
+        a) Thông tin trong hồ sơ đề nghị phát hành chứng thư chữ ký số công cộng của thuê bao là chính xác;
+        b) Khóa công khai trên chứng thư chữ ký số công cộng sẽ được cấp là duy nhất và cùng cặp với khóa
+bí mật của tổ chức, cá nhân đề nghị phát hành chứng thư chữ ký số công cộng.
+        2. Chứng thư chữ ký số công cộng chỉ được cấp cho tổ chức, cá nhân đề nghị phát hành và phải có đầy
+đủ những thông tin được quy định tại Điều 6 của Nghị định này.
+        3. Tổ chức cung cấp dịch vụ chứng thực chữ ký số công cộng chỉ được công bố chứng thư chữ ký số
+công cộng đã cấp cho thuê bao trên cơ sở dữ liệu về chứng thư chữ ký số công cộng của mình sau khi có xác
+nhận của thuê bao về tính chính xác của thông tin trên chứng thư chữ ký số đó; thời hạn để công bố chậm nhất
+là 24 giờ sau khi đã có xác nhận của thuê bao; trừ trường hợp có thỏa thuận khác.
+        4. Tổ chức cung cấp dịch vụ chứng thực chữ ký số công cộng phải bảo đảm an toàn trong suốt quá
+trình tạo và chuyển giao chứng thư chữ ký số công cộng cho thuê bao.
+        Điều 39. Gia hạn chứng thư chữ ký số công cộng cho thuê bao
+        1. Trước ngày hết hạn của chứng thư chữ ký số công cộng, thuê bao có quyền yêu cầu gia hạn chứng
+thư chữ ký số công cộng.
+        2. Khi nhận được yêu cầu gia hạn của thuê bao, tổ chức cung cấp dịch vụ chứng thực chữ ký số công
+cộng có nghĩa vụ hoàn thành các thủ tục gia hạn chứng thư chữ ký số công cộng trước khi hết hiệu lực và phải
+bảo đảm thuê bao được định danh đúng chủ thể và thực hiện xác thực danh tính theo quy định của pháp luật
+về định danh và xác thực điện tử.
+        3. Trường hợp gia hạn chứng thư chữ ký số công cộng mà thay đổi khóa công khai, thuê bao phải có
+yêu cầu và nêu rõ lý do; việc tạo khóa, phân phối khóa và công bố chứng thư chữ ký số công cộng được gia hạn
+thực hiện theo các quy định tại Điều 37 và Điều 38 của Nghị định này.
+        Điều 40. Thay đổi cặp khóa cho thuê bao
+        Trong trường hợp thuê bao có nhu cầu thay đổi cặp khóa, thuê bao phải có giấy đề nghị thay đổi cặp
+khóa. Việc tạo khóa, phân phối khóa và công bố chứng thư chữ ký số công cộng với khóa công khai mới thực
+hiện theo các quy định tại Điều 37 và Điều 38 của Nghị định này.
+        Điều 41. Tạm dừng, phục hồi chứng thư chữ ký số công cộng của thuê bao
+        1. Chứng thư chữ ký số công cộng của thuê bao bị tạm dừng trong các trường hợp sau đây:
+        a) Khi thuê bao yêu cầu bằng văn bản và yêu cầu này đã được tổ chức cung cấp dịch vụ chứng thực
+chữ ký số công cộng xác minh là chính xác;
+        b) Khi phát hiện có rủi ro, sai lệch hoặc có dấu hiệu bất thường giữa các thông tin nhận biết tổ chức,
+cá nhân với các yếu tố sinh trắc học của tổ chức, cá nhân hoặc phát hiện giao dịch đáng ngờ trong quá trình ký
+số hoặc khi phát hiện ra bất cứ sai sót nào có ảnh hưởng đến quyền lợi của thuê bao và người nhận;
+        c) Khi thuê bao là tổ chức tạm ngừng toàn bộ hoạt động kinh doanh;
+        d) Khi có yêu cầu bằng văn bản của cơ quan tiến hành tố tụng, cơ quan công an hoặc Bộ Thông tin và
+Truyền thông;
+        đ) Theo điều kiện tạm dừng chứng thư chữ ký số công cộng đã được quy định trong hợp đồng giữa
+thuê bao và tổ chức cung cấp dịch vụ chứng thực chữ ký số công cộng.
+        2. Khi có căn cứ tạm dừng chứng thư chữ ký số công cộng tại khoản 1 Điều này, tổ chức cung cấp dịch
+vụ chứng thực chữ ký số công cộng phải tiến hành tạm dừng, đồng thời thông báo ngay cho thuê bao và công
+bố trên cơ sở dữ liệu về chứng thư chữ ký số công cộng việc tạm dừng, thời gian bắt đầu và kết thúc việc tạm
+dừng.
+        3. Tổ chức cung cấp dịch vụ chứng thực chữ ký số công cộng phải phục hồi chứng thư chữ ký số công
+cộng khi không còn căn cứ để tạm dừng chứng thư chữ ký số công cộng hoặc thời hạn tạm dừng theo yêu cầu
+đã hết hoặc theo yêu cầu của cơ quan nhà nước có thẩm quyền.
+        Điều 42. Thu hồi chứng thư chữ ký số công cộng của thuê bao
+        1. Chứng thư chữ ký số công cộng của thuê bao bị thu hồi trong những trường hợp sau đây:
+
+                   a) Khi thuê bao yêu cầu bằng văn bản và yêu cầu này đã được tổ chức cung cấp dịch vụ chứng thực
+chữ ký số công cộng xác minh là chính xác;
+         b) Khi thuê bao là cá nhân đã chết hoặc mất tích theo tuyên bố của tòa án hoặc thuê bao là tổ chức
+giải thể hoặc phá sản theo quy định của pháp luật;
+                c) Khi có yêu cầu bằng văn bản của cơ quan tiến hành tố tụng, cơ quan công an hoặc Bộ Thông tin và
+Truyền thông;
+         d) Theo điều kiện thu hồi chứng thư chữ ký số công cộng đã được quy định trong hợp đồng giữa thuê
+bao và tổ chức cung cấp dịch vụ chứng thực chữ ký số công cộng.
+             2. Khi có căn cứ thu hồi quy định tại khoản 1 Điều này, tổ chức cung cấp dịch vụ chứng thực chữ ký số
+công cộng phải thu hồi chứng thư chữ ký số công cộng, đồng thời thông báo ngay cho thuê bao và công bố
+trên cơ sở dữ liệu về chứng thư chữ ký số công cộng việc thu hồi.
+         Điều 43. Cung cấp thông tin
+         1. Công bố thông tin:
+         Tổ chức cung cấp dịch vụ chứng thực chữ ký số công cộng phải công khai và duy trì thông tin 24 giờ
+trong ngày và 07 ngày trong tuần trên trang thông tin điện tử của mình những thông tin sau:
+         a) Quy chế chứng thực và chứng thư chữ ký số của mình;
+         b) Danh sách chứng thư số công cộng có hiệu lực, bị tạm dừng, bị thu hồi của thuê bao;
+         c) Những thông tin cần thiết theo quy định của pháp luật.
+         2. Cập nhật thông tin:
+                  Tổ chức cung cấp dịch vụ chứng thực chữ ký số công cộng phải cập nhật các thông tin quy định tại
+khoản 1 Điều này trong vòng 24 giờ khi có thay đổi.
+         3. Cung cấp thông tin:
+                   Tổ chức cung cấp dịch vụ chứng thực chữ ký số công cộng phải cung cấp trực tuyến theo thời gian
+thực cho tổ chức cung cấp dịch vụ chứng thực điện tử quốc gia thông tin về số lượng chứng thư chữ ký số công
+cộng đang có hiệu lực, bị tạm dừng, bị thu hồi để phục vụ công tác quản lý nhà nước về dịch vụ chứng thực
+chữ ký số công cộng.
+         4. Lưu trữ thông tin:
+                   a) Tổ chức cung cấp dịch vụ chứng thực chữ ký số công cộng có trách nhiệm bảo đảm các điểm tiếp
+nhận, phần mềm, ứng dụng đề nghị phát hành chứng thư chữ ký số công cộng tuân thủ đầy đủ các quy định về
+xác thực và lưu trữ thông tin thuê bao; hoàn toàn chịu trách nhiệm trước pháp luật về việc thông tin thuê bao
+được xác thực, lưu trữ, quản lý đúng quy định tại các điểm tiếp nhận, phần mềm, ứng dụng đề nghị phát hành
+chứng thư chữ ký số công cộng;
+         b) Tổ chức cung cấp dịch vụ chứng thực chữ ký số công cộng có trách nhiệm xây dựng hệ thống thông
+tin cung cấp dịch vụ tin cậy, cơ sở dữ liệu thông tin thuê bao tập trung để nhập, lưu trữ, quản lý thông tin trong
+suốt thời gian sử dụng dịch vụ của thuê bao, bao gồm: thông tin về hồ sơ đề nghị phát hành chứng thư chữ ký
+số công cộng theo quy định tại Điều 34 của Nghị định này, ngày bắt đầu sử dụng dịch vụ, ngày chấm dứt sử
+dụng dịch vụ đối với thuê bao đã chấm dứt sử dụng dịch vụ; đối với các thuê bao đã chấm dứt sử dụng dịch vụ,
+phải tiếp tục lưu trữ thông tin thuê bao trong cơ sở dữ liệu theo pháp luật lưu trữ và tối thiểu 02 năm.
+         Tổ chức cung cấp dịch vụ chứng thực chữ ký số công cộng có trách nhiệm lun trữ toàn bộ thông tin
+liên quan đến việc tạm đình chỉ hoặc thu hồi giấy phép và các cơ sở dữ liệu thông tin thuê bao, chứng thư chữ
+ký số công cộng theo pháp luật lưu trữ và tối thiểu 05 năm, kể từ khi giấy phép bị tạm đình chỉ hoặc thu hồi
+hoặc không được cấp lại;
+         c) Tổ chức cung cấp dịch vụ chứng thực chữ ký số công cộng có trách nhiệm kết nối cơ sở dữ liệu
+thông tin thuê bao tập trung của tổ chức với Cơ sở dữ liệu của Bộ Thông tin và Truyền thông để phục vụ công
+tác quản lý nhà nước về giao dịch điện tử; kết nối với Cơ sở dữ liệu quốc gia về dân cư để tham chiếu, xác thực
+thông tin thuê bao bảo đảm được định danh đúng chủ thể và thực hiện xác thực danh tính theo quy định của
+pháp luật về định danh và xác thực điện tử;
+
+        d) Tổ chức cung cấp dịch vụ chứng thực chữ ký số công cộng có trách nhiệm cung cấp đầy đủ thông
+tin; chứng minh thông tin thuê bao trong cơ sở dữ liệu tập trung của tổ chức đã được đối chiếu, xác thực,
+nhập, lưu trữ, quản lý theo quy định của pháp luật.
+        Điều 44. Kết nối đến cổng kết nối dịch vụ chứng thực chữ ký số công cộng
+            1. Các tổ chức cung cấp dịch vụ chứng thực chữ ký số công cộng có trách nhiệm kết nối đến Cổng kết
+nối dịch vụ chứng thực chữ ký số công cộng.
+             2. Các hệ thống thông tin phục vụ giao dịch điện tử sử dụng chữ ký số có trách nhiệm tích hợp với
+Cổng kết nối dịch vụ chứng thực chữ ký số công cộng để bảo đảm tính xác thực, tính toàn vẹn và tính chống
+chối bỏ của thông điệp dữ liệu.
+             3. Bộ Thông tin và Truyền thông hướng dẫn chi tiết việc thực hiện kết nối quy định tại khoản 1 và
+khoản 2 Điều này.
+        Điều 45. Quyền và trách nhiệm của thuê bao sử dụng dịch vụ chứng thực chữ ký số công cộng
+             1. Có quyền yêu cầu tổ chức cung cấp dịch vụ chứng thực chữ ký số công cộng cung cấp bằng văn bản
+những thông tin theo hợp đồng đã giao kết.
+        2. Có quyền yêu cầu tổ chức cung cấp dịch vụ chứng thực chữ ký số công cộng tạm dừng, thu hồi
+chứng thư chữ ký số đã cấp và tự chịu trách nhiệm về yêu cầu đó.
+               3. Cung cấp thông tin theo quy định một cách trung thực, chính xác cho tổ chức cung cấp dịch vụ
+chứng thực chữ ký số công cộng. Trường hợp có sự thay đổi về một trong các thông tin đã cung cấp, thuê bao
+có trách nhiệm thông báo cho tổ chức cung cấp dịch vụ chứng thực chữ ký công cộng để thực hiện thay đổi nội
+dung chứng thư chữ ký số công cộng.
+        4. Trường hợp tự tạo cặp khóa cho mình, thuê bao phải bảo đảm thiết bị tạo cặp khóa đáp ứng quy
+chuẩn kỹ thuật và tiêu chuẩn bắt buộc áp dụng.
+              5. Kiểm soát và sử dụng khóa bí mật của mình một cách an toàn trong suốt thời gian chứng thư chữ
+ký số công cộng có hiệu lực và bị tạm dừng.
+           6. Thông báo trong thời gian 24 giờ cho tổ chức cung cấp dịch vụ chứng thực chữ ký số công cộng nếu
+phát hiện thấy dấu hiệu khóa bí mật của mình đã bị lộ, bị đánh cắp hoặc sử dụng trái phép để có các biện pháp
+xử lý.
+             7. Khi đã đồng ý để tổ chức cung cấp dịch vụ chứng thực chữ ký số công cộng công bố chứng thư chữ
+ký số công cộng theo quy định tại khoản 3 Điều 38 của Nghị định này hoặc khi đã phát hành chứng thư chữ ký
+số công cộng đó cho người khác với mục đích để giao dịch, thuê bao được coi là đã cam kết với người nhận
+rằng thuê bao là người nắm giữ hợp pháp khóa bí mật tương ứng với khóa công khai trên chứng thư chữ ký số
+công cộng đó và những thông tin trên chứng thư chữ ký số công cộng liên quan đến thuê bao là đúng sự thật,
+đồng thời phải thực hiện các nghĩa vụ xuất phát từ chứng thư chữ ký số công cộng đó.
+        8. Chịu trách nhiệm trước pháp luật nếu vi phạm quy định tại các khoản 3, 4, 5, 6 và 7 Điều này và các
+quy định của pháp luật khác có liên quan.
+                                                Chương IV
+                                          ĐIỀU KHOẢN THI HÀNH
+        Điều 46. Hiệu lực thi hành
+        1. Nghị định này có hiệu lực thi hành từ ngày 10 tháng 4 năm 2025.
+              2. Nghị định số 130/2018/NĐ-CP ngày 27 tháng 9 năm 2018 của Chính phủ quy định chi tiết thi hành
+Luật Giao dịch điện tử về chữ ký số và dịch vụ chứng thực chữ ký số và Nghị định số 48/2024/NĐ-CP ngày 09
+tháng 5 năm 2024 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 130/2018/NĐ-CP ngày 27
+tháng 9 năm 2018 của Chính phủ quy định chi tiết thi hành Luật Giao dịch điện tử về chữ ký số và dịch vụ
+chứng thực chữ ký số hết hiệu lực kể từ ngày Nghị định này có hiệu lực thi hành, trừ trường hợp quy định tại
+Điều 47 của Nghị định này.
+
+        Điều 47. Quy định chuyển tiếp
+             1. Trường hợp tổ chức được cấp giấy phép cung cấp dịch vụ chứng thực chữ ký số công cộng theo các
+văn bản quy phạm pháp luật quy định chi tiết Luật Giao dịch điện tử số 51/2005/QH11 vẫn còn hiệu lực, việc
+nộp phí dịch vụ duy trì hệ thống kiểm tra trạng thái chứng thư số theo quy định hiện hành của pháp luật phí và
+lệ phí cho đến khi cơ quan có thẩm quyền ban hành văn bản thay thế.
+           2. Tổ chức được cấp giấy phép cung cấp dịch vụ tin cậy có hoạt động cung cấp dịch vụ chứng thực chữ
+ký số công cộng từ ngày Luật Giao dịch điện tử số 20/2023/QH15 có hiệu lực thi hành, nộp phí dịch vụ duy trì
+hệ thống kiểm tra trạng thái chứng thư chữ ký số như phí dịch vụ duy trì hệ thống kiểm tra trạng thái chứng
+thư số theo quy định hiện hành của pháp luật phí và lệ phí cho đến khi cơ quan có thẩm quyền ban hành văn
+bản thay thế.
+             3. Đối với dịch vụ mới phát sinh theo quy định của Luật Giao dịch điện tử số 20/2023/QH15 mà chưa
+có quy định thu phí thì chưa thu cho đến khi cơ quan có thẩm quyền ban hành văn bản quy định thu.
+                4. Trừ trường hợp tổ chức cung cấp dịch vụ chứng thực chữ ký số công cộng lựa chọn áp dụng quy
+định của Luật Giao dịch điện tử số 20/2023/QH15, tổ chức cung cấp dịch vụ chứng thực chữ ký số công cộng
+đang hoạt động hợp pháp, trong vòng 02 năm kể từ ngày Nghị định này có hiệu lực thi hành, phải có trách
+nhiệm rà soát, nâng cấp hệ thống thông tin và đội ngũ nhân lực quản lý và kỹ thuật đáp ứng quy định tại Nghị
+định này.
+               5. Việc cấp chứng thư số theo giấy phép cung cấp dịch vụ chứng thực chữ ký số công cộng đã được
+cấp trước ngày Luật Giao dịch điện tử số 20/2023/QH15 có hiệu lực thi hành và đến ngày Luật Giao dịch điện
+tử số 20/2023/QH15 có hiệu lực thi hành vẫn còn hiệu lực được thực hiện 01 lần. Thời hạn hiệu lực của chứng
+thư số được cấp tối đa là 05 năm và không vượt quá thời hạn còn lại của giấy phép.
+                6. Các phần mềm ứng dụng có tích hợp phần mềm ký số, phần mềm kiểm tra chữ ký số trong vòng 02
+năm kể từ ngày Nghị định này có hiệu lực, phải được rà soát, nâng cấp đáp ứng quy định tại Điều 17 Nghị định
+này.
+              7. Trường hợp chủ quản hệ thống thông tin phục vụ giao dịch điện tử sử dụng chữ ký số trong giao
+dịch, chủ quản hệ thống thông tin có trách nhiệm rà soát, nâng cấp hệ thống thông tin, phần mềm ứng dụng
+để tích hợp phần mềm ký số, phần mềm kiểm tra chữ ký số đáp ứng quy định tại Điều 17 Nghị định này.
+        Điều 48. Trách nhiệm thi hành
+              Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân
+dân các cấp và các cơ quan, tổ chức, cá nhân có liên quan chịu trách nhiệm thi hành Nghị định này
+ Nơi nhận:                                                              TM. CHÍNH PHỦ
+ - Ban Bí thư Trung ương Đảng;                                          KT. THỦ TƯỚNG
+ - Thủ tướng, các Phó Thủ tướng Chính phủ;                             PHÓ THỦ TƯỚNG
+ - Các bộ, cơ quan ngang bộ, cơ quan thuộc Chính
+ phủ;
+ - HĐND, UBND các tỉnh, thành phố trực thuộc trung
+ ương;
+ - Văn phòng Trung ương và các Ban của Đảng;
+ - Văn phòng Tổng Bí thư;                                              Nguyễn Hòa Bình
+ - Văn phòng Chủ tịch nước;
+ - Hội đồng Dân tộc và các Ủy ban của Quốc hội;
+ - Văn phòng Quốc hội;
+ - Tòa án nhân dân tối cao;
+ - Viện kiểm sát nhân dân tối cao;
+ - Kiểm toán nhà nước;
+ - Ủy ban Giám sát tài chính Quốc gia;
+ - Ngân hàng Chính sách xã hội;
+ - Ngân hàng Phát triển Việt Nam;
+ - Ủy ban trung ương Mặt trận Tổ quốc Việt Nam;
+ - Cơ quan trung ương của các đoàn thể;
+ - VPCP: BTCN, các PCN, Trợ lý TTg, TGĐ Cổng TTĐT,
+
+các Vụ, Cục, đơn vị trực thuộc, Công báo;
+- Lưu: VT, KSTT (2).
+
+                                          Phụ lục
+                           (Kèm theo Nghị định số 23/2025/NĐ-CP
+                         ngày 21 tháng 02 năm 2025 của Chính phủ)
+                                      ______________
+Mẫu số 01     Đơn đề nghị cấp/cấp lại chứng nhận chữ ký điện tử chuyên dùng bảo đảm an toàn
+Mẫu số 02     Chứng nhận chữ ký điện tử chuyên dùng bảo đảm an toàn
+Mẫu số 03     Văn bản chứng minh việc tạo lập chữ ký điện tử chuyên dùng bảo đảm an toàn
+Mẫu số 04     Đơn đề nghị cấp giấy phép kinh doanh dịch vụ tin cậy
+Mẫu số 05     Đơn đề nghị thay đổi nội dung/cấp lại/gia hạn giấy phép kinh doanh dịch vụ tin cậy
+Mẫu số 06     Giấy phép kinh doanh dịch vụ tin cậy
+Mẫu số 07     Báo cáo triển khai hoạt động cung cấp dịch vụ tin cậy
+Mẫu số 08     Báo cáo tình hình thực hiện giấy chứng nhận/giấy phép
+
+                                                                                                Mẫu số 01
+            TÊN CƠ QUAN, TỔ CHỨC                          CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+               _____________                                 Độc lập - Tự do - Hạnh phúc
+                   Số: ……                                      ________________________
+                                                            ….., ngày …. tháng …. năm …..
+                                               ĐƠN ĐỀ NGHỊ
+                                  CẤP/CẤP LẠI CHỨNG NHẬN CHỮ KÝ ĐIỆN TỬ
+                                       CHUYÊN DÙNG BẢO ĐẢM AN TOÀN
+                                             _______________
+                                 Kính gửi: Bộ Thông tin và Truyền thông.
+        Căn cứ Luật Giao dịch điện tử ngày 22 tháng 6 năm 2023;
+        Căn cứ Nghị định số .../.../NĐ-CP ngày ... tháng ... năm ... của Chính phủ quy định về chữ ký điện tử và
+dịch vụ tin cậy;
+        (Tên cơ quan, tổ chức) đề nghị Bộ Thông tin và Truyền thông cấp/cấp lại chứng nhận chữ ký điện tử
+chuyên dùng bảo đảm an toàn với các nội dung sau:
+        Phần 1. Thông tin chung về cơ quan, tổ chức
+        1. Tên giao dịch:
+        2. Tên giao dịch quốc tế:
+        3. Quyết định thành lập/Quyết định quy định chức năng, nhiệm vụ số ... do... cấp ngày ... tháng ... năm
+... (nếu có) hoặc Giấy chứng nhận đăng ký doanh nghiệp số ... do ... cấp ngày ... tháng ... năm ... (nếu có).
+        4. Tên người đại diện theo pháp luật:
+        5. Số định danh cá nhân của người đại diện theo pháp luật:
+        6. Địa chỉ trụ sở chính:
+        7. Điện thoại:
+        Phần 2. Tài liệu kèm theo (ghi rõ loại và số lượng hồ sơ)
+   STT                    Tên tài liệu                       Số lượng                    Ghi chú
+    1
+    2
+    3
+    …
+        Phần 3. Cam kết
+        (Tên cơ quan, tổ chức) cam kết chịu trách nhiệm về tính chính xác và tính hợp pháp của các thông tin
+cung cấp nêu trên cùng các tài liệu kèm theo và cam kết tuân thủ các quy định của pháp luật về chữ ký điện tử
+và pháp luật có liên quan.
+ Nơi nhận:                                                    NGƯỜI ĐẠI DIỆN THEO PHÁP LUẬT
+ - Như trên;                                                         CỦA CƠ QUAN, TỔ CHỨC
+ - …                                                      (Ký, ghi rõ họ tên, chức danh và đóng dấu)
+        Đầu mối liên hệ về hồ sơ (họ tên, chức vụ, điện thoại, địa chỉ thư điện tử):
+
+                                                                                                  Mẫu số 02
+         BỘ THÔNG TIN VÀ TRUYỀN THÔNG                       CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+                _____________                                  Độc lập - Tự do - Hạnh phúc
+              Số: …./CN-BTTTT                                    ________________________
+                                                              Hà Nội, ngày … tháng ... năm …
+                                   CHỨNG NHẬN CHỮ KÝ ĐIỆN TỬ CHUYÊN DÙNG
+                                              BẢO ĐẢM AN TOÀN
+                               (Có giá trị đến hết ngày... tháng... năm ...)
+                                                ___________
+                                   BỘ TRƯỞNG BỘ THÔNG TIN VÀ TRUYỀN THÔNG
+         Căn cứ Luật Giao dịch điện tử ngày 22 tháng 6 năm 2023;
+         Căn cứ Nghị định số .../.../NĐ-CP ngày ... tháng ... năm ... của Chính phủ quy định về chữ ký điện tử và
+dịch vụ tin cậy;
+         Căn cứ Nghị định số .../.../NĐ-CP ngày ... tháng ... năm ... của Chính phủ quy định chức năng, nhiệm
+vụ, quyền hạn và cơ cấu tổ chức của Bộ Thông tin và Truyền thông;
+         Xét hồ sơ đề nghị cấp/cấp lại chứng nhận chữ ký điện tử chuyên dùng bảo đảm an toàn ngày...
+tháng... năm ... của ...(1);
+         Theo đề nghị của ...(2).
+                                               NAY CHỨNG NHẬN
+         Điều 1. Chữ ký điện tử chuyên dùng do (TÊN CƠ QUAN/TỔ CHỨC), tên giao dịch tiếng Anh: (TÊN
+TIẾNG ANH), có trụ sở tại..., có Quyết định thành lập/Quyết định quy định chức năng nhiệm vụ số ... do ...cấp
+ngày ... tháng... năm ... (nếu có) hoặc có Giấy chứng nhận đăng ký kinh doanh số:... do ... cấp ngày ... tháng ...
+năm ... (nếu có) tạo lập đáp ứng đủ các yêu cầu theo quy định tại khoản 2 Điều 22 Luật Giao dịch điện tử.
+         Điều 2. Chữ ký điện tử chuyên dùng bảo đảm an toàn được sử dụng riêng cho hoạt động phù hợp với
+chức năng, nhiệm vụ như sau:
+         1. Hoạt động nội bộ của (tên cơ quan/tổ chức);
+         2. Hoạt động chuyên ngành hoặc lĩnh vực, có cùng tính chất hoạt động hoặc mục đích công việc và
+được liên kết với nhau thông qua ...;
+         3. Để ký với tổ chức, cá nhân khác trong giao dịch phù hợp chức năng, nhiệm vụ;
+         4. Không được kinh doanh.
+         Điều 3. Các tiêu chuẩn, quy chuẩn kỹ thuật áp dụng:...
+         Điều 4. ...(1) phải thực hiện đúng các quy định tại Luật Giao dịch điện tử ngày 22 tháng 6 năm 2023,
+Nghị định số .../.../NĐ-CP ngày ... tháng ... năm ... của Chính phủ quy định về chữ ký điện tử và dịch vụ tin cậy
+và các quy định của pháp luật có liên quan.
+         Điều 5. Chứng nhận chữ ký điện tử chuyên dùng bảo đảm an toàn này có hiệu lực kể từ ngày ký và có
+giá trị đến hết ngày ... tháng ... năm ...; (3) thay thế Chứng nhận số .../CN-BTTTT do Bộ trưởng Bộ Thông tin và
+Truyền thông cấp ngày ... tháng ... năm ...
+                                                                           BỘ TRƯỞNG
+         Chú thích:
+         (1) Tên cơ quan, tổ chức được cấp chứng nhận.
+         (2) Thủ trưởng đơn vị trình cấp chứng nhận.
+
+                             3
+(3) Sử dụng trong trường hợp cấp lại.
+
+                                                                                                Mẫu số 03
+            TÊN CƠ QUAN, TỔ CHỨC                          CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+               _____________                                 Độc lập - Tự do - Hạnh phúc
+                   Số: …                                       ________________________
+                                                              …, ngày … tháng … năm ….
+                            VĂN BẢN CHỨNG MINH ĐÁP ỨNG YÊU CẦU ĐỐI VỚI CHỮ KÝ
+                                   ĐIỆN TỬ CHUYÊN DÙNG BẢO ĐẢM AN TOÀN
+                                 Kính gửi: Bộ Thông tin và Truyền thông.
+        Căn cứ Luật Giao dịch điện tử ngày 22 tháng 6 năm 2023;
+        Căn cứ Nghị định số .../.../NĐ-CP ngày ... tháng ... năm ... của Chính phủ quy định về chữ ký điện tử và
+dịch vụ tin cậy;
+        Phần 1. Thông tin chung về cơ quan, tổ chức
+        1. Tên giao dịch:
+        2. Tên giao dịch quốc tế:
+        3. Quyết định thành lập/Quyết định quy định chức năng, nhiệm vụ số ...do ... cấp ngày ... tháng ... năm
+... (nếu có) hoặc Giấy chứng nhận đăng ký doanh nghiệp số ... do ... cấp ngày ... tháng ... năm ... (nếu có).
+        4. Tên người đại diện theo pháp luật:
+        5. Số định danh cá nhân của người đại diện theo pháp luật:
+        6. Địa chỉ trụ sở chính:
+        7. Điện thoại:
+        Phần 2. Tài liệu kèm theo (ghi rõ loại và số lượng tài liệu)
+    STT                              Tên tài liệu                             Số lượng         Ghi chú
+    1     Mô tả chi tiết và quy trình vận hành hệ thống thông tin tạo lập
+          chữ ký điện tử chuyên dùng
+    2     Danh sách nhân lực quản lý và kỹ thuật tham gia vận hành hệ
+          thống thông tin thực tế kèm theo phân công vị trí đảm nhận
+    3     Mô tả việc đáp ứng đủ các yêu cầu tại khoản 2 Điều 22 Luật Giao
+          dịch điện tử
+    4     Tình hình tuân thủ quy định pháp luật của cơ quan/tổ chức (đối
+          với trường hợp cấp lại)
+          Quy chế chứng thực (đối với trường hợp chữ ký điện tử chuyên
+    5     dùng bảo đảm an toàn được bảo đảm bởi chứng thư chữ ký điện
+          tử)
+    6     Các thay đổi về hệ thống thông tin trong quá trình hoạt động (đối
+          với trường hợp cấp lại)
+    7     Kết quả kiểm toán kỹ thuật lần gần nhất (nếu có)
+    8     Các tài liệu khác (nếu có)
+   ...
+        Phần 3. Cam kết
+        (Tên cơ quan, tổ chức) cam kết chịu trách nhiệm về tính chính xác và tính hợp pháp của các thông tin
+cung cấp nêu trên cùng các tài liệu kèm theo và cam kết tuân thủ các quy định của pháp luật về chữ ký điện tử
+và pháp luật có liên quan.
+ Nơi nhận:                                                     NGƯỜI ĐẠI DIỆN THEO PHÁP LUẬT
+ - Như trên;                                                        CỦA CƠ QUAN, TỔ CHỨC
+
+- ….                                                          (Ký, ghi rõ họ tên, chức danh và đóng dấu)
+       Đầu mối liên hệ về hồ sơ (họ tên, chức vụ, điện thoại, địa chỉ thư điện tử):
+
+                                                                                                   Mẫu số 04
+               TÊN DOANH NGHIỆP                             CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+                  __________                                   Độc lập - Tự do - Hạnh phúc
+                    Số: ….                                       ________________________
+                                                                 …, ngày … tháng … năm …
+                                                 ĐƠN ĐỀ NGHỊ
+                                   CẤP GIẤY PHÉP KINH DOANH DỊCH VỤ TIN CẬY
+                                                 ____________
+                                   Kính gửi: Bộ Thông tin và Truyền thông.
+         Căn cứ Luật Giao dịch điện tử ngày 22 tháng 6 năm 2023;
+         Căn cứ Nghị định số .../.../NĐ-CP ngày ... tháng ... năm ... của Chính phủ quy định về chữ ký điện tử và
+dịch vụ tin cậy;
+         (Tên doanh nghiệp) đề nghị Bộ Thông tin và Truyền thông cấp giấy phép kinh doanh dịch vụ tin cậy với
+các nội dung sau:
+         Phần 1. Thông tin chung về doanh nghiệp
+         1. Tên giao dịch:
+         2. Tên giao dịch quốc tế:
+         3. Giấy chứng nhận đăng ký doanh nghiệp số ... do ... cấp ngày ... tháng ... năm ...
+         4. Tên người đại diện theo pháp luật:
+         5. Số định danh cá nhân của người đại diện theo pháp luật:
+         6. Địa chỉ trụ sở chính:
+         7. Điện thoại:
+         8. Số Fax:
+         9. Website:
+         10. Mã số thuế:
+         Phần 2. Mô tả tóm tắt về đề nghị cấp giấy phép
+         Loại Giấy phép đề nghị được cấp phép
+         1. Giấy phép kinh doanh dịch vụ ... 1
+         Thời hạn đề nghị cấp phép: ... năm ... tháng...
+         2. Giấy phép kinh doanh dịch vụ ...²
+         Thời hạn đề nghị cấp phép: ... năm ... tháng...
+         Phần 3. Tài liệu kèm theo (ghi rõ loại và số lượng hồ sơ)
+    STT                      Tên tài liệu                            Số lượng                 Ghi chú
+     1
+     2
+     3
+     …
+         Phần 4. Cam kết
+         (Tên doanh nghiệp) cam kết chịu trách nhiệm về tính chính xác và tính hợp pháp của các thông tin
+cung cấp nêu trên cùng các tài liệu kèm theo và cam kết tuân thủ các quy định của pháp luật về dịch vụ tin cậy
+và pháp luật có liên quan.
+
+Nơi nhận:                                                        NGƯỜI ĐẠI DIỆN THEO PHÁP LUẬT
+- Như trên;                                                               CỦA DOANH NGHIỆP
+- …                                                          (Ký, ghi rõ họ tên, chức danh và đóng dấu)
+        _______________
+        1 Điền tên dịch vụ theo quy định tại Nghị định này.
+        2 Điền tên dịch vụ theo quy định tại Nghị định này.
+        Đầu mối liên hệ về hồ sơ (họ tên, chức vụ, điện thoại, địa chỉ thư điện tử):
+
+                                                                                                  Mẫu số 05
+            TÊN DOANH NGHIỆP                                CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+                ___________                                    Độc lập - Tự do - Hạnh phúc
+                   Số: ….                                        ________________________
+                                                               …, ngày … tháng … năm ….
+                           ĐƠN ĐỀ NGHỊ THAY ĐỔI NỘI DUNG/CẤP LẠI/GIA HẠN
+                                     GIẤY PHÉP KINH DOANH DỊCH VỤ TIN CẬY
+                                                _____________
+                                   Kính gửi: Bộ Thông tin và Truyền thông.
+         Căn cứ Luật Giao dịch điện tử ngày 22 tháng 6 năm 2023;
+         Căn cứ Nghị định số .../.../NĐ-CP ngày ... tháng ... năm ... của Chính phủ quy định về chữ ký điện tử và
+dịch vụ tin cậy;
+         (Tên doanh nghiệp) đề nghị Bộ Thông tin và Truyền thông thay đổi nội dung Giấy phép kinh doanh
+dịch vụ tin cậy số... do Bộ trưởng Bộ Thông tin và Truyền thông cấp ngày... tháng... năm, cụ thể như sau:
+         Phần 1. Thông tin chung về doanh nghiệp
+         1. Tên giao dịch:
+         2. Tên giao dịch quốc tế:
+         3. Giấy chứng nhận đăng ký doanh nghiệp số ... do ... cấp ngày ... tháng ... năm ...
+         4. Tên người đại diện theo pháp luật:
+         5. Số định danh cá nhân của người đại diện theo pháp luật:
+         6. Địa chỉ trụ sở chính:
+         7. Điện thoại:
+         8. Số Fax:
+         9. Website:
+         10. Mã số thuế:
+         Phần 2. Mô tả tóm tắt về đề nghị thay đổi nội dung giấy phép/cấp lại/ gia hạn
+         1. Giấy phép kinh doanh dịch vụ tin cậy đề nghị thay đổi nội dung/cấp lại/ gia hạn:
+         Giấy phép số ... do Bộ trưởng Bộ Thông tin và Truyền thông cấp ngày ... tháng... năm ...
+         2. Lý do thay đổi/cấp lại/gia hạn:
+         3. Nội dung đề nghị thay đổi/cấp lại/gia hạn:
+         Phần 3. Tài liệu kèm theo (ghi rõ loại và số lượng hồ sơ)
+    STT                      Tên tài liệu                           Số lượng                  Ghi chú
+     1
+     2
+     3
+         Phần 4. Cam kết
+         (Tên doanh nghiệp) cam kết chịu trách nhiệm về tính chính xác và tính hợp pháp của các thông tin
+cung cấp nêu trên cùng các tài liệu kèm theo và cam kết tuân thủ các quy định của pháp luật về dịch vụ tin cậy
+và pháp luật có liên quan./.
+
+Nơi nhận:                                                       NGƯỜI ĐẠI DIỆN THEO PHÁP LUẬT
+- Như trên;                                                              CỦA DOANH NGHIỆP
+- …                                                         (Ký, ghi rõ họ tên, chức danh và đóng dấu)
+       Đầu mối liên hệ về hồ sơ (họ tên, chức vụ, điện thoại, địa chỉ thư điện tử):
+
+                                                                                                   Mẫu số 06
+         BỘ THÔNG TIN VÀ TRUYỀN THÔNG                       CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+                _____________                                  Độc lập - Tự do - Hạnh phúc
+              Số:    /GP-BTTTT                                   ________________________
+                                                              Hà Nội, ngày … tháng … năm ….
+                                     GIẤY PHÉP KINH DOANH DỊCH VỤ TIN CẬY
+                                               _______________
+                               BỘ TRƯỞNG BỘ THÔNG TIN VÀ TRUYỀN THÔNG
+         Căn cứ Luật Giao dịch điện tử ngày 22 tháng 6 năm 2023;
+         Căn cứ Nghị định số .../.../NĐ-CP ngày ... tháng ... năm ... của Chính phủ quy định về chữ ký điện tử và
+dịch vụ tin cậy;
+         Căn cứ Nghị định số .../.../NĐ-CP ngày ... tháng ... năm ... của Chính phủ quy định chức năng, nhiệm
+vụ, quyền hạn và cơ cấu tổ chức của Bộ Thông tin và Truyền thông;
+         Xét hồ sơ đề nghị cấp/cấp lại/gia hạn/thay đổi nội dung Giấy phép kinh doanh dịch vụ tin cậy ngày...
+tháng... năm... của ...(1);
+         Theo đề nghị của ...(2).
+                                                 NAY CHO PHÉP
+         Điều 1. (TÊN DOANH NGHIỆP), tên giao dịch tiếng Anh: (TÊN TIẾNG ANH), có trụ sở tại ..., có Giấy
+chứng nhận đăng ký kinh doanh số: ... do ... cấp ngày ... tháng ... năm ..., được kinh doanh dịch vụ tin cậy với
+những nội dung cụ thể như sau:
+         1. Tên giao dịch: ...(1)
+         2. Loại dịch vụ tin cậy được cấp phép kinh doanh:
+         a) Cung cấp dịch vụ .. ..(3)
+         Thời hạn cung cấp dịch vụ đến hết ngày... tháng ... năm ...
+         b) Giấy phép kinh doanh dịch vụ ... (3)
+         Thời hạn cung cấp dịch vụ đến hết ngày... tháng ... năm ...
+         3. Phạm vi cung cấp dịch vụ
+         Tổ chức cung cấp dịch vụ tin cậy (1) được thực hiện các hoạt động theo quy định của Điều .... Nghị
+định số .../.../NĐ-CP ngày ... tháng ... năm ... của Chính phủ quy định về chữ ký điện tử và dịch vụ tin cậy.
+         4. Loại chứng thư chữ ký số và Phương thức lưu khóa bí mật của thuê bao (Đối với dịch vụ chứng thực
+chữ ký số công cộng)
+         a) Tổ chức cung cấp dịch vụ tin cậy (1) được cung cấp các loại chứng thư chữ ký số sau:
+         ….
+         b) Phương thức lưu khóa bí mật của thuê bao như sau:
+         ….
+         Điều 2. ...(1) phải thực hiện đúng các quy định tại Luật Giao dịch điện tử ngày 22 tháng 6 năm 2023,
+Nghị định số .../.../NĐ-CP ngày ... tháng ... năm ... của Chính phủ quy định về chữ ký điện tử và dịch vụ tin cậy
+và các quy định khác của pháp luật có liên quan.
+         Điều 3. Giấy phép kinh doanh dịch vụ tin cậy này có hiệu lực kể từ ngày ký và có giá trị đến hết ngày...
+tháng... năm...; (4) thay thế Giấy phép số .../GP-BTTTT do Bộ trưởng Bộ Thông tin và Truyền thông cấp ngày ...
+tháng ... năm ...
+
+                                                                   BỘ TRƯỞNG
+Chú thích:
+(1) Tên doanh nghiệp được cấp giấy phép.
+(2) Thủ trưởng đơn vị trình cấp giấy phép.
+(3) Dịch vụ tin cậy được phép kinh doanh.
+(4) Sử dụng trong trường hợp thay đổi nội dung/cấp lại giấy phép.
+
+                                                                                                 Mẫu số 07
+            TÊN DOANH NGHIỆP                               CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+                ___________                                   Độc lập - Tự do - Hạnh phúc
+                   Số: …                                        ________________________
+                                                               …, ngày … tháng  .. năm …
+                                           BÁO CÁO TRIỂN KHAI
+                                     HOẠT ĐỘNG CUNG CẤP DỊCH VỤ TIN CẬY
+                                               _____________
+                                   Kính gửi: Bộ Thông tin và Truyền thông
+                           (Tổ chức cung cấp dịch vụ chứng thực điện tử quốc gia)
+         Căn cứ Luật Giao dịch điện tử ngày 22 tháng 6 năm 2023;
+         Căn cứ Nghị định số .../.../NĐ-CP ngày ... tháng ... năm ... của Chính phủ quy định về chữ ký điện tử và
+dịch vụ tin cậy;
+         Phần 1. Thông tin chung về doanh nghiệp
+         1. Tên giao dịch:
+         2. Tên giao dịch quốc tế:
+         3. Giấy chứng nhận đăng ký doanh nghiệp số ... do ... cấp ngày ... tháng ... năm ...
+         4. Tên người đại diện theo pháp luật:
+         5. Số định danh cá nhân của người đại diện theo pháp luật:
+         6. Địa chỉ trụ sở chính:
+         7. Điện thoại:
+         8. Số Fax:
+         9. Website:
+         10. Mã số thuế:
+         Phần 2. Mô tả tóm tắt về giấy phép
+         1. Giấy phép kinh doanh dịch vụ tin cậy được cấp:
+         Giấy phép số ... do Bộ trưởng Bộ Thông tin và Truyền thông cấp ngày ... tháng ... năm ...
+         2. Tên dịch vụ tin cậy đề nghị cấp chứng thư chữ ký số:
+         3. Tên của tổ chức cung cấp dịch vụ tin cậy đề nghị ghi trên chứng thư chữ ký số:
+         Phần 3. Tài liệu kèm theo (ghi rõ loại và số lượng tài liệu)
+   STT                           Tên tài liệu                          Số lượng              Ghi chú
+    1      Kết quả triển khai hệ thống thông tin thực tế
+    2      Hồ sơ nhân lực quản lý và kỹ thuật, hợp đồng (bản sao)
+    3      Danh sách và phân công nhân lực quản lý và kỹ thuật
+    4      Dự thảo kịch bản lễ tạo khóa
+    5      Danh sách thiết bị trong hệ thống thông tin được gắn mã
+           quản lý
+           Kết quả kiểm toán kỹ thuật lần gần nhất (Đối với trường
+    6      hợp đã có chứng thư chữ ký số và đang cung cấp dịch
+           vụ)
+    7      Tình hình tuân thủ quy định pháp luật của doanh nghiệp
+           (đối với trường hợp cấp lại)
+
+    8     Các quy trình vận hành hệ thống thông tin thực tế
+    9     Quy chế chứng thực
+    10    Các thay đổi về hệ thống thông tin khi triển khai thực tế
+          (nếu có)
+    11    Các tài liệu khác (nếu có)
+    …
+        Phần 4. Cam kết
+        (Tên doanh nghiệp) cam kết chịu trách nhiệm về tính chính xác và tính hợp pháp của các thông tin
+cung cấp nêu trên cùng các tài liệu kèm theo và cam kết tuân thủ các quy định của pháp luật về chữ ký số, dịch
+vụ tin cậy và pháp luật có liên quan.
+ Nơi nhận:                                                  NGƯỜI ĐẠI DIỆN THEO PHÁP LUẬT
+ - Như trên;                                                        CỦA DOANH NGHIỆP
+ - …                                                   (Ký, ghi rõ họ tên, chức danh và đóng dấu)
+        Đầu mối liên hệ về hồ sơ (họ tên, chức vụ, điện thoại, địa chỉ thư điện tử):
+
+                                                                                            Mẫu số 08
+            TÊN DOANH NGHIỆP/                          CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+             CƠ QUAN, TỔ CHỨC                             Độc lập - Tự do - Hạnh phúc
+              _____________                                 ________________________
+                  Số: …                                   …., ngày …. tháng …. năm ….
+                                 Kính gửi: Bộ Thông tin và Truyền thông.
+        I. THÔNG TIN VỀ GIẤY CHỨNG NHẬN/GIẤY PHÉP
+        Giấy phép kinh doanh dịch vụ tin cậy/Giấy chứng nhận chữ ký điện tử chuyên dùng bảo đảm an toàn
+số ... do...cấp ngày...tháng...năm ...
+        II. BÁO CÁO TÌNH HÌNH THỰC HIỆN GIẤY CHỨNG NHẬN/GIẤY PHÉP
+        Đối với Giấy chứng nhận chữ ký điện tử chuyên dùng bảo đảm an toàn
+        1. Phạm vi đã cung cấp chữ ký điện tử chuyên dùng bảo đảm an toàn
+        2. Thống kê số lượng chữ ký điện tử chuyên dùng bảo đảm an toàn được tạo lập
+        3. Công nghệ, tiêu chuẩn, quy chuẩn về chữ ký điện tử chuyên dùng bảo đảm an toàn
+        4. Nhân lực
+        Tình trạng nhân lực, năng lực, kinh nghiệm kỹ thuật của nhân sự trong cơ quan, tổ chức.
+        Đối với Giấy phép kinh doanh dịch vụ tin cậy
+        1. Loại dịch vụ cung cấp, phạm vi đã cung cấp dịch vụ
+        2. Thống kê số người sử dụng dịch vụ, thị phần, doanh thu
+        3. Hợp đồng sử dụng dịch vụ
+        4. Giá cước
+        5. Công nghệ, tiêu chuẩn, quy chuẩn, chất lượng dịch vụ
+        6. Báo cáo tài chính
+        Báo cáo tài chính đã được kiểm toán tại năm gần thời điểm thực hiện Báo cáo này nhất.
+        7. Nhân lực
+        Tình trạng nhân lực, năng lực, kinh nghiệm kỹ thuật của nhân sự trong doanh nghiệp.
+        Trân trọng.
+ Nơi nhận:                                                  NGƯỜI ĐẠI DIỆN THEO PHÁP LUẬT CỦA
+ - Như trên;                                                  DOANH NGHIỆP/CƠ QUAN, TỔ CHỨC
+ - …                                                     (Ký, ghi rõ họ tên, chức danh và đóng dấu)
+        Đầu mối liên hệ về tài liệu (họ tên, chức vụ, điện thoại, địa chỉ thư điện tử):

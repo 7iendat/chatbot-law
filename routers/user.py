@@ -1,13 +1,12 @@
 from fastapi import APIRouter, Depends, HTTPException, Query,status, Response, Request
-from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
 from services.auth_service import (
-    verify_token, logout_user, register_user
+    verify_token, register_user
 )
 from datetime import datetime , timezone
-from services.user_service import get_paginated_users,get_current_user_profile, delete_user,change_password,reset_password_request,reset_password, generate_and_store_verification_code, authenticate_user, verify_login_code,refresh_access_token,verify_forgot_password_code
-from dependencies import bearer_scheme, get_current_user, admin_required, get_app_state
-from schemas.user import LoginRequest, LoginResponse, RegisterRequest, RegisterResponse, UserOut,PaginatedResponse,ProfileResponse,ChangePasswordRequest,PasswordResetRequest,PasswordReset,VerifyLoginRequest,RefreshTokenRequest,VerifyForgotPassRequest, ResentVerifyCode,TokenValidationResponse,TokenValidationRequest
-from typing import Dict, List
+from services.user_service import get_paginated_users, delete_user,change_password,reset_password_request,reset_password, generate_and_store_verification_code, authenticate_user, verify_login_code,refresh_access_token,verify_forgot_password_code
+from dependencies import bearer_scheme, get_current_user, admin_required
+from schemas.user import LoginRequest, LoginResponse, RegisterRequest, RegisterResponse, UserOut,PaginatedResponse,ProfileResponse,ChangePasswordRequest,PasswordResetRequest,PasswordReset,VerifyLoginRequest,VerifyForgotPassRequest, ResentVerifyCode,TokenValidationResponse,TokenValidationRequest
+
 
 router = APIRouter()
 

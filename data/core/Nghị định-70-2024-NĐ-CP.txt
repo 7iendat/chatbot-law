@@ -1,0 +1,1584 @@
+CHÍNH PHỦ                          CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+                          _______                      Độc lập – Tự do – Hạnh phúc
+                                                         _______________________
+                     Số: 70/2024/NĐ-CP               Hà Nội, ngày 25 tháng 6 năm 2024
+                                                 NGHỊ ĐỊNH
+                     Quy định chi tiết một số điều và biện pháp thi hành Luật Căn cước
+                                                  _______
+       Căn cứ Luật Tổ chức Chính phủ ngày 19 tháng 6 năm 2015; Luật sửa đổi, bổ sung một số
+điều của Luật Tổ chức Chính phủ và Luật Tổ chức chính quyền địa phương ngày 22 tháng 11 năm
+2019;
+       Căn cứ Luật Căn cước ngày 27 tháng 11 năm 2023;
+       Theo đề nghị của Bộ trưởng Bộ Công an;
+       Chính phủ ban hành Nghị định quy định chi tiết một số điều và biện pháp thi hành Luật Căn
+cước.
+                                                  Chương I
+                                            NHỮNG QUY ĐỊNH CHUNG
+       Điều 1. Phạm vi điều chỉnh
+       Nghị định này quy định chi tiết khoản 26 Điều 9, khoản 11 Điều 10, khoản 4 Điều 12, khoản 2
+Điều 16, khoản 5 Điều 16, khoản 6 Điều 22, khoản 5 Điều 23, khoản 5 Điều 25, khoản 6 Điều 29,
+khoản 6 Điều 30 của Luật Căn cước và việc quản lý, vận hành hệ thống cơ sở hạ tầng thông tin Cơ
+sở dữ liệu quốc gia về dân cư, xác lập, hủy, xác lập lại số định danh cá nhân, xác nhận thông tin số
+chứng minh nhân dân 09 số, số định danh cá nhân.
+       Điều 2. Đối tượng áp dụng
+               Nghị định này áp dụng đối với công dân Việt Nam; người gốc Việt Nam chưa xác định được
+quốc tịch đang sinh sống tại Việt Nam (sau đây gọi là người gốc Việt Nam chưa xác định được quốc
+tịch); cơ quan, tổ chức, cá nhân có liên quan.
+                                                 Chương II
+                             THU THẬP, CẬP NHẬT, ĐIỀU CHỈNH, QUẢN LÝ, KẾT NỐI,
+                                  CHIA SẺ, KHAI THÁC THÔNG TIN TRONG CƠ SỞ
+                                         DỮ LIỆU QUỐC GIA VỀ DÂN CƯ
+       Điều 3. Thông tin khác trong Cơ sở dữ liệu quốc gia về dân cư
+       1. Ngoài những thông tin quy định từ khoản 1 đến khoản 25 Điều 9 Luật Căn cước, những
+thông tin khác liên quan đến công dân Việt Nam và người gốc Việt Nam chưa xác định được quốc
+tịch quy định tại Phụ lục ban hành kèm theo Nghị định này nếu có trong cơ sở dữ liệu quốc gia, cơ sở
+dữ liệu chuyên ngành, cơ sở dữ liệu khác do cơ quan, tổ chức quản lý, chia sẻ cho Cơ sở dữ liệu
+quốc gia về dân cư để phục vụ việc khai thác, sử dụng chung trong hoạt động của các cơ quan nhà
+nước và phát triển kinh tế - xã hội, xây dựng Chính phủ số, xã hội số, công dân số.
+               2. Giao Bộ Công an chủ trì, phối hợp với các bộ, cơ quan ngang bộ, cơ quan thuộc Chính
+phủ, Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương và cơ quan, tổ chức khác có liên quan
+để xác định, thống nhất các thông tin quy định tại khoản 1 Điều này được chia sẻ, thu thập, cập nhật,
+lưu trữ vào Cơ sở dữ liệu quốc gia về dân cư và việc tổ chức triển khai thực hiện cụ thể, bảo đảm
+hiệu quả, an ninh, an toàn thông tin.
+       3. Cơ quan quản lý cơ sở dữ liệu quốc gia, cơ sở dữ liệu chuyên ngành cung cấp 03 thông
+tin cơ bản của công dân Việt Nam, người gốc Việt Nam chưa xác định được quốc tịch gồm họ, chữ
+đệm và tên khai sinh, ngày, tháng, năm sinh, số định danh cá nhân để thực hiện việc kết nối, chia sẻ,
+đồng bộ thông tin với Cơ sở dữ liệu quốc gia về dân cư.
+       Điều 4. Quản lý, vận hành hệ thống cơ sở hạ tầng thông tin Cơ sở dữ liệu quốc gia về
+dân cư
+          Luatvietnam                                                     LuatVietnam.vn
+Tiện ích văn bản luật
+
+       1. Quản lý, vận hành hệ thống cơ sở hạ tầng thông tin Cơ sở dữ liệu quốc gia về dân cư bao
+gồm các hoạt động:
+       a) Bố trí mặt bằng, công trình, lắp đặt, trang bị máy móc, thiết bị;
+       b) Thiết lập hệ thống thông tin và hạ tầng kết nối dữ liệu;
+       c) Xây dựng kiến trúc dữ liệu;
+       d) Thu thập, chuẩn hóa, nhập dữ liệu;
+            đ) Lưu trữ, sao lưu dự phòng, đồng bộ hệ thống, phục hồi dữ liệu; bảo mật, bảo đảm an ninh,
+an toàn thông tin, bảo vệ dữ liệu cá nhân;
+       e) Đào tạo, huấn luyện, bồi dưỡng, tổ chức bộ máy cán bộ quản lý, vận hành cơ sở dữ liệu;
+       g) Vận hành, hiệu chỉnh, nâng cấp, bảo trì hệ thống;
+       h) Các hoạt động khác theo quy định của pháp luật.
+             2. Cơ sở dữ liệu quốc gia về dân cư được triển khai đến Công an tỉnh, thành phố trực thuộc
+trung ương (sau đây gọi là Công an cấp tỉnh), Công an quận, huyện, thị xã, thành phố thuộc tỉnh,
+thành phố thuộc thành phố trực thuộc trung ương (sau đấy gọi là Công an cấp huyện), Công an xã,
+phường, thị trấn (sau đây gọi là Công an cấp xã) và cơ quan, tổ chức khác.
+                 3. Cơ sở dữ liệu quốc gia về dân cư phải được sao lưu thường xuyên tại cơ quan quản lý
+căn cước của Bộ Công an và lưu trữ dự phòng, bảo mật; việc sao lưu phải được bảo vệ an toàn, định
+kỳ kiểm tra và phục hồi thử để sẵn sàng sử dụng. Cơ sở dữ liệu quốc gia về dân cư được phục hồi
+khi dữ liệu bị phá hủy, tấn công mạng, truy nhập trái phép.
+         Các thiết bị lưu trữ dữ liệu về dân cư bị lỗi, hư hỏng khi giao cho tổ chức, cá nhân bảo hành,
+sửa chữa phải có cán bộ chuyên môn giám sát và được sự đồng ý của Thủ trưởng cơ quan quản lý
+căn cước của Bộ Công an, khi thay thế thiết bị lưu trữ phải giữ lại thiết bị cũ để quản lý.
+                    Điều 5. Thu thập, cập nhật thông tin của công dân vào Cơ sở dữ liệu quốc gia về dân
+cư
+               1. Cơ quan đăng ký hộ tịch, cơ quan quản lý Cơ sở dữ liệu hộ tịch điện tử có trách nhiệm
+cung cấp, chia sẻ thông tin đăng ký hộ tịch của công dân cho cơ quan quản lý căn cước khi có phát
+sinh một hoặc một số thông tin công dân quy định tại Điều 9 Luật Căn cước.
+             2. Cơ quan, tổ chức quản lý dữ liệu về người sử dụng dịch vụ viễn thông có trách nhiệm kết
+nối, chia sẻ toàn bộ thông tin về số thuê bao di động đang sử dụng của công dân Việt Nam cho cơ
+quan quản lý căn cước của Bộ Công an để cập nhật vào Cơ sở dữ liệu quốc gia về dân cư.
+             3. Bộ Công an có trách nhiệm tổ chức thu thập, cập nhật thông tin về công dân vào Cơ sở dữ
+liệu quốc gia về dân cư từ Cơ sở dữ liệu về cư trú, Cơ sở dữ liệu căn cước, Cơ sở dữ liệu hộ tịch và
+cơ sở dữ liệu quốc gia khác, cơ sở dữ liệu chuyên ngành khác, cơ sở dữ liệu khác.
+              4. Công an cấp tỉnh nơi công dân cư trú có trách nhiệm xử lý, chuẩn hóa dữ liệu sẵn có về
+dân cư tại địa phương để cập nhật vào Cơ sở dữ liệu quốc gia về dân cư; thu thập, cập nhật thông
+tin về công dân cư trú tại địa phương từ tàng thư vào Cơ sở dữ liệu quốc gia về dân cư; từ việc giải
+quyết cấp, cấp đổi, cấp lại thẻ căn cước; phối hợp với cơ quan có thẩm quyền thu thập, cập nhật
+thông tin của công dân từ Cơ sở dữ liệu hộ tịch điện tử hoặc giấy tờ, sổ sách quản lý hộ tịch.
+                5. Công an cấp huyện nơi công dân cư trú có trách nhiệm thu thập, cập nhật thông tin về
+công dân cư trú tại địa phương vào Cơ sở dữ liệu quốc gia về dân cư từ sổ sách quản lý về cư trú;
+tàng thư; từ việc giải quyết cấp, cấp đổi cấp lại thẻ căn cước; từ thực hiện thủ tục đăng ký, thay đổi,
+điều chỉnh thông tin cư trú của công dân trong trường hợp không có đơn vị hành chính cấp xã; phối
+hợp với cơ quan có thẩm quyền thu thập, cập nhật thông tin của công dân từ Cơ sở dữ liệu hộ tịch
+điện tử hoặc giấy tờ, sổ sách quản lý hộ tịch.
+              6. Công an cấp xã nơi công dân cư trú có trách nhiệm thu thập, cập nhập thông tin về công
+dân cư trú trên địa bàn quản lý vào Cơ sở dữ liệu quốc gia về dân cư từ việc giải quyết thủ tục đăng
+ký, khai báo, điều chỉnh thông tin cư trú của công dân; sổ sách quản lý về cư trú; phối hợp với cơ
+quan có thẩm quyền thu thập, cập nhật thông tin của công dân từ Cơ sở dữ liệu hộ tịch điện tử hoặc
+giấy tờ, sổ sách quản lý hộ tịch. Trường hợp thông tin, giấy tờ, tài liệu nêu trên về công dân chưa có
+hoặc chưa đầy đủ thì được thu thập, cập nhật từ công dân thông qua Phiếu thu thập thông tin dân
+cư, Phiếu đề nghị giải quyết thủ tục về căn cước.
+
+            7. Công dân, cơ quan, tổ chức khác có trách nhiệm, nghĩa vụ về thu thập, cập nhật, cung cấp
+thông tin về công dân theo quy định tại Điều 4, khoản 2 Điều 10 Luật Căn cước.
+             8. Việc thu thập, cập nhật thông tin vào Cơ sở dữ liệu quốc gia về dân cư phải bảo đảm các
+yêu cầu sau:
+              a) Thông tin chỉ được thu thập, cập nhật vào Cơ sở dữ liệu quốc gia về dân cư khi đã kiểm
+tra, bảo đảm tính xác thực, hợp pháp và chính xác;
+                  b) Trường hợp thông tin được thu thập từ nhiều nguồn khác nhau mà không thống nhất về
+nội dung thông tin thì khi thu thập thông tin, cơ quan có thẩm quyền quy định tại khoản 3, khoản 4,
+khoản 5 và khoản 6 Điều này có trách nhiệm phối hợp với cơ quan đăng ký hộ tịch, cơ quan có liên
+quan hoặc cá nhân để kiểm tra tính pháp lý của các thông tin đó và chịu trách nhiệm về nội dung
+thông tin;
+             c) Các thông tin đã được thu thập, cập nhật vào Cơ sở dữ liệu quốc gia về dân cư phải được
+lưu trữ đầy đủ, thể hiện được nội dung, lý do, cơ quan hoặc cá nhân thực hiện các lần cập nhật, thay
+đổi, điều chỉnh.
+       Điều 6. Điều chỉnh thông tin của công dân trong Cơ sở dữ liệu quốc gia về dân cư
+            1. Điều chỉnh thông tin trong Cơ sở dữ liệu quốc gia về dân cư là việc điều chỉnh thông tin
+của công dân khi có sự thay đổi hoặc sai sót trong quá trình thu thập, cập nhật, quản lý thông tin
+thông qua việc kết nối, chia sẻ, đồng bộ dữ liệu giữa Cơ sở dữ liệu quốc gia về dân cư với các cơ sở
+dữ liệu khác hoặc theo đề nghị của công dân.
+       2. Cơ quan quản lý căn cước của Bộ Công an có trách nhiệm phối hợp với cơ quan có liên
+quan kiểm tra, xác thực và bảo đảm đồng bộ dữ liệu tự động, chính xác trong Cơ sở dữ liệu quốc gia
+về dân cư với cơ sở dữ liệu khác.
+          3. Trình tự, thủ tục điều chỉnh thông tin trong Cơ sở dữ liệu quốc gia về dân cư theo đề nghị
+của công dân:
+               a) Công dân đề nghị điều chỉnh thông tin trong Cơ sở dữ liệu quốc gia về dân cư qua Cổng
+dịch vụ công quốc gia, Cổng dịch vụ công Bộ Công an hoặc qua ứng dụng định danh quốc gia hoặc
+trực tiếp tại cơ quan Công an nơi gần nhất;
+       b) Hồ sơ đề nghị gồm: Phiếu đề nghị giải quyết thủ tục về căn cước;
+                c) Trường hợp cơ quan Công an nơi tiếp nhận hồ sơ không phải là Công an cấp xã, Công an
+cấp huyện (nơi không có đơn vị hành chính cấp xã) mà công dân cư trú thì cơ quan Công an nơi tiếp
+nhận phải chuyển ngay hồ sơ đề nghị điều chỉnh thông tin tới Công an cấp xã, Công an cấp huyện
+(nơi không có đơn vị hành chính cấp xã) nơi công dân thường trú hoặc nơi tạm trú đối với trường
+hợp công dân không có nơi thường trú hoặc nơi ở hiện tại đối với trường hợp công dân không có nơi
+thường trú, nơi tạm trú để giải quyết và thông báo kết quả cho công dân;
+            d) Trong thời hạn 02 ngày làm việc, kể từ ngày nhận được hồ sơ đề nghị điều chỉnh thông tin
+của công dân, Trưởng Công an cấp xã, Công an cấp huyện (nơi không có đơn vị hành chính cấp xã)
+nơi công dân cư trú có trách nhiệm kiểm tra tính pháp lý, tính chính xác của các thông tin trước khi
+điều chỉnh trong Cơ sở dữ liệu quốc gia về dân cư; trường hợp từ chối điều chỉnh thông tin thì phải
+trả lời, nêu rõ lý do.
+       Điều 7. Kết nối, chia sẻ thông tin với Cơ sở dữ liệu quốc gia về dân cư
+       1. Cơ sở dữ liệu quốc gia khác, cơ sở dữ liệu chuyên ngành, Trung tâm dữ liệu quốc gia,
+cổng dịch vụ công, hệ thống thông tin giải quyết thủ tục hành chính, nền tảng tích hợp, chia sẻ dữ liệu
+cấp bộ, cấp tỉnh và hệ thống thông tin khác của cơ quan nhà nước, cơ sở dữ liệu khác kết nối với Cơ
+sở dữ liệu quốc gia về dân cư thông qua mạng viễn thông, mạng Internet, mạng máy tính, hệ thống
+thông tin theo quy định pháp luật về quản lý, kết nối và chia sẻ dữ liệu số của cơ quan nhà nước.
+         2. Để bảo đảm bảo mật, an ninh, an toàn thông tin, bảo vệ dữ liệu cá nhân khi kết nối, chia sẻ
+thông tin với Cơ sở dữ liệu quốc gia về dân cư, hệ thống thông tin của cơ quan nhà nước phải bảo
+đảm các yêu cầu sau:
+       a) Đáp ứng tiêu chuẩn, quy chuẩn kỹ thuật công nghệ thông tin trong kết nối chia sẻ với Cơ
+sở dữ liệu quốc gia về dân cư;
+              b) Bảo đảm an toàn thông tin tối thiểu cấp độ 3 theo quy định của pháp luật về bảo đảm an
+
+toàn hệ thống thông tin theo cấp độ khi kết nối chính thức.
+          3. Việc kết nối, chia sẻ thông tin theo quy định tại khoản 1 Điều này được thực hiện trên cơ
+sở thống nhất bằng văn bản giữa Bộ Công an và cơ quan, tổ chức chủ quản cơ sở dữ liệu, hệ thống
+thông tin.
+                 4. Cơ quan quản lý căn cước của Bộ Công an có trách nhiệm thông báo bằng văn bản việc
+từ chối hoặc tạm ngừng kết nối, chia sẻ thông tin trong Cơ sở dữ liệu quốc gia về dân cư trong các
+trường hợp sau:
+           a) Hệ thống thông tin của cơ quan, tổ chức đề nghị kết nối không bảo đảm điều kiện quy định
+tại khoản 2 Điều này;
+            b) Cơ quan, tổ chức được kết nối có hoạt động truy nhập trái phép, làm thay đổi, xóa, hủy,
+phát tán thông tin trong Cơ sở dữ liệu quốc gia về dân cư;
+             c) Cơ quan, tổ chức được kết nối vi phạm quy định về bảo vệ dữ liệu cá nhân hoặc nội dung
+đã thống nhất với Bộ Công an quy định tại khoản 3 Điều này.
+                   Điều 8. Đối tượng, phương thức khai thác thông tin của công dân trong Cơ sở dữ liệu
+quốc gia về dân cư
+       1. Cơ quan nhà nước, tổ chức chính trị, tổ chức chính trị - xã hội khai thác thông tin trong Cơ
+sở dữ liệu quốc gia về dân cư để phục vụ công tác quản lý nhà nước theo chức năng, nhiệm vụ,
+quyền hạn được giao thông qua phương thức khai thác thông tin quy định tại khoản 5 Điều 10 Luật
+Căn cước.
+            Các hệ thống thông tin cung cấp thông tin về công dân cần khai thác gồm họ, chữ đệm và tên
+khai sinh, ngày, tháng, năm sinh, số định danh cá nhân và Cơ sở dữ liệu quốc gia về dân cư cung
+cấp thông tin phù hợp chức năng nhiệm vụ của cơ quan, tổ chức thực hiện việc khai thác.
+            2. Tổ chức tín dụng, tổ chức cung ứng dịch vụ trung gian thanh toán, tổ chức cung cấp dịch
+vụ viễn thông, di động, tổ chức cung cấp dịch vụ xác thực điện tử, tổ chức cung cấp dịch vụ tin cậy,
+tổ chức hành nghề công chứng, thừa phát lại và tổ chức khác được giao thực hiện dịch vụ công khai
+thác thông tin về công dân trong Cơ sở dữ liệu quốc gia về dân cư thông qua phương thức khai thác
+thông tin quy định tại các điểm b, c, d, đ và e khoản 5 Điều 10 Luật Căn cước.
+            3. Thông qua phương thức khai thác thông tin quy định tại các điểm b, c, d khoản 5 Điều 10
+Luật Căn cước và thông qua hệ thống thông tin giải quyết thủ tục hành chính cấp bộ, cấp tỉnh, công
+dân thực hiện khai thác thông tin của mình trong Cơ sở dữ liệu quốc gia về dân cư để thực hiện thủ
+tục hành chính và phục vụ các hoạt động khác theo nhu cầu của mình. Công dân cung cấp thông tin
+gồm số định danh cá nhân, họ, chữ đệm và tên khai sinh, ngày, tháng, năm sinh và được Cơ sở dữ
+liệu quốc gia về dân cư cung cấp các thông tin cần thiết theo yêu cầu.
+             4. Tổ chức, cá nhân không thuộc quy định tại khoản 1, khoản 2, khoản 3 Điều này khai thác
+thông tin trong Cơ sở dữ liệu quốc gia về dân cư thông qua phương thức khai thác thông tin quy định
+tại các điểm c, d, đ khoản 5 Điều 10 Luật Căn cước.
+              5. Tổ chức, cá nhân quy định khoản 2, khoản 4 Điều này được khai thác thông tin trong Cơ
+sở dữ liệu quốc gia về dân cư khi được cơ quan quản lý căn cước và cá nhân là chủ thể thông tin
+đồng ý.
+              6. Trường hợp người đại diện hợp pháp của người bị mất năng lực hành vi dân sự, người có
+khó khăn trong nhận thức, làm chủ hành vi, người dưới 14 tuổi, người bị tuyên bố mất tích hoặc
+người thừa kế của người đã chết khai thác thông tin trong Cơ sở dữ liệu quốc gia về dân cư thì phải
+có Văn bản yêu cầu cung cấp thông tin và cung cấp giấy tờ, tài liệu chứng minh là người đại diện hợp
+pháp, người thừa kế của công dân, trừ trường hợp thông tin chứng minh về người đại diện, người
+thừa kế đã có trên Cơ sở dữ liệu quốc gia về dân cư hoặc cơ sở dữ liệu quốc gia, cơ sở dữ liệu
+chuyên ngành khác.
+        Điều 9. Thẩm quyền cho phép khai thác, cung cấp thông tin của công dân trong Cơ sở
+dữ liệu quốc gia về dân cư
+                  1. Thủ trưởng cơ quan quản lý căn cước của Bộ Công an có thẩm quyền cho phép cơ quan
+nhà nước, tổ chức chính trị, tổ chức chính trị - xã hội; tổ chức tín dụng; tổ chức cung ứng dịch vụ
+trung gian thanh toán; tổ chức cung cấp dịch vụ viễn thông, di động; tổ chức cung cấp dịch vụ xác
+thực điện tử; tổ chức cung cấp dịch vụ tin cậy khai thác thông tin trong Cơ sở dữ liệu quốc gia về dân
+
+cư trên phạm vi toàn quốc theo phương thức quy định tại khoản 5 Điều 10 Luật Căn cước.
+          2. Giám đốc Công an cấp tỉnh có thẩm quyền khai thác thông tin trong Cơ sở dữ liệu quốc gia
+về dân cư để cung cấp cho cơ quan nhà nước, tổ chức chính trị, tổ chức chính trị - xã hội ở cấp tỉnh;
+tổ chức hành nghề công chứng, thừa phát lại và tổ chức khác được giao thực hiện các dịch vụ công
+trên địa bàn quản lý khi có yêu cầu khai thác, cung cấp thông tin bằng văn bản.
+       3. Trưởng Công an cấp huyện có thẩm quyền khai thác thông tin trong Cơ sở dữ liệu quốc
+gia về dân cư để cung cấp cho cơ quan nhà nước, tổ chức chính trị, tổ chức chính trị - xã hội ở cấp
+huyện, cấp xã và tổ chức khác có trụ sở chính trên địa bàn quản lý quy định tại khoản 4 Điều 8 Nghị
+định này khi có yêu cầu khai thác, cung cấp thông tin bằng văn bản.
+           4. Trưởng Công an cấp xã có thẩm quyền khai thác thông tin trong Cơ sở dữ liệu quốc gia về
+dân cư để cung cấp cho cá nhân cư trú trên địa bàn quản lý quy định tại khoản 3, khoản 4 Điều 8
+Nghị định này khi có yêu cầu khai thác, cung cấp thông tin bằng văn bản.
+           5. Người có thẩm quyền quy định tại khoản 1, khoản 2, khoản 3, khoản 4 Điều này quyết định
+cho phép khai thác, cung cấp thông tin trong Cơ sở dữ liệu quốc gia về dân cư cho tổ chức, cá nhân
+quy định tại khoản 8 Điều 10 Luật Căn cước khi được cá nhân là chủ thể của thông tin được khai
+thác đồng ý.
+                Điều 10. Thủ tục khai thác thông tin của công dân trong Cơ sở dữ liệu quốc gia về dân
+cư
+       1. Khai thác qua kết nối, chia sẻ trực tiếp thông tin với Cơ sở dữ liệu quốc gia về dân cư
+                a) Cơ quan quản lý căn cước của Bộ Công an cấp tài khoản cho cơ quan, tổ chức để truy
+cập, khai thác thông tin trong Cơ sở dữ liệu quốc gia về dân cư;
+              b) Cơ quan, tổ chức được cơ quan quản lý căn cước của Bộ Công an cấp tài khoản có trách
+nhiệm tạo lập, quản lý tài khoản riêng trên hệ thống thông tin của mình đã kết nối với Cơ sở dữ liệu
+quốc gia về dân cư và phân quyền sử dụng tài khoản đã tạo lập cho cá nhân thuộc quyền quản lý
+theo chức năng, nhiệm vụ được giao;
+                c) Cá nhân được phân quyền sử dụng tài khoản riêng thuộc cơ quan, tổ chức sử dụng tài
+khoản riêng đó để tra cứu, khai thác thông tin về công dân trong Cơ sở dữ liệu quốc gia về dân cư
+thông qua hệ thống thông tin của cơ quan, tổ chức. Người tra cứu phải nhập đủ các thông tin gồm:
+Họ, chữ đệm và tên khai sinh; ngày, tháng, năm sinh; số định danh cá nhân và lựa chọn các thông tin
+khác cần khai thác trong Cơ sở dữ liệu quốc gia về dân cư;
+         d) Hệ thống thông tin của cơ quan, tổ chức gửi yêu cầu khai thác thông tin tới Cơ sở dữ liệu
+quốc gia về dân cư qua tài khoản đã được cơ quan quản lý căn cước của Bộ Công an cấp. Kết quả
+khai thác được thể hiện dưới dạng văn bản giấy hoặc văn bản điện tử và được lưu trữ tại hệ thống
+thông tin được kết nối, chia sẻ, khai thác thông tin.
+           đ) Cơ quan quản lý căn cước của Bộ Công an có trách nhiệm kiểm tra, xác thực thông tin tài
+khoản và trả kết quả khai thác theo yêu cầu, phù hợp với quyền hạn, phạm vi thông tin được khai
+thác của tài khoản.
+       2. Khai thác qua Cổng dịch vụ công quốc gia, Cổng dịch vụ công Bộ Công an
+          a) Cơ quan, tổ chức quy định tại khoản 1 Điều 8 Nghị định này thực hiện khai thác thông tin
+trong Cơ sở dữ liệu quốc gia về dân cư qua Cơ sở dữ liệu quốc gia về dân cư, Cổng dịch vụ công
+quốc gia, Cổng dịch vụ công Bộ Công an theo hướng dẫn về kết nối, tích hợp, chia sẻ dữ liệu của Bộ
+Công an;
+           b) Tổ chức, cá nhân quy định tại khoản 2, khoản 3 Điều 8 Nghị định này thực hiện khai thác
+thông tin trong Cơ sở dữ liệu quốc gia về dân cư qua Cổng dịch vụ công quốc gia, Cổng dịch vụ công
+Bộ Công an theo hướng dẫn trên Cổng dịch vụ công;
+           c) Trong thời hạn 03 ngày làm việc, kể từ ngày nhận được đề nghị khai thác thông tin trong
+Cơ sở dữ liệu quốc gia về dân cư của cơ quan, tổ chức, cá nhân, người có thẩm quyền quy định tại
+Điều 9 Nghị định này xem xét, quyết định cho phép khai thác thông tin trong Cơ sở dữ liệu quốc gia
+về dân cư đối với cơ quan, tổ chức, cá nhân quy định tại Điều 8 Nghị định này. Trường hợp đồng ý
+cho phép khai thác thì thực hiện cung cấp thông tin cho cơ quan, tổ chức, cá nhân. Trường hợp
+không đồng ý cho phép khai thác thông tin thì phải có văn bản trả lời và nêu rõ lý do;
+               Chủ thể thông tin xác nhận nội dung đồng ý hoặc không đồng ý cho phép tổ chức, cá nhân
+
+không thuộc khoản 1 Điều 8 Nghị định này khai thác thông tin trong Cơ sở dữ liệu quốc gia về dân cư
+thông qua ứng dụng định danh quốc gia hoặc các dịch vụ công trực tuyến khác.
+        3. Khai thác thông qua ứng dụng định danh quốc gia
+        a) Công dân đã được cấp căn cước điện tử đăng nhập vào ứng dụng định danh quốc gia để
+khai thác thông tin của mình trong Cơ sở dữ liệu quốc gia về dân cư theo hướng dẫn trên ứng dụng
+định danh quốc gia;
+        b) Tổ chức, cá nhân không thuộc điểm a khoản này đăng nhập vào Ứng dụng định danh
+quốc gia để khai thác thông tin của cá nhân trong Cơ sở dữ liệu quốc gia về dân cư theo hướng dẫn
+trên ứng dụng định danh quốc gia; việc khai thác thông tin phải được sự đồng ý của chủ thể thông tin
+cần khai thác thông qua ứng dụng định danh quốc gia.
+        4. Khai thác qua nền tảng định danh và xác thực điện tử
+        a) Cơ quan, tổ chức quy định tại khoản 1 Điều 8 Nghị định này thông qua kết nối trực tiếp với
+nền tảng định danh và xác thực điện tử để khai thác thông tin trong Cơ sở dữ liệu quốc gia về dân cư
+theo văn bản thống nhất với Bộ Công an;
+        b) Tổ chức, cá nhân quy định tại khoản 2, khoản 4 Điều 8 Nghị định này kết nối với nền tảng
+định danh và xác thực điện tử thông qua hệ thống thông tin của tổ chức cung cấp dịch vụ xác thực
+điện tử để khai thác thông tin trong Cơ sở dữ liệu quốc gia về dân cư. Việc thực hiện khai thác thông
+tin được thực hiện theo văn bản thỏa thuận với tổ chức cung cấp dịch vụ xác thực điện tử và tuân thủ
+quy định tại khoản 5 Điều 8 Nghị định này.
+        5. Khai thác bằng văn bản yêu cầu khai thác, cung cấp thông tin
+        a) Cơ quan, tổ chức, cá nhân có văn bản yêu cầu khai thác, cung cấp thông tin trong Cơ sở
+dữ liệu quốc gia về dân cư gửi người có thẩm quyền quy định tại Điều 9 Nghị định này;
+        b) Văn bản yêu cầu khai thác, cung cấp thông tin phải nêu rõ mục đích, nội dung, phạm vi
+thông tin cần khai thác trong Cơ sở dữ liệu quốc gia về dân cư và cam đoan về việc chịu trách nhiệm
+trong sử dụng thông tin khi được khai thác và đồng ý của chủ thế thông tin cần khai thác;
+        c) Trong thời hạn 03 ngày làm việc, kể từ ngày nhận được văn bản yêu cầu khai thác thông
+tin trong Cơ sở dữ liệu quốc gia về dân cư của cơ quan, tổ chức, cá nhân thì người có thẩm quyền
+quy định tại Điều 9 Nghị định này xem xét, quyết định cho phép khai thác thông tin trong Cơ sở dữ
+liệu quốc gia về dân cư;
+        d) Trường hợp đồng ý cho phép khai thác thông tin thì có văn bản trả lời và cung cấp thông
+tin cho cơ quan, tổ chức, cá nhân. Trường hợp không đồng ý cho phép khai thác thông tin thì phải có
+văn bản trả lời và nêu rõ lý do.
+        Điều 11. Xác lập, hủy, xác lập lại số định danh cá nhân đối với công dân Việt Nam
+        1. Mỗi công dân Việt Nam khi được thu thập thông tin vào Cơ sở dữ liệu quốc gia về dân cư
+được cơ quan quản lý căn cước của Bộ Công an xác lập 01 số định danh cá nhân duy nhất, không
+trùng lặp với người khác.
+        2. Xác lập số định danh cá nhân đối với công dân đăng ký khai sinh
+        Cơ quan quản lý, đăng ký hộ tịch, cơ quan quản lý Cơ sở dữ liệu hộ tịch điện tử có trách
+nhiệm chuyển các thông tin của người được đăng ký khai sinh cho Cơ sở dữ liệu quốc gia về dân cư
+thông qua kết nối, chia sẻ, đồng bộ dữ liệu; trong đó phải thu thập các thông tin sau đây để xác lập số
+định danh cá nhân:
+        a) Họ, chữ đệm và tên khai sinh;
+        b) Ngày, tháng, năm sinh;
+        c) Giới tính;
+        d) Nơi đăng ký khai sinh;
+        đ) Nơi sinh;
+        e) Quê quán;
+        g) Dân tộc;
+
+       h) Quốc tịch;
+               i) Họ, chữ đệm và tên, quốc tịch của cha, mẹ hoặc người đại diện hợp pháp (nếu có); trừ
+trường hợp chưa xác định được cha, mẹ hoặc người đại diện hợp pháp.
+           3. Hệ thống Cơ sở dữ liệu quốc gia về dân cư tiếp nhận thông tin đăng ký khai sinh từ Cơ sở
+dữ liệu hộ tịch điện tử, tự động kiểm tra và xác lập số định danh cá nhân và chuyển ngay số định
+danh cá nhân cho cơ quan quản lý, đăng ký hộ tịch. Trường hợp xảy ra sai sót thông tin do Cơ sở dữ
+liệu hộ tịch điện tử cung cấp, việc điều chỉnh thông tin được thực hiện theo khoản 2 Điều 6 Nghị định
+này.
+       4. Xác lập số định danh cá nhân đối với công dân đã đăng ký khai sinh
+                 a) Công dân đã đăng ký khai sinh nhưng chưa được cấp số định danh cá nhân thì Công an
+cấp xã nơi công dân cư trú có trách nhiệm thu thập, cập nhật thông tin về công dân theo quy định tại
+khoản 6 Điều 5 Nghị định này. Thủ trưởng cơ quan quản lý căn cước của Bộ Công an thực hiện xác
+lập số định danh cá nhân cho công dân theo thông tin được thu thập, cập nhật trong Cơ sở dữ liệu
+quốc gia về dân cư;
+                 b) Đối với trường hợp công dân đã đăng ký khai sinh hiện đang định cư ở nước ngoài và
+chưa được xác lập số định danh cá nhân thì cơ quan quản lý căn cước của Bộ Công an phối hợp với
+Bộ Ngoại giao và cơ quan có liên quan thực hiện việc thu thập, cập nhật thông tin vào Cơ sở dữ liệu
+quốc gia về dân cư và xác lập số định danh cá nhân cho công dân;
+               Việc thu thập thông tin của công dân Việt Nam đang định cư ở nước ngoài do cơ quan quản
+lý căn cước thực hiện bằng Phiếu thu thập thông tin dân cư thông qua cơ quan đại diện Việt Nam ở
+nước ngoài; cơ quan đại diện Việt Nam ở nước ngoài gửi Phiếu thu thập thông tin dân cư của công
+dân có yêu cầu thu thập, cập nhật thông tin cho cơ quan quản lý căn cước của Bộ Công an để cập
+nhật thông tin vào Cơ sở dữ liệu quốc gia về dân cư;
+              c) Ngay sau khi xác lập được số định danh cá nhân cho công dân, cơ quan quản lý căn cước
+có văn bản thông báo cho công dân về số định danh cá nhân đã được xác lập và các thông tin của
+công dân hiện có trong Cơ sở dữ liệu quốc gia về dân cư thông qua cơ quan đại diện Việt Nam ở
+nước ngoài.
+                   5. Trường hợp người nước ngoài được nhập quốc tịch Việt Nam thì Bộ Tư pháp có trách
+nhiệm chuyển thông tin về việc nhập quốc tịch Việt Nam, thông tin của người đó quy định tại khoản 2
+Điều này cho cơ quan quản lý căn cước của Bộ Công an để thu thập, cập nhật thông tin vào Cơ sở
+dữ liệu quốc gia về dân cư và xác lập số định danh cá nhân cho công dân.
+             6. Trường hợp người bị tước quốc tịch Việt Nam, cho thôi quốc tịch Việt Nam, hủy bỏ quyết
+định cho nhập quốc tịch Việt Nam mà được cơ quan có      thẩm quyền cho trở lại quốc tịch Việt Nam thì
+cơ quan quản lý căn cước có trách nhiệm xác lập, cấp lại số định danh cá nhân đã cấp.
+       7. Các trường hợp hủy, xác lập lại số định danh cá nhân
+        a) Được xác định lại giới tính, cải chính hộ tịch do có sai sót về năm sinh theo quy định pháp
+luật về đăng ký hộ tịch và pháp luật khác có liên quan;
+       b) Có sai sót về thông tin nơi đăng ký khai sinh, năm sinh, giới tính của công dân khi thu thập
+vào Cơ sở dữ liệu quốc gia về dân cư;
+       c) Cơ quan quản lý căn cước phát hiện, xử lý đối với hành vi sử dụng giấy tờ, tài liệu, dữ liệu
+giả, cung cấp thông tin, tài liệu giả để được thu thập, cập nhật thông tin dân cư, cấp chứng minh
+nhân dân, thẻ căn cước công dân, thẻ căn cước;
+       d) Cơ quan đăng ký hộ tịch thu hồi, hủy bỏ giấy khai sinh cấp trái quy định của pháp luật.
+          8. Việc huỷ, xác lập lại số định danh cá nhân đối với trường hợp quy định tại điểm a, điểm b
+khoản 7 Điều này được thực hiện theo nhu cầu của công dân. Trường hợp công dân không có nhu
+cầu huỷ, xác lập lại số định danh cá nhân thì tiếp tục sử dụng số định danh cá nhân đang sử dụng.
+                 9. Cơ quan quản lý căn cước có trách nhiệm phối hợp với cơ quan, tổ chức có liên quan
+kiểm tra, xác minh và hủy, xác lập lại số định danh cá nhân đối với các trường hợp quy định tại điểm
+c, điểm d khoản 7 Điều này.
+           Trường hợp công dân yêu cầu hủy, xác lập lại số định danh cá nhân theo quy định tại điểm a,
+điểm b khoản 7 Điều này thì kê khai và nộp Phiếu đề nghị giải quyết thủ tục về căn cước qua Cổng
+
+dịch vụ công quốc gia, Cổng dịch vụ công Bộ Công an, Ứng dụng định danh quốc gia hoặc trực tiếp
+tại Công an cấp xã nơi cư trú.
+         10. Trong thời hạn 10 ngày kể từ ngày nhận được hồ sơ đề nghị hủy, xác lập lại số định danh
+cá nhân của công dân quy định tại khoản 8 Điều này, Công an cấp xã nơi tiếp nhận hồ sơ có trách
+nhiệm kiểm tra, xác minh tính chính xác của hồ sơ và gửi đề nghị hủy, xác lập lại số định danh của
+công dân tới cơ quan quản lý căn cước của Bộ Công an thông qua hệ thống Cơ sở dữ liệu quốc gia
+về dân cư.
+           11. Trong thời hạn 05 ngày làm việc kể từ ngày nhận được đề nghị hủy, xác lập lại số định
+danh cá nhân của Công an cấp xã, cơ quan quản lý căn cước, Thủ trưởng cơ quan quản lý căn cước
+của Bộ Công an quyết định việc hủy, xác lập lại số định danh cá nhân. Sau khi đã hủy, xác lập lại số
+định danh cá nhân của công dân trong Cơ sở dữ liệu quốc gia về dân cư, Công an cấp xã có trách
+nhiệm thông báo bằng văn bản cho công dân. Số định danh cá nhân đã bị hủy được lưu vào thông tin
+của công dân trong Cơ sở dữ liệu quốc gia về dân cư và không được sử dụng để cấp cho người
+khác.
+        Điều 12. Xác nhận thông tin số chứng minh nhân dân 09 số, số định danh cá nhân
+            1. Thông tin số chứng minh nhân dân 09 số, số định danh cá nhân đã hủy được mã hóa, tích
+hợp trong mã QR trên thẻ căn cước. Cơ quan, tổ chức, cá nhân quét mã QR trên thẻ căn cước và sử
+dụng thông tin số chứng minh nhân dân 09 số, số định danh cá nhân đã hủy truy xuất được qua mã
+QR để phục vụ giải quyết thủ tục hành chính, dịch vụ công, các giao dịch và hoạt động khác; không
+được yêu cầu công dân phải cung cấp xác nhận số chứng minh nhân dân 09 số, số định danh cá
+nhân đã hủy.
+              2. Trường hợp thông tin số chứng minh nhân dân 09 số, số định danh cá nhân đã hủy được
+cập nhật vào Cơ sở dữ liệu quốc gia về dân cư, cơ quan quản lý căn cước hoặc Công an cấp xã có
+trách nhiệm xác nhận thông tin số chứng minh nhân dân 09 số, số định danh cá nhân đã hủy khi công
+dân yêu cầu.
+               3. Công dân nộp hồ sơ đề nghị cấp xác nhận số chứng minh nhân dân 09 số, số định danh
+cá nhân qua Cổng dịch vụ công quốc gia, Cổng dịch vụ công Bộ Công an hoặc ứng dụng định danh
+quốc gia hoặc trực tiếp tại cơ quan quản lý căn cước hoặc Công an cấp xã gồm:
+        a) Phiếu đề nghị giải quyết thủ tục về căn cước;
+        b) Giấy chứng minh nhân dân 09 số (nếu có).
+               4. Trong thời hạn 03 ngày làm việc kể từ ngày nhận đủ hồ sơ, cơ quan quản lý căn cước
+hoặc Công an cấp xã nơi tiếp nhận đề nghị có trách nhiệm xác nhận thông tin về số định danh cá
+nhân đã hủy; số chứng minh nhân dân 09 số đối với trường hợp thông tin số chứng minh nhân dân
+09 số đã được cập nhật vào Cơ sở dữ liệu quốc gia về dân cư.
+                5. Trường hợp thông tin số chứng minh nhân dân 09 số chưa được cập nhật vào Cơ sở dữ
+liệu quốc gia về dân cư thì trong thời hạn 07 ngày làm việc kể từ ngày nhận đủ hồ sơ, cơ quan quản
+lý căn cước hoặc Công an cấp xã nơi tiếp nhận đề nghị có trách nhiệm kiểm tra, xác minh và xác
+nhận thông tin về số chứng minh nhân dân 09 số.
+          6. Kết quả giải quyết thủ tục cấp giấy xác nhận thông tin số chứng minh nhân dân 09 số, số
+định danh cá nhân được cơ quan quản lý căn cước hoặc Công an cấp xã trả cho công dân bằng văn
+bản giấy hoặc văn bản điện tử theo nhu cầu của công dân.
+        7. Trường hợp từ chối cấp xác nhận thì trả lời công dân bằng văn bản và nêu rõ lý do.
+                                          Chương III
+                      THU THẬP, CẬP NHẬT, ĐIỀU CHỈNH, KẾT NỐI, CHIA SẺ,
+                       KHAI THÁC THÔNG TIN TRONG CƠ SỞ DỮ LIỆU CĂN CƯỚC
+        Điều 13. Thu thập, cập nhật thông tin trong Cơ sở dữ liệu căn cước
+             1. Thông tin quy định từ khoản 1 đến khoản 12, khoản 15 đến khoản 18, khoản 24 và khoản
+25 Điều 9 Luật Căn cước được thu thập, cập nhật từ Cơ sở dữ liệu quốc gia về dân cư. Thông tin
+quy định tại khoản 13, khoản 14 Điều 9 Luật Căn cước được thu thập, cập nhật từ tàng thư, công tác
+giải quyết thủ tục về căn cước.
+              2. Thông tin về nhận dạng, thông tin sinh trắc học về vân tay, ảnh khuôn mặt, mống mắt
+
+được thu thập, cập nhật khi thực hiện thủ tục cấp, cấp đổi, cấp lại thẻ căn cước cho công dân.
+       3. Công dân đề nghị thu thập, cập nhật thông tin sinh trắc học về ADN, giọng nói trực tiếp tại
+cơ quan quản lý căn cước hoặc qua ứng dụng định danh quốc gia.
+           4. Thông tin sinh trắc học về ADN, giọng nói được thu thập vào Cơ sở dữ liệu căn cước phải
+đáp ứng điều kiện sau:
+              a) Cơ quan, tổ chức xét nghiệm, phân tích, tạo lập dữ liệu phải đáp ứng tiêu chuẩn, quy
+chuẩn kỹ thuật do Bộ Công an hướng dẫn;
+       b) Thông tin tạo lập phải bảo đảm giá trị pháp lý của thông điệp dữ liệu; bảo đảm xác định
+duy nhất công dân đó trong Cơ sở dữ liệu căn cước.
+             5. Cơ quan quản lý căn cước của Bộ Công an chủ trì, phối hợp với cơ quan quản lý y tế và
+các cơ quan có liên quan thực hiện công bố công khai danh sách cơ quan, tổ chức đáp ứng điều kiện
+quy định tại khoản 4 Điều này và thực hiện tiếp nhận thông tin sinh trắc học về ADN, giọng nói theo
+quy định tại khoản 6, khoản 7 Điều này thông qua nền tảng định danh và xác thực điện tử hoặc qua
+thiết bị chuyên dụng để chuyển dữ liệu tiếp nhận về Cơ sở dữ liệu căn cước.
+          6. Trình tự, thủ tục thu thập, cập nhật thông tin sinh trắc học về ADN vào Cơ sở dữ liệu về
+căn cước thực hiện như sau:
+            a) Công dân nộp hồ sơ đề nghị thu thập, cập nhật thông tin sinh trắc học về ADN vào Cơ sở
+dữ liệu căn cước đến cơ quan quản lý căn cước;
+     b) Hồ sơ đề nghị gồm: Phiếu đề nghị giải quyết thủ tục về căn cước; giấy tờ, tài liệu có giá trị
+pháp lý xác thực kết quả xét nghiệm, phân tích, lưu trữ thông tin sinh trắc học về ADN của cơ quan,
+tổ chức quy định tại khoản 5 Điều này (nếu có);
+             c) Trường hợp thông tin sinh trắc học về ADN của công dân đã có trong hệ thống thông tin
+của cơ quan, tổ chức quy định tại khoản 5 Điều này thì trong thời hạn 07 ngày làm việc kể từ ngày
+tiếp nhận đề nghị của công dân, cơ quan quản lý căn cước có trách nhiệm phối hợp kiểm tra, đối
+sánh và xác thực đảm bảo tính chính xác của thông tin trước khi thu thập, cập nhật vào Cơ sở dữ
+liệu căn cước;
+           d) Trường hợp thông tin sinh trắc học về ADN của công dân chưa có trong hệ thống thông tin
+của cơ quan, tổ chức quy định tại khoản 5 Điều này thì cơ quan quản lý căn cước thông báo cho
+công dân bằng văn bản, nêu rõ lý do và hướng dẫn công dân thực hiện thu thập, cập nhật thông tin
+sinh trắc học về ADN vào hệ thống thông tin của cơ quan, tổ chức tại khoản 5 Điều này.
+       7. Trình tự, thủ tục thu thập, cập nhật thông tin sinh trắc học về giọng nói vào Cơ sở dữ liệu
+về căn cước thực hiện như sau:
+         b) Công dân nộp hồ sơ đề nghị thu thập, cập nhật thông tin sinh trắc học về giọng nói vào Cơ
+sở dữ liệu căn cước đến cơ quan quản lý căn cước;
+     b) Hồ sơ đề nghị gồm: Phiếu đề nghị giải quyết thủ tục về căn cước; giấy tờ, tài liệu có giá trị
+pháp lý xác thực kết quả thu nhận, phân tích, lưu trữ giọng nói của cơ quan, tổ chức quy định tại
+khoản 5 Điều này (nếu có); văn bản cam kết bảo đảm sức khỏe bình thường không ảnh hưởng đến
+giọng nói đối với trường hợp quy định tại điểm d khoản này;
+           c) Trường hợp thông tin sinh trắc học về giọng nói của công dân đã có trong hệ thống thông
+tin của cơ quan, tổ chức quy định tại khoản 5 Điều này thì trong thời hạn 07 ngày làm việc kể từ ngày
+tiếp nhận đề nghị của công dân, cơ quan quản lý căn cước có trách nhiệm phối hợp kiểm tra, đối
+sánh và xác thực đảm bảo tính chính xác của thông tin trước khi thu thập, cập nhật vào Cơ sở dữ
+liệu căn cước;
+               d) Trường hợp thông tin giọng nói của công dân chưa có trong hệ thống thông tin của cơ
+quan, tổ chức quy định tại khoản 5 Điều này thì cơ quan quản lý căn cước thực hiện trực tiếp thu
+thập thông tin sinh trắc học về giọng nói để cập nhật vào Cơ sở dữ liệu căn cước.
+        8. Thông tin về nghề nghiệp được thu thập, cập nhật thông qua việc kết nối, chia sẻ thông tin
+về cơ sở dữ liệu quốc gia, cơ sở dữ liệu chuyên ngành khác hoặc do công dân cung cấp trong quá
+trình thực hiện thủ tục cấp, cấp đổi, cấp lại thẻ căn cước.
+              9. Các thông tin về công dân chỉ được thu thập, cập nhật vào Cơ sở dữ liệu căn cước khi
+được kiểm tra thông tin đó là chính xác. Trường hợp công dân phát hiện thông tin trong Cơ sở dữ
+
+liệu căn cước là không chính xác thì có quyền yêu cầu cơ quan quản lý căn cước thực hiện điều
+chỉnh cho chính xác.
+        Điều 14. Điều chỉnh thông tin trong Cơ sở dữ liệu căn cước
+             1. Điều chỉnh thông tin trong Cơ sở dữ liệu căn cước là việc điều chỉnh thông tin của công
+dân, người gốc Việt Nam chưa xác định được quốc tịch khi có sự thay đổi hoặc sai sót trong quá
+trình thu thập, cập nhật, quản lý thông tin thông qua việc kết nối, chia sẻ, đồng bộ dữ liệu giữa Cơ sở
+dữ liệu căn cước với các cơ sở dữ liệu khác hoặc theo đề nghị của công dân hoặc người gốc Việt
+Nam chưa xác định được quốc tịch.
+                2. Cơ quan quản lý căn cước của Bộ Công an tự động kiểm tra, xác thực và thực hiện điều
+chỉnh, cập nhật thông tin của công dân trong Cơ sở dữ liệu căn cước khi có sự thay đổi và đồng bộ
+từ cơ sở dữ liệu quốc gia về dân cư, cơ sở dữ liệu chuyên ngành khác.
+        3. Trình tự, thủ tục điều chỉnh thông tin trong Cơ sở dữ liệu căn cước đề nghị của công dân:
+                 a) Công dân đề nghị điều chỉnh thông tin trong Cơ sở dữ liệu căn cước thuộc các trường
+thông tin quy định từ khoản 1 đến khoản 18, khoản 24 và khoản 25 Điều 9 của Luật Căn cước thì
+thực hiện theo trình tự, thủ tục quy định tại khoản 3 Điều 6 Nghị định này;
+            Thông tin được điều chỉnh trong Cơ sở dữ liệu quốc gia về dân cư sẽ được cập nhật, chia sẻ,
+đồng bộ với Cơ sở dữ liệu căn cước;
+                b) Công dân đề nghị điều chỉnh thông tin quy định tại khoản 2, khoản 3 Điều 15 Luật Căn
+cước thì phải thực hiện thủ tục cấp đổi thẻ căn cước. Trình tự, thủ tục cấp đổi thẻ căn cước quy định
+tại Điều 21 Nghị định này;
+              c) Công dân đề nghị điều chỉnh thông tin quy định tại khoản 4 Điều 15 Luật Căn cước trong
+quá trình thực hiện thủ tục cấp đổi, cấp lại thẻ căn cước. Người tiếp nhận tiến hành nhập thông tin
+công dân khai báo vào Phiếu thu nhận thông tin căn cước và đưa cho công dân kiểm tra, ký xác
+nhận.
+                 Trong thời hạn 02 ngày làm việc, kể từ ngày nhận được đề nghị điều chỉnh thông tin của
+công dân, cơ quan quản lý căn cước nơi tiếp nhận đề nghị có trách nhiệm điều chỉnh thông tin về
+công dân trong Cơ sở dữ liệu căn cước; trường hợp từ chối điều chỉnh thông tin thì phải trả lời bằng
+văn bản và nêu rõ lý do.
+                  Điều 15. Trách nhiệm thu thập, cập nhật, điều chỉnh thông tin về công dân trong Cơ sở
+dữ liệu căn cước
+            1. Cơ quan quản lý căn cước có trách nhiệm thu thập, cập nhật, điều chỉnh thông tin về công
+dân trong Cơ sở dữ liệu căn cước thông qua việc cấp, cấp đổi, cấp lại thẻ căn cước.
+           2. Khi thực hiện việc cấp, cấp đổi, cấp lại thẻ căn cước nếu công dân chưa có thông tin hoặc
+thông tin chưa chính xác thì cơ quan quản lý căn cước có trách nhiệm hướng dẫn công dân thực
+hiện thu thập, cập nhật, điều chỉnh thông tin trong Cơ sở dữ liệu quốc gia về dân cư theo quy định tại
+Điều 6 và Điều 7 Nghị định này trước khi thực hiện việc cấp, cấp đổi, cấp lại thẻ căn cước.
+              3. Cơ quan quản lý căn cước có trách nhiệm phối hợp với cơ quan, tổ chức, cá nhân có liên
+quan kiểm tra thông tin khi thu thập, cập nhật, điều chỉnh thông tin trong Cơ sở dữ liệu về căn cước
+bảo đảm tính chính xác, thống nhất.
+                   4. Cơ quan quản lý căn cước của Bộ Công an có trách nhiệm sao lưu thường xuyên Cơ sở
+dữ liệu căn cước; việc sao lưu phải được bảo vệ an toàn, định kỳ kiểm tra và phục hồi thử để sẵn
+sàng sử dụng. Cơ sở dữ liệu căn cước được phục hồi khi dữ liệu bị phá hủy, tấn công mạng, truy
+nhập trái phép.
+             Các thiết bị lưu trữ dữ liệu về căn cước bị lỗi, hư hỏng khi giao cho tổ chức, cá nhân bảo
+hành, sửa chữa phải có cán bộ chuyên môn giám sát và được sự đồng ý của Thủ trưởng cơ quan
+quản lý căn cước của Bộ Công an, khi thay thế thiết bị lưu trữ phải giữ lại thiết bị cũ để quản lý.
+        Điều 16. Kết nối, chia sẻ thông tin với Cơ sở dữ liệu căn cước
+             1. Cơ sở dữ liệu quốc gia, cơ sở dữ liệu chuyên ngành, hệ thống thông tin chuyên ngành của
+cơ quan nhà nước, tổ chức chính trị, tổ chức chính trị - xã hội được kết nối, chia sẻ thông tin với Cơ
+sở dữ liệu căn cước thông qua mạng viễn thông, mạng máy tính, mạng chuyên dùng để phục vụ
+công tác quản lý nhà nước theo chức năng, nhiệm vụ, quyền hạn được giao.
+
+                2. Cơ quan, tổ chức không thuộc quy định tại khoản 1 Điều này được kết nối với Cơ sở dữ
+liệu căn cước thông qua nền tảng định danh và xác thực điện tử để phục vụ hoạt động xác thực điện
+tử, phát triển kinh tế số, xã hội số, công dân số.
+             3. Việc kết nối, chia sẻ thông tin giữa Cơ sở dữ liệu căn cước với hệ thống thông tin khác
+được thực hiện trên cơ sở thống nhất bằng văn bản giữa Bộ Công an với cơ quan chủ quản hệ thống
+thông tin và để bảo đảm bảo mật, an ninh, an toàn thông tin, bảo vệ dữ liệu cá nhân khi kết nối, chia
+sẻ thông tin với Cơ sở dữ liệu căn cước, hệ thống thông tin của cơ quan nhà nước phải bảo đảm Các
+yêu cầu sau:
+            a) Đáp ứng tiêu chuẩn, quy chuẩn kỹ thuật công nghệ thông tin trong kết nối, chia sẻ với Cơ
+sở dữ liệu căn cước;
+              b) Bảo đảm an toàn thông tin tối thiểu cấp độ 3 theo quy định của pháp luật về bảo đảm an
+toàn hệ thống thông tin theo cấp độ khi kết nối chính thức.
+                  4. Cơ quan quản lý căn cước của Bộ Công an có trách nhiệm thông báo bằng văn bản việc
+từ chối hoặc tạm ngừng việc kết nối, chia sẻ thông tin với Cơ sở dữ liệu căn cước trong các trường
+hợp sau:
+                 a) Hệ thống thông tin của cơ quan đề nghị kết nối không bảo đảm điều kiện quy định tại
+khoản 3 Điều này;
+             b) Cơ quan được kết nối có hoạt động truy nhập trái phép, làm thay đổi, xóa, hủy, phát tán
+thông tin trong Cơ sở dữ liệu căn cước;
+              c) Cơ quan được kết nối vi phạm quy định về bảo vệ dữ liệu cá nhân hoặc nội dung đã thống
+nhất với Bộ Công an quy định tại khoản 3 Điều này.
+                   Điều 17. Đối tượng, phương thức khai thác thông tin của công dân trong Cơ sở dữ liệu
+căn cước
+       1. Các trường hợp được khai thác thông tin về công dân trong Cơ sở dữ liệu căn cước:
+                 a) Cơ quan quản lý cơ sở dữ liệu chuyên ngành, cơ quan nhà nước, tổ chức chính trị, tổ
+chức chính trị - xã hội để phục vụ công tác quản lý theo chức năng, nhiệm vụ, quyền hạn được giao;
+               b) Cơ quan điều tra, cơ quan, người có thẩm quyền tiến hành tố tụng để phục vụ hoạt động
+điều tra, truy tố, xét xử;
+                 c) Công an các đơn vị, địa phương để phục vụ yêu cầu phòng, chống tội phạm và các hoạt
+động nghiệp vụ khác của lực lượng Công an nhân dân;
+       d) Công dân được khai thác thông tin của mình trong Cơ sở dữ liệu căn cước;
+                đ) Tổ chức, cá nhân không thuộc quy định tại điểm a, điểm b, điểm c và điểm d khoản này
+được khai thác thông tin cá nhân trong Cơ sở dữ liệu căn cước để phục vụ hoạt động xác thực điện
+tử, phát triển kinh tế số, xã hội số, công dân số khi được công dân đó đồng ý.
+       2. Phương thức khai thác thông tin của công dân trong Cơ sở dữ liệu căn cước
+              a) Cơ quan, tổ chức quy định tại điểm a, điểm b và điểm c khoản 1 Điều này được khai thác
+thông tin trong Cơ sở dữ liệu căn cước thông qua việc kết nối, chia sẻ thông tin theo quy định tại Điều
+16 Nghị định này trên nền tảng định danh và xác thực điện tử, ứng dụng định danh quốc gia hoặc văn
+bản yêu cầu khai thác thông tin;
+              b) Cá nhân khai thác thông tin của mình trong Cơ sở dữ liệu căn cước bằng văn bản yêu cầu
+khai thác thông tin hoặc qua ứng dụng định danh quốc gia;
+            c) Tổ chức quy định tại điểm đ khoản 1 Điều này khai thác thông tin trong Cơ sở dữ liệu căn
+cước thông qua nền tảng định danh và xác thực điện tử hoặc văn bản yêu cầu khai thác thông tin;
+            d) Cá nhân quy định tại điểm đ khoản 1 Điều này khai thác thông tin trong Cơ sở dữ liệu căn
+cước bằng văn bản yêu cầu khai thác thông tin.
+       Điều 18. Thủ tục khai thác thông tin trong Cơ sở dữ liệu căn cước
+       1. Khai thác bằng văn bản yêu cầu cung cấp thông tin
+            a) Cơ quan, tổ chức, cá nhân có văn bản yêu cầu khai thác thông tin trong Cơ sở dữ liệu căn
+cước gửi cơ quan quản lý căn cước của Công an cấp huyện hoặc cấp tỉnh nơi công dân cư trú;
+
+         b) Văn bản yêu cầu cung cấp thông tin phải nêu rõ mục đích, nội dung, phạm vi thông tin cần
+ khai thác trong Cơ sở dữ liệu căn cước và cam đoan về việc chịu trách nhiệm trong sử dụng thông tin
+ khi được khai thác; đối với trường hợp khai thác thông tin theo quy định tại điểm đ khoản 1 Điều 17
+Nghị định này phải thể hiện rõ ý kiến đồng ý của chủ thể thông tin cần khai thác;
+             c) Trong thời hạn 01 ngày làm việc, cơ quan quản lý căn cước của Công an cấp huyện, cấp
+     tỉnh chuyển yêu cầu cung cấp thông tin trong Cơ sở dữ liệu căn cước đến thủ trưởng cơ quan quản
+lý căn cước của Bộ Công an;
+              d) Trong thời hạn 01 ngày làm việc, thủ trưởng cơ quan quản lý căn cước của Bộ Công an
+xem xét, phê duyệt đề nghị yêu cầu cho phép khai thác thông tin;
+            đ) Trong thời hạn 01 ngày làm việc kể từ ngày thủ trưởng cơ quan quản lý căn cước của Bộ
+      Công an phê duyệt, cơ quan quản lý căn cước của Công an cấp huyện, cấp tỉnh cung cấp thông tin
+trong Cơ sở dữ liệu căn cước cho cơ quan, tổ chức, cá nhân có yêu cầu;
+          e) Trường hợp không đồng ý cung cấp thông tin thì phải có văn bản trả lời và nêu rõ lý do.
+               2. Công dân đã được cấp căn cước điện tử đăng nhập vào ứng dụng định danh quốc gia để
+gửi yêu cầu khai thác thông tin của mình trong Cơ sở dữ liệu căn cước.
+            3. Việc khai thác thông tin trong Cơ sở dữ liệu căn cước thông qua nền tảng định danh và
+xác thực điện tử thực hiện theo quy định của pháp luật về định danh và xác thực điện tử.
+            4. Trường hợp người đại diện hợp pháp của người bị mất năng lực hành vi dân sự, người có
+      khó khăn trong nhận thức, làm chủ hành vi, người dưới 14 tuổi, người bị tuyên bố mất tích hoặc
+    người thừa kế của người đã chết khai thác thông tin trong Cơ sở dữ liệu căn cước thì phải có Văn
+ bản yêu cầu cung cấp thông tin và cung cấp giấy tờ, tài liệu chứng minh là người đại diện hợp pháp,
+    người thừa kế của công dân, trừ trường hợp thông tin chứng minh về người đại diện, người thừa kế
+       đã có trên Cơ sở dữ liệu quốc gia về dân cư hoặc cơ sở dữ liệu quốc gia, cơ sở dữ liệu chuyên
+ngành khác.
+                                           Chương IV
+                  TÍCH HỢP, CẬP NHẬT, ĐIỀU CHỈNH, SỬ DỤNG, KHAI THÁC
+                       THÔNG TIN TRÊN THẺ CĂN CƯỚC; CẤP, CẤP ĐỔI, CẤP LẠI
+                               THU HỒI, GIỮ, TRẢ LẠI THẺ CĂN CƯỚC
+                   Điều 19. Tích hợp thông tin vào thẻ căn cước và sử dụng, khai thác thông tin được
+tích hợp
+          1. Thông tin các loại giấy tờ được tích hợp vào thẻ căn cước thể hiện dưới dạng ký tự, bao
+gồm toàn bộ các thông tin có trên giấy tờ đã được xác thực với cơ sở dữ liệu quốc gia, cơ sở dữ liệu
+       chuyên ngành và cập nhật, đồng bộ vào Cơ sở dữ liệu quốc gia về dân cư để chuyển đến hệ thống
+sản xuất, cấp, quản lý căn cước thực hiện tích hợp thông tin vào thẻ căn cước.
+            2. Việc khai thác, sử dụng thông tin được tích hợp trong thẻ căn cước phải được công dân
+đồng ý qua việc xác thực thiết bị chuyên dụng.
+        Điều 20. Trình tự, thủ tục tích hợp, cập nhật, điều chỉnh thông tin trên thẻ căn cước
+            1. Công dân đề nghị tích hợp, cập nhật, điều chỉnh thông tin trên thẻ căn cước thông qua
+     Cổng dịch vụ công quốc gia, Cổng dịch vụ công Bộ Công an, ứng dụng định danh quốc gia hoặc trực
+tiếp đến cơ quan quản lý căn cước.
+       2. Trình tự, thủ tục tích hợp thông tin trên thẻ căn cước khi thực hiện thủ tục cấp, cấp đổi,
+cấp lại thẻ căn cước cho công dân tại cơ quan quản lý căn cước
+          a) Trong quá trình thực hiện thủ tục cấp, cấp đổi, cấp lại thẻ căn cước, công dân cung cấp
+thông tin cần tích hợp vào thẻ căn cước thông qua Phiếu đề nghị giải quyết thủ tục về căn cước;
+                 b) Cơ quan quản lý căn cước nơi tiếp nhận hồ sơ chuyển yêu cầu tích hợp đến cơ quan
+quản lý căn cước của Bộ Công an kèm theo hồ sơ đề nghị cấp, cấp đổi, cấp lại thẻ căn cước;
+          c) Cơ quản lý căn cước của Bộ Công an thực hiện kiểm tra, đối chiếu, xác thực thông tin đề
+  nghị tích hợp thông qua Cơ sở dữ liệu căn cước, cơ sở dữ liệu quốc gia, cơ sở dữ liệu chuyên ngành
+và thực hiện tích hợp đối với các thông tin xác thực thành công;
+
+            d) Cơ quan quản lý căn cước nơi tiếp nhận hồ sơ thông báo kết quả tích hợp thông tin khi trả
+thẻ căn cước cho công dân.
+            3. Trình tự, thủ tục tích hợp, cập nhật, điều chỉnh thông tin trên thẻ căn cước đã cấp thông
+qua Cổng dịch vụ công quốc gia, Cổng dịch vụ công Bộ Công an, Ứng dụng định danh quốc gia
+             a) Công dân lựa chọn thông tin cần tích hợp, cập nhật, điều chỉnh đã có trong Cơ sở dữ liệu
+quốc gia về dân cư, Cơ sở dữ liệu căn cước; đăng ký thời gian và cơ quan quản lý căn cước thực
+hiện tích hợp;
+                  b) Công dân trực tiếp đến cơ quan quản lý căn cước để đề nghị tích hợp, cập nhật, điều
+chỉnh thông tin vào thẻ căn cước đã có theo quy định tại khoản 4 Điều này.
+           4. Trình tự, thủ tục tích hợp, cập nhật, điều chỉnh thông tin trên thẻ căn cước đã cấp tại cơ
+quan quản lý căn cước
+                a) Cơ quan quản lý căn cước nơi tiếp nhận hồ sơ đề nghị công dân xuất trình thẻ căn cước
+đã được cấp để thực hiện việc xác thực danh tính; lựa chọn thông tin cần tích hợp, cập nhật, điều
+chỉnh đã có trong Cơ sở dữ liệu quốc gia về dân cư, Cơ sở dữ liệu căn cước để thực hiện việc tích
+hợp, cập nhật, điều chỉnh thông tin vào thẻ căn cước;
+              b) Trường hợp thông tin đề nghị tích hợp, cập nhật, điều chỉnh chưa có trong Cơ sở dữ liệu
+quốc gia về dân cư, Cơ sở dữ liệu căn cước thì cơ quan quản lý căn cước nơi tiếp nhận hồ sơ thực
+hiện tiếp nhận và chuyển yêu cầu tích hợp, cập nhật, điều chỉnh thông tin tới cơ quan quản lý căn
+cước của Bộ Công an để xác thực thông tin đề nghị tích hợp thông qua cơ sở dữ liệu quốc gia, cơ sở
+dữ liệu chuyên ngành. Sau khi xác thực thành công thì thực hiện tích hợp, cập nhật, điều chỉnh thông
+tin vào thẻ căn cước.
+           5. Trình tự, thủ tục tích hợp thông tin vào thẻ căn cước đối với trường hợp người dưới 6 tuổi
+đề nghị cấp, cấp đổi, cấp lại thẻ căn cước, công dân đề nghị cấp lại thẻ căn cước khi bị mất thẻ căn
+cước hoặc thẻ căn cước bị hư hỏng không sử dụng được thông qua Cổng dịch vụ công quốc gia,
+Cổng dịch vụ công Bộ Công an, ứng dụng định danh quốc gia thực hiện như sau:
+              a) Công dân hoặc người đại diện hợp pháp của người dưới 6 tuổi lựa chọn thông tin cần tích
+hợp gửi kèm hồ sơ đề nghị cấp, cấp đổi, cấp lại thẻ căn cước;
+              b) Cơ quản lý căn cước của Bộ Công an thực hiện kiểm tra, đối chiếu, xác thực thông tin đề
+nghị tích hợp thông qua Cơ sở dữ liệu căn cước, cơ sở dữ liệu quốc gia, cơ sở dữ liệu chuyên ngành
+và thực hiện tích hợp đối với các thông tin xác thực thành công;
+        c) Cơ quan quản lý căn cước của Bộ Công an thông báo kết quả tích hợp thông tin khi trả thẻ
+căn cước cho công dân;
+              d) Công dân hoặc người đại diện hợp pháp của người dưới 6 tuổi thực hiện thanh toán lệ phí
+tích hợp, cập nhật, điều chỉnh thông tin trên thẻ căn cước và phí dịch vụ chuyển phát theo quy định
+của pháp luật về phí và lệ phí.
+                6. Thủ trưởng cơ quan quản lý căn cước của Bộ Công an có thẩm quyền quyết định việc tích
+hợp, cập nhật, điều chỉnh thông tin trên thẻ căn cước.
+        Điều 21. Trình tự, thủ tục cấp, cấp đổi, cấp lại thẻ căn cước
+        1. Trình tự, thủ tục cấp, cấp đổi, cấp lại thẻ căn cước tại cơ quan quản lý căn cước
+                 a) Công dân đến cơ quan quản lý căn cước quy định tại khoản 1, khoản 2 Điều 27 Luật Căn
+cước đề nghị cấp, cấp đổi, cấp lại thẻ căn cước, cung cấp thông tin gồm họ, chữ đệm và tên khai
+sinh, số định danh cá nhân, nơi cư trú để người tiếp nhận kiểm tra đối chiếu thông tin trong Cơ sở dữ
+liệu quốc gia về dân cư;
+              Trường hợp người đề nghị cấp, cấp đổi, cấp lại thẻ căn cước là người đại diện hợp pháp của
+người dưới 14 tuổi thì hồ sơ đề nghị cấp, cấp đổi, cấp lại thẻ căn cước phải có giấy tờ, tài liệu có giá
+trị pháp lý chứng minh là người đại diện hợp pháp của người dưới 14 tuổi;
+                b) Trường hợp thông tin của công dân trong Cơ sở dữ liệu quốc gia về dân cư chưa có hoặc
+có sai sót thì người tiếp nhận thực hiện việc điều chỉnh thông tin theo quy định tại Điều 6 Nghị định
+này trước khi đề nghị cấp, cấp đổi, cấp lại thẻ căn cước;
+               c) Trường hợp thông tin của công dân chính xác, người tiếp nhận đề nghị cấp, cấp đổi, cấp
+lại thẻ căn cước trích xuất thông tin về công dân trong cơ sở dữ liệu quốc gia về dân cư, sau khi xác
+
+định thông tin người đề nghị cấp, cấp đổi, cấp lại thẻ căn cước là chính xác thì thực hiện trình tự thủ
+tục cấp thẻ căn cước theo quy định tại Điều 23 Luật Căn cước.
+          2. Trình tự, thủ tục cấp, cấp đổi, cấp lại thẻ căn cước thông qua Cổng dịch vụ công quốc gia,
+Cổng dịch vụ công Bộ Công an, ứng dụng định danh quốc gia
+           a) Công dân lựa chọn thủ tục, kiểm tra thông tin của mình được khai thác trong Cơ sở dữ liệu
+quốc gia về dân cư. Trường hợp thông tin chính xác thì đăng ký thời gian và cơ quan quản lý căn
+cước để thực hiện thủ tục, hệ thống sẽ xác nhận và tự động chuyển đề nghị của công dân đến cơ
+quan quản lý căn cước nơi công dân đề nghị cấp, cấp đổi, cấp lại thẻ căn cước;
+                 Công dân đến cơ quan quản lý căn cước theo thời gian, địa điểm đã đăng ký để thực hiện
+thủ tục cấp, cấp đổi, cấp lại thẻ căn cước theo trình tự, thủ tục quy định tại khoản 1 Điều này;
+                  b) Trường hợp bị mất thẻ căn cước hoặc thẻ căn cước bị hư hỏng không sử dụng được thì
+lựa chọn thủ tục cấp lại, kiểm tra thông tin của mình được khai thác trong Cơ sở dữ liệu quốc gia về
+dân cư. Trường hợp thông tin chính xác thì xác nhận chuyển hồ sơ đề nghị cấp lại thẻ căn cước đến
+cơ quan quản lý căn cước xem xét, giải quyết việc cấp lại thẻ căn cước theo quy định tại khoản 4
+Điều 25 Luật Căn cước;
+             c) Trường hợp người đại diện hợp pháp thực hiện thủ tục cấp, cấp đổi, cấp lại thẻ căn cước
+cho người dưới 06 tuổi thì lựa chọn thủ tục, kiểm tra thông tin của người dưới 06 tuổi trong Cơ sở dữ
+liệu quốc gia về dân cư. Trường hợp thông tin chính xác thì người đại diện hợp pháp xác nhận
+chuyển hồ sơ đề nghị đến cơ quan quản lý căn cước xem xét, giải quyết việc cấp, cấp đổi, cấp lại thẻ
+căn cước.
+                3. Trường hợp cấp đổi thẻ căn cước công dân sang thẻ căn cước hoặc cấp đổi thẻ căn cước
+thì người tiếp nhận có trách nhiệm thu lại Chứng minh nhân dân, thẻ Căn cước công dân, thẻ căn
+cước đang sử dụng.
+               4. Trường hợp công dân không đến nơi làm thủ tục cấp, cấp đổi, cấp lại thẻ căn cước theo
+thời gian, địa điểm đã đăng ký hẹn làm việc với cơ quan quản lý căn cước để thực hiện thủ tục cấp,
+cấp đổi, cấp lại thẻ căn cước thì hệ thống tiếp nhận yêu cầu của công dân sẽ tự động hủy lịch hẹn
+công dân đã đăng ký khi hết ngày làm việc. Nếu công dân tiếp tục có nhu cầu cấp, cấp đổi, cấp lại thẻ
+căn cước thì đăng ký hẹn lại.
+              5. Cơ quan quản lý căn cước tổ chức lưu động việc tiếp nhận yêu cầu cấp, cấp đổi, cấp lại
+thẻ căn cước cho công dân Việt Nam ở trong nước và công dân Việt Nam ở nước ngoài trong điều
+kiện, khả năng của mình; bảo đảm phù hợp với quy định của Luật Căn cước, điều ước quốc tế và
+thỏa thuận quốc tế mà Việt Nam là thành viên.
+        Điều 22. Trình tự, thủ tục thu hồi thẻ căn cước
+            1. Trình tự, thủ tục thu hồi thẻ căn cước đối với Công dân bị tước quốc tịch Việt Nam, được
+thôi quốc tịch Việt Nam, bị hủy bỏ quyết định cho nhập quốc tịch Việt Nam.
+              a) Cơ quan tiếp nhận, trả kết quả khi thực hiện thủ tục tước quốc tịch Việt Nam, cho thôi
+quốc tịch Việt Nam hoặc hủy bỏ quyết định cho nhập quốc tịch Việt Nam tiến hành lập biên bản về
+việc thu hồi thẻ căn cước đối với người bị tước quốc tịch Việt Nam, cho thôi quốc tịch Việt Nam hoặc
+hủy bỏ quyết định cho nhập quốc tịch Việt Nam;
+              b) Trong thời hạn 10 ngày kể từ ngày có quyết định tước quốc tịch Việt Nam, cho thôi quốc
+tịch Việt Nam hoặc hủy bỏ quyết định cho nhập quốc tịch Việt Nam, Bộ Tư pháp gửi văn bản thông
+báo kèm thẻ căn cước đã bị thu hồi đến cơ quan quản lý căn cước của Bộ Công an.
+        Trường hợp cơ quan tiếp nhận, trả kết quả khi thực hiện thủ tục tước quốc tịch Việt Nam, cho
+thôi quốc tịch Việt Nam hoặc hủy bỏ quyết định cho nhập quốc tịch Việt Nam không thu hồi được thẻ
+căn cước của người bị tước quốc tịch Việt Nam, cho thôi quốc tịch Việt Nam hoặc hủy bỏ quyết định
+cho nhập quốc tịch Việt Nam thì nêu rõ trong văn bản thông báo gửi cơ quan quản lý căn cước của
+Bộ Công an để cơ quan quản lý căn cước của Bộ Công an tiến hành xác minh, thu hồi thẻ căn cước
+theo quy định;
+                    c) Trong thời hạn 03 ngày làm việc kể từ ngày nhận được văn bản thông báo của Bộ Tư
+pháp, cơ quan quản lý căn cước của Bộ Công an có trách nhiệm hủy giá trị sử dụng của thẻ căn
+cước và cập nhật thông tin người có quyết định tước quốc tịch Việt Nam, cho thôi quốc tịch Việt Nam
+hoặc hủy bỏ quyết định cho nhập quốc tịch Việt Nam vào Cơ sở dữ liệu quốc gia về dân cư, Cơ sở
+dữ liệu căn cước;
+
+            d) Trường hợp cơ quan quản lý căn cước phát hiện người thuộc trường hợp phải thu hồi thẻ
+căn cước theo quy định tại điểm a khoản 1 Điều 29 Luật Căn cước thì phải hủy giá trị sử dụng của
+thẻ căn cước của người đó và cập nhật thông tin vào Cơ sở dữ liệu quốc gia về dân cư, Cơ sở dữ
+liệu căn cước; tiến hành lập biên bản thu hồi thẻ căn cước nếu người đó còn thẻ căn cước và nộp lại
+cho cơ quan quản lý căn cước đã lập biên bản thu hồi thẻ căn cước.
+         2. Trình tự, thủ tục thu hồi đối với thẻ căn cước cấp sai quy định hoặc thẻ căn cước đã tẩy
+xóa, sửa chữa.
+           a) Khi có căn cứ xác định thẻ căn cước cấp sai quy định hoặc thẻ căn cước đã tẩy xóa, sửa
+chữa, cơ quan, tổ chức, cá nhân có trách nhiệm thông báo cho cơ quan quản lý căn cước kiểm tra,
+xác minh và yêu cầu người đang sử dụng thẻ căn cước nộp lại thẻ căn cước;
+        b) Trong thời hạn 07 ngày làm việc, cơ quan quản lý căn cước có trách nhiệm kiểm tra, xác
+minh và thực hiện thu hồi thẻ căn cước cấp sai quy định hoặc thẻ căn cước đã tẩy xóa, sửa chữa và
+thông báo cho cơ quan quản lý căn cước của Bộ Công an.
+             3. Cơ quan quản lý căn cước của Bộ Công an có trách nhiệm cập nhật trạng thái, khóa căn
+cước điện tử đối với trường hợp thẻ căn cước đã được thu hồi.
+              4. Trường hợp không thu hồi được thẻ căn cước, cơ quan quản lý căn cước của Bộ Công an
+vẫn thực hiện việc cập nhật theo quy định tại điểm c khoản 1 và khoản 3 Điều này.
+        Điều 23. Giữ thẻ căn cước và trình tự, thủ tục giữ, trả lại thẻ căn cước
+                1. Người đang chấp hành biện pháp tư pháp giáo dục tại trường giáo dưỡng; người đang
+chấp hành quyết định áp dụng biện pháp xử lý hành chính đưa vào trường giáo dưỡng, cơ sở giáo
+dục bắt buộc, cơ sở cai nghiện bắt buộc; người đang bị tạm giữ, tạm giam, chấp hành án phạt tù phải
+xuất trình và giao nộp thẻ căn cước cho cơ quan thi hành quyết định tạm giữ, tạm giam; cơ quan thi
+hành án phạt tù; cơ quan thi hành biện pháp tư pháp giáo dục tại trường giáo dưỡng; cơ quan thi
+hành quyết định áp dụng biện pháp xử lý hành chính đưa vào trường giáo dưỡng, cơ sở giáo dục bắt
+buộc, cơ sở cai nghiện bắt buộc để quản lý; trừ trường hợp người đó không có thẻ căn cước.
+             2. Người được giao nhiệm vụ quản lý thẻ căn cước bị giữ có trách nhiệm bảo quản thẻ căn
+cước trong thời gian giữ thẻ.
+        3. Trình tự, thủ tục giữ, trả lại thẻ căn cước
+            a) Cơ quan có thẩm quyền giữ thẻ căn cước khi giữ, trả lại thẻ căn cước phải lập sổ sách
+theo dõi về việc giữ, trả lại thẻ căn cước và có chữ ký xác nhận của người giữ và người bị giữ thẻ;
+            b) Cơ quan có thẩm quyền giữ thẻ căn cước có trách nhiệm thông báo việc giữ, trả lại thẻ
+căn cước cho cơ quan quản lý căn cước của Bộ Công an để thực hiện việc khóa, mở khóa căn cước
+điện tử theo quy định.
+                                            Chương V
+                        THU CẬP, CẬP NHẬT, KHAI THÁC, SỬ DỤNG THÔNG TIN
+                        NGƯỜI GỐC VIỆT NAM CHƯA XÁC ĐỊNH ĐƯỢC QUỐC TỊCH;
+                          CẤP, CẤP ĐỔI, CẤP LẠI, THU HỒI, GIỮ, TRẢ LẠI
+                                    GIẤY CHỨNG NHẬN CĂN CƯỚC
+              Điều 24. Trình tự, thủ tục thu thập, cập nhật, điều chỉnh thông tin của người gốc Việt
+Nam chưa xác định được quốc tịch vào Cơ sở dữ liệu quốc gia về dân cư, Cơ sở dữ liệu căn
+cước và cấp giấy chứng nhận căn cước
+                 1. Người gốc Việt Nam chưa xác định được quốc tịch đến cơ quan quản lý căn cước của
+Công an cấp huyện nơi người đó sinh sống để đề nghị thu thập, cập nhật thông tin vào Cơ sở dữ liệu
+quốc gia về dân cư, Cơ sở dữ liệu căn cước.
+             2. Người gốc Việt Nam chưa xác định được quốc tịch tiến hành kê khai thông tin theo mẫu
+Phiếu thu thập thông tin dân cư và cung cấp các giấy tờ, tài liệu khác liên quan đến bản thân và gia
+đình (nếu có) gồm:
+          a) Giấy tờ, tài liệu do cơ quan của Việt Nam cấp có chứa thông tin về họ tên, ngày, tháng,
+năm sinh;
+           b) Giấy tờ, tài liệu chứng minh về mối quan hệ huyết thống với người có quốc tịch hoặc đã
+
+từng có quốc tịch Việt Nam;
+               Trường hợp giấy tờ tài liệu do cơ quan có thẩm quyền nước ngoài cấp thì phải được hợp
+pháp hóa lãnh sự, trừ trường hợp được miễn hợp pháp hóa lãnh sự và công chứng các bản dịch, các
+tài liệu, giấy tờ từ tiếng nước ngoài sang tiếng Việt.
+             3. Cơ quan quản lý căn cước của Công an cấp huyện tiếp nhận thông tin kê khai của người
+gốc Việt Nam chưa xác định được quốc tịch và thu nhận thông tin sinh trắc học về vân tay (trừ trường
+hợp người gốc Việt Nam chưa xác định được quốc tịch là trẻ em dưới 06 tuổi), ảnh khuôn mặt, mống
+mắt.
+            4. Trong thời hạn 01 ngày làm việc kể từ ngày người gốc Việt Nam chưa xác định được quốc
+tịch hoàn thành việc kê khai thông tin theo quy định tại khoản 1 Điều này, cơ quan quản lý căn cước
+của Công an cấp huyện phối hợp với cơ quan, tổ chức, cá nhân có liên quan kiểm tra, xác minh
+thông tin về người gốc Việt Nam chưa xác định được quốc tịch đã kê khai. Thời hạn kiểm tra xác
+minh là 30 ngày, trường hợp phức tạp thì có thể kéo dài nhưng không quá 60 ngày.
+             Cơ quan đăng ký cư trú nơi người gốc Việt Nam chưa xác định được quốc tịch sinh sống có
+trách nhiệm kiểm tra, xác minh về việc người đó đã sinh sống liên tục từ 06 tháng trở lên tại địa
+phương.
+               5. Cơ quan quản lý căn cước của Công an cấp huyện chuyển thông tin của người gốc Việt
+Nam chưa xác định được quốc tịch tới cơ quan quản lý căn cước của Bộ Công an để kiểm tra, đối
+sánh thông tin trong Cơ sở dữ liệu quốc gia về dân cư, Cơ sở dữ liệu căn cước.
+         6. Sau khi thực hiện kiểm tra, xác minh, đối sánh thông tin của người gốc Việt Nam chưa xác
+định được quốc tịch theo quy định tại khoản 4, khoản 5 Điều này, cơ quan quản lý căn cước của
+Công an cấp huyện thực hiện thu thập, cập nhật thông tin của người gốc Việt Nam chưa xác định
+được quốc tịch vào Cơ sở dữ liệu quốc gia về dân cư, Cơ sở dữ liệu căn cước đối với trường hợp
+người đủ điều kiện; trường hợp không thu thập, cập nhật vào Cơ sở dữ liệu quốc gia về dân cư, Cơ
+sở dữ liệu căn cước thì phải trả lời và nêu rõ lý do.
+                 7. Trong thời hạn 15 ngày kể từ ngày cơ quan quản lý căn cước của Công an cấp huyện
+thực hiện cập nhật thông tin của người gốc Việt Nam chưa xác định được quốc tịch vào Cơ sở dữ
+liệu quốc gia về dân cư, Cơ sở dữ liệu căn cước, Cơ quan quản lý căn cước của Bộ Công an phải
+thực hiện xác lập số định danh cá nhân cho người gốc Việt Nam chưa xác định được quốc tịch và
+cấp giấy chứng nhận căn cước cho người đó.
+                8. Cơ quan quản lý căn cước của Bộ Công an gửi giấy chứng nhận căn cước đã cấp về cơ
+quan quản lý căn cước của Công an cấp huyện để trả cho người gốc Việt Nam chưa xác định được
+quốc tịch.
+          9. Trình tự, thủ tục điều chỉnh thông tin trong Cơ sở dữ liệu quốc gia về dân cư, Cơ sở dữ
+liệu căn cước theo đề nghị của người gốc Việt Nam chưa xác định được quốc tịch:
+            a) Người gốc Việt Nam chưa xác định được quốc tịch đề nghị điều chỉnh thông tin trong Cơ
+sở dữ liệu quốc gia về dân cư, Cơ sở dữ liệu căn cước kê khai, nộp Phiếu đề nghị giải quyết thủ tục
+về căn cước đến cơ quan Công an cấp huyện nơi đang sinh sống;
+         b) Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được hồ sơ đề nghị điều chỉnh thông tin
+của người gốc Việt Nam chưa xác định được quốc tịch, Thủ trưởng cơ quan tiếp nhận hồ sơ có trách
+nhiệm phối hợp với cơ quan có liên quan kiểm tra, xác minh tính pháp lý, tính chính xác của các
+thông tin trước khi điều chỉnh trong Cơ sở dữ liệu quốc gia về dân cư, Cơ sở dữ liệu căn cước;
+trường hợp từ chối điều chỉnh thông tin thì phải trả lời, nêu rõ lý do.
+        Điều 25. Các trường hợp cấp đổi, cấp lại giấy chứng nhận căn cước
+        1. Giấy chứng nhận căn cước được cấp đổi trong các trường hợp sau đây:
+        a) Bị hư hỏng không sử dụng được;
+        b) Thay đổi thông tin về căn cước;
+        c) Có sai sót về thông tin trên giấy chứng nhận căn cước;
+        d) Khi người gốc Việt Nam chưa xác định được quốc tịch có yêu cầu;
+        đ) Giấy chứng nhận căn cước hết hạn sử dụng.
+
+               2. Người gốc Việt Nam chưa xác định được quốc tịch bị mất giấy chứng nhận căn cước thì
+được cấp lại.
+        Điều 26. Trình tự, thủ tục cấp đổi, cấp lại giấy chứng nhận căn cước
+                  1. Người gốc Việt Nam chưa xác định được quốc tịch đến cơ quan quản lý căn cước của
+Công an cấp huyện hoặc cấp tỉnh nơi người đó sinh sống đề nghị cấp đổi, cấp lại giấy chứng nhận
+căn cước cung cấp thông tin gồm họ, chữ đệm và tên khai sinh, số định danh cá nhân, nơi ở hiện tại
+để người tiếp nhận kiểm tra đối chiếu thông tin trong Cơ sở dữ liệu quốc gia về dân cư.
+           2. Người tiếp nhận kiểm tra, đối chiếu thông tin của người cần cấp đổi, cấp lại giấy chứng
+nhận căn cước từ Cơ sở dữ liệu quốc gia về dân cư để xác định chính xác thông tin người cần cấp
+đổi, cấp lại giấy chứng nhận căn cước.
+             3. Trường hợp thông tin của người cần cấp đổi, cấp lại giấy chứng nhận căn cước trong Cơ
+sở dữ liệu quốc gia về dân cư chưa có hoặc chưa đầy đủ, chính xác thì hướng dẫn người gốc Việt
+Nam chưa xác định được quốc tịch thực hiện thu thập, cập nhật, điều chỉnh thông tin theo quy định
+tại Điều 24 Nghị định này.
+             4. Trường hợp thông tin của người cần cấp đổi, cấp lại giấy chứng nhận căn cước trong Cơ
+sở dữ liệu quốc gia về dân cư đã đầy đủ, chính xác thì tiến hành thu nhận thông tin sinh trắc học về
+vân tay, ảnh khuôn mặt, mống mắt (trừ trường hợp người gốc Việt Nam chưa xác định được quốc
+tịch là người dưới 06 tuổi).
+              5. Người cần cấp giấy chứng nhận căn cước kiểm tra, ký vào Phiếu thu nhận thông tin căn
+cước.
+        6. Người tiếp nhận cấp Giấy hẹn trả kết quả giải quyết thủ tục về căn cước.
+               7. Trả giấy chứng nhận căn cước theo địa điểm ghi trong giấy hẹn; trường hợp người cần
+cấp giấy chứng nhận căn cước có yêu cầu trả giấy chứng nhận căn cước tại địa điểm khác thì cơ
+quan quản lý căn cước trả giấy chứng nhận căn cước tại địa điểm theo yêu cầu và người đó phải trả
+phí dịch vụ chuyển phát.
+        8. Thu lại giấy chứng nhận căn cước đã sử dụng đối với các trường hợp cấp đổi giấy chứng
+nhận căn cước.
+        Điều 27. Thẩm quyền cấp, cấp đổi, cấp lại giấy chứng nhận căn cước
+               Thủ trưởng cơ quan quản lý căn cước của Bộ Công an có thẩm quyền cấp, cấp đổi, cấp lại
+giấy chứng nhận căn cước.
+                 Điều 28. Thời hạn cấp, cấp đổi, cấp lại giấy chứng nhận căn cước và thời hạn sử dụng
+của giấy chứng nhận căn cước
+                1. Thời hạn cấp lần đầu giấy chứng nhận căn cước cho người gốc Việt Nam chưa xác định
+được quốc tịch là không quá 15 ngày kể từ ngày thông tin người gốc Việt Nam chưa xác định được
+quốc tịch đã được cập nhật vào Cơ sở dữ liệu quốc gia về dân cư.
+               2. Thời hạn cấp đổi, cấp lại giấy chứng nhận căn cước cho người gốc Việt Nam không quá
+07 ngày làm việc kể từ ngày tiếp nhận hồ sơ.
+        3. Giấy chứng nhận căn cước có thời hạn sử dụng 02 năm kể từ ngày cấp.
+        Điều 29. Khai thác, sử dụng thông tin về căn cước của người gốc Việt Nam chưa xác
+định được quốc tịch trong Cơ sở dữ liệu quốc gia về dân cư, Cơ sở dữ liệu căn cước
+             1. Cơ quan quản lý cơ sở dữ liệu quốc gia, cơ sở dữ liệu chuyên ngành, cơ quan nhà nước,
+tổ chức chính trị, tổ chức chính trị - xã hội được khai thác thông tin về căn cước của người gốc Việt
+Nam chưa xác định được quốc tịch trong Cơ sở dữ liệu quốc gia về dân cư, Cơ sở dữ liệu căn cước
+thuộc phạm vi, chức năng, nhiệm vụ, quyền hạn của mình thông qua các hình thức sau:
+        a) Kết nối, chia sẻ thông tin trực tiếp với Cơ sở dữ liệu quốc gia về dân cư;
+           b) Kết nối, chia sẻ thông tin với Cơ sở dữ liệu quốc gia về dân cư, Cơ sở dữ liệu căn cước
+qua nền tảng định danh và xác thực điện tử;
+        c) Văn bản yêu cầu cung cấp thông tin.
+        2. Người gốc Việt Nam chưa xác định được quốc tịch được khai thác thông tin của mình
+
+trong Cơ sở dữ liệu quốc gia về dân cư, Cơ sở dữ liệu căn cước bằng văn bản yêu cầu cung cấp
+thông tin.
+        3. Tổ chức và cá nhân không thuộc quy định tại khoản 1 và khoản 2 Điều này được khai thác
+thông tin của người gốc Việt Nam chưa xác định được quốc tịch trong Cơ sở dữ liệu quốc gia về dân
+cư, Cơ sở dữ liệu căn cước bằng văn bản yêu cầu cung cấp thông tin khi được người đó đồng ý.
+              4. Việc sử dụng thông tin về người gốc Việt Nam chưa xác định được quốc tịch trong Cơ sở
+dữ liệu quốc gia về dân cư phải bảo đảm bí mật nhà nước, bí mật cá nhân, bí mật gia đình và đời
+sống riêng tư của người gốc Việt Nam chưa xác định được quốc tịch.
+              5. Cơ quan quản lý cơ sở dữ liệu quốc gia, cơ sở dữ liệu chuyên ngành, cơ quan nhà nước,
+tổ chức chính trị, tổ chức chính trị - xã hội chỉ được sử dụng thông tin về người gốc Việt Nam chưa
+xác định được quốc tịch trong Cơ sở dữ liệu quốc gia về dân cư để thực hiện chức năng, nhiệm vụ,
+quyền hạn được giao hoặc giải quyết thủ tục hành chính.
+                     Điều 30. Thẩm quyền cho phép khai thác, cung cấp thông tin của người gốc Việt Nam
+chưa xác định được quốc tịch trong Cơ sở dữ liệu quốc gia về dân cư Cơ sở dữ liệu căn
+cước
+                 1. Thủ trưởng cơ quan quản lý căn cước của Bộ Công an có thẩm quyền cho phép cơ quan,
+tổ chức quy định tại khoản 1 Điều 29 Nghị định này khai thác, sử dụng thông tin của người gốc Việt
+Nam chưa xác định được quốc tịch trong Cơ sở dữ liệu quốc gia về dân cư, Cơ sở dữ liệu căn cước
+trên phạm vi toàn quốc.
+                 2. Giám đốc Công an cấp tỉnh có thẩm quyền khai thác thông tin của người gốc Việt Nam
+chưa xác định được quốc tịch trong Cơ sở dữ liệu quốc gia về dân cư đang sinh sống trong phạm vi
+cấp tỉnh để cung cấp cho cơ quan, tổ chức, cá nhân khi có yêu cầu cung cấp thông tin bằng văn bản.
+                  3. Trưởng Công an cấp huyện có thẩm quyền khai thác thông tin của người gốc Việt Nam
+chưa xác định được quốc tịch trong Cơ sở dữ liệu quốc gia về dân cư đang sinh sống trong phạm vi
+cấp huyện để cung cấp cho cơ quan tổ chức, cá nhân khi có yêu cầu cung cấp thông tin bằng văn
+bản.
+                4. Trưởng Công an cấp xã có thẩm quyền khai thác thông tin của người gốc Việt Nam chưa
+xác định được quốc tịch trong Cơ sở dữ liệu quốc gia về dân cư đang sinh sống trong phạm vi cấp xã
+để cung cấp cho cơ quan, tổ chức, cá nhân khi có yêu cầu cung cấp thông tin bằng văn bản.
+                     Điều 31. Trình tự, thủ tục khai thác thông tin về căn cước của người gốc Việt Nam
+chưa xác định được quốc tịch trong Cơ sở dữ liệu quốc gia về dân cư, Cơ sở dữ liệu căn
+cước
+          1. Trình tự, thủ tục khai thác thông tin của người gốc Việt Nam chưa xác định được quốc tịch
+bằng kết nối, chia sẻ thông tin trực tiếp với Cơ sở dữ liệu quốc gia về dân cư thực hiện theo quy định
+tại khoản 1 Điều 10 Nghị định này.
+          2. Trình tự, thủ tục khai thác thông tin của người gốc Việt Nam chưa xác định được quốc tịch
+trong Cơ sở dữ liệu quốc gia về dân cư bằng văn bản yêu cầu cung cấp thông tin thực hiện theo quy
+định tại khoản 5 Điều 10 Nghị định này.
+          3. Trình tự, thủ tục khai thác thông tin của người gốc Việt Nam chưa xác định được quốc tịch
+trong Cơ sở dữ liệu căn cước bằng văn bản yêu cầu cung cấp thông tin thực hiện theo quy định tại
+khoản 1 Điều 18 Nghị định này.
+          4. Trình tự, thủ tục khai thác thông tin của người gốc Việt Nam chưa xác định được quốc tịch
+trong Cơ sở dữ liệu quốc gia về dân cư qua nền tảng định danh và xác thực điện tử thực hiện theo
+quy định tại khoản 4 Điều 10 Nghị định này.
+          5. Trình tự, thủ tục khai thác thông tin của người gốc Việt Nam chưa xác định được quốc tịch
+trong Cơ sở dữ liệu căn cước qua nền tảng định danh và xác thực điện tử thực hiện theo quy định tại
+khoản 3 Điều 18 Nghị định này.
+        Điều 32. Các trường hợp thu hồi, giữ, trả lại giấy chứng nhận căn cước
+        1. Giấy chứng nhận căn cước bị thu hồi trong trường hợp sau đây:
+        a) Người gốc Việt Nam chưa xác định được quốc tịch được được nhập quốc tịch Việt Nam
+hoặc xác nhận có quốc tịch Việt Nam hoặc xác định có quốc tịch nước ngoài;
+
+        b) Giấy chứng nhận căn cước cấp sai quy định;
+        c) Giấy chứng nhận căn cước đã tẩy xóa, sửa chữa.
+        2. Giấy chứng nhận căn cước bị giữ trong trường hợp trong các trường hợp sau đây:
+               a) Người đang chấp hành biện pháp tư pháp giáo dục tại trường giáo dưỡng; người đang
+chấp hành quyết định áp dụng biện pháp xử lý hành chính đưa vào trường giáo dưỡng, cơ sở giáo
+dục bắt buộc, cơ sở cai nghiện bắt buộc;
+        b) Người đang bị tạm giữ, tạm giam, chấp hành án phạt tù;
+           c) Trong thời gian bị giữ giấy chứng nhận căn cước, cơ quan giữ giấy chứng nhận căn cước
+xem xét cho phép người bị giữ giấy chứng nhận căn cước quy định tại điểm a và điểm b khoản 2
+Điều này sử dụng giấy chứng nhận căn cước của mình để thực hiện giao dịch, thực hiện quyền, lợi
+ích hợp pháp;
+           d) Người bị giữ giấy chứng nhận căn cước quy định tại khoản 2 Điều này được trả lại giấy
+chứng nhận căn cước khi hết thời hạn tạm giữ, tạm giam hoặc có quyết định hủy bỏ việc tạm giữ,
+tạm giam; chấp hành xong án phạt tù, chấp hành xong biện pháp tư pháp giáo dục tại trường giáo
+dưỡng; chấp hành xong quyết định áp dụng biện pháp xử lý hành chính đưa vào trường giáo dưỡng,
+cơ sở giáo dục bắt buộc, cơ sở cai nghiện bắt buộc.
+        Điều 33. Thẩm quyền thu hồi, giữ giấy chứng nhận căn cước
+             1. Cơ quan quản lý căn cước của Công an cấp tỉnh thực hiện thu hồi giấy chứng nhận căn
+cước trong trường hợp quy định tại khoản 1 Điều 32 Nghị định này.
+           2. Cơ quan tiếp nhận, trả kết quả khi thực hiện thủ tục nhập quốc tịch Việt Nam hoặc xác
+nhận có quốc tịch Việt Nam có trách nhiệm thông báo cho cơ quan quản lý căn cước của Công an
+cấp tỉnh thực hiện hiện thu hồi và hủy giá trị sử dụng giấy chứng nhận căn cước đã cấp của người
+gốc Việt Nam chưa xác định được quốc tịch.
+         3. Cơ quan thi hành quyết định tạm giữ, tạm giam; cơ quan thi hành án phạt tù; cơ quan thi
+hành biện pháp tư pháp giáo dục tại trường giáo dưỡng; cơ quan thi hành quyết định áp dụng biện
+pháp xử lý hành chính đưa vào trường giáo dưỡng, cơ sở giáo dục bắt buộc, cơ sở cai nghiện bắt
+buộc thực hiện giữ giấy chứng nhận căn cước trong trường hợp quy định tại khoản 2 Điều 32 Nghị
+định này.
+        Điều 34. Trình tự, thủ tục thu hồi giấy chứng nhận căn cước
+          1. Trình tự, thủ tục thu hồi giấy chứng nhận căn cước đối với người gốc Việt Nam chưa xác
+định được quốc tịch được nhập quốc tịch Việt Nam hoặc xác nhận có quốc tịch Việt Nam hoặc xác
+định có quốc tịch nước ngoài.
+            a) Trong thời hạn 30 ngày kể từ ngày có quyết định cho người gốc Việt Nam chưa xác định
+được quốc tịch được nhập quốc tịch Việt Nam hoặc xác nhận có quốc tịch Việt Nam, Bộ Tư pháp
+(hoặc Sở Tư pháp đối với trường hợp xác nhận có quốc tịch Việt Nam) gửi văn bản thông báo đến cơ
+quan quản lý căn cước của Bộ Công an;
+                b) Trong thời hạn 03 ngày làm việc kể từ ngày nhận được văn bản thông báo của Bộ Tư
+pháp, cơ quan quản lý căn cước của Bộ Công an có trách nhiệm thu hồi và hủy giá trị sử dụng giấy
+chứng nhận căn cước đã cấp của người gốc Việt Nam chưa xác định được quốc tịch và cập nhật,
+điều chỉnh thông tin của người trong Cơ sở dữ liệu quốc gia về dân cư, Cơ sở dữ liệu căn cước;
+           c) Trong thời hạn 03 ngày làm việc kể từ ngày có căn cứ xác định người gốc Việt Nam chưa
+xác định được quốc tịch được nhập quốc tịch Việt Nam hoặc xác nhận có quốc tịch Việt Nam hoặc
+xác định có quốc tịch nước ngoài, cơ quan quản lý căn cước thực hiện thu hồi, hủy giá trị sử dụng
+của giấy chứng nhận căn cước và cập nhật, điều chỉnh thông tin trong Cơ sở dữ liệu quốc gia về dân
+cư, Cơ sở dữ liệu căn cước.
+        2. Trình tự, thủ tục thu hồi đối với giấy chứng nhận căn cước cấp sai quy định hoặc thẻ căn
+cước đã tẩy xóa, sửa chữa.
+           a) Khi có căn cứ xác định giấy chứng nhận căn cước cấp sai quy định hoặc giấy chứng nhận
+căn cước đã tẩy xóa, sửa chữa, cơ quan, tổ chức, cá nhân có trách nhiệm thông báo cho cơ quan
+quản lý căn cước của Công an cấp huyện hoặc cấp tỉnh kiểm tra, xác minh và yêu cầu người đang
+sử dụng giấy chứng nhận căn cước nộp lại giấy chứng nhận căn cước;
+
+                 b) Trong thời hạn 07 ngày làm việc, cơ quan quản lý căn cước của Công an cấp huyện hoặc
+cấp tỉnh có trách nhiệm kiểm tra, xác minh và thực hiện thu hồi giấy chứng nhận căn cước cấp sai
+quy định hoặc giấy chứng nhận căn cước đã tẩy xóa, sửa chữa và cập nhật, điều chỉnh thông tin
+trong Cơ sở dữ liệu quốc gia về dân cư, Cơ sở dữ liệu căn cước.
+        3. Trường hợp không thu hồi được giấy chứng nhận căn cước, cơ quan quản lý căn cước
+vẫn thực hiện việc cập nhật theo quy định tại điểm b, điểm c khoản 1 Điều này.
+        Điều 35. Trình tự, thủ tục giữ, trả lại giấy chứng nhận căn cước
+                  1. Cơ quan có thẩm quyền giữ giấy chứng nhận căn cước khi giữ, trả giấy chứng nhận căn
+cước phải lập sổ sách theo dõi về việc giữ, trả lại giấy chứng nhận căn cước và có chữ ký xác nhận
+của người giữ và người bị tạm giữ giấy chứng nhận căn cước.
+                2. Trong thời hạn bị giữ giấy chứng nhận căn cước, người bị giữ giấy chứng nhận căn cước
+nếu có yêu cầu sử dụng giấy chứng nhận căn cước của mình để thực hiện giao dịch, thực hiện
+quyền, lợi ích hợp pháp phải có văn bản yêu cầu cơ quan giữ giấy chứng nhận căn cước xem xét,
+quyết định.
+                      Điều 36. Xác lập, hủy, xác lập lại số định danh cá nhân đối với người gốc Việt Nam
+chưa xác định được quốc tịch
+                1. Số định danh cá nhân của người gốc Việt Nam chưa xác định được quốc tịch là dãy số tự
+nhiên gồm 12 chữ số do Cơ sở dữ liệu quốc gia về dân cư xác lập cho người gốc Việt Nam chưa xác
+định được quốc tịch.
+                  2. Số định danh cá nhân của người gốc Việt Nam chưa xác định được quốc tịch do Bộ Công
+an thống nhất quản lý trên toàn quốc và xác lập cho mỗi người gốc Việt Nam chưa xác định được
+quốc tịch, không lặp lại ở người khác.
+                   3. Số định danh cá nhân của người gốc Việt Nam chưa xác định được quốc tịch được dùng
+để cấp giấy chứng nhận căn cước, khai thác thông tin về người gốc Việt Nam chưa xác định được
+quốc tịch trong Cơ sở dữ liệu quốc gia về dân cư, Cơ sở dữ liệu căn cước.
+                4. Người gốc Việt Nam chưa xác định được quốc tịch đã được xác lập số định danh cá nhân,
+cấp giấy chứng nhận căn cước mà được nhập quốc tịch Việt Nam hoặc xác nhận có quốc tịch Việt
+Nam hoặc xác định có quốc tịch nước ngoài thì bị hủy số định danh cá nhân đã được cấp.
+                5. Thủ trưởng cơ quan quản lý căn cước của Bộ Công an có trách nhiệm xem xét, quyết định
+việc hủy số định danh cá nhân cho người gốc Việt Nam chưa xác định được quốc tịch đối với trường
+hợp quy định tại khoản 4 Điều này và thông báo bằng văn bản cho người đó; số định danh cá nhân
+đã bị hủy không được sử dụng để cấp cho người khác.
+                                           Chương VI
+                                      ĐIỀU KHOẢN THI HÀNH
+        Điều 37. Hiệu lực thi hành
+        1. Nghị định này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2024.
+               2. Nghị định số 137/2015/NĐ-CP ngày 31 tháng 12 năm 2015 quy định chi tiết một số điều và
+biện pháp thi hành Luật Căn cước công dân (sửa đổi, bổ sung theo Nghị định số 37/2021/NĐ-CP
+ngày 29 tháng 3 năm 2021) hết hiệu lực kể từ ngày Nghị định này có hiệu lực thi hành.
+        Điều 38. Trách nhiệm thi hành
+        1. Khi thực hiện thủ tục cấp đổi, cấp lại thẻ căn cước, công dân nộp lệ phí (lệ phí cấp đổi, cấp
+lại thẻ căn cước công dân theo quy định pháp luật về phí và lệ phí), trừ trường hợp không phải nộp lệ
+phí theo quy định tại khoản 2, điểm a, điểm b khoản 3 Điều 38 Luật Căn cước. Bộ Tài chính quy định
+về thu lệ phí khi cấp đổi, cấp lại thẻ căn cước.
+               2. Các bộ, ngành, địa phương có trách nhiệm bảo đảm điều kiện hạ tầng kỹ thuật để kết nối
+hệ thống thông tin do mình quản lý với Cơ sở dữ liệu quốc gia về dân cư.
+           Việc kiểm tra, đánh giá bảo mật, an ninh, an toàn thông tin, bảo vệ dữ liệu cá nhân tại khoản
+2 Điều 7, khoản 3 Điều 16 Nghị định này và thực hiện kết nối, chia sẻ, khai thác thông tin với Cơ sở
+dữ liệu quốc gia về dân cư, Cơ sở dữ liệu căn cước thực hiện theo quy định của Bộ trưởng Bộ Công
+an.
+
+               3. Giao Bộ Công an chủ trì, phối hợp với Bộ Thông tin và Truyền thông, Bộ Khoa học và
+Công nghệ hướng dẫn thực hiện các hoạt động quản trị chia sẻ, khai thác dữ liệu, tiêu chuẩn, quy
+chuẩn kỹ thuật công nghệ thông tin kết nối, chia sẻ thông tin giữa Cơ sở dữ liệu quốc gia về dân cư,
+Cơ sở dữ liệu căn cước với cơ sở dữ liệu quốc gia khác, cơ sở dữ liệu chuyên ngành, cổng dịch vụ
+công, hệ thống thông tin giải quyết thủ tục hành chính.
+              4. Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ
+tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc trung ương và các cơ quan, tổ chức, cá nhân có
+liên quan chịu trách nhiệm thi hành Nghị định này.
+ Nơi nhận:                                                      TM. CHÍNH PHỦ
+ - Ban Bí thư Trung ương Đảng;                                  KT. THỦ TƯỚNG
+ - Thủ tướng, các Phó Thủ tướng Chính phủ;                      PHÓ THỦ TƯỚNG
+ - Các bộ, cơ quan ngang bộ, cơ quan thuộc
+ Chính phủ;
+ - HĐND, UBND các tỉnh, thành phố trực thuộc
+ trung ương;
+ - Văn phòng Trung ương và các Ban của Đảng;
+ - Văn phòng Tổng Bí thư;                                      Trần Lưu Quang
+ - Văn phòng Chủ tịch nước;
+ - Hội đồng Dân tộc và các Ủy ban của Quốc hội;
+ - Văn phòng Quốc hội;
+ - Tòa án nhân dân tối cao;
+ - Viện kiểm sát nhân dân tối cao;
+ - Kiểm toán nhà nước;
+ - Ủy ban Giám sát tài chính Quốc gia;
+ - Ngân hàng Chính sách xã hội;
+ - Ngân hàng Phát triển Việt Nam;
+ - Ủy ban trung ương Mặt trận Tổ quốc Việt
+ Nam;
+ - Cơ quan trung ương của các đoàn thể;
+ - VPCP: BTCN, các PCN, Trợ lý TTg, TGĐ
+ Cổng TTĐT, các Vụ, Cục, đơn vị trực thuộc,
+ Công báo;
+ - Lưu: VT, KSTT (2)
+
+                                                   Phụ lục
+                           DANH MỤC CÁC THÔNG TIN LIÊN QUAN ĐẾN CÔNG DÂN VIỆT NAM,
+                                 NGƯỜI GỐC VIỆT CHƯA XÁC ĐỊNH ĐƯỢC QUỐC TỊCH
+          TRONG CƠ SỞ DỮ LIỆU QUỐC GIA, CƠ SỞ DỮ LIỆU CHUYÊN NGÀNH
+                                 CHIA SẺ CHO CƠ SỞ DỮ LIỆU QUỐC GIA VỀ DÂN CƯ
+                           (Kèm theo Nghị định số 70/2024/NĐ-CP
+                                   ngày 25 tháng 6 năm 2024 của Chính phủ)
+                                          ____________
+STT   Bộ ngành Tên cơ sở      Nhóm thông tin                    Thông tin cụ thể
+      chủ quản    dữ liệu
+  I   Bảo hiểm xã hội Việt Nam
+ 1              Cơ sở dữ liệu quốc gia về Bảo hiểm
+                                                    1. Ngày cấp
+                                                    2. Giá trị sử dụng
+1.1                        Thông tin về Bảo hiểm    3. Chức vụ người ký
+                           y tế                     4. Mã số thẻ Bảo hiểm y tế
+                                                    5. Nơi đăng ký khám chữa bệnh ban đầu
+                                                    6. Thời điểm 05 liên tục
+                                                    7. Nơi cấp, đổi thẻ Bảo hiểm y tế
+                           Hình thức nhận kết quả 1. Địa chỉ nhận
+                           giải quyết hưởng trợ     2. Ngân hàng
+1.2                        cấp mai táng/ Quyết      3. Nơi nhận
+                           định hỗ trợ chi phí mai  4. Số tài khoản
+                           táng                     5. Tên chủ tài khoản
+                                                    6. Hình thức nhận kết quả
+                                                    1. Họ tên người chết
+                                                    2. Quan hệ với người chết
+                                                    3. Số Quyết định, ngày ban hành
+                                                    4. Cơ quan Bảo hiểm xã hội ra quyết định
+1.3                        Quyết định hỗ trợ chi    5. Ngày tháng năm chết
+                           phí mai táng             6. Ngừng trả (Lương hưu/loại trợ cấp)
+                                                    7. Tháng ngừng trả
+                                                    8. Mức trợ cấp mai táng
+                                                    9. Họ tên người nhận
+                                                    10. Số sổ Bảo hiểm xã hội
+                                                    11. Hình thức nhận trợ cấp
+                                                    1. Giá trị sử dụng thẻ Bảo hiểm y tế
+                                                    2. Mức đóng
+                           Thông tin chủ hộ và      3. Phương thức đóng
+1.4                        thành viên hộ gia đình   4. Mối quan hệ với chủ hộ
+                           tham gia Bảo hiểm y tế 5. Nơi cấp giấy khai sinh
+                           hộ gia đình              6. Loại đối tượng đang tham gia Bảo hiểm y tế
+                                                    7. Chưa tham gia Bảo hiểm y tế
+                                                    8. Số điện thoại liên hệ (nêu có)
+                                                    9. Địa chỉ hộ gia đình
+                                                    1. Nơi làm việc
+                                                    2. Phương thức đóng
+1.5                        Thông tin người tham     3. Mã số Bảo hiểm xã hội
+                           gia Bảo hiểm xã hội      4. Cơ quan quản lý
+                                                    5. Mức tiền đóng
+                                                    6. Cấp bậc, chức vụ, chức danh nghề
+                                                    1. Hệ Số/Mức lương
+                                                    2. Phụ cấp các khoản bổ sung
+1.6                        Thông tin tiền lương     3. Phụ cấp Chức vụ
+                           của người lao động       4. Phụ cấp Phụ cấp lương
+                                                    5. Phụ cấp thâm niên nghề
+                                                    6. Phụ cấp thâm niên vượt khung
+
+                                                  1. Thời điểm đơn vị bắt đầu đóng Bảo hiểm xã
+1.7                        Thông tin tình hình    hội
+                           đóng Bảo hiểm xã hội   2. Thời điểm đơn vị kết thúc đóng Bảo hiểm xã
+                                                  hội
+                                                  1. Hiệu lực hợp đồng lao động khác
+1.8                        Thông tin về hợp đồng  2. Hiệu lực hợp đồng lao động xác định thời
+                           lao động               hạn
+                                                  3. Ngày bắt đầu hợp đồng lao động không xác
+                                                  định thời hạn
+                                                  1. Chuyên môn kỹ thuật bậc cao
+1.9                        Thông tin vị trí việc làm 2. Chuyên môn kỹ thuật bậc trung
+                           của người lao động     3. Nhà quản lý
+                                                  4. Khác
+ II  Bộ Giáo dục và Đào tạo
+ 1             Cơ sở dữ liệu về Giáo dục Đại học
+                                                  1. Chuyên ngành đào tạo
+1.1                        Quá trình được đào     2. Tên cơ sở đào tạo
+                           tạo, bồi dưỡng         3. Thời gian bắt đầu
+                                                  4. Thời gian kết thúc
+                                                  5. Văn bằng, trình độ
+1.2                        Quá trình học tập,     1. Ngày nhập học
+                           nghiên cứu của sinh    2. Ngày tốt nghiệp
+                           viên, học viên
+                                                  1. Mã cơ sở đào tạo
+                                                  2. Mã ngành đào tạo
+                                                  3. Mã Trình độ được đào tạo
+1.3                        Thông tin về văn bằng, 4. Ngày cấp bằng
+                           chứng chỉ đào tạo      6. Hình thức học (du học, liên kết, trực tuyến)
+                                                  5. Số hiệu văn bằng
+                                                  6. Tên đơn vị cấp bằng
+                                                  7. Tên ngành đào tạo
+ 2             Cơ sử dữ liệu ngành Giáo dục và Đào tạo
+2.1                        Thông tin nơi nộp hồ   1. Sở giáo dục đào tạo
+                           sơ tuyển sinh Phổ      2. Điểm tiếp nhận
+                           thông trung học
+2.2                        Thông tin người liên hệ 1. Địa chỉ
+                           của thí sinh           2. Điện thoại
+                                                  3. Họ tên người liên hệ
+                                                  1. Chương trình Trung học phổ thông/ Giáo
+                                                  dục thường xuyên cấp Trung học phổ thông
+                                                  2. Dự thi tại Hội đồng thi
+                                                  3. Lấy kết quả dự thi xét tuyển sinh Đại học,
+2.3                        Thông tin đăng ký thi  cao đẳng
+                                                  4. Loại thí sinh tự do
+                                                  5. Mã đơn vị Đăng ký dự thi
+                                                  6. Mã Hội đồng thi
+                                                  7. Nơi Đăng ký dự thi
+                                                  1. Kinh phí hỗ trợ
+                           Trẻ em mầm non được 2. Lớp
+2.4                        hưởng trợ cấp do Ủy    3. Họ và tên cha hoặc mẹ (người giám hộ)
+                           ban nhân dân cấp       4. Số sổ hộ nghèo, hộ cận nghèo
+                           huyện phê duyệt        5. Số tháng được hưởng
+                                                  6. Đối tượng
+                                                  1. Số tháng hưởng
+2.5                        Học sinh đề nghị       2. Trường
+                           hưởng hỗ trợ           3. Lớp
+                                                  4. Số tiền hỗ trợ/tháng
+                                                  5. Tổng tiền
+III  Bộ Giao thông vận tải
+
+ 1              Cơ sở dữ liệu đăng kiểm
+                                                  1. Ngày tháng năm nhập khẩu
+                                                  2. Số tờ khai nhập khẩu
+1.1                        Nguồn gốc xe           3. Mã hồ sơ nguồn gốc xe (Số sêri Phiếu Kiểm
+                                                  tra chất lượng xuất xưởng/ Số khung xe)
+                                                  4. Tên đơn vị sản xuất, lắp ráp/nhập khẩu
+                                                  5. Nguồn gốc
+ 2              Cơ sở dữ liệu Doanh nghiệp vận tải
+2.1                        Thông tin giấy phép    1. Số giấy phép kinh doanh vận
+                           kinh doanh vận tải     2. Ngày cấp giấy phép
+                                                  3. Nơi cấp
+ 3              Cơ sở dữ liệu giấy phép lái xe
+                                                  1. Ngày cấp
+                                                  2. Ngày hết hạn
+                                                  3. Số Giấy phép lái xe
+3.1                        Giấy phép lái xe       4. Cơ quan cấp
+                                                  5. Hạng
+                                                  6. Loại xe cơ giới đường bộ được điều khiển
+                                                  7. Ngày trúng tuyển
+                                                  1. Hạng
+                                                  2. Số
+3.2                        Giấy phép lái xe quốc  3. Có giá trị đến
+                           tế                     4. Cơ quan cấp
+                                                  5. Nơi cấp
+                                                  6. Ngày cấp
+                                                  7. Số giấy phép lái xe quốc gia
+ IV   Bộ Kế hoạch và Đầu tư
+ 1              Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp
+                                                  1. Cơ quan cấp
+                                                  2. Ngày cấp
+                                                  3. Mã số hộ kinh doanh hoặc mã số doanh
+                                                  nghiệp
+                                                  4. Mã số thuế
+                                                  5. Fax (nếu có)
+                           Thông tin đăng ký hộ   6. Vốn kinh doanh
+1.1                        kinh doanh/ Doanh      7. Website (nếu có)
+                           nghiệp                 8. Tên hộ kinh doanh hoặc tên công ty
+                                                  9. Địa chỉ kinh doanh
+                                                  10. Tổng số lao động
+                                                  11. Thông tin về các thành viên tham gia thành
+                                                  lập hộ kinh doanh/Doanh nghiệp
+                                                  12. Người đại diện theo pháp luật của hộ kinh
+                                                  doanh/doanh nghiệp
+                                                  1. Tên ngành
+1.2                        Hoạt động kinh doanh   2. Mã ngành
+                                                  3. Ngành, nghề kinh doanh chính
+                                                  4. Ngày bắt đầu hoạt động
+ 2              Cơ sở dữ liệu về đăng ký hợp tác xã
+2.1                        Ngành, nghề kinh       1. Tên ngành
+                           doanh                  2. Mã ngành
+                                                  3. Ngành, nghề kinh doanh chính
+
+                                                     1. Tên hợp tác xã viết bằng tiếng nước ngoài
+                                                     (nếu có)
+                                                     2. Tên hợp tác xã viết tắt (nếu có)
+                                                     3. Tình trạng thành lập:
+2.2                        Thông tin đăng ký         4. Tên hợp tác xã viết bằng tiếng Việt
+                           thành lập hợp tác xã      5. Người đại diện theo pháp luật của hợp tác
+                                                     xã
+                                                     6. Thông tin địa chỉ trụ sở chính
+                                                     7. Thông tin vốn điều lệ
+                                                     8. Thông tin đăng ký thuế
+                                                     1. Số Giấy chứng nhận
+2.3                        Giấy chứng nhận đăng 2. Ngày đăng ký lần đầu
+                           ký hợp tác xã             3. Đăng ký thay đổi lần thứ
+                                                     4. Ngày thay đổi
+V    Bộ Tài chính
+1              Cơ sở dữ liệu chuyên ngành quản lý Thuế
+                                                     1. Cho người phụ thuộc
+                                                     2. Cho từ thiện, nhân đạo, khuyến học
+                                                     3. Số người phụ thuộc
+                                                     4. Số thuế đã khấu trừ tại tổ chức trả thu nhập
+                           Thu nhập cá nhân cư       5. Thu nhập chịu thuế được miễn giảm theo
+1.1                        trú có thu nhập từ tiền   Hiệp định
+                           lương, tiền công          6. Tổng số thuế thu nhập cá nhân phải nộp
+                                                     7. Tổng thu nhập chịu thuế phát sinh trong kỳ
+                                                     8. Tổng thu nhập tính thuế
+                                                     9. Các khoản đóng bảo hiểm được trừ
+                                                     10. Khoản đóng quỹ hưu trí tự nguyện được
+                                                     trừ
+                                                     1. Ngày cấp
+                           Giấy chứng nhận đăng 2. Số Giấy chứng nhận kinh doanh
+1.2                        ký thuế (cá nhân, hộ      3. Số Giấy phép thành lập/đầu tư
+                           gia đình kinh doanh)      4. Số quyết định thành lập
+                                                     5. Ngày thành lập
+1.3                        Thông tin mã số thuế      1. Tên người nộp thuế
+                           (người có thu nhập)       2. Ngày cấp Mã số thuế
+                                                     3. Mã số thuế cá nhân
+1.4                        Thông tin (người phụ      1. Ngày cấp Mã số thuế
+                           thuộc)                    2. Mã số thuế người phụ thuộc
+                                                     3. Mã số thuế người nộp thuế
+VI   Bộ Tài nguyên và Môi trường
+1              Cơ sở dữ liệu Đất đai quốc gia
+                                                     1. Họ và tên
+                           Thông tin người sử        2. Năm sinh
+1.1                        dụng đất, chủ sở hữu      3. Địa chỉ thường trú
+                           tài sản gắn liền với đất  4. Số giấy tờ nhân thân
+                           trên Giấy chứng nhận      5. Năm cấp
+                                                     6. Nơi cấp
+                                                     1. Mã Giấy chứng nhận
+1.2                        Thông tin giấy chứng      2. Số phát hành Giấy chứng nhận
+                           nhận                      3. Ngày tháng năm cấp Giấy chứng nhận
+                                                     5. Số vào sổ cấp Giấy chứng nhận
+1.3                        Thông tin về thửa đất     4. Địa chỉ thửa đất
+                                                     5. Mục đích sử dụng
+                                                     6. Hình thức sử dụng
+                                                     7. Thời hạn sử dụng đất
+                                                     8. Nguồn gốc sử dụng
+                                                     9. Nghĩa vụ tài chính
+                                                     10. Loại hạn chế quyền
+                                                     11. Nội dung hạn chế quyền
+                                                     12. Quyền sử dụng hạn chế đối với thửa đất
+
+                                                  liền
+                                                  1. Loại tài sản
+                                                  2. Diện tích xây dựng (m²)
+                                                  3. Diện tích sử dụng (m²) hoặc công suất
+1.4                        Thông tin tài sản gắn  4. Hình thức sở hữu
+                           liền với đất           5. Cấp hạng
+                                                  6. Thời hạn sở hữu
+                                                  7. Thông tin chứng nhận về quyền sở hữu tài
+                                                  sản gắn liền với đất
+VII  Bộ Tư pháp
+ 1              Cơ sở dữ liệu hộ tịch điện tử
+                                                  1. Họ, chữ đệm, tên
+                                                  2. Ngày, tháng, năm sinh
+1.1                        Thông tin cha, mẹ nuôi 3. Dân tộc
+                                                  4. Quốc tịch
+                                                  5. Nơi cư trú
+                                                  6. Giấy tờ tùy thân
+                                                  1. Họ, chữ đệm, tên
+                                                  2. Ngày, tháng, năm sinh, ghi bằng chữ
+1.2                        Thông tin của người    3. Giới tính
+                           được đăng ký khai sinh 4. Dân tộc
+                                                  5. Quốc tịch
+                                                  6. Nơi sinh
+                                                  7. Quê quán
+                                                  1. Họ, chữ đệm, tên
+                                                  2. Ngày, tháng, năm sinh
+                           Thông tin về người mẹ  3. Dân tộc
+1.3                        của người được khai    4. Quốc tịch
+                           sinh                   5. Giấy tờ tùy thân
+                                                  6. Số định danh cá nhân
+                                                  7. Nơi cư trú
+                                                  1. Họ, chữ đệm, tên
+                                                  2. Ngày, tháng, năm sinh
+                           Thông tin về người cha 3. Dân tộc
+1.4                        của người được khai    4. Quốc tịch
+                           sinh                   5. Giấy tờ tùy thân
+                                                  6. Số định danh cá nhân
+                                                  7. Nơi cư trú
+                                                  1. Nơi chết
+1.5                        Thông tin của người    2. Giấy tờ tùy thân
+                           được đăng ký khai tử   3. Nơi cư trú cuối cùng
+                                                  4. Thời gian chết: giờ, phút, ngày, tháng, năm
+                                                  5. Nguyên nhân
+                                                  1. Ngày cấp
+1.6                        Thông tin giấy chứng   2. Nơi cấp
+                           tử/Trích lục khai tử   3. Số
+                                                  4. Quyển
+1.7                        Thông tin giấy chứng   1. Số giấy chứng nhận kết hôn
+                           nhận kết hôn           2. Ngày, tháng, năm đăng ký kết nôn
+                                                  3. Nơi đăng ký kết hôn
+                                                  1. Ngày, tháng, năm sinh
+                           Quyết định của Chủ     2. Số hộ chiếu
+1.8                        tịch nước cho thôi quốc 3. Ngày hiệu lực
+                           tịch Việt Nam          4. Số Quyết định
+                                                  5. Ngày Quyết định
+                                                  6. Nơi cấp
+                                                  1. Giới tính
+2.1                        Phiếu lý lịch tư pháp số 2. Ngày, tháng, năm cấp
+                           1                      3. Nơi cấp
+                                                  4. Quốc tịch
+
+                                                     5. Số phiếu
+                                                     6. Nơi thường trú
+                                                     7. Nơi sinh
+                                                     8. Ngày, tháng, năm sinh
+                                                     9. Họ và tên
+                                                     10. Nơi cư trú
+                                                     11. Số định danh cá nhân/Hộ chiếu
+                                                     1. Số bản án
+ 2.2                        Tình trạng án tích       2. Ngày tháng năm
+                            Lý lịch tư pháp số 1     3. Tòa án đã tuyên
+                                                     4. Hình phạt chính
+                                                     1. Chức vụ bị cấm đảm nhiệm
+                            Thông tin về cấm đảm     2. Số Quyết định
+ 2.3                        nhiệm chức vụ, thành     3. Tòa án ra quyết định
+                            lập, quản lý doanh       4. Thời hạn không được thành lập, quản lý
+                            nghiệp, hợp tác xã       doanh nghiệp, hợp tác xã
+                                                     5. Ngày tháng năm ra quyết định
+                                                     1. Ngày, tháng, năm cấp
+                                                     2. Hình phạt chính
+                                                     3. Bản án số
+                                                     4. Tòa án nhân dân
+ 2.4                        Tình trạng án tích       5. Tội danh - Điều khoản của Bộ luật Hình sự
+                            LLTP số 2                được áp dụng
+                                                     6. Hình phạt bổ sung
+                                                     7. Nghĩa vụ dân sự, án phí
+                                                     8. Tình trạng thi hành án
+                                                     9. Xóa án tích ghi chú
+VIII  Tập đoàn Điện lực Việt Nam
+ 1              Hợp đồng sử dụng điện
+ 1.1                        Hợp đồng mua bán         1. Địa chỉ
+                            điện                     2. Mã số khách hàng
+                                                     3. Số hợp đồng mua bán điện
+ 1.2                        Hộ dùng chung            1. Số hộ dùng chung
+                                                     2. Danh sách hộ dung chung
+ IX   Bộ Lao động - Thương binh và Xã hội
+ 1              Cơ sở dữ liệu người khuyết tật
+ 1.1                        Thông tin về tình trạng  1. Mức độ khuyết tật
+                            khuyết tật               2. Các dạng khuyết tật
+ 1.2                        Thông tin giấy xác       1. Ngày cấp
+                            nhận khuyết tật          2. Nơi cấp
+                                                     3. Số hiệu
+ 2              Cơ sở dữ liệu giải quyết hưởng bảo hiểm thất nghiệp
+ 2.1                        Thông tin bảo hiểm xã    1. Số sổ bảo hiểm xã hội
+                            hội
+ 2.2                        Thông tin trình độ học   1. Trình độ đào tạo
+                            vấn                      2. Ngành nghề đào tạo
+                                                     1. Ngày chấm dứt hợp đồng lao động
+                                                     2. Tên đơn vị
+ 2.3                        Thông tin tình trạng     3. Lý do chấm dứt hợp đồng lao động/hợp
+                            việc làm                 đồng làm việc
+                                                     4. Loại hợp đồng lao động/hợp đồng làm việc
+                                                     5. Số tháng đóng bảo hiểm thất nghiệp
+                                                     1. Ngân hàng
+ 2.4                        Thông tin nhận trợ cấp   2. Nơi đề nghị nhận trợ cấp thất nghiệp
+                            thất nghiệp              3. Số tài khoản
+                                                     4. Hồ sơ đính kèm
+ 2.5                        Quyết định hưởng trợ     1. Số quyết định
+                            cấp thất nghiệp          2. Thời hạn hưởng trợ cấp đến ngày
+                                                     3. Ngân hàng
+
+                                                  4. Ngày, tháng, năm ban hành quyết định
+                                                  5. Người ký
+                                                  6. Số sổ bảo hiểm xã hội
+                                                  7. Số tài khoản (nếu có)
+                                                  8. Tổng số tháng đóng bảo hiểm nghiệp
+                                                  9. Số tháng được hưởng trợ cấp nghiệp
+                                                  10. Mức trợ cấp thất nghiệp hàng tháng
+                                                  11. Nơi nhận trợ cấp
+                                                  12. Thời gian hưởng trợ cấp thất nghiệp tính
+                                                  từ ngày
+                                                  1. Họ tên
+                                                  2. Ngày cấp
+                           Thông tin người thông  3. Nơi cấp
+2.6                        báo về việc tìm kiếm   4. Ngày tháng năm sinh
+                           việc làm               5. Chỗ ở hiện nay
+                                                  6. Số Định danh cá nhân
+                                                  7. Số điện thoại
+3               Cơ sở dữ liệu người hưởng chính sách ưu đãi người có công
+                                                  1. Cơ quan, đơn vị hy sinh
+3.1                        Thông tin liệt sỹ      2. Cấp bậc, chức vụ khi hy sinh
+                                                  3. Nơi sinh
+4               Cơ sở dữ liệu đối tượng trợ giúp xã hội
+                                                  1. Họ tên người mất
+                                                  2. Quan hệ với người mất
+                                                  3. Nơi cư trú
+                                                  4. Ngày quyết định
+                                                  5. Cơ quan Bảo hiểm xã hội ra quyết định
+4.1                        Quyết định hỗ trợ chi  6. Ngày tháng năm mất
+                           phí mai táng           7. Ngừng trả (Lương hưu/loại trợ cấp)
+                                                  8. Tháng ngừng trả
+                                                  9. Mức trợ cấp mai táng
+                                                  10. Họ tên người nhận
+                                                  11. Số sổ bảo hiểm xã hội
+                                                  12. Hình thức nhận trợ cấp
+                                                  1. Số người khuyết tật
+4.2                        Thông tin người khuyết 2. Số người Khuyết tật đặc biệt nặng
+                           tật có trong hộ gia đình 3. Số người Khuyết tật nặng
+                                                  4. Số người Khuyết tật nhẹ
+                                                  1. Dân tộc
+                           Thông tin đối tượng    2. Giới tính
+4.3                        được nhận chăm sóc,    3. Ngày cấp
+                           nuôi dưỡng/hưởng trợ   4. Nơi cấp
+                           cấp xã hội             5. Nơi cư trú
+                                                  6. Số Định danh cá nhân
+                                                  7. Họ và tên (Viết chữ in hoa)
+                           Tình trạng đi học của  1. Lý do chưa đi học
+4.4                        đối tượng được nhận    2. Lý do đã nghỉ học
+                           chăm sóc, nuôi dưỡng   3. Nơi đang đi học
+                                                  1. Lương hưu/Trợ cấp Bảo hiểm xã hội hàng
+                           Thông tin hưởng chế    tháng
+4.5                        độ Bảo hiểm xã hội của 2. Hưởng từ tháng
+                           đối tượng được nhận    3. Trợ cấp bảo trợ xã hội hàng tháng
+                           chăm sóc, nuôi dưỡng   4. Trợ cấp ưu đãi người có công hàng tháng
+                                                  5. Trợ cấp, phụ cấp hàng tháng khác
+                                                  6. Thuộc hộ nghèo
+                           Tình trạng khuyết tật  1. Ngày cấp
+4.6                        của đối tượng được     2. Nơi cấp
+                           nhận chăm sóc, nuôi    3. Giấy xác nhận khuyết tật số
+                           dưỡng                  4. Dạng tật
+                                                  5. Mức độ khuyết tật
+
+                           Tình trạng hôn nhân
+4.7                        của đối tượng được     1. Tình trạng hôn nhân
+                           nhận chăm sóc, nuôi    2. Số con (nếu có)
+                           dưỡng
+ X   Bộ Y tế
+1               Cơ sở dữ liệu về người hành nghề khám bệnh, chữa bệnh
+                                                  1. Văn bằng chuyên môn
+                                                  2. Số hiệu
+                                                  3. Phạm vi hoạt động chuyên môn
+                                                  4. Đủ tiêu chuẩn hành nghề với vị trí hành
+1.1                        Giấy phép hành nghề    nghề sau
+                                                  5. Hình thức cấp chứng chỉ
+                                                  6. Chứng chỉ hành nghề có hiệu lực từ ngày
+                                                  7. Được cấp theo quyết định số
+                                                  8. Người cấp
+XI   Tòa án nhân dân tối cao
+1               Loại án dân sự theo nghĩa rộng
+                                                  1. Họ và tên
+                           Nguyên đơn/Người yêu2. Nơi cư trú
+1.1                        cầu giải quyết việc dân 3. Số định danh cá nhân
+                           sự                     4. Số điện thoại
+                                                  5. Địa chỉ thư điện tử
+                                                  1. Họ và tên
+                                                  2. Nơi cư trú
+1.2                        Bị đơn                 3. Số định danh cá nhân
+                                                  4. Số điện thoại
+                                                  5. Địa chỉ thư điện tử
+                                                  1. Họ và tên
+1.3                        Người có quyền lợi,    2. Nơi cư trú
+                           nghĩa vụ liên quan     3. Số định danh cá nhân
+                                                  4. Số điện thoại
+                                                  5. Địa chỉ thư điện tử
+                                                  1. Họ và tên
+                           Người đại diện (theo   2. Nơi cư trú
+1.4                        pháp luật/theo ủy      3. Số định danh cá nhân
+                           quyền) của đương sự    4. Số điện thoại
+                                                  5. Địa chỉ thư điện tử
+                                                  6. Số, ngày, tháng, năm của văn bản đại diện
+                                                  1. Họ và tên
+                           Người được bảo vệ      2. Nơi cư trú
+1.5                        quyền và lợi ích hợp   3. Số định danh cá nhân
+                           pháp                   4. Số điện thoại
+                                                  5. Địa chỉ thư điện tử
+                                                  1. Họ và tên
+                                                  2. Nơi cư trú
+1.6                        Người làm chứng        3. Số định danh cá nhân
+                                                  4. Số điện thoại
+                                                  5. Địa chỉ thư điện tử
+2               Loại án hành chính
+                                                  1. Họ và tên
+                                                  2. Nơi cư trú
+2.1                        Người khởi kiện        3. Số định danh cá nhân
+                                                  4. Số điện thoại
+                                                  5. Địa chỉ thư điện tử
+                                                  1. Họ và tên
+                                                  2. Chức vụ
+2.2                        Người bị kiện (cá nhân)3. Cơ quan công tác
+                                                  4. Số điện thoại
+                                                  5. Địa chỉ thư điện tử
+
+                                                    1. Họ và tên
+2.3                         Người có quyền lợi,     2. Nơi cư trú
+                            nghĩa vụ liên quan      3. Số định danh cá nhân
+                                                    4. Số điện thoại
+                                                    5. Địa chỉ thư điện tử
+                                                    1. Họ và tên
+                            Người đại diện (theo    2. Nơi cư trú
+2.4                         pháp luật/theo ủy       3. Số định danh cá nhân
+                            quyền) của đương sự     4. Số điện thoại
+                                                    5. Địa chỉ thư điện tử
+                                                    6. Số, ngày, tháng, năm của văn bản đại diện
+ 3              Loại án hình sự
+                                                    1. Họ và tên
+                                                    2. Nơi cư trú
+3.1                         Bị hại                  3. Số định danh cá nhân
+                                                    4. Số điện thoại
+                                                    5. Địa chỉ thư điện tử
+                                                    1. Họ và tên
+                                                    2. Nơi cư trú
+                                                    3. Số định danh cá nhân
+                                                    4. Số điện thoại
+3.2                         Người được áp dụng      5. Địa chỉ thư điện tử
+                            biện pháp bảo vệ        6. Số, ngày, tháng, năm vãn ban yêu cầu bảo
+                                                    vệ
+                                                    7. Số, ngày, tháng, năm quyết định áp
+                                                    dụng biện pháp bảo vệ
+                                                    8. Cơ quan thi hành biện pháp bảo vệ
+ 4              Thông tin về án phí, lệ phí
+                                                    1. Số, ngày, tháng, năm thông báo
+                            Thông báo nộp tạm       2. Tên đương sự
+4.1                         ứng án phí, lệ phí tòa  3. Nội dung thông báo
+                            án                      4. Số tiền
+                                                    5. Tòa án thông báo
+XII  Bộ Xây dựng
+ 1              Cơ sở dữ liệu về nhà ở và thị trường bất động sản
+                                                    1. Thông tin, dữ liệu về thuế đối với hoạt động
+                                                    kinh doanh bất động sản;
+                                                    2. Thông tin, dữ liệu về đất đai đối với việc cấp
+                                                    giấy chứng nhận về quyền sử dụng đất, quyền
+1.1                         Thông tin về nhà ở và   sở hữu tài sản gắn liền với đất theo quy định
+                            thị trường bất động sản của pháp luật về đất đai;
+                                                    3. Thông tin, dữ liệu về số lượng giao dịch, giá
+                                                    trị giao dịch bất động sản được thực hiện công
+                                                    chứng, chứng thực;
+                                                    4. Thông tin, dữ liệu từ các chương trình điều
+                                                    tra, thống kê cấp quốc gia về nhà ở.

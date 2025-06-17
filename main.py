@@ -3,19 +3,19 @@ from fastapi.middleware.cors import CORSMiddleware
 from contextlib import asynccontextmanager
 import uvicorn
 import config
-# from schemas.chat import AppState # Nên import từ nơi định nghĩa AppState
-from schemas.chat import AppState # Giả sử AppState ở app_state.py cùng cấp
+from schemas.chat import AppState
 from routers.user import router as user_router
 from routers.chat import router as chat_router
 from routers.documents import router as docs_router
 from routers.health_check import router as health_router
-# from dependencies import initialize_api_components # Nên import từ nơi định nghĩa
-from dependencies import initialize_api_components # Giả sử initialize_api_components ở utils.py cùng cấp
-import logging # Thêm logging
+from dependencies import initialize_api_components
+import logging
 import traceback
+from core.logging_config import setup_logging
+setup_logging()
 
 logger = logging.getLogger(__name__)
-logging.basicConfig(level=logging.INFO)
+
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):

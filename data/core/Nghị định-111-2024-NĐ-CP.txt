@@ -1,0 +1,387 @@
+CHÍNH PHỦ                         CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+             _______                             Độc lập - Tự do - Hạnh phúc
+        Số: 111/2024/NĐ-CP                         ________________________
+                                               Hà Nội, ngày 06 tháng 9 năm 2024
+                                          NGHỊ ĐỊNH
+                    Quy định về hệ thống thông tin, Cơ sở dữ liệu quốc gia
+                                    về hoạt động xây dựng
+                                         ___________
+        Căn cứ Luật Tổ chức Chính phủ ngày 19 tháng 6 năm 2015; Luật sửa đổi, bổ sung một số
+điều của Luật Tổ chức Chính phủ và Luật Tổ chức chính quyền địa phương ngày 22 tháng 11 năm
+2019;
+        Căn cứ Luật Xây dựng ngày 18 tháng 6 năm 2014; Luật sửa đổi, bổ sung một số điều của
+Luật Xây dựng ngày 17 tháng 6 năm 2020;
+        Căn cứ Luật Công nghệ thông tin ngày 29 tháng 6 năm 2006;
+        Căn cứ Luật An toàn thông tin mạng ngày 19 tháng 11 năm 2015;
+        Căn cứ Luật Tiếp cận thông tin ngày 06 tháng 4 năm 2016;
+        Căn cứ Luật Giao dịch điện tử ngày 22 tháng 6 năm 2023;
+        Theo đề nghị của Bộ trưởng Bộ Xây dựng;
+        Chính phủ ban hành Nghị định quy định về hệ thống thông tin, Cơ sở dữ liệu quốc gia về hoạt
+động xây dựng.
+                                          Chương I
+                                      QUY ĐỊNH CHUNG
+        Điều 1. Phạm vi điều chỉnh
+        1. Nghị định này quy định về hệ thống thông tin, Cơ sở dữ liệu quốc gia về hoạt động xây
+dựng; trách nhiệm của cơ quan, tổ chức, cá nhân trong việc xây dựng, quản lý, khai thác và sử dụng
+hệ thống thông tin, Cơ sở dữ liệu quốc gia về hoạt động xây dựng.
+        2. Nghị định này không áp dụng đối với thông tin, dữ liệu về quy hoạch xây dựng, dự án đầu
+tư xây dựng, công trình xây dựng quốc phòng, an ninh và bí mật nhà nước.
+        Điều 2. Đối tượng áp dụng
+        Nghị định này áp dụng đối với cơ quan, tổ chức, cá nhân liên quan đến việc xây dựng, quản
+lý, khai thác và sử dụng hệ thống thông tin, Cơ sở dữ liệu quốc gia về hoạt động xây dựng.
+        Điều 3. Hệ thống thông tin, Cơ sở dữ liệu quốc gia về hoạt động xây dựng
+        1. Hệ thống thông tin về hoạt động xây dựng là tập hợp phần cứng, phần mềm và cơ sở dữ
+liệu về hoạt động xây dựng được thiết lập phục vụ mục đích tạo lập, cung cấp, truyền đưa, thu thập,
+xử lý, lưu trữ và trao đổi, chia sẻ thông tin trên mạng.
+        2. Cơ sở dữ liệu quốc gia về hoạt động xây dựng là cơ sở dữ liệu về hoạt động xây dựng
+trên phạm vi lãnh thổ Việt Nam được sắp xếp, tổ chức để truy cập, khai thác, chia sẻ, quản lý, duy trì
+và cập nhật thông qua phương tiện điện tử đáp ứng yêu cầu truy nhập và sử dụng thông tin của các
+ngành kinh tế và phục vụ lợi ích công cộng.
+        3. Cơ sở dữ liệu quốc gia về hoạt động xây dựng bao gồm cơ sở dữ liệu về quy hoạch xây
+dựng; cơ sở dữ liệu về dự án đầu tư xây dựng, công trình xây dựng; cơ sở dữ liệu về định mức xây
+dựng, giá xây dựng công trình và chỉ số giá xây dựng và các hoạt động khác liên quan đến đầu tư
+xây dựng.
+        4. Cơ sở dữ liệu về định mức xây dựng, giá xây dựng công trình và chỉ số giá xây dựng được
+thực hiện theo quy định của Chính phủ về quản lý chi phí đầu tư xây dựng.
+
+                 Điều 4. Nguyên tắc xây dựng, cập nhật, quản lý, khai thác và sử dụng hệ thống thông
+tin, Cơ sở dữ liệu quốc gia về hoạt động xây dựng
+          1. Hệ thống thông tin, Cơ sở dữ liệu quốc gia về hoạt động xây dựng được xây dựng, quản lý
+tập trung, thống nhất, đồng bộ từ trung ương đến địa phương.
+              2. Hệ thống thông tin, Cơ sở dữ liệu quốc gia về hoạt động xây dựng được xây dựng, cập
+nhật nhằm cung cấp đầy đủ, chính xác, kịp thời các thông tin về hoạt động xây dựng, đáp ứng yêu
+cầu quản lý nhà nước về đầu tư xây dựng.
+          3. Hệ thống thông tin, Cơ sở dữ liệu quốc gia về hoạt động xây dựng được duy trì hoạt động
+liên tục, ổn định, thông suốt và được lưu trữ lâu dài, đáp ứng nhu cầu khai thác và sử dụng của các
+cơ quan, tổ chức, cá nhân theo quy định pháp luật.
+         4. Việc xây dựng, cập nhật, quản lý, khai thác và sử dụng hệ thống thông tin, Cơ sở dữ liệu
+quốc gia về hoạt động xây dựng tuân thủ các quy định của Nghị định này và pháp luật về công nghệ
+thông tin, giao dịch điện tử, an toàn thông tin mạng, an ninh mạng, tiếp cận thông tin; quy định về
+quản lý, kết nối và chia sẻ dữ liệu số của cơ quan nhà nước.
+                                           Chương II
+                  XÂY DỰNG, QUẢN LÝ KHAI THÁC VÀ SỬ DỤNG HỆ THỐNG
+                    THÔNG TIN, CƠ SỞ DỮ LIỆU QUỐC GIA VỀ HOẠT ĐỘNG XÂY DỰNG
+        Điều 5. Hệ thống thông tin về hoạt động xây dựng
+        1. Hệ thống thông tin về hoạt động xây dựng bao gồm:
+            a) Cơ sở dữ liệu về hoạt động xây dựng, bao gồm thông tin, dữ liệu về hoạt động xây dựng
+được khai thác từ Cơ sở dữ liệu quốc gia về hoạt động xây dựng và các thành phần dữ liệu khác có
+liên quan đến hoạt động xây dựng;
+        b) Hạ tầng kỹ thuật công nghệ thông tin;
+                 c) Hệ thống phần mềm ứng dụng, dịch vụ phần mềm, nền tảng điện toán đám mây phục vụ
+quản lý, vận hành, khai thác thông tin về hoạt động xây dựng.
+             2. Hệ thống thông tin về hoạt động xây dựng được xây dựng đồng bộ, thống nhất trên toàn
+quốc nhằm quản lý, khai thác, chia sẻ và cung cấp thông tin cơ bản về hoạt động xây dựng cho các
+cơ quan, tổ chức, cá nhân đáp ứng yêu cầu phát triển kinh tế - xã hội.
+        3. Nội dung về các chuẩn dữ liệu, cấu trúc, thành phần dữ liệu và các chức năng cơ bản của
+hệ thống thông tin về hoạt động xây dựng thống nhất trong toàn quốc theo hướng dẫn của Bộ trưởng
+Bộ Xây dựng.
+        Điều 6. Cơ sở dữ liệu về quy hoạch xây dựng
+        1. Thông tin, dữ liệu trong cơ sở dữ liệu về quy hoạch xây dựng được phân loại như sau:
+                 a) Quy hoạch xây dựng vùng liên huyện; quy hoạch xây dựng vùng huyện; quy hoạch xây
+dựng khu chức năng (quy hoạch chung, quy hoạch phân khu và quy hoạch chi tiết); quy hoạch nông
+thôn (quy hoạch chung xã; quy hoạch chi tiết điểm dân cư nông thôn);
+        b) Quy hoạch đô thị (quy hoạch chung, quy hoạch phân khu và quy hoạch chi tiết);
+        c) Quy hoạch hạ tầng kỹ thuật đô thị đối với các thành phố trực thuộc trung ương.
+        2. Thông tin về quy hoạch        xây dựng được thu thập, cập nhật trong cơ sở dữ liệu về quy
+hoạch xây dựng bao gồm:
+         a) Thông tin chung: Tên đồ án quy hoạch, loại quy hoạch; địa điểm, quy mô diện tích khu vực
+lập quy hoạch; cơ quan, tổ chức lập quy hoạch; cơ quan thẩm định, phê duyệt quy hoạch; năm phê
+duyệt quy hoạch;
+        b) Thông tin chi tiết: Các hồ sơ, văn bản về quy hoạch xây dựng và một số hoặc các thông tin
+tại các hồ sơ, văn bản này, bao gồm: Quyết định phê duyệt nhiệm vụ, đồ án quy hoạch của cấp có
+thẩm quyền; các bản vẽ, thuyết minh tổng hợp đồ án, thiết kế đô thị (nếu có), quy định quản lý kèm
+theo đồ án quy hoạch đã được phê duyệt (nếu có); kế hoạch thực hiện quy hoạch xây dựng; thông tin
+liên quan khác (nếu có).
+
+          3. Thông tin chung và một số thông tin chi tiết trong cơ sở dữ liệu về quy hoạch xây dựng là
+dữ liệu mở được công bố trên cổng dữ liệu quốc gia, cổng thông tin điện tử của Bộ Xây dựng.
+       4. Dữ liệu chủ trong cơ sở dữ liệu về quy hoạch xây dựng gồm mã số thông tin quy định tại
+điểm a khoản 2 Điều 8 Nghị định này và các thông tin chung nêu tại điểm a khoản 2 Điều này.
+       Điều 7. Cơ sở dữ liệu về dự án đầu tư xây dựng, công trình xây dựng
+            1. Thông tin về dự án đầu tư xây dựng được thu thập, cập nhật trong Cơ sở dữ liệu quốc gia
+về hoạt động xây dựng bao gồm:
+                a) Thông tin chung: Tên dự án, nhóm dự án; địa điểm xây dựng; người quyết định đầu tư;
+chủ đầu tư; mục tiêu, quy mô đầu tư;
+              b) Thông tin chi tiết: Các văn bản của cơ quan nhà nước có thẩm quyền, kết quả thực hiện
+thủ tục hành chính theo quy định của pháp luật về xây dựng và pháp luật khác có liên quan (nếu có),
+các hồ sơ, văn bản liên quan đến dự án đầu tư xây dựng và một số hoặc các thông tin tại các hồ sơ,
+văn bản này, bao gồm: Văn bản về chủ trương đầu tư của cơ quan nhà nước có thẩm quyền; quyết
+định phê duyệt quy hoạch xây dựng hoặc quy hoạch có tính chất kỹ thuật chuyên ngành khác được
+sử dụng làm cơ sở lập dự án đầu tư xây dựng; kết quả thực hiện thủ tục về phòng cháy chữa cháy
+và bảo vệ môi trường; thông báo kết quả thẩm định Báo cáo nghiên cứu khả thi đầu tư xây dựng;
+quyết định phê duyệt dự án đầu tư xây dựng; thông tin về các tổ chức, cá nhân tham gia khảo sát, lập
+báo cáo nghiên cứu khả thi đầu tư xây dựng dự án; hồ sơ, văn bản có liên quan khác (nếu có).
+            2. Thông tin về công trình thuộc dự án đầu tư xây dựng được thu thập, cập nhật trong Cơ sở
+dữ liệu quốc gia về hoạt động xây dựng bao gồm:
+           a) Thông tin chung: Tên công trình, loại công trình, cấp công trình; địa điểm xây dựng; chủ
+đầu tư; quy mô đầu tư xây dựng chủ yếu; mã số thông tin dự án đầu tư xây dựng;
+              b) Thông tin chi tiết: Các văn bản của cơ quan nhà nước có thẩm quyền, kết quả thực hiện
+thủ tục hành chính theo quy định của pháp luật về xây dựng và pháp luật khác có liên quan (nếu có),
+các hồ sơ, văn bản liên quan đến công trình xây dựng và một số hoặc các thông tin tại các hồ sơ, văn
+bản này, bao gồm: Kết quả thực hiện thủ tục về phòng cháy chữa cháy và bảo vệ môi trường; thông
+báo kết quả thẩm định Báo cáo nghiên cứu khả thi đầu tư xây dựng; thông báo kết quả thẩm định
+thiết kế xây dựng triển khai sau thiết kế cơ sở; giấy phép xây dựng; thông báo kết quả kiểm tra công
+tác nghiệm thu hoàn thành công trình xây dựng; quyết định phê duyệt dự án đầu tư xây dựng; quyết
+định phê duyệt thiết kế xây dựng công trình; thông báo khởi công công trình xây dựng; quyết định
+phê duyệt quyết toán vốn đầu tư xây dựng; thông tin về các tổ chức, cá nhân tham gia khảo sát, thiết
+kế, thi công xây dựng công trình; hồ sơ, văn bản có liên quan khác (nếu có).
+              3. Thông tin về công trình xây dựng không yêu cầu lập dự án đầu tư xây dựng, chỉ yêu cầu
+cấp giấy phép xây dựng theo quy định của pháp luật về xây dựng được thu thập, cập nhật trong Cơ
+sở dữ liệu quốc gia về hoạt động xây dựng bao gồm:
+             a) Thông tin chung: Tên công trình xây dựng; loại, cấp công trình; địa điểm xây dựng; chủ
+đầu tư (chủ hộ gia đình đối với nhà ở riêng lẻ); quy mô đầu tư xây dựng chủ yếu;
+          b) Thông tin chi tiết: Giấy phép xây dựng, thông báo khởi công công trình xây dựng và một số
+hoặc các thông tin tại các văn bản này; thông tin về tổ chức, cá nhân tham gia khảo sát, lập, thẩm tra
+thiết kế (nếu có) và hồ sơ, văn bản có liên quan khác (nếu có).
+         4. Thông tin chung và một số thông tin chi tiết trong cơ sở dữ liệu về dự án đầu tư xây dựng,
+công trình xây dựng là dữ liệu mở được công bố trên cổng dữ liệu quốc gia, cổng thông tin điện tử
+của Bộ Xây dựng.
+            5. Dữ liệu chủ trong cơ sở dữ liệu về dự án đầu tư xây dựng, công trình xây dựng gồm mã số
+thông tin quy định tại điểm b, điểm c và điểm d khoản 2 Điều 8 Nghị định này và các thông tin chung
+nêu tại điểm a khoản 1, điểm a khoản 2 và điểm a khoản 3 Điều này.
+       Điều 8. Mã số thông tin trong hệ thống thông tin, Cơ sở dữ liệu quốc gia về hoạt động
+xây dựng
+                  1. Mỗi đồ án quy hoạch, dự án đầu tư xây dựng, công trình xây dựng gắn với một mã số
+thông tin, được cấp tự động tại thời điểm thông tin được khởi tạo lần đầu trên hệ thống thông tin về
+hoạt động xây dựng để đảm bảo tính duy nhất, đồng bộ, thống nhất.
+
+              2. Mã số thông tin của đồ án quy hoạch xây dựng, dự án đầu tư xây dựng, công trình xây
+dựng là dãy các chữ số thể hiện các thông tin sau:
+           a) Địa điểm thực hiện quy hoạch, loại đồ án quy hoạch và cấp độ quy hoạch, thời điểm khởi
+tạo mã số lần đầu, số lần thực hiện điều chỉnh quy hoạch, số thứ tự trong hệ thống đối với mã số
+thông tin về quy hoạch;
+          b) Địa điểm thực hiện dự án, thời điểm khởi tạo mã số lần đầu, số lần thực hiện điều chỉnh
+dự án, số thứ tự trong hệ thống đối với mã số thông tin về dự án đầu tư xây dựng;
+        c) Địa điểm thực hiện công trình, mã số dự án, thời điểm khởi tạo mã số lần đầu, số lần thực
+hiện điều chỉnh thiết kế, số thứ tự trong hệ thống đối với mã số thông tin về công trình xây dựng
+thuộc dự án đầu tư xây dựng;
+          d) Địa điểm thực hiện công trình, thời điểm khởi tạo mã số công trình lần đầu, số lần thực
+hiện điều chỉnh thiết kế, số thứ tự trong hệ thống đối với mã số thông tin về công trình xây dựng
+không thuộc dự án đầu tư xây dựng.
+        3. Mã số thông tin được thể hiện trên quyết định phê duyệt đồ án quy hoạch; thông báo kết
+quả thẩm định Báo cáo nghiên cứu khả thi đầu tư xây dựng, thiết kế xây dựng triển khai sau thiết kế
+cơ sở; quyết định phê duyệt dự án đầu tư xây dựng; quyết định phê duyệt thiết kế xây dựng triển khai
+sau thiết kế cơ sở; giấy phép xây dựng; thông báo kết quả kiểm tra công tác nghiệm thu hoàn thành
+công trình xây dựng.
+                4. Bộ trưởng Bộ Xây dựng hướng dẫn nội dung thông tin về quy hoạch xây dựng được quy
+định tại Điều 6 Nghị định này, thông tin về dự án đầu tư xây dựng, công trình xây dựng được quy
+định tại Điều 7 Nghị định này và mã số thông tin được quy định tại Điều này.
+        Điều 9. Nguồn thông tin trong Cơ sở dữ liệu quốc gia về hoạt động xây dựng
+          1. Thông tin trong Cơ sở dữ liệu quốc gia về hoạt động xây dựng quy định tại Nghị định này
+được thu thập từ các nguồn sau:
+             a) Kết quả thực hiện các thủ tục hành chính, nghiệp vụ của các cơ quan nhà nước có thẩm
+quyền;
+          b) Thông tin, dữ liệu được chia sẻ, liên kết từ Cơ sở dữ liệu quốc gia về dân cư, Cơ sở dữ
+liệu quốc gia về đăng ký doanh nghiệp và các cơ sở dữ liệu khác có liên quan;
+             c) Thông tin, dữ liệu được đồng bộ hóa từ nguồn dữ liệu chuyên ngành của các cơ quan có
+thẩm quyền và các nguồn dữ liệu khác có liên quan;
+             d) Thông tin, dữ liệu dự án đầu tư xây dựng, công trình xây dựng do chủ đầu tư cập nhật
+theo quy định tại Nghị định này.
+         2. Các cơ sở dữ liệu tham chiếu đến dữ liệu chủ quy định tại khoản 4 Điều 6 và khoản 5 Điều
+7 Nghị định này phải cập nhật, điều chỉnh theo dữ liệu chủ trong Cơ sở dữ liệu quốc gia về hoạt động
+xây dựng, đảm bảo sự thống nhất trong tất cả các cơ sở dữ liệu của cơ quan quản lý nhà nước.
+                 Điều 10. Khởi tạo mã số thông tin và nhập thông tin, dữ liệu vào Cơ sở dữ liệu quốc
+gia về hoạt động xây dựng
+        1. Mã số thông tin      của đồ án quy hoạch xây dựng quy định tại điểm a khoản 2 Điều 8 Nghị
+định này được cơ quan thẩm định quy hoạch khởi tạo khi trình phê duyệt đồ án quy hoạch xây dựng.
+           2. Mã số thông tin của dự án đầu tư xây dựng quy định tại điểm b khoản 2 Điều 8 Nghị định
+này được khởi tạo như sau:
+              a) Cơ quan chuyên môn về xây dựng khởi tạo khi có kết quả thẩm định Báo cáo nghiên cứu
+khả thi đầu tư xây dựng đạt yêu cầu đối với trường hợp dự án đầu tư xây dựng thuộc đối tượng phải
+thẩm định tại cơ quan chuyên môn về xây dựng;
+              b) Cơ quan nhà nước có thẩm quyền về cấp giấy phép xây dựng khởi tạo khi cấp giấy phép
+xây dựng công trình thuộc dự án đối với trường hợp dự án đầu tư xây dựng không thuộc đối tượng
+thẩm định tại cơ quan chuyên môn về xây dựng.
+          3. Mã số thông tin của công trình xây dựng thuộc dự án đầu tư xây dựng quy định tại điểm c
+khoản 2 Điều 8 Nghị định này được khởi tạo như sau:
+
+              a) Cơ quan chuyên môn về xây dựng khởi tạo khi thẩm định thiết kế xây dựng triển khai sau
+thiết kế cơ sở đạt yêu cầu đối với trường hợp công trình xây dựng thuộc đối tượng phải thẩm định tại
+cơ quan chuyên môn về xây dựng;
+                 b) Cơ quan nhà nước có thẩm quyền về cấp giấy phép xây dựng khởi tạo khi cấp giấy phép
+xây dựng công trình xây dựng đối với trường hợp công trình xây dựng không thuộc đối tượng thẩm
+định tại cơ quan chuyên môn về xây dựng.
+               4. Mã số thông tin về công trình xây dựng thuộc đối tượng không yêu cầu lập dự án đầu tư
+xây dựng quy định tại điểm d khoản 2 Điều 8 Nghị định này được cơ quan nhà nước có thẩm quyền
+về cấp giấy phép xây dựng khởi tạo khi cấp giấy phép xây dựng công trình.
+        5. Nhập thông tin, dữ liệu về quy hoạch xây dựng
+               a) Cơ quan thẩm định quy hoạch nhập thông tin chung về đồ án quy hoạch quy định tại điểm
+a khoản 2 Điều 6 Nghị định này khi thực hiện khởi tạo mã số thông tin theo quy định;
+           b) Cơ quan, tổ chức lập quy hoạch xây dựng cập nhật nội dung thông tin chi tiết quy định tại
+điểm b khoản 2 Điều 6 Nghị định này vào hệ thống thông tin, Cơ sở dữ liệu quốc gia về hoạt động
+xây dựng theo quy định tại Nghị định này trong thời hạn 15 ngày kể từ ngày có quyết định phê duyệt
+quy hoạch.
+        6. Nhập thông tin, dữ liệu về dự án đầu tư xây dựng, công trình xây dựng
+                  a) Cơ quan thực hiện thủ tục hành chính theo phân cấp về thẩm định, cấp giấy phép xây
+dựng nhập thông tin chung về dự án đầu tư xây dựng, công trình xây dựng quy định tại điểm a khoản
+1, điểm a khoản 2 và điểm a khoản 3 Điều 7 Nghị định này khi thực hiện khởi tạo mã số thông tin
+theo quy định và cập nhật kết quả giải quyết thủ tục hành chính do mình thực hiện trong thời hạn 05
+ngày làm việc kể từ ngày kết thúc thủ tục hành chính;
+        b) Chủ đầu tư (trừ chủ hộ gia đình đối với nhà ở riêng lẻ) cập nhật thông tin chi tiết quy định
+tại điểm b khoản 1, điểm b khoản 2 và điểm b khoản 3 Điều 7 Nghị định này trong thời hạn 15 ngày
+kể từ ngày nhận được kết quả thực hiện thủ tục hành chính trừ các thông tin do cơ quan nhà nước
+có thẩm quyền đã cập nhật theo quy định tại điểm a khoản này.
+               7. Các cơ quan, tổ chức thẩm định quy hoạch, thẩm định Báo cáo nghiên cứu khả thi đầu tư
+xây dựng, thẩm định thiết kế xây dựng triển khai sau thiết kế cơ sở, cấp giấy phép xây dựng chịu
+trách nhiệm về tính chính xác, kịp thời của các thông tin, dữ liệu đưa vào Cơ sở dữ liệu quốc gia về
+hoạt động xây dựng.
+                   Điều 11. Cập nhật, điều chỉnh thông tin trong hệ thống thông tin, Cơ sở dữ liệu quốc
+gia về hoạt động xây dựng
+               1. Thông tin trong hệ thống thông tin, Cơ sở dữ liệu quốc gia về hoạt động xây dựng được
+cập nhật, điều chỉnh từ các nguồn sau:
+           a) Kết quả điều chỉnh, bổ sung của quá trình thực hiện các thủ tục hành chính, nghiệp vụ của
+các cơ quan nhà nước có thẩm quyền;
+              b) Đề xuất sửa đổi, bổ sung của cơ quan, tổ chức, cá nhân khi thay đổi hoặc phát hiện các
+thông tin trong Cơ sở dữ liệu quốc gia về hoạt động xây dựng chưa đầy đủ, chính xác;
+        c) Từ các cơ sở dữ liệu khác có liên quan khi có thay đổi.
+            2. Các cơ quan, tổ chức, cá nhân cập nhật thông tin theo quy định tại khoản 5, khoản 6 Điều
+10 Nghị định này có trách nhiệm thực hiện việc cập nhật, điều chỉnh các thông tin tại điểm a khoản 1
+Điều này vào Cơ sở dữ liệu quốc gia về hoạt động xây dựng.
+           3. Trong thời hạn 05 ngày làm việc kể từ ngày nhận đề xuất hoặc phát hiện thông tin trong hệ
+thống thông tin, cơ sở dữ liệu chưa đầy đủ, chưa chính xác hoặc có sự sai lệch về nội dung giữa dữ
+liệu điện tử và hồ sơ, tài liệu bằng giấy thì cơ quan quản lý nhà nước có thẩm quyền quy định tại
+khoản 7 Điều 10 Nghị định này có trách nhiệm rà soát, kiểm tra và điều chỉnh thông tin, dữ liệu đảm
+bảo đầy đủ, chính xác.
+                    Điều 12. Khai thác, sử dụng hệ thống thông tin, Cơ sở dữ liệu quốc gia về hoạt động
+xây dựng
+        1. Phạm vi khai thác cơ sở dữ liệu
+
+                 a) Cơ quan quản lý nhà nước được quyền khai thác và sử dụng đầy đủ các trường dữ liệu
+trong Cơ sở dữ liệu quốc gia về hoạt động xây dựng theo quy định của pháp luật về công nghệ thông
+tin, giao dịch điện tử, an toàn thông tin mạng, an ninh mạng, tiếp cận thông tin và phù hợp với nhu
+cầu của đơn vị;
+                b) Cá nhân, tổ chức được quyền khai thác, sử dụng dữ liệu mở được công bố và được khai
+thác bằng văn bản đối với các dữ liệu còn lại trong Cơ sở dữ liệu quốc gia về hoạt động xây dựng
+theo quy định của pháp luật về công nghệ thông tin, giao dịch điện tử, an toàn thông tin mạng, an
+ninh mạng, tiếp cận thông tin và phù hợp với nhu cầu sử dụng của cá nhân, tổ chức.
+        2. Hình thức khai thác cơ sở dữ liệu
+        a) Nền tảng tích hợp, chia sẻ dữ liệu quốc gia;
+        b) Cổng thông tin điện tử của Bộ Xây dựng;
+           c) Bằng văn bản theo quy định của pháp luật về tiếp cận thông tin đối với các thông tin, dữ
+liệu không thuộc dữ liệu mở quy định tại khoản 3 Điều 6 và khoản 4 Điều 7 Nghị định này.
+                 3. Cơ quan quản lý nhà nước không được yêu cầu tổ chức, cá nhân cung cấp các giấy tờ,
+thông tin đã có trên Cơ sở dữ liệu quốc gia về hoạt động xây dựng.
+           4. Dữ liệu được tra cứu, khai thác từ Cơ sở dữ liệu quốc gia về hoạt động xây dựng theo quy
+định tại khoản 1 và khoản 2 Điều này có giá trị sử dụng chính thức, tương đương văn bản giấy trong
+các hoạt động có liên quan đến lĩnh vực hoạt động đầu tư xây dựng.
+        5. Cơ sở dữ liệu quốc gia về hoạt động xây dựng là nền tảng để triển khai các hoạt động
+chuyển đổi số trong quản lý hoạt động đầu tư xây dựng. Dữ liệu trong Cơ sở dữ liệu quốc gia về hoạt
+động xây dựng là tham chiếu gốc phục vụ tra cứu, khai thác để thực hiện các thủ tục hành chính có
+liên quan như lập, thẩm định, phê duyệt quy hoạch xây dựng; lập, thẩm định, phê duyệt Báo cáo
+nghiên cứu khả thi đầu tư xây dựng, thiết kế xây dựng triển khai sau thiết kế cơ sở; cấp giấy phép
+xây dựng; quản lý trật tự xây dựng; kiểm tra công tác nghiệm thu hoàn thành hạng mục công trình,
+công trình xây dựng; các thủ tục khác có liên quan đến đầu tư xây dựng theo quy định của pháp luật
+chuyên ngành khác.
+        Điều 13. Quy định về kết nối với hệ thống            thông tin, Cơ sở dữ liệu quốc gia về hoạt
+động xây dựng
+           1. Việc kết nối, chia sẻ dữ liệu trong Cơ sở dữ liệu quốc gia về hoạt động xây dựng với các
+cơ sở dữ liệu quốc gia khác và các cơ sở dữ liệu chuyên ngành được thực hiện theo các quy định
+pháp luật về quản lý, kết nối và chia sẻ dữ liệu số của cơ quan nhà nước.
+           2. Bộ Xây dựng thiết lập và công bố các dịch vụ chia sẻ dữ liệu thuộc phạm vi Cơ sở dữ liệu
+quốc gia về hoạt động xây dựng; ban hành các văn bản liên quan đến quy định kỹ thuật về cấu trúc,
+định dạng dữ liệu, gói tin, kết nối, chia sẻ dữ liệu với Cơ sở dữ liệu quốc gia về hoạt động xây dựng.
+               Điều 14. Kinh phí xây dựng, cập nhật, duy trì, quản lý khai thác hệ thống thông tin, Cơ
+sở dữ liệu quốc gia về hoạt động xây dựng
+            1. Kinh phí xây dựng, cập nhật, duy trì hệ thống thông tin, Cơ sở dữ liệu quốc gia về hoạt
+động xây dựng được thực hiện theo quy định pháp luật về quản lý đầu tư ứng dụng công nghệ thông
+tin sử dụng nguồn vốn ngân sách nhà nước.
+          2. Kinh phí thực hiện việc quản lý khai thác, đảm bảo an toàn thông tin được bố trí từ nguồn
+chi thường xuyên theo phân cấp ngân sách hiện hành.
+                                           Chương III
+                                       TỔ CHỨC THỰC HIỆN
+        Điều 15. Trách nhiệm của Bộ Xây dựng
+        1. Tổ chức xây dựng, quản lý, quản trị và duy trì hệ thống thông tin, Cơ sở dữ liệu quốc gia
+về hoạt động xây dựng gồm các công việc sau:
+        a) Xây dựng hạ tầng kỹ thuật, hệ thống phần mềm quản lý hệ thống thông tin, Cơ sở dữ liệu
+quốc gia về hoạt động xây dựng;
+
+         b) Thử nghiệm, cập nhật, bổ sung, kết nối, chia sẻ dữ liệu trong hệ thống thông tin, Cơ sở dữ
+liệu quốc gia về hoạt động xây dựng;
+                c) Kết nối cơ sở dữ liệu chuyên ngành khác vào Cơ sở dữ liệu quốc gia về hoạt động xây
+dựng; chia sẻ dữ liệu về hoạt động xây dựng với các hệ thống cơ sở dữ liệu quốc gia, hệ thống cơ sở
+dữ liệu chuyên ngành khác;
+           d) Thực hiện chọn lọc, làm sạch và cập nhật thông tin, dữ liệu trong Cơ sở dữ liệu quốc gia
+về hoạt động xây dựng.
+        2. Lộ trình thực hiện các công việc như sau:
+           a) Các công việc tại khoản 1 Điều này được thực hiện trong thời gian từ thời điểm Nghị định
+có hiệu lực đến ngày 31 tháng 12 năm 2025;
+                b) Hệ thống thông tin, Cơ sở dữ liệu quốc gia về hoạt động xây dựng đưa vào hoạt động,
+khai thác sử dụng trên toàn quốc kể từ ngày 01 tháng 01 năm 2026.
+              3. Kết nối, cung cấp dữ liệu từ Cơ sở dữ liệu quốc gia về hoạt động xây dựng lên Cổng dữ
+liệu quốc gia phục vụ cơ quan, tổ chức và cá nhân khai thác thông tin theo quy định tại Nghị định này.
+Việc kết nối, chia sẻ thông tin phải đảm bảo bí mật nhà nước, bí mật cá nhân theo các quy định của
+Chính phủ về quản lý, kết nối và chia sẻ dữ liệu số của cơ quan nhà nước.
+            4. Chủ trì, phối hợp với Bộ Thông tin và Truyền thông và các cơ quan có liên quan xây dựng
+phương án, giải pháp ứng cứu sự cố về an toàn thông tin, an ninh mạng cho hệ thống thông tin, Cơ
+sở dữ liệu quốc gia về hoạt động xây dựng; xây dựng và thực hiện giải pháp giám sát an toàn hệ
+thống thông tin, Cơ sở dữ liệu quốc gia về hoạt động xây dựng.
+           5. Chủ trì, phối hợp với Bộ Thông tin và Truyền thông và các cơ quan có liên quan xây dựng,
+ban hành theo thẩm quyền quy định kỹ thuật về cấu trúc dữ liệu trao đổi, các quy chế, quy trình chia
+sẻ dữ liệu trong phạm vi dữ liệu chuyên ngành thuộc thẩm quyền quản lý.
+            6. Hướng dẫn thực hiện các quy định của Nghị định này, kiểm tra về công tác thu thập, cung
+cấp, cập nhật, điều chỉnh, quản lý, khai thác và sử dụng thông tin trong Cơ sở dữ liệu quốc gia về
+hoạt động xây dựng.
+        Điều 16. Trách nhiệm của Bộ Thông tin và Truyền thông
+              1. Kết nối Cơ sở dữ liệu quốc gia về hoạt động xây dựng với nền tảng tích hợp chia sẻ dữ
+liệu quốc gia để cung cấp các dịch vụ dữ liệu cho các hệ thống thông tin trong cơ quan nhà nước.
+           2. Kết nối Cơ sở dữ liệu quốc gia về hoạt động xây dựng với cổng dữ liệu quốc gia, hệ thống
+quản lý dịch vụ chia sẻ dữ liệu để phục vụ các cơ quan nhà nước thực hiện các thủ tục yêu cầu và xử
+lý yêu cầu kết nối, chia sẻ dữ liệu.
+           3. Nghiên cứu, khai thác dữ liệu trong Cơ sở dữ liệu quốc gia về hoạt động xây dựng với các
+Cơ sở dữ liệu quốc gia, cơ sở dữ liệu của các bộ, ngành, địa phương để cung cấp thông tin phục vụ
+chỉ đạo điều hành, xây dựng chính sách, chiến lược phát triển Chính phủ điện tử.
+                  4. Phối hợp với Bộ Xây dựng và các cơ quan có liên quan xây dựng, ban hành theo thẩm
+quyền quy định, quy chuẩn kỹ thuật quốc gia về cấu trúc dữ liệu trao đổi giữa hệ thống thông tin, cơ
+sở dữ liệu với Cơ sở dữ liệu quốc gia về hoạt động xây dựng.
+        Điều 17. Trách nhiệm của Văn phòng Chính phủ
+             1. Phối hợp với Bộ Xây dựng hướng dẫn, tổ chức thực hiện kết nối, chia sẻ dữ liệu giữa Cơ
+sở dữ liệu quốc gia về hoạt động xây dựng và Cổng dịch vụ công quốc gia, hệ thống thông tin giải
+quyết thủ tục hành chính cấp bộ, cấp tỉnh phục vụ giải quyết thủ tục hành chính, cung cấp dịch vụ
+công.
+             2. Kết nối hệ thống thông tin báo cáo Chính phủ, Trung tâm Thông tin, điều hành của Chính
+phủ, Thủ tướng Chính phủ với Cơ sở dữ liệu quốc gia về hoạt động xây dựng phục vụ sự chỉ đạo,
+điều hành của Chính phủ, Thủ tướng Chính phủ.
+        Điều 18. Trách nhiệm của các bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ và Ủy
+ban nhân dân cấp tỉnh
+
+        1. Các bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ và Ủy ban nhân dân cấp tỉnh có
+trách nhiệm chỉ đạo các cơ quan, đơn vị trực thuộc thực hiện việc cung cấp dữ liệu thuộc thẩm quyền
+vào Cơ sở dữ liệu quốc gia về hoạt động xây dựng theo quy định của Nghị định này.
+        2. Các bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ và Ủy ban nhân dân cấp tỉnh có
+trách nhiệm chia sẻ, kết nối cơ sở dữ liệu quốc gia và cơ sở dữ liệu chuyên ngành đang quản lý với
+Cơ sở dữ liệu quốc gia về hoạt động xây dựng theo các quy định của Chính phủ về quản lý, kết nối
+và chia sẻ dữ liệu số của cơ quan nhà nước, phù hợp với các quy định về bảo mật và an toàn thông
+tin, bảo đảm quốc phòng, an ninh.
+                                          Chương IV
+                                     ĐIỀU KHOẢN THI HÀNH
+        Điều 19. Hiệu lực và trách nhiệm thi hành
+        Nghị định này có hiệu lực thi hành từ ngày 01 tháng 11 năm 2024.
+        Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ
+tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc Trung ương và các cơ quan, tổ chức, cá nhân có
+liên quan chịu trách nhiệm thi hành Nghị định này.
+ Nơi nhận:                                                      TM. CHÍNH PHỦ
+ - Ban Bí thư Trung ương Đảng;                                  KT. THỦ TƯỚNG
+ - Thủ tướng, các Phó Thủ tướng Chính phủ;                      PHÓ THỦ TƯỚNG
+ - Các bộ, cơ quan ngang bộ, cơ quan thuộc
+ Chính phủ;
+ - HĐND, UBND các tỉnh, thành phố trực thuộc                        [daky]
+ Trung ương;
+ - Văn phòng Trung ương và các Ban của Đảng;                     Trần Hồng Hà
+ - Văn phòng Tổng Bí thư;
+ - Văn phòng Chủ tịch nước;
+ - Hội đồng Dân tộc và các Ủy ban của Quốc hội;
+ - Văn phòng Quốc hội;
+ - Tòa án nhân dân tối cao;
+ - Viện kiểm sát nhân dân tối cao;
+ - Kiểm toán nhà nước;
+ - Ủy ban Giám sát tài chính Quốc gia;
+ - Ngân hàng Chính sách xã hội;
+ - Ngân hàng Phát triển Việt Nam;
+ - Ủy ban trung ương Mặt trận Tổ quốc Việt
+ Nam;
+ - Cơ quan trung ương của các đoàn thể;
+ - Ủy ban quốc gia về ứng dụng CNTT;
+ - VPCP: BTCN, các PCN, Trợ lý TTg, TGĐ
+ Cổng TTĐT, các Vụ, Cục, đơn vị trực thuộc,
+ Công báo;
+ - Lưu: VT, CN (2b). Tuấn

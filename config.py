@@ -7,11 +7,14 @@ API_PORT = 5000
 
 # --- Cấu hình Đường dẫn ---
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-INPUT_TXT_FOLDER = os.path.join(BASE_DIR, "data")
-TESSDATA_DIR = os.path.join(BASE_DIR, "..", "data", "tessdata")
+CORE_DATA_FOLDER = os.path.join(BASE_DIR, "data", "core")
+PENDING_UPLOADS_FOLDER = os.path.join(BASE_DIR, "data", "pending_uploads")
+PROCESSED_FILES_FOLDER = os.path.join(BASE_DIR, "data", "processed_files")
+FAILED_FILES_FOLDER = os.path.join(BASE_DIR, "data", "failed_files")
+PROCESSED_HASH_LOG = os.path.join(BASE_DIR, "data", "processed_hashes.log")
+TESSDATA_DIR = os.path.join(BASE_DIR, "data", "tessdata")
+
 # Cấu hình cho DB
-# CHROMA_PERSIST_DIR = os.path.join(BASE_DIR, "vector_store")
-# CHROMA_COLLECTION_NAME = "luat_vn_docs" # Đặt tên cho collection
 WEAVIATE_URL = "http://weaviate:8080"
 WEAVIATE_COLLECTION_NAME = "LawDocuments"
 
@@ -38,3 +41,5 @@ LLM_MAX_NEW_TOKENS = 1024
 SECRET_KEY = "4pqtnocaspevbuquv2vwkwvgf60t5lk1pbf7zsu1eikpc604cvktuuz5zl68hmvh"
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 60
+
+LLAMA_CLOUD_API_KEY="llx-yvHfZ8BOQL6imOd2cudcMKpFcsEnjiAdBEy8uQANsCujCiOW"

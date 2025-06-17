@@ -11,7 +11,7 @@ Cách sử dụng:
 - Import vào code chính (ví dụ: create_retriever) và sử dụng để mở rộng truy vấn hoặc lọc tài liệu.
 - Có thể mở rộng bằng cách thêm các lĩnh vực hoặc cặp từ đồng nghĩa mới.
 """
-
+from typing import Optional, List
 SYNONYM_MAP = {
     "giao_thong": {
         "vượt đèn đỏ": [
@@ -428,6 +428,10 @@ SYNONYM_MAP = {
             "vi phạm quyền sở hữu trí tuệ",
             "phần mềm bất hợp pháp"
         ]
+    },
+    "general": { # Từ đồng nghĩa chung, không phụ thuộc lĩnh vực
+        "quy định": ["nội dung quy định", "quy tắc", "điều khoản"],
+        "như thế nào": ["ra sao", "cụ thể là gì"],
     }
 }
 
@@ -443,3 +447,20 @@ def get_synonyms(field, term):
         list: Danh sách các từ/cụm từ đồng nghĩa, hoặc [] nếu không tìm thấy.
     """
     return SYNONYM_MAP.get(field, {}).get(term.lower(), [])
+
+def get_synonyms_for_term(term: str, field: Optional[str] = None) -> List[str]:
+    """
+    Lấy danh sách từ đồng nghĩa cho một từ/cụm từ, có thể ưu tiên theo lĩnh vực.
+    """
+    term_lower = term.lower()
+    synonyms = []
+
+    # Ưu tiên lấy từ đồng nghĩa theo lĩnh vực cụ thể
+    if field and field in SYNONYM_MAP:
+        synonyms.extend(SYNONYM_MAP[field].get(term_lower, []))
+
+    # Lấy thêm từ đồng nghĩa chung
+    synonyms.extend(SYNONYM_MAP.get("general", {}).get(term_lower, []))
+
+    # Loại bỏ trùng lặp nếu có
+    return list(set(synonyms))

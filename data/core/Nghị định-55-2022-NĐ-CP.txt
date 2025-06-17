@@ -1,0 +1,292 @@
+CHÍNH PHỦ                        CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+             _______                            Độc lập - Tự do - Hạnh phúc
+        Số: 55/2022/NĐ-CP                         ________________________
+                                              Hà Nội, ngày 23 tháng 8 năm 2022
+                                                               NGHỊ ĐỊNH
+                     Quy định Cơ sở dữ liệu quốc gia về công tác tiếp công dân, xử lý đơn, giải quyết khiếu nại, tố
+                                                        cáo, kiến nghị, phản ánh
+                                                             _____________
+                   Căn cứ Luật Tổ chức Chính phủ ngày 19 tháng 6 năm 2015; Luật sửa đổi, bổ sung một số
+điều của Luật Tổ chức Chính phủ và Luật Tổ chức chính quyền địa phương ngày 22 tháng 11 năm
+2019;
+        Căn cứ Luật Tiếp công dân ngày 25 tháng 11 năm 2013;
+        Căn cứ Luật Khiếu nại ngày 11 tháng 11 năm 2011;
+        Căn cứ Luật Tố cáo ngày 12 tháng 6 năm 2018;
+        Căn cứ Luật Giao dịch điện tử ngày 29 tháng 11 năm 2005;
+        Căn cứ Luật Công nghệ thông tin ngày 29 tháng 6 năm 2006;
+        Căn cứ Luật An toàn thông tin mạng ngày 19 tháng 11 năm 2015;
+        Căn cứ Luật Tiếp cận thông tin ngày 06 tháng 4 năm 2016;
+        Theo đề nghị của Tổng Thanh tra Chính phủ;
+        Chính phủ ban hành Nghị định quy định Cơ sở dữ liệu quốc gia về công tác tiếp công dân, xử
+lý đơn, giải quyết khiếu nại, tố cáo, kiến nghị, phản ánh.
+                                                                Chương I
+                                                          NHỮNG QUY ĐỊNH CHUNG
+        Điều 1. Phạm vi điều chỉnh
+                Nghị định này quy định về xây dựng, cập nhật, quản lý, khai thác, sử dụng Cơ sở dữ liệu
+quốc gia về công tác tiếp công dân, xử lý đơn, giải quyết khiếu nại, tố cáo, kiến nghị, phản ánh; trách
+nhiệm của cơ quan, tổ chức, cá nhân có liên quan trong xây dựng, cập nhật, quản lý, khai thác, sử
+dụng Cơ sở dữ liệu quốc gia về công tác tiếp công dân, xử lý đơn, giải quyết khiếu nại, tố cáo, kiến
+nghị, phản ánh.
+        Điều 2. Đối tượng áp dụng
+                Nghị định này áp dụng đối với các bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ, Ủy ban
+nhân dân các cấp, các cơ quan thanh tra nhà nước, các cơ quan, tổ chức, cá nhân có thẩm quyền,
+trách nhiệm tiếp công dân, xử lý đơn, giải quyết khiếu nại, tố cáo, kiến nghị, phản ánh và các cơ
+quan, tổ chức, cá nhân khác có liên quan trong việc xây dựng, cập nhật, quản lý, khai thác, sử dụng
+Cơ sở dữ liệu quốc gia về công tác tiếp công dân, xử lý đơn, giải quyết khiếu nại, tố cáo, kiến nghị,
+phản ánh.
+        Điều 3. Cơ sở dữ liệu quốc gia về công tác tiếp công dân, xử lý đơn, giải quyết khiếu
+nại, tố cáo, kiến nghị, phản ánh
+        1. Cơ sở dữ liệu quốc gia về công tác tiếp công dân, xử lý đơn, giải quyết khiếu nại, tố cáo,
+kiến nghị, phản ánh (sau đây gọi tắt là Cơ sở dữ liệu) là tập hợp thông tin về việc khiếu nại, tố cáo,
+kiến nghị, phản ánh của cơ quan, tổ chức, cá nhân và thông tin, dữ liệu về công tác tiếp công dân, xử
+lý đơn, giải quyết khiếu nại, tố cáo và xử lý kiến nghị, phản ánh của cơ quan có thẩm quyền được
+chuẩn hóa, số hóa, lưu trữ, quản lý bằng cơ sở hạ tầng thông tin theo quy định của Nghị định này và
+pháp luật khác có liên quan.
+        2. Cơ sở dữ liệu được xây dựng, quản lý tập trung tại Thanh tra Chính phủ và được tổ chức
+cập nhật, khai thác tại các bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ, Ủy ban nhân dân các
+          Luatvietnam                                                       LuatVietnam.vn
+Tiện ích văn bản luật
+
+cấp nhằm phục vụ công tác quản lý nhà nước về tiếp công dân, giải quyết khiếu nại, tố cáo, kiến
+nghị, phản ánh.
+        Điều 4. Nguyên tắc xây dựng, cập nhật, quản lý, khai thác và sử dụng Cơ sở dữ liệu
+        1. Tuân thủ các quy định của pháp luật về tiếp công dân, xử lý đơn, giải quyết khiếu nại, tố
+cáo, kiến nghị, phản ánh, bảo vệ bí mật nhà nước, bảo vệ thông tin cá nhân và các quy định pháp
+luật khác có liên quan.
+        2. Bảo đảm phù hợp với khung kiến trúc hệ thống thông tin quốc gia, đáp ứng tiêu chuẩn về
+cơ sở dữ liệu và các tiêu chuẩn, quy chuẩn kỹ thuật, công nghệ thông tin.
+        3. Bảo đảm kịp thời, đầy đủ, chính xác và đúng thẩm quyền, mục đích theo quy định của
+pháp luật.
+        4. Bảo đảm việc quản lý, vận hành chặt chẽ, an toàn, ổn định và thông suốt.
+        Điều 5. Những hành vi bị nghiêm cấm
+        1. Cố ý không cập nhật hoặc cập nhật thông tin, dữ liệu không đầy đủ, không chính xác; làm
+sai lệch thông tin, thay đổi, xóa, hủy dữ liệu trái pháp luật trong Cơ sở dữ liệu.
+        2. Truy cập trái phép vào Cơ sở dữ liệu.
+        3. Khai thác, sử dụng, tiết lộ thông tin trong Cơ sở dữ liệu trái pháp luật hoặc lợi dụng việc
+cung cấp thông tin để trục lợi.
+        4. Phá hủy, phá hoại, làm hư hỏng hoặc hủy hoại hệ thống cơ sở hạ tầng thông tin hoặc cản
+trở quá trình vận hành, duy trì ổn định, liên tục của Cơ sở dữ liệu.
+                                           Chương II
+                      XÂY DỰNG, QUẢN LÝ, KHAI THÁC CƠ SỞ DỮ LIỆU
+                                             Mục 1
+                                 THÔNG TIN TRONG CƠ SỞ DỮ LIỆU
+        Điều 6. Thông tin được cập nhật trong Cơ sở dữ liệu
+        1. Thông tin về tiếp công dân:
+        a) Họ tên, địa chỉ của công dân;
+        b) Nội dung, kết quả tiếp công dân.
+        2. Thông tin về xử lý đơn:
+        a) Loại đơn: đơn khiếu nại, đơn tố cáo, đơn kiến nghị, phản ánh, đơn có nhiều nội dung khác
+nhau;
+        b) Đơn đủ điều kiện xử lý;
+        c) Đơn thuộc thẩm quyền giải quyết;
+        d) Đơn phải chuyển cho các cơ quan có thẩm quyền: Quốc hội, các cơ quan của Quốc hội,
+cơ quan thuộc Ủy ban Thường vụ Quốc hội, Hội đồng nhân dân các cấp; cơ quan hành chính nhà
+nước; cơ quan tiến hành tố tụng, thi hành án; Kiểm toán nhà nước; tổ chức chính trị, tổ chức chính trị
+- xã hội, tổ chức chính trị xã hội - nghề nghiệp, tổ chức xã hội, tổ chức xã hội - nghề nghiệp, tổ chức
+tôn giáo; đơn vị sự nghiệp công lập, doanh nghiệp nhà nước; các cơ quan, tổ chức, đơn vị khác;
+        đ) Đơn trả lại và hướng dẫn gửi đơn;
+        e) Đơn rút;
+        g) Đơn xếp lưu.
+        3. Thông tin về khiếu nại:
+        a) Họ tên, địa chỉ của người khiếu nại;
+        b) Tên, địa chỉ của cơ quan, tổ chức, cá nhân bị khiếu nại;
+        c) Tóm tắt nội dung khiếu nại và tình hình giải quyết khiếu nại;
+
+        d) Quyết định giải quyết khiếu nại lần đầu; quyết định giải quyết khiếu nại lần hai;
+        đ) Kết quả thi hành quyết định giải quyết khiếu nại có hiệu lực pháp luật.
+        4. Thông tin về tố cáo:
+        a) Họ tên, địa chỉ của người tố cáo;
+        b) Tên, địa chỉ của cơ quan, tổ chức, cá nhân bị tố cáo;
+        c) Tóm tắt nội dung tố cáo và tình hình giải quyết tố cáo;
+        d) Kết luận nội dung tố cáo; quyết định xử lý hành vi vi phạm bị tố cáo;
+        đ) Kết quả thực hiện kết luận nội dung tố cáo.
+        5. Thông tin về kiến nghị, phản ánh:
+        a) Họ tên, địa chỉ của người kiến nghị, phản ánh;
+        b) Tóm tắt nội dung kiến nghị, phản ánh;
+        c) Kết quả xử lý kiến nghị, phản ánh.
+        6. Báo cáo định kỳ, báo cáo vụ việc, báo cáo chuyên đề, báo cáo đột xuất về tiếp công dân,
+xử lý đơn, giải quyết khiếu nại, tố cáo, xử lý kiến nghị, phản ánh cập nhật theo yêu cầu của Thanh tra
+Chính phủ.
+        Điều 7. Nguồn thông tin cập nhật vào Cơ sở dữ liệu
+        1. Việc tiếp công dân, xử lý đơn; việc tiếp nhận, xử lý kiến nghị, phản ánh có liên quan trực
+tiếp đến quyền, lợi ích hợp pháp của người kiến nghị, phản ánh; vụ việc khiếu nại có thông báo thụ lý
+khiếu nại, vụ việc tố cáo có quyết định thụ lý giải quyết tố cáo kể từ ngày Nghị định này có hiệu lực
+pháp luật.
+        2. Vụ việc đã có quyết định giải quyết khiếu nại có hiệu lực pháp luật, vụ việc đã có kết luận
+nội dung tố cáo kể từ ngày 15 tháng 3 năm 2018 đến trước ngày Nghị định này có hiệu lực pháp luật.
+        3. Vụ việc khiếu nại, tố cáo phức tạp, kéo dài không thuộc trường hợp được quy định tại
+khoản 1, khoản 2 Điều này được cập nhật theo văn bản yêu cầu của Thanh tra Chính phủ.
+        Điều 8. Thời điểm nhập thông tin vào Cơ sở dữ liệu
+        1. Đối với trường hợp được quy định tại khoản 1 Điều 7 của Nghị định này, cơ quan có trách
+nhiệm bắt đầu cập nhật ngay sau khi có thông báo thụ lý khiếu nại, quyết định thụ lý tố cáo hoặc tiếp
+nhận xử lý kiến nghị, phản ánh và cập nhật trong quá trình tiếp công dân, xử lý đơn, giải quyết khiếu
+nại, tố cáo, xử lý kiến nghị, phản ánh.
+        2. Đối với trường hợp được quy định tại khoản 2 Điều 7 của Nghị định này, cơ quan có trách
+nhiệm cập nhật trong thời gian 12 tháng, kể từ ngày Nghị định này có hiệu lực pháp luật.
+        3. Đối với trường hợp được quy định tại khoản 6 Điều 6 và khoản 3 Điều 7 của Nghị định
+này, cơ quan có trách nhiệm cập nhật trong thời hạn 15 ngày, kể từ ngày nhận được văn bản yêu
+cầu của Thanh tra Chính phủ.
+        Điều 9. Cập nhật bổ sung, điều chỉnh thông tin trong Cơ sở dữ liệu
+        Trong thời hạn 05 ngày làm việc, kể từ ngày phát hiện thông tin trong Cơ sở dữ liệu chưa
+đầy đủ, chính xác hoặc có sự sai lệch về nội dung giữa dữ liệu điện tử và hồ sơ, tài liệu nghiệp vụ
+bằng giấy thì cơ quan cập nhật dữ liệu phải tiến hành kiểm tra, cập nhật bổ sung, điều chỉnh.
+                                              Mục 2
+                      TRÁCH NHIỆM XÂY DỰNG, QUẢN LÝ, KHAI THÁC CƠ SỞ DỮ LIỆU
+        Điều 10. Trách nhiệm của Thanh tra Chính phủ
+        1. Tổ chức xây dựng, vận hành hạ tầng kỹ thuật, quản trị hệ thống Cơ sở dữ liệu.
+        2. Giao Ban Tiếp công dân trung ương thực hiện việc cập nhật đầy đủ, kịp thời thông tin, dữ
+liệu về công tác tiếp công dân, xử lý đơn khiếu nại, tố cáo, kiến nghị, phản ánh vào Cơ sở dữ liệu.
+Các đơn vị khác thuộc Thanh tra Chính phủ có trách nhiệm cập nhật kịp thời thông tin, dữ liệu những
+vụ việc được giao chủ trì giải quyết vào Cơ sở dữ liệu.
+
+        3. Cung cấp thông tin về công tác tiếp công dân, xử lý đơn, giải quyết khiếu nại, tố cáo, kiến
+nghị, phản ánh từ Cơ sở dữ liệu do mình cập nhật, quản lý theo yêu cầu của cơ quan, tổ chức, cá
+nhân có thẩm quyền theo quy định của pháp luật.
+        4. Tổ chức, chỉ đạo, hướng dẫn việc cập nhật, khai thác, sử dụng Cơ sở dữ liệu trên phạm vi
+toàn quốc; chuẩn hóa và hướng dẫn kết nối, đồng bộ với các Cơ sở dữ liệu khác có liên quan.
+        5. Kiểm tra, thanh tra trách nhiệm của Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng
+cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân cấp tỉnh trong việc tổ chức cập nhật, quản lý,
+khai thác, sử dụng Cơ sở dữ liệu theo quy định.
+        6. Thực hiện chuẩn hóa, điện tử hóa chế độ báo cáo; phối hợp với Văn phòng Chính phủ
+thực hiện kết nối Cơ sở dữ liệu với hệ thống báo cáo của Chính phủ, Trung tâm Thông tin, chỉ đạo
+điều hành của Chính phủ, Thủ tướng Chính phủ.
+        7. Thực hiện các nhiệm vụ khác do Chính phủ, Thủ tướng Chính phủ giao.
+        Điều 11. Trách nhiệm của bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ và Ủy ban
+nhân dân các cấp
+        1. Tổ chức cập nhật kịp thời thông tin, dữ liệu về công tác tiếp công dân, xử lý đơn, giải quyết
+khiếu nại, tố cáo, kiến nghị, phản ánh thuộc thẩm quyền vào Cơ sở dữ liệu.
+        2. Tổ chức, chỉ đạo cập nhật, thông báo kịp thời khi có sự thay đổi hoặc có sai sót thông tin,
+dữ liệu về công tác tiếp công dân, xử lý đơn, giải quyết khiếu nại, tố cáo, kiến nghị, phản ánh.
+        3. Tổ chức, chỉ đạo, hướng dẫn các cơ quan, đơn vị, cá nhân trong phạm vi quản lý của mình
+cung cấp thông tin để cập nhật vào Cơ sở dữ liệu.
+        4. Quản lý, khai thác, sử dụng thông tin, dữ liệu về tiếp công dân, xử lý đơn, giải quyết khiếu
+nại, tố cáo, kiến nghị, phản ánh do cơ quan mình cập nhật vào Cơ sở dữ liệu.
+        5. Cung cấp thông tin về công tác tiếp công dân, xử lý đơn, giải quyết khiếu nại, tố cáo, kiến
+nghị, phản ánh từ Cơ sở dữ liệu do mình cập nhật, quản lý theo yêu cầu của cơ quan, tổ chức, cá
+nhân có thẩm quyền theo quy định của Nghị định này và pháp luật khác có liên quan.
+        6. Bảo đảm nguồn lực cho hoạt động thu thập, cập nhật, khai thác, quản lý và sử dụng thông
+tin, dữ liệu thuộc phạm vi quản lý của mình.
+        7. Kiểm tra, thanh tra trách nhiệm theo thẩm quyền việc cập nhật, quản lý, khai thác, sử dụng
+Cơ sở dữ liệu của thủ trưởng các cơ quan, đơn vị và cá nhân thuộc phạm vi quản lý của mình.
+        Điều 12. Trách nhiệm của cơ quan thanh tra nhà nước các cấp
+        1. Giúp Thủ trưởng cơ quan quản lý nhà nước cùng cấp tổ chức việc cập nhật, quản lý, khai
+thác và sử dụng thông tin, dữ liệu về tiếp công dân, xử lý đơn, giải quyết khiếu nại, tố cáo, kiến nghị,
+phản ánh thuộc phạm vi quản lý của Thủ trưởng cơ quan quản lý nhà nước cùng cấp.
+        2. Giúp Thủ trưởng cơ quan quản lý nhà nước cùng cấp chỉ đạo, hướng dẫn, đôn đốc, kiểm
+tra, thanh tra việc cập nhật, quản lý, khai thác, sử dụng thông tin, dữ liệu về công tác tiếp công dân,
+xử lý đơn, giải quyết khiếu nại, tố cáo, kiến nghị, phản ánh trong phạm vi quản lý của bộ, ngành, địa
+phương mình.
+        Điều 13. Trách nhiệm của cơ quan, tổ chức, cá nhân có thẩm quyền tiếp công dân, giải
+quyết khiếu nại, tố cáo, xử lý kiến nghị, phản ánh
+        1. Cung cấp thông tin, dữ liệu về công tác tiếp công dân, xử lý đơn, giải quyết khiếu nại, tố
+cáo, xử lý kiến nghị, phản ánh cho cơ quan có trách nhiệm cập nhật khi được yêu cầu và thực hiện
+cập nhật theo yêu cầu của cơ quan có thẩm quyền; chịu trách nhiệm về tính chính xác của thông tin
+do mình cung cấp.
+        2. Sử dụng thông tin, dữ liệu về công tác tiếp công dân, xử lý đơn, giải quyết khiếu nại, tố
+cáo, kiến nghị, phản ánh do mình thu thập, cung cấp để phục vụ công tác quản lý.
+        Điều 14. Thẩm quyền, phạm vi khai thác Cơ sở dữ liệu
+        1. Các cơ quan có trách nhiệm cập nhật thông tin vào Cơ sở dữ liệu được khai thác thông tin,
+dữ liệu thuộc phạm vi cập nhật của cơ quan mình.
+        2. Cơ quan, tổ chức, cá nhân có quyền yêu cầu cung cấp thông tin, dữ liệu trong Cơ sở dữ
+
+liệu bao gồm:
+           a) Tổng Bí thư, Chủ tịch nước, Thủ tướng Chính phủ, Chủ tịch Quốc hội, Thường trực Ban Bí
+thư, Phó Chủ tịch nước, các Phó Thủ tướng Chính phủ và Thành viên Chính phủ, các Phó Chủ tịch
+Quốc hội và Ủy viên Ủy ban Thường vụ Quốc hội có quyền yêu cầu cung cấp thông tin, dữ liệu trong
+phạm vi toàn quốc;
+        b) Ủy ban Kiểm tra Trung ương, Văn phòng Trung ương Đảng và các Ban của Đảng ở Trung
+ương, Văn phòng Chủ tịch nước, Văn phòng Chính phủ, Văn phòng Quốc hội, Hội đồng Dân tộc và
+các Ủy ban của Quốc hội, Ban Dân nguyện, Ban Công tác đại biểu thuộc Ủy ban Thường vụ Quốc
+hội, Ủy ban trung ương Mặt trận Tổ quốc Việt Nam và các đại biểu Quốc hội có quyền yêu cầu cung
+cấp thông tin, dữ liệu trong phạm vi toàn quốc;
+             c) Các ban của Hội đồng nhân dân cấp tỉnh, Văn phòng Đoàn đại biểu Quốc hội và Hội đồng
+nhân dân cấp tỉnh, Văn phòng Ủy ban nhân dân cấp tỉnh, Văn phòng tỉnh ủy, thành ủy và các Ban
+thuộc tỉnh ủy, thành ủy, Ủy ban Mặt trận Tổ quốc tỉnh và đại biểu Hội đồng nhân dân cấp tỉnh có
+quyền yêu cầu cung cấp thông tin, dữ liệu trong phạm vi quản lý của Ủy ban nhân dân cấp tỉnh;
+                  d) Văn phòng và các ban của Hội đồng nhân dân cấp huyện, Văn phòng Ủy ban nhân dân
+cấp huyện, Văn phòng và các ban thuộc quận ủy, huyện ủy, thị ủy, thành ủy, Ủy ban Mặt trận Tổ
+quốc huyện và đại biểu Hội đồng nhân dân cấp huyện có quyền yêu cầu cung cấp thông tin, dữ liệu
+trong phạm vi quản lý của Ủy ban nhân dân cấp huyện;
+             đ) Các cơ quan, tổ chức, cá nhân khác có thẩm quyền yêu cầu cung cấp thông tin theo quy
+định của pháp luật.
+              3. Việc khai thác, sử dụng bí mật nhà nước trong Cơ sở dữ liệu được thực hiện theo quy
+định pháp luật về bảo vệ bí mật nhà nước.
+               Điều 15. Thủ tục yêu cầu và thực hiện yêu cầu cung cấp thông tin, dữ liệu từ Cơ sở dữ
+liệu
+            1. Cơ quan, tổ chức, cá nhân có thẩm quyền yêu cầu cung cấp thông tin, dữ liệu thực hiện
+yêu cầu bằng văn bản, trong đó xác định rõ nội dung thông tin, dữ liệu cần cung cấp, mục đích khai
+thác, sử dụng thông tin, dữ liệu.
+        2. Cơ quan có trách nhiệm cung cấp thông tin, dữ liệu xem xét, thực hiện cung cấp thông tin,
+dữ liệu theo yêu cầu, bảo đảm đúng nội dung, đối tượng trong thời hạn 05 ngày làm việc, kể từ ngày
+nhận được yêu cầu. Trường hợp vì lý do khách quan mà chưa cung cấp được thông tin, dữ liệu theo
+yêu cầu thì phải thông báo bằng văn bản cho cơ quan, tổ chức, cá nhân yêu cầu và nêu rõ lý do.
+              3. Cơ quan được yêu cầu cung cấp thông tin, dữ liệu có quyền từ chối yêu cầu trong các
+trường hợp sau:
+        a) Không thuộc các trường hợp quy định tại khoản 2 Điều 14 của Nghị định này;
+          b) Khi có căn cứ cho rằng yêu cầu đó trái pháp luật, vi phạm quy định về bảo vệ bí mật nhà
+nước, bí mật cá nhân, xâm phạm quyền, lợi ích hợp pháp của các cơ quan, tổ chức, cá nhân.
+        Điều 16. Trách nhiệm cung cấp thông tin từ Cơ sở dữ liệu
+        1. Thanh tra Chính phủ có trách nhiệm cung cấp thông tin theo yêu cầu tại các điểm a, b và đ
+khoản 2 Điều 14 của Nghị định này.
+           2. Thanh tra bộ, cơ quan ngang bộ có trách nhiệm cung cấp thông tin thuộc phạm vi quản lý
+theo yêu cầu của Bộ trưởng, Thủ trưởng cơ quan ngang bộ.
+              Đơn vị được giao cập nhật thông tin vào Cơ sở dữ liệu tại Văn phòng Chính phủ, cơ quan
+thuộc Chính phủ có trách nhiệm cung cấp thông tin thuộc phạm vi quản lý theo yêu cầu của Bộ
+trưởng, Chủ nhiệm Văn phòng Chính phủ, Thủ trưởng cơ quan thuộc Chính phủ.
+         3. Thanh tra tỉnh có trách nhiệm cung cấp thông tin theo yêu cầu tại điểm c, điểm đ khoản 2
+Điều 14 của Nghị định này.
+          4. Thanh tra huyện có trách nhiệm cung cấp thông tin theo yêu cầu tại điểm d, điểm đ khoản
+2 Điều 14 của Nghị định này.
+        Điều 17. Quản lý, bảo vệ Cơ sở dữ liệu
+        1. Cơ sở dữ liệu được quản lý, bảo vệ chặt chẽ, an toàn theo quy định của pháp luật.
+
+        2. Cơ quan được giao quản lý Cơ sở dữ liệu có trách nhiệm xây dựng các giải pháp kỹ thuật,
+quy trình nghiệp vụ, quy định về việc quản lý Cơ sở dữ liệu, vận hành hệ thống, lưu trữ dữ liệu, kiểm
+tra hệ thống và bảo đảm an ninh, an toàn thông tin, dữ liệu.
+        Điều 18. Kết nối, chia sẻ dữ liệu
+        1. Việc kết nối, chia sẻ thông tin, dữ liệu giữa Cơ sở dữ liệu quốc gia về công tác tiếp công
+dân, xử lý đơn, giải quyết khiếu nại, tố cáo, kiến nghị, phản ánh với các cơ sở dữ liệu quốc gia khác
+và các cơ sở dữ liệu chuyên ngành nhằm phục vụ yêu cầu quản lý của các cơ quan có thẩm quyền
+được thực hiện theo quy định của pháp luật.
+        2. Các bộ, ngành, địa phương chuẩn hóa dữ liệu có liên quan từ các cơ sở dữ liệu khác của
+mình để cập nhật vào Cơ sở dữ liệu theo quy định của pháp luật.
+        Điều 19. Đầu tư xây dựng và duy trì Cơ sở dữ liệu
+        1. Kinh phí đầu tư xây dựng, nâng cấp, mở rộng Cơ sở dữ liệu được bố trí từ nguồn ngân
+sách nhà nước và nguồn kinh phí khác theo quy định của pháp luật.
+        2. Kinh phí thực hiện việc quản lý, duy trì, cập nhật thông tin, dữ liệu được bố trí từ nguồn chi
+thường xuyên theo phân cấp ngân sách hiện hành.
+                                           Chương III
+                                    ĐIỀU KHOẢN THI HÀNH
+        Điều 20. Hiệu lực thi hành
+        Nghị định này có hiệu lực thi hành kể từ ngày 10 tháng 10 năm 2022.
+        Điều 21. Trách nhiệm thi hành
+        1. Tổng Thanh tra Chính phủ trong phạm vi chức năng, nhiệm vụ, quyền hạn được giao có
+trách nhiệm tổ chức thực hiện và hướng dẫn, kiểm tra việc thi hành Nghị định này.
+        2. Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ
+tịch Ủy ban nhân dân các cấp, Thủ trưởng cơ quan thanh tra nhà nước, người có thẩm quyền, trách
+nhiệm tiếp công dân, xử lý đơn, giải quyết khiếu nại, tố cáo, kiến nghị, phản ánh và các cơ quan, tổ
+chức, cá nhân khác có liên quan chịu trách nhiệm thi hành Nghị định này.
+ Nơi nhận:                                                             TM. CHÍNH PHỦ
+ - Ban Bí thư Trung ương Đảng;                                       KT. THỦ TƯỚNG
+ - Thủ tướng, các Phó Thủ tướng Chính phủ;                             PHÓ THỦ TƯỚNG
+ - Các bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ;
+ - HĐND, UBND các tỉnh, thành phố trực thuộc trung ương;
+ - Văn phòng Trung ương và các Ban của Đảng;
+ - Văn phòng Tổng Bí thư;
+ - Văn phòng Chủ tịch nước:                                            Lê Minh Khái
+ - Hội đồng Dân tộc và các Ủy ban của Quốc hội;
+ - Văn phòng Quốc hội;
+ - Tòa án nhân dân tối cao
+ - Viện kiểm sát nhân dân tối cao;
+ - Kiểm toán nhà nước;
+ - Ủy ban Giám sát tài chính Quốc gia;
+ - Ngân hàng Chính sách xã hội;
+ - Ngân hàng Phát triển Việt Nam;
+ - Ủy ban trung ương Mặt trận Tổ quốc Việt Nam;
+ - Cơ quan trung ương của các đoàn thể;
+ - Ban Dân nguyện thuộc UBTVQH;
+ - Ban Công tác đại biểu thuộc UBTVQH;
+ - Ban tiếp công dân trung ương;
+ - VPCP: BTCN, các PCN, Trợ lý TTg, TGĐ Cổng TTĐT,
+ các Vụ, Cục, đơn vị trực thuộc, Công báo;
+ - Lưu: VT, V.I (3).

@@ -1,0 +1,966 @@
+CHÍNH PHỦ                           CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+             __________                            Độc lập - Tự do - Hạnh phúc
+         Số: 135/2024/NĐ-CP                                ______________________
+                                                 Hà Nội, ngày 22 tháng 10 năm 2024
+                                            NGHỊ ĐỊNH
+                       Quy định cơ chế, chính sách khuyến khích phát triển
+                          điện mặt trời mái nhà tự sản xuất, tự tiêu thụ
+                                         _______________
+        Căn cứ Luật Tổ chức Chính phủ ngày 19 tháng 6 năm 2015; Luật sửa đổi, bổ sung một số
+điều của Luật Tổ chức Chính phủ và Luật Tổ chức chính quyền địa phương ngày 22 tháng 11 năm
+2019;
+        Căn cứ Luật Điện lực ngày 03 tháng 12 năm 2004; Luật sửa đổi, bổ sung một số điều của
+Luật Điện lực ngày 20 tháng 11 năm 2012;
+        Căn cứ Luật Giao dịch điện từ ngày 22 tháng 6 năm 2023;
+        Theo đề nghị của Bộ trưởng Bộ Công Thương;
+        Chính phủ ban hành Nghị định quy định cơ chế, chính sách khuyến khích phát triển điện mặt
+trời mái nhà tự sản xuất, tự tiêu thụ.
+                                             Chương I
+                                       NHỮNG QUY ĐỊNH CHUNG
+        Điều 1. Phạm vi điều chỉnh
+        Nghị định này quy định về cơ chế, chính sách khuyến khích phát triển điện mặt trời tự sản
+xuất, tự tiêu thụ được lắp đặt trên mái nhà của công trình xây dựng gồm nhà ở, cơ quan công sở,
+khu công nghiệp, cụm công nghiệp, khu chế xuất, khu công nghệ cao, khu kinh tế, cơ sở sản xuất, cơ
+sở kinh doanh được đầu tư, xây dựng theo đúng quy định của pháp luật.
+        Việc mua bán điện trực tiếp giữa các tổ chức, cá nhân được thực hiện theo Nghị định về cơ
+chế mua bán điện trực tiếp giữa đơn vị phát điện năng lượng tái tạo và khách hàng sử dụng điện lớn.
+        Điều 2. Đối tượng áp dụng
+        1. Các tổ chức, cá nhân quản lý, tham gia phát triển điện mặt trời mái nhà tại Việt Nam theo
+hình thức tự sản xuất, tự tiêu thụ.
+        2. Các tổ chức, cá nhân khác có liên quan.
+        Điều 3. Giải thích từ ngữ
+        Trong Nghị định này các từ ngữ dưới đây được hiểu như sau:
+        1. Điện mặt trời mái nhà là điện được sản xuất từ các tấm quang điện theo nguyên lý biến đổi
+từ quang năng thành điện năng, thông qua kết cấu xây dựng nhằm lắp đặt trên mái nhà của công
+trình xây dựng, kết nối với thiết bị điện và phục vụ trực tiếp cho hoạt động phát điện.
+        2. Điện tự sản xuất, tự tiêu thụ là điện được sản xuất và tiêu thụ do tổ chức hoặc cá nhân
+thực hiện để phục vụ chính cho nhu cầu của tổ chức, cá nhân đó.
+        3. Điện mặt trời mái nhà tự sản xuất, tự tiêu thụ có đấu nối với hệ thống điện quốc gia là điện
+mặt trời mái nhà để sản xuất, cung cấp điện cho phụ tải tại chỗ có đấu nối với hệ thống điện quốc gia
+hoặc cung cấp điện cho phụ tải tại chỗ có liên kết vật lý với hệ thống điện quốc gia.
+        4. Điện mặt trời mái nhà tự sản xuất, tự tiêu thụ không đấu nối với hệ thống điện quốc gia   là
+điện mặt trời mái nhà để sản xuất, cung cấp điện cho phụ tải tại chỗ không đấu nối với hệ thống điện
+quốc gia và cung cấp điện cho phụ tải tại chỗ không liên kết vật lý với hệ thống điện quốc gia.
+        5. Liên kết vật lý với hệ thống điện quốc gia là đấu nối điện giữa phụ tải điện của tổ chức, cá
+nhân với lưới điện của đơn vị điện lực, trong đó lưới điện của đơn vị điện lực     (trừ đơn vị điện lực
+thuộc Tập đoàn Điện lực Việt Nam) có đấu nối với hệ thống điện quốc gia.
+          Luatvietnam                                                         LuatVietnam.vn
+Tiện ích văn bản luật
+
+             6. Sản lượng điện dư là sản lượng điện của điện mặt trời mái nhà tự sản xuất, tự tiêu thụ
+không sử dụng hết cho phụ tải và phát phần còn lại vào hệ thống điện quốc gia.
+                 7. Bên mua điện dư là Tập đoàn Điện lực Việt Nam hoặc đơn vị thành viên được Tập đoàn
+Điện lực Việt Nam ủy quyền.
+          8. Bên bán điện dư là tổ chức, cá nhân sở hữu điện mặt trời mái nhà tự sản xuất, tự tiêu thụ
+hoặc tổ chức, cá nhân tiếp nhận quyền và nghĩa vụ của tổ chức, cá nhân nêu trên theo quy định của
+pháp luật.
+                                           Chương II
+              PHÁT TRIỂN ĐIỆN MẶT TRỜI MÁI NHÀ TỰ SẢN XUẤT, TỰ TIÊU THỤ
+        Điều 4. Nguyên tắc phát triển
+             1. Phát triển điện mặt trời mái nhà tự sản xuất, tự tiêu thụ phải bảo đảm công khai, minh
+bạch, bình đẳng giữa các đối tượng được quy định tại Nghị định này.
+             2. Hoạt động mua bán sản lượng điện dư (nếu có) của điện mặt trời mái nhà tự sản xuất, tự
+tiêu thụ thực hiện theo quy định tại Nghị định này.
+        3. Công suất phát triển điện mặt trời mái nhà tự sản xuất, tự tiêu thụ có đấu nối với hệ thống
+điện quốc gia tại mỗi địa phương phải phù hợp với quy định tại Nghị định này, không bao gồm điện
+mặt trời mái nhà tự sản xuất, tự tiêu thụ tại các huyện, xã hải đảo có lưới điện nhưng chưa đấu nối,
+liên kết với hệ thống điện quốc gia.
+          4. Công trình xây dựng trước khi lắp đặt điện mặt trời mái nhà tự sản xuất, tự tiêu thụ phải
+bảo đảm đã tuân thủ quy định của pháp luật hiện hành về đầu tư, xây dựng, đất đai, môi trường, an
+toàn, phòng cháy chữa cháy. Phát triển điện mặt trời mái nhà tự sản xuất, tự tiêu thụ phải tuân thủ
+quy định pháp luật về an toàn điện, đầu tư, xây dựng, môi trường, phòng cháy chữa cháy.
+        5. Trong quá trình đầu tư xây dựng điện mặt trời mái nhà tự sản xuất, tự tiêu thụ, tổ chức, cá
+nhân không sử dụng các tấm quang điện, thiết bị chuyển đổi điện một chiều thành điện xoay chiều
+nhập khẩu đã qua sử dụng.
+        6. Điện mặt trời mái nhà tự sản xuất, tự tiêu thụ được vận hành bảo đảm an toàn hệ thống
+điện quốc gia bình đẳng như các nguồn điện năng lượng tái tạo khác (điện mặt trời, điện gió).
+              Điều 5. Các hành vi trái quy định trong quá trình phát triển, vận hành điện mặt trời mái
+nhà tự sản xuất, tự tiêu thụ
+        1. Thực hiện phát triển điện mặt trời mái nhà tự sản xuất, tự tiêu thụ không đúng quy định tại
+Nghị định này.
+                 2. Xây dựng, lắp đặt, vận hành công suất vượt quá công suất đã thông báo hoặc được cơ
+quan có thẩm quyền cấp giấy chứng nhận đăng ký đối với điện mặt trời mái nhà tự sản xuất, tự tiêu
+thụ có đấu nối với hệ thống điện quốc gia.
+        3. Các tổ chức, cá nhân không tuân thủ lệnh điều độ của các cấp điều độ hệ thống điện.
+                Điều 6. Điện mặt trời mái nhà tự sản xuất, tự tiêu thụ không đấu nối với hệ thống điện
+quốc gia
+           Tổ chức, cá nhân trước khi lắp đặt điện mặt trời mái nhà tự sản xuất, tự tiêu thụ không đấu
+nối với hệ thống điện quốc gia thực hiện:
+                1. Thông báo công suất lắp đặt và địa điểm thực hiện đến Sở Công Thương và đơn vị điện
+lực địa phương.
+        2.           Thông báo đến cơ quan quản lý về xây dựng, phòng cháy chữa cháy tại địa phương để
+quản lý, theo dõi, hướng dẫn thực hiện theo quy định của pháp luật.
+                   Điều 7. Điện mặt trời mái nhà tự sản xuất, tự tiêu thụ có đấu nối với hệ thống điện
+quốc gia
+           1. Tổ chức, cá nhân khi thực hiện phát triển điện mặt trời mái nhà tự sản xuất, tự tiêu thụ
+thông báo hoặc đăng ký theo quy định tại Nghị định này.
+             2. Tổ chức, cá nhân lựa chọn phát hoặc không phát sản lượng điện dư (nếu có) của điện mặt
+
+trời mái nhà tự sản xuất, tự tiêu thụ vào hệ thống điện quốc gia.
+            3. Tổ chức, cá nhân căn cứ quy mô, sản lượng điện tiêu thụ để thực hiện phát triển điện mặt
+trời mái nhà tự sản xuất, tự tiêu thụ, bảo đảm công suất phát triển nhỏ hơn hoặc bằng tổng công suất
+lắp đặt của phụ tải hiện có (phù hợp với sản lượng điện tiêu thụ tại 12 tháng gần nhất).
+       4. Đối với điện mặt trời mái nhà tự sản xuất, tự tiêu thụ có công suất lắp đặt từ 100 kW trở
+lên, tổ chức, cá nhân có trách nhiệm trang bị các thiết bị, phương tiện kết nối với hệ thống thu thập,
+giám sát, điều khiển theo yêu cầu kỹ thuật do Tập đoàn Điện lực Việt Nam công bố công khai.
+         5. Tổ chức, cá nhân, hộ gia đình, nhà ở riêng lẻ phát triển điện mặt trời mái nhà tự sản xuất,
+tự tiêu thụ có công suất lắp đặt dưới 100 kW thực hiện:
+                    a) Thông báo theo Mẫu số 04 tại Phụ lục ban hành kèm theo Nghị định này đến Sở Công
+Thương và đơn vị điện lực địa phương;
+                    b) Thông báo theo Mẫu số 04 tại Phụ lục ban hành kèm theo Nghị định này đến cơ quan
+quản lý về xây dựng, phòng cháy chữa cháy tại địa phương để quản lý, theo dõi, hướng dẫn thực
+hiện theo quy định của pháp luật.
+           6. Tổ chức, cá nhân trước khi lắp đặt điện mặt trời mái nhà tự sản xuất, tự tiêu thụ có công
+suất lắp đặt từ 100 kW đến dưới 1.000 kW thực hiện:
+                a) Thông báo theo Mẫu số 04 tại Phụ lục ban hành kèm theo Nghị định này kèm hồ sơ thiết
+kế đến Sở Công Thương;
+                    b) Thông báo theo Mẫu số 04 tại Phụ lục ban hành kèm theo Nghị định này đến cơ quan
+quản lý về xây dựng, phòng cháy chữa cháy tại địa phương để quản lý, theo dõi, hướng dẫn thực
+hiện theo quy định của pháp luật;
+                c) Thông báo theo Mẫu số 04 tại Phụ lục ban hành kèm theo Nghị định này đến đơn vị điện
+lực địa phương để quản lý, theo dõi, điều độ vận hành an toàn hệ thống điện. Trường hợp công suất
+thuộc quy hoạch, kế hoạch triển khai quy hoạch được phân bổ tại địa phương thì được bán điện dư
+theo quy định tại Nghị định này, trường hợp khác thực hiện theo quy định tại điểm b khoản 1 Điều 8
+Nghị định này.
+       Điều 8. Chính sách khuyến khích
+       1. Tổ chức, cá nhân lắp đặt điện mặt trời mái nhà tự sản xuất, tự tiêu thụ được miễn trừ giấy
+phép hoạt động điện lực và không giới hạn công suất trong các trường hợp:
+       a) Không đấu nối với hệ thống điện quốc gia;
+       b) Lắp đặt hệ thống thiết bị chống phát ngược điện vào hệ thống điện quốc gia;
+       c) Hộ gia đình, nhà ở riêng lẻ phát triển điện mặt trời mái nhà tự sản xuất, tự tiêu thụ có công
+suất dưới 100 kW.
+        2. Tổ chức, cá nhân lắp đặt điện mặt trời mái nhà tự sản xuất, tự tiêu thụ có công suất lắp đặt
+từ 1.000 kW trở lên và bán điện dư vào hệ thống điện quốc gia, thực hiện thủ tục về quy hoạch điện
+lực (trừ trường hợp thuộc quy mô công suất theo quy hoạch, kế hoạch thực hiện quy hoạch được
+phân bổ tại địa phương) và đề nghị cấp giấy phép hoạt động điện lực theo quy định của pháp luật.
+            3. Điện mặt trời mái nhà tự sản xuất, tự tiêu thụ được hưởng chính sách ưu đãi về thuế theo
+quy định của pháp luật thuế hiện hành.
+             4. Điện mặt trời mái nhà tự sản xuất, tự tiêu thụ được rút gọn các thủ tục hành chính theo
+quy định pháp luật chuyên ngành hiện hành.
+       5. Công trình xây dựng có lắp đặt điện mặt trời mái nhà tự sản xuất, tự      tiêu thụ không phải
+thực hiện điều chỉnh, bổ sung quy hoạch đất năng lượng và công năng theo quy định của pháp luật.
+          6. Điện mặt trời mái nhà tự sản xuất, tự tiêu thụ của hộ gia đình, nhà ở riêng lẻ; công sở và
+công trình được xác định là tài sản công được xác định là thiết bị công nghệ gắn vào công trình xây
+dựng.
+       7. Điện mặt trời mái nhà tự sản xuất, tự tiêu thụ có đấu nối với hệ thống điện quốc gia thuộc
+quy mô công suất theo quy hoạch, kế hoạch thực hiện quy hoạch và điện mặt trời mái nhà tự sản
+xuất, tự tiêu thụ có đấu nối với hệ thống điện quốc gia thuộc hộ gia đình, nhà ở riêng lẻ có công suất
+dưới 100 kW nếu không dùng hết được bán điện dư lên hệ thống điện quốc gia nhưng không quá
+
+20% công suất lắp đặt thực tế:
+       a) Tập đoàn Điện lực Việt Nam thanh toán cho tổ chức, cá nhân phần sản lượng điện dư
+phát lên hệ thống điện quốc gia nhưng không quá 20% công suất lắp đặt thực tế;
+       b) Giá mua bán điện dư phát lên hệ thống điện quốc gia bằng giá điện năng thị trường điện
+bình quân trong năm trước liền kề do đơn vị vận hành hệ thống điện và thị trường điện công bố nhằm
+bảo đảm khuyến khích phù hợp trong từng thời kỳ phát triển của hệ thống điện quốc gia;
+       c) Điện mặt trời mái nhà tự sản xuất, tự tiêu thụ lắp đặt trên mái công trình xây dựng là công
+sở hoặc công trình được xác định là tài sản công không thực hiện mua bán sản lượng điện dư.
+       8. Hộ gia đình, nhà ở riêng lẻ phát triển điện mặt trời mái nhà tự sản xuất, tự tiêu thụ được
+miễn hoặc không phải điều chỉnh giấy phép kinh doanh.
+       9. Khuyến khích tổ chức, cá nhân lắp đặt hệ thống lưu trữ điện để bảo đảm vận hành an
+toàn, ổn định hệ thống điện.
+                                           Chương III
+                         ĐĂNG KÝ PHÁT TRIỂN, THỰC HIỆN ĐẦU TƯ XÂY DỰNG,
+                           NGHIỆM THU, VẬN HÀNH ĐIỆN MẶT TRỜI MÁI NHÀ
+                                    TỰ SẢN XUẤT, TỰ TIÊU THỤ
+                                             Mục 1
+                       HOẠT ĐỘNG ĐĂNG KÝ PHÁT TRIỂN ĐIỆN MẶT TRỜI MÁI NHÀ
+                                 TỰ SẢN XUẤT, TỰ TIÊU THỤ
+       Điều 9. Cơ quan có thẩm quyền cấp và điều kiện cấp giấy chứng nhận đăng ký phát
+triển
+       1. Cơ quan có thẩm quyền cấp giấy chứng nhận đăng ký phát triển
+       Sở Công Thương cấp tỉnh thực hiện tiếp nhận hồ sơ và cấp giấy chứng nhận đăng ký phát
+triển.
+       2. Điều kiện cấp giấy chứng nhận đăng ký phát triển
+       a) Hồ sơ đăng ký phát triển điện mặt trời mái nhà tự sản xuất, tự tiêu thụ được quy định tại
+Điều 10 Nghị định này;
+       b) Đáp ứng quy định tại khoản 3 Điều này;
+       c) Văn bản thống nhất của đơn vị điện lực địa phương.
+       3. Điện mặt trời mái nhà tự sản xuất, tự tiêu thụ có đấu nối với hệ thống điện quốc gia, có
+công suất từ 1.000 kW trở lên:
+       a) Trường hợp bán sản lượng điện dư vào hệ thống điện quốc gia thì công suất phải phù hợp
+với quy mô công suất được phân bổ phát triển tại địa phương trong quy hoạch, kế hoạch thực hiện
+quy hoạch;
+       b) Trường hợp không bán sản lượng điện dư vào hệ thống điện quốc gia thì đăng ký thực
+hiện theo quy định tại điểm b khoản 1 Điều 8 Nghị định này.
+       Điều 10. Hồ sơ đăng ký phát triển điện mặt trời mái nhà tự sản xuất, tự tiêu thụ có đấu
+nối với hệ thống điện quốc gia
+       1. Cơ quan tiếp nhận hồ sơ
+       Cơ quan tiếp nhận hồ sơ đăng ký phát triển điện mặt trời mái nhà tự sản xuất, tự tiêu thụ
+theo quy định tại khoản 1 Điều 9 Nghị định này.
+       2. Hồ sơ đăng ký gồm:
+       a) Giấy đăng ký theo Mẫu số 01 tại Phụ lục ban hành kèm theo Nghị định này;
+       b) Hộ gia đình, nhà ở riêng lẻ cung cấp tài liệu: Bản vẽ thiết kế lắp đặt điện mặt trời mái nhà
+tự sản xuất, tự tiêu thụ; bản sao giấy phép xây dựng của công trình (nếu có) theo quy định của pháp
+luật;
+
+             c) Đối tượng còn lại cung cấp tài liệu: Bản vẽ thiết kế lắp đặt điện mặt trời mái nhà tự sản
+xuất, tự tiêu thụ; các bản sao chủ trương đầu tư, giấy phép xây dựng, nghiệm thu phòng cháy chữa
+cháy, kết quả nghiệm thu công trình xây dựng, tài liệu về bảo vệ môi trường do cơ quan có thẩm
+quyền cấp (nếu có) theo quy định của pháp luật.
+        Điều 11. Hình thức nộp hồ sơ
+        Tổ chức, cá nhân đăng ký phát triển điện mặt trời mái nhà tự sản xuất, tự tiêu thụ có đấu nối
+vào hệ thống điện quốc gia lập hồ sơ theo quy định tại Điều 10 Nghị định này và nộp theo một trong
+các hình thức sau:
+            1. Nộp hồ sơ trực tiếp tại trụ sở cơ quan tiếp nhận hồ sơ. Các bản sao tài liệu kèm theo chưa
+được chứng thực thì phải có bản chính để đối chiếu. Số lượng hồ sơ 01 bộ.
+        2. Gửi hồ sơ qua bưu điện. Các bản sao tài liệu kèm theo phải được chứng thực. Số lượng
+hồ sơ 01 bộ.
+                3. Trường hợp nộp hồ sơ qua Cổng thông tin điện tử của cơ quan tiếp nhận hồ sơ, thực hiện
+theo hình thức dịch vụ công trực tuyến.
+                    Điều 12. Trình tự cấp giấy chứng nhận đăng ký phát triển điện mặt trời mái nhà tự sản
+xuất, tự tiêu thụ
+        1. Điện mặt trời mái nhà tự sản xuất, tự tiêu thụ có đấu nối với hệ thống điện quốc gia:
+        a) Trường hợp hồ sơ không đầy đủ theo quy định hoặc không đáp ứng điều kiện quy định tại
+khoản 2 Điều 9 Nghị định này, trong thời hạn 03 ngày làm việc kể từ ngày nhận được hồ sơ, cơ quan
+tiếp nhận hồ sơ ra thông báo trả toàn bộ hồ sơ để tổ chức, cá nhân bổ sung và nộp lại hồ sơ theo
+quy định;
+                 b) Trường hợp hồ sơ đầy đủ và hợp lệ, trong thời hạn 10 ngày, kể từ khi nhận được hồ sơ,
+cơ quan tiếp nhận chịu trách nhiệm cấp giấy chứng nhận đăng ký phát triển theo Mẫu số 02 tại Phụ
+lục ban hành kèm theo Nghị định này. Trường hợp không đáp ứng yêu cầu, cơ quan tiếp nhận hồ sơ
+ra thông báo bằng văn bản và nêu rõ lý do. Trong quá trình giải quyết, cơ quan tiếp nhận hồ sơ đăng
+ký phát triển có trách nhiệm xác định thời điểm tiếp nhận theo thứ tự về thời gian để giải quyết theo
+quy định;
+        c) Sau khi tiếp nhận hồ sơ đăng ký hợp lệ, cơ quan tiếp nhận gửi hồ sơ đến đơn vị điện lực
+tại địa phương để lấy ý kiến về việc điện mặt trời mái nhà tự sản xuất, tự tiêu thụ đề nghị phát triển có
+hoặc không gây quá tải trạm biến áp, lưới điện hạ áp và phân phối tại khu vực đăng ký phát triển,
+công suất đề nghị có hoặc không phù hợp phụ tải hiện có (căn cứ theo sản lượng điện tiêu thụ tại 12
+tháng gần nhất). Đơn vị điện lực phải xem xét, giải quyết và gửi ý kiến cho cơ quan tiếp nhận trong
+thời hạn tối đa 07 ngày.
+        Điều 13. Điều chỉnh, bổ sung giấy chứng nhận đăng ký phát triển
+        Khi có thay đổi thông tin về chủ sở hữu công trình, thông tin quy mô công suất, thời gian
+hoàn thành lắp đặt, hình thức lựa chọn phát, bán sản lượng điện dư của điện mặt trời mái nhà tự sản
+xuất, tự tiêu thụ được ghi trong Giấy chứng nhận thì được điều chỉnh, bổ sung theo quy định sau:
+        1. Hồ sơ thực hiện theo quy định tại Điều 10 Nghị định này.
+        2. Hình thức nộp hồ sơ thực hiện theo quy định tại Điều 11 Nghị định này.
+        3. Trình tự cấp điều chỉnh, bổ sung thực hiện theo quy định tại Điều 12 Nghị định này.
+        Điều 14. Thu hồi giấy chứng nhận đăng ký phát triển
+        Cơ quan cấp Giấy chứng nhận đăng ký phát triển điện mặt trời mái nhà tự sản xuất, tự tiêu
+thụ xem xét, quyết định thu hồi trong các trường hợp sau đây:
+        1. Phần công suất hoặc công trình xây dựng có lắp đặt điện mặt trời mái nhà tự sản xuất, tự
+tiêu thụ phải thực hiện giải phóng mặt bằng theo quyết định của cấp có thẩm quyền.
+        2. Tổ chức, cá nhân không tiếp tục phát triển, vận hành điện mặt trời mái nhà tự sản xuất, tự
+tiêu thụ.
+        3. Giả mạo các giấy tờ trong hồ sơ đăng ký; cấp giấy chứng nhận không đúng thẩm quyền và
+các trường hợp khác theo quyết định của các cơ quan có thẩm quyền.
+
+        4. Sau 60 ngày kể từ thời điểm hoàn thành lắp đặt được ghi trong giấy chứng nhận đăng ký
+phát triển, tổ chức, cá nhân chưa thực hiện lắp điện mặt trời mái nhà tự sản xuất, tự tiêu thụ.
+                                             Mục 2
+                       HOẠT ĐỘNG THỰC HIỆN ĐẦU TƯ XÂY DỰNG ĐIỆN MẶT TRỜI
+                                MÁI NHÀ TỰ SẢN XUẤT, TỰ TIÊU THỤ
+        Điều 15. Đối tượng là hộ gia đình, nhà ở riêng lẻ
+        Tổ chức, cá nhân triển khai xây dựng, lắp đặt điện mặt trời mái nhà tự sản xuất, tự tiêu thụ
+theo quy định sau:
+        1. Đối với trường hợp điện mặt trời mái nhà tự sản xuất, tự tiêu thụ không đấu nối với hệ
+thống điện quốc gia
+        a) Mua sắm thiết bị theo đúng quy định tại Nghị định này và phù hợp với tiêu chuẩn, quy
+chuẩn áp dụng;
+        b) Bảo đảm an toàn xây dựng, môi trường, phòng cháy và chữa cháy theo quy định của pháp
+luật trong quá trình tổ chức lắp đặt.
+        2. Đối với trường hợp điện mặt trời mái nhà tự sản xuất, tự tiêu thụ có đấu nối với hệ thống
+điện quốc gia
+        a) Hộ gia đình, cá nhân tổ chức thực hiện thiết kế, lắp đặt điện mặt trời mái nhà tự sản xuất,
+tự tiêu thụ phù hợp với hướng dẫn của các cơ quan quản lý nhà nước về xây dựng, phòng cháy và
+chữa cháy tại địa phương và công suất đã thông báo cho các cơ quan, đơn vị quy định  tại khoản 5
+hoặc khoản 6 Điều 7 Nghị định này;
+        b) Mua sắm thiết bị theo đúng quy định tại Nghị định này và phù hợp với tiêu chuẩn, quy
+chuẩn áp dụng.
+        c) Bảo đảm an toàn xây dựng, phòng cháy và chữa cháy, môi trường theo quy định của pháp
+luật trong quá trình tổ chức lắp đặt.
+        Điều 16. Đối tượng là tổ chức, cá nhân khác
+        Tổ chức, cá nhân triển khai đầu tư, xây dựng, lắp đặt điện mặt trời mái nhà tự sản xuất, tự
+tiêu thụ theo quy định sau:
+        1. Đối với trường hợp điện mặt trời mái nhà tự sản xuất, tự tiêu thụ không đấu nối với hệ
+thống điện quốc gia
+        a) Mua sắm thiết bị theo đúng quy định tại Nghị định này và phù hợp với tiêu chuẩn, quy
+chuẩn áp dụng;
+        b) Bảo đảm an toàn xây dựng, môi trường, phòng cháy và chữa cháy theo quy định của pháp
+luật trong quá trình tổ chức lắp đặt.
+        2. Đối với trường hợp điện mặt trời mái nhà tự sản xuất, tự tiêu thụ có đấu nối với hệ thống
+điện quốc gia
+        a) Tổ chức, cá nhân thực hiện hoạt động đầu tư xây dựng điện mặt trời mái nhà tự sản xuất,
+tự tiêu thụ phù hợp với hướng dẫn của các cơ quan quản lý nhà nước về xây dựng, phòng cháy và
+chữa cháy, môi trường và công suất được cấp trong giấy chứng nhận đăng ký phát triển hoặc công
+suất đã thông báo cho các cơ quan, đơn vị tại khoản 6 Điều 7 Nghị định này. Trường hợp bán sản
+lượng điện dư, tổ chức, cá nhân thực hiện theo đúng hướng dẫn cơ quan quản lý nhà nước tại địa
+phương;
+        b) Phối hợp với đơn vị điện lực để được hướng dẫn công tác thiết kế, lắp đặt, đấu nối kỹ
+thuật điện nhằm bảo đảm an toàn điện trong quá trình vận hành;
+        c) Mua sắm thiết bị theo đúng quy định tại Nghị định này và phù hợp với tiêu chuẩn, quy
+chuẩn áp dụng;
+        d) Bảo đảm an toàn xây dựng, phòng cháy và chữa cháy, môi trường theo quy định của pháp
+luật trong quá trình tổ chức lắp đặt.
+                                             Mục 3
+
+                      HOẠT ĐỘNG NGHIỆM THU, VẬN HÀNH ĐIỆN MẶT TRỜI MÁI NHÀ
+                                    TỰ SẢN XUẤT, TỰ TIÊU THỤ
+        Điều 17. Nghiệm thu đầu tư xây dựng, lắp đặt
+        1. Đối với hộ gia đình, nhà ở riêng lẻ
+              a) Thực hiện nghiệm thu lắp đặt theo hướng dẫn của cơ quan quản lý nhà nước về xây dựng
+tại địa phương;
+              b) Thực hiện công tác an toàn điện, xây dựng, phòng cháy và chữa cháy, môi trường trước
+khi đưa điện mặt trời mái nhà tự sản xuất, tự tiêu thụ vào khai thác, sử dụng.
+        2. Đối với tổ chức, cá nhân khác
+               a) Thực hiện nghiệm thu đầu tư xây dựng theo hướng dẫn của cơ quan quản lý nhà nước về
+xây dựng, môi trường, phòng cháy và chữa cháy, điện lực trước khi đưa điện mặt trời mái nhà tự sản
+xuất, tự tiêu thụ vào khai thác, sử dụng, bảo đảm chất lượng điện năng theo quy định của pháp luật
+hiện hành;
+                b) Trường hợp tổ chức, cá nhân bán sản lượng điện dư vào hệ thống điện quốc gia, thực
+hiện thủ tục cấp giấy phép hoạt động điện lực theo quy định tại Nghị định này và pháp luật về điện
+lực.
+              3. Nghiệm thu hệ thống đo đếm và thu thập dữ liệu đo đếm từ xa, hệ thống giám sát, điều
+khiển tại chỗ và kết nối thông tin với hệ thống thu thập, giám sát, điều khiển của cấp điều độ phân
+phối của điện mặt trời mái nhà tự sản xuất, tự tiêu thụ có đấu nối với hệ thống điện quốc gia:
+        a) Đối với điện mặt trời mái nhà tự sản xuất, tự tiêu thụ có công suất lắp đặt dưới 100 kW và
+bán điện dư vào hệ thống điện quốc gia, đơn vị điện lực phối hợp, nghiệm thu hệ thống đo đếm và
+kết nối với hệ thống thu thập dữ liệu đo đếm từ xa của bên mua điện dư;
+         b) Đối với điện mặt trời mái nhà tự sản xuất, tự tiêu thụ có công suất lắp đặt từ 100 kW trở
+lên, đơn vị điện lực phối hợp nghiệm thu hệ thống đo đếm và thu thập dữ liệu đo đếm từ xa, hệ thống
+giám sát, điều khiển tại chỗ và kết nối thông tin với hệ thống thu thập, giám sát, điều khiển của cấp
+điều độ phân phối.
+            4. Chủ đầu tư thực hiện nghiệm thu lắp đặt hệ thống thiết bị chống phát ngược điện vào hệ
+thống điện quốc gia. Đơn vị điện lực phối hợp, kiểm tra nghiệm thu hệ thống thiết bị chống phát
+ngược điện vào hệ thống điện quốc gia.
+               Điều 18. Thực hiện mua bán điện đối với điện mặt trời mái nhà tự sản xuất, tự tiêu thụ
+bán điện dư
+           1. Tổ chức, cá nhân gửi hồ sơ đề nghị bán điện từ điện mặt trời mái nhà tự sản tự tiêu bao
+gồm: văn bản đề nghị bán điện, tài liệu kỹ thuật về tấm quang điện mặt trời, bộ biến đổi điện từ một
+chiều sang xoay chiều; đường dây tải điện; giấy chứng nhận xuất xưởng, chứng nhận chất lượng
+thiết bị (bản sao y); giấy chứng nhận đăng ký phát triển đối với đối tượng quy định tại Nghị định này
+hoặc văn bản của Sở Công Thương xác nhận công suất thuộc quy hoạch, kế hoạch thực hiện quy
+hoạch được phân bổ tại địa phương; hồ sơ hoàn thành công trình xây dựng theo pháp luật về xây
+dựng; các văn bản chấp thuận nghiệm thu (nếu có) của cơ quan nhà nước có thẩm quyền về xây
+dựng, phòng cháy và chữa cháy, môi trường theo quy định.
+           2. Các bên thực hiện kiểm tra kỹ thuật, lắp đặt công tơ đo đếm sản lượng điện, chốt chỉ số
+công tơ. Sau đó các bên ký hợp đồng mua bán điện và đóng điện, đưa điện mặt trời mái nhà tự sản
+xuất, tự tiêu thụ vào khai thác, sử dụng; thời hạn bên mua điện dư ký hợp đồng là 05 ngày làm việc
+kể từ ngày nhận được văn bản, hồ sơ đề nghị bán điện của bên bán điện dư.
+                3. Bên mua điện dư và bên bán điện dư ký kết hợp đồng mua bán điện theo Mẫu số 05 tại
+Phụ lục ban hành kèm theo Nghị định này.
+              4. Thời hạn của hợp đồng mua bán điện là 05 năm kể từ ngày điện mặt trời mái nhà tự sản
+xuất, tự tiêu thụ được đưa vào khai thác, sử dụng. Sau thời gian này, việc gia hạn thời gian hợp đồng
+hoặc ký hợp đồng mới thực hiện theo quy định của pháp luật hiện hành.
+                                           Chương IV
+                                     TỔ CHỨC THỰC HIỆN
+
+        Điều 19. Trách nhiệm của các bộ, ngành
+        1. Bộ Công Thương
+                   Chủ trì, phối hợp với Ủy ban nhân dân cấp tỉnh, Tập đoàn Điện lực Việt Nam và các bộ,
+ngành có liên quan thực hiện:
+         a) Quản lý, theo dõi tổng quy mô phát triển điện mặt trời mái nhà tự sản xuất, tự tiêu thụ trên
+phạm vi cả nước;
+        b) Hướng dẫn, kiểm tra các tổ chức, cá nhân thực hiện theo quy định tại Nghị định này;
+             c) Định kỳ hằng năm tổng kết, đánh giá kết quả thực hiện theo quy định tại Nghị định này và
+báo cáo Chính phủ xem xét, sửa đổi quy định để bảo đảm phù hợp với thực tiễn phát triển điện mặt
+trời mái nhà;
+              d) Căn cứ quy định của pháp luật về điện lực, chỉ đạo đơn vị vận hành hệ thống điện và thị
+trường điện công bố giá điện năng thị trường bình quân năm trước liền kề trong tháng 01 hàng năm;
+                    đ) Trên cơ sở khả năng đáp ứng về kỹ thuật, công nghệ, khả năng đáp ứng của hệ thống
+lưới truyền tải điện, căn cứ nhu cầu phát triển các loại hình nguồn điện tự sản xuất, tự tiêu thụ, kịp
+thời báo cáo Thủ tướng Chính phủ xem xét, quyết định việc điều chỉnh quy hoạch điện theo quy định
+của pháp luật về quy hoạch.
+                 2. Bộ, cơ quan ngang bộ, Ủy ban nhân dân cấp tỉnh trong phạm vi nhiệm vụ, quyền hạn của
+mình thực hiện quản lý nhà nước về phát triển điện mặt trời mái nhà tự sản xuất, tự tiêu thụ.
+        Điều 20. Trách nhiệm của Ủy ban nhân dân cấp tỉnh
+        1. Quản lý nhà nước về phát triển điện mặt trời mái nhà tự sản xuất, tự tiêu thụ tại địa
+phương. Yêu cầu các tổ chức, cá nhân có liên quan tại địa phương phải tuân thủ đúng thời gian, trình
+tự phát triển điện mặt trời mái nhà tự sản xuất, tự tiêu thụ. Khuyến khích xây dựng hệ thống dịch vụ
+công trực tuyến liên thông đối với thủ tục đăng ký phát triển điện mặt trời mái nhà tự sản xuất, tự tiêu
+thụ quy định tại Nghị định này.
+               2. Giao Sở Công Thương chủ trì, phối hợp với cơ quan, đơn vị liên quan kiểm tra việc tuân
+thủ các quy định về an toàn, phòng cháy và chữa cháy, bảo vệ môi trường trong quá trình đăng ký
+phát triển, lắp đặt, vận hành điện mặt trời mái nhà tự sản xuất, tự tiêu thụ. Xử lý nghiêm các vi phạm
+theo thẩm quyền và quy định của pháp luật.
+        3. Giao Sở Công Thương phối hợp với đơn vị điện lực địa phương, rà soát và công khai:
+              a) Tổng công suất điện mặt trời mái nhà tự sản xuất, tự tiêu thụ đấu nối với hệ thống điện
+quốc gia được phân bổ theo kế hoạch thực hiện quy hoạch phát triển điện lực quốc gia;
+        b) Tổng công suất đã được cấp giấy chứng nhận phát triển;
+        c) Tổng công suất chưa phát triển.
+               4. Thời điểm công khai các nội dung theo quy định tại khoản 3 Điều này thực hiện ngay sau
+khi có sự thay đổi về công suất phát triển.
+              5. Trong thời gian không quá 45 ngày kể từ ngày Nghị định này có hiệu lực thi hành, Ủy ban
+nhân dân cấp tỉnh có trách nhiệm xây dựng và ban hành quy trình rút gọn việc thực hiện theo trình tự,
+thủ tục của pháp luật để bảo đảm thuận tiện, tạo điều kiện thuận lợi cho tổ chức, cá nhân khi thực
+hiện đăng ký phát triển, đầu tư xây dựng, lắp đặt điện mặt trời mái nhà tự sản xuất, tự tiêu thụ, bao
+gồm mẫu văn bản của Sở Công Thương xác nhận công suất thuộc quy hoạch, kế hoạch thực hiện
+quy hoạch được phân bổ tại địa phương và thời gian xử lý; phân cấp quản lý nhà nước cho các cơ
+quan cấp dưới để hướng dẫn tổ chức, cá nhân thực hiện phát triển, đầu tư xây dựng, lắp đặt, nghiệm
+thu, vận hành theo quy định của pháp luật về đầu tư, xây dựng, phòng cháy và chữa cháy, môi
+trường, điện lực.
+         6. Tổ chức kiểm tra việc giải quyết hồ sơ thủ tục cho tổ chức, cá nhân phát triển điện mặt trời
+mái nhà tự sản xuất, tự tiêu thụ tại địa phương.
+             7. Tổ chức tuyên truyền cơ chế, chính sách khuyến khích phát triển điện mặt trời mái nhà tự
+sản xuất, tự tiêu thụ. Cân đối bố trí ngân sách địa phương để khuyến khích phát triển điện mái nhà tự
+sản xuất, tự tiêu thụ trên địa bàn quản lý theo quy định của pháp luật.
+
+           8. Báo cáo Bộ Công Thương về tình hình phát triển điện mặt trời mái nhà tự sản xuất, tự tiêu
+thụ trên địa bàn trước ngày 15 tháng 12 hàng năm. Mẫu số 03 tại Phụ lục ban hành kèm theo Nghị
+định này.
+        Điều 21. Trách nhiệm của Tập đoàn Điện lực Việt Nam
+              1. Thực hiện các yêu cầu của cơ quan quản lý nhà nước tại địa phương trong việc tổng hợp,
+thống kê, báo cáo tình hình phát triển điện mặt trời mái nhà tự sản xuất, tự tiêu thụ theo kế hoạch
+thực hiện quy hoạch phát triển điện lực quốc gia đã được phê duyệt.
+              2. Phối hợp với cơ quan quản lý nhà nước trong việc kiểm tra và kiến nghị xử lý hoạt động
+phát triển điện mặt trời mái nhà tự sản xuất, tự tiêu thụ không đúng quy định của pháp luật, gây ảnh
+hưởng đến vận hành hệ thống điện quốc gia.
+        3. Tổ chức đánh giá các nguồn điện mặt trời mái nhà tự sản xuất, tự tiêu thụ trong trường
+hợp phát sản lượng điện dư vào hệ thống điện quốc gia để bảo đảm vận hành an toàn lưới điện
+thuộc phạm vi quản lý.
+             4. Tổ chức theo dõi điện mặt trời mái nhà tự sản xuất, tự tiêu thụ có đấu nối với hệ thống
+điện quốc gia, bảo đảm tuyệt đối an toàn trong vận hành đối với lưới điện thuộc phạm vi quản lý. Chịu
+trách nhiệm tổ chức theo dõi vận hành công tơ điện tử và hệ thống kết nối với hệ thống thu thập dữ
+liệu từ xa của điện mặt trời mái nhà tự sản xuất, tự tiêu thụ có đấu nối với hệ thống điện quốc gia.
+                   5. Chịu trách nhiệm quản lý, theo dõi, hướng dẫn và hậu kiểm các đơn vị điện lực địa
+phương thực hiện phát triển điện mặt trời mái nhà tự sản xuất, tự tiêu thụ theo quy định tại khoản 6
+Điều 7 Nghị định này.
+        Điều 22. Trách nhiệm của các đơn vị điện lực địa phương
+              1. Thực hiện các yêu cầu của cơ quan quản lý nhà nước tại địa phương trong việc tổng hợp,
+thống kê, báo cáo tình hình phát triển điện mặt trời mái nhà tự sản xuất, tự tiêu thụ theo phạm vi quản
+lý.
+              2. Phối hợp với cơ quan quản lý nhà nước trong việc kiểm tra và kiến nghị xử lý hoạt động
+phát triển điện mặt trời mái nhà tự sản xuất, tự tiêu thụ không đúng quy định của pháp luật, gây ảnh
+hưởng đến vận hành hệ thống điện quốc gia.
+           3. Theo dõi điện mặt trời mái nhà tự sản xuất, tự tiêu thụ có đấu nối với hệ thống điện quốc
+gia, bảo đảm tuyệt đối an toàn trong vận hành lưới điện khu vực có điện mặt trời mái nhà tự sản xuất,
+tự tiêu thụ trong phạm vi quản lý của đơn vị. Chịu trách nhiệm theo dõi vận hành công tơ điện từ, thiết
+bị chống phát ngược điện và hệ thống kết nối với hệ thống thu thập dữ liệu từ xa của điện mặt trời
+mái nhà tự sản xuất, tự tiêu thụ có đấu nối với hệ thống điện quốc gia. Trường hợp có bất thường
+trong sử dụng điện của khách hàng, đề nghị thông báo đến Sở Công Thương để kiểm tra, xử lý theo
+quy định.
+              4. Tổ chức đánh giá các nguồn điện mặt trời mái nhà tự sản xuất, tự tiêu thụ trong trường
+hợp phát sản lượng điện dư vào hệ thống điện quốc gia để bảo đảm vận hành an toàn lưới điện
+thuộc phạm vi quản lý.
+        5. Hỗ trợ, tư vấn các tổ chức, cá nhân để kiểm tra ban đầu khi đấu nối, trong quá trình lắp đặt
+và quá trình vận hành điện mặt trời mái nhà tự sản xuất, tự tiêu thụ có đấu nối với hệ thống điện quốc
+gia.
+               6. Xây dựng phương án, giải pháp để thực hiện giám sát, điều khiển theo hình thức chuyển
+đổi số đối với nguồn điện mặt trời mái nhà khi phụ tải không sử dụng trong ngày thứ 7, Chủ nhật
+hoặc ngày nghỉ lễ nhằm đảm bảo an toàn trong vận hành hệ thống điện.
+           7. Theo dõi, giám sát hệ thống thiết bị chống phát ngược của tổ chức, cá nhân đấu nối với hệ
+thống điện quốc gia. Không thực hiện lắp đặt công tơ điện hai chiều cho các đối tượng thực hiện theo
+quy định tại điểm b khoản 1 Điều 8 Nghị định này.
+                8. Chịu trách nhiệm quản lý, theo dõi, hướng dẫn và hậu kiểm tổ chức, cá nhân thực hiện
+phát triển điện mặt trời mái nhà tự sản xuất, tự tiêu thụ theo quy định tại khoản 6 Điều 7 Nghị định
+này thuộc phạm vi lưới điện quản lý.
+                      Điều 23. Trách nhiệm của tổ chức, cá nhân phát triển điện mặt trời mái nhà tự sản
+xuất, tự tiêu thụ
+
+                  1. Tuân thủ các quy định tại Nghị định này, phối hợp với đơn vị điện lực để bảo đảm vận
+hành an toàn hệ thống điện quốc gia. Gửi thông tin đến Sở Công Thương sau khi hoàn thành xây
+dựng, lắp đặt và đưa vào vận hành điện mặt trời mái nhà tự sản xuất, tự tiêu thụ.
+               2. Tuân thủ các tiêu chuẩn, quy chuẩn, quy định của pháp luật về chất lượng điện năng, kết
+nối chia sẻ thông tin theo quy định của pháp luật về điện lực. Tổ chức, cá nhân lắp đặt điện mặt trời
+mái nhà tự sản xuất, tự tiêu thụ và bán điện dư lên hệ thống điện quốc gia chịu trách nhiệm đầu tư,
+lắp đặt, cài đặt công tơ đo đếm, thiết bị truyền dữ liệu từ xa tại điểm giao nhận điện và kết nối tương
+thích với hệ thống thu thập dữ liệu từ xa của đơn vị điện lực; trang bị các thiết bị, phương tiện kết nối
+với hệ thống giám sát điều khiển, bảo đảm thiết bị vận hành an toàn, ổn định, chịu trách nhiệm về an
+toàn an ninh thông tin theo quy định của pháp luật.
+              3. Thu gom, tháo dỡ và chịu trách nhiệm xử lý toàn bộ vật tư, thiết bị, chất thải phát sinh
+trong quá trình xây dựng, vận hành hoặc khi kết thúc vận hành điện mặt trời mái nhà tự sản xuất, tự
+tiêu thụ theo đúng quy định của pháp luật về môi trường.
+              4. Chịu trách nhiệm về việc đầu tư, lắp đặt, vận hành điện mặt trời mái nhà tự sản xuất, tự
+tiêu thụ đảm bảo tuân thủ đúng quy định của pháp luật về điện lực, đầu tư, xây dựng, thuế; quy định
+về an toàn điện, an toàn phòng chống cháy, nổ trong xây dựng, bảo vệ môi trường, an toàn trong vận
+hành phát điện và sử dụng điện; quy chuẩn kỹ thuật, quy định của pháp luật hiện hành về chất lượng
+điện năng và chất lượng sản phẩm, thiết bị của điện mặt trời mái nhà theo tiêu chuẩn kỹ thuật; quy
+định về mua bán điện, hợp đồng và các quy định pháp luật khác có liên quan.
+        5. Tổ chức, cá nhân phát triển điện mặt trời mái nhà tư sản xuất, tự tiêu thụ quy định tại điểm
+b khoản 1 Điều 8 Nghị định này lắp đặt hệ thống thiết bị chống phát ngược điện đảm bảo phù hợp với
+tiêu chuẩn, quy chuẩn theo quy định của pháp luật và chịu trách nhiệm bảo đảm vận hành ổn định
+của thiết bị chống phát ngược điện.
+               6. Tổ chức, cá nhân có nghĩa vụ phối hợp với đơn vị điện lực địa phương thực hiện tuân thủ
+quy mô công suất được phân bổ tại địa phương theo quy hoạch, kế hoạch thực hiện quy hoạch trước
+khi lắp đặt điện mặt trời mái nhà tự sản xuất, tự tiêu thụ.
+          7. Tổ chức, cá nhân phát triển điện mặt trời tự sản xuất, tự tiêu thụ quy định tại khoản 6 Điều
+7 Nghị định này lắp đặt hệ thống thiết bị chống phát ngược điện vào hệ thống điện quốc gia trong
+trường hợp công suất lắp đặt không phù hợp với quy mô công suất phát triển được phân bổ tại địa
+phương theo quy hoạch, kế hoạch thực hiện quy hoạch.
+              8. Tổ chức, cá nhân khi lắp đặt hệ thống lưu trữ điện phải bảo đảm an toàn điện, bảo vệ môi
+trường, phòng cháy chữa cháy theo quy định của pháp luật.
+                            Điều 24. Trách nhiệm của đơn vị quản lý, chủ đầu tư khu công nghiệp, cụm công
+nghiệp, khu chế xuất, khu công nghệ cao, khu kinh tế
+               1. Tạo điều kiện thuận lợi để các tổ chức, cá nhân phát triển điện mặt trời mái nhà tự sản
+xuất, tự tiêu thụ thực hiện theo quy định của pháp luật.
+             2. Phối hợp với đơn vị quản lý điện lực đánh giá việc các nguồn điện mặt trời mái nhà tự sản
+xuất, tự tiêu thụ trong trường hợp phát sản lượng điện dư vào hệ thống điện quốc gia để bảo đảm
+vận hành an toàn hệ thống điện.
+           3. Quản lý, theo dõi, kiểm tra hoạt động phát triển điện mặt trời mái nhà tự sản xuất, tự tiêu
+thụ trong khu vực quản lý theo đúng quy định của pháp luật.
+          4. Hỗ trợ, tư vấn các tổ chức, cá nhân để kiểm tra ban đầu khi đấu nối, trong quá trình lắp đặt
+và quá trình vận hành điện mặt trời mái nhà tự sản xuất, tự tiêu thụ có liên kết với hệ thống điện quốc
+gia.
+                5. Theo dõi, giám sát hệ thống thiết bị chống phát ngược của tổ chức, cá nhân đấu nối với
+lưới điện thuộc phạm vi quản lý. Không thực hiện lắp đặt công tơ điện hai chiều cho các đối tượng
+thực hiện theo quy định tại điểm b khoản 1 Điều 8 Nghị định này.
+                  6. Chịu trách nhiệm quản lý, theo dõi, hướng dẫn và hậu kiểm tổ chức, cá nhân thực hiện
+phát triển điện mặt trời mái nhà tự sản xuất, tự tiêu thụ theo quy định tại khoản 6 Điều 7 Nghị định
+này thuộc phạm vi lưới điện quản lý.
+        Điều 25. Điều khoản chuyển tiếp
+             1. Tổ chức, cá nhân đang thực hiện bán điện cho đơn vị điện lực tại các dự án, hệ thống điện
+
+mặt trời mái nhà đã lắp đặt, vận hành phát điện trước ngày 01 tháng 01 năm 2021 không được đăng
+ký lắp đặt thêm điện mặt trời mái nhà tự sản xuất, tự tiêu thụ tại cùng địa điểm sử dụng điện.
+          2. Tổ chức, cá nhân đã phát triển điện mặt trời mái nhà tự sản xuất, tự tiêu thụ trong kỳ quy
+hoạch phát triển điện lực quốc gia kể từ ngày 01 tháng 01 năm 2021 thực hiện như sau:
+          a) Hộ gia đình, nhà ở riêng lẻ, cơ quan công sở đã lắp đặt điện mặt trời mái nhà tự sản xuất,
+tự tiêu thụ có đấu nối với hệ thống điện quốc gia gửi thông tin liên quan đến cơ quan có thẩm quyền
+cấp giấy chứng nhận phát triển để ghi nhận về quy mô, địa điểm. Trường hợp bán điện dư vào hệ
+thống điện quốc gia phải thực hiện theo quy định tại Nghị định này;
+              b) Tổ chức, cá nhân không thuộc đối tượng quy định tại điểm a khoản 2 Điều này đã lắp đặt
+điện mặt trời mái nhà tự sản xuất, tự tiêu thụ có đấu nối với hệ thống điện quốc gia gửi thông tin liên
+quan đến cơ quan có thẩm quyền cấp giấy chứng nhận phát triển đề ghi nhận về quy mô, địa điểm và
+không được bán điện dư. Trường hợp bán điện dư phải thực hiện theo quy định tại Nghị định này.
+        Điều 26. Hiệu lực thi hành
+        1. Nghị định này có hiệu lực thi hành từ ngày 22 tháng 10 năm 2024.
+                 2. Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ
+tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc Trung ương; Thủ trưởng các cơ quan, tổ chức,
+cá nhân liên quan có trách nhiệm thi hành Nghị định này./.
+ Nơi nhận:                                                       TM. CHÍNH PHỦ
+ - Ban Bí thư Trung ương Đảng;                                    KT.THỦ TƯỚNG
+ - Thủ tướng, các Phó Thủ tướng Chính phủ;                       PHÓ THỦ TƯỚNG
+ - Các bộ, cơ quan ngang bộ, cơ quan thuộc
+ Chính phủ;
+ - HĐND, UBND các tỉnh, thành phố trực thuộc
+ trung ương;                                                     Trần Hồng Hà
+ - Văn phòng Trung ương và các Ban của Đảng;
+ - Văn phòng Tổng Bí thư;
+ - Văn phòng Chủ tịch nước;
+ - Hội đồng Dân tộc và các Ủy ban của Quốc hội;
+ - Văn phòng Quốc hội;
+ - Tòa án nhân dân tối cao;
+ - Viện kiểm sát nhân dân tối cao;
+ - Kiểm toán Nhà nước;
+ - Ủy ban Giám sát tài chính Quốc gia;
+ - Ngân hàng Chính sách xã hội;
+ - Ngân hàng Phát triển Việt Nam;
+ - Ủy ban Trung ương Mặt trận Tổ quốc Việt
+ Nam;
+ - Cơ quan trung ương của các đoàn thể;
+ - VPCP: BTCN, các PCN, Trợ lý TTg, TGĐ
+ Cổng TTĐT, các Vụ, Cục, đơn vị trực thuộc,
+ Công báo;
+ - Lưu: VT, CN (2b).
+
+                                        Phụ lục
+                         (Kèm theo Nghị định số 135/2024/NĐ-CP
+                        ngày 22 tháng 10 năm 2024 của Chính phủ)
+                                       ______________
+Mẫu số 01      Giấy đăng ký lắp đặt điện mặt trời mái nhà tự sản xuất, tự tiêu thụ có đấu nối
+               với hệ thống điện quốc gia
+Mẫu số 02      Giấy chứng nhận đăng ký phát triển điện mặt trời mái nhà tự sản xuất, tự tiêu
+               thụ
+Mẫu số 03      Báo cáo hoạt động đăng ký và tình hình thực hiện phát triển điện mặt trời mái
+               nhà tự sản xuất, tự tiêu thụ trên địa bàn tỉnh … từ ngày ….. đến ngày….
+Mẫu số 04      Thông báo phát triển điện mặt trời mái nhà tự sản xuất, tự tiêu thụ có đấu nối
+               với hệ thống điện quốc gia
+Mẫu số 05      Hợp đồng mua bán điện mặt trời mái nhà tự sản xuất, tự tiêu thụ
+
+                                                                                      Mẫu số 01
+        TÊN TỔ CHỨC/HỘ GIA ĐÌNH                      CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+                                                        Độc lập - Tự do - Hạnh phúc
+                                                          ________________________
+                                                        ……, ngày ….. tháng …. năm ……
+                                           GIẤY ĐĂNG KÝ
+                      Lắp đặt điện mặt trời mái nhà tự sản xuất, tự tiêu thụ
+                             có đấu nối  với hệ thống điện quốc gia
+                                           ____________
+                                   Kính gửi: Sở Công Thương...
+        Căn cứ Nghị định số  .../2024/NĐ-CP ngày...tháng 10 năm 2024 của Chính phủ quy định về
+cơ chế, chính sách khuyến khích phát triển điện mặt trời mái nhà tự sản xuất, tự tiêu thụ;
+        Căn cứ Quy hoạch phát triển điện lực quốc gia thời kỳ 2021-2030, tầm nhìn đến năm 2050 và
+Kế hoạch thực hiện Quy hoạch phát triển điện lực quốc gia thời kỳ 2021-2030, tầm nhìn đến năm
+2050.
+        Căn cứ Quy hoạch tỉnh..... thời kỳ 2021-2030, tầm nhìn đến năm 2050 và Kế hoạch thực hiện
+Quy hoạch tỉnh thời kỳ 2021-2030, tầm nhìn đến năm 2050.
+        Tổ chức/cá nhân/hộ gia đình đăng ký triển khai điện mặt trời mái nhà tự sản xuất, tự tiêu thụ
+có đấu nối với hệ thống điện quốc gia với các nội dung sau:
+        I. Thông tin chung
+        1. Tên cơ quan, tổ chức/cá nhân/hộ gia đình đăng ký
+        a) Tên:
+        b) Địa chỉ:
+        c) Số điện thoại:
+        d) Email:
+        đ) Mã số khách hàng sử dụng điện:
+        2. Vị trí lắp đặt:
+        3. Thông tin mô tả sơ bộ về công trình xây dựng:
+        a) Cấp công trình:
+        b) Kết cấu: Bê tông cốt thép/Khung thép/...; mái bê tông/mái tôn/...
+        c) Chiều cao công trình:
+        d) Diện tích mái:
+        đ) Các hoạt động sản xuất, kinh doanh... đang thực hiện:
+        4. Công suất lắp đặt (kW): (tổng công suất định mức của các bộ chuyển đổi nghịch lưu    -
+inverter).
+        5. Công suất sử dụng lớn nhất ... (kW) và công suất sử dụng trung bình ... (kW) của phụ tải
+tại thời điểm đăng ký.
+        6. Vị trí, điểm dự kiến đấu nối: (trước hay sau công tơ đo đếm điện hiện hữu)
+        7. Cấp điện áp đấu nối:
+        8. Phương án bảo đảm an toàn hệ thống điện:
+        9. Phương án xử lý sản lượng điện dư (chọn 1 trong 2 phương án sau):
+        - Đồng ý phát sản lượng điện dư vào hệ thống điện quốc gia và chịu trách nhiệm đầu tư, lắp
+đặt công tơ điện tử theo chu kỳ từng giờ trong ngày và hệ thống kết nối với hệ thống thu thập dữ liệu
+
+từ xa của đơn vị điện lực, bảo đảm thiết bị phù hợp với quy định của pháp luật.
+        - Không phát sản lượng điện dư vào hệ thống điện quốc gia và tự lắp đặt thiết bị chống phát
+ngược, tự chịu trách nhiệm đối với kiểm định về an toàn điện, tuân thủ các quy trình, quy chuẩn quản
+lý vận hành công trình điện và các quy định về điều kiện kỹ thuật, nghiệm thu an toàn theo quy định.
+        10. Thời gian dự kiến lắp đặt và thời gian hoàn thành:
+        II. Hồ sơ kèm theo
+        1. Đối với các hộ dân, nhà ở riêng lẻ:
+        a) Bản vẽ thiết kế mặt bằng, mặt đứng lắp đặt điện mặt trời mái nhà tự sản xuất, tự tiêu thụ.
+        b) Các hồ sơ, tài liệu (nếu có) liên quan đến công trình xây dựng (giấy phép xây dựng,
+nghiệm thu phòng cháy chữa cháy) làm căn cứ xác định công trình xây dựng đã được đầu tư, xây
+dựng theo đúng quy định của pháp luật.
+        2. Đối với các cơ quan, tổ chức:
+         a) Bản vẽ thiết kế mặt bằng, mặt đứng lắp đặt điện mặt trời mái nhà tự sản xuất, tự tiêu thụ
+và bản vẽ sơ đồ đấu nối điện.
+           b) Các hồ sơ, tài liệu (nếu có) liên quan đến công trình xây dựng (chủ trương đầu tư, giấy
+phép xây dựng, nghiệm thu phòng cháy chữa cháy, kết quả nghiệm thu công trình xây dựng, báo cáo
+đánh giá/kế hoạch bảo vệ môi trường, giấy phép về môi trường) làm căn cứ xác định công trình xây
+dựng đã được đầu tư, xây dựng theo đúng quy định của pháp luật.
+        III. Các cam kết
+        [Tên tổ chức/cá nhân] thực hiện xây dựng, lắp đặt, vận hành điện mặt trời mái nhà tự sản
+xuất, tự tiêu thụ nếu được cấp Giấy chứng nhận đăng ký phát triển với các cam kết như sau:
+        - Bảo đảm an toàn công trình, phòng cháy chữa cháy, công tác bảo vệ môi trường trước,
+trong khi lắp đặt điện mặt trời mái nhà tự sản xuất, tự tiêu thụ.
+        - Mua sắm, xây dựng, lắp đặt hệ thống các thiết bị phục vụ phát điện tuân thủ tiêu chuẩn, quy
+chuẩn theo quy định của pháp luật. Không sử dụng các tấm quang điện, thiết bị chuyển đổi điện một
+chiều thành điện xoay chiều nhập khẩu đã qua sử dụng.
+        - Thực hiện tiến độ đúng với thời hạn đăng ký phát triển tại điểm 10 Mục I nêu trên;
+        - Bảo đảm an toàn xây dựng, môi trường, phòng cháy chữa cháy trong vận hành.
+        - Không vi phạm các hành vi trái quy định trong quá trình phát triển điện mặt trời mái nhà tự
+sản xuất, tự tiêu thụ.
+        IV. Thông tin trả kết quả hồ sơ
+        1. Tên cơ quan, tổ chức/hộ gia đình đăng ký:
+        2. Địa chỉ:
+        3. Đề nghị trả kết quả qua Email:
+        Để có cơ sở triển khai thực hiện lắp đặt theo quy định, Tổ chức/Hộ gia đình chúng tôi đề nghị
+Sở Công Thương tỉnh/thành phố... căn cứ theo quy định tiếp nhận hồ sơ, xem xét chấp thuận.
+ Nơi nhận:                                                     ĐẠI DIỆN TỔ CHỨC/CÁ NHÂN
+ - Như trên;                                                     (Ký, ghi rõ họ tên)
+ - Lưu: VT.
+
+                                                                                 Mẫu số 02
+         ỦY BAN NHÂN DÂN TỈNH.…                  CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+          SỞ CÔNG THƯƠNG                            Độc lập - Tự do - Hạnh phúc
+              ___________                             ________________________
+               Số: ………….                          ……, ngày …. tháng….. năm ……
+                                     GIẤY CHỨNG NHẬN
+                           ĐĂNG KÝ PHÁT TRIỂN ĐIỆN MẶT TRỜI MÁI NHÀ
+                                   TỰ SẢN XUẤT, TỰ TIÊU THỤ
+       Căn cứ Nghị định số ..../2024/NĐ-CP ngày……tháng…..năm 2024 của Chính phủ quy định
+cơ chế, chính sách khuyến khích phát triển điện mặt trời mái nhà tự sản xuất, tự tiêu thụ;
+       Căn cứ Quyết định số ... ngày  tháng  năm    của ... phê duyệt Kế hoạch thực hiện Quy
+hoạch phát triển điện lực quốc gia;
+       Căn cứ Giấy đăng ký phát triển điện mặt trời mái nhà tự sản xuất, tự tiêu thụ của (tổ chức\cá
+nhân) ngày.....tháng….năm….. và các tài liệu kèm theo;
+       Căn cứ ý kiến của đơn vị điện lực, chứng nhận:
+       (Tên tổ chức, cá nhân)……………………………………..
+       Địa chỉ: ………………………………………………………
+       Điện thoại: ……………………………….Email: ……………….
+       Đã đăng ký phát triển điện mặt trời mái nhà tự sản xuất, tự tiêu thụ………….(có đấu nối với
+hệ thống điện quốc gia/không đấu nối với hệ thống điện quốc gia).
+       Sản lượng điện dư: ……….(có phát/ không phát vào hệ thống điện quốc gia  trong trường
+hợp có đấu nối với hệ thống điện quốc gia)
+       Mái của công trình (nhà ở/nhà xưởng sản xuất/trụ sở...)....
+       Diện tích mái nhà (m²)……………………..
+       Địa chỉ tại:……………………………………..
+       Công suất được lắp đặt (kW): ……………….
+       Thời gian hoàn thành lắp đặt (theo Giấy đăng ký):…
+       Yêu cầu tổ chức/cá nhân triển khai các thủ tục về đầu tư, xây dựng điện mặt trời mái nhà tự
+sản xuất, tự tiêu thụ theo quy định của pháp luật về đầu tư, xây dựng, phòng cháy và chữa cháy, môi
+trường, điện lực và pháp luật khác có liên quan.
+       Các yêu cầu khác (nếu có theo yêu cầu của các cơ quan, tổ chức):
+       Giấy chứng nhận có hiệu lực kể từ ngày ký ban hành./.
+     Nơi nhận:                                                   GIÁM ĐỐC
+ - Tổ chức/cá nhân đăng ký phát triển;                        (Ký, ghi rõ họ tên)
+ - Các cơ quan quản lý nhà nước về xây dựng,
+ phòng cháy chữa cháy, môi trường, Công ty
+ điện lực, cơ quan liên quan;
+ - Lưu: VT.
+
+                                                                                        Mẫu số 03
+          ỦY BAN NHÂN DÂN TỈNH…..                      CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+                  ________                                Độc lập - Tự do - Hạnh phúc
+              Số: ………./BC-……..                              ________________________
+                                                         ……, ngày ….. tháng …. năm …..
+                                              BÁO CÁO
+               Hoạt động đăng ký và tình hình thực hiện phát triển điện mặt trời mái nhà
+               tự sản xuất, tự tiêu thụ trên địa bàn tỉnh………..từ ngày .... đến ngày ....
+                                       Kính gửi: Bộ Công Thương.
+        I. Tình hình phát triển điện mặt trời mái nhà tự sản xuất, tự tiêu thụ không đấu nối với
+hệ thống điện quốc gia
+        1. Số lượng tổ chức, cá nhân thực hiện phát triển trong kỳ báo cáo và lũy kế đến kỳ báo
+        cáo (phân loại theo hộ nhà dân, nhà ở riêng lẻ; công sở; cơ sở sản xuất, kinh doanh).
+        2. Tổng công suất phát triển trong kỳ báo cáo và luỹ kế đến kỳ báo cáo (phân loại theo hộ
+nhà dân, nhà ở riêng lẻ; công sở; cơ sở sản xuất, kinh doanh).
+        II. Tình hình phát triển điện mặt trời mái nhà tự sản xuất, tự tiêu thụ có đấu nối với hệ
+thống điện quốc gia
+        1. Đối với đối tượng phải thực hiện đăng ký phát triển, cấp Giấy chứng nhận
+        a) Số lượng và tổng công suất tổ chức, cá nhân đăng ký phát triển trong kỳ báo cáo và lũy kế
+đến kỳ báo cáo được cấp Giấy chứng nhận.
+        b) Số lượng và tổng công suất đăng ký phát triển trong kỳ báo cáo và luỹ kế đến kỳ báo cáo
+được cấp Giấy chứng nhận đã đưa vào vận hành.
+        2. Đối với đối tượng không phải thực hiện đăng ký phát triển
+        a) Số lượng và tổng công suất đã thực hiện lắp đặt điện mặt trời mái nhà tự sản xuất, tự tiêu
+thụ có công suất dưới 100kW của hộ gia đình, nhà ở riêng lẻ trong kỳ báo cáo và lũy kế đến kỳ báo
+cáo.
+        b) Số lượng và tổng công suất đã thực hiện lắp đặt điện mặt trời mái nhà tự sản xuất, tự tiêu
+thụ có công suất dưới 1.000kW của tổ chức, cá nhân trong kỳ báo cáo và lũy kế đến kỳ báo cáo
+(không tính điện mặt trời mái nhà tự sản xuất, tự tiêu thụ có công suất dưới 100kW của hộ gia đình,
+nhà ở riêng lẻ).
+        III. Tồn tại và kiến nghị
+        1. Khó khăn, tồn tại.
+        2. Kiến nghị.
+                                                                  TM. UBND TỈNH …..
+
+                                                                                       Mẫu số 04
+        TÊN TỔ CHỨC/HỘ GIA ĐÌNH                       CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+                                                         Độc lập - Tự do - Hạnh phúc
+                                                           ________________________
+                                                         ……, ngày ….. tháng …. năm ……
+                                              THÔNG BÁO
+                      Phát triển điện mặt trời mái nhà tự sản xuất, tự tiêu thụ
+                                có đấu nối với hệ thống điện quốc gia
+                                             ____________
+                                           Kính gửi: ………………
+        Căn cứ Nghị định số ……./2024/NĐ-CP ngày ...... tháng 10 năm 2024 của Chính phủ quy
+định về cơ chế, chính sách khuyến khích phát triển điện mặt trời mái nhà tự sản xuất, tự tiêu thụ;
+        Tổ chức/cá nhân/hộ gia đình thông báo triển khai điện mặt trời mái nhà tự sản xuất, tự tiêu
+thụ có đấu nối với hệ thống điện quốc gia với các nội dung sau:
+        I. Thông tin chung
+        1. Tổ chức/cá nhân/hộ gia đình
+        a) Tên:
+        b) Địa chỉ:
+        c) Số điện thoại:
+        d) Email (nếu có):
+        đ) Mã số khách hàng sử dụng điện:
+        2. Vị trí lắp đặt:
+        3. Thông tin mô tả sơ bộ về công trình xây dựng:
+        a) Kết cấu: Bê tông cốt thép/Khung thép/...; mái bê tông/mái tôn/…
+        b) Chiều cao công trình:
+        c) Diện tích mái:
+        4. Công suất lắp đặt (kW): (tổng công suất định mức của các bộ chuyển        đổi nghịch lưu -
+inverter).
+        5. Phương án xử lý sản lượng điện dư (chọn 1 trong 2 phương án sau):
+        - Đồng ý phát sản lượng điện dư vào hệ thống điện quốc gia và chịu trách nhiệm đầu tư, lắp
+đặt công tơ điện tử theo chu kỳ từng giờ trong ngày và hệ thống kết nối với hệ thống thu thập dữ liệu
+từ xa của đơn vị điện lực, bảo đảm thiết bị phù hợp với quy định của pháp luật.
+        - Không phát sản lượng điện dư vào hệ thống điện quốc gia và tự lắp đặt thiết bị chống phát
+ngược, tự chịu trách nhiệm đối với kiểm định về an toàn điện, tuân thủ các quy trình, quy chuẩn quản
+lý vận hành công trình điện và các quy định về điều kiện kỹ thuật, nghiệm thu an toàn theo quy định.
+        6. Thời gian dự kiến lắp đặt và thời gian hoàn thành:
+        II. Hồ sơ kèm theo
+        1. Đối với các hộ dân, nhà ở riêng lẻ:
+        a) Bản vẽ thiết kế mặt bằng, mặt đứng lắp đặt điện mặt trời mái nhà tự sản xuất, tự tiêu thụ.
+        b) Các hồ sơ, tài liệu (nếu có) liên quan đến công        trình xây dựng (giấy phép xây dựng,
+nghiệm thu phòng cháy chữa cháy) làm căn cứ xác định công trình xây dựng đã được đầu tư, xây
+dựng theo đúng quy định của pháp luật.
+        2. Đối với các cơ quan, tổ chức:
+
+        a) Bản vẽ thiết kế mặt bằng, mặt đứng lắp đặt điện mặt  trời mái nhà tự sản xuất, tự tiêu thụ
+và bản vẽ sơ đồ đấu nối điện.
+        b) Các hồ sơ, tài liệu (nếu có) liên quan đến công trình xây dựng (chủ trương đầu tư, giấy
+phép xây dựng, nghiệm thu phòng cháy chữa cháy, kết quả nghiệm thu công trình xây dựng, báo cáo
+đánh giá/kế hoạch bảo vệ môi trường, giấy phép về môi trường) làm căn cứ xác định công      trình xây
+dựng đã được đầu tư, xây dựng theo đúng quy định của pháp luật.
+        III. Các cam kết
+        [Tên tổ chức/cá nhân] thực hiện xây dựng, lắp đặt, vận hành điện mặt trời mái nhà tự sản
+xuất, tự tiêu thụ cam kết như sau:
+        - Bảo đảm an toàn công trình, phòng cháy chữa cháy, công tác bảo vệ môi trường trước,
+trong khi lắp đặt điện mặt trời mái nhà tự sản xuất, tự tiêu thụ;
+        - Mua sắm, xây dựng, lắp đặt hệ thống các thiết bị phục vụ phát điện tuân thủ tiêu chuẩn, quy
+chuẩn theo quy định của pháp luật. Không sử dụng các tấm quang điện, thiết bị chuyển đổi điện một
+chiều thành điện xoay chiều nhập khẩu đã qua sử dụng;
+        - Thực hiện tiến độ đúng với thời hạn đăng ký phát triển tại điểm 6 Mục I nêu trên;
+        - Bảo đảm an toàn xây dựng, môi trường, phòng cháy chữa cháy trong vận hành.
+        - Không vi phạm các hành vi trái quy định trong quá trình phát triển điện mặt trời mái nhà tự
+sản xuất, tự tiêu thụ.
+     Nơi nhận:                                                ĐẠI DIỆN TỔ CHỨC/CÁ NHÂN
+     - Như trên;                                                (Ký, ghi rõ họ tên)
+     - Lưu: VT.
+
+                                                                              Mẫu số 05
+                             CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+                                Độc lập - Tự do - Hạnh phúc
+                                   _____________________
+                                   HỢP ĐỒNG MUA BÁN
+                       ĐIỆN MẶT TRỜI MÁI NHÀ TỰ SẢN XUẤT, TỰ TIÊU THỤ
+                                          Số:
+       Căn cứ Bộ luật Dân sự năm 2015;
+       Căn cứ Luật Thương mại năm 2005;
+       Căn cứ Luật Điện lực ngày 03 tháng 12 năm 2004; Luật sửa đổi, bổ sung một số điều của
+Luật Điện lực ngày 20 tháng 11 năm 2012;
+       Căn cứ Nghị định số 137/2013/NĐ-CP ngày 21 tháng 10 năm 2013 của Chính phủ quy định
+chi tiết thi hành một số điều của Luật Điện lực và Luật sửa đổi, bổ sung một số điều của Luật Điện
+lực;
+       Căn cứ Nghị định số  /2024/NĐ-CP ngày          tháng 10 năm 2024 của Chính phủ quy định về
+cơ chế, chính sách khuyến khích phát triển điện mặt trời mái nhà tự sản xuất, tự tiêu thụ;
+       Căn cứ Nhu cầu mua, bán điện của hai bên,
+       Hôm nay, ngày…………tháng………..năm………, tại …………………………….
+       Chúng tôi gồm:
+       Bên bán điện (Bên A): …………………….
+       Địa chỉ: ………………………………………………………………………………..
+       Điện thoại: …………………….Email: ………………………….Fax: …………….
+       Mã số thuế ……………………Giấy ĐKKD/ĐKDN:……………………………
+       Tài khoản: ……………………..Ngân hàng ……………………….
+       Đại diện: …………………………………………………………………….
+       Số CCCD/CMND/Hộ chiếu: ………………………………………………
+       Chức vụ: …………………..(Được sự ủy quyền của ………………….theo văn bản ủy quyền
+(số, ngày, tháng, năm).
+       Bên mua điện (Bên B): …………………..
+       Địa chỉ: ……………………………………………………………………………
+       Điện thoại: ………………………. Email: ……………………….. Fax: ………..
+       Mã số thuế ……………………….. Giấy ĐKKD/ĐKDN:…………………………
+       Tài khoản: ……………………….. Ngân hàng …………………………………..
+       Đại diện:
+       Chức vụ: ……………………..(Được sự ủy quyền của ……………………….theo văn bản ủy
+quyền (số, ngày, tháng, năm).
+       Cùng nhau thỏa thuận ký Hợp đồng mua bán điện (sau đây gọi là Hợp đồng) để mua, bán
+điện năng được sản xuất từ điện mặt trời mái nhà (sau đây gọi là Hệ thống), có công suất định mức
+của bộ chuyển đổi nghịch lưu - inverter là ….kW do Bên A đầu tư xây dựng và vận hành tại  [...địa
+điểm xây dựng ...] với những điều khoản dưới đây:
+       Điều 1. Điện năng mua bán
+       1. Bên A đồng ý bán cho Bên B và Bên B đồng ý mua của Bên A sản lượng điện năng dư
+(nhưng không quá 20% công suất lắp đặt thực tế) từ Hệ thống của Bên A phát lên lưới của Bên B
+thông qua công tơ đo đếm của Bên A lắp đặt tại điểm giao nhận điện.
+
+        2. Bên B thanh toán cho Bên A sản lượng điện năng dư tại khoản 1 nêu trên theo giá mua
+điện quy định tại Điều 2 của Hợp đồng này.
+        3. Điện năng Bên A nhận từ lưới của Bên B được hai bên ký hợp đồng mua bán điện riêng
+và không thuộc phạm vi của Hợp đồng này.
+        Điều 2. Giá mua bán điện
+        Giá mua bán điện dư phát lên hệ thống điện quốc gia của điện mặt trời mái nhà tự sản xuất,
+tự  tiêu thụ thực hiện  theo quy  định  tại điểm b  khoản  7 Điều  8  Nghị  định số ……………
+ngày….tháng….năm…..của……
+        Điều 3. Xác nhận chỉ số công tơ, điện năng phát lên lưới và lập hóa đơn
+        1. Xác nhận chỉ số công tơ, điện năng phát lên lưới
+        - Thời gian bắt đầu để chốt chỉ số công tơ để tính toán điện năng dư phát lên lưới được hai
+bên thống nhất khi bên A đảm bảo đầy đủ hồ sơ, thủ tục theo quy định của pháp luật về đầu tư, xây
+dựng, môi trường, phòng cháy chữa cháy, điện lực và quy định khác có liên quan.
+        - Bên B thực hiện thu thập từ xa dữ liệu đo đếm theo từng chu kỳ của công tơ hàng ngày
+trong tháng.
+        - Trước ngày 05 hàng tháng, Bên B sẽ thông báo cho Bên A lượng điện năng phát lên lưới
+của tháng trước liền kề được thanh toán trong tháng qua hình thức:
+        Email [...Địa chỉ nhận email...], Web:
+        - Trường hợp Bên A không thống nhất với lượng điện năng phát lên lưới được thanh toán do
+Bên B thông báo, Bên A có trách nhiệm phản hồi trong vòng 01 (một) ngày làm việc kể từ khi nhận
+thông báo của Bên B bằng hình thức:
+        Email [...Địa chỉ nhận email...]
+        - Sau thời hạn trên, nếu Bên A không có ý kiến phản hồi cho Bên B thì được hiểu là Bên A
+thống nhất với lượng điện năng phát lên lưới được thanh toán do Bên B thông báo.
+        2. Tiền điện thanh toán:
+        a) Tiền điện: Căn cứ sản lượng điện hai Bên đã thống nhất tại khoản 1 Điều này và giá mua
+điện tại Điều 2 của Hợp đồng này, định kỳ hàng tháng Bên B sẽ thanh toán cho Bên A tiền điện (chưa
+bao gồm thuế GTGT) như sau:
+        T(n)= Ag (n) x G (n)
+        Trong đó:
+        T(n): Tiền điện thanh toán trong tháng n (đồng).
+        Ag(n): lượng điện năng phát lên lưới được thanh toán trong tháng n (kWh).
+        G(n): Giá điện áp dụng cho tháng n theo quy định tại Điều 2 (đồng/kWh) của Hợp đồng này.
+        b) Thuế GTGT:
+        - Trường hợp Bên A thuộc đối tượng chịu thuế GTGT, ngoài tiền điện thanh toán tại điểm a
+khoản 2 Điều này, Bên B phải thanh toán cho Bên A tiền thuế GTGT theo quy định hiện hành.
+        - Trường hợp Bên A là cá nhân, hộ gia đình có bán điện dư từ điện mặt trời mái nhà, đồng
+thời có nhận điện từ lưới điện quốc gia thì khi kết thúc kỳ ghi chỉ số công tơ cuối cùng của năm, Bên
+A có trách nhiệm khai báo, nộp thuế GTGT, thuế thu nhập cá nhân với cơ quan quản lý thuế của Nhà
+nước đối với doanh thu phát sinh từ Hệ thống và phối hợp với Bên B trong việc quyết toán tiền điện,
+thuế GTGT theo quy định của pháp luật hiện hành.
+        c) Thanh toán trong trường hợp sự cố hệ thống đo đếm
+        Trong trường hợp hệ thống đo đếm sản lượng điện bị sự cố (do cháy, hỏng, mất hoặc hoạt
+động không chính xác), Bên A cần thông báo ngay cho Bên B về sự cố của hệ thống đo đếm, các
+bên lập biên bản về sự cố, thực hiện thỏa thuận về sản lượng điện năng phát lên lưới được thanh
+toán trên cơ sở tham khảo sản lượng của các kỳ thanh toán trước đó.
+        Điều 4. Thanh toán
+
+        1. Hồ sơ thanh toán:
+        a) Bên A là tổ chức, cá nhân có phát hành hóa đơn hàng tháng:
+        Bảng kê sản lượng điện năng phát lên lưới được thanh toán hàng tháng của Bên A.
+          Hóa đơn bán hàng theo quy định do Bên A cung cấp với giá trị tiền điện thanh toán được xác
+định tại khoản 2 Điều 3 Hợp đồng này.
+              Trường hợp hóa đơn do Bên A phát hành là hóa đơn GTGT khấu trừ trực tiếp (trên hóa đơn
+không có dòng thuế suất và tiền thuế GTGT) thì Bên A phải gửi cho Bên B cả bảng kê và giấy nộp
+tiền thuế GTGT của phần tiền điện tương ứng với sản lượng điện đã mua bán để Bên B thanh toán
+phần tiền thuế GTGT cho Bên A.
+        b) Bên A là tổ chức, cá nhân không phát hành hóa đơn hàng tháng:
+              Hàng tháng, Bên B sẽ căn cứ Bảng kê điện năng Bên B thanh toán cho Bên A, giá trị tiền
+điện thanh toán được xác định tại điểm a khoản 2 Điều 3 Hợp đồng này.
+        Hàng năm, Chậm nhất sau 15 ngày kể từ ngày kết thúc năm hoặc kết thúc Hợp đồng tùy thời
+điểm nào đến trước, Bên B lập và gửi Bên A xác nhận “Biên bản xác nhận sản lượng điện và tiền
+điện thanh toán” của năm theo mẫu do Bên B ban hành.
+        Trường hợp Bên A có mức doanh thu thuộc đối tượng chịu thuế nêu tại điểm b khoản 2 Điều
+3, Bên A có trách nhiệm gửi Bên B hóa đơn bán hàng, bảng kê và giấy nộp tiền thuế GTGT của phần
+tiền điện tương ứng với sản lượng điện đã mua bán để Bên B thanh toán phần tiền thuế GTGT cho
+Bên A.
+        2. Hình thức thanh toán:
+        Chuyển khoản (Bên A chịu phí chuyển khoản).
+        Thông tin chuyển khoản: ...
+        3. Thời hạn thanh toán:
+        a) Trong vòng 07 (bảy) ngày làm việc sau ngày Bên A thống nhất lượng điện năng phát lên
+lưới được thanh toán (do Bên B thông báo) và nộp đủ hồ sơ thanh toán quy định tại khoản 1 Điều
+này.
+        b) Sau thời hạn nêu trên, Bên B không thanh toán cho Bên A thì Bên B có trách nhiệm trả lãi
+phạt chậm trả cho toàn bộ khoản tiền chậm trả tính từ ngày sau ngày đến hạn thanh toán đến ngày
+Bên B thanh toán. Hai Bên tự thỏa thuận về lãi phạt chậm trả trên cơ sở phù hợp với quy định của
+pháp luật.
+        Điều 5. Quyền và nghĩa vụ của các bên
+        1. Quyền và nghĩa vụ của Bên A
+        a) Chịu trách nhiệm hoàn toàn về việc đầu tư, lắp đặt, vận hành điện mặt trời mái nhà tự sản
+xuất, tự tiêu thụ đảm bảo tuân thủ đúng quy định của pháp luật về: quy hoạch, đầu tư, xây dựng, đất
+đai, môi trường, an toàn phòng chống cháy, quy định về cấp giấy phép hoạt động điện lực; an toàn
+trong vận hành phát điện và sử dụng điện; quy chuẩn kỹ thuật, quy định của pháp luật hiện hành về
+chất lượng điện năng; quy định về mua bán điện, hợp đồng và các quy định pháp luật khác có liên
+quan.
+        b) Đầu tư, lắp đặt hệ thống công tơ đo đếm, thiết bị truyền dữ liệu từ xa tại điểm giao nhận
+điện và kết nối tương thích với hệ thống thu thập dữ liệu từ xa của Bên B. Cùng với Bên B ghi nhận,
+thống nhất và theo dõi sản lượng điện dư phát lên lưới của Bên B.
+        c) Không được tự ý tăng công suất Hệ thống hoặc đấu nối các nguồn điện khác ngoài Hệ
+thống vào sau công tơ mà không được sự đồng ý của Bên B.
+        d) Bên A có trách nhiệm thực hiện đầy đủ các nghĩa vụ thuế theo các quy định của Nhà
+nước.
+        đ) Thực hiện điều chỉnh công suất phát điện theo yêu cầu của Đơn vị Điều độ Hệ thống điện
+và các quy định của pháp luật.
+        e) Không được chuyển giao quyền, nghĩa vụ theo quy định tại Hợp đồng cho bất kỳ chủ thể
+nào khác nếu không thông báo và được Bên B chấp thuận.
+
+        g) Các nghĩa vụ khác theo quy định của Hợp đồng và pháp luật.
+        2. Quyền và nghĩa vụ của Bên B
+        a) Cùng với Bên A ghi nhận, thông báo, thống nhất và theo dõi lượng điện dư từ Hệ thống
+phát lên lưới của Bên B.
+        b) Kiểm tra, theo dõi vận hành và xử lý sự cố theo quy định hiện hành.
+        c) Bên B có quyền không thanh toán cho Bên A hoặc đơn phương đình chỉ thực hiện Hợp
+đồng này khi Bên A không tuân thủ các quy định tại khoản 1 Điều này và không phải bồi thường thiệt
+hại.
+        Điều 6. Giải quyết tranh chấp
+        1. Giải quyết tranh chấp bằng thương lượng
+        Trường hợp có tranh chấp xảy ra giữa các Bên trong Hợp đồng này, thì Bên đưa ra tranh
+chấp phải thông báo cho Bên kia bằng văn bản về nội dung tranh chấp và các yêu cầu trong thời hiệu
+quy định. Các bên sẽ thương lượng giải quyết tranh chấp trong vòng 30 (ba mươi) ngày kể từ ngày
+nhận được thông báo của Bên đưa ra tranh chấp. Việc giải quyết tranh chấp liên quan đến thanh toán
+tiền điện được thực hiện trong thời hạn 5 (năm) ngày kể từ ngày có thông báo của bên yêu cầu.
+        Trường hợp hai Bên không thể thống nhất được các tranh chấp, các bên có quyền gửi văn
+bản đến cơ quan nhà nước có thẩm quyền để hỗ trợ các Bên giải quyết vướng mắc.
+        Cơ chế giải quyết tranh chấp này không áp dụng với những tranh chấp không phát sinh trực
+tiếp từ Hợp đồng này giữa một Bên trong Hợp đồng với các bên thứ ba.
+        2. Giải quyết tranh chấp theo quy định của pháp luật
+        Trường hợp tranh chấp không thể giải quyết bằng biện pháp thương lượng theo quy định tại
+khoản 1 Điều này hoặc một trong các bên không tuân thủ kết quả đàm phán thì một hoặc các bên gửi
+văn bản đến tòa án nhân dân có thẩm quyền để được xem xét, giải quyết theo quy định.
+        Điều 7. Các thỏa thuận khác
+        Các bên bổ sung quy định để làm rõ nghĩa vụ, trách nhiệm, quyền hạn của các bên. Nội dung
+bổ sung phải thống nhất, không trái với quy định của pháp luật hiện hành và nội dung của mẫu hợp
+đồng này.
+        Điều 8. Điều khoản thi hành
+        1. Hiệu lực, thời hạn Hợp đồng:
+        a) Hợp đồng có hiệu lực kể từ ngày đại diện có thẩm quyền của các bên ký chính thức, trừ
+trường hợp các bên có thỏa thuận khác.
+        b) Trừ trường hợp gia hạn hoặc chấm dứt trước thời hạn Hợp đồng theo các điều khoản của
+Hợp đồng, thời hạn Hợp đồng này được tính từ ngày ... tháng ... năm ... đến hết ngày ... tháng ... năm
+...
+        Sau khi chấm dứt Hợp đồng, các nội dung của Hợp đồng này tiếp tục có hiệu lực trong ...
+ngày để các bên thực hiện việc lập hóa đơn lần cuối, điều chỉnh hóa đơn, thanh toán, các quyền và
+nghĩa vụ trong hợp đồng này.
+        2. Trong thời gian thực hiện, một trong hai bên có yêu cầu sửa đổi, bổ sung hoặc chấm dứt
+Hợp đồng, bên có yêu cầu phải thông báo cho bên kia trước 15 ngày để cùng nhau giải quyết.
+        3. Hợp đồng này được lập thành 02 bản có giá trị pháp lý như nhau, mỗi bên giữ 01 bản.
+                  BÊN BÁN ĐIỆN                                    BÊN MUA ĐIỆN

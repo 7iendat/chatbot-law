@@ -16,13 +16,15 @@ from schemas.user import UserOut, UserRole
 from fastapi import status
 from datetime import datetime, timezone
 import redis
-# from time_priority_retriever import WeaviateHybridRetriever
+# from utils.AdvancedLawRetriever import AdvancedLawRetriever
+
 
 
 from db.weaviateDB import connect_to_weaviate
 import logging
+
 logger = logging.getLogger(__name__)
-logger.setLevel(logging.INFO)  # Hoặc logging.DEBUG để thấy cả log DEBUG
+
 handler = logging.StreamHandler()  # Gửi log đến stdout
 handler.setFormatter(logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s'))
 logger.addHandler(handler)
@@ -31,33 +33,27 @@ logger.addHandler(handler)
 bearer_scheme = HTTPBearer(auto_error=False)
 
 def get_app_state(request: Request):
-    # Kiểm tra xem app_state có thực sự tồn tại trên request.app.state không
     if not hasattr(request.app.state, 'app_state'):
-        # Điều này chỉ xảy ra nếu lifespan không được gọi hoặc có lỗi trong lifespan
-        print("Error in get_app_state: request.app.state.app_state is not set!") # Thêm log
+        print("Error in get_app_state: request.app.state.app_state is not set!")
         raise RuntimeError("Application state ('app_state') not found. Initialization failed?")
-
-    # print(f"get_app_state: Returning app_state object. Type: {type(request.app.state.app_state)}") # Thêm log
     return request.app.state.app_state
 
-def initialize_redis_client(): # Hàm riêng để khởi tạo và kiểm tra Redis
+def initialize_redis_client():
     redis_url = os.environ.get("REDIS_URL")
     if not redis_url:
         logger.error("🔸[Redis] REDIS_URL environment variable not set.")
-        raise ValueError("REDIS_URL is not configured.") # Ném lỗi cấu hình
-
+        raise ValueError("REDIS_URL is not configured.")
     try:
         logger.info(f"🔸[Redis] Attempting to connect to Redis at {redis_url}...")
-        client = redis.Redis.from_url(redis_url, socket_connect_timeout=5, socket_timeout=5) # Thêm timeout
-        client.ping()
+        client = redis.Redis.from_url(redis_url, socket_connect_timeout=5, socket_timeout=5)
         logger.info("🔸[Redis] Connected successfully and pinged.")
         return client
     except redis.exceptions.ConnectionError as e:
         logger.error(f"🔸[Redis] Connection failed for URL '{redis_url}': {e}")
-        raise ConnectionError(f"Failed to connect to Redis: {e}") # Ném lỗi kết nối
+        raise ConnectionError(f"Failed to connect to Redis: {e}")
     except Exception as e:
         logger.error(f"🔸[Redis] Error initializing Redis from URL '{redis_url}': {e}")
-        raise RuntimeError(f"Error initializing Redis: {e}") # Ném lỗi chung
+        raise RuntimeError(f"Error initializing Redis: {e}")
 
 def initialize_api_components(app_state: AppState):
     """Khởi tạo các thành phần cần thiết cho API """
@@ -69,22 +65,14 @@ def initialize_api_components(app_state: AppState):
     try:
         app_state.redis = initialize_redis_client() # Gọi hàm khởi tạo redis
     except Exception as e:
-        # Log lỗi ở đây đã được thực hiện trong initialize_redis_client
-        # Chỉ cần ném lại lỗi để lifespan biết
         logger.error(f"☠️ LỖI NGHIÊM TRỌNG khi khởi tạo Redis trong initialize_api_components: {e}")
-        raise # QUAN TRỌNG: Ném lại lỗi
+        raise
     app_state.dict = load_legal_dictionary('./data/dictionary/legal_terms.json')
     app_state.weaviateDB = connect_to_weaviate()
     # --- Kiểm tra kết nối tới MongoDB ---
     if user_collection is  None or app_state.weaviateDB is None:
         logger.error("🔸Lỗi kết nối tới MongoDB hoặc Weaviate.")
         raise HTTPException(status_code=500, detail="Lỗi kết nối tới database.")
-
-    # app_state.groq_api_key = os.environ.get("GROQ_API_KEY") # Lấy key Groq
-
-    # if not app_state.groq_api_key:
-    #     logger.error("🔸GROQ API Key không được cung cấp.")
-    #     raise HTTPException(status_code=500, detail="Missing GROQ API Key")
 
     app_state.google_api_key = os.environ.get("GOOGLE_API_KEY")
     if not app_state.google_api_key:
@@ -102,15 +90,8 @@ def initialize_api_components(app_state: AppState):
     if not app_state.embeddings:
         raise HTTPException(status_code=500, detail="Failed to load embedding model")
 
-    # 2. Tải Vector Store (ChromaDB) (giữ nguyên)
+    # 2. Tải Vector Store
     print(f"Đang tải Vector Store...")
-    # app_state.vectorstore = rag_components.create_or_load_chroma_vectorstore(
-    #     embeddings=app_state["embeddings"],
-    #     persist_directory=CHROMA_PERSIST_DIR,
-    #     collection_name=CHROMA_COLLECTION_NAME,
-    #     chunks=None # Không cung cấp chunks khi khởi tạo API
-    # )
-
     app_state.vectorstore = rag_components.create_or_load_vectorstore(
         embeddings=app_state.embeddings,
         weaviate_url=WEAVIATE_URL,
@@ -122,18 +103,12 @@ def initialize_api_components(app_state: AppState):
     if not app_state.vectorstore:
          raise HTTPException(status_code=500, detail="Failed to load or create Vectorstore")
 
-    # 3. Tải LLM (thay đổi để dùng Groq)
-    logger.info(f"🔸Đang tải LLM (Groq)...")
-    # llm = rag_components.get_groq_llm(
-    #     app_state.groq_api_key,
-    #     temperature=LLM_TEMPERATURE,
-    #     max_new_tokens=LLM_MAX_NEW_TOKENS
-    # )
+    # 3. Tải LLM
+    logger.info(f"🔸Đang tải LLM...")
 
     llm = rag_components.get_google_llm(app_state.google_api_key)
     app_state.llm = llm
     logger.info(f"🔸Tải LLM (Groq) thanh cong")
-
 
     if not app_state.llm:
         raise HTTPException(status_code=500, detail="Failed to load LLM")
@@ -162,9 +137,19 @@ def initialize_api_components(app_state: AppState):
         search_type="similarity_score_threshold",  # tìm kiếm dựa trên ngưỡng điểm tương đồng
         search_kwargs={
             "k": 10,          # lấy tối đa 3 tài liệu phù hợp nhất
-            "score_threshold": 0.5  # ngưỡng điểm tương đồng tối thiểu (tùy chỉnh theo nhu cầu)
+            "score_threshold": 0.5,  # ngưỡng điểm tương đồng tối thiểu (tùy chỉnh theo nhu cầu)
         }
     )
+
+    # app_state.retriever = AdvancedLawRetriever(
+    #     vectorstore=app_state.vectorstore,
+    #     default_k=10,
+    #     recency_bias_weight=0.65,  # <-- Giá trị mới được đề xuất
+    #     year_filter_margin=0,
+    #     enable_query_expansion=True,
+    #     max_expanded_queries=3,       # <-- Giá trị mới được đề xuất
+    #     final_score_threshold_after_bias=0.45
+    # )
 
 
     # from time_priority_retriever import build_law_retriever
@@ -375,93 +360,6 @@ async def get_current_user(
     except Exception as e_userout:
         logger.error(f"GET_CURRENT_USER: *** LỖI TẠO USEROUT HOẶC KIỂM TRA IS_ACTIVE: {e_userout} ***")
         raise credentials_exception # Lỗi chung nếu không rõ nguyên nhân
-# async def get_current_user(credentials: HTTPAuthorizationCredentials = Depends(bearer_scheme)) -> UserOut:
-#     """
-#     Dependency để xác thực và lấy thông tin người dùng hiện tại từ token.
-
-#     Args:
-#         credentials: HTTP Authorization credentials từ request header
-
-#     Returns:
-#         UserOut: Thông tin người dùng đã xác thực
-
-#     Raises:
-#         HTTPException: Khi token không hợp lệ hoặc đã hết hạn
-#     """
-#     credentials_exception = HTTPException(
-#         status_code=status.HTTP_401_UNAUTHORIZED,
-#         detail="Không thể xác thực người dùng",
-#         headers={"WWW-Authenticate": "Bearer"},
-#     )
-
-#     token = credentials.credentials
-
-#     # Kiểm tra token có bị thu hồi (blacklist) không
-#     if blacklist_collection.find_one({"token": token}):
-#         logger.warning(f"Phát hiện token đã bị thu hồi")
-#         raise HTTPException(
-#             status_code=status.HTTP_401_UNAUTHORIZED,
-#             detail="Token đã bị thu hồi hoặc hết hạn",
-#             headers={"WWW-Authenticate": "Bearer"},
-#         )
-
-#     try:
-#         # Giải mã token
-#         payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])
-
-#         # Kiểm tra thông tin trong payload
-#         email: str = payload.get("sub")
-#         if email is None:
-#             logger.warning("Token không chứa sub (email)")
-#             raise credentials_exception
-
-#         # Kiểm tra thời hạn token
-#         exp = payload.get("exp")
-#         if exp is None:
-#             logger.warning("Token không chứa exp (expiration time)")
-#             raise credentials_exception
-
-#         # Kiểm tra token có hết hạn không (thêm kiểm tra dự phòng)
-#         if datetime.fromtimestamp(exp, tz=timezone.utc) < datetime.now(tz=timezone.utc):
-#             logger.warning(f"Token đã hết hạn")
-#             raise HTTPException(
-#                 status_code=status.HTTP_401_UNAUTHORIZED,
-#                 detail="Token đã hết hạn",
-#                 headers={"WWW-Authenticate": "Bearer"},
-#             )
-
-#         # Lấy thông tin người dùng từ database
-#         user_data = user_collection.find_one({"email": email}, {"password": 0})
-#         if user_data is None:
-#             logger.warning(f"Không tìm thấy người dùng với ID: {email}")
-#             raise credentials_exception
-
-
-#         # Tạo đối tượng UserOut từ dữ liệu user
-#         try:
-#             user = UserOut(**user_data)
-
-#             # Kiểm tra tài khoản có bị khóa không
-#             if hasattr(user, "is_active") and not user.is_active:
-#                 logger.warning(f"Tài khoản đã bị khóa: {email}")
-#                 raise HTTPException(
-#                     status_code=status.HTTP_403_FORBIDDEN,
-#                     detail="Tài khoản đã bị khóa",
-#                     headers={"WWW-Authenticate": "Bearer"},
-#                 )
-
-#             return user
-#         except Exception as e:
-#             logger.error(f"Lỗi khi chuyển đổi dữ liệu người dùng: {str(e)}")
-#             raise credentials_exception
-
-#     except JWTError as e:
-#         logger.error(f"Lỗi JWT: {str(e)}")
-#         raise credentials_exception
-#     except Exception as e:
-#         logger.error(f"Lỗi không xác định khi xác thực token: {str(e)}")
-#         raise credentials_exception
-
 
 async def admin_required(
     current_user: Annotated[UserOut, Depends(get_current_user)]

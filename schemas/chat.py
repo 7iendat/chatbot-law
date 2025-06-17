@@ -1,4 +1,4 @@
-from pydantic import BaseModel,EmailStr,Field
+from pydantic import BaseModel
 from typing import List, Optional, Any, Dict
 from datetime import datetime
 
@@ -10,7 +10,6 @@ class AppState(BaseModel):
     qa_chain: Optional[Any] = None
     device: str = "cpu"
     google_api_key: Optional[str] = None
-    # groq_api_key: Optional[str] = None
     dict: Dict = {}
     redis: Optional[Any] = None
     retriever: Optional[Any] = None
@@ -33,9 +32,6 @@ class AnswerResponse(BaseModel):
     answer: str
     sources: Optional[List[SourceDocument]] = None
     processing_time: float
-
-
-
 
 class ChatHistoryResponse(BaseModel): # Model cho response của API này
     chat_id: str

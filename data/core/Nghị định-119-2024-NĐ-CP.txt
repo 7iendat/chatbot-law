@@ -1,0 +1,836 @@
+CHÍNH PHỦ                         CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+           __________                           Độc lập - Tự do - Hạnh phúc
+       Số: 119/2024/NĐ-CP                              ______________________
+                                              Hà Nội, ngày 30 tháng 9 năm 2024
+                                        NGHỊ ĐỊNH
+                    Quy định về thanh toán điện tử giao thông đường bộ
+                                        ________________
+       Căn cứ Luật Tổ chức Chính phủ ngày 19 tháng 6 năm 2015; Luật sửa đổi, bổ sung một số
+điều của Luật Tổ chức Chính phủ và Luật Tổ chức chính quyền địa phương ngày 22 tháng 11 năm
+2019;
+       Căn cứ Luật Đường bộ ngày 27 tháng 6 năm 2024;
+       Căn cứ Luật Công nghệ thông tin ngày 29 tháng 6 năm 2006;
+       Căn cứ Luật An toàn thông tin mạng ngày 19 tháng 11 năm 2015;
+       Căn cứ Luật Phí và lệ phí ngày 25 tháng 11 năm 2015;
+       Căn cứ Luật An ninh mạng ngày 12 tháng 6 năm 2018;
+       Căn cứ Luật Đầu tư theo phương thức đối tác công tư ngày 16 tháng 6 năm 2020;
+       Căn cứ Luật Giá ngày 19 tháng 6 năm 2023;
+       Căn cứ Luật Giao dịch điện tử ngày 22 tháng 6 năm 2023;
+       Theo đề nghị của Bộ trưởng Bộ Giao thông vận tải;
+       Chính phủ ban hành Nghị định quy định về thanh toán điện tử giao thông đường bộ.
+                                         Chương I
+                                      QUY ĐỊNH CHUNG
+       Điều 1. Phạm vi điều chỉnh
+       Nghị định này quy định chi tiết về thanh toán điện tử giao thông đường bộ: tài khoản giao
+thông; thanh toán tiền sử dụng đường bộ trên đường cao tốc; cơ sở dữ liệu thanh toán điện tử giao
+thông đường bộ.
+       Điều 2. Đối tượng áp dụng
+       Nghị định này áp dụng đối với các tổ chức, cá nhân liên quan đến hoạt động thanh toán điện
+tử giao thông đường bộ.
+       Điều 3. Giải thích từ ngữ
+       Trong Nghị định này, các từ ngữ dưới đây được hiểu như sau:
+       1. Phương tiện giao thông đường bộ (sau đây gọi tắt là phương tiện) là phương tiện giao
+thông cơ giới đường bộ, xe máy chuyên dùng và các loại xe tương tự thuộc đối tượng phải thu các
+loại phí, giá, tiền dịch vụ liên quan đến hoạt động giao thông của phương tiện.
+       2. Chủ phương tiện là chủ sở hữu phương tiện hoặc cá nhân, tổ chức khác được chủ sở hữu
+phương tiện giao quyền chiếm hữu, sử dụng phương tiện thuộc đối tượng phải thu các loại phí, giá,
+tiền dịch vụ liên quan đến hoạt động giao thông của phương tiện. Chủ phương tiện đồng thời là chủ
+tài khoản giao thông, chủ phương tiện thanh toán được quy định tại Nghị định này.
+       3. Thẻ đầu cuối là thiết bị điện tử được gắn trên phương tiện để giao tiếp thông tin với hệ
+thống thiết bị lắp đặt tại các điểm thu theo tiêu chuẩn về nhận dạng tần số vô tuyến thụ động cho việc
+giao tiếp không dây và lưu trữ các thông tin liên quan đến kiểm định an toàn kỹ thuật và bảo vệ môi
+trường của phương tiện.
+       4. Phí, giá, tiền dịch vụ liên quan đến hoạt động giao thông của phương tiện bao gồm:
+
+        a) Tiền sử dụng đường bộ bao gồm tiền dịch vụ sử dụng đường bộ theo pháp luật về giá và
+phí sử dụng đường cao tốc thu đối với phương tiện lưu thông trên tuyến đường cao tốc do Nhà nước
+đầu tư, sở hữu, quản lý và khai thác;
+        b) Phí, giá, tiền dịch vụ khác liên quan đến hoạt động giao thông của phương tiện.
+        5. Cơ quan có thẩm quyền bao gồm:
+            a) Bộ Giao thông vận tải đối với các dự án đầu tư kết cấu hạ tầng đường bộ có thu tiền sử
+dụng đường bộ do Bộ Giao thông vận tải quản lý, các dự án của Tổng công ty Đầu tư phát triển
+đường cao tốc Việt Nam và các dịch vụ liên quan đến hoạt động giao thông của phương tiện do Bộ
+Giao thông vận tải quản lý;
+        b) Các bộ, ngành khác đối với các dịch vụ khác liên quan đến hoạt động giao thông của
+phương tiện do bộ, ngành quản lý;
+            c) Ủy ban nhân dân cấp tỉnh đối với các dự án đầu tư kết cấu hạ tầng đường bộ có thu tiền
+sử dụng đường bộ và các dịch vụ liên quan đến hoạt động giao thông của phương tiện do địa
+phương quản lý.
+              6. Nhà cung cấp dịch vụ thanh toán tiền sử dụng đường bộ là đơn vị được cơ quan có thẩm
+quyền lựa chọn để cung cấp dịch vụ thanh toán điện tử giao thông đường bộ đối với các loại phí,
+giá, tiền dịch vụ được quy định tại khoản 4 Điều này.
+                7. Nhà cung cấp dịch vụ thanh toán giao thông đường bộ là đơn vị được cơ quan có thẩm
+quyền hoặc đơn vị quản lý thu lựa chọn để cung cấp dịch vụ thanh toán điện tử giao thông đường
+bộ đối với các loại phí, giá, tiền dịch vụ được quy định tại điểm b khoản 4 Điều này.
+             8. Đơn vị quản lý thu là tổ chức được cơ quan có thẩm quyền giao quyền thu hoặc có quyền
+thu các loại phí, giá, tiền dịch vụ liên quan đến hoạt động giao thông của phương tiện.
+              9. Đơn vị vận hành thu là tổ chức được đơn vị quản lý thu lựa chọn để vận hành hệ thống
+thiết bị lắp đặt tại các điểm thu.
+           10. Điểm thu là nơi đặt trạm thu phí đường bộ hoặc là nơi lắp đặt các hệ thống thiết bị để
+tương tác với phương tiện, đọc các thông tin của phương tiện, thẻ đầu cuối và xử lý giao dịch thanh
+toán điện tử giao thông đường bộ hoặc các hình thức thanh toán khác đối với phương tiện được đơn
+vị quản lý thu chấp thuận.
+               11. Hệ thống quản lý cơ sở dữ liệu thanh toán điện tử giao thông đường bộ là một thành
+phần của hệ thống quản lý cơ sở dữ liệu đường bộ do Bộ Giao thông vận tải đầu tư, tổ chức quản lý,
+vận hành, khai thác để quản lý tập trung cơ sở dữ liệu thanh toán điện tử giao thông đường bộ.
+              12. Hệ thống điều hành và trung tâm dữ liệu của Nhà cung cấp dịch vụ thanh toán tiền sử
+dụng đường bộ hoặc của Nhà cung cấp dịch vụ thanh toán giao thông đường đường bộ (sau đây gọi
+chung là Nhà cung cấp dịch vụ thanh toán điện tử giao thông) bao gồm các phân hệ, hệ thống phần
+cứng, phần mềm đặt tại trung tâm dữ liệu, phục vụ các yêu cầu, quy trình nghiệp vụ thanh toán điện
+tử giao thông. Hệ thống điều hành và trung tâm dữ liệu của Nhà cung cấp dịch vụ thanh toán điện tử
+giao thông thực hiện thu nhận, xử lý các giao dịch được gửi về từ hệ thống thiết bị lắp đặt tại điểm
+thu và thực hiện các chức năng được quy định tại Nghị định này.
+        Điều 4. Nguyên tắc chung
+        1. Bảo đảm tính minh bạch của công tác thanh toán điện tử các loại phí, giá, tiền dịch vụ liên
+quan đến hoạt động giao thông của phương tiện.
+              2. Bảo đảm yêu cầu về kết nối liên thông giữa các cấu thành hệ thống thanh toán điện tử
+giao thông. Mỗi phương tiện chỉ gắn 01 thẻ đầu cuối tại một thời điểm.
+            3. Bảo đảm an toàn, bảo mật thông tin cá nhân của chủ phương tiện theo quy định pháp luật
+về bảo vệ dữ liệu cá nhân, trừ trường hợp cung cấp thông tin theo quyết định của cơ quan nhà nước
+có thẩm quyền theo quy định của pháp luật.
+        4. Bảo đảm việc tích hợp, cung cấp thông tin đầy đủ, kịp thời để phục vụ các mục tiêu quản lý
+nhà nước theo quy định của pháp luật.
+            5. Bảo đảm quyền được lựa chọn, sử dụng dịch vụ, tiện ích giá trị gia tăng của chủ phương
+tiện.
+
+        Điều 5. Những hành vi không được thực hiện trong hoạt động thanh toán điện tử giao
+thông đường bộ
+        1. Phá hủy, làm giả, xoá dữ liệu hoặc can thiệp nội dung thẻ đầu cuối; chuyển thẻ đầu cuối từ
+phương tiện tham gia giao thông này sang phương tiện tham gia giao thông khác.
+        2. Xâm nhập hoặc tìm cách xâm nhập, phá hoại, đánh cắp dữ liệu, làm thay đổi trái phép
+chương trình phần mềm, dữ liệu điện tử sử dụng trong thanh toán điện tử giao thông đường bộ; lợi
+dụng lỗi hệ thống mạng máy tính để trục lợi.
+        3. Cung cấp thông tin không trung thực trong quá trình tham gia các hoạt động thanh toán
+điện tử giao thông đường bộ.
+        4. Tiết lộ, cung cấp thông tin có liên quan đến dữ liệu cá nhân không đúng theo quy định của
+pháp luật.
+        5. Mở hoặc duy trì tài khoản giao thông nặc danh, mạo danh.
+        6. Các hành vi cố tình trốn tránh, gian lận trong thanh toán điện tử giao thông đường bộ.
+        7. Cạnh tranh không lành mạnh giữa các Nhà cung cấp dịch vụ thanh toán điện tử giao
+thông.
+                                           Chương   II
+                       HỆ THỐNG THANH TOÁN ĐIỆN TỬ GIAO THÔNG
+        Điều 6. Cấu thành hệ thống thanh toán điện tử giao thông
+        1. Thanh toán điện tử giao thông đường bộ được thực hiện tự động bởi Hệ thống thanh toán
+điện tử giao thông đường bộ (sau đây gọi tắt là hệ thống thanh toán điện tử giao thông).
+        2. Hệ thống thanh toán điện tử giao thông bao gồm các cấu thành sau:
+        a) Thẻ đầu cuối gắn trên các phương tiện;
+        b) Hệ thống quản lý cơ sở dữ liệu thanh toán điện tử giao thông đường bộ;
+        c) Hệ thống điều hành và trung tâm dữ liệu của Nhà cung cấp dịch vụ thanh toán điện tử giao
+thông;
+        d) Hệ thống thiết bị lắp đặt tại các điểm thu;
+        đ) Hệ thống đường truyền dữ liệu;
+        e) Các hệ thống, thiết bị, hạng mục khác bảo đảm hoạt động của Hệ thống thanh toán điện
+tử giao thông; bảo đảm kết nối liên thông giữa các cấu thành của hệ thống thanh toán điện tử giao
+thông với nhau.
+        Điều 7. Thẻ đầu cuối gắn trên các phương tiện
+        1. Phương tiện phải được gắn thẻ đầu cuối để mở tài khoản giao thông. Việc gắn thẻ đầu
+cuối và kích hoạt thẻ đầu cuối do Nhà cung cấp dịch vụ thanh toán tiền sử dụng đường bộ thực hiện
+theo các quy định tại Nghị định này.
+        2. Bộ Công an, Bộ Quốc phòng phối hợp với Bộ Giao thông vận tải và Nhà cung cấp dịch vụ
+thanh toán tiền sử dụng đường bộ thực hiện gắn thẻ đầu cuối cho các phương tiện phục vụ an ninh,
+quốc phòng tham gia giao thông.
+        3. Chủ phương tiện phải trả chi phí gắn thẻ đầu cuối cho Nhà cung cấp dịch vụ thanh toán
+tiền sử dụng đường bộ. Thẻ đầu cuối được Nhà cung cấp dịch vụ thanh toán tiền sử dụng đường
+bộ bảo hành trong thời gian tối thiểu là 12 tháng kể từ thời điểm gắn thẻ.
+        Điều 8. Hệ thống quản lý cơ sở dữ liệu thanh toán điện tử giao thông đường bộ
+        1. Hệ thống quản lý cơ sở dữ liệu thanh toán điện tử giao thông đường bộ phải bảo đảm các
+yêu cầu sau đây:
+        a) Hệ thống quản lý cơ sở dữ liệu thanh toán điện tử giao thông đường bộ được xây dựng
+theo tiêu chuẩn, quy chuẩn kỹ thuật công nghệ thông tin, định mức kinh tế - kỹ thuật có liên quan, bảo
+đảm hoạt động ổn định, liên tục;
+
+        b) Bảo đảm kết nối với các hệ thống, cơ sở dữ liệu quy định tại khoản 2 Điều này;
+           c) Bảo đảm quyền khai thác thông tin của cơ quan, tổ chức, cá nhân theo quy định của pháp
+luật về giao dịch điện tử và quy định khác của pháp luật có liên quan.
+           2. Hệ thống quản lý cơ sở dữ liệu thanh toán điện tử giao thông đường bộ được kết nối với
+các hệ thống, cơ sở dữ liệu sau đây:
+         a) Hệ thống điều hành và trung tâm dữ liệu của Nhà cung cấp dịch vụ thanh toán điện tử giao
+thông;
+        b) Cơ sở dữ liệu về trật tự, an toàn giao thông đường bộ;
+        c) Cơ sở dữ liệu quốc gia về dân cư.
+            3. Thông tin trong cơ sở dữ liệu thanh toán điện tử giao thông đường bộ được quản lý tập
+trung tại Hệ thống quản lý cơ sở dữ liệu thanh toán điện tử giao thông đường bộ được quy định tại
+Phụ lục kèm theo Nghị định này.
+           4. Chi phí quản lý, vận hành, khai thác Hệ thống quản lý cơ sở dữ liệu thanh toán điện tử
+giao thông đường bộ được lấy từ nguồn chi phí tổ chức, quản lý, giám sát thu phí, giá, tiền dịch vụ
+liên quan đến hoạt động giao thông của phương tiện và các nguồn tài chính được quy định tại khoản
+1 Điều 42 Luật Đường bộ.
+                 Điều 9. Hệ thống điều hành và trung tâm dữ liệu của Nhà cung cấp dịch vụ thanh toán
+điện tử giao thông
+              1. Hệ thống điều hành và trung tâm dữ liệu của Nhà cung cấp dịch vụ thanh toán tiền sử
+dụng đường bộ do Nhà cung cấp dịch vụ thanh toán tiền sử dụng đường bộ đầu tư, xây dựng, cải
+tạo, nâng cấp, quản lý, vận hành, khai thác để thực hiện các nội dung sau đây:
+        a) Mở và quản lý tài khoản giao thông;
+            b) Xác định chi phí chủ phương tiện phải trả đối với các dịch vụ do Nhà cung cấp dịch vụ
+thanh toán tiền sử dụng đường bộ cung cấp;
+              c) Kết nối với phương tiện thanh toán hợp pháp của tổ chức cung ứng dịch vụ thanh toán
+không dùng tiền mặt hoặc tổ chức cung ứng dịch vụ trung gian thanh toán (sau đây gọi là tổ chức
+cung ứng phương tiện thanh toán không dùng tiền mặt) theo quy định tại khoản 2 Điều 11 Nghị định
+này;
+          d) Hoàn trả doanh thu phí, giá, tiền dịch vụ liên quan đến hoạt động giao thông của phương
+tiện cho các đơn vị quản lý thu.
+        2. Hệ  thống  điều hành  và  trung tâm  dữ  liệu của Nhà  cung  cấp dịch  vụ thanh      toán
+giao thông đường bộ do Nhà cung cấp dịch vụ thanh toán giao thông đường bộ đầu tư, xây dựng, cải
+tạo, nâng cấp, quản lý, vận hành, khai thác để thực hiện các nội dung sau đây:
+          a) Kết nối, sử dụng thông tin tài khoản giao thông từ Hệ thống quản lý cơ sở dữ liệu thanh
+toán điện tử giao thông đường bộ;
+            b) Xác định chi phí chủ phương tiện phải trả đối với các dịch vụ do Nhà cung cấp dịch vụ
+thanh toán giao thông đường bộ cung cấp;
+               c) Kết nối với phương tiện thanh toán hợp pháp của tổ chức cung ứng phương tiện thanh
+toán không dùng tiền mặt theo quy định tại khoản 2 Điều 11 Nghị định này;
+            d) Hoàn trả doanh thu phí, giá, tiền dịch vụ khác liên quan đến hoạt động giao thông của
+phương tiện cho các đơn vị quản lý thu.
+         3. Hệ thống điều hành và trung tâm dữ liệu của Nhà cung cấp dịch vụ thanh toán điện tử giao
+thông phải bảo đảm các yêu cầu sau đây:
+        a) Hệ thống điều hành và trung tâm dữ liệu được xây dựng theo tiêu chuẩn, quy chuẩn kỹ
+thuật công nghệ thông tin, định mức kinh tế - kỹ thuật có liên quan, bảo đảm hoạt động ổn định, liên
+tục;
+        b) Bảo đảm kết nối với các hệ thống, cơ sở dữ liệu quy định tại khoản 4 Điều này;
+           c) Bảo đảm quyền khai thác thông tin của cơ quan, tổ chức, cá nhân theo quy định của pháp
+luật về giao dịch điện tử và quy định khác của pháp luật có liên quan.
+
+            4. Hệ thống điều hành và trung tâm dữ liệu của Nhà cung cấp dịch vụ thanh toán điện tử giao
+thông được kết nối với các hệ thống, cơ sở dữ liệu sau đây:
+        a) Hệ thống quản lý cơ sở dữ liệu thanh toán điện tử giao thông đường bộ;
+        b) Hệ thống thiết bị lắp đặt tại các điểm thu;
+            c) Hệ thống điều hành và trung tâm dữ liệu của Nhà cung cấp dịch vụ thanh toán điện tử giao
+thông khác.
+        Điều 10. Hệ thống thiết bị lắp đặt tại các điểm thu
+        1. Hệ thống thiết bị lắp đặt tại các điểm thu phải được thiết kế, đầu tư, xây dựng, cải
+tạo, nâng cấp, quản lý, vận hành bảo trì, kết nối với Hệ thống điều hành và trung tâm dữ liệu của Nhà
+cung cấp dịch vụ thanh toán điện tử giao thông để thực hiện các nội dung sau đây:
+        a) Xác định giao dịch của phương tiện giao thông tại điểm thu;
+             b) Xác định chi phí chủ phương tiện phải trả trong giao dịch thanh toán điện tử giao thông
+đường bộ chưa được xác định bởi Nhà cung cấp dịch vụ thanh toán điện tử giao thông theo quy định
+tại điểm b khoản 1 và điểm b khoản 2 Điều 9 Nghị định này.
+        2. Đơn vị quản lý thu tổ chức đầu tư, xây dựng, cải tạo, quản lý, vận hành hệ thống lắp đặt tại
+các điểm thu và quyết định chi phí quản lý, vận hành và bảo trì theo quy định tại Điều 41 Luật Đường
+bộ.
+                                           Chương   III
+                          MỞ VÀ SỬ DỤNG TÀI KHOẢN GIAO THÔNG
+        Điều 11. Mở tài khoản giao thông
+                    1. Nhà cung cấp dịch vụ thanh toán tiền sử dụng đường bộ mở tài khoản giao thông và
+cung cấp tài khoản truy cập ứng dụng thanh toán điện tử giao thông đường bộ cho chủ phương tiện
+ngay lần đầu gắn thẻ đầu cuối.
+            2. Tại thời điểm thực hiện giao dịch thanh toán điện tử giao thông đường bộ, tài khoản giao
+thông chỉ được kết nối với một phương tiện thanh toán không dùng tiền mặt theo quy định của pháp
+luật ngân hàng để thực hiện thanh toán điện tử giao thông đường bộ. Phương tiện thanh toán không
+dùng tiền mặt do tổ chức cung ứng phương tiện thanh toán không dùng tiền mặt cung cấp thông qua
+hợp đồng dịch vụ với Nhà cung cấp dịch vụ thanh toán điện tử giao thông.
+              3. Mỗi tài khoản giao thông có thể sử dụng để chi trả cho nhiều phương tiện tham gia giao
+thông thuộc sở hữu của chủ phương tiện; mỗi phương tiện tham gia giao thông chỉ được nhận chi trả
+từ một tài khoản giao thông.
+        4. Đối tượng mở tài khoản giao thông bao gồm:
+                 a) Chủ phương tiện là cá nhân có năng lực hành vi dân sự đầy đủ theo quy định của pháp
+luật;
+                b) Chủ phương tiện là tổ chức được thành lập, hoạt động hợp pháp theo quy định của pháp
+luật.
+                 5. Hồ sơ mở tài khoản giao thông phải bảo đảm cung cấp đầy đủ thông tin tài khoản giao
+thông theo quy định tại Phụ lục kèm theo Nghị định này.
+        6. Xác thực thông tin chủ phương tiện mở tài khoản giao thông
+              a) Chủ phương tiện phải cung cấp, cập nhật đầy đủ, chính xác các thông tin trong hồ sơ mở
+tài khoản giao thông cho Nhà cung cấp dịch vụ thanh toán tiền sử dụng đường bộ và chịu trách
+nhiệm về tính trung thực của các thông tin mà mình cung cấp.
+        b) Nhà cung cấp dịch vụ thanh toán tiền sử dụng đường bộ có trách nhiệm kiểm tra, đối
+chiếu; xác minh thông tin nhận biết chủ phương tiện đối với trường hợp chủ phương tiện là tổ chức
+và xác thực thông tin nhận biết chủ phương tiện thông qua cơ sở dữ liệu quốc gia về dân cư đối với
+chủ phương tiện là cá nhân.
+               7. Thông tin tài khoản giao thông phải được Nhà cung cấp dịch vụ thanh toán điện tử giao
+thông đồng bộ sau khi mở hoặc sau mỗi lần có thay đổi thông tin với Hệ thống quản lý cơ sở dữ liệu
+
+thanh toán điện tử giao thông đường bộ. Thông tin phương tiện thanh toán phải được Nhà cung cấp
+dịch vụ thanh toán giao thông đường bộ đồng bộ sau khi kết nối hoặc sau mỗi lần có thay đổi hoặc bổ
+sung phương tiện thanh toán với Hệ thống quản lý cơ sở dữ liệu thanh toán điện tử giao thông
+đường bộ. Các thông tin này phải được đồng bộ với Hệ thống quản lý cơ sở dữ liệu thanh toán điện
+tử giao thông đường bộ trong vòng 06 giờ kể từ khi có sự cập nhật, thay đổi trên Hệ thống điều hành
+và trung tâm dữ liệu của Nhà cung cấp dịch vụ thanh toán điện tử giao thông.
+             8. Nhà cung cấp dịch vụ thanh toán tiền sử dụng đường bộ phải công khai cho chủ phương
+tiện các điều khoản về việc đăng ký mở và sử dụng tài khoản giao thông; trình tự, thủ tục tiếp nhận,
+xử lý hồ sơ mở tài khoản giao thông; phương thức và địa điểm ký hợp đồng mở, sử dụng tài khoản
+giao thông cho từng đối tượng phù hợp với điều kiện và khả năng cung ứng của mình nhưng phải
+bảo đảm tuân thủ các quy định của pháp luật và chịu trách nhiệm về tính chính xác, chặt chẽ, đầy đủ
+của hồ sơ và hợp đồng mở, sử dụng tài khoản giao thông.
+          9. Trong trường hợp có sự thay đổi thông tin trong hồ sơ mở tài khoản giao thông, chủ tài
+khoản giao thông phải thông báo cho Nhà cung cấp dịch vụ thanh toán tiền sử dụng đường bộ để cập
+nhật trên Hệ thống quản lý cơ sở dữ liệu thanh toán điện tử giao thông đường bộ trong thời hạn tối
+đa 10 ngày kể từ ngày thay đổi. Chủ tài khoản giao thông chịu toàn bộ trách nhiệm trong trường hợp
+không thông báo cho Nhà cung cấp dịch vụ thanh toán tiền sử dụng đường bộ theo quy định tại
+khoản này.
+        Điều 12. Sử dụng tài khoản giao thông
+          1. Chủ phương tiện phải bảo đảm đủ tiền trong phương tiện thanh toán được kết nối với tài
+khoản giao thông khi thực hiện thanh toán điện tử giao thông đường bộ.
+           2. Trường hợp số tiền trong phương tiện thanh toán được kết nối với tài khoản giao thông
+không đủ để thực hiện thanh toán tiền sử dụng đường bộ trên đường cao tốc thì phương tiện không
+được đi qua trạm thu phí đường bộ trên đường cao tốc.
+           3. Trường hợp số tiền trong phương tiện thanh toán được kết nối với tài khoản giao thông
+không đủ để thực hiện thanh toán tiền sử dụng đường bộ thì phương tiện phải sử dụng làn thu phí
+hỗn hợp tại trạm thu phí đường bộ, trừ trường hợp quy định tại khoản 2 Điều này.
+           4. Trường hợp số tiền trong phương tiện thanh toán được kết nối với tài khoản giao thông
+không đủ để thực hiện thanh toán điện tử giao thông đường bộ, trừ trường hợp quy định tại khoản 2,
+khoản 3 Điều này thì thực hiện các hình thức thanh toán khác tại điểm thu.
+           5. Nhà cung cấp dịch vụ thanh toán tiền sử dụng đường bộ sử dụng trực tiếp các tài khoản
+giao thông do mình quản lý để thực hiện thanh toán điện tử giao thông đường bộ đối với các dịch vụ
+do Nhà cung cấp dịch vụ thanh toán tiền sử dụng đường bộ cung cấp.
+           6. Khi có yêu cầu hoặc được sự đồng ý của chủ tài khoản giao thông, Nhà cung cấp dịch vụ
+thanh toán giao thông đường bộ sử dụng thông tin tài khoản giao thông thông qua kết nối, chia sẻ dữ
+liệu với Hệ thống quản lý cơ sở dữ liệu thanh toán điện tử giao thông đường bộ để thực hiện thanh
+toán điện tử giao thông đường bộ đối với các dịch vụ do Nhà cung cấp dịch vụ thanh toán
+giao thông đường bộ cung cấp. Nhà cung cấp dịch vụ thanh toán giao thông đường bộ cung cấp tài
+khoản truy cập ứng dụng thanh toán điện tử giao thông đường bộ cho chủ phương tiện.
+          7. Trong trường hợp Nhà cung cấp dịch vụ thanh toán điện tử giao thông không duy trì được
+dịch vụ thanh toán điện tử giao thông đường bộ, Bộ Giao thông vận tải quyết định việc sử dụng tài
+khoản giao thông để bảo đảm không gián đoạn hoạt động thanh toán điện tử giao thông đường bộ
+trên cơ sở đồng ý của chủ tài khoản giao thông.
+        Điều 13. Khoá tài khoản giao thông
+        1. Khóa tài khoản giao thông theo đề nghị của chủ tài khoản giao thông
+             a) Nhà cung cấp dịch vụ thanh toán tiền sử dụng đường bộ thực hiện khóa tài khoản giao
+thông khi có đề nghị của chủ tài khoản giao thông hoặc người giám hộ, người đại diện hợp pháp của
+chủ tài khoản giao thông hoặc theo thỏa thuận trước bằng văn bản giữa chủ tài khoản giao thông với
+Nhà cung cấp dịch vụ thanh toán tiền sử dụng đường bộ, trừ trường hợp quy định tại điểm b khoản
+này.
+            b) Nhà cung cấp dịch vụ thanh toán tiền sử dụng đường bộ từ chối yêu cầu khóa tài khoản
+giao thông khi chủ tài khoản giao thông chưa thanh toán xong khoản nợ phải trả cho Nhà cung cấp
+dịch vụ thanh toán tiền sử dụng đường bộ hoặc Nhà cung cấp dịch vụ thanh toán giao thông đường
+
+bộ. Thông tin khoản nợ phải trả cho Nhà cung cấp dịch vụ thanh toán giao thông đường bộ được
+đồng bộ từ Hệ thống quản lý cơ sở dữ liệu thanh toán điện tử giao thông đường bộ.
+        c) Thời gian khóa tài khoản giao thông thực hiện theo yêu cầu của chủ tài khoản giao thông
+hoặc người giám hộ, người đại diện hợp pháp của chủ tài khoản giao thông hoặc theo văn bản thỏa
+thuận giữa chủ tại khoản giao thông với Nhà cung cấp dịch vụ thanh toán điện tử giao thông.
+        2. Khóa tài khoản giao thông theo yêu cầu bằng văn bản của cơ quan có thẩm quyền theo
+quy định của pháp luật
+        a) Nhà cung cấp dịch vụ thanh toán tiền sử dụng đường bộ thực hiện khóa tài khoản giao
+thông theo yêu cầu bằng văn bản của cơ quan có thẩm quyền theo quy định của pháp luật.
+        b) Ngay sau khi thực hiện khóa tài khoản giao thông, Nhà cung cấp dịch vụ thanh toán tiền
+sử dụng đường bộ phải thông báo cho chủ tài khoản giao thông hoặc người giám hộ, người đại diện
+theo pháp luật của chủ tài khoản giao thông biết về lý do khóa tài khoản giao thông.
+        c) Thời gian khóa tài khoản giao thông thực hiện theo yêu cầu của cơ quan có thẩm quyền
+trong văn bản yêu cầu khóa tài khoản giao thông hoặc trong văn bản yêu cầu chấm dứt khóa tài
+khoản giao thông.
+        Điều 14. Đóng tài khoản giao thông
+        1. Nhà cung cấp dịch vụ thanh toán tiền sử dụng đường bộ thực hiện đóng tài khoản giao
+thông trong các trường hợp sau:
+        a) Có đề nghị đóng tài khoản giao thông của chủ tài khoản giao thông hoặc người giám hộ,
+người đại diện theo pháp luật của chủ tài khoản giao thông và chủ tài khoản giao thông đã thực hiện
+đầy đủ các nghĩa vụ liên quan đến tài khoản giao thông;
+        b) Chủ tài khoản giao thông là cá nhân bị chết, bị tuyên bố là đã chết, bị mất tích; Chủ tài
+khoản giao thông là tổ chức bị chấm dứt hoạt động, phá sản, giải thể theo quy định của pháp luật;
+        c) Các trường hợp đóng tài khoản giao thông theo thỏa thuận giữa Nhà cung cấp dịch vụ
+thanh toán tiền sử dụng đường bộ và chủ tài khoản giao thông;
+        d) Chủ tài khoản giao thông thực hiện một trong các hành vi không được thực hiện quy định
+tại Điều 5 của Nghị định này hoặc vi phạm thỏa thuận mở và sử dụng tài khoản giao thông với Nhà
+cung cấp dịch vụ thanh toán tiền sử dụng đường bộ;
+        đ) Các trường hợp khác theo quy định của pháp luật.
+        2. Sau khi đóng tài khoản giao thông, chủ tài khoản giao thông muốn sử dụng tài khoản giao
+thông phải làm thủ tục mở tài khoản giao thông theo quy định tại Điều 11 của Nghị định này.
+                                           Chương IV
+                             THANH TOÁN ĐIỆN TỬ GIAO THÔNG ĐƯỜNG BỘ
+                                             Mục 1
+                                THANH TOÁN TIỀN SỬ DỤNG ĐƯỜNG BỘ
+        Điều 15. Thanh toán tiền sử dụng đường bộ theo hình thức điện tử không dừng
+        1. Hình thức vận hành hệ thống thiết bị lắp đặt tại trạm thu phí đường bộ theo hình thức điện
+tử không dừng
+        a) Hình thức đơn làn có barrier
+        Theo hình  thức này, barrier tại trạm thu phí đường bộ sẽ mở    cho phương tiện đi qua
+khi phương tiện có gắn thẻ đầu cuối hợp lệ và thực hiện thành công thanh toán tiền sử dụng đường
+bộ.
+        b) Hình thức đa làn tự do
+        Theo hình thức này, tại khu vực trạm thu phí đường bộ chỉ còn duy trì giá long môn và các
+thiết bị thu phí gắn trên giá long môn. Hình thức này chỉ áp dụng tại đầu vào của đường cao tốc.
+        2. Quá trình xử lý giao dịch thanh toán tiền sử dụng đường bộ theo hình thức điện tử không
+dừng
+
+          a) Khi phương tiện đi vào vùng nhận diện của hệ thống thiết bị lắp đặt tại trạm thu phí đường
+bộ, hệ thống thiết bị lắp đặt tại trạm thu phí đường bộ sẽ đọc thông tin, gửi thông tin giao dịch về Hệ
+thống điều hành và trung tâm dữ liệu của Nhà cung cấp dịch vụ thanh toán tiền sử dụng đường bộ
+để thực hiện thanh toán tiền sử dụng đường bộ và gửi lại thông tin cho hệ thống thiết bị lắp đặt tại
+trạm thu phí đường bộ để kết thúc giao dịch phương tiện qua trạm thu phí đường bộ.
+           b) Nội dung trao đổi thông tin và quá trình xử lý giao dịch thanh toán tiền sử dụng đường bộ
+được thực hiện theo quy chuẩn, tiêu chuẩn kỹ thuật về trạm thu phí đường bộ và các quy chuẩn, tiêu
+chuẩn kỹ thuật khác có liên quan.
+                c) Sau khi kết thúc giao dịch, Nhà cung cấp dịch vụ thanh toán tiền sử dụng đường bộ và
+đơn vị vận hành thu đồng bộ thông tin giao dịch thanh toán tiền sử dụng đường bộ về Hệ thống cơ
+sở dữ liệu thanh toán điện tử giao thông đường bộ.
+        3. Phương thức thanh toán tiền sử dụng đường bộ
+                     Thanh toán tiền sử dụng đường bộ được thực hiện theo phương thức mở và phương thức
+kín. Trong đó:
+               a) Phương thức mở là phương thức thanh toán mà chủ phương tiện phải trả một mức tiền tại
+trạm thu phí đường bộ không phụ thuộc vào chiều dài quãng đường phương tiện đã đi được trên
+đoạn đường thanh toán tiền sử dụng đường bộ mà chỉ phụ thuộc vào kiểu loại phương tiện.
+              b) Phương thức kín là phương thức thanh toán mà chủ phương tiện phải trả một mức tiền tại
+trạm thu phí đường bộ dựa vào chiều dài quãng đường phương tiện đã đi được trên đoạn đường
+thanh toán tiền sử dụng đường bộ và kiểu loại phương tiện.
+              4. Các tuyến, đoạn tuyến đường cao tốc; các tuyến, đoạn tuyến đường cao tốc nối tiếp nhau
+được tổ chức thu thành một hệ thống thu thực hiện theo phương thức kín theo hình thức điện tử
+không dừng.
+             5. Các trạm thu phí đường bộ không nằm trên đường cao tốc phải triển khai thu tiền sử dụng
+đường bộ theo hình thức điện tử không dừng và duy trì mỗi trạm thu phí đường bộ có 01 làn thu phí
+hỗn hợp hoặc 01 làn xử lý sự cố (làn thu phí áp dụng cả hình thức điện tử không dừng và một dừng)
+trên mỗi chiều lưu thông theo quy định.
+        6. Việc thiết kế, đầu tư, xây dựng, cải tạo, nâng cấp trạm thu phí đường bộ, hình thức vận
+hành hệ thống thiết bị lắp đặt tại trạm thu phí đường bộ và phương thức thu tiền sử dụng đường bộ
+được cấp có thẩm quyền quyết định trong Báo cáo nghiên cứu khả thi của dự án đầu tư kết cấu hạ
+tầng đường bộ hoặc trong Đề án khai thác tài sản kết cấu hạ tầng đường bộ.
+        Điều 16. Đối soát doanh thu thu tiền sử dụng đường bộ
+        1. Đối soát doanh thu thu tiền sử dụng đường bộ được thực hiện theo các nguyên tắc sau:
+                 a) Hằng ngày, Nhà cung cấp dịch vụ thanh toán tiền sử dụng đường bộ thực hiện đối soát
+doanh thu thu tiền sử dụng đường bộ theo khung thời gian từ 00h00 đến 24h00 (thời điểm chốt số
+liệu) với đơn vị vận hành thu để làm cơ sở cho Nhà cung cấp dịch vụ thanh toán tiền sử dụng đường
+bộ hoàn trả doanh thu thu tiền sử dụng đường bộ cho đơn vị quản lý thu.
+        b) Hằng tháng, Nhà   cung  cấp dịch  vụ thanh  toán tiền sử  dụng  đường   bộ và Đơn         vị
+quản lý thu thực hiện đối soát và chốt công nợ trước ngày 05 của tháng liền kề hoặc thời điểm khác
+do các bên thỏa thuận.
+            c) Trong thời hạn 30 ngày kể từ ngày kết thúc mỗi năm tài chính, Nhà cung cấp dịch vụ thanh
+toán tiền sử dụng đường bộ và Đơn vị quản lý thu thực hiện chốt công nợ và quyết toán cho năm liền
+trước đó.
+              2. Nhà cung cấp dịch vụ thanh toán tiền sử dụng đường bộ xây dựng quy trình nghiệp vụ quy
+định thời gian bù trừ, thanh toán, việc tra soát, đối chiếu dữ liệu, bảo đảm thực hiện quyết toán kịp
+thời, đầy đủ, chính xác cho các bên có liên quan.
+             3. Đơn vị quản lý thu, đơn vị vận hành thu và Nhà cung cấp dịch vụ thanh toán tiền sử dụng
+đường bộ có trách nhiệm phối hợp để thực hiện quy trình đối soát và khắc phục, điều chỉnh các lỗi,
+sai số phát hiện được thông qua quá trình đối soát.
+
+              4. Sau khi đối soát doanh thu thu tiền sử dụng đường bộ, Nhà cung cấp dịch vụ thanh toán
+tiền sử dụng đường bộ đồng bộ thông tin giao dịch thanh toán tiền sử dụng đường bộ có thay đổi về
+Hệ thống cơ sở dữ liệu thanh toán điện tử giao thông đường bộ.
+        Điều 17. Hoàn trả doanh thu thu tiền sử dụng đường bộ
+             1. Trên cơ sở số liệu đã thống nhất sau khi thực hiện đối soát doanh thu thu tiền sử dụng
+đường bộ hằng ngày, Nhà cung cấp dịch vụ thanh toán tiền sử dụng đường bộ chuyển toàn bộ số
+tiền thu tiền sử dụng đường bộ (bao gồm cả thuế giá trị gia tăng) theo đối soát tại mỗi trạm thu phí
+đường bộ theo hình thức điện tử không dừng cho Đơn vị quản lý thu sau khi trừ đi chi phí tổ chức,
+quản lý, giám sát thu tiền sử dụng đường bộ. Thời gian chuyển trả theo quy định tại hợp đồng dịch vụ
+thu giữa Nhà cung cấp dịch vụ thanh toán tiền sử dụng đường bộ và đơn vị quản lý thu nhưng không
+vượt quá 48 giờ kể từ thời điểm chốt số liệu. Trường hợp vào các ngày lễ, ngày nghỉ mà hệ thống
+ngân hàng nghỉ làm việc không thực hiện được việc chuyển tiền qua hệ thống ngân hàng thì sẽ
+chuyển vào ngày làm việc kế tiếp, trừ trường hợp các bên có thỏa thuận khác.
+                  2. Nhà cung cấp dịch vụ thanh toán tiền sử dụng đường bộ có trách nhiệm xây dựng quy
+trình thực hiện giao dịch thu tiền sử dụng đường bộ theo hình thức điện tử không dừng; kê khai và
+nộp các loại thuế trên phần chi phí tổ chức, quản lý, giám sát thu tiền sử dụng đường bộ được hưởng
+theo quy định của pháp luật.
+        Điều 18. Xử lý các trường hợp miễn thu, thu theo tháng, theo quý, theo năm
+               1. Các phương tiện được miễn thu tiền sử dụng đường bộ theo quy định của pháp luật được
+gắn thẻ đầu cuối và mở tài khoản giao thông với thông tin xe ưu tiên, khi lưu thông qua làn thu phí
+điện tử không dừng sẽ được nhận diện tự động và cho phép lưu thông qua trạm thu phí đường bộ.
+        2. Thu theo tháng, theo quý, theo năm
+                 a) Trường hợp chủ phương tiện có nhu cầu thanh toán tiền sử dụng đường bộ theo tháng,
+theo quý hoặc theo năm cho một hoặc một số trạm thu phí đường bộ theo hình thức điện tử không
+dừng cụ thể, Nhà cung cấp dịch vụ thanh toán tiền sử dụng đường bộ thực hiện trừ tiền trong
+phương tiện thanh toán của chủ phương tiện tại thời điểm đăng ký thanh toán theo tháng, quý, năm.
+                b) Phương tiện đã đăng ký thanh toán tiền sử dụng đường bộ theo tháng, quý, năm đi qua
+trạm thu phí đường bộ đã đăng ký, Nhà cung cấp dịch vụ thanh toán tiền sử dụng đường bộ không
+trừ tiền trong phương tiện thanh toán của chủ phương tiện. Ngoài việc trả theo tháng, quý, năm cho
+trạm thu phí đường bộ cụ thể được đăng ký, chủ phương tiện phải thực hiện các hình thức thanh
+toán theo quy định để đi qua các trạm thu phí đường bộ theo hình thức điện tử không dừng khác
+trong trường hợp có nhu cầu sử dụng.
+        Điều 19. Chi phí tổ chức, quản lý, giám sát thu tiền sử dụng đường bộ
+               1. Chi phí tổ chức, quản lý, giám sát thu tiền sử dụng đường bộ bao gồm chi phí cho Nhà
+cung cấp dịch vụ thanh toán tiền sử dụng đường bộ và chi phí quản lý, vận hành, khai thác Hệ thống
+quản lý cơ sở dữ liệu thanh toán điện tử giao thông đường bộ.
+              2. Chi phí cho Nhà cung cấp dịch vụ thanh toán tiền sử dụng đường bộ được xác định trong
+hợp đồng dịch vụ thu giữa Nhà cung cấp dịch vụ thanh toán tiền sử dụng đường bộ và đơn vị quản lý
+thu.
+                                             Mục 2
+                        THANH TOÁN CÁC LOẠI PHÍ, GIÁ, TIỀN DỊCH VỤ KHÁC
+        Điều 20. Thanh toán các loại phí, giá, tiền dịch vụ khác
+          1. Đơn vị quản lý thu sử dụng hình thức đơn làn có barrier hoặc sử dụng hệ thống thiết bị di
+động để đọc thông tin thẻ đầu cuối để thanh toán các loại phí, giá, tiền dịch vụ khác phải thu.
+        2. Quá trình xử lý giao dịch thanh toán
+        a) Trường hợp Nhà cung cấp dịch vụ thanh toán giao thông đường bộ xác định chi phí
+            Khi phương tiện đi vào vùng nhận diện của hệ thống thiết bị lắp đặt tại điểm thu, hệ thống
+thiết bị lắp đặt tại điểm thu sẽ đọc thông tin, gửi thông tin giao dịch về Hệ thống điều hành và trung
+tâm dữ liệu của Nhà cung cấp dịch vụ thanh toán giao thông đường bộ để thực hiện thanh toán điện
+
+tử giao thông đường bộ và gửi lại thông tin cho hệ thống thiết bị lắp đặt tại điểm thu để kết thúc giao
+dịch phương tiện qua điểm thu.
+        b) Trường hợp hệ thống thiết bị lắp đặt tại điểm thu xác định chi phí
+             Khi phương tiện đi vào vùng nhận diện của hệ thống thiết bị lắp đặt tại điểm thu, hệ thống
+thiết bị lắp đặt tại điểm thu sẽ đọc thông tin để tính phí, giá, tiền dịch vụ khác phải thu và gửi thông tin
+giao dịch cho hệ thống của Nhà cung cấp dịch vụ thanh toán giao thông đường bộ để thực hiện thanh
+toán điện tử giao thông đường bộ; Nhà cung cấp dịch vụ thanh toán giao thông đường bộ gửi lại
+thông tin giao dịch sau khi xử lý cho hệ thống thiết bị lắp đặt tại điểm thu để kết thúc giao dịch
+phương tiện qua điểm thu.
+              c) Nội dung trao đổi thông tin và quá trình xử lý giao dịch thanh toán điện tử giao thông
+đường bộ được thực hiện theo quy chuẩn, tiêu chuẩn kỹ thuật về điểm thu và các quy chuẩn, tiêu
+chuẩn kỹ thuật khác có liên quan.
+              d) Sau khi kết thúc giao dịch, Nhà cung cấp dịch vụ thanh toán giao thông đường bộ và đơn
+vị vận hành thu đồng bộ thông tin giao dịch thanh toán điện tử giao thông đường bộ về Hệ thống cơ
+sở dữ liệu thanh toán điện tử giao thông đường bộ.
+        đ) Đơn vị quản lý thu quyết định việc xử lý thanh toán theo quy định tại điểm a hoặc điểm b
+khoản 2 Điều này.
+              3. Đơn vị quản lý thu quyết định phương thức thanh toán phù hợp với dịch vụ phải thu phí,
+giá, tiền dịch vụ.
+        Điều 21. Đối soát doanh thu dịch vụ
+        1. Đối soát doanh thu dịch vụ được thực hiện theo các nguyên tắc sau:
+                   a) Hằng ngày, Nhà cung cấp dịch vụ thanh toán giao thông đường bộ thực hiện đối soát
+doanh  thu  dịch vụ theo khung  thời gian từ 00h00 đến 24h00 (thời   điểm  chốt số liệu bù         trừ)
+với hệ thống thiết bị lắp đặt tại điểm thu để làm cơ sở cho Nhà cung cấp dịch vụ thanh toán
+giao thông đường bộ hoàn trả doanh thu dịch vụ cho đơn vị quản lý thu;
+               b) Hằng tháng, Nhà cung cấp dịch vụ thanh toán giao thông đường bộ và Đơn vị quản lý thu
+thực hiện đối soát và chốt công nợ trước ngày 05 của tháng liền kề hoặc thời điểm khác do các bên
+thỏa thuận;
+            c) Trong thời hạn 30 ngày kể từ ngày kết thúc mỗi năm tài chính, Nhà cung cấp dịch vụ thanh
+toán giao thông đường bộ và Đơn vị quản        lý thu thực hiện chốt công nợ và quyết toán cho năm liền
+trước đó.
+                2. Nhà cung cấp dịch vụ thanh toán giao thông đường bộ xây dựng quy trình nghiệp vụ quy
+định thời gian bù trừ, thanh toán, việc tra soát, đối chiếu dữ liệu, bảo đảm thực hiện quyết toán kịp
+thời, đầy đủ, chính xác cho các bên có liên quan.
+        3. Đơn  vị quản  lý thu, đơn  vị vận  hành  thu và Nhà   cung cấp  dịch  vụ thanh          toán
+giao thông đường bộ có trách nhiệm phối hợp để thực hiện quy trình đối soát và khắc phục, điều
+chỉnh các lỗi, sai số phát hiện được thông qua quá trình đối soát.
+                4. Sau khi đối soát doanh thu dịch vụ, Nhà cung cấp dịch vụ thanh toán giao thông đường
+bộ đồng bộ thông tin giao dịch thanh toán điện tử giao thông đường bộ có thay đổi về Hệ thống cơ sở
+dữ liệu thanh toán điện tử giao thông đường bộ.
+        Điều 22. Hoàn trả doanh thu dịch vụ
+            1. Trên cơ sở số liệu đã thống nhất sau khi thực hiện đối soát doanh thu dịch vụ hằng ngày,
+Nhà cung cấp dịch vụ thanh toán giao thông đường bộ chuyển toàn bộ số tiền tương ứng với doanh
+thu dịch vụ thu được theo đối soát (bao gồm cả thuế giá trị gia tăng) tại mỗi điểm thu cho Đơn vị quản
+lý thu sau khi trừ đi chi phí tổ chức, quản lý, giám sát thu phí, giá, tiền dịch vụ khác theo quy định.
+Thời gian chuyển trả theo quy định tại hợp đồng dịch vụ thu giữa Nhà cung cấp dịch vụ thanh toán
+giao thông đường bộ và đơn vị quản lý thu nhưng không vượt quá 48 giờ kể từ thời điểm chốt số liệu.
+Trường hợp vào các ngày lễ, ngày nghỉ mà hệ thống ngân hàng nghỉ làm việc không thực hiện được
+việc chuyển tiền qua hệ thống ngân hàng thì sẽ chuyển vào ngày làm việc kế tiếp, trừ trường hợp các
+bên có thỏa thuận khác.
+
+              2. Nhà cung cấp dịch vụ thanh toán giao thông đường bộ có trách nhiệm xây dựng quy trình
+thực hiện giao dịch thu phí, giá, tiền dịch vụ khác; kê khai và nộp các loại thuế trên phần chi phí tổ
+chức, quản lý, giám sát thu phí, giá, tiền dịch vụ khác được hưởng theo quy định của pháp luật.
+        Điều 23. Xử lý các trường hợp miễn thu, thu theo tháng, theo quý, theo năm
+            1. Các phương tiện được miễn thanh toán các loại phí, giá, tiền dịch vụ khác theo quy định
+của pháp luật hoặc của đơn vị quản lý thu có gắn thẻ đầu cuối, khi lưu thông qua điểm thu sẽ được
+nhận diện tự động và cho phép lưu thông qua điểm thu hoặc được xác nhận miễn thanh toán.
+        2. Thu theo tháng, theo quý, theo năm
+                   a) Trường hợp chủ phương tiện có nhu cầu thanh toán các loại phí, giá, tiền dịch vụ
+khác theo tháng, theo quý hoặc theo năm cho một hoặc một số điểm thu cụ thể, Nhà cung cấp dịch
+vụ thanh toán giao thông đường bộ thực hiện trừ tiền trong phương tiện thanh toán của chủ phương
+tiện tại thời điểm đăng ký thanh toán theo tháng, quý, năm.
+            b) Phương tiện đã đăng ký thanh toán các loại phí, giá, tiền dịch vụ khác theo tháng, quý,
+năm đi qua điểm thu đã đăng ký, hệ thống thiết bị lắp đặt tại điểm thu không trừ tiền trong phương
+tiện thanh toán của chủ phương tiện. Ngoài việc trả theo tháng, quý, năm cho trạm điểm thu cụ thể
+được đăng ký, chủ phương tiện phải thực hiện các hình thức thanh toán theo quy định để thanh toán
+các loại phí, giá, tiền dịch vụ tại các điểm thu khác trong trường hợp có nhu cầu sử dụng.
+        Điều 24. Chi phí tổ chức, quản lý, giám sát thu phí, giá, tiền dịch vụ khác
+         1. Chi phí tổ chức, quản lý, giám sát thu phí, giá, tiền dịch vụ khác bao gồm chi phí cho Nhà
+cung cấp dịch vụ thanh toán giao thông đường bộ và chi phí quản lý, vận hành, khai thác Hệ thống
+quản lý cơ sở dữ liệu thanh toán điện tử giao thông đường bộ.
+                2. Chi phí cho Nhà cung cấp dịch vụ thanh toán giao thông đường bộ được xác định trong
+hợp đồng dịch vụ thu giữa Nhà cung cấp dịch vụ thanh toán giao thông đường bộ và đơn vị quản lý
+thu.
+                                             Mục 3
+                  THÔNG TIN, BÁO CÁO VÀ BẢO MẬT, AN TOÀN THÔNG TIN
+        Điều 25. Quyền về thông tin, báo cáo
+            1. Cơ quan có thẩm quyền, đơn vị quản lý Hệ thống quản lý cơ sở dữ liệu thanh toán điện tử
+giao thông đường bộ, đơn vị quản lý thu có quyền yêu cầu các Nhà cung cấp dịch vụ thanh toán điện
+tử giao thông cung cấp thông tin giao dịch thanh toán điện tử giao thông đường bộ có liên quan theo
+định kỳ và đột xuất.
+            2. Nhà cung cấp dịch vụ thanh toán điện tử giao thông, đơn vị quản lý thu có quyền yêu cầu
+chủ phương tiện cung cấp thông tin tài khoản giao thông hoặc thông tin giao dịch thanh toán điện tử
+giao thông đường bộ có liên quan khi sử dụng dịch vụ của mình trên nguyên tắc tuân thủ khoản 3
+Điều 4 Nghị định này.
+        Điều 26. Nghĩa vụ về thông tin, báo cáo
+                 1. Nhà cung cấp dịch vụ thanh toán điện tử giao thông có nghĩa vụ báo cáo và cung cấp
+thông tin cho các cơ quan có thẩm quyền theo quy định tại khoản 1 Điều 25 Nghị định này.
+          2. Nhà cung cấp dịch vụ thanh toán điện tử giao thông có nghĩa vụ cung cấp thông tin về giao
+dịch qua tài khoản giao thông cho chủ phương tiện mở tài khoản giao thông theo thỏa thuận.
+        Điều 27. Bảo mật và an toàn thông tin mạng
+        1. Quyền từ chối cung cấp thông tin
+                Đơn vị vận hành Hệ thống quản lý cơ sở dữ liệu thanh toán điện tử giao thông đường bộ,
+Nhà cung cấp dịch vụ thanh toán điện tử giao thông, đơn vị vận hành thu có quyền từ chối yêu cầu
+của tổ chức, cá nhân về việc cung cấp thông tin về chủ phương tiện, giao dịch và của chủ phương
+tiện, trừ trường hợp theo yêu cầu của cơ quan nhà nước có thẩm quyền theo quy định của pháp luật
+hoặc được sự chấp thuận của chủ tài khoản giao thông.
+        2. Nghĩa vụ bảo mật thông tin
+
+        Đơn vị vận hành Hệ thống quản lý cơ sở dữ liệu thanh toán điện tử giao thông đường bộ,
+Nhà cung cấp dịch vụ thanh toán điện tử giao thông, đơn vị vận hành thu có trách nhiệm giữ bí mật
+các thông tin liên quan đến chủ phương tiện, giao dịch của chủ phương tiện, trừ trường hợp pháp
+luật có quy định khác.
+        3. An toàn thông tin mạng
+        Đơn vị quản lý Hệ thống quản lý cơ sở dữ liệu thanh toán điện tử giao thông đường bộ, Nhà
+cung cấp dịch vụ thanh toán điện tử giao thông, đơn vị quản lý thu có trách nhiệm bảo vệ hệ thống
+thông tin của hệ thống thuộc trách nhiệm quản lý theo quy định của pháp luật về an toàn thông tin
+mạng và giao dịch điện tử.
+        Điều 28. Bảo đảm an toàn trong thanh toán
+        Nhà cung cấp dịch vụ thanh toán điện tử giao thông, đơn vị vận hành thu phải áp dụng các
+biện pháp bảo đảm an toàn trong thanh toán theo quy định của pháp luật. Chủ phương tiện có nghĩa
+vụ tuân thủ các biện pháp bảo đảm an toàn trong thanh toán theo quy định và hướng dẫn của Nhà
+cung cấp dịch vụ thanh toán điện tử giao thông.
+                                           Chương V
+                    TRÁCH NHIỆM CỦA CÁC ĐƠN VỊ TRONG THANH TOÁN
+        Điều 29. Trách nhiệm của Bộ Giao thông vận tải
+        1. Tổ chức thực hiện, kiểm tra, giám sát hoạt động thanh toán điện tử giao thông đường bộ,
+bảo đảm chính xác, khách quan, minh bạch.
+        2. Quản lý, kiểm soát hoạt động của Hệ thống thanh toán điện tử giao thông theo quy định
+của pháp luật.
+        3. Đầu tư, tổ chức quản lý, vận hành, khai thác Hệ thống quản lý cơ sở dữ liệu thanh toán
+điện tử giao thông đường bộ theo quy định.
+        4. Thực hiện nhiệm vụ cơ quan có thẩm quyền đối với các dự án có thu tiền sử dụng đường
+bộ theo quy định; thanh toán điện tử các loại phí, giá, dịch vụ thuộc phạm vi quản lý liên quan đến
+hoạt động giao thông của phương tiện.
+        5. Xử lý hoặc kiến nghị xử lý các nội dung phát sinh theo thẩm quyền.
+        6. Phối hợp với Bộ Công an kết nối, chia sẻ giữa Cơ sở dữ liệu về trật tự, an toàn giao thông
+đường bộ và các cấu thành Hệ thống thanh toán điện tử giao thông.
+        Điều 30. Trách nhiệm của các bộ, ngành, địa phương có liên quan
+        1. Bộ Công an, Bộ Quốc phòng
+        Chỉ đạo các cơ quan chức năng thuộc Bộ Công an, Bộ Quốc phòng phối hợp với Bộ Giao
+thông vận tải và Nhà cung cấp dịch vụ thanh toán tiền sử dụng đường bộ thực hiện việc gắn thẻ đầu
+cuối cho các phương tiện phục vụ mục đích quốc phòng, an ninh tham gia giao thông.
+        2. Bộ Tài chính
+        Chủ trì, phối hợp với Bộ Giao thông vận tải quản lý hướng dẫn Nhà cung cấp dịch vụ thanh
+toán điện tử giao thông, đơn vị quản lý thu sử dụng hoá đơn điện tử theo quy định của pháp luật về
+hoá đơn trong hoạt động thanh toán điện tử giao thông đường bộ.
+        3. Bộ Thông tin và Truyền thông
+        a) Cấp giấy phép sử dụng tần số vô tuyến điện và xử lý nhiễu có hại (nếu có) cho thiết bị vô
+tuyến điện thuộc Hệ thống thanh toán điện tử giao thông theo quy định của pháp luật về tần số vô
+tuyến điện.
+        b) Hướng dẫn, hỗ trợ các đơn vị có liên quan trong việc bảo đảm an toàn thông tin, cho các
+cấu thành Hệ thống thanh toán điện tử giao thông theo quy định của pháp luật.
+        c) Kiểm tra, giám sát các đơn vị có liên quan thực hiện các quy định của pháp luật trong lĩnh
+vực công nghệ thông tin có liên quan đến hoạt động thanh toán điện tử giao thông đường bộ.
+
+            d) Chỉ đạo các cơ quan thông tấn, báo chí, hệ thống thông tin cơ sở đẩy mạnh công tác tuyên
+truyền, phổ biến lợi ích cũng như các quy định của pháp luật về thanh toán điện tử giao thông đường
+bộ.
+        4. Các bộ, ngành khác
+              Thực hiện nhiệm vụ theo chức năng, thẩm quyền trong việc thanh toán điện tử các loại phí,
+giá, dịch vụ liên quan đến hoạt động giao thông của phương tiện do bộ, ngành quản lý.
+        5. Ủy ban nhân dân cấp tỉnh
+                   Thực hiện nhiệm vụ cơ quan có thẩm quyền đối với các dự án có thu tiền sử dụng đường
+bộ theo quy định; thanh toán điện tử các loại phí, giá, dịch vụ thuộc phạm vi quản lý liên quan đến
+hoạt động giao thông của phương tiện.
+        Điều 31. Quyền và nghĩa vụ của chủ phương tiện
+            1. Thực hiện gắn thẻ đầu cuối cho phương tiện tại lần kiểm định gần nhất hoặc trước khi đến
+hạn kiểm định hoặc khi qua trạm thu phí đường bộ lần đầu hoặc ngay khi thẻ đầu cuối bị mất, hỏng
+do lỗi của chủ phương tiện hoặc sau khi hết hạn bảo hành. Chi trả tiền gắn thẻ đầu cuối cho Nhà
+cung cấp dịch vụ thanh toán tiền sử dụng đường bộ theo quy định.
+              2. Cung cấp thông tin để mở tài khoản giao thông, khai báo và sửa đổi thông tin tài khoản
+giao thông khi có thay đổi; cung cấp các thông tin cần thiết để Nhà cung cấp dịch vụ thanh toán điện
+tử giao thông giao hoàn trả tiền vào phương tiện thanh toán liên kết với tài khoản giao thông của chủ
+phương tiện khi cần thiết.
+                3. Thực hiện dịch vụ thanh toán điện tử giao thông đường bộ theo đúng hướng dẫn của Nhà
+cung cấp dịch vụ thanh toán điện tử giao thông.
+                   4. Phối hợp với Nhà cung cấp dịch vụ thanh toán tiền sử dụng đường bộ thực hiện việc
+chuyển đổi tài khoản thu phí đã có theo Quyết định số 19/2020/QĐ-TTg ngày 17 tháng 6 năm 2020
+của Thủ tướng Chính phủ sang tài khoản giao thông và thực hiện kết nối phương tiện thanh toán
+không dùng tiền mặt với tài khoản giao thông trước ngày 01 tháng 10 năm 2025.
+                5. Đọc, hiểu quyền, nghĩa vụ của chủ phương tiện và đồng ý tuân thủ các quy định về bảo
+mật dữ liệu cá nhân khi cung cấp, cho phép chia sẻ thông tin dữ liệu cá nhân chủ phương tiện, các
+Nhà cung cấp dịch vụ thanh toán điện tử giao thông, các đơn vị quản lý thu và đơn vị vận hành thu
+nhằm định danh, xác thực, xử lý và lưu trữ dữ liệu trong quá trình cung cấp dịch vụ thanh toán điện
+tử giao thông đường bộ cho phương tiện.
+              6. Quyết định việc sử dụng thông tin tài khoản giao thông để thực hiện thanh toán điện tử
+giao thông đường bộ.
+                 7. Thanh toán các loại phí, giá, dịch vụ liên quan đến hoạt động giao thông của phương
+tiện theo quy định.
+        8. Chấp hành các hướng dẫn về giao thông khi lưu thông qua điểm thu.
+        Điều 32. Quyền và    nghĩa  vụ của Nhà cung cấp dịch vụ thanh toán điện tử giao
+thông đối với chủ phương tiện
+                   1. Hướng dẫn sử dụng, bảo hành thẻ đầu cuối gắn cho chủ phương tiện trong trường hợp
+Nhà cung cấp dịch vụ thanh toán điện tử giao thông là nhà cung cấp dịch vụ thanh toán tiền sử dụng
+đường bộ.
+        2. Hướng dẫn chủ phương tiện cách thức sử dụng dịch vụ.
+        3. Tổ chức tiếp nhận, xử lý thông tin tra soát, khiếu nại của chủ phương tiện
+        a) Áp dụng tối thiểu hai hình thức tiếp nhận thông tin tra soát, khiếu nại bao gồm qua tổng đài
+điện thoại (có ghi âm, hoạt động 24/24 giờ trong ngày và 7/7 ngày trong tuần) và qua trụ sở/chi nhánh
+của Nhà cung cấp dịch vụ thanh toán điện tử giao thông; bảo đảm xác thực những thông tin cơ bản
+mà chủ phương tiện đã cung cấp cho Nhà cung cấp dịch vụ thanh toán điện tử giao thông;
+          b) Thời hạn xử lý đề nghị tra soát, khiếu nại không quá 45 ngày làm việc kể từ ngày tiếp nhận
+đề nghị tra soát, khiếu nại lần đầu của chủ phương tiện.
+        4. Xử lý kết quả tra soát, khiếu nại
+
+               a) Trong thời hạn tối đa 05 ngày làm việc kể từ ngày thông báo kết quả tra soát, khiếu nại
+cho chủ phương tiện, Nhà cung cấp dịch vụ thanh toán điện tử giao thông thực hiện bồi hoàn tổn thất
+cho khách hàng theo thỏa thuận và quy định của pháp luật hiện hành đối với những tổn thất phát sinh
+không do lỗi của chủ phương tiện và/hoặc không thuộc các trường hợp bất khả kháng theo thỏa
+thuận về điều khoản và điều kiện sử dụng dịch vụ.
+              b) Trong trường hợp hết thời hạn xử lý tra soát, khiếu nại được quy định tại điểm b khoản 3
+Điều này mà vẫn chưa xác định được nguyên nhân hay lỗi thuộc bên nào thì trong vòng 15 ngày làm
+việc tiếp theo, Nhà cung cấp dịch vụ thanh toán điện tử giao thông thỏa thuận với chủ phương tiện về
+phương án xử lý hoặc tạm thời bồi hoàn tổn thất cho chủ phương tiện cho đến khi có kết luận cuối
+cùng của cơ quan có thẩm quyền phân định rõ lỗi và trách nhiệm của các bên.
+                 5. Trường hợp vụ việc có dấu hiệu tội phạm, Nhà cung cấp dịch vụ thanh toán điện tử giao
+thông thực hiện thông báo cho cơ quan nhà nước có thẩm quyền theo quy định của pháp luật về tố
+tụng hình sự và báo cáo Cục Đường bộ Việt Nam; đồng thời, thông báo bằng văn bản cho chủ
+phương tiện về tình trạng xử lý đề nghị tra soát, khiếu nại. Việc xử lý kết quả tra soát, khiếu nại thuộc
+trách nhiệm giải quyết của cơ quan nhà nước có thẩm quyền. Trong trường hợp cơ quan nhà nước
+có thẩm quyền thông báo kết quả giải quyết không có yếu tố tội phạm, trong vòng 15 ngày làm việc
+kể từ ngày có kết luận của cơ quan nhà nước có thẩm quyền, Nhà cung cấp dịch vụ thanh toán điện
+tử giao thông thỏa thuận với chủ phương tiện về phương án xử lý kết quả tra soát, khiếu nại.
+        6. Trường hợp Nhà cung cấp dịch vụ thanh toán điện tử giao thông, chủ phương tiện và các
+bên liên quan không thỏa thuận được và/hoặc không đồng ý với quá trình xử lý đề nghị tra soát,
+khiếu nại thì việc giải quyết tranh chấp được thực hiện theo quy định của pháp luật.
+              7. Hướng dẫn chủ phương tiện về việc thu thập, xử lý, sử dụng, lưu trữ thông tin dữ liệu cá
+nhân và yêu cầu chủ phương tiện xác nhận đồng ý trước khi chia sẻ một phần hoặc toàn bộ thông tin
+dữ liệu cá nhân với các bên liên quan phục vụ cho việc cung cấp dịch vụ thanh toán điện tử giao
+thông đường bộ cho phương tiện.
+                 8. Lưu trữ các dữ liệu hoạt động về "Quyền được biết", "Quyền đồng ý", "Quyền truy cập",
+"Quyền rút lại sự đồng ý", "Quyền xóa" hoặc "Quyền hạn chế xử lý dữ liệu", "Quyền cung cấp dữ liệu"
+của chủ phương tiện khi sử dụng dịch vụ.
+              9. Thực hiện các biện pháp bảo vệ dữ liệu cá nhân theo tiêu chuẩn bảo vệ dữ liệu cá nhân và
+theo quy định của pháp luật về bảo vệ dữ liệu cá nhân; bảo vệ quyền và lợi ích hợp pháp của chủ
+phương tiện và của các Nhà cung cấp dịch vụ thanh toán điện tử giao thông trong quá trình xử lý dữ
+liệu cá nhân.
+                         Điều 33. Quyền và nghĩa vụ khác của Nhà cung cấp dịch vụ thanh toán điện tử giao
+thông
+        1. Đối với đơn vị quản lý thu
+                 a) Ký hợp đồng cung cấp dịch vụ thu với đơn vị quản lý thu; Thực hiện các quyền và nghĩa
+vụ theo hợp đồng ký kết;
+        b) Hoàn trả doanh thu theo quy định.
+                 2. Xây dựng, ban hành quy trình nghiệp vụ theo quy định tại các Điều 16, 17, 21, 22 Nghị
+định này.
+           3. Đồng bộ thông tin tài khoản giao thông và thông tin giao dịch thanh toán điện tử giao thông
+đường bộ về Hệ thống cơ sở dữ liệu thanh toán điện tử giao thông đường bộ theo các quy định tại
+Nghị định này.
+                 4. Thông báo cho cơ quan Cảnh sát giao thông khi phát hiện các trường hợp xe gắn biển số
+giả, biển số không do cơ quan có thẩm quyền cấp để kịp thời ngăn chặn, xử lý.
+        5. Thực hiện chế độ báo cáo theo quy định.
+        6. Kê khai và nộp các loại thuế, phí, lệ phí theo quy định của pháp luật về thuế, phí và lệ phí.
+                   7. Mở tài khoản trên hệ thống ngân hàng thương mại để tiếp nhận tiền từ việc thực hiện
+thanh toán điện tử giao thông đường bộ của chủ phương tiện.
+               8. Cung cấp hình ảnh, thông tin hành trình, lịch trình di chuyển của phương tiện khi có đề
+nghị của cơ quan có thẩm quyền.
+
+               9. Các trách nhiệm khác theo hợp đồng với các đơn vị có liên quan, theo các quy định tại
+Nghị định này.
+       Điều 34. Quyền và nghĩa vụ của đơn vị vận hành thu
+                1. Thực hiện nhiệm vụ được đơn vị quản lý thu giao hoặc thực hiện theo hợp đồng dịch vụ
+thu ký kết với đơn vị quản lý thu. Phối hợp với các cơ quan chức năng của địa phương nơi đặt điểm
+thu để giữ gìn an ninh, trật tự trong quá trình thanh toán điện tử giao thông đường bộ, bảo đảm an
+toàn giao thông, tránh ùn tắc giao thông, bảo đảm không xảy ra các hiện tượng tiêu cực, cản trở, gây
+phiền hà trong hoạt động thanh toán điện tử giao thông đường bộ; xử lý kịp thời các hành vi vi phạm
+trong quá trình thanh toán.
+           2. Trong trường hợp hệ thống thiết bị lắp đặt tại điểm thu bị trục trặc, hư hỏng, đơn vị vận
+hành thu phải kịp thời có báo cáo cơ quan có thẩm quyền hoặc báo cáo đơn vị quản lý thu; đồng thời,
+khẩn trương khắc phục các sự cố của hệ thống. Thời gian khắc phục sự cố không quá 48 giờ, kể từ
+thời điểm hệ thống bị trục trặc, hư hỏng. Trong thời gian khắc phục sự cố, đơn vị vận hành thu phải
+thông báo công khai tại điểm thu và trên phương tiện truyền thông, thông tin đại chúng; có biện pháp
+bảo đảm thu nhanh gọn, an toàn, tránh ùn tắc giao thông và có biện pháp giám sát chống thất thoát
+doanh thu.
+             3. Thực hiện các quy trình nghiệp vụ do Nhà cung cấp dịch vụ thanh toán điện tử giao thông
+ban hành.
+             4. Đồng bộ thông tin giao dịch thanh toán điện tử giao thông đường bộ về Hệ thống cơ sở dữ
+liệu thanh toán điện tử giao thông đường bộ theo các quy định tại Nghị định này.
+            5. Thực hiện các biện pháp bảo vệ dữ liệu cá nhân theo tiêu chuẩn bảo vệ dữ liệu cá nhân và
+theo quy định của pháp luật về bảo vệ dữ liệu cá nhân; bảo vệ quyền và lợi ích hợp pháp của chủ
+phương tiện và của đơn vị vận hành thu trong quá trình xử lý dữ liệu cá nhân.
+               6. Các trách nhiệm khác theo hợp đồng với các đơn vị có liên quan, theo các quy định tại
+Nghị định này.
+       Điều 35. Quyền và nghĩa vụ của đơn vị quản lý thu
+              1. Chủ trì xây dựng và phê duyệt quy trình thanh toán điện tử giao thông đường bộ phù hợp
+với hình thức và phương thức thanh toán điện tử tại điểm thu; quy định nội bộ về kiểm tra, xử lý vi
+phạm, xử lý sự cố trong quá trình thực hiện thanh toán điện tử giao thông đường bộ.
+            2. Thực hiện hoặc ký hợp đồng giao đơn vị vận hành thu thực hiện việc thiết kế, đầu tư, xây
+dựng, cải tạo, quản lý, vận hành hệ thống thiết bị lắp đặt tại các điểm thu theo quy định.
+                   3. Ký hợp đồng cung cấp dịch vụ thu với Nhà cung cấp dịch vụ thanh toán điện tử giao
+thông; thực hiện các quyền và nghĩa vụ theo hợp đồng ký kết.
+             4. Thực hiện các quy trình nghiệp vụ do Nhà cung cấp dịch vụ thanh toán điện tử giao thông
+ban hành.
+       5. Thực hiện chế độ báo cáo theo quy định.
+       6. Kê khai và nộp các loại thuế, phí, lệ phí theo quy định của pháp luật về thuế, phí và lệ phí.
+            7. Thực hiện các biện pháp bảo vệ dữ liệu cá nhân theo tiêu chuẩn bảo vệ dữ liệu cá nhân và
+theo quy định của pháp luật về bảo vệ dữ liệu cá nhân; bảo vệ quyền và lợi ích hợp pháp của chủ
+phương tiện và của các đơn vị quản lý thu trong quá trình xử lý dữ liệu cá nhân.
+               8. Các trách nhiệm khác theo hợp đồng với các đơn vị có liên quan, theo các quy định tại
+Nghị định này.
+                                           Chương VI
+                                     TỔ CHỨC THỰC HIỆN
+       Điều 36. Xử lý chuyển tiếp
+                1. Việc thu phí dịch vụ sử dụng đường bộ theo hình thức điện tử không dừng đã được thực
+hiện theo Quyết định số 19/2020/QĐ-TTg ngày 17 tháng 6 năm 2020 của Thủ tướng Chính phủ tiếp
+tục được thực hiện đến ngày 01 tháng 7 năm 2026.
+
+           2. Nhà cung cấp dịch vụ thu phí dịch vụ sử dụng đường bộ được quy định theo Quyết định số
+19/2020/QĐ-TTg ngày 17 tháng 6 năm 2020 của Thủ tướng Chính phủ là Nhà cung cấp dịch vụ
+thanh toán tiền sử dụng đường bộ được quy định tại Nghị định này.
+            3. Nhà cung cấp dịch vụ thanh toán tiền sử dụng đường bộ tiếp tục thu tiền sử dụng đường
+bộ theo các quy định về thu phí dịch vụ sử dụng đường bộ theo hình thức điện tử không dừng tại
+Quyết định số 19/2020/QĐ-TTg ngày 17 tháng 6 năm 2020 của Thủ tướng Chính phủ đến ngày 01
+tháng 7 năm 2026.
+                4. Nhà cung cấp dịch vụ thanh toán giao thông đường bộ và Nhà cung cấp dịch vụ thanh
+toán tiền sử dụng đường bộ kết nối hệ thống điều hành và trung tâm dữ liệu để kết nối, chia sẻ thông
+tin tài khoản giao thông đến ngày 01 tháng 7 năm 2026. Chi phí kết nối theo thỏa thuận giữa các bên
+với nhau.
+             5. Các cơ quan, đơn vị liên quan điều chỉnh hợp đồng dự án và các nội dung liên quan đã
+thực hiện theo Quyết định số 19/2020/QĐ-TTg ngày 17 tháng 6 năm 2020 của Thủ tướng Chính phủ
+để phù hợp với Nghị định này. Việc bổ sung dịch vụ thanh toán điện tử giao thông đường bộ vào hợp
+đồng ký giữa Nhà cung cấp dịch vụ thu phí dịch vụ sử dụng đường bộ được quy định theo Quyết định
+số 19/2020/QĐ-TTg ngày 17 tháng 6 năm 2020 của Thủ tướng Chính phủ với cơ quan có thẩm
+quyền thực hiện trên cơ sở đàm phán, điều chỉnh hợp đồng.
+           6. Nhà cung cấp dịch vụ thanh toán tiền sử dụng đường bộ hoàn thiện việc chuyển tài khoản
+thu phí của chủ phương tiện theo Quyết định số 19/2020/QĐ-TTg ngày 17 tháng 6 năm 2020 của Thủ
+tướng Chính phủ sang tài khoản giao thông kết nối với phương tiện thanh toán của chủ phương tiện
+trước ngày 01 tháng 10 năm 2025.
+         7. Nhà cung cấp dịch vụ thanh toán tiền sử dụng đường bộ hoàn thiện việc chuyển tiền từ tài
+khoản thu phí của chủ phương tiện theo Quyết định số 19/2020/QĐ-TTg ngày 17 tháng 6 năm 2020
+của Thủ tướng Chính phủ sang phương tiện thanh toán của chủ phương tiện được kết nối với tài
+khoản giao thông trước ngày 01 tháng 10 năm 2025.
+        Điều 37. Hiệu lực thi hành
+        1. Nghị định này có hiệu lực thi hành kể từ ngày 01 tháng 10 năm 2024.
+        2. Hệ thống quản lý cơ sở dữ liệu thanh toán điện tử giao thông đường bộ vận hành từ ngày
+01 tháng 7 năm 2026. Các nội dung có liên quan đến Hệ thống quản lý cơ sở dữ liệu thanh toán điện
+tử giao thông đường bộ quy định trong Nghị định này có hiệu lực từ ngày 01 tháng 7 năm 2026.
+        Điều 38. Trách nhiệm tổ chức thực hiện
+                 Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ
+tịch Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương và các tổ chức, cá nhân có liên quan chịu
+trách nhiệm thi hành Nghị định này./.
+ Nơi nhận:                                                      TM. CHÍNH PHỦ
+ - Ban Bí thư Trung ương Đảng;                                  KT. THỦ TƯỚNG
+ - Thủ tướng, các Phó Thủ tướng Chính phủ;                      PHÓ THỦ TƯỚNG
+ - Các bộ, cơ quan ngang bộ, cơ quan thuộc
+ Chính phủ;
+ - HĐND, UBND các tỉnh, thành phố trực thuộc
+ trung ương;                                                    Trần Hồng Hà
+ - Văn phòng Trung ương và các Ban của Đảng;
+ - Văn phòng Tổng Bí thư;
+ - Văn phòng Chủ tịch nước;
+ - Hội đồng Dân tộc và các Ủy ban của Quốc hội;
+ - Văn phòng Quốc hội;
+ - Tòa án nhân dân tối cao;
+ - Viện kiểm sát nhân dân tối cao;
+ - Kiểm toán nhà nước;
+ - Ủy ban Giám sát tài chính tối cao;
+ - Ngân hàng Chính sách xã hội;
+ - Ngân hàng Phát triển Việt Nam;
+ - Ủy ban trung ương của các đoàn thể;
+ - VPCP: BTCN, các PCN, Trợ lý TTg, TGĐ
+
+Cổng TTĐT, các Vụ, Cục, đơn vị trực thuộc,
+Công báo;
+- Lưu: VT, CN.pvc
+
+                                             Phụ lục
+                                  THÔNG TIN TRONG CƠ SỞ DỮ LIỆU
+                              THANH TOÁN ĐIỆN TỬ GIAO THÔNG ĐƯỜNG BỘ
+          (Kèm theo Nghị định số 119/2024/NĐ-CP ngày 30 tháng 9 năm 2024 của Chính phủ)
+                                           ___________
+        1. Thông tin tài khoản giao thông
+        a) Số tài khoản giao thông, ngày mở tài khoản giao thông.
+               b) Thông tin chủ tài khoản giao thông (trường hợp chủ tài khoản là cá nhân): Họ tên; ngày,
+tháng, năm sinh; giới tính; quốc tịch; địa chỉ liên lạc; số định danh cá nhân; số điện thoại đăng ký;
+email đăng ký.
+        c) Thông tin chủ tài khoản giao thông (trường hợp chủ tài khoản là tổ chức): Tên tổ chức;
+quyết định thành lập hoặc giấy phép hoạt động hoặc giấy chứng nhận đăng ký doanh nghiệp; địa chỉ
+liên lạc; số điện thoại đăng ký; email đăng ký.
+               d) Thông tin phương tiện gắn thẻ đầu cuối: Biển số xe, số khung, số máy, tải trọng, số chỗ
+ngồi, loại xe; giấy chứng nhận kiểm định an toàn kỹ thuật và bảo vệ môi trường; giấy chứng minh xe
+ưu tiên (nếu có).
+              đ) Thông tin thẻ đầu cuối: Mã định danh thẻ đầu cuối (TID); mã sản phẩm điện tử của thẻ đầu
+cuối (EPC); ngày, tháng, năm gắn thẻ đầu cuối.
+                 e) Thông tin phương tiện thanh toán không dùng tiền mặt: Loại phương tiện thanh toán; số
+phương tiện thanh toán; đơn vị cung ứng phương tiện thanh toán.
+        2. Thông tin giao dịch thanh toán điện tử giao thông đường bộ
+        a) Thông tin đơn vị tham gia giao dịch: Đơn vị quản lý thu, đơn vị vận hành thu, Nhà cung cấp
+dịch vụ thanh toán điện tử giao thông.
+                b) Thông tin thanh toán tiền sử dụng đường bộ: Mã hiệu bản tin giao dịch; mã nhà cung cấp
+dịch vụ thanh toán tiền sử dụng đường bộ; mã đơn vị vận hành thu; mã trạm thu phí đường bộ; loại
+trạm thu phí đường bộ (trạm mở, trạm kín); mã làn thu phí; loại làn thu phí (làn mở, làn vào, làn ra);
+ngày, tháng, năm, giờ, phút, giây thực hiện giao dịch; loại phương tiện (theo phân loại thu phí đường
+bộ); loại vé; biển số xe gắn với tài khoản giao thông; biển số xe nhận diện từ biển số; ảnh chụp
+phương tiện; ảnh chụp biển số.
+          c) Thông tin thanh toán các loại phí, giá, tiền dịch vụ khác: Mã hiệu bản tin giao dịch; mã nhà
+cung cấp dịch vụ thanh toán giao thông đường bộ; mã đơn vị vận hành thu; mã điểm thu; loại điểm
+thu (điểm thu mở, điểm thu kín); mã làn thu phí; loại làn thu phí (làn mở, làn vào, làn ra); ngày, tháng,
+năm, giờ, phút, giây thực hiện giao dịch; loại phương tiện (theo phân loại của đơn vị quản lý thu); loại
+vé; biển số xe gắn với tài khoản giao thông; biển số xe nhận diện từ biển số; ảnh chụp biển số.
+        d) Thông tin thanh toán: Mã bản tin thanh toán; số tiền thanh toán; phương tiện thanh toán; ngày,
+tháng, năm, giờ, phút, giây thực hiện thanh toán thành công./.

@@ -37,29 +37,11 @@ from redis.exceptions import RedisError, ConnectionError as RedisConnectionError
 from langchain_community.chat_message_histories import RedisChatMessageHistory
 
 
-# Logger
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+
 logger = logging.getLogger(__name__)
 
 
-def router_as_runnable(
-        routes: dict[str, RunnableSequence], # Sửa kiểu dữ liệu
-        get_key: RunnableLambda, # Sửa kiểu dữ liệu
-        default: RunnableSequence = None # Sửa kiểu dữ liệu
-    ) -> RunnableLambda: # Sửa kiểu dữ liệu
-        def dispatch(input_data_dict): # Đổi tên biến cho rõ ràng
-            key = get_key.invoke(input_data_dict)
-            logging.info(f"🔸[Router] Route key: {key}")
-            selected_runnable = routes.get(key, default)
-            if selected_runnable is None:
-                raise ValueError(f"No route found for key '{key}' and no default route is set.")
-            logging.info(f"🔸[Router] Selected runnable type: {type(selected_runnable)}")
-            return selected_runnable # RunnableLambda sẽ tự động invoke runnable này
 
-        # Quan trọng: RunnableLambda sẽ nhận input_data_dict, chạy hàm dispatch,
-        # hàm dispatch trả về một Runnable (selected_runnable).
-        # Sau đó, Langchain sẽ tự động .invoke(input_data_dict) trên selected_runnable đó.
-        return RunnableLambda(dispatch)
 
 
 def preprocess_image_for_ocr(image_pil: Image.Image, target_dpi: int = 300) -> Image.Image:
@@ -549,17 +531,17 @@ def detect_document_structure(text: str) -> str:
         return "outline_structure"
     return "free_text"
 
-def correct_ocr_date_string(date_str: str) -> str:
-    """Sửa lỗi OCR phổ biến trong chuỗi ngày tháng."""
-    replacements = {
-        'ó': '6', 'Ò': '0', 'ọ': '0', 'O': '0',
-        'l': '1', 'I': '1', 'i': '1',
-        'Z': '2', 'z': '2',
-        'B': '8',
-    }
-    for wrong, right in replacements.items():
-        date_str = date_str.replace(wrong, right)
-    return date_str
+# def correct_ocr_date_string(date_str: str) -> str:
+#     """Sửa lỗi OCR phổ biến trong chuỗi ngày tháng."""
+#     replacements = {
+#         'ó': '6', 'Ò': '0', 'ọ': '0', 'O': '0',
+#         'l': '1', 'I': '1', 'i': '1',
+#         'Z': '2', 'z': '2',
+#         'B': '8',
+#     }
+#     for wrong, right in replacements.items():
+#         date_str = date_str.replace(wrong, right)
+#     return date_str
 
 
 
@@ -738,7 +720,8 @@ def extract_law_structure(text: str) -> Dict[str, Optional[Union[str, int]]]: # 
                 month = date_match.group(2).strip().replace('.', '').replace('-', '')
                 year = date_match.group(3).strip()
                 full_date = f"ngày {day} tháng {month} năm {year}"
-                structure["ngay_ban_hanh"] = correct_ocr_date_string(full_date)
+                # structure["ngay_ban_hanh"] = correct_ocr_date_string(full_date)
+                structure["ngay_ban_hanh"] = full_date
 
     # Nếu không tìm thấy, dùng phương pháp 2: Tìm ngày đầu tiên trong đoạn đầu
     if not structure["ngay_ban_hanh"]:
@@ -753,7 +736,8 @@ def extract_law_structure(text: str) -> Dict[str, Optional[Union[str, int]]]: # 
             month = first_date_match.group(2).strip().replace('.', '').replace('-', '')
             year_str = first_date_match.group(3).strip()
             first_date_str = f"ngày {day} tháng {month} năm {year_str}"
-            structure["ngay_ban_hanh"] = correct_ocr_date_string(first_date_str)
+            # structure["ngay_ban_hanh"] = correct_ocr_date_string(first_date_str)
+            structure["ngay_ban_hanh"] = first_date_str
 
 
     # Tách năm từ ngày ban hành nếu có và chuyển thành SỐ NGUYÊN
@@ -1225,20 +1209,20 @@ def get_redis_history(r: Redis, chat_id: str, max_messages: int = 100) -> List[M
         logger.error("chat_id không được rỗng")
         raise ValueError("chat_id là bắt buộc")
 
-    redis_key = f"conversation:{chat_id}"
+    messages_key = f"conversation_messages:{chat_id}"
     try:
         # Kiểm tra kết nối Redis
         r.ping()
 
         # Lấy tin nhắn (giới hạn max_messages từ cuối)
-        history_raw = r.lrange(redis_key, -max_messages, -1)
+        history_raw = r.lrange(messages_key, -max_messages, -1)
         chat_history = []
 
         for item in history_raw:
             try:
                 parsed = json.loads(item)
                 if not isinstance(parsed, dict):
-                    logger.warning(f"Tin nhắn không phải dict trong {redis_key}: {item}")
+                    logger.warning(f"Tin nhắn không phải dict trong {messages_key}: {item}")
                     continue
 
                 # Kiểm tra các trường bắt buộc
@@ -1246,12 +1230,12 @@ def get_redis_history(r: Redis, chat_id: str, max_messages: int = 100) -> List[M
                 content = parsed.get("content")
                 timestamp = parsed.get("timestamp")
                 if not all([role, content, timestamp]):
-                    logger.warning(f"Tin nhắn thiếu trường trong {redis_key}: {parsed}")
+                    logger.warning(f"Tin nhắn thiếu trường trong {messages_key}: {parsed}")
                     continue
 
                 # Đảm bảo role hợp lệ
                 if role not in ["user", "assistant"]:
-                    logger.warning(f"Role không hợp lệ trong {redis_key}: {role}")
+                    logger.warning(f"Role không hợp lệ trong {messages_key}: {role}")
                     continue
 
                 chat_history.append(Message(
@@ -1260,13 +1244,13 @@ def get_redis_history(r: Redis, chat_id: str, max_messages: int = 100) -> List[M
                     timestamp=timestamp
                 ))
             except json.JSONDecodeError as e:
-                logger.error(f"Lỗi parse JSON trong {redis_key}: {item}, lỗi: {e}")
+                logger.error(f"Lỗi parse JSON trong {messages_key}: {item}, lỗi: {e}")
                 continue
             except Exception as e:
-                logger.error(f"Lỗi xử lý tin nhắn trong {redis_key}: {item}, lỗi: {e}")
+                logger.error(f"Lỗi xử lý tin nhắn trong {messages_key}: {item}, lỗi: {e}")
                 continue
 
-        logger.info(f"Lấy {len(chat_history)} tin nhắn từ {redis_key}")
+        logger.info(f"Lấy {len(chat_history)} tin nhắn từ {messages_key}")
         return chat_history
 
     except r.RedisError as e:
@@ -1394,31 +1378,7 @@ async def create_refresh_token(email: str) -> str:
         )
 
 
-class WrappedLLMChain(Runnable):
-    def __init__(self, chain):
-        self.chain = chain
 
-    def invoke(self, input: Dict[str, Any], config: dict = None, **kwargs) -> Dict[str, Any]:
-        logger.info(f"WrappedLLMChain input: {input}")
-        response = self.chain.invoke(input, config=config, **kwargs)
-        logger.info(f"WrappedLLMChain raw response: {response}")
-
-        # Handle ConversationalRetrievalChain response
-        if isinstance(response, dict) and "answer" in response:
-            # Preserve the answer and any additional keys (e.g., source_documents)
-            result = {"answer": response["answer"]}
-            if "source_documents" in response:
-                result["source_documents"] = response["source_documents"]
-        else:
-            # Fallback for unexpected response formats
-            result = {"answer": str(response)}
-
-        logger.info(f"WrappedLLMChain processed result: {result}")
-        return result
-
-    def with_config(self, config):
-        self.chain.with_config(config)
-        return self
 
 
 # === Vietnamese text processing ===
@@ -1760,147 +1720,63 @@ def normalize_vietnamese(text: str) -> str:
 
     return text
 
-# Danh sách từ dừng tiếng Việt (đã được điều chỉnh)
-STOP_WORDS = {
-    # Chỉ giữ lại những từ thực sự không mang ý nghĩa quan trọng
-    "thì", "mà", "của", "với", "tại", "ở", "cho", "để", "đã", "đang", "sẽ",
-    "cùng", "bởi", "vì", "do", "bằng", "trong", "ngoài", "giữa", "trên", "dưới", "từ",
-    "đến", "ra", "vào", "lên", "xuống", "qua", "lại",
-    "hiện", "nay", "bây giờ", "trước", "sau", "luôn", "thường", "vẫn", "được", "chưa", "rồi", "từng",
-    "mới", "gần", "xa", "khoảng", "hôm", "ngày", "tháng", "năm",
-    "rất", "quá", "hơi", "khá", "về", "liên quan", "đối với", "theo", "thuộc", "bên",
-    "này", "kia", "đấy", "đó", "đây", "như", "vậy", "thế", "nên", "vì thế", "do đó",
-    "tuy", "dù", "mặc dù", "nếu như", "trừ khi"
-    # Đã loại bỏ: "là", "và", "hoặc", "nhưng", "nếu", "khi", "ai", "gì", "đâu", "nào"
-    # vì chúng quan trọng cho ý nghĩa câu hỏi
-}
 
-# Danh sách các từ quan trọng không được loại bỏ (whitelist)
-IMPORTANT_WORDS = {
-    "là", "ai", "gì", "đâu", "nào", "như thế nào", "tại sao", "khi nào", "và", "hoặc", "nhưng", "nếu", "khi"
-}
-
-@lru_cache(maxsize=1000)
-def preprocess_input(text: str) -> str:
+def minimal_preprocess_for_llm(text: str) -> str:
     """
-    Tiền xử lý câu hỏi: sửa lỗi chính tả, loại bỏ ký tự đặc biệt, chuẩn hóa khoảng trắng,
-    bảo vệ cụm từ quan trọng, và loại bỏ từ dừng một cách thông minh.
-
-    Args:
-        text (str): Câu hỏi gốc.
-
-    Returns:
-        str: Câu hỏi đã được tiền xử lý.
-
-    Raises:
-        ValueError: Nếu input rỗng hoặc chỉ chứa ký tự không hợp lệ.
+    Thực hiện tiền xử lý tối thiểu trước khi đưa vào LLM.
+    Chỉ chuẩn hóa khoảng trắng và chuyển thành chữ thường.
     """
     if not text or not text.strip():
-        logger.error("Input rỗng hoặc không hợp lệ")
+        # Vẫn cần kiểm tra input rỗng
         raise ValueError("Input không được rỗng")
 
-    logger.debug(f"Input gốc: {text}")
+    # 1. Chuẩn hóa khoảng trắng
+    processed_text = re.sub(r'\s+', ' ', text).strip()
 
-    # Loại bỏ ký tự đặc biệt (nhưng giữ lại dấu câu hỏi quan trọng)
-    text = re.sub(r'[^\w\s.,!?]', '', text)
+    # 2. Chuyển thành chữ thường để nhất quán
+    processed_text = processed_text.lower()
 
-    # Chuẩn hóa khoảng trắng
-    text = re.sub(r'\s+', ' ', text).strip()
-
-    # Chuyển về chữ thường
-    text = text.lower()
-
-    # Chuẩn hóa dấu tiếng Việt
-    text = normalize_vietnamese(text)
-
-    # Sửa lỗi chính tả bằng từ điển (nếu có VIETNAMESE_DICTIONARY)
-    if 'VIETNAMESE_DICTIONARY' in globals():
-        sorted_dict = sorted(VIETNAMESE_DICTIONARY.items(), key=lambda x: len(x[0]), reverse=True)
-        changes = []
-        for wrong, correct in sorted_dict:
-            pattern = r'\b' + re.escape(wrong) + r'\b'
-            if re.search(pattern, text, re.IGNORECASE):
-                text = re.sub(pattern, correct, text, flags=re.IGNORECASE)
-                changes.append(f"{wrong} → {correct}")
-
-        if changes:
-            logger.info(f"Sửa lỗi chính tả: {', '.join(changes)}")
-    else:
-        changes = []
-
-    # Loại bỏ từ dừng một cách thông minh (không sử dụng placeholder)
-    words = text.split()
-    filtered_words = []
-
-    for word in words:
-        # Giữ lại từ nếu:
-        # 1. Không phải từ dừng
-        # 2. Hoặc là từ quan trọng (trong whitelist)
-        # 3. Hoặc là từ nghi vấn quan trọng
-        if (word not in STOP_WORDS or
-            word in IMPORTANT_WORDS or
-            word in ["ai", "gì", "đâu", "nào", "sao", "thế nào", "khi", "nếu"]):
-            filtered_words.append(word)
-
-    text = ' '.join(filtered_words)
-
-    # Kiểm tra đặc biệt: nếu câu hỏi quá ngắn sau khi lọc, giữ lại nhiều từ hơn
-    if len(filtered_words) <= 1:
-        logger.warning("Câu hỏi quá ngắn sau khi lọc, giữ lại nhiều từ hơn")
-        # Chỉ loại bỏ những từ dừng thực sự không quan trọng
-        minimal_stop_words = {"thì", "mà", "rồi", "đã", "đang", "sẽ", "vẫn", "luôn"}
-        words = text.split() if not text.strip() else text.split()
-        if not words:  # Nếu text rỗng, quay lại text gốc đã chuẩn hóa
-            original_words = re.sub(r'[^\w\s.,!?]', '',
-                                  re.sub(r'\s+', ' ',
-                                       normalize_vietnamese(re.sub(r'\s+', ' ', text).strip().lower()))).split()
-            filtered_words = [word for word in original_words if word not in minimal_stop_words]
-        else:
-            filtered_words = [word for word in words if word not in minimal_stop_words]
-        text = ' '.join(filtered_words)
-
-    # Kiểm tra output cuối cùng
-    if not text.strip():
-        logger.warning("Output rỗng sau khi tiền xử lý, giữ lại input gốc đã chuẩn hóa")
-        # Fallback: chỉ chuẩn hóa cơ bản, không loại bỏ từ dừng
-        original_text = re.sub(r'[^\w\s.,!?]', '',
-                              re.sub(r'\s+', ' ', text).strip().lower())
-        text = normalize_vietnamese(original_text)
-        if not text.strip():
-            raise ValueError("Không thể tiền xử lý: output rỗng")
-
-    if changes:
-        logger.info(f"Sửa lỗi chính tả: {', '.join(changes)}")
-    logger.info(f"Đã tiền xử lý: {text}")
-
-    return text
+    return processed_text
 
 def process_with_groq (groq_client,input: str) -> str:
     try:
         PRE_PROCESS_INPUT_PROMPT = f"""
-            Bạn là một trợ lý pháp lý chuyên xử lý và chuẩn hóa câu hỏi liên quan đến pháp luật Việt Nam, nhằm tối ưu việc truy xuất tài liệu pháp lý mới nhất. Nhiệm vụ của bạn là:
+                            <|system|>
+                Bạn là một công cụ NLP chuyên xử lý truy vấn pháp luật Việt Nam. Nhiệm vụ của bạn là chuyển đổi câu hỏi của người dùng thành một truy vấn tìm kiếm (search query) ngắn gọn và hiệu quả.
 
-            1. Thêm dấu câu (chấm, phẩy, hỏi...) để làm rõ nghĩa câu hỏi nếu còn thiếu.
-            2. Loại bỏ từ dư thừa hoặc từ lặp lại không cần thiết.
-            3. Thay thế các từ thông dụng hoặc mơ hồ bằng **thuật ngữ pháp lý chính xác và phổ biến trong văn bản pháp luật** (ví dụ: "bị phạt bao nhiêu tiền" → "mức xử phạt hành chính").
-            4. Bổ sung các **từ khóa chuyên ngành pháp lý** phù hợp như: "quy định", "nghị định", "pháp luật hiện hành", "mức xử phạt", "trách nhiệm pháp lý", "thẩm quyền", v.v... nếu cần thiết để tăng khả năng truy xuất tài liệu pháp lý đúng.
-            5. Ưu tiên bổ sung các cụm từ nhấn mạnh **tính cập nhật, hiệu lực hiện hành của pháp luật**, như: "theo pháp luật hiện hành", "theo nghị định mới nhất", "quy định hiện nay".
-            6. Giữ nguyên ý nghĩa gốc của câu hỏi, không được làm thay đổi bản chất hoặc mục đích tra cứu.
-            7. Chỉ trả về **câu hỏi đã được xử lý**, không kèm giải thích.
+                **QUY TẮC:**
+                1.  **Sửa lỗi & Thêm dấu:** Sửa lỗi chính tả, thêm dấu tiếng Việt.
+                2.  **Dùng thuật ngữ pháp lý:** Thay thế từ thông thường. Ví dụ: "phạt bao nhiêu tiền" -> "mức xử phạt hành chính".
+                3.  **Thêm từ khóa chính:** Bổ sung các từ khóa cốt lõi như "quy định", "thủ tục", "điều kiện", "trách nhiệm pháp lý", "theo pháp luật hiện hành".
+                4.  **Ngắn gọn:** Giữ truy vấn súc tích, tập trung vào các từ khóa quan trọng nhất.
+                5.  **Chỉ trả về truy vấn:** KHÔNG giải thích, KHÔNG thêm "Output:".
 
-            Ví dụ:
-            - Input: "liet ke nhung nguoi co the thua ke"
-            - Output: "Liệt kê những người được quyền thừa kế theo quy định pháp luật hiện hành."
-            - Input: "thue thu nhap ca nhan o vn"
-            - Output: "Quy định về thuế thu nhập cá nhân tại Việt Nam theo pháp luật hiện hành."
-            - Input: "xe may vuot den do bi phat bao nhieu tien"
-            - Output: "Mức xử phạt hành chính đối với hành vi điều khiển xe máy vượt đèn đỏ theo quy định pháp luật giao thông đường bộ hiện hành."
+                **ĐẦU RA BẮT BUỘC LÀ MỘT CÂU TRUY VẤN DUY NHẤT.**
+                </|system|>
 
-            Câu hỏi gốc: "{input}"
+                <|user|>
+                **Ví dụ:**
+                *   Gốc: "xe may vuot den do bi phat bao nhieu tien"
+                *   Tối ưu: Mức xử phạt hành chính xe máy vượt đèn đỏ theo pháp luật hiện hành.
+
+                *   Gốc: "khi nao thi duoc phep xay nha o"
+                *   Tối ưu: Điều kiện cấp giấy phép xây dựng nhà ở theo quy định hiện hành.
+
+                *   Gốc: "muon ly hon thi can giay to gi"
+                *   Tối ưu: Hồ sơ, thủ tục ly hôn theo Luật Hôn nhân và Gia đình.
+
+                *   Gốc: "cong ty toi no luong 2 thang roi gio toi phai lam sao"
+                *   Tối ưu: Thủ tục khiếu nại, khởi kiện khi công ty nợ lương theo Bộ luật Lao động.
+
+                ---
+                **XỬ LÝ CÂU HỎI SAU:**
+
+                **Gốc:** "{input}"
+                <|user|>
             """
 
         response = groq_client.chat.completions.create(
-            model="llama3-8b-8192",  # Mô hình nhẹ, miễn phí trên Groq llama3-8b-8192
+            model="llama-3.3-70b-versatile",
             messages=[
                 {"role": "system", "content": "Bạn là một trợ lý pháp lý."},
                 {"role": "user", "content": PRE_PROCESS_INPUT_PROMPT}
@@ -1985,3 +1861,35 @@ async def get_langchain_chat_history(app_state, chat_id: str) -> RedisChatMessag
             langchain_chat_history.add_ai_message(message.content)
 
     return langchain_chat_history
+
+# api/utils.py
+
+import hashlib
+import config
+
+logger = logging.getLogger(__name__)
+
+def calculate_file_hash(filepath: str) -> str:
+    sha256_hash = hashlib.sha256()
+    with open(filepath, "rb") as f:
+        for byte_block in iter(lambda: f.read(4096), b""):
+            sha256_hash.update(byte_block)
+    return sha256_hash.hexdigest()
+
+def check_if_hash_exists(file_hash: str) -> bool:
+    if not os.path.exists(config.PROCESSED_HASH_LOG):
+        return False
+    try:
+        with open(config.PROCESSED_HASH_LOG, "r") as f:
+            processed_hashes = {line.strip() for line in f}
+            return file_hash in processed_hashes
+    except IOError as e:
+        logger.error(f"Could not read hash log file: {e}")
+        return False
+
+def log_processed_hash(file_hash: str):
+    try:
+        with open(config.PROCESSED_HASH_LOG, "a") as f:
+            f.write(file_hash + "\n")
+    except IOError as e:
+        logger.error(f"Could not write to hash log file: {e}")

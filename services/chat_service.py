@@ -4,147 +4,14 @@ from schemas.user import UserOut
 from dependencies import get_current_user
 import time
 import json
-from utils.utils import save_chat_to_redis, search_term_in_dictionary, process_with_groq,preprocess_input, save_chat_to_mongo, get_langchain_chat_history
+from utils.utils import save_chat_to_redis, search_term_in_dictionary, minimal_preprocess_for_llm, save_chat_to_mongo, get_langchain_chat_history
 import os
 import logging
-from langchain_community.chat_message_histories import RedisChatMessageHistory
 from db.mongoDB import conversations_collection
 from datetime import datetime, timezone
-from schemas.chat import Message
 import asyncio
 
 logger = logging.getLogger(__name__)
-# def ask_question_service(app_state, request: QueryRequest, user: str=Depends(get_current_user)):
-#     chat_id = request.chat_id
-#     question = request.input
-#     if not app_state.redis.exists(f"chat:{chat_id}:meta"):
-#         raise HTTPException(status_code=404, detail="Chat ID not found")
-
-#     user_in_redis = app_state.redis.hget(f"chat:{chat_id}:meta", "user")
-#     if not user_in_redis:
-#         raise HTTPException(status_code=404, detail="Chat not found")
-
-#     if user_in_redis.decode() != user.email:
-#         raise HTTPException(status_code=403, detail="Unauthorized")
-
-#     start_time = time.time()
-#     # question = preprocess_vietnamese_query(question)['accented']
-#     cleaned_question = preprocess_input(question)
-#     question_processed = process_with_groq(app_state.process_input_llm,cleaned_question)
-
-#     logger.info(f"check: => processed question: {question_processed}")
-#     logger.info(f"check: => cleaned question: {cleaned_question}")
-
-#     if not app_state.qa_chain:
-#         raise HTTPException(status_code=503, detail="Service Unavailable: QA Chain chưa sẵn sàng.")
-
-#     term_result = search_term_in_dictionary(question_processed, app_state.dict)
-
-#     try:
-#         # Initialize Redis memory for this chat_id
-#         redis_url = os.environ.get("REDIS_URL")
-#         if not redis_url:
-#             logger.error("REDIS_URL not set.")
-#             raise ValueError("Redis URL is required.")
-
-#         chat_history = RedisChatMessageHistory(
-#             url=redis_url,
-#             session_id=chat_id,
-#             ttl=86400,
-#         )
-#         # This function appears to be unused and may be causing the issue if referenced elsewhere
-#         # def get_chat_history(_):
-#         #     return chat_history.messages
-
-#         if term_result:
-#             answer_def = term_result.get("definition", "Không thể tạo câu trả lời.")
-#             save_chat_to_redis(app_state.redis, chat_id, question_processed, answer_def)
-#             return AnswerResponse(
-#                 answer=answer_def,
-#                 sources='legal_terms',
-#                 processing_time=0.0
-#             )
-
-#         # Prepare input for qa_chain
-#         input_data = {
-#             "chat_history": chat_history.messages if chat_history.messages else [],
-#             "input": question_processed
-#         }
-#         logger.debug(f"Input data: {input_data}, type: {type(input_data)}")
-
-#         # Call qa_chain
-#         try:
-#             # This is likely where the error is occurring
-#             result = app_state.qa_chain.invoke(input_data)
-#             logger.info(f"🔸QA Chain raw result for chat_id {chat_id}: {result}")
-
-#             # Handle unexpected output format
-#             if isinstance(result, dict) and "answer" in result:
-#                 if isinstance(result["answer"], str):
-#                     try:
-#                         # Try parsing answer as JSON
-#                         parsed_answer = json.loads(result["answer"])
-#                         if isinstance(parsed_answer, dict) and "answer" in parsed_answer:
-#                             logger.warning(f"🔸Parsed JSON answer for chat_id {chat_id}: {parsed_answer}")
-#                             result = {"answer": parsed_answer["answer"]}
-#                         else:
-#                             logger.warning(f"🔸Answer is a JSON string but not a valid answer dict: {result['answer']}")
-#                     except json.JSONDecodeError:
-#                         # Not a JSON string, use as is
-#                         pass
-#                 elif "question" in result:
-#                     logger.warning(f"🔸Unexpected 'question' key in result for chat_id {chat_id}: {result}")
-#                     result = {"answer": "Không thể xử lý câu hỏi. Vui lòng thử lại."}
-#                 elif "raw" in result:
-#                     logger.warning(f"🔸Unexpected 'raw' key in result for chat_id {chat_id}: {result}")
-#                     result = {"answer": result["raw"]}
-
-#             if not isinstance(result, dict) or "answer" not in result:
-#                 logger.error(f"🔸Invalid QA Chain result for chat_id {chat_id}: {result}")
-#                 raise ValueError("QA Chain did not return a valid response.")
-
-#             response = result["answer"]
-#             if not isinstance(response, str):
-#                 logger.warning(f"🔸Response is not a string for chat_id {chat_id}: {response}")
-#                 response = str(response)
-#         except Exception as chain_error:
-#             logger.error(f"🔸QA Chain error for chat_id {chat_id}: {chain_error}")
-#             raise HTTPException(status_code=500, detail=f"QA Chain processing failed: {str(chain_error)}")
-
-#         # Save response to chat history
-#         chat_history.add_user_message(question_processed)
-#         chat_history.add_ai_message(response)
-#         end_time = time.time()
-
-#         # Save to Redis
-#         save_chat_to_redis(app_state.redis, chat_id, question_processed, response)
-#         # Save to MongoDB
-#         save_chat_to_mongo(
-#             conversations_collection,
-#             chat_id,
-#             user.email,
-#             question,
-#             response
-
-#         )
-#         sources_list = []
-#         if result.get("source_documents"):
-#             for doc in result["source_documents"]:
-#                 sources_list.append(SourceDocument(
-#                     source=doc.metadata.get('source', 'N/A'),
-#                     page_content_preview=doc.page_content[:200] + "..."
-#                 ))
-
-#         logger.info(f"🔸Answer: {response}")
-
-#         return AnswerResponse(
-#             answer=response,
-#             sources=sources_list if sources_list else None,
-#             processing_time=round(end_time - start_time, 2)
-#         )
-#     except Exception as e:
-#         logger.error(f"Error during QA Chain invocation: {e}")
-#         raise HTTPException(status_code=500, detail=f"Internal Server Error: {str(e)}")
 
 
 async def ask_question_service(app_state, request: QueryRequest, user: UserOut = Depends(get_current_user)):
@@ -170,13 +37,7 @@ async def ask_question_service(app_state, request: QueryRequest, user: UserOut =
     current_utc_time = datetime.now(timezone.utc) # Sử dụng UTC cho timestamp
 
     # --- 2. Tiền xử lý câu hỏi ---
-    cleaned_question = preprocess_input(question_content)
-
-    logger.info(f'Cleaned ques: {cleaned_question}')
-    # Sử dụng câu hỏi đã xử lý bởi Groq cho chain, nhưng lưu câu hỏi gốc/cleaned vào DB/Redis
-    # question_for_chain = process_with_groq(app_state.process_input_llm, cleaned_question)
-    # logger.info(f"Question for chain (chat_id: {chat_id}): {question_for_chain}")
-
+    cleaned_question = minimal_preprocess_for_llm(question_content)
 
     # --- 3. Kiểm tra từ điển thuật ngữ (nếu có) ---
     if hasattr(app_state, 'dict') and app_state.dict:
@@ -208,50 +69,22 @@ async def ask_question_service(app_state, request: QueryRequest, user: UserOut =
         logger.error("QA Chain chưa được khởi tạo.")
         raise HTTPException(status_code=503, detail="Service Unavailable: QA Chain not ready.")
 
-    # --- 4. Lấy lịch sử chat cho Langchain Chain ---
-    # RedisChatMessageHistory sử dụng key riêng của nó, ví dụ: "message_store:{session_id}"
-    # Nó không trực tiếp đọc từ "conversation_messages:{chat_id}" trừ khi bạn cấu hình key_prefix
-    # Cách tiếp cận: Để RedisChatMessageHistory đọc/ghi vào key riêng của nó cho chain.
-    # Dữ liệu trong "conversation_messages:{chat_id}" là "source of truth" để hiển thị và nạp lại.
+
     try:
         redis_url = os.environ.get("REDIS_URL_LANGCHAIN", os.environ.get("REDIS_URL")) # Ưu tiên URL riêng cho Langchain nếu có
         if not redis_url:
             logger.error("REDIS_URL or REDIS_URL_LANGCHAIN not set for RedisChatMessageHistory.")
             raise ValueError("Redis URL for chat history is required.")
 
-        # Tạo RedisChatMessageHistory với session_id là chat_id
-        # Langchain sẽ tự động tạo key kiểu message_store:your_chat_id
-        # Hoặc bạn có thể thử set key_prefix nếu class hỗ trợ, nhưng thường là session_id.
-        langchain_chat_history = RedisChatMessageHistory(
-            url=redis_url,
-            session_id=chat_id, # Quan trọng: phải là chat_id hiện tại
-            ttl=86400,
+
+        chat_history_messages = await prepare_chat_history_optimized(
+            app_state.redis,
+            chat_id,
+            max_messages=10
         )
-        # Lấy tin nhắn đã có trong history của Langchain (nếu có từ lần trước)
-        # Lưu ý: Đây là history mà Langchain quản lý, có thể khác với "conversation_messages:{chat_id}"
-        # nếu bạn không đồng bộ chúng.
-        # Để đơn giản, khi load conversation (/c/{chat_id}), bạn có thể cũng nạp message vào key của Langchain.
-        # Hoặc, dựa vào "conversation_messages:{chat_id}" để tạo lại Langchain history mỗi lần.
-        # Cách tiếp cận ở đây: Dùng history mà Langchain đang có.
-
-        # Khởi tạo lịch sử cho Langchain từ key messages chính của chúng ta (ĐỒNG BỘ HÓA)
-        # Điều này đảm bảo Langchain sử dụng đúng lịch sử mà user thấy.
-        messages_key = f"conversation_messages:{chat_id}"
-        raw_messages_from_our_redis =  app_state.redis.lrange(messages_key, 0, -1)
-
-        # Xóa history cũ trong Langchain key trước khi add lại, để tránh trùng lặp nếu user reload.
-        langchain_chat_history.clear() # Dùng `clear()` nếu redis client đồng bộ
-
-        for msg_json_str in raw_messages_from_our_redis:
-            msg_data = json.loads(msg_json_str.decode()) # decode bytes to str
-            message = Message(**msg_data) # Validate lại qua Pydantic
-            if message.role == "user":
-                langchain_chat_history.add_user_message(message.content)
-            elif message.role == "assistant":
-                langchain_chat_history.add_ai_message(message.content)
-
         input_data_for_chain = {
-            "chat_history":  langchain_chat_history.messages, # Lấy messages đã được đồng bộ
+            # "chat_history":  langchain_chat_history.messages, # Lấy messages đã được đồng bộ
+            "chat_history":  chat_history_messages, # Lấy messages đã được đồng bộ
             "input": cleaned_question
         }
 
@@ -263,10 +96,23 @@ async def ask_question_service(app_state, request: QueryRequest, user: UserOut =
     # --- 5. Gọi QA Chain ---
     try:
         logger.debug(f"Input to QA Chain (chat_id: {chat_id}): {input_data_for_chain}")
-        # Đảm bảo qa_chain là async nếu bạn dùng await
-        chain_result =  app_state.qa_chain.invoke(input_data_for_chain) # Giả sử chain có phương thức async
-        # chain_result = app_state.qa_chain.invoke(input_data_for_chain) # Nếu chain là đồng bộ
-        logger.info(f"QA Chain raw result (chat_id: {chat_id}): {chain_result}")
+
+        # Metadata cho LangSmith trace
+        langsmith_metadata = {
+            "user_email": user.email,
+            "chat_id": chat_id,
+            "original_question": question_content,
+            "cleaned_question": cleaned_question,
+            "request_id": request.request_id if hasattr(request, 'request_id') else "N/A" # Nếu bạn có request ID
+        }
+
+        chain_result =  app_state.qa_chain.invoke(input_data_for_chain, config={
+                    "metadata": langsmith_metadata,
+                    "run_name": f"AskService_QA_Invoke_ChatID_{chat_id[:8]}"
+                    # "tags": ["production", "qa_service"]
+                })
+
+        # logger.info(f"QA Chain raw result (chat_id: {chat_id}): {chain_result}")
 
         # Xử lý kết quả từ chain (logic của bạn để trích xuất câu trả lời)
         assistant_response_content = ""
@@ -299,35 +145,14 @@ async def ask_question_service(app_state, request: QueryRequest, user: UserOut =
     await save_chat_to_mongo(
         conversations_collection, chat_id, user.email, question_content, assistant_response_content, current_utc_time, assistant_response_time
     )
-    # Langchain's RedisChatMessageHistory cũng sẽ tự lưu nếu chain được cấu hình với memory.
-    # Tuy nhiên, việc chúng ta add lại vào langchain_chat_history ở trên là để đảm bảo ngữ cảnh cho lần gọi này.
-    # Nếu chain của bạn tự động cập nhật memory (ví dụ ConversationBufferMemory với RedisChatMessageHistory),
-    # thì không cần add_user_message/add_ai_message vào langchain_chat_history sau khi invoke.
-    # Nhưng để chắc chắn, bạn có thể thêm:
-    # await langchain_chat_history.aadd_user_message(question_for_chain)
-    # await langchain_chat_history.aadd_ai_message(assistant_response_content)
-    # Hãy kiểm tra tài liệu của memory component bạn đang dùng trong chain.
 
     end_time = time.time()
-
-    # --- 7. Chuẩn bị sources (nếu có) ---
-    sources_list = []
-    if isinstance(chain_result, dict) and chain_result.get("source_documents"):
-        for doc in chain_result["source_documents"]:
-            if hasattr(doc, 'metadata') and hasattr(doc, 'page_content'):
-                sources_list.append(SourceDocument(
-                    source=doc.metadata.get('source', 'N/A'),
-                    page_content_preview=doc.page_content[:200] + "..."
-                ))
 
     logger.info(f"Trả lời cho chat {chat_id} bởi user {user.email}: {assistant_response_content[:100]}...")
     return AnswerResponse(
         answer=assistant_response_content,
-        sources=sources_list if sources_list else None,
         processing_time=round(end_time - start_time, 2)
     )
-
-
 
 async def stream_chat_generator(
     app_state,
@@ -367,14 +192,10 @@ async def stream_chat_generator(
             return
 
         # --- 2. Tiền xử lý câu hỏi (Tương tự) ---
-        cleaned_question = preprocess_input(question_content)
-        # Sử dụng Groq để xử lý trước (nếu cần và nó nhanh)
-        # Cân nhắc: Nếu process_with_groq chậm, nó có thể làm delay chunk đầu tiên.
-        # question_for_chain = process_with_groq(app_state.process_input_llm, cleaned_question)
-        # logger.info(f"Stream: Question for chain (chat_id: {chat_id}): {question_for_chain}")
+        cleaned_question = minimal_preprocess_for_llm(question_content)
+
         initial_processing_done_time = time.time()
         logger.info(f"Stream: Initial processing for {chat_id} took {initial_processing_done_time - start_time_total:.2f}s")
-
 
         # --- 3. Kiểm tra từ điển thuật ngữ (nếu có, và nó nhanh) ---
         if hasattr(app_state, 'dict') and app_state.dict:
@@ -409,7 +230,6 @@ async def stream_chat_generator(
 
         # --- 4. Lấy lịch sử chat cho Langchain Chain (Tương tự) ---
         try:
-            # get_langchain_chat_history nên là async nếu redis client là async
             langchain_chat_history = await  get_langchain_chat_history(app_state, chat_id)
             input_data_for_chain = {
                 "chat_history": langchain_chat_history.messages,
@@ -422,8 +242,7 @@ async def stream_chat_generator(
             return
 
         # --- 5. Gọi QA Chain với streaming ---
-        # Điều này phụ thuộc vào cách chain của bạn hỗ trợ streaming.
-        # Giả sử chain.astream(input) hoặc chain.stream(input) trả về một async generator.
+
         if not (hasattr(app_state.qa_chain, 'astream') or hasattr(app_state.qa_chain, 'stream')):
             logger.error(f"Stream: QA Chain (type: {type(app_state.qa_chain)}) không có phương thức astream hoặc stream.")
             error_payload = {"error": "QA Chain does not support streaming."}
@@ -438,15 +257,6 @@ async def stream_chat_generator(
         sources_streamed = False # Cờ để chỉ stream sources một lần
 
         async for chunk in chain_stream_method(input_data_for_chain):
-            # Xử lý chunk từ chain. Cấu trúc của chunk phụ thuộc vào chain của bạn.
-            # Ví dụ phổ biến:
-            # 1. Chunk là string (token):
-            #    token = chunk
-            # 2. Chunk là dict với key 'answer' hoặc 'content' cho token:
-            #    token = chunk.get("answer") or chunk.get("content") or ""
-            # 3. Chunk là một AIMessageChunk (Langchain)
-            #    token = chunk.content
-            # 4. Có thể có 'source_documents' trong chunk cuối hoặc chunk riêng.
 
             token = ""
             current_sources = None
@@ -458,8 +268,8 @@ async def stream_chat_generator(
             elif isinstance(chunk, dict):
                 token = chunk.get("answer") or chunk.get("token") or chunk.get("content") or ""
                 # Kiểm tra sources nếu chunk là dict và chưa stream sources
-                if not sources_streamed and "source_documents" in chunk:
-                    current_sources = chunk["source_documents"]
+                if not sources_streamed and "source" in chunk:
+                    current_sources = chunk["source"]
 
             if token:
                 full_answer_for_saving += token
@@ -480,9 +290,6 @@ async def stream_chat_generator(
                     source_payload = {"sources": sources_list}
                     yield f"event: sources\ndata: {json.dumps(source_payload)}\n\n" # Event riêng cho sources
                     sources_streamed = True # Đánh dấu đã stream
-
-            # Thêm một chút delay nhỏ để client có thời gian xử lý, tránh flood
-            # await asyncio.sleep(0.01) # Tùy chọn, có thể không cần thiết
 
 
         stream_end_time = time.time()
@@ -539,3 +346,80 @@ async def stream_chat_generator(
 # EventSource chỉ hỗ trợ GET. Nếu bạn BẮT BUỘC phải dùng POST (ví dụ, câu hỏi quá dài cho URL),
 # bạn sẽ cần một giải pháp phức tạp hơn, không dùng EventSource trực tiếp trên client
 # mà dùng fetch API với ReadableStream và POST.
+
+
+#helper
+
+from typing import List, Optional,Any
+
+from langchain_core.messages import BaseMessage, HumanMessage, AIMessage
+async def prepare_chat_history_optimized(
+    redis:Any,
+    chat_id: str,
+    max_messages: int = 10,  # Số lượng cặp tin nhắn (user+AI) tối đa để lấy
+    max_tokens: Optional[int] = None, # (Tùy chọn nâng cao) Giới hạn token
+    tokenizer: Optional[Any] = None # (Tùy chọn nâng cao) Tokenizer để đếm token
+) -> List[BaseMessage]:
+    """
+    CẢI TIẾN: Lấy N tin nhắn gần nhất từ Redis để làm lịch sử chat.
+    - Hiệu quả hơn bằng cách chỉ lấy một phần lịch sử.
+    - An toàn hơn bằng cách kiểm soát độ dài ngữ cảnh.
+
+    Args:
+        redis: Client Redis bất đồng bộ.
+        chat_id: ID của cuộc trò chuyện.
+        max_messages: Số lượng tin nhắn tối đa để lấy từ cuối (ví dụ: 10 tin nhắn gần nhất).
+        max_tokens: (Nâng cao) Giới hạn tổng số token của lịch sử.
+        tokenizer: (Nâng cao) Tokenizer để sử dụng với max_tokens.
+
+    Returns:
+        Một danh sách các đối tượng tin nhắn của LangChain (HumanMessage, AIMessage).
+    """
+    messages_key = f"conversation_messages:{chat_id}"
+
+    # 1. Lấy N tin nhắn gần nhất từ Redis
+    # lrange(key, -N, -1) sẽ lấy N phần tử cuối cùng của list.
+    # Lấy nhiều hơn một chút để đảm bảo có cặp user/ai hoàn chỉnh.
+    num_to_fetch = max_messages + 2
+    try:
+        # Sử dụng lrange để lấy các tin nhắn gần nhất, hiệu quả hơn nhiều so với lấy tất cả
+        raw_messages_json = await redis.lrange(messages_key, -num_to_fetch, -1)
+        if not raw_messages_json:
+            return []
+    except Exception as e:
+        logger.error(f"Lỗi khi đọc lịch sử chat từ Redis cho chat_id {chat_id}: {e}")
+        return []
+
+    # 2. Xây dựng danh sách tin nhắn cho LangChain
+    langchain_messages: List[BaseMessage] = []
+    total_tokens = 0
+
+    # Lặp ngược từ cuối (tin nhắn mới nhất) để xử lý
+    for msg_json_str in reversed(raw_messages_json):
+        try:
+            msg_data = json.loads(msg_json_str)
+            content = msg_data.get("content", "")
+
+            # (Tùy chọn nâng cao) Kiểm tra giới hạn token
+            if max_tokens and tokenizer:
+                num_tokens = len(tokenizer.encode(content))
+                if total_tokens + num_tokens > max_tokens:
+                    logger.warning(f"Đã đạt giới hạn token ({max_tokens}) cho lịch sử chat. Dừng lại.")
+                    break # Dừng thêm tin nhắn
+                total_tokens += num_tokens
+
+            # Tạo đối tượng tin nhắn phù hợp
+            if msg_data.get("role") == "user":
+                langchain_messages.append(HumanMessage(content=content))
+            elif msg_data.get("role") == "assistant":
+                langchain_messages.append(AIMessage(content=content))
+
+        except (json.JSONDecodeError, KeyError) as e:
+            logger.warning(f"Lỗi khi parse tin nhắn từ Redis: {e}. Bỏ qua tin nhắn này.")
+            continue
+
+    # 3. Đảo ngược lại danh sách để có đúng thứ tự (cũ -> mới)
+    langchain_messages.reverse()
+
+    # Cắt lại theo max_messages cuối cùng để đảm bảo số lượng chính xác
+    return langchain_messages[-max_messages:]

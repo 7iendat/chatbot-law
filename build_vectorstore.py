@@ -1,125 +1,167 @@
-import torch
+# build_v5.py
 import time
 import gc
-from tqdm import tqdm
-import config
-import utils.utils as utils
-import rag_components
+import os
 import logging
-import weaviate
-from db.weaviateDB import connect_to_weaviate
+from tqdm import tqdm
+from concurrent.futures import ProcessPoolExecutor, as_completed
 
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+# Import các hàm cần thiết
+import config
+from db.weaviateDB import connect_to_weaviate
+from rag_components import (
+    get_huggingface_embeddings,
+    _create_weaviate_schema_if_not_exists,
+    _ingest_chunks_with_native_batching,
+    filter_and_serialize_complex_metadata
+)
+from utils.process_data import process_single_file
+
 logger = logging.getLogger(__name__)
 
-def clear_weaviate_collection( collection_name):
-    """Xóa collection cũ trong Weaviate nếu tồn tại."""
+# --- CÁC HÀM HỖ TRỢ CHO CHECKPOINTING ---
+CHECKPOINT_FILE = "processed_files.log"
+
+def load_processed_files() -> set:
+    """Đọc file checkpoint và trả về một set các tên file đã xử lý."""
+    if not os.path.exists(CHECKPOINT_FILE):
+        return set()
+    with open(CHECKPOINT_FILE, 'r', encoding='utf-8') as f:
+        return {line.strip() for line in f if line.strip()}
+
+def log_processed_file(filename: str):
+    """Ghi tên file đã xử lý thành công vào file checkpoint."""
+    with open(CHECKPOINT_FILE, 'a', encoding='utf-8') as f:
+        f.write(filename + '\n')
+
+def clear_weaviate_collection(client, collection_name: str):
+    """Hàm helper để xóa collection và file checkpoint."""
     try:
-        # Kết nối đến Weaviate
-        client = connect_to_weaviate()
-
-        try:
-            collection = client.collections.get(collection_name)
-            # Nếu không lỗi, tức là collection tồn tại
-            logger.info(f"🔸Collection '{collection_name}' đã tồn tại. Đang xóa...")
+        if client.collections.exists(collection_name):
+            logger.warning(f"🗑️ Đang xóa collection '{collection_name}'...")
             client.collections.delete(collection_name)
-            logger.info(f"🔸Đã xóa collection '{collection_name}' thành công.")
-        except weaviate.exceptions.WeaviateQueryError:
-            # Collection không tồn tại
-            logger.info(f"🔸Collection '{collection_name}' không tồn tại. Không cần xóa.")
+            logger.info(f"✅ Đã xóa collection '{collection_name}' thành công.")
 
-        client.close()
-        return True
+        # Xóa cả file checkpoint khi rebuild
+        if os.path.exists(CHECKPOINT_FILE):
+            os.remove(CHECKPOINT_FILE)
+            logger.info(f"🗑️ Đã xóa file checkpoint '{CHECKPOINT_FILE}'.")
 
     except Exception as e:
-        logger.error(f"🔸Lỗi khi xóa collection: {str(e)}")
-        return False
+        logger.error(f"❌ Lỗi khi xóa collection: {e}")
+        raise e
 
-def build_store():
-    """Hàm chính để xây dựng hoặc cập nhật Vector Store."""
+def build_store_v5(force_rebuild: bool = False, pool_batch_size: int = 50):
+    """
+    Hàm xây dựng Vector Store với Checkpointing và Pool Restart để xử lý các job dài hơi.
 
-    logger.info("🔸Bắt đầu Quá trình Xây dựng Vector Store")
+    Args:
+        force_rebuild (bool): Xóa dữ liệu cũ và bắt đầu lại từ đầu.
+        pool_batch_size (int): Số lượng file xử lý trước khi tái khởi động worker pool.
+    """
+    logger.info(f"🚀 Bắt đầu Quá trình Xây dựng Vector Store v5 (Checkpointing & Pool Restart) 🚀")
+    total_start_time = time.time()
+    total_chunks_indexed = 0
+    weaviate_client = None
 
-    # --- 1. Tải cấu hình ---
-    logger.info("🔸Tải cấu hình")
-    device = 'cuda' if torch.cuda.is_available() else 'cpu'
-    logger.info(f"🔸Sử dụng thiết bị: {device}")
+    try:
+        # --- 1. SETUP PHASE ---
+        logger.info("⚙️  1. Thiết lập môi trường...")
+        device = 'cpu' # Giả định không có GPU
+        logger.info(f"💻 Sử dụng thiết bị: {device}")
 
-    # --- 1.5. Xóa dữ liệu cũ ---
-    logger.info("🔸Xóa dữ liệu cũ trong Weaviate")
-    if not clear_weaviate_collection(config.WEAVIATE_COLLECTION_NAME):
-        logger.warning("🔸Không thể xóa collection cũ, nhưng sẽ tiếp tục quá trình.")
+        weaviate_client = connect_to_weaviate()
+        if not weaviate_client: raise ConnectionError("Không thể kết nối đến Weaviate.")
 
-    # --- 2. Tải và Làm sạch Dữ liệu ---
-    logger.info("🔸Tải và Làm sạch Dữ liệu")
-    docs = utils.load_and_clean_documents(config.INPUT_TXT_FOLDER)
-    if not docs:
-        logger.error("🔸Không có tài liệu nào được tải. Dừng quá trình.")
-        return
-    logger.info(f"🔸Đã tải {len(docs)} tài liệu từ thư mục {config.INPUT_TXT_FOLDER}")
+        logger.info("🧠 Tải model embedding (chạy trên CPU)...")
+        embeddings_model = get_huggingface_embeddings(config.EMBEDDING_MODEL_NAME, device)
+        if not embeddings_model: raise RuntimeError("Không thể khởi tạo model embedding.")
 
-    # --- 3. Chunking theo Cấu trúc ---
-    logger.info("🔸Chunking theo cấu trúc (Điều/Khoản)")
-    chunks = []
-    if not docs:
-        logger.error("🔸Không có tài liệu để chunking.")
-    else:
+        collection_name = config.WEAVIATE_COLLECTION_NAME
 
-        # Lặp qua từng Document (từng file luật)
-        for doc in tqdm(docs, desc="Chunking tài liệu"):
-            doc_chunks = utils.split_by_law_structure(doc, max_chunk_size=config.CHUNK_SIZE*1.5) # Cho phép chunk lớn hơn một chút khi chia theo điều
-            logger.info(f"🔸Tài liệu: {doc.metadata.get('source', 'Không rõ')} => {len(doc_chunks)} chunks")
-            chunks.extend(doc_chunks)
+        if force_rebuild:
+            clear_weaviate_collection(weaviate_client, collection_name)
 
-        logger.info(f"🔸Đã chia thành {len(chunks)} chunks theo cấu trúc.")
-        if not chunks:
-            logger.error("🔸Không có chunks nào được tạo. Dừng quá trình.")
+        _create_weaviate_schema_if_not_exists(weaviate_client, collection_name)
+
+        # --- 2. LỌC FILE VÀ CHUẨN BỊ BATCH ---
+        processed_files = load_processed_files()
+        all_txt_paths = [os.path.join(config.CORE_DATA_FOLDER, f) for f in os.listdir(config.CORE_DATA_FOLDER) if f.lower().endswith('.txt')]
+
+        # Lọc ra những file chưa được xử lý
+        files_to_process = [path for path in all_txt_paths if os.path.basename(path) not in processed_files]
+
+        if not files_to_process:
+            logger.info("✅ Tất cả các file đã được xử lý. Không có gì để làm.")
             return
 
-        # Xem thử chunk đầu tiên
-        logger.info("🔸Chunk đầu tiên (ví dụ):")
-        logger.info(f"🔸Metadata: {chunks[0].metadata}")
-        logger.info(chunks[0].page_content[:500] + "...")
-    del docs
-    gc.collect()
+        logger.info(f"🔍 Đã xử lý {len(processed_files)} files. Còn lại {len(files_to_process)} files cần xử lý.")
 
-    # --- 4. Embedding ---
-    logger.info("🔸Embedding")
-    embeddings = rag_components.get_huggingface_embeddings(config.EMBEDDING_MODEL_NAME, device)
-    if not embeddings:
-        logger.error("🔸Không thể khởi tạo model embedding. Dừng quá trình.")
-        return
+        # --- 3. XỬ LÝ THEO LÔ ĐỂ CHỐNG RÒ RỈ BỘ NHỚ ---
+        max_workers = os.cpu_count() or 1
 
-    # --- 5. Indexing (Tạo Vector Store) ---
-    # Quan trọng: Truyền 'chunks' vào đây để tạo mới (nếu chưa có)
-    logger.info("🔸Tạo/Cập nhật Vector Store ")
-    start_time = time.time()
-    # vectorstore = rag_components.create_or_load_chroma_vectorstore(
-    #     embeddings=embeddings,
-    #     persist_directory=config.CHROMA_PERSIST_DIR,
-    #     collection_name=config.CHROMA_COLLECTION_NAME,
-    #     chunks=chunks # << Truyền chunks vào đây
-    # )
+        # Tạo thanh tiến trình tổng
+        main_progress_bar = tqdm(total=len(files_to_process), desc="Tổng tiến trình")
 
-    weaviate_client = connect_to_weaviate()
-    vectorstore = rag_components.create_or_load_vectorstore(
-        embeddings=embeddings,
-        weaviate_url=config.WEAVIATE_URL,
-        collection_name=config.WEAVIATE_COLLECTION_NAME,
-        weaviate_client=weaviate_client,
-        chunks=chunks
-    )
-    end_time = time.time()
-    if vectorstore:
-        logger.info("🔸Vector Store đã được tạo/cập nhật thành công.")
-    else:
-        logger.error("🔸Xảy ra lỗi trong quá trình tạo/cập nhật Vector Store.")
+        # Chia danh sách file thành các lô nhỏ
+        for i in range(0, len(files_to_process), pool_batch_size):
+            file_batch = files_to_process[i:i + pool_batch_size]
+            logger.info(f"\n🔄 Đang xử lý lô {i//pool_batch_size + 1}, gồm {len(file_batch)} files. Tái khởi động Worker Pool...")
 
-    logger.info(f"🔸Thời gian tạo Vector Store: {end_time - start_time:.2f} giây")
+            # Tạo một Worker Pool MỚI cho mỗi lô
+            with ProcessPoolExecutor(max_workers=max_workers) as executor:
+                future_to_file = {executor.submit(process_single_file, path): path for path in file_batch}
 
-    del chunks
-    del embeddings
-    gc.collect()
+                for future in as_completed(future_to_file):
+                    path = future_to_file[future]
+                    filename = os.path.basename(path)
+                    try:
+                        chunks_from_file = future.result()
+                        if not chunks_from_file:
+                            logger.warning(f"File '{filename}' không có chunks.")
+                            log_processed_file(filename) # Vẫn ghi nhận là đã xử lý
+                            main_progress_bar.update(1)
+                            continue
+
+                        processed_chunks = filter_and_serialize_complex_metadata(chunks_from_file)
+
+                        _ingest_chunks_with_native_batching(
+                            client=weaviate_client,
+                            collection_name=collection_name,
+                            chunks=processed_chunks,
+                            embeddings_model=embeddings_model
+                        )
+
+                        total_chunks_indexed += len(chunks_from_file)
+                        log_processed_file(filename) # Ghi nhận thành công
+                        main_progress_bar.set_description(f"✅ Ingested '{filename}'")
+                        main_progress_bar.update(1) # Cập nhật thanh tiến trình tổng
+
+                        del chunks_from_file, processed_chunks
+                        gc.collect()
+
+                    except Exception as e:
+                        logger.error(f"❌ Lỗi khi xử lý file '{filename}': {e}", exc_info=True)
+
+        main_progress_bar.close()
+        logger.info(f"\n✅ Đã ingest thành công thêm {total_chunks_indexed} chunks.")
+
+    except (ConnectionError, RuntimeError, Exception) as e:
+        logger.error(f"💥 Đã xảy ra lỗi nghiêm trọng: {e}", exc_info=True)
+
+    finally:
+        # --- 4. DỌN DẸP ---
+        logger.info("\n⚙️  4. Dọn dẹp tài nguyên...")
+        if 'embeddings_model' in locals(): del embeddings_model
+        if weaviate_client and weaviate_client.is_connected():
+            weaviate_client.close()
+            logger.info("🔌 Đã đóng kết nối Weaviate.")
+        gc.collect()
+        total_end_time = time.time()
+        logger.info(f"⏱️  Tổng thời gian chạy lần này: {total_end_time - total_start_time:.2f} giây")
+        logger.info("🎉 Chương trình kết thúc! 🎉")
 
 if __name__ == "__main__":
-    build_store()
+    # Khi chạy lại, chỉ cần chạy lệnh này. Nó sẽ tự động tiếp tục.
+    # Đặt force_rebuild=True chỉ khi bạn muốn xóa sạch và làm lại từ đầu.
+    build_store_v5(force_rebuild=True)

@@ -19,28 +19,6 @@ logger = logging.getLogger(__name__)
 router = APIRouter()
 
 
-# @router.post("/create-chat")
-# async def create_chat(request: Request,user: str = Depends(get_current_user)):
-#     app_state = get_app_state(request=request)
-#     redis:Redis = app_state.redis
-#     if not user:
-#         raise ValueError("user is missing")
-
-#     chat_id = str(uuid.uuid4())
-
-#     redis.hset(f"chat:{chat_id}:meta", mapping={"user": str(user.email)})
-
-#     # Lưu hội thoại rỗng vào MongoDB
-#     conversation = {
-#         "user_id": user.email,
-#         "conversation_id": chat_id,
-#         "messages": [],
-#         "created_at": datetime.now(),
-#         "updated_at": datetime.now()
-#     }
-#     conversations_collection.insert_one(conversation)
-#     return {"chat_id": chat_id}
-
 @router.post("/create-chat")
 async def create_chat(
     fastapi_request: Request, # Sử dụng Request từ FastAPI
@@ -49,11 +27,6 @@ async def create_chat(
     app_state = get_app_state(request=fastapi_request)
     redis_client: Redis = app_state.redis # Nên đặt tên rõ ràng là redis_client
 
-    # user đã được FastAPI và get_current_user đảm bảo tồn tại, nếu không sẽ raise lỗi trước đó
-    # if not current_user:
-    #     # Dòng này gần như không bao giờ được thực thi nếu Depends(get_current_user) hoạt động đúng
-    #     logger.error("User is missing, get_current_user dependency might have failed silently.")
-    #     raise HTTPException(status_code=500, detail="User information is missing.")
 
     chat_id = str(uuid.uuid4())
     current_utc_time = datetime.now(timezone.utc) # Sử dụng UTC
@@ -113,7 +86,7 @@ async def create_chat(
     return {"chat_id": chat_id}
 
 
-@router.post("/", response_model=AnswerResponse)
+@router.post("", response_model=AnswerResponse)
 async def chat_message(request_body: QueryRequest,request: Request, user:UserOut=Depends(get_current_user)):
     app_state = get_app_state(request=request)
     result = await ask_question_service(app_state,request_body, user)

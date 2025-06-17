@@ -1,0 +1,1355 @@
+CHÍNH PHỦ                           CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+                 ______                              Độc lập – Tự do – Hạnh phúc
+                                                       _______________________
+          Số: 57/2025/NĐ-CP                        Hà Nội, ngày 03 tháng 3 năm 2025
+                                           NGHỊ ĐỊNH
+                             Quy định cơ chế mua bán điện trực tiếp
+            giữa đơn vị phát điện năng lượng tái tạo và khách hàng sử dụng điện lớn
+                                           _________
+        Căn cứ Luật Tổ chức Chính phủ ngày 18 tháng 02 năm 2025;
+        Căn cứ Luật Điện lực ngày 30 tháng 11 năm 2024;
+        Theo đề nghị của Bộ trưởng Bộ Công Thương;
+        Chính phủ ban hành Nghị định quy định cơ chế mua bản điện trực tiếp giữa đơn vị phát điện
+năng lượng tái tạo và khách hàng sử dụng điện lớn.
+                                           Chương I
+                                       QUY ĐỊNH CHUNG
+        Điều 1. Phạm vi điều chỉnh
+        Nghị định này quy định về cơ chế mua bán điện trực tiếp giữa đơn vị phát điện năng lượng
+tái tạo và khách hàng sử dụng điện lớn.
+        Điều 2. Đối tượng áp dụng
+        1. Đối tượng mua bán điện trực tiếp thông qua lưới điện kết nối riêng bao gồm:
+        a) Đơn vị phát điện năng lượng tái tạo;
+        b) Khách hàng sử dụng điện lớn.
+        2. Đối tượng mua bán điện trực tiếp thông qua Lưới điện quốc gia bao gồm:
+        a) Đơn vị phát điện năng lượng tái tạo từ gió hoặc mặt trời hoặc sinh khối có công suất từ 10
+MW trở lên đấu nối vào hệ thống điện quốc gia trực tiếp tham gia thị trường bán buôn điện cạnh
+tranh;
+        b) Khách hàng sử dụng điện lớn phục vụ mục đích sản xuất hoặc Khách hàng sử dụng điện
+lớn phục vụ mục đích kinh doanh dịch vụ sạc điện cho phương tiện giao thông sử dụng điện mua
+điện từ Tổng công ty Điện lực, Công ty Điện lực và các Đơn vị bán lẻ điện đấu nối cấp điện áp từ 22
+kV trở lên;
+        c) Đơn vị bán lẻ điện tại các mô hình khu, cụm được Khách hàng sử dụng điện lớn quy định
+tại điểm b khoản này ủy quyền mua điện từ các Tổng công ty Điện lực, Công ty Điện lực, ký kết Hợp
+đồng kỳ hạn điện với Đơn vị phát điện năng lượng tái tạo (sau đây viết tắt là Đơn vị bán lẻ điện tại
+các mô hình khu, cụm được ủy quyền).
+        3. Các đối tượng khác:
+        a) Đơn vị vận hành hệ thống điện và thị trường điện;
+        b) Đơn vị truyền tải điện;
+        c) Tổng công ty Điện lực, Công ty Điện lực và các Đơn vị bán lẻ điện khác;
+        d) Tập đoàn Điện lực Việt Nam.
+        Điều 3. Giải thích từ ngữ
+        Trong Nghị định này các từ ngữ dưới đây được hiểu như sau:
+        1. Chu kỳ giao dịch là 30 phút, tính từ thời điểm bắt đầu của mỗi 30 phút trong ngày giao
+dịch.
+        2. Công ty Điện lực là Công ty trực thuộc, công ty con của Tổng công ty Điện lực.
+ LualVietnam                                                                 LuatVietnam.vn
+  Tien ch van bán luat
+
+        3. Điện mặt trời mái nhà là điện được sản xuất từ các tấm quang điện theo nguyên lý biến đổi
+từ quang năng thành điện năng được lắp đặt trên mái nhà của công trình xây dựng, kết nối với thiết
+bị điện và phục vụ cho hoạt động phát điện.
+               4. Điện năng giao nhận là toàn bộ điện năng Bên bán giao cho Bên mua phục vụ cho việc
+thanh toán giữa Bên bán và Bên mua.
+        5. Đơn vị phát điện năng lượng tái tạo là đơn vị điện lực sở hữu nhà máy điện năng lượng tái
+tạo quy định tại khoản 14 Điều 4 của Luật Điện lực Số 61/2024/QH15.
+          6. Đơn vị bán lẻ điện tại khu công nghiệp, khu kinh tế, khu chế xuất, cụm công nghiệp, khu
+công nghệ cao, khu công nghệ thông tin tập trung, khu nông nghiệp ứng dụng công nghệ cao và các
+mô hình tương tự khác do cơ quan có thẩm quyền quy định (sau đây viết tắt là Đơn vị bán lẻ điện tại
+các mô hình khu, cụm) là đơn vị điện lực được cấp giấy phép hoạt động điện lực trong lĩnh vực bán
+lẻ điện tại khu, cụm này.
+           7. Đơn vị vận hành hệ thống điện và thị trường điện là đơn vị thực hiện quyền và nghĩa vụ
+của Đơn vị điều độ hệ thống điện quốc gia và Đơn vị điều hành giao dịch thị trường điện theo quy
+định tại Luật Điện lực (hiện nay là Công ty TNHH MTV Vận hành hệ thống điện và thị trường điện
+Quốc gia - NSMO).
+             8. Hợp đồng mua bán điện trên thị trường giao ngay là hợp đồng áp dụng cho việc mua bán
+điện của từng nhà máy điện bao gồm các nội dung chính quy định tại Phụ lục I ban hành kèm theo
+Nghị định này.
+              9. Khách hàng sử dụng điện là cơ quan, tổ chức, cá nhân mua điện để sử dụng, không bán
+lại cho cơ quan, tổ chức, cá nhân khác.
+           10. Khách hàng sử dụng điện lớn là khách hàng sử dụng điện có công suất và sản lượng tiêu
+thụ lớn theo quy định của Bộ trưởng Bộ Công Thương phù hợp với từng thời kỳ phát triển của hệ
+thống điện.
+           11. Lưới điện kết nối riêng là hệ thống đường dây tải điện trên không hoặc cáp điện ngầm,
+máy biến áp và trang thiết bị phụ trợ được liên kết với nhau để truyền dẫn điện hoặc phần lưới điện
+kết nối riêng giữa hệ thống điện mặt trời mái nhà do Đơn vị phát điện năng lượng tái tạo đầu tư, lắp
+đặt, xây dựng và vận hành, bán điện trực tiếp cho Khách hàng sử dụng điện lớn, trừ trường hợp các
+bên có thỏa thuận khác.
+            12. Lưới điện quốc gia là hệ thống đường dây tải điện trên không hoặc cáp điện ngầm, máy
+biến áp và trang thiết bị phụ trợ được liên kết với nhau để truyền dẫn điện trên lãnh thổ nước Cộng
+hòa xã hội chủ nghĩa Việt Nam.
+        13. Năm N là năm hiện tại, được tính theo năm dương lịch.
+        14. Năm N+1 là năm liền kề sau năm hiện tại, được tính theo năm dương lịch.
+        15. Năm N-1 là năm liền kề trước năm hiện tại, được tính theo năm dương lịch.
+        16. Năm N-2 là năm liền trước năm N-1, được tính theo năm dương lịch.
+           17. Sản lượng điện dư là phần sản lượng điện của Đơn vị phát điện năng lượng tái tạo phát
+vào lưới điện quốc gia hoặc lưới điện của các mô hình khu, cụm khi không bán hết sản lượng điện
+cho Khách hàng sử dụng điện lớn thông qua lưới điện kết nối riêng.
+        18. Tháng M là tháng hiện tại, được tính theo tháng dương lịch.
+        19. Tháng M-1 là tháng liền trước tháng hiện tại, được tính theo tháng dương lịch.
+             20. Tổng công ty Điện lực là Tổng công ty Điện lực miền Bắc, Tổng công ty Điện lực miền
+Nam, Tổng công ty Điện lực miền Trung, Tổng công ty Điện lực thành phố Hà Nội, Tổng công ty Điện
+lực Thành phố Hồ Chí Minh.
+        Điều 4. Các cơ chế mua bán điện trực tiếp
+               Mua bán điện trực tiếp là hoạt động mua bán điện năng được thực hiện giữa Đơn vị phát
+điện năng lượng tái tạo và Khách hàng sử dụng điện lớn, thực hiện thông qua 02 hình thức sau:
+            1. Mua bán điện trực tiếp thông qua lưới điện kết nối riêng là hoạt động ký hợp đồng mua
+bán điện và giao nhận điện năng trực tiếp qua lưới điện kết nối riêng giữa Đơn vị phát điện năng
+lượng tái tạo và Khách hàng sử dụng điện lớn theo quy định tại Chương II Nghị định này.
+
+        2. Mua bán điện trực tiếp thông qua lưới điện quốc gia là hoạt động mua bán điện và giao
+nhận điện năng giữa Đơn vị phát điện năng lượng tái tạo và Khách hàng sử dụng điện lớn (hoặc Đơn
+vị bán lẻ điện tại các mô hình khu, cụm được ủy quyền) theo quy định tại Chương III Nghị định này
+bao gồm:
+           a) Đơn vị phát điện năng lượng tái tạo bán toàn bộ điện năng sản xuất trên thị trường điện
+giao ngay của thị trường bán buôn điện cạnh tranh;
+             b) Khách hàng sử dụng điện lớn (hoặc Đơn vị bán lẻ điện tại các mô hình khu, cụm được ủy
+quyền) ký Hợp đồng kỳ hạn điện với Đơn vị phát điện năng lượng tái tạo;
+             c) Khách hàng sử dụng điện lớn (hoặc Đơn vị bán lẻ điện tại các mô hình khu, cụm được ủy
+quyền) ký hợp đồng mua bán điện với Tổng công ty Điện lực, Công ty Điện lực để mua toàn bộ điện
+năng đáp ứng nhu cầu sử dụng điện.
+        Điều 5. Các yêu cầu chung đối với Đơn vị phát điện năng lượng tái tạo và Khách hàng
+sử dụng điện lớn
+              1. Đơn vị phát điện năng lượng tái tạo và Khách hàng sử dụng điện lớn phải tuân thủ quy
+định của pháp luật về: quy hoạch, đầu tư (thuộc trách nhiệm của Chủ đầu tư công trình nguồn điện,
+bao gồm sự phù hợp với quy hoạch phát triển điện lực quốc gia, phương án phát triển mạng lưới cấp
+điện trong quy hoạch tỉnh, kế hoạch thực hiện quy hoạch phát triển điện lực quốc gia, kế hoạch thực
+hiện quy hoạch tỉnh trong đó có nội dung về phương án phát triển mạng lưới cấp điện, kế hoạch sử
+dụng đất tại địa phương nơi có công trình thực hiện và các quyết định điều chỉnh (nếu có)); quy định
+về cấp giấy phép hoạt động điện lực (thuộc trách nhiệm của Chủ đầu tư công trình nguồn điện); quy
+định về an toàn điện trong xây dựng, vận hành (phát điện, truyền tải điện, phân phối điện) và an toàn
+trong sử dụng điện; quy định về xây dụng, đất đai, bảo vệ môi trường và an toàn phòng chống cháy,
+nổ; quy định tại hợp đồng mua bán điện; quy định về mua bán điện và các quy định khác của pháp
+luật có liên quan.
+        2. Đối với khách hàng sử dụng điện lớn
+        a) Tại thời điểm nộp hồ sơ tham gia cơ chế mua bán điện trực tiếp:
+              Đối với Khách hàng sử dụng điện lớn đã sử dụng điện từ 12 tháng trở lên: tổng sản lượng
+điện tiêu thụ bình quân trong 12 tháng gần nhất (xác định căn cứ trên tổng sản lượng điện mua từ
+một Tổng công ty Điện lực (hoặc đơn vị được ủy quyền, phân cấp), Công ty Điện lực) không thấp
+hơn mức sản lượng tiêu thụ điện của khách hàng sử dụng điện lớn tại Quy định vận hành thị trường
+bán buôn điện cạnh tranh do Bộ Công Thương ban hành.
+               Đối với Khách hàng sử dụng điện lớn có thời gian sử dụng điện dưới 12 tháng: Sản lượng
+điện đăng ký tính theo sản lượng tiêu thụ điện dự kiến mua từ một Tổng công ty Điện lực (hoặc đơn
+vị được ủy quyền, phân cấp), Công ty Điện lực và không thấp hơn mức sản lượng tiêu thụ điện của
+khách hàng sử dụng điện lớn tại Quy định vận hành thị trường bán buôn điện cạnh tranh do Bộ Công
+Thương ban hành.
+               b) Điều kiện để khách hàng sử dụng điện lớn tham gia cơ chế mua bán điện trực tiếp năm
+N+1:
+            Đối với Khách hàng sử dụng điện lớn tham gia cơ chế mua bán điện trực tiếp dưới 12 tháng:
+được tiếp tục tham gia cơ chế mua bán điện trực tiếp năm N+1.
+            Đối với Khách hàng sử dụng điện lớn đã tham gia cơ chế mua bán điện trực tiếp từ 12 tháng
+trở lên: phải có sản lượng tiêu thụ điện bình quân từ tháng 11 năm N-1 đến hết tháng 10 năm N (xác
+định căn cứ trên tổng sản lượng điện mua từ một Tổng công ty Điện lực (hoặc đơn vị được ủy quyền,
+phân cấp), Công ty Điện lực) không thấp hơn mức sản lượng tiêu thụ điện của khách hàng sử dụng
+điện lớn tại Quy định vận hành thị trường bán buôn điện cạnh tranh do Bộ Công Thương ban hành.
+                                           Chương II
+                       MUA BÁN ĐIỆN TRỰC TIẾP QUA LƯỚI ĐIỆN KẾT NỐI RIÊNG
+        Điều 6. Nguyên tắc mua bán điện trực tiếp thông qua lưới điện kết nối riêng
+        1. Đơn vị phát điện năng lượng tái tạo và Khách hàng sử dụng điện lớn thực hiện mua bán
+điện trực tiếp thông qua lưới điện kết nối riêng theo các nguyên tắc sau đây:
+        a) Hợp đồng mua bán điện giữa Đơn vị phát điện năng lượng tái tạo và Khách hàng sử dụng
+
+điện lớn do hai bên thỏa thuận phù hợp với quy định tại Điều 44 của Luật Điện lực và quy định khác
+của pháp luật có liên quan, bao gồm các nội dung chính sau: Thông tin của các bên; mục đích sử
+dụng; tiêu chuẩn và chất lượng dịch vụ; quyền và nghĩa vụ của các bên; giá điện, phương thức và
+thời hạn thanh toán; điều kiện chấm dứt hợp đồng; trách nhiệm do vi phạm hợp đồng; thời hạn của
+hợp đồng; trách nhiệm đầu tư, xây dựng, quản lý vận hành lưới điện kết nối riêng; các nội dung khác
+do hai bên thỏa thuận;
+               b) Giá bán điện do các bên tự đàm phán thỏa thuận và không vượt mức giá tối đa của khung
+giá phát điện của loại hình nguồn điện tương ứng.
+               2. Trừ trường hợp quy định tại khoản 3 và khoản 4 Điều này, sản lượng điện dư của Đơn vị
+phát điện năng lượng tái tạo bán cho Tập đoàn Điện lực Việt Nam, Tổng công ty Điện lực, Công ty
+Điện lực. Sản lượng điện dư và giá mua bán sản lượng điện dư do hai bên thỏa thuận nhưng không
+vượt quá mức giá tối đa của khung giá phát điện loại hình tương ứng.
+             3. Sản lượng điện dư của Đơn vị phát điện năng lượng tái tạo đầu tư, lắp đặt hệ thống điện
+mặt trời mái nhà bán cho Tập đoàn Điện lực Việt Nam, Tổng công ty Điện lực, Công ty Điện lực
+không quá 20% sản lượng điện thực phát. Giá mua bán sản lượng điện dư là giá điện năng thị
+trường điện bình quân của năm trước liền kề do Đơn vị vận hành hệ thống điện và thị trường điện
+công bố và không vượt quá mức giá tối đa của khung giá phát điện của loại hình điện mặt trời mặt
+đất.
+           4. Trường hợp Đơn vị phát điện năng lượng tái tạo đầu tư, lắp đặt hệ thống điện mặt trời mái
+nhà bán điện trực tiếp cho Khách hàng sử dụng điện lớn nằm trong các mô hình khu, cụm và bán sản
+lượng điện dư cho đơn vị bán lẻ điện tại các mô hình khu, cụm, phần sản lượng điện dư và giá mua
+bán sản lượng điện dư do hai bên thỏa thuận nhưng không vượt quá mức giá tối đa của khung giá
+phát điện của loại hình điện mặt trời mặt đất.
+           5. Ngoài các hoạt động mua bán điện trực tiếp thông qua lưới điện kết nối riêng quy định tại
+các khoản 1 Điều này, để đảm bảo cung cấp đủ điện theo nhu cầu sử dụng điện, Khách hàng sử
+dụng điện lớn được mua điện từ Tổng công ty Điện lực, Công ty Điện lực, Đơn vị bán lẻ điện tại các
+mô hình khu, cụm theo quy định hiện hành.
+        Điều 7. Trách nhiệm của Đơn vị phát điện năng lượng tái tạo
+        1. Đơn vị phát điện năng lượng tái tạo có trách nhiệm tuân thủ quy định tại Điều 59 của Luật
+Điện lực và các quy định sau đây:
+             a) Thực hiện các quy định về điều độ, vận hành hệ thống điện quốc gia, hệ thống truyền tải
+điện, phân phối điện và đo đếm điện năng do Bộ Công Thương ban hành;
+            b) Thực hiện các quy định về an toàn trong phát điện quy định tại Điều 71 của Luật Điện lực
+và các văn bản hướng dẫn;
+           c) Thực hiện các quy định về an toàn trong truyền tải điện, phân phối điện quy định tại Điều
+72 của Luật Điện lực và các văn bản hướng dẫn;
+                d) Thực hiện quy định của pháp luật về đầu tư, xây dựng, đất đai, phòng cháy chữa cháy,
+phòng chống cháy, nổ, bảo vệ môi trường, an toàn điện công trình điện và các quy định khác của
+pháp luật có liên quan.
+            2. Ngoài các trách nhiệm quy định tại khoản 1 Điều này, Đơn vị phát điện năng lượng tái tạo
+đầu tư, lắp đặt hệ thống điện mặt trời mái nhà bán điện trực tiếp cho khách hàng sử dụng điện lớn tại
+các mô hình khu, cụm có trách nhiệm thỏa thuận với Đơn vị bán lẻ điện tại các mô hình khu, cụm về
+chi phí cung cấp dịch vụ sử dụng lưới điện trong phạm vi các mô hình khu, cụm phù hợp với quy định
+của pháp luật.
+        Điều 8. Trách nhiệm của Khách hàng sử dụng điện lớn
+              1. Khách hàng sử dụng điện lớn có trách nhiệm tuân thủ quy định tại Điều 66 của Luật Điện
+lực và các quy định sau đây:
+            a) Thực hiện các quy định về an toàn trong sử dụng điện quy định tại Điều 73 và Điều 74 của
+Luật Điện lực và các văn bản hướng dẫn có liên quan;
+                b) Trường hợp khách hàng sử dụng điện lớn đầu tư, quản lý vận hành trạm điện và hạ tầng
+lưới điện, khách hàng sử dụng điện lớn có trách nhiệm tuân thủ Quy chuẩn kỹ thuật quốc gia về an
+toàn điện; tuân thủ quy định về bảo vệ công trình điện lực và an toàn trong lĩnh vực điện lực và có đội
+
+ngũ quản lý, vận hành lưới điện được đào tạo về chuyên ngành điện; được huấn luyện, sát hạch và
+cấp thẻ an toàn điện theo quy định.
+          2. Ngoài các trách nhiệm quy định tại khoản 1 Điều này, Khách hàng sử dụng điện lớn tại các
+mô hình khu, cụm mua điện trực tiếp từ Đơn vị phát điện năng lượng tái tạo đầu tư, lắp đặt hệ thống
+điện mặt trời mái nhà có trách nhiệm thỏa thuận, thống nhất để sửa đổi hợp đồng mua bán điện hiện
+hữu với Đơn vị bán lẻ điện tại các mô hình khu, cụm để đảm bảo cung cấp sản lượng điện theo nhu
+cầu của Khách hàng sử dụng điện lớn.
+                                           Chương III
+                      MUA BÁN ĐIỆN TRỰC TIẾP THÔNG QUA LƯỚI ĐIỆN QUỐC GIA
+                                             Mục 1
+                          ĐƠN VỊ PHÁT ĐIỆN NĂNG LƯỢNG TÁI TẠO BÁN ĐIỆN
+                                 TRÊN THỊ TRƯỜNG ĐIỆN GIAO NGAY
+                   Điều 9. Hợp đồng mua bán điện giữa Đơn vị phát điện năng lượng tái tạo và Tập đoàn
+Điện lực Việt Nam
+             1. Tập đoàn Điện lực Việt Nam và Đơn vị phát điện năng lượng tái tạo có trách nhiệm thỏa
+thuận và ký kết hợp đồng mua bán điện trên thị trường điện giao ngay theo các nội dung chính quy
+định tại Phụ lục I ban hành kèm theo Nghị định này.
+              2. Ngoài các nội dung theo quy định tại khoản 1 Điều này, Tập đoàn Điện lực Việt Nam và
+Đơn vị phát điện năng lượng tái tạo được bổ sung nội dung khác của hợp đồng mua bán điện trên thị
+trường điện giao ngay để làm rõ trách nhiệm, quyền hạn của các bên nhưng không trái với quy định
+tại Nghị định này và các quy định khác của pháp luật có liên quan.
+                Điều 10. Chào giá, lập lịch huy động, tính toán thanh toán, kiểm tra đối soát bảng kê
+thanh toán
+               1. Hoạt động chào giá của Đơn vị phát điện năng lượng tái tạo để chào bán toàn bộ công
+suất vào thị trường điện giao ngay trong thị trường bán buôn điện cạnh tranh được thực hiện theo
+Quy định vận hành thị trường bán buôn điện cạnh tranh do Bộ Công Thương ban hành.
+           2. Đơn vị phát điện năng lượng tái tạo dự báo công suất của nhà máy điện trong từng chu kỳ
+giao dịch của ngày tới theo quy định về dự báo năng lượng tái tạo tại Quy định điều độ, vận hành,
+thao tác, xử lý sự cố, khởi động đen và khôi phục hệ thống điện quốc gia do Bộ Công Thương ban
+hành.
+         3. Căn cứ bản chào giá ngày tới, bản chào giá chu kỳ giao dịch tới của Đơn vị phát điện năng
+lượng tái tạo, Đơn vị vận hành hệ thống điện và thị trường điện có trách nhiệm so sánh, đối chiếu với
+giá trị công suất dự báo từ các nguồn dự báo độc lập khác, lập lịch huy động các nhà máy điện theo
+Quy định vận hành thị trường bán buôn điện cạnh tranh do Bộ Công Thương ban hành và các quy
+định khác của pháp luật có liên quan.
+             4. Đơn vị vận hành hệ thống điện và thị trường điện có trách nhiệm lập bảng kê tính toán
+khoản doanh thu của Đơn vị phát điện năng lượng tái tạo trên thị trường điện giao ngay trong chu kỳ
+giao dịch, chu kỳ thanh toán và công bố theo theo thời gian biểu tại Quy định vận hành thị trường bán
+buôn điện cạnh tranh do Bộ Công Thương ban hành.
+           5. Đơn vị phát điện năng lượng tái tạo có trách nhiệm kiểm tra, đối soát, xác nhận bảng kê
+trên Trang thông tin điện tử thị trường điện theo Quy định vận hành thị trường bán buôn điện cạnh
+tranh do Bộ Công Thương ban hành.
+        Điều 11. Giá thị trường điện giao ngay
+          Giá thị trường điện giao ngay là giá thị trường điện toàn phần được xác định trong từng chu
+kỳ giao dịch của thị trường điện giao ngay và được xác định bằng tổng của giá điện năng thị trường
+và giá công suất thị trường theo Quy định vận hành thị trường bán buôn điện cạnh tranh do Bộ Công
+Thương ban hành.
+        Điều 12. Thanh toán của Đơn vị phát điện năng lượng tái tạo
+          Khoản thanh toán của Đơn vị phát điện năng lượng tái tạo bán điện trên thị trường điện giao
+ngay được xác định theo công thức sau:
+
+                                 @dWd X ()bwÒ [= = Bà
+        Trong đó:
+        Rg: Tổng các khoản thanh toán điện năng thị trường trong chu kỳ thanh toán (đồng);
+        Qmq(i): Sản lượng điện năng đo đếm của Đơn vị phát điện năng lượng tái tạo trong chu kỳ giao
+dịch i (kWh);
+        i: Chu kỳ giao dịch thứ i trong chu kỳ thanh toán;
+        I: Tổng số chu kỳ giao dịch trong chu kỳ thanh toán;
+        FMP(i): Giá thị trường điện giao ngay trong chu kỳ giao dịch i (đồng/kWh).
+        Điều 13. Trình tự, thủ tục thanh toán
+        1. Đơn vị phát điện năng lượng tái tạo, Đơn vị vận hành hệ thống điện và thị trường điện, Tập
+đoàn Điện lực Việt Nam (hoặc đơn vị được ủy quyền) thực hiện các công tác lập, công bố, đối soát
+xác nhận bảng kê trên thị trường điện giao ngay theo Quy định vận hành thị trường bán buôn điện
+cạnh tranh do Bộ Công Thương ban hành.
+              2. Đơn vị phát điện năng lượng tái tạo, Tập đoàn Điện lực Việt Nam (hoặc đơn vị được ủy
+quyền) thực hiện thanh toán bao gồm: lập hồ sơ thanh toán, hiệu chỉnh hóa đơn, thanh toán, hiệu
+chỉnh thanh toán và các công tác khác theo thỏa thuận trong hợp đồng mua bán điện đã ký giữa hai
+bên.
+                                             Mục 2
+                              KHÁCH HÀNG SỬ DỤNG ĐIỆN LỚN MUA ĐIỆN
+                      TỪ TỔNG CÔNG TY ĐIỆN LỰC, CÔNG TY ĐIỆN LỰC
+        Điều 14. Nguyên tắc chung
+              1. Khách hàng sử dụng điện lớn hoặc Đơn vị bán lẻ điện tại các mô hình khu, cụm được ủy
+quyền mua điện từ các Tổng công ty Điện lực (hoặc đơn vị được ủy quyền, phân cấp), Công ty Điện
+lực để đáp ứng toàn bộ nhu cầu sử dụng điện.
+                 2. Trường hợp sản lượng tiêu thụ điện của Khách hàng sử dụng điện lớn hoặc sản lượng
+mua điện của Đơn vị bán lẻ điện tại các mô hình khu, cụm được ủy quyền trong một chu kỳ giao dịch
+không lớn hơn sản lượng thực phát của Đơn vị phát điện năng lượng tái tạo đã được phân bổ cho
+Khách hàng sử dụng điện lớn (hoặc Đơn vị bán lẻ điện tại các mô hình khu, cụm được ủy quyền) và
+quy đổi về điểm giao nhận của Khách hàng sử dụng điện lớn (hoặc Đơn vị bán lẻ điện tại các mô
+hình khu, cụm được ủy quyền) trong chu kỳ giao dịch đó, toàn bộ sản lượng tiêu thụ điện của Khách
+hàng sử dụng điện lớn hoặc sản lượng mua điện của Đơn vị bán lẻ điện tại các mô hình khu, cụm
+được ủy quyền thanh toán theo các thành phần chi phí sau đây:
+             a) Chi phí điện năng theo giá thị trường điện giao ngay áp dụng cho Đơn vị mua buôn điện
+theo Quy định vận hành thị trường bán buôn điện cạnh tranh do Bộ Công Thương ban hành có tính
+tới tổn thất điện năng trên lưới điện truyền tải và lưới điện phân phối;
+        b) Chi phí sử dụng dịch vụ hệ thống điện, bao gồm các dịch vụ sau: truyền tải điện, phân phối
+- bán lẻ điện, điều độ vận hành hệ thống điện và điều hành giao dịch thị trường điện, điều hành -
+quản lý ngành;
+          c) Chi phí thanh toán bù trừ chênh lệch theo quy định tại Phụ lục IV ban hành kèm theo Nghị
+định này.
+                 3. Trường hợp sản lượng tiêu thụ điện của Khách hàng sử dụng điện lớn hoặc sản lượng
+mua điện của Đơn vị bán lẻ điện tại các mô hình khu, cụm được ủy quyền trong một chu kỳ giao dịch
+lớn hơn sản lượng thực phát của Đơn vị phát điện năng lượng tái tạo đã được phân bổ cho Khách
+hàng sử dụng điện lớn (hoặc đơn vị bán lẻ điện tại các mô hình khu, cụm được ủy quyền) và quy đổi
+về điểm giao nhận của Khách hàng sử dụng điện lớn (hoặc Đơn vị bán lẻ điện tại các mô hình khu,
+cụm được ủy quyền) trong chu kỳ giao dịch đó, toàn bộ sản lượng tiêu thụ điện của Khách hàng sử
+dụng điện lớn hoặc sản lượng mua điện của Đơn vị bán lẻ điện tại các mô hình khu, cụm được ủy
+quyền thực hiện thanh toán như sau:
+
+             a) Phần sản lượng tiêu thụ điện của Khách hàng sử dụng điện lớn hoặc sản lượng mua điện
+của Đơn vị bán lẻ điện tại các mô hình khu, cụm được ủy quyền không cao hơn sản lượng thực phát
+của Đơn vị phát điện năng lượng tái tạo đã được phân bổ cho Khách hàng sử dụng điện lớn hoặc
+Đơn vị bán lẻ điện tại các mô hình khu, cụm được ủy quyền và quy đổi về điểm giao nhận của Khách
+hàng sử dụng điện lớn hoặc Đơn vị bán lẻ điện tại các mô hình khu, cụm được ủy quyền trong chu kỳ
+giao dịch đó được thanh toán theo quy định tại khoản 2 Điều này;
+             b) Phần sản lượng tiêu thụ điện của Khách hàng sử dụng điện lớn hoặc sản lượng mua điện
+của Đơn vị bán lẻ điện tại các mô hình khu, cụm được ủy quyền chênh lệch so với sản lượng của
+Đơn vị phát điện năng lượng tái tạo được thanh toán bằng giá bán lẻ điện áp dụng cho nhóm khách
+hàng tương ứng về đối tượng, mục đích sử dụng, cấp điện áp và thời gian sử dụng điện trong ngày
+theo Quy định về khung giá của mức giá bán lẻ điện bình quân do Thủ tướng Chính phủ ban hành.
+                     Điều 15. Hợp đồng mua bán điện giữa Khách hàng sử dụng điện lớn hoặc Đơn vị bán
+lẻ điện tại các mô hình khu, cụm được ủy quyền với các Tổng công ty Điện lực, Công ty điện
+lực
+             1. Khách hàng sử dụng điện lớn hoặc Đơn vị bán lẻ điện tại các mô hình khu, cụm được ủy
+quyền và Tổng công ty Điện lực (hoặc đơn vị được ủy quyền, phân cấp), Công ty Điện lực đàm phán,
+thỏa thuận và ký kết Hợp đồng mua bán điện theo các nội dung chính quy định tại Phụ lục II ban
+hành kèm theo Nghị định này.
+          2. Ngoài các nội dung theo quy định tại khoản 1 Điều này, Khách hàng sử dụng điện lớn hoặc
+Đơn vị bán lẻ điện tại các mô hình khu, cụm được ủy quyền và Tổng công ty Điện lực (hoặc đơn vị
+được ủy quyền, phân cấp), Công ty Điện lực được bổ sung nội dung khác của hợp đồng mua bán
+điện để làm rõ trách nhiệm, quyền hạn của các bên nhưng không trái với quy định tại Nghị định này
+và các quy định khác của pháp luật có liên quan.
+                Điều 16. Thanh toán giữa Khách hàng sử dụng điện lớn hoặc Đơn vị bán lẻ điện tại các
+mô hình khu, cụm được ủy quyền và Tổng công ty Điện lực, Công ty Điện lực
+            1. Tổng chi phí mua điện của Khách hàng sử dụng điện lớn hoặc Đơn vị bán lẻ điện tại các
+mô hình khu, cụm được ủy quyền từ Tổng công ty Điện lực, Công ty Điện lực trong mỗi kỳ thanh toán
+của năm N theo Hợp đồng mua bán điện ký kết giữa hai bên được xác định theo công thức sau:
+                                   CKH= CĐN + CDPPA + CCL + CBL
+        Trong đó:
+          CKH: Tổng chi phí mua điện của Khách hàng sử dụng điện lớn hoặc Đơn vị bán lẻ điện tại các
+mô hình khu, cụm được ủy quyền từ Tổng công ty Điện lực, Công ty Điện lực (đồng);
+        CĐN: Chi phí điện năng thanh toán theo giá thị trường điện (đồng), được xác định theo quy
+định tại khoản 2 Điều này;
+        CDPPA: Chi phí sử dụng dịch vụ hệ thống điện (đồng), được xác định theo quy định tại khoản 4
+Điều này;
+         CCL: Chi phí thanh toán bù trừ chênh lệch (đồng), được xác định tại Phụ lục IV ban hành kèm
+theo Nghị định này;
+           CBL: Chi phí mua điện trong mỗi chu kỳ giao dịch theo giá bán lẻ điện quy định tại điểm b
+khoản 3 Điều 14 Nghị định này (đồng), cụ thể:
+                          CBL         (QKH(i)    QKHhc(i)) *PBL(i)
+        Trong đó:
+               PBL(i): Giá bán lẻ điện hiện hành trong chu kỳ giao dịch i do Bộ Công Thương ban hành
+(đồng/kWh);
+          QKH(i): Sản lượng tiêu thụ thực tế của Khách hàng sử dụng điện lớn hoặc sản lượng mua điện
+của Đơn vị bán lẻ điện tại các mô hình khu, cụm được ủy quyền trong chu kỳ i (kWh);
+
+        QKHhc(i): Điện năng tiêu thụ hiệu chỉnh của Khách hàng sử dụng điện lớn hoặc sản lượng mua
+điện của Đơn vị bán lẻ điện tại các mô hình khu, cụm được ủy quyền trong chu kỳ giao dịch i (kWh),
+được xác định như sau:
+                                    QKHhc(i) = MIN (QKH(i); Qm(i))
+        Trong đó Qm(i) là sản lượng thực phát của Đơn vị phát điện năng lượng tái tạo quy đối về
+điểm giao nhận điện của Khách hàng sử dụng điện lớn, được xác định như sau:
+                                     Qm(i) =  Qmagi)~X 6
+                                             k x KPP
+        Trong đó:
+        Qmq(i): Sản lượng điện năng đo đếm của Đơn vị phát điện năng lượng tái tạo trong chu kỳ giao
+dịch (i);
+        k: Hệ số quy đổi theo tổn thất điện năng trong chu kỳ giao dịch i được tính toán và xác định
+theo Quy định vận hành thị trường bán buôn điện cạnh tranh do Bộ Công Thương ban hành;
+        KPP: Hệ số quy đổi theo tổn thất điện năng trên lưới điện phân phối trong năm N, xác định tại
+khoản 3 Điều này.
+        δ: Tỷ lệ phần trăm (%) sản lượng điện năng Đơn vị phát điện năng lượng tái tạo thống nhất
+phân bổ cho Khách hàng sử dụng điện lớn hoặc Đơn vị bán lẻ điện tại các mô hình khu, cụm được
+ủy quyền trong chu kỳ giao dịch i, xác định theo quy định tại điểm đ khoản 1 Điều 26 Nghị định này.
+        2. Thành phần chi phí điện năng theo giá thị trường điện trong mỗi kỳ thanh toán của năm N
+(CĐN) được xác định theo công thức sau:
+                            CĐN 4QKHhc(i) X CFMPW * KPP
+        Trong đó:
+        i: Chu kỳ giao dịch thứ i trong kỳ thanh toán (tương ứng với chu kỳ giao dịch của thị trường
+điện giao ngay);
+        I: Tổng số chu kỳ giao dịch của kỳ thanh toán;
+        QKHhc(i): Điện năng tiêu thụ hiệu chỉnh của Khách hàng sử dụng điện lớn hoặc sản lượng mua
+điện của Đơn vị bán lẻ điện tại các mô hình khu, cụm được ủy quyền trong chu kỳ giao dịch i (kWh),
+được xác định theo quy định tại khoản 1 Điều này;
+        CFMP(i): Giá mua điện của Tổng công ty Điện lực trên thị trường điện giao ngay trong chu kỳ
+giao dịch i (đồng/kWh), xác định theo Quy định vận hành thị trường bán buôn điện cạnh tranh do Bộ
+Công Thương ban hành;
+        KPP: Hệ số quy đổi theo tổn thất điện năng trên lưới điện phân phối năm N, xác định theo quy
+định tại khoản 3 Điều này.
+        3. Hệ số quy đổi theo tổn thất điện năng trên lưới điện phân phối (KPP) trong năm N được xác
+định theo phương pháp sau (sử dụng số liệu tổn thất điện năng trên lưới điện phân phối của Tổng
+công ty Điện lực năm N-2 để tính toán):
+        a) Trường hợp Khách hàng sử dụng điện lớn hoặc Đơn vị bán lẻ điện tại các mô hình khu,
+cụm được ủy quyền mua điện ở cấp điện áp từ 22kV đến dưới 110kV, KPP được xác định theo công
+thức sau:
+                                  KPp        1   ~X      1
+                                         1 _ LHV     1 = LMv
+        Trong đó:
+        LHV (%): Tỷ lệ tổn thất điện năng trên lưới điện phân phối tại cấp điện áp từ 110kV trở lên
+năm N-2;
+
+        LMV (%): Tỷ lệ tổn thất điện năng trên lưới điện phân phối từ 22kV đến dưới 110kV năm N-2.
+        b) Trường hợp Khách hàng sử dụng điện lớn hoặc Đơn vị bán lẻ điện tại các mô hình khu,
+cụm được ủy quyền mua điện ở cấp điện áp từ 110kV trở lên, KPP được xác định theo công thức sau:
+                                         KPP   1 - LHv
+        Trong đó:
+        LHV (%): Tỷ lệ tổn thất điện năng trên lưới điện phân phối tại cấp điện áp từ 110kV trở lên
+năm N-2.
+        4. Chi phí sử dụng dịch vụ hệ thống điện (CDPPA) được xác định theo công thức sau:
+                                 CDPPA       QKHhc(i) X CDPPAđv
+        Trong đó:
+             i: Chu kỳ giao dịch thứ i trong chu kỳ thanh toán (tương ứng với chu kỳ giao dịch của thị
+trường điện giao ngay);
+        I: Tổng số chu kỳ giao dịch của chu kỳ thanh toán;
+           QKHhc (i): Điện năng tiêu thụ hiệu chỉnh của Khách hàng sử dụng điện lớn hoặc sản lượng mua
+điện của Đơn vị bán lẻ điện tại các mô hình khu, cụm được ủy quyền trong chu kỳ giao dịch i (kWh),
+được xác định theo quy định tại khoản 1 Điều này;
+        CDPPAđv: Chi phí sử dụng dịch vụ hệ thống điện tính cho một đơn vị điện năng của năm N
+(đồng/kWh), bao gồm chi phí sử dụng các dịch vụ: truyền tải điện, phân phối - bán lẻ điện, điều độ
+vận hành hệ thống điện, điều hành giao dịch thị trường điện lực, điều hành - quản lý ngành và được
+xác định bằng tổng chi phí và lợi nhuận của các khâu truyền tải điện, phân phối - bán lẻ điện, điều độ
+vận hành hệ thống điện và điều hành giao dịch thị trường điện lực, điều hành - quản lý ngành chia
+cho tổng sản lượng điện thương phẩm trong nước của các Tổng công ty Điện lực với số liệu tính
+toán được lấy bằng các số liệu tương ứng tại phương án giá bán lẻ điện bình quân hằng năm của
+năm N do Tập đoàn Điện lực Việt Nam xây dựng và đã được cơ quan có thẩm quyền kiểm tra, rà
+soát và cho ý kiến theo quy định tại Cơ chế điều chỉnh mức giá bán lẻ điện bình quân do Chính phủ
+ban hành.
+                      Trường hợp chưa có phương án giá bán lẻ điện bình quân hằng năm của năm N do Tập
+đoàn Điện lực Việt Nam xây dựng và được cơ quan có thẩm quyền kiểm tra, rà soát và cho ý kiến
+theo quy định tại Cơ chế điều chỉnh mức giá bán lẻ điện bình quân do Chính phủ ban hành, Chi phí
+CDPPAđv được tạm tính bao gồm chi phí sử dụng các dịch vụ: truyền tải điện, phân phối - bán lẻ điện,
+điều độ vận hành hệ thống điện, điều hành giao dịch thị trường điện lực, điều hành - quản lý ngành
+trên cơ sở các số liệu theo kết quả chi phí sản xuất kinh doanh điện năm N-2 được công bố công
+khai với lợi nhuận các khâu này được xác định bằng vốn chủ sở hữu nhân với tỷ suất lợi nhuận
+tương ứng tại phương án giá bán lẻ điện bình quân hiện hành năm N-2 và chia cho tổng sản lượng
+điện thương phẩm trong nước của các Tổng công ty Điện lực tại phương án giá bán lẻ điện bình
+quân hằng năm của năm N-2.
+               Sau khi số liệu CDPPAđv tính toán theo phương án giá bán lẻ điện bình quân hằng năm của
+năm N được công bố, Khách hàng sử dụng điện lớn hoặc Đơn vị bán lẻ điện tại các mô hình khu,
+cụm được ủy quyền và Tổng công ty Điện lực, Công ty Điện lực có trách nhiệm quyết toán chi phí sử
+dụng dịch vụ hệ thống điện cho các kỳ thanh toán đã thực hiện từ đầu năm cho đến trước kỳ thanh
+toán có số liệu CDPPAđv tính toán theo phương án giá bán lẻ điện bình quân hằng năm của năm N.
+        5. Trường hợp phát sinh khoản chênh lệch sản lượng điện năng theo chỉ số đo điện năng và
+do làm tròn số thập phân trong quá trình tính toán thanh toán trên thị trường điện, việc tính toán chi
+phí cho phần sản lượng điện năng chênh lệch này được xác định bằng sản lượng điện năng chênh
+lệch theo từng biểu giá thời gian (3 biểu giá) nhân với giá bán lẻ điện áp dụng cho đối tượng, mục
+đích sử dụng, cấp điện áp, thời gian sử dụng trong ngày theo Quy định về thực hiện giá bán điện của
+pháp luật về điện lực (đồng/kWh).
+        6. Ngoài các chi phí mua điện liên quan đến hoạt động mua bán điện trực tiếp quy định tại
+Nghị định này, trường hợp giữa Khách hàng sử dụng điện lớn hoặc Đơn vị bán lẻ điện tại các mô
+
+hình khu, cụm được ủy quyền và Tổng công ty Điện lực, Công ty Điện lực có hoạt động mua bán điện
+khác, thì các bên có trách nhiệm đàm phán, thỏa thuận và thực hiện thanh toán theo quy định tại Hợp
+đồng mua bán điện đã ký giữa hai bên và quy định khác của pháp luật có liên quan.
+                                             Mục 3
+                      KHÁCH HÀNG SỬ DỤNG ĐIỆN LỚN HOẶC ĐƠN VỊ BÁN LẺ ĐIỆN
+                       TẠI CÁC MÔ HÌNH KHU, CỤM ĐƯỢC ỦY QUYỀN MUA ĐIỆN TỪ
+                          ĐƠN VỊ PHÁT ĐIỆN NĂNG LƯỢNG TÁI TẠO
+        Điều 17. Hợp đồng kỳ hạn điện
+        1. Đơn vị phát điện năng lượng tái tạo và Khách hàng sử dụng điện lớn hoặc Đơn vị bán lẻ
+điện tại các mô hình khu, cụm được ủy quyền thực hiện đàm phán, ký kết Hợp đồng kỳ hạn điện trên
+cơ sở các nội dung chính quy định tại Phụ lục III ban hành kèm theo Nghị định này.
+        2. Thời hạn của Hợp đồng kỳ hạn điện, giá hợp đồng và sản lượng điện cam kết trong Hợp
+đồng kỳ hạn điện cho các chu kỳ giao dịch trong tương lai do hai bên thỏa thuận, thống nhất.
+        3. Giá tham chiếu trong Hợp đồng kỳ hạn điện là giá thị trường điện giao ngay do Đơn vị vận
+hành hệ thống điện và thị trường điện tính toán, công bố theo Quy định vận hành thị trường bán buôn
+điện cạnh tranh được Bộ Công Thương ban hành.
+        4. Ngoài các nội dung theo quy định tại khoản 1, khoản 2 và khoản 3 Điều này, Đơn vị phát
+điện năng lượng tái tạo và Khách hàng sử dụng điện lớn hoặc Đơn vị bán lẻ điện tại các mô hình
+khu, cụm được ủy quyền có quyền bổ sung nội dung khác của Hợp đồng kỳ hạn điện để làm rõ trách
+nhiệm, quyền hạn của các bên nhưng không trái với quy định tại Nghị định này và các quy định khác
+của pháp luật có liên quan.
+        Điều 18. Thanh toán giữa Khách hàng sử dụng điện lớn hoặc Đơn vị bán lẻ điện tại các
+mô hình khu, cụm được ủy quyền và Đơn vị phát điện năng lượng tái tạo
+        Khách hàng sử dụng điện lớn hoặc Đơn vị bán lẻ điện tại các mô hình khu, cụm được ủy
+quyền và Đơn vị phát điện năng lượng tái tạo thực hiện tính toán, thanh toán sản lượng điện cam kết
+trong hợp đồng kỳ hạn điện theo công thức sau:
+                               (020X(("dWJ       ()2d)     =
+        Trong đó:
+        Rc: Doanh thu theo hợp đồng kỳ hạn điện trong chu kỳ thanh toán (đồng);
+        i: Chu kỳ giao dịch thứ i trong chu kỳ thanh toán;
+        I: Tổng số chu kỳ giao dịch trong chu kỳ thanh toán;
+        Pc(i): Giá cam kết trong hợp đồng kỳ hạn điện (đồng/kWh);
+        FMP(i): Giá tham chiếu trong Hợp đồng kỳ hạn điện trong chu kỳ giao dịch i (đồng/kWh);
+        Qc(i): Sản lượng điện cam kết trong Hợp đồng kỳ hạn điện trong chu kỳ giao dịch i (kWh).
+                                             Mục 4
+                                TRÁCH NHIỆM CỦA CÁC ĐƠN VỊ
+        Điều 19. Trách nhiệm của Tập đoàn Điện lực Việt Nam
+        1. Thỏa thuận, ký kết Hợp đồng mua bán điện với Đơn vị phát điện năng lượng tái tạo khi
+nhận được văn bản đề nghị bán điện và các tài liệu liên quan từ Đơn vị phát điện năng lượng tái tạo
+theo quy định pháp luật có liên quan.
+        2. Tính toán các thông số quy định tại Điều 16 Nghị định này, bao gồm:
+        a) Hệ số quy đổi theo tổn thất điện năng trên lưới điện phân phối (KPP) năm N;
+        b) Chi phí sử dụng dịch vụ hệ thống điện tính cho một đơn vị điện năng của năm N (CDPPAđv)
+áp dụng đối với Khách hàng sử dụng điện lớn của Tổng công ty Điện lực năm N theo quy định tại
+
+khoản 4 Điều 16 Nghị định này;
+          c) Trường hợp chi phí sử dụng dịch vụ hệ thống điện tính cho một đơn vị điện năng của năm
+N áp dụng đối với Khách hàng sử dụng điện lớn của Tổng công ty Điện lực công bố trước ngày 15
+tháng 12 năm N-1 được tính toán theo kết quả kiểm tra chi phí sản xuất kinh doanh điện năm N-2
+được công bố công khai, trong thời hạn 10 ngày kể từ ngày phương án giá bán lẻ điện bình quân
+hằng năm của năm N được cơ quan có thẩm quyền kiểm tra, rà soát và cho ý kiến theo Quy định tại
+cơ chế điều chỉnh mức giá bán lẻ điện bình quân do Chính phủ ban hành, cập nhật chi phí sử dụng
+dịch vụ hệ thống điện tính cho một đơn vị điện năng của năm N quy định tại điểm b khoản này;
+         d) Chi phí thanh toán bù trừ chênh lệch tính cho một đơn vị điện năng của năm N (CCLđv) áp
+dụng đối với Khách hàng sử dụng điện lớn của Tổng công ty Điện lực, Công ty Điện lực năm N theo
+quy định tại Phụ lục IV ban hành kèm theo Nghị định này.
+              3. Trước ngày 15 tháng 12 năm N-1, báo cáo Bộ Công Thương kết quả tính toán các thông
+số theo quy định tại khoản 2 Điều này và gửi Đơn vị vận hành hệ thống điện và thị trường điện để
+công bố trên trang thông tin điện tử thị trường điện.
+         4. Trước ngày 20 tháng 3 năm N, gửi Đơn vị vận hành hệ thống điện và thị trường điện thông
+tin về chi phí sử dụng dịch vụ hệ thống điện (CDPPA)  và chi phí thanh toán bù trừ chênh lệch (CCL)
+trong 05 năm gần nhất để công bố trên trang thông tin điện tử thị trường điện.
+        Điều 20. Trách nhiệm của Đơn vị vận hành hệ thống điện và thị trường điện
+         1. Quản trị việc đăng ký tham gia cơ chế mua bán điện trực tiếp giữa Đơn vị phát điện năng
+lượng tái tạo và Khách hàng sử dụng điện lớn qua lưới điện quốc gia, đảm bảo tổng công suất năng
+lượng tái tạo không được vượt quá tổng công suất năng lượng tái tạo theo từng loại hình nguồn điện
+quy định tại Quy hoạch phát triển điện lực quốc gia đã được phê duyệt và các văn bản điều chỉnh có
+liên quan (nếu có).
+             2. Thực hiện vận hành hệ thống điện và thị trường điện tuân thủ theo Quy định hệ thống
+truyền tải điện, phân phối điện và đo đếm điện năng; Quy định điều độ, vận hành, thao tác, xử lý sự
+cố, khởi động đen và khôi phục hệ thống điện quốc gia và Quy định vận hành thị trường bán buôn
+điện cạnh tranh do Bộ Công Thương ban hành và các quy định khác của pháp luật có liên quan.
+           3. Thực hiện phân bổ sản lượng thực phát của Đơn vị phát điện năng lượng tái tạo quy đổi
+cho Khách hàng sử dụng điện lớn (tại điểm giao nhận) theo nguyên tắc quy định tại khoản 1 Điều 16
+Nghị định này, bảo đảm tổng các giá trị sản lượng điện thực phát (tại điểm giao nhận) phân bổ trong
+từng chu kỳ giao dịch không vượt quá sản lượng đo đếm của Đơn vị phát điện năng lượng tái tạo
+trong chu kỳ giao dịch tương ứng.
+              4. Trước ngày 05 tháng M, công bố danh sách và sản lượng điện năng tiêu thụ tháng M-1
+của các Khách hàng sử dụng điện lớn tham gia cơ chế mua bán điện trực tiếp thông qua lưới điện
+quốc gia.
+              5. Trước ngày 05 tháng M, công bố danh sách và sản lượng điện năng phát tháng M-1 của
+các Đơn vị phát điện năng lượng tái tạo tham gia cơ chế mua bán điện trực tiếp thông qua lưới điện
+quốc gia.
+            6. Trước ngày 15 tháng 11 của năm N-1, trên cơ sở danh sách Khách hàng sử dụng điện lớn
+không đủ điều kiện tham gia cơ chế mua bán điện trực tiếp năm N do Tổng công ty Điện lực, Công ty
+Điện lực gửi, Đơn vị vận hành hệ thống điện và thị trường điện tổng hợp danh sách, báo cáo Bộ
+Công Thương.
+                   7. Trước ngày 30 tháng 11 năm N-1, công bố Danh sách Khách hàng sử dụng điện lớn
+không đủ điều kiện tham gia cơ chế mua bán điện trực tiếp thông qua lưới điện quốc gia năm N.
+         8. Trước ngày 20 tháng 01 năm N, thực hiện công bố số liệu giá thị trường điện áp dụng cho
+đơn vị bán điện (FMP) và giá thị trường điện áp dụng cho đơn vị mua điện (CFMP) của 05 năm vận
+hành gần nhất.
+        9. Giám sát và báo cáo Bộ Công Thương các vấn đề phát sinh, các hành vi có dấu hiệu vi
+phạm trong quá trình thực hiện cơ chế mua bán điện trực tiếp.
+        Điều 21. Trách nhiệm của Đơn vị phát điện năng lượng tái tạo
+                1. Đầu tư xây dựng và đưa vào vận hành thương mại nhà máy điện đảm bảo đúng tiến độ
+cam kết trong hồ sơ đăng ký tham gia mua bán điện trực tiếp.
+
+            2. Đăng ký tham gia thị trường bán buôn điện cạnh tranh; tuân thủ Quy định vận hành thị
+trường bán buôn điện cạnh tranh do Bộ Công Thương ban hành.
+        3. Chấm dứt hợp đồng mua bán điện hiện hữu để tham gia cơ chế mua bán điện trực tiếp.
+          4. Ký kết Hợp đồng mua bán điện trên thị trường điện với Tập đoàn Điện lực Việt Nam (hoặc
+đơn vị được ủy quyền); ký kết Hợp đồng kỳ hạn điện với Khách hàng sử dụng điện lớn (hoặc Đơn vị
+bán lẻ điện tại các mô hình khu, cụm được ủy quyền).
+          5. Thống nhất tỷ lệ phần trăm (%) sản lượng điện Đơn vị phát điện năng lượng tái tạo phân
+bổ cho Khách hàng sử dụng điện lớn theo nguyên tắc quy định tại điểm đ khoản 1 Điều 26 Nghị định
+này.
+            6. Cung cấp thông tin về tình hình thực hiện, các vấn đề phát sinh, vướng mắc trong quá
+trình triển khai thực hiện mua bán điện trực tiếp theo yêu cầu của cơ quan có thẩm quyền.
+        Điều 22. Trách nhiệm của Tổng công ty Điện lực, Công ty Điện lực
+            1. Thỏa thuận, ký kết Hợp đồng mua bán điện với Khách hàng sử dụng điện lớn tham gia cơ
+chế mua bán điện trực tiếp (hoặc Đơn vị bán lẻ điện tại các mô hình khu, cụm được ủy quyền) trong
+thời hạn 07 ngày làm việc kể từ ngày nhận được đầy đủ văn bản đề nghị mua điện và các tài liệu liên
+quan từ Khách hàng sử dụng điện lớn (hoặc Đơn vị bán lẻ điện tại các mô hình khu, cụm được ủy
+quyền) theo quy định pháp luật có liên quan.
+             2. Đầu tư, lắp đặt hệ thống đo đếm điện năng (gồm hệ thống đo đếm chính và hệ thống đo
+đếm dự phòng), hệ thống thu thập dữ liệu đo đếm từ xa tại các vị trí đo đếm giao nhận điện năng với
+Khách hàng sử dụng điện lớn (hoặc Đơn vị bán lẻ điện tại các mô hình khu, cụm được ủy quyền) và
+quản lý, thu thập đầy đủ số liệu đo đếm đồng thời gửi số liệu về Đơn vị vận hành hệ thống điện và thị
+trường điện để phục vụ tính toán, thanh toán theo quy định, trừ trường hợp hai bên có thỏa thuận
+khác.
+            3. Trước ngày 10 tháng 11 của năm N-1, rà soát và lập danh sách Khách hàng sử dụng điện
+lớn (trong phạm vi quản lý) không đủ điều kiện tham gia cơ chế mua bán điện trực tiếp năm N, gửi
+Đơn vị vận hành hệ thống điện và thị trường điện.
+          4. Trước ngày 15 tháng 11 năm N-1, báo cáo Tập đoàn Điện lực Việt Nam tỷ lệ tổn thất điện
+năng trên lưới điện phân phối tại cấp điện áp từ 22kV đến dưới 110kV và từ 110kV trở lên năm N-2
+của Tổng công ty Điện lực.
+             5. Theo dõi thông tin về Khách hàng sử dụng điện lớn tham gia cơ chế mua bán điện trực
+tiếp (trong phạm vi quản lý).
+            6. Cung cấp thông tin về tình hình thực hiện, các vấn đề phát sinh, vướng mắc trong quá
+trình triển khai thực hiện theo yêu cầu của cơ quan có thẩm quyền.
+        Điều 23. Trách nhiệm của Đơn vị bán lẻ điện tại các mô hình khu, cụm
+             1. Thỏa thuận với Khách hàng sử dụng điện lớn về chi phí cung cấp dịch vụ sử dụng lưới
+điện trong phạm vi các mô hình khu, cụm (từ công tơ mua điện tổng của Đơn vị bán lẻ điện tại các
+mô hình khu, cụm được ủy quyền đến công tơ bán lẻ điện cho Khách hàng sử dụng điện lớn) phù
+hợp với quy định của pháp luật trong thời hạn 30 ngày kể từ ngày nhận được văn bản đề nghị và đầy
+đủ hồ sơ kèm theo của Khách hàng sử dụng điện lớn.
+                 2. Chấm dứt hợp đồng mua bán điện đã ký với Khách hàng sử dụng điện lớn (trước khi
+khách hàng tham gia cơ chế mua bán điện trực tiếp thông qua lưới điện quốc gia) trong thời hạn 07
+ngày làm việc kể từ ngày thống nhất với Khách hàng sử dụng điện lớn về chi phí cung cấp dịch vụ sử
+dụng lưới điện trong phạm vi các mô hình khu, cụm trừ trường hợp quy định tại khoản 3 Điều này.
+        3. Đơn vị bán lẻ điện tại các mô hình khu, cụm được Khách hàng sử dụng điện lớn ủy quyền
+theo quy định tại điểm c khoản 2 Điều 2 Nghị định này có trách nhiệm:
+            a) Thống nhất ký hợp đồng mua bán điện với Tổng công ty Điện lực, Công ty Điện lực theo
+quy định tại khoản 2 Điều 24 Nghị định này;
+           b) Sửa đổi hợp đồng mua bán điện hiện hữu với Khách hàng sử dụng điện lớn trong thời hạn
+30 ngày kể từ ngày nhận được văn bản đề nghị và các tài liệu liên quan từ Khách hàng sử dụng điện
+lớn theo quy định pháp luật có liên quan để đảm bảo cung cấp sản lượng điện theo nhu cầu của
+Khách hàng sử dụng điện lớn;
+
+             c) Thống nhất chi phí cung cấp dịch vụ sử dụng lưới điện trong phạm vi các mô hình khu,
+ cụm quy định tại khoản 1 Điều này, chi phí phát sinh từ các hợp đồng kỳ hạn điện ký với Đơn vị phát
+  điện năng lượng tái tạo, hợp đồng mua bán điện với Tổng công ty Điện lực, Công ty Điện lực sau khi
+đã thỏa thuận, thống nhất với Khách hàng sử dụng điện lớn ủy quyền.
+        Điều 24. Trách nhiệm của Khách hàng sử dụng điện lớn
+           1. Thống nhất tỷ lệ phần trăm (%) sản lượng điện Đơn vị phát điện năng lượng tái tạo phân
+         bổ cho Khách hàng sử dụng điện lớn hoặc Đơn vị bán lẻ điện tại các mô hình khu, cụm được ủy
+quyền theo nguyên tắc quy định tại điểm đ khoản 1 Điều 26 Nghị định này.
+              2. Trường hợp Khách hàng sử dụng điện lớn mua bán điện với Tổng công ty Điện lực (hoặc
+đơn vị được ủy quyền, phân cấp), Công ty Điện lực:
+            a) Đàm phán, ký kết Hợp đồng mua bán điện với Tổng công ty Điện lực (hoặc đơn vị được ủy
+quyền, phân cấp), Công ty Điện lực, Hợp đồng kỳ hạn điện với Đơn vị phát điện năng lượng tái tạo;
+             b) Cung cấp thông tin về tình hình thực hiện, các vấn đề phát sinh, vướng mắc trong quá
+trình triển khai thực hiện theo yêu cầu của cơ quan có thẩm quyền.
+                3. Trường hợp Khách hàng sử dụng điện lớn ủy quyền cho Đơn vị bán lẻ điện tại các mô
+    hình khu, cụm mua bán điện với Tổng công ty Điện lực (hoặc đơn vị được ủy quyền, phân cấp), Công
+ty Điện lực, Khách hàng sử dụng điện lớn thực hiện đàm phán, thỏa thuận về việc:
+              a) Thống nhất sửa đổi hợp đồng mua bán điện hiện hữu với Đơn vị bán lẻ điện tại các mô
+          hình khu, cụm được ủy quyền để đảm bảo cung cấp sản lượng điện theo nhu cầu của Khách hàng
+sử dụng điện lớn;
+             b) Thống nhất chi phí cung cấp dịch vụ sử dụng lưới điện trong phạm vi các mô hình khu,
+    cụm quy định tại khoản 1 Điều 23 Nghị định này, chi phí phát sinh từ các Hợp đồng kỳ hạn điện ký
+   với Đơn vị phát điện năng lượng tái tạo, hợp đồng mua bán điện với Tổng công ty Điện lực, Công ty
+  Điện lực sau khi đã thỏa thuận, thống nhất với Đơn vị bán lẻ điện tại các mô hình khu, cụm được ủy
+quyền.
+        4. Trong quá trình tham gia cơ chế mua bán điện trực tiếp, trường hợp các thông tin theo quy
+    định tại khoản 1 và khoản 2 Điều 26 Nghị định này thay đổi, Khách hàng sử dụng điện lớn có trách
+     nhiệm thông báo bằng văn bản cho Đơn vị vận hành hệ thống điện và thị trường điện, Tổng công ty
+Điện lực, Công ty Điện lực.
+                                            Chương IV
+                               TRÌNH TỰ THỰC HIỆN VÀ CHẾ ĐỘ BÁO CÁO
+        Điều 25. Trình tự tham gia mua bán điện trực tiếp thông qua lưới điện kết nối riêng
+           1. Đơn vị phát điện năng lượng tái tạo hoặc Chủ đầu tư dự án phát điện năng lượng tái tạo
+  thực hiện các quy định liên quan đến quy hoạch, đầu tư, xây dựng, cấp giấy phép hoạt động điện lực
+đối với dự án, công trình nguồn, lưới để bán điện trực tiếp cho Khách hàng sử dụng điện lớn tuân thủ
+quy định tại khoản 1 Điều 5 Nghị định này.
+             2. Đơn vị phát điện năng lượng tái tạo và Khách hàng sử dụng điện lớn tự đàm phán, thỏa
+thuận và ký kết hợp đồng mua bán điện theo quy định tại Điều 6 Nghị định này.
+           3. Khách hàng sử dụng điện lớn tham gia cơ chế mua bán điện trực tiếp thông qua lưới điện
+   kết nối riêng báo cáo bằng văn bản về việc ký kết hợp đồng mua bán điện với Đơn vị phát điện năng
+     lượng tái tạo (kèm theo bản sao hợp đồng mua bán điện) tới Ủy ban nhân dân tỉnh, thành phố trực
+thuộc Trung ương tại địa phương như sau:
+        a) Phương thức gửi: trực tiếp hoặc qua đường dịch vụ bưu chính;
+                b) Nội dung chính bao gồm: Thông tin về việc ký hợp đồng mua bán điện trực tiếp giữa
+     Khách hàng sử dụng điện lớn và Đơn vị phát điện năng lượng tái tạo; thông tin của Khách hàng sử
+dụng điện lớn (địa điểm cơ sở tiêu thụ điện, mục đích sử dụng điện, hiện trạng sử dụng điện (nếu có)
+   và giá mua bán điện tại Hợp đồng mua bán điện hiện có; hiện trạng của Đơn vị phát điện năng lượng
+tái tạo (loại hình nhà máy điện, công suất, hiện trạng nhà máy điện và giá mua bán điện tại Hợp đồng
+mua bán điện hiện có.
+           4. Khách hàng sử dụng điện lớn tham gia cơ chế mua bán điện trực tiếp thông qua lưới điện
+
+kết nối riêng thông báo bằng văn bản (kèm theo bản sao hợp đồng mua bán điện giữa Khách hàng
+sử dụng điện lớn và Đơn vị phát điện năng lượng tái tạo) tới Tổng công ty Điện lực, Công ty điện lực
+(hoạt động trên địa bàn) và Đơn vị vận hành hệ thống điện và thị trường điện bằng phương thức gửi
+trực tiếp hoặc qua đường dịch vụ bưu chính.
+        Điều 26. Trình tự tham gia mua bán điện trực tiếp thông qua lưới điện quốc gia
+            1. Khách hàng sử dụng điện lớn hoặc Đơn vị bán lẻ điện tại các mô hình khu, cụm được ủy
+quyền và Đơn vị phát điện năng lượng tái tạo quy định tại khoản 2 Điều 2 Nghị định này có thỏa
+thuận tham gia cơ chế mua bán điện trực tiếp qua lưới điện quốc gia thì Khách hàng sử dụng điện
+lớn hoặc Đơn vị bán lẻ điện tại các mô hình khu, cụm được ủy quyền gửi hồ sơ đăng ký tham gia cơ
+chế mua bán điện trực tiếp về Đơn vị vận hành hệ thống điện và thị trường điện trực tiếp hoặc qua
+đường dịch vụ bưu chính, bao gồm:
+        a) Văn bản đề nghị tham gia cơ chế mua bán điện trực tiếp;
+          b) Văn bản thỏa thuận nguyên tắc ký kết giữa Đơn vị phát điện năng lượng tái tạo và Khách
+hàng sử dụng điện lớn hoặc Đơn vị bán lẻ điện tại các mô hình khu, cụm được ủy quyền, bao gồm:
+các thông tin về Hợp đồng kỳ hạn điện giữa hai bên theo quy định tại Điều 17 Nghị định này, kế
+hoạch dự kiến chấm dứt hợp đồng mua bán điện hiện hữu của Đơn vị phát điện năng lượng tái tạo
+để tham gia cơ chế mua bán điện trực tiếp;
+        c) Báo cáo hiện trạng của Đơn vị phát điện năng lượng tái tạo (loại hình nhà máy điện, công
+suất, hiện trạng nhà máy, cơ sở hạ tầng để tham gia thị trường điện và giá điện tại hợp đồng mua
+bán điện hiện hữu);
+          d) Thông tin của Khách hàng sử dụng điện lớn hoặc Đơn vị bán lẻ điện tại các mô hình khu,
+cụm được ủy quyền (địa điểm cơ sở tiêu thụ điện, mục đích sử dụng điện, hiện trạng sử dụng điện
+(nếu có), cơ sở hạ tầng để tham gia thị trường điện và giá điện tại hợp đồng mua bán điện hiện hữu
+(nếu có));
+           đ) Văn bản thống nhất tỷ lệ phần trăm (%) sản lượng điện Đơn vị phát điện năng lượng tái
+tạo phân bổ cho Khách hàng sử dụng điện lớn hoặc Đơn vị bán lẻ điện tại các mô hình khu, cụm
+được ủy quyền và không vượt quá 100% đối với trường hợp 01 Đơn vị phát điện năng lượng tái tạo
+ký hợp đồng kỳ hạn điện với 01 Khách hàng sử dụng điện lớn hoặc Đơn vị bán lẻ điện tại các mô
+hình khu, cụm được ủy quyền. Trường hợp 01 Đơn vị phát điện năng lượng tái tạo ký hợp đồng kỳ
+hạn điện với nhiều Khách hàng sử dụng điện lớn hoặc nhiều Đơn vị bán lẻ điện tại các mô hình khu,
+cụm được ủy quyền, tổng các tỷ lệ phần trăm (%) sản lượng điện Đơn vị phát điện năng lượng tái tạo
+phân bổ cho Khách hàng sử dụng điện lớn hoặc Đơn vị bán lẻ điện tại các mô hình khu, cụm được
+ủy quyền không vượt quá 100%.
+          2. Khách hàng sử dụng điện lớn trong các mô hình khu, cụm hoặc Đơn vị bán lẻ điện tại các
+mô hình khu, cụm được ủy quyền theo quy định tại khoản 2 Điều 2 Nghị định này bổ sung các tài liệu
+sau:
+          a) Văn bản thỏa thuận thống nhất với các Tổng công ty Điện lực, Công ty Điện lực về trách
+nhiệm lắp đặt công tơ đo đếm của Khách hàng sử dụng điện lớn hoặc Đơn vị bán lẻ điện tại các mô
+hình khu, cụm được ủy quyền mua bán điện trực tiếp đáp ứng các điều kiện kỹ thuật theo quy định;
+           b) Trường hợp chấm dứt hợp đồng với Đơn vị bán lẻ điện tại các mô hình khu, cụm: Văn bản
+thỏa thuận thống nhất với Đơn vị bán lẻ điện tại các mô hình khu, cụm về việc dự kiến chấm dứt hợp
+đồng mua bán điện đã ký giữa hai bên khi tham gia cơ chế mua bán điện trực tiếp và chi phí cung
+cấp dịch vụ sử dụng lưới điện trong phạm vi các mô hình khu, cụm theo quy định tại khoản 1 Điều 23
+Nghị định này;
+           c) Trường hợp tiếp tục hợp đồng với Đơn vị bán lẻ điện tại các mô hình khu, cụm: Văn bản
+ủy quyền của Khách hàng sử dụng điện lớn và văn bản thỏa thuận về việc sửa đổi hợp đồng mua
+bán điện với Khách hàng sử dụng điện lớn để tham gia cơ chế mua bán điện trực tiếp và chi phí cung
+cấp dịch vụ sử dụng lưới điện trong phạm vi các mô hình khu, cụm theo quy định tại khoản 1 Điều 23
+Nghị định này, dự kiến chi phí phát sinh từ các hợp đồng kỳ hạn điện ký với Đơn vị phát điện năng
+lượng tái tạo theo quy định tại Điều 18 Nghị định này.
+           3. Trong thời hạn 05 ngày làm việc kể từ khi nhận được hồ sơ đăng ký tham gia cơ chế mua
+bán điện trực tiếp theo quy định tại khoản 1 và khoản 2 Điều này, Đơn vị vận hành hệ thống điện và
+thị trường điện có trách nhiệm:
+
+        a) Gửi hồ sơ cho Tổng công ty Điện lực, Công ty Điện lực, Đơn vị bán lẻ điện tại các mô hình
+khu, cụm quản lý Khách hàng sử dụng điện lớn để xác nhận tính chính xác thông tin tại hồ sơ đăng
+ký tham gia cơ chế mua bán điện trực tiếp và khả năng chuyển đổi hợp đồng hiện hữu của Khách
+hàng sử dụng điện lớn để ký kết các hợp đồng tham gia cơ chế mua bán điện trực tiếp theo quy định;
+               b) Gửi hồ sơ cho Tập đoàn Điện lực Việt Nam xác nhận khả năng ký kết Hợp đồng mua bán
+điện trên thị trường điện giao ngay với Đơn vị phát điện năng lượng tái tạo theo quy định tại Điều 9
+Nghị định này;
+            c) Rà soát tính đáp ứng của văn bản thống nhất tỷ lệ phần trăm (%) sản lượng điện Đơn vị
+phát điện năng lượng tái tạo phân bổ cho Khách hàng sử dụng điện lớn hoặc Đơn vị bán lẻ điện tại
+các mô hình khu, cụm được ủy quyền theo nguyên tắc quy định tại điểm đ khoản 1 Điều này;
+               d) Hướng dẫn Khách hàng sử dụng điện lớn hoặc Đơn vị bán lẻ điện tại các mô hình khu,
+cụm được ủy quyền thực hiện thống nhất với Đơn vị phát điện năng lượng tái tạo về tỷ lệ phần trăm
+(%) sản lượng điện Đơn vị phát điện năng lượng tái tạo phân bổ cho Khách hàng sử dụng điện lớn
+hoặc Đơn vị bán lẻ điện tại các mô hình khu, cụm được ủy quyền theo nguyên tắc quy định tại điểm đ
+khoản 1 Điều này.
+            4. Trong thời hạn 05 ngày làm việc kể từ thời điểm nhận được hồ sơ do Đơn vị vận hành hệ
+thống điện và thị trường điện gửi:
+          a) Tổng công ty Điện lực, Công ty Điện lực, Đơn vị bán lẻ điện tại các mô hình khu, cụm có
+văn bản xác nhận hồ sơ của Khách hàng sử dụng điện lớn hoặc Đơn vị bán lẻ điện tại các mô hình
+khu, cụm được ủy quyền về việc sẵn sàng và thời điểm dự kiến chuyển đổi hợp đồng mua bán điện
+với Khách hàng sử dụng điện lớn hoặc Đơn vị bán lẻ điện tại các mô hình khu, cụm được ủy quyền
+và gửi Đơn vị vận hành hệ thống điện và thị trường điện;
+             b) Tập đoàn Điện lực Việt Nam có văn bản xác nhận về việc sẵn sàng và thời điểm dự kiến
+ký kết hợp đồng mua bán điện trên thị trường điện giao ngay với Đơn vị phát điện năng lượng tái tạo
+và gửi Đơn vị vận hành hệ thống điện và thị trường điện.
+           5. Trong thời hạn 05 ngày làm việc kể từ ngày nhận được văn bản trả lời của Tập đoàn Điện
+lực Việt Nam, Tổng công ty Điện lực, Công ty Điện lực, Đơn vị bán lẻ điện tại các mô hình khu, cụm,
+Đơn vị vận hành hệ thống điện và thị trường điện có văn bản trả lời Khách hàng sử dụng điện lớn
+hoặc Đơn vị bán lẻ điện tại các mô hình khu, cụm được ủy quyền về:
+             a) Thời điểm dự kiến ký kết hợp đồng mua bán điện giao ngay giữa Tập đoàn Điện lực Việt
+Nam với Đơn vị phát điện năng lượng tái tạo;
+            b) Thời điểm dự kiến chuyển đổi các hợp đồng mua bán điện hiện có giữa Tổng công ty Điện
+lực, Công ty Điện lực, Đơn vị bán lẻ điện tại các mô hình khu, cụm với Khách hàng sử dụng điện lớn;
+       c) Thời điểm dự kiến áp dụng cơ chế mua bán điện trực tiếp.
+       6. Tập đoàn Điện lực Việt Nam, Tổng công ty Điện lực, Công ty Điện lực, Đơn vị bán lẻ điện
+tại các mô hình khu, cụm, Đơn vị phát điện năng lượng tái tạo và Khách hàng sử dụng điện lớn hoặc
+Đơn vị bán lẻ điện tại các mô hình khu, cụm được ủy quyền chủ động đàm phán, ký kết các hợp
+đồng theo quy định tại Điều 9, Điều 15 và Điều 17 Nghị định này.
+         7. Đơn vị phát điện năng lượng tái tạo, Khách hàng sử dụng điện lớn hoặc Đơn vị bán lẻ điện
+tại các mô hình khu, cụm được ủy quyền và các đơn vị liên quan có trách nhiệm đầu tư, trang bị cơ
+sở hạ tầng đáp ứng điều kiện tham gia cơ chế mua bán điện trực tiếp và gửi văn bản cho Đơn vị vận
+hành hệ thống điện và thị trường điện về việc xác nhận hoàn thành các điều kiện tham gia cơ chế
+mua bán điện trực tiếp bằng phương thức gửi trực tiếp hoặc qua đường dịch vụ bưu chính. Hồ sơ
+gửi kèm theo bao gồm: hồ sơ đăng ký tham gia thị trường điện của đơn vị phát điện đã được chấp
+thuận, bản sao các hợp đồng đã được ký kết theo quy định tại Điều 9, Điều 15 và Điều 17 Nghị định
+này.
+        8. Đơn vị vận hành hệ thống điện và thị trường điện kiểm tra hồ sơ quy định tại khoản 7 Điều
+này và thông báo bằng văn bản gửi Đơn vị phát điện năng lượng tái tạo về việc đăng ký tham gia thị
+trường điện theo Quy định về vận hành thị trường bán buôn điện cạnh tranh do Bộ Công Thương ban
+hành; đồng thời báo cáo Bộ Công Thương và thông báo bằng văn bản cho Tập đoàn Điện lực Việt
+Nam, Tổng công ty Điện lực, Công ty Điện lực, Đơn vị bán lẻ điện tại các mô hình khu, cụm và Khách
+hàng sử dụng điện lớn hoặc Đơn vị bán lẻ điện tại các mô hình khu, cụm được ủy quyền về thời điểm
+chính thức vận hành mua bán điện trực tiếp giữa Đơn vị phát điện năng lượng tái tạo và Khách hàng
+
+sử dụng điện lớn hoặc Đơn vị bán lẻ điện tại các mô hình khu, cụm được ủy quyền.
+        Điều 27. Tạm ngừng, chấm dứt, khôi phục tham gia cơ chế mua bán điện trực tiếp
+        1. Tạm ngừng tham gia cơ chế mua bán điện trực tiếp
+            a) Tạm ngừng việc tham gia cơ chế mua bán điện trực tiếp đối với Khách hàng sử dụng điện
+lớn hoặc Đơn vị bán lẻ điện tại các mô hình khu, cụm được ủy quyền, Đơn vị phát điện năng lượng
+tái tạo trong các trường hợp: Tạm ngừng thị trường điện giao ngay theo Quy định vận hành thị
+trường bán buôn điện cạnh tranh do Bộ Công Thương ban hành; một trong các hợp đồng của cơ chế
+mua bán điện trực tiếp bị tạm ngừng hoặc hết hiệu lực, gây ảnh hưởng đến lợi ích của các bên liên
+quan; có hành vi lợi dụng cơ chế, chính sách để trục lợi; Khách hàng sử dụng điện lớn đã tham gia
+cơ chế mua bán điện trực tiếp năm N nhưng không đáp ứng điều kiện về việc tham gia cơ chế mua
+bán điện trực tiếp trong năm N+1 theo quy định tại khoản 2 Điều 5 Nghị định này;
+                 b) Thanh toán trong trường hợp tạm ngừng tham gia cơ chế mua bán điện trực tiếp của
+Khách hàng sử dụng điện lớn hoặc Đơn vị bán lẻ điện tại các mô hình khu, cụm được ủy quyền, Đơn
+vị phát điện năng lượng tái tạo: Khách hàng sử dụng điện lớn thanh toán theo biểu giá bán lẻ điện do
+Bộ Công Thương ban hành; Đơn vị bán lẻ điện tại các mô hình khu, cụm được ủy quyền mua điện từ
+Tổng công ty Điện lực, Công ty Điện lực theo biểu giá điện hiện hành; Đơn vị phát điện năng lượng
+tái tạo bán điện cho Tập đoàn Điện lực Việt Nam (hoặc đơn vị được ủy quyền), đàm phán thống nhất
+về giá phát điện trong khung giá phát điện năng lượng tái tạo do Bộ Công Thương ban hành hoặc
+các cơ chế giá điện khác.
+        2. Chấm dứt tham gia cơ chế mua bán điện trực tiếp
+        a) Các bên chấm dứt tham gia cơ chế mua bán điện trực tiếp khi có một trong các trường
+hợp sau: Tự nguyện chấm dứt theo yêu cầu của các bên tham gia; có hành vi lợi dụng cơ chế, chính
+sách để trục lợi và hậu quả gây ra không thể khắc phục;
+        b) Trường hợp chấm dứt tham gia cơ chế mua bán điện trực tiếp, các Đơn vị phát điện năng
+lượng tái tạo, Khách hàng sử dụng điện lớn, Đơn vị bán lẻ điện tại các mô hình khu, cụm được ủy
+quyền, Tổng công ty Điện lực, Công ty Điện lực có trách nhiệm đàm phán, ký kết hợp đồng mua bán
+điện theo quy định hiện hành.
+        3. Khôi phục tham gia cơ chế mua bán điện trực tiếp
+        a) Các bên khôi phục tham gia cơ chế mua bán điện trực tiếp khi có một trong các trường
+hợp sau: khôi phục thị trường điện giao ngay, các hành vi vi phạm đã được khắc phục và được cơ
+quan có thẩm quyền ra quyết định về việc khôi phục tham gia cơ chế;
+        b) Trường hợp khôi phục tham gia cơ chế mua bán điện trực tiếp, các đơn vị có trách nhiệm
+tiếp tục thực hiện các thỏa thuận tại các hợp đồng mua bán điện đã ký kết.
+        4. Thẩm quyền trong việc tạm dừng, chấm dứt, khôi phục tham gia cơ chế mua bán điện trực
+tiếp
+        a) Bộ trưởng Bộ Công Thương có ý kiến đối với việc tạm ngừng và khôi phục tham gia cơ
+chế mua bán điện trực tiếp của Khách hàng sử dụng điện lớn hoặc Đơn vị bán lẻ điện tại các mô hình
+khu, cụm được ủy quyền, Đơn vị phát điện năng lượng tái tạo trên cơ sở báo cáo, kiến nghị của Đơn
+vị vận hành hệ thống điện và thị trường điện hoặc các cơ quan, tổ chức liên quan khác;
+        b) Bộ trưởng Bộ Công Thương quyết định chấm dứt tham gia cơ chế mua bán điện trực tiếp
+của Khách hàng sử dụng điện lớn hoặc Đơn vị bán lẻ điện tại các mô hình khu, cụm được ủy quyền,
+Đơn vị phát điện năng lượng tái tạo sau khi lấy ý kiến bằng văn bản của các cơ quan có liên quan.
+        Điều 28. Chế độ báo cáo
+        Việc báo cáo tình hình thực hiện cơ chế mua bán điện trực tiếp được thực hiện như sau:
+        1. Chế độ báo cáo của hình thức mua bán điện trực tiếp thông qua lưới điện kết nối riêng
+        a) Báo cáo các thông tin liên quan khi bắt đầu thực hiện mua bán điện trực tiếp thông qua
+lưới điện kết nối riêng theo Mẫu số 01 Phụ lục V ban hành kèm theo Nghị định này như sau:
+        Tên báo cáo: Báo cáo về việc mua bán điện trực tiếp;
+        Nội dung báo cáo: Các thông tin về chủ thể hợp đồng (bên mua, bên bán); sản lượng điện
+năng thỏa thuận; giá điện; các nội dung khác;
+
+        Đối tượng báo cáo: Khách hàng sử dụng điện lớn tham gia mua bán điện trực tiếp thông qua
+lưới điện kết nối riêng;
+        Cơ quan nhận báo cáo: Bộ Công Thương, Ủy ban nhân dân tỉnh, thành phố trực thuộc trung
+ương (chỉ nhận báo cáo của Khách hàng sử dụng điện lớn trong địa bàn quản lý);
+        Phương thức gửi báo cáo: Qua dịch vụ bưu chính;
+        Thời hạn gửi báo cáo: Trong thời hạn 10 ngày kể từ thời điểm ký kết Hợp đồng mua bán điện
+trực tiếp thông qua lưới điện kết nối riêng.
+        b) Báo cáo kết quả mua bán điện trực tiếp thông qua lưới điện kết nối riêng năm N-1 theo
+Mẫu số 02 Phụ lục V ban hành kèm theo Nghị định này như sau:
+        Tên báo cáo: Báo cáo kết quả mua bán điện trực tiếp thông qua lưới điện kết nối riêng của
+năm N-1;
+        Nội dung báo cáo: Các thông tin về chủ thể hợp đồng (bên mua, bên bán); sản lượng điện
+năng mua bán trong năm; chi phí mua điện trực tiếp các tháng và năm; các khó khăn, vướng mắc,
+kiến nghị;
+        Đối tượng báo cáo: Khách hàng sử dụng điện lớn tham gia mua bán điện trực tiếp thông qua
+lưới điện kết nối riêng;
+        Cơ quan nhận báo cáo: Bộ Công Thương, Ủy ban nhân dân tỉnh, thành phố trực thuộc trung
+ương (chỉ nhận báo cáo của Khách hàng sử dụng điện lớn trong địa bàn quản lý);
+        Phương thức gửi báo cáo: Qua dịch vụ bưu chính;
+        Thời hạn gửi báo cáo: Trước ngày 30 tháng 01 năm N;
+        Tần suất gửi báo cáo: Hằng năm.
+        2. Chế độ báo cáo của hình thức mua bán điện trực tiếp thông qua Lưới điện quốc gia
+        a) Báo cáo kết quả mua bán điện trực tiếp thông qua Lưới điện quốc gia tháng M-1 theo Mẫu
+số 03 Phụ lục V ban hành kèm theo Nghị định này như sau:
+        Tên báo cáo: Báo cáo kết quả mua bán điện trực tiếp của tháng trước liền kề;
+        Nội dung báo cáo: Tổng số Đơn vị phát điện năng lượng tái tạo và Khách hàng sử dụng điện
+lớn hoặc Đơn vị bán lẻ điện tại các mô hình khu, cụm được ủy quyền tham gia cơ chế mua bán điện
+trực tiếp; các thông tin về chủ thể hợp đồng (bên mua, bên bán); sản lượng điện năng mua bán trong
+tháng; chi phí mua điện trực tiếp trong tháng; các khó khăn, vướng mắc, kiến nghị giải pháp (nếu có);
+        Đối tượng báo cáo: Đơn vị vận hành hệ thống điện và thị trường điện, Tổng công ty Điện lực,
+Công ty Điện lực;
+        Cơ quan nhận báo cáo: Bộ Công Thương, Ủy ban nhân dân tỉnh, thành phố trực thuộc trung
+ương (chỉ nhận báo cáo của Tổng công ty Điện lực có trên địa bàn quản lý);
+        Phương thức gửi báo cáo: Qua thư điện tử hoặc qua dịch vụ bưu chính;
+        Thời hạn gửi báo cáo: Trước ngày 20 tháng M;
+        Tần suất gửi báo cáo: Hằng tháng.
+        b) Báo cáo kết quả thực hiện mua bán điện trực tiếp thông qua Lưới điện quốc gia của năm
+N-1 theo Mẫu số 04 Phụ lục V ban hành kèm theo Nghị định này như sau
+        Tên báo cáo: Báo cáo về kết quả thực hiện cơ chế mua bán điện trực tiếp thông qua Lưới
+điện quốc gia trên phạm vi toàn quốc của năm N-1;
+        Nội dung báo cáo: Tổng số Đơn vị phát điện năng lượng tái tạo và Khách hàng sử dụng điện
+lớn hoặc Đơn vị bán lẻ điện tại các mô hình khu, cụm được ủy quyền tham gia cơ chế mua bán điện
+trực tiếp; các thông tin về Đơn vị phát điện năng lượng tái tạo, Khách hàng sử dụng điện lớn; sản
+lượng điện năng mua bán trong năm; chi phí mua điện trực tiếp trong năm; các khó khăn, vướng
+mắc, kiến nghị giải pháp (nếu có);
+        Đối tượng báo cáo: Tập đoàn Điện lực Việt Nam; Đơn vị vận hành hệ thống điện và thị
+trường điện, Tổng công ty Điện lực, Công ty Điện lực;
+
+        Cơ quan nhận báo cáo: Bộ Công Thương, Ủy ban nhân dân tỉnh, thành phố trực thuộc trung
+ương (chỉ nhận báo cáo của Tổng công ty Điện lực trên địa bàn quản lý);
+        Phương thức gửi báo cáo: Qua thư điện tử hoặc qua dịch vụ bưu chính;
+        Thời hạn gửi báo cáo: Trước ngày 30 tháng 01 năm N;
+        Tần suất gửi báo cáo: Hằng năm.
+                                           Chương V
+                                    ĐIỀU KHOẢN THI HÀNH
+        Điều 29. Trách nhiệm thi hành
+        1. Bộ Công Thương:
+        a) Chịu trách nhiệm trước Chính phủ thực hiện thống nhất quản lý nhà nước về các nội dung
+quy định tại Nghị định này đảm bảo an ninh năng lượng điện quốc gia, an toàn hệ thống điện theo
+quy hoạch phát triển điện lực quốc gia, kế hoạch thực hiện quy hoạch phát triển điện lực quốc gia
+được phê duyệt; trên cơ sở khả năng đáp ứng về kỹ thuật, công nghệ, khả năng đáp ứng của hệ
+thống truyền tải điện, căn cứ nhu cầu phát triển các loại hình nguồn điện tham gia mua bán điện trực
+tiếp, kịp thời báo cáo cơ quan có thẩm quyền xem xét, quyết định việc điều chỉnh quy hoạch phát
+triển điện lực theo quy định;
+        b) Chủ trì, phối hợp với các bộ chỉ đạo các cơ quan, đơn vị liên quan triển khai thực hiện cơ
+chế mua bán điện trực tiếp; hướng dẫn, theo dõi và giải quyết các vấn đề phát sinh trong quá trình
+triển khai thực hiện cơ chế mua bán điện trực tiếp theo thẩm quyền;
+        c) Có ý kiến về báo cáo và kết quả tính toán chi phí sử dụng dịch vụ hệ thống điện cho một
+đơn vị điện năng áp dụng đối với khách hàng của các Tổng công ty Điện lực năm N do Tập đoàn
+Điện lực Việt Nam báo cáo theo quy định tại khoản 4 Điều 16 Nghị định này;
+        d) Kiểm tra, giám sát và giải quyết khiếu nại, xử lý vi phạm trong quá trình triển khai thực hiện
+cơ chế mua bán điện trực tiếp;
+        đ) Chủ trì, phối hợp với các bộ tham mưu Chính phủ sửa đổi, bổ sung Quy định về cơ chế
+mua bán điện trực tiếp giữa Đơn vị phát điện năng lượng tái tạo và Khách hàng sử dụng điện lớn.
+        2. Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương:
+        a) Chịu trách nhiệm quản lý nhà nước về các nội dung quy định tại Nghị định này trong phạm
+vi quản lý của địa phương;
+        b) Giao các cơ quan chuyên môn về điện lực chủ trì, chịu trách nhiệm phối hợp kiểm tra thực
+hiện hợp đồng mua bán điện theo các quy định tại Nghị định này và các quy định khác của pháp luật
+có liên quan;
+        c) Kiểm tra, giám sát và giải quyết khiếu nại, xử lý vi phạm trong quá trình triển khai thực hiện
+cơ chế mua bán điện trực tiếp theo phạm vi khu vực quản lý.
+        3. Tập đoàn Điện lực Việt Nam
+        a) Tổ chức và chỉ đạo các đơn vị trực thuộc thực hiện mua bán điện trực tiếp;
+        b) Hướng dẫn, chỉ đạo các Tổng công ty Điện lực dự thảo nội dung của Hợp đồng mua bán
+điện giữa Tổng công ty Điện lực và Khách hàng theo quy định tại Điều 15 Nghị định này;
+        c) Hướng dẫn các Tổng công ty Điện lực về quy trình kinh doanh, quản lý, tính toán thanh
+toán, thỏa thuận, ký kết với Khách hàng, thời hạn phát hành hóa đơn, thời hạn thanh toán, các hồ sơ
+thanh toán và mẫu hóa đơn áp dụng cho nhóm khách hàng tham gia mua bán điện trực tiếp;
+        d) Hướng dẫn các Tổng công ty Điện lực về việc thanh toán các thành phần của chi phí dịch
+vụ mua bán điện trực tiếp (chi phí truyền tải điện, chi phí phân phối - bán lẻ điện, chi phí điều độ vận
+hành hệ thống điện và điều hành giao dịch thị trường điện, chi phí điều hành - quản lý ngành, chi phí
+dịch vụ phụ trợ hệ thống điện, chi phí thanh toán bù trừ chênh lệch) cho các đơn vị cung cấp dịch vụ
+liên quan;
+        đ) Hướng dẫn các Tổng công ty Điện lực về tính toán tỷ lệ tổn thất điện năng trên lưới điện
+phân phối theo từng cấp điện áp quy định tại khoản 3 Điều 16 Nghị định này;
+
+        e) Đánh giá tình hình triển khai cơ chế mua bán điện trực tiếp và thực hiện chế độ báo cáo
+theo quy định tại Điều 28 Nghị định này.
+        4. Đơn vị vận hành hệ thống điện và thị trường điện có trách nhiệm hướng dẫn các đơn vị
+tham gia cơ chế mua bán điện trực tiếp qua lưới điện quốc gia theo quy định tại Điều 26 Nghị định
+này.
+        Điều 30. Điều khoản chuyển tiếp
+        Đối với các hợp đồng mua bán điện đã ký kết trước thời điểm Nghị định này có hiệu lực và
+phù hợp quy định, các bên tiếp tục thực hiện hợp đồng mua bán điện đã ký đến hết thời hạn hợp
+đồng hoặc đàm phán, thống nhất sửa đổi hợp đồng mua bán điện theo quy định tại Nghị định này.
+        Điều 31. Hiệu lực thi hành
+        1. Nghị định này có hiệu lực thi hành kể từ ngày ký ban hành.
+        2. Bãi bỏ Nghị định số 80/2024/NĐ-CP ngày 03 tháng 7 năm 2024 của Chính phủ quy định về
+cơ chế mua bán điện trực tiếp giữa Đơn vị phát điện năng lượng tái tạo với Khách hàng sử dụng điện
+lớn.
+        3. Trong thời hạn 15 ngày kể từ thời điểm Nghị định này có hiệu lực, Tập đoàn Điện lực Việt
+Nam có trách nhiệm cập nhật tính toán, báo cáo Bộ Công Thương kết quả tính toán trước khi gửi
+Đơn vị vận hành hệ thống điện và thị trường điện công bố trên trang thông tin điện tử thị trường điện
+các chi phí áp dụng cho năm 2025, bao gồm:
+        a) Chi phí sử dụng dịch vụ hệ thống điện tính cho một đơn vị điện năng;
+        b) Chi phí thanh toán bù trừ chênh lệch tính cho một đơn vị điện năng;
+        c) Hệ số quy đổi theo tổn thất điện năng trên lưới điện phân phối.
+        4. Trong quá trình thực hiện, trường hợp các văn bản quy phạm pháp luật được dẫn chiếu để
+áp dụng tại Nghị định này được sửa đổi, bổ sung, thay thế bằng văn bản quy phạm pháp luật mới thì
+áp dụng theo các văn bản mới đó.
+        5. Trong quá trình triển khai thực hiện, nếu có khó khăn, vướng mắc đề nghị các cơ quan,
+đơn vị phản ánh về Bộ Công Thương để nghiên cứu, tham mưu đề xuất Chính phủ sửa đổi, bổ sung
+cho phù hợp.
+ Nơi nhận:                                                       TM. CHÍNH PHỦ
+ - Ban Bí thư Trung ương Đảng;                                   KT. THỦ TƯỚNG
+ - Thủ tướng, các Phó Thủ tướng Chính phủ;                       PHÓ THỦ TƯỚNG
+ - Các bộ, cơ quan ngang bộ, cơ quan thuộc
+ Chính phủ;
+ - HĐND, UBND các tỉnh, thành phố trực thuộc
+ trung ương;
+ - Văn phòng Trung ương và các Ban của Đảng;                    Bùi Thanh Sơn
+ - Văn phòng Tổng Bí thư;
+ - Văn phòng Chủ tịch nước;
+ - Hội đồng Dân tộc và các Ủy ban của Quốc hội;
+ - Văn phòng Quốc hội;
+ - Tòa án nhân dân tối cao;
+ - Viện kiểm sát nhân dân tối cao;
+ - Kiểm toán nhà nước;
+ - Ngân hàng Chính sách xã hội;
+ - Ngân hàng Phát triển Việt Nam;
+ - Ủy ban trung ương Mặt trận Tổ quốc Việt
+ Nam;
+ - Cơ quan trung ương của các đoàn thể;
+ - Cục Điện lực - Bộ Công Thương;
+ - Tập đoàn Điện lực Việt Nam;
+ - VPCP: BTCN, các PCN, Trợ lý TTg, TGĐ
+ Cổng TTĐT, các Vụ, Cục, đơn vị trực thuộc,
+ Công báo;
+ - Lưu: VT, CN (2).
+
+LualVietnam                                                  LuatVietnam.vn
+ Tilen Ich van bản luar
+
+                                            Phụ lục I
+                                  CÁC NỘI DUNG CHÍNH CỦA HỢP ĐỒNG MUA BÁN ĐIỆN
+                                           TRÊN THỊ TRƯỜNG GIAO NGAY
+                                      (Kèm theo Nghị định số 57/2025/NĐ-CP
+                                    ngày 03 tháng 3 năm 2025 của Chính phủ)
+                                                    ________
+       Phụ lục này bao gồm các nội dung chính tại Hợp đồng mua bán điện trên thị trường giao
+       ngay được ký kết giữa Đơn vị phát điện năng lượng tái tạo và Tập đoàn Điện lực Việt Nam. Trong đó:
+       1. Các nội dung chính bao gồm:
+       a) Căn cứ pháp lý;
+       b) Thông tin của các bên (tên Đơn vị, địa chỉ, điện thoại, mã số thuế…);
+       c) Giải thích từ ngữ;
+       d) Hiệu lực và thời hạn hợp đồng;
+       đ) Quy định về mua bán điện;
+       e) Trách nhiệm đấu nối và hệ thống đo đếm;
+       g) Điều độ và vận hành nhà máy điện;
+       h) Lập hóa đơn, thanh toán và xử lý tranh chấp trong thanh toán;
+       i) Vi phạm hợp đồng, bồi thường thiệt hại và chấm dứt thực hiện;
+       k) Bảo mật thông tin;
+       l) Các thỏa thuận khác;
+       m) Các phụ lục đính kèm (Phụ lục các thông số chính của nhà máy điện, hệ thống đo đếm và
+thu thập số liệu, thỏa thuận các đặc tính vận hành, thỏa thuận hệ thống SCADA/EMS, thông tin liên
+lạc, role bảo vệ và tự động, giá mua bán điện, tiền điện thanh toán).
+       2. Các nội dung quy định tại hợp đồng này về hoạt động chào giá, lập lịch huy động, tính toán
+thanh toán kiểm tra đối soát bảng kê thanh toán trên thị trường điện giao ngay (nếu có) thực hiện
+theo quy định tại Điều 10, Điều 11, Điều 12 và Điều 13 Nghị định này.
+
+                                                  Phụ lục II
+                                 CÁC NỘI DUNG CỦA HỢP ĐỒNG MUA BÁN ĐIỆN GIỮA
+                             KHÁCH HÀNG SỬ DỤNG ĐIỆN LỚN (HOẶC ĐƠN VỊ BÁN LẺ ĐIỆN
+                                   TẠI CÁC MÔ HÌNH KHU, CỤM HOẶC ỦY QUYỀN)
+                  VÀ TỔNG CÔNG TY ĐIỆN LỰC (HOẶC CÔNG TY ĐIỆN LỰC)
+                                     (Kèm theo Nghị định số 57/2025/NĐ-CP
+                                   ngày 03 tháng 3 năm 2025 của Chính phủ)
+                                                   _______
+        Phụ lục này bao gồm các nội dung chính tại Hợp đồng mua bán điện được ký kết giữa Khách
+        hàng sử dụng điện lớn (hoặc Đơn vị bán lẻ điện tại các mô hình khu, cụm được ủy quyền) và Tổng
+công ty Điện lực, Công ty Điện lực. Trong đó:
+        1. Các nội dung chính bao gồm:
+        a) Căn cứ pháp lý;
+        b) Thông tin của các bên (tên Đơn vị, địa chỉ, điện thoại, mã số thuế...);
+        c) Giải thích từ ngữ;
+        d) Hiệu lực và thời hạn hợp đồng;
+        đ) Quy định về mua bán điện năng (địa điểm sử dụng điện; mục đích sử dụng điện, cấp điện
+áp, công suất điện năng sử dụng, điểm đấu nối cấp điện, đo đếm điện năng; ghi chỉ số công tơ, ranh
+giới sở hữu tài sản);
+        e) Thỏa thuận cụ thể (bảo đảm thực hiện hợp đồng, thi hành và hình thức thông báo; các
+thỏa thuận khác);
+        g) Tiêu chuẩn và chất lượng dịch vụ;
+        h) Mua công suất phản kháng;
+        i) Đo đếm điện năng;
+        k) Ghi chỉ số công tơ;
+        l) Bảo đảm thực hiện hợp đồng;
+        m) Tính toán thanh toán;
+        n) Thanh toán;
+        o) Các thỏa thuận khác (tạm ngừng, ngừng, giảm cung cấp điện, quyền và nghĩa vụ các bên;
+vi phạm, chấm dứt Hợp đồng, giải quyết tranh chấp).
+        2. Các nội dung về hoạt động mua bán điện, tính toán thanh toán (nếu có) thực hiện theo quy
+định.
+
+                                                  Phụ lục III
+                                  CÁC NỘI DUNG CHÍNH CỦA HỢP ĐỒNG KỲ HẠN ĐIỆN
+                                      (Kèm theo Nghị định số 57/2025/NĐ-CP
+                                    ngày 03 tháng 3 năm 2025 của Chính phủ)
+                                                    _______
+        Phụ lục này bao gồm các nội dung chính tại Hợp đồng kỳ hạn điện được ký kết Đơn vị phát
+        điện năng lượng tái tạo và Khách hàng sử dụng điện lớn (hoặc Đơn vị bán lẻ điện tại các mô hình
+khu, cụm được ủy quyền). Trong đó:
+        1. Các nội dung chính bao gồm:
+        a) Căn cứ pháp lý;
+        b) Thông tin của các bên (tên Đơn vị, địa chỉ, điện thoại, mã số thuế...);
+        c) Giải thích từ ngữ;
+        d) Hiệu lực và thời hạn hợp đồng;
+        đ) Sản lượng, giá, phương thức thanh toán;
+        e) Xử lý tranh chấp;
+        g) Vi phạm hợp đồng, bồi thường thiệt hại và chấm dứt thực hiện hợp đồng;
+        h) Bảo mật thông tin;
+        i) Các thỏa thuận khác (quyền sở hữu chứng chỉ năng lượng tái tạo REC, tín chỉ các-bon).
+        2. Các nội dung về thời hạn của Hợp đồng, giá hợp đồng, sản lượng điện cam kết, tính toán
+thanh toán (nếu có) thực hiện theo quy định tại Điều 17 và Điều 18 Nghị định này.
+
+                                           Phụ lục IV
+                       CHI PHÍ THANH TOÁN BÙ TRỪ CHÊNH LỆCH NĂM
+                              (Kèm theo Nghị định số 57/2025/NĐ-CP
+                            ngày 03 tháng 3 năm 2025 của Chính phủ)
+                                            _______
+        Phụ lục này hướng dẫn việc tính toán Chi phí thanh toán bù trừ chênh lệch năm N (đồng) quy
+định tại khoản 1 Điều 16 Nghị định này, cụ thể như sau:
+        1. Chi phí thanh toán bù trừ chênh lệch năm N (đồng) được xác định như sau:
+                                    CcL       QKHhc(i) * PcL
+                                           i=1
+        Trong đó:
+        CCL: Chi phí thanh toán bù trừ chênh lệch năm N (đồng);
+        i: Chu kỳ giao dịch thứ i trong chu kỳ thanh toán;
+        I: Tổng số chu kỳ giao dịch trong chu kỳ thanh toán;
+        QKHhc(i)- Điện năng tiêu thụ hiệu chỉnh của Khách hàng sử dụng điện lớn hoặc sản lượng mua
+điện của Đơn vị bán lẻ điện tại các mô hình khu, cụm được ủy quyền trong chu kỳ giao dịch i (kWh),
+xác định theo quy định tại khoản 1 Điều 16 Nghị định này;
+        PCL: Chi phí thanh toán bù trừ chênh lệch áp dụng cho năm N tính cho các Khách hàng sử
+dụng điện lớn hoặc Đơn vị bán lẻ điện tại các mô hình khu, cụm được ủy quyền trên một đơn vị điện
+năng (đồng/kWh).
+        2. Chi phí thanh toán bù trừ chênh lệch năm N (PCL) tính cho các Khách hàng sử dụng điện
+lớn hoặc Đơn vị bán lẻ điện tại các mô hình khu, cụm được ủy quyền trên một đơn vị điện năng được
+tính toán trên số liệu chi phí mua điện 12 tháng từ tháng 10 năm N-2 đến tháng 9 năm N-1 theo công
+thức sau:
+             PCL = PCLTTBOT + PCLTTGT + PCLTTSMHP + PCLTTDVPT + PCLTTK + PCLTTNMĐkh + PCLTTBCTC
+        Trong đó:
+        a) PCLTTBOT: Là chênh lệch thanh toán thành phần BOT liên quan đến các nhà máy điện BOT
+năm N (đ/kWh), được xác định như sau:
+                              PcLTTBOT           RB8A=2j=1RTTĐu)
+        Trong đó:                                      Anăm
+        RBBA: Tổng chi phí mua điện 12 tháng từ tháng 10 năm N-2 đến tháng 9 năm N-1 của các
+nhà máy điện BOT theo các hợp đồng mua bán điện (PPA) ký kết với Tập đoàn Điện lực Việt Nam
+(đồng);
+        RTTĐ(j): Được tính bằng sản lượng của tất cả các nhà máy điện BOT nhân với giá thị trường
+điện toàn phần trong chu kỳ giao dịch j (đồng);
+        j: Chu kỳ giao dịch thứ j trong giai đoạn từ tháng 10 năm N-2 đến tháng 9 năm N-1;
+        J: Tổng số chu kỳ giao dịch trong giai đoạn từ tháng 10 năm N-2 đến tháng 9 năm N-1;
+        Anăm: Tổng sản lượng điện thương phẩm trong nước của các Tổng công ty Điện lực từ
+tháng 10 năm N-2 đến tháng 9 năm N-1 (kWh).
+        b) PCLTTGT: Là chênh lệch thanh toán thành phần liên quan đến các nhà máy điện gián tiếp
+tham gia thị trường điện, ngoại trừ các nhà máy điện BOT được quy định tại điểm a, c, d và e khoản
+2 Phụ lục này (đ/kWh), được xác định như sau:
+
+                               PcLtTGt    RBPA    2j=1 Rrrpu)
+        Trong đó:                                 Anăm
+        RBPA: Tổng chi phí mua điện 12 tháng từ tháng 10 năm N-2 đến tháng 9 năm N-1 của các
+nhà máy điện nêu trên theo các PPA có thời hạn có giá điện được Chính phủ, Bộ Công Thương quy
+định và giám sát (đồng);
+            RTTĐ(j) : Được tính bằng sản lượng của tất cả các nhà máy điện gián tiếp tham gia thị trường
+điện nhân với giá thị trường điện toàn phần trong chu kỳ giao dịch j cho của tất cả các nhà máy điện
+gián tiếp tham gia thị trường điện nêu trên trong các tháng từ tháng 10 năm N-2 đến tháng 9 năm N-1
+(đồng);
+        j: Chu kỳ giao dịch thứ j trong giai đoạn từ tháng 10 năm N-2 đến tháng 9 năm N-1;
+        J: Tổng số chu kỳ giao dịch trong giai đoạn từ tháng 10 năm N-2 đến tháng 9 năm N-1;
+                       Anăm: Tổng sản lượng điện thương phẩm trong nước của các Tổng công ty Điện lực từ
+tháng 10 năm N-2 đến tháng 9 năm N-1 (kWh).
+            c) PCLTTSMHP : Là chênh lệch thanh toán thành phần liên quan đến các nhà máy thủy điện chiến
+lược đa mục tiêu, nhà máy thuộc Tập đoàn Điện lực Việt Nam khác chưa tham gia thị trường điện
+(SMHP) trong năm N (đ/kWh), được xác định như sau:
+                                            D      2j=1
+        Trong đó:             PcLTTSMHP    RSMHP   Anăm RrrĐ@)
+                      RSMHP : Tổng chi phí sản xuất điện (bao gồm lợi nhuận, nếu có) từ tháng 10 năm N-2
+đến tháng 9 năm N-1 của các SMHP được xác định theo chi phí ghi nhận tại các Báo cáo tài chính
+Quý trong giai đoạn tương ứng của Công ty mẹ - Tập đoàn Điện lực Việt Nam/Đơn vị trực thuộc
+(đồng);
+                RTTĐ(j) : Được tính bằng sản lượng của tất cả các SMHP nhân với giá thị trường điện toàn
+phần trong chu kỳ giao dịch j cho tất cả các SMHP từ tháng 10 năm N-2 đến tháng 9 năm N-1 (đồng);
+                       Anăm: Tổng sản lượng điện thương phẩm trong nước của các Tổng công ty Điện lực từ
+tháng 10 năm N-2 đến tháng 9 năm N-1 (kWh).
+                  d) PDVPT: Là chi phí dịch vụ phụ trợ hệ thống điện tính cho một đơn vị điện năng năm N
+(đồng/kWh) được xác định từ chi phí dịch vụ điều chỉnh tần số hệ thống điện được mua trên thị
+trường điện giao ngay, chi phí dịch vụ khởi động nhanh, vận hành phải phát để đảm bảo khả năng
+cung cấp điện, điều chỉnh điện áp và khởi động đen được mua thông qua các hợp đồng cung cấp
+dịch vụ phụ trợ giai đoạn từ tháng 10 năm N-2 đến tháng 9 năm N-1, áp dụng cho Khách hàng sử
+dụng điện lớn mua điện trong năm N, được xác định như sau:
+                                    PDVPT = PDVPT(đt) + PDVPT(hđ)
+        Trong đó:
+        - PDVPT(đt) là chi phí dịch vụ điều chỉnh tần số tính trên đơn vị điện năng (đồng/kWh) được tính
+toán theo công thức sau:
+                                  PDvPT(đt)    2s 2J=1 Rgg)
+        Trong đó:                                  Anăm
+                       Anăm: Tổng sản lượng điện thương phẩm trong nước của các Tổng công ty Điện lực từ
+tháng 10 năm N-2 đến tháng 9 năm N-1 (kWh);
+        Rg(j): là khoản thanh toán cho dịch vụ điều chỉnh tần số trong từng chu kỳ giao dịch j của đơn
+vị phát điện được xác định và công bố theo quy định vận hành thị trường bán buôn điện cạnh tranh
+(đồng);
+
+        j: là chu kỳ giao dịch trong giai đoạn từ tháng 10 năm N-2 đến tháng 9 năm N-1 có cung cấp
+dịch vụ dự phòng điều chỉnh tần số;
+        J: là Tổng số chu kỳ giao dịch của các từ tháng 10 năm N-2 đến tháng 9 năm N-1 của nhà
+máy điện cung cấp dịch vụ dự phòng điều chỉnh tần số;
+        g: là nhà máy điện cung cấp dịch vụ dự phòng điều chỉnh tần số;
+        G: là tổng số nhà máy điện cung cấp dịch vụ dự phòng điều chỉnh tần số trong giai đoạn từ
+tháng 10 năm N-2 đến tháng 9 năm N-1.
+        - PDVPT(hđ): là chi phí dịch vụ khởi động nhanh, vận hành phải phát để đảm bảo khả năng cung
+cấp điện, điều chỉnh điện áp và khởi động đen được mua qua hợp đồng cung cấp dịch vụ phụ trợ tính
+trên đơn vị điện năng được tính toán theo quy định tại điểm c khoản này (đồng/kWh).
+                           PDvPT(hđ)  Zs {Re(g) - Zj-1[FMP; x Qm,j(g)]}
+        Trong đó:                                   Anăm
+        g: là nhà máy điện ký hợp đồng cung cấp dịch vụ phụ trợ trong hệ thống điện;
+        G: là tổng số nhà máy điện ký hợp đồng cung cấp dịch vụ phụ trợ trong hệ thống điện;
+        j: là chu kỳ giao dịch của nhà máy điện g trong giai đoạn từ tháng 10 năm N-2 đến tháng 9
+năm N-1 cung cấp dịch vụ phụ trợ hệ thống điện;
+        J: là tổng số chu kỳ giao dịch của nhà máy điện g cung cấp dịch vụ phụ trợ hệ thống điện
+trong giai đoạn từ tháng 10 năm N-2 đến tháng 9 năm N-1;
+        Anăm: Tổng sản lượng điện thương phẩm trong nước của các Tổng công ty Điện lực từ
+tháng 10 năm N-2 đến tháng 9 năm N-1 (kWh);
+        Rc(g): là chi phí mua điện trong giai đoạn từ tháng 10 năm N-2 đến tháng 9 năm N-1 từ nhà
+máy điện g cung cấp dịch vụ phụ trợ hệ thống điện, được tính toán theo quy định trong hợp đồng dịch
+vụ phụ trợ đã ký kết với Tập đoàn Điện lực Việt Nam (đồng);
+        Qm,i(g): là sản lượng đo đếm của đơn vị phát điện g cung cấp dịch vụ phụ trợ trong chu kỳ
+giao dịch j (kWh);
+        FMPi: là giá thị trường điện toàn phần áp dụng cho Đơn vị phát điện trong chu kỳ giao dịch i,
+được xác định theo Quy định vận hành thị trường bán buôn điện cạnh tranh do Bộ Công Thương ban
+hành (đồng/kwh).
+        đ) PCLTTK: Là chênh lệch thanh toán khác trên một đơn vị điện năng (đ/kWh) từ tháng 10 năm
+N-2 đến tháng 9 năm N-1 do các khoản chi phí được phép tính nhưng chưa tính vào giá điện, bao
+gồm cả chênh lệch tỷ giá đánh giá lại chưa được phân bổ, được tính toán phân bổ vào giá bán lẻ
+điện hiện hành theo cơ chế điều chỉnh mức giá bán lẻ điện bình quân do Chính phủ ban hành. Chênh
+lệch thanh toán này được xác định như sau:
+                                         PcLTTK   CcLTTK
+        Trong đó:                                  Anăm
+        CCLTTK: Chi phí chênh lệch thanh toán khác (đồng);
+        Anăm: Tổng sản lượng điện thương phẩm trong nước của các Tổng công ty Điện lực từ
+tháng 10 năm N-2 đến tháng 9 năm N-1 (kWh)
+        e) PCLTTNMĐkh: Là chênh lệch thanh toán thành phần liên quan đến các nhà máy điện thuộc
+danh sách nhà máy điện trực tiếp tham gia thị trường điện nhưng chưa tham gia thị trường điện, các
+nhà máy điện thử nghiệm trước vận hành thương mại mà Tập đoàn Điện lực Việt Nam phải thanh
+toán chi phí thử nghiệm, điện mua từ các nguồn diesel khách hàng, điện tự sản xuất của các Tổng
+công ty Điện lực, được xác định như sau:
+                                PcLTTNMĐkh    RNMĐkh _2j=1RrrĐj
+        Trong đó:                                    Anăm
+
+              PNMĐkh: Tổng chi phí mua điện từ tháng 10 năm N-2 đến tháng 9 năm N-1 của các nhà máy
+điện nêu trên (đồng), trong đó:
+                Chi phí mua điện từ tháng 10 năm N-2 đến tháng 9 năm N-1 của các nhà máy điện thuộc
+danh sách nhà máy điện trực tiếp tham gia thị trường điện nhưng chưa tham gia thị trường điện được
+xác định theo PPA.
+                  Chi phí mua điện từ tháng 10 năm N-2 đến tháng 9 năm N-1 của các nhà máy điện thử
+nghiệm trước vận hành thương mại mà Tập đoàn Điện lực Việt Nam phải thanh toán chi phí thử
+nghiệm được xác định theo PPA/Thoả thuận thanh toán (nếu có).
+                 Chi phí mua điện từ tháng 10 năm N-2 đến tháng 9 năm N-1 của điện mua từ các nguồn
+diesel khách hàng, điện tự sản xuất của các Tổng công ty Điện lực được xác định theo chi phí ghi
+nhận tại các Báo cáo tài chính Quý trong giai đoạn tương ứng của Tổng công ty Điện lực/Công ty
+Điện lực.
+            RTTĐ(j): Được tính bằng sản lượng của tất cả các nhà máy điện nêu trên nhân với giá thị
+trường điện toàn phần trong chu kỳ giao dịch j (đồng);
+         j: là chu kỳ giao dịch trong giai đoạn từ tháng 10 năm N-2 đến tháng 9 năm N-1 của các nhà
+máy điện nêu trên;
+             J: là Tổng số chu kỳ giao dịch của các từ tháng 10 năm N-2 đến tháng 9 năm N-1 của các
+nhà máy điện nêu trên;
+                  Anăm: Tổng sản lượng điện thương phẩm trong nước của các Tổng công ty Điện lực từ
+tháng 10 năm N-2 đến tháng 9 năm N-1 (kWh).
+        g) PCLTTBCTC: Là chênh lệch chi phí điện mua và điện sản xuất (nếu có) tính trên một đơn vị
+điện năng giữa số liệu theo Báo cáo tài chính năm N-2 đã được kiểm toán với chi phí lũy kế từ tháng
+01 năm N-2 đến tháng 12 năm N-2 đã được sử dụng để tính toán chênh lệch thanh toán.
+                                  PcLTTBCTC        CcLTTBCTC
+        Trong đó:                                     Anăm
+       CCLTTK: Chi phí chênh lệch giữa số liệu theo Báo cáo tài chính năm N-2 đã được kiểm toán với
+chi phí lũy kế từ tháng 01 năm N-2 đến tháng 12 năm N-2 đã được sử dụng trong tính toán chênh
+lệch thanh toán (đồng);
+             Anăm: Tổng sản lượng điện thương phẩm trong nước các Tổng công ty Điện lực từ tháng 10
+năm N-2 đến tháng 9 năm N-1 đã được sử dụng trong tính toán chênh lệch thanh toán (kWh).
+          h) Sản lượng của các nhà máy điện/nguồn điện trong từng chu kỳ giao dịch trong tháng được
+xác định như sau:
+        - Đối với các nhà máy điện có số liệu đo xa: Sản lượng từng chu kỳ lấy theo số liệu đã được
+công bố trên trang thông tin thị trường điện.
+          - Đối với sản lượng điện mặt trời áp mái: Sản lượng từng chu kỳ được xác định căn cứ theo
+tổng sản lượng điện mặt trời áp mái và phân bổ dựa trên biểu đồ sản lượng phát từng chu kỳ của
+tổng các nhà máy điện mặt trời có đo xa.
+           - Đối với nhập khẩu điện: Sản lượng từng chu kỳ được xác định căn cứ theo sản lượng điện
+nhập khẩu điện tháng và phân bổ dựa trên biểu đồ sản lượng điện từng chu kỳ của công tơ đo đếm
+tại phía Việt Nam. Trường hợp không thu thập được số liệu công tơ đo đếm phía Việt Nam thì sử
+dụng theo số liệu công tơ đo đếm phía đối tác để phân bổ sản lượng từng chu kỳ.
+          - Đối với các nhà máy có điểm đo đếm không cùng vị trí với điểm giao nhận: Sản lượng từng
+chu kỳ được xác định căn cứ theo tổng sản lượng điện giao tháng và phân bổ dựa trên biểu đồ sản
+lượng điện phát từng chu kỳ theo số liệu đo xa tại điểm đo đếm.
+           - Đối với các nhà máy điện/nguồn điện khác không đủ cơ sở xác định sản lượng từng chu kỳ
+thì sẽ được phân bổ từng chu kỳ theo biểu đồ sản lượng điện phát của tổng sản lượng các nhà máy
+điện trực tiếp tham gia thị trường điện.
+
+                                           Phụ lục V
+                                            BÁO CÁO
+                              (Kèm theo Nghị định số 57/2025/NĐ-CP
+                            ngày 03 tháng 3 năm 2025 của Chính phủ)
+                                            _______
+        Các mẫu hướng dẫn thực hiện báo cáo quy định tại Điều 28 Nghị định này, bao gồm:
+        Mẫu số 01: Báo cáo về các thông tin liên quan khi bắt đầu thực hiện mua bán điện trực tiếp
+qua đường dây kết nối riêng.
+        Mẫu số 02: Báo cáo về kết quả mua bán điện trực tiếp qua lưới điện kết nối riêng năm N-1.
+        Mẫu số 03: Báo cáo về kết quả mua bán điện trực tiếp qua lưới điện quốc gia tháng M-1.
+        Mẫu số 04: Báo cáo về kết quả thực hiện cơ chế mua bán điện trực tiếp qua lưới điện quốc
+gia trên phạm vi toàn quốc của năm N-1.
+
+                                                                                       Mẫu số 01
+       CƠ QUAN CẤP TRÊN TRỰC TIẾP (nếu có)            CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+             (TÊN KHÁCH HÀNG SỬ DỤNG                     Độc lập – Tự do – Hạnh phúc
+                ĐIỆN LỚN BÁO CÁO)                           ______________________
+                      ______                               …, ngày … tháng … năm …
+                     Số: …/….
+                                            BÁO CÁO¹
+                                    Về các thông tin liên quan khi bắt đầu thực hiện mua bán điện
+                                                trực tiếp qua đường dây kết nối riêng
+                                            _______
+                         Kính gửi:
+                                    - Bộ Công Thương;
+                                    - Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương
+                                    (nơi có Khách hàng sử dụng điện lớn).
+       Các nội dung báo cáo:
+       1. Các thông tin về hợp đồng mua bán điện trực tiếp (bên mua, bên bán).
+       2. Sản lượng điện năng thỏa thuận.
+       3. Giá điện.
+       4. Các thông tin liên quan khác.
+ Nơi nhận:                                                     LÃNH ĐẠO ĐƠN VỊ
+ - Như trên;                                                    (Ký tên, đóng dấu)
+ - …..
+       ____________________________
+        Thời hạn gửi báo cáo: Trong thời hạn 10 ngày kể từ thời điểm ký kết Hợp đồng mua bán
+điện trực tiếp qua đường dây kết nối riêng.
+
+                                                                                     Mẫu số 02
+      CƠ QUAN CẤP TRÊN TRỰC TIẾP (nếu có)            CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+            (TÊN KHÁCH HÀNG SỬ DỤNG                     Độc lập – Tự do – Hạnh phúc
+               ĐIỆN LỚN BÁO CÁO)                           ______________________
+                     ______                               …, ngày … tháng … năm …
+                    Số: …/….
+                                                                    BÁO CÁO¹
+                                   Về kết quả mua bán điện trực tiếp qua lưới điện kết nối riêng của năm N-1²
+                                                                   __________
+                        Kính gửi:
+                                   - Bộ Công Thương;
+                                   - Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương
+                                   (nơi có Khách hàng).
+      Các nội dung báo cáo:
+      1. Các thông tin về hợp đồng mua bán điện trực tiếp (bên mua, bên bán).
+      2. Sản lượng điện năng mua bán trong năm.
+      3. Chi phí mua điện trong năm.
+      4. Các khó khăn, vướng mắc.
+      5. Đề xuất giải pháp, kiến nghị (nếu có).
+Nơi nhận:                                                    LÃNH ĐẠO ĐƠN VỊ
+- Như trên;                                                   (Ký tên, đóng dấu)
+- …..
+      _____________________
+      1 Thời hạn gửi báo cáo: Trước ngày 30 tháng 01 năm N.
+      2 Năm N-1 là năm liền kề trước năm hiện tại (năm N), được tính theo năm dương lịch.
+
+                                                                                      Mẫu số 03
+        CƠ QUAN CẤP TRÊN TRỰC TIẾP (nếu có)           CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+                (TÊN ĐƠN VỊ BÁO CÁO)                    Độc lập – Tự do – Hạnh phúc
+                       ______                               ______________________
+                      Số: …/….                            …, ngày … tháng … năm …
+                                            BÁO CÁO¹
+            Về kết quả mua bán điện trực tiếp qua lưới điện quốc gia của tháng M-1²
+                                            _______
+                                Kính gửi: Cơ quan nhận báo cáo.
+        A. Các nội dung báo cáo của Đơn vị vận hành hệ thống điện và thị trường điện gửi Bộ Công
+Thương:
+        1. Tổng số Đơn vị phát điện năng lượng tái tạo và Khách hàng sử dụng điện lớn (hoặc Đơn vị
+bán lẻ điện tại các mô hình khu, cụm được ủy quyền) tham gia cơ chế mua bán điện trực tiếp.
+        2. Sản lượng, doanh thu của Đơn vị phát điện năng lượng tái tạo trên thị trường điện.
+        3. Các khó khăn, vướng mắc.
+        4. Đề xuất giải pháp, kiến nghị (nếu có).
+        B. Nội dung báo cáo của Tổng công ty Điện lực gửi Bộ Công Thương, Ủy ban nhân dân tỉnh,
+thành phố trực thuộc trung ương (nơi có Tổng công ty Điện lực):
+        1. Sản lượng điện năng, chi phí mua điện của Khách hàng sử dụng điện lớn (hoặc Đơn vị
+bán lẻ điện tại các mô hình khu, cụm được ủy quyền) theo thị trường điện và theo biểu giá bán lẻ
+điện.
+        2. Các khó khăn, vướng mắc.
+        3. Đề xuất giải pháp, kiến nghị (nếu có).
+ Nơi nhận:                                                    LÃNH ĐẠO ĐƠN VỊ
+ - Như trên;                                                   (Ký tên, đóng dấu)
+ - …..
+        ______________________
+        Thời hạn gửi báo cáo: Trước ngày 20 tháng M.
+        2 Tháng M-1 là tháng liền kề trước tháng hiện tại (tháng M), được tính theo năm dương lịch.
+
+                                                                                       Mẫu số 04
+       CƠ QUAN CẤP TRÊN TRỰC TIẾP (nếu có)            CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+               (TÊN ĐƠN VỊ BÁO CÁO)                      Độc lập – Tự do – Hạnh phúc
+                      ______                                ______________________
+                     Số: …/….                              …, ngày … tháng … năm …
+                                            BÁO CÁO¹
+             Kết quả mua bán điện trực tiếp qua lưới điện quốc gia của năm N-1²
+                                            ________
+                                Kính gửi: Cơ quan nhận báo cáo.
+       A. Các nội dung báo cáo của Đơn vị vận hành hệ thống điện và thị trường điện gửi Bộ Công
+Thương:
+       1. Tổng số Đơn vị phát điện năng lượng tái tạo và Khách hàng sử dụng điện lớn (hoặc Đơn vị
+bán lẻ điện tại các mô hình khu, cụm được ủy quyền) tham gia cơ chế mua bán điện trực tiếp.
+       2. Sản lượng, doanh thu của Đơn vị phát điện năng lượng tái tạo trên thị trường điện.
+       3. Các khó khăn, vướng mắc.
+       4. Đề xuất giải pháp, kiến nghị (nếu có).
+       B. Các nội dung báo cáo của Tổng công ty Điện lực gửi Bộ Công Thương, Ủy ban nhân dân
+tỉnh, thành phố trực thuộc trung ương (nơi có Tổng công ty Điện lực):
+       1. Thông tin về Khách hàng sử dụng điện lớn tham gia cơ chế mua bán điện trực tiếp.
+       2. Sản lượng điện năng, chi phí mua điện của Khách hàng sử dụng điện lớn (hoặc Đơn vị
+bán lẻ điện tại các mô hình khu, cụm được ủy quyền) theo thị trường điện và theo biểu giá bán lẻ
+điện.
+       3. Các khó khăn, vướng mắc.
+       4. Đề xuất giải pháp, kiến nghị (nếu có).
+       C. Các nội dung báo cáo của Tập đoàn Điện lực Việt Nam gửi Bộ Công Thương:
+       1. Tổng số Đơn vị phát điện năng lượng tái tạo và Khách hàng sử dụng điện lớn (hoặc Đơn vị
+bán lẻ điện tại các mô hình khu, cụm được ủy quyền) tham gia cơ chế mua bán điện trực tiếp.
+       2. Sản lượng, doanh thu của các Đơn vị phát điện năng lượng tái tạo trên thị trường điện.
+       3. Sản lượng điện năng, chi phí mua điện của các Khách hàng sử dụng điện lớn (hoặc Đơn
+vị bán lẻ điện tại các mô hình khu, cụm được ủy quyền) theo thị trường điện và theo biểu giá bán lẻ
+điện.
+       4. Các khó khăn, vướng mắc.
+       5. Đề xuất giải pháp, kiến nghị (nếu có).
+ Nơi nhận:                                                     LÃNH ĐẠO ĐƠN VỊ
+ - Như trên;                                                    (Ký tên, đóng dấu)
+ - …..
+       __________________
+       1 Thời hạn gửi báo cáo: Trước ngày 30 tháng 01 năm N.
+       2 Năm N-1 là năm liền kề trước năm hiện tại (năm N), được tính theo năm dương lịch.

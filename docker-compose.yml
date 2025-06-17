@@ -14,16 +14,14 @@ services:
             - ./build_vectorstore.py:/app/build_vectorstore.py
             - ./config.py:/app/config.py
             - ./prompt_templete.py:/app/prompt_templete.py
-            - ./custom_output_parser.py:/app/custom_output_parser.py
             - ./dependencies.py:/app/dependencies.py
-            - ./time_priority_retriever.py:/app/time_priority_retriever.py
             - ./data:/app/data
             - ./utils:/app/utils
-            # - ./vector_store:/app/vector_store
             - ./db:/app/db
             - ./routers:/app/routers
             - ./schemas:/app/schemas
             - ./services:/app/services
+            - ./core:/app/core
             - hf_cache:/app/cache
         environment:
             - HF_HOME=/app/cache

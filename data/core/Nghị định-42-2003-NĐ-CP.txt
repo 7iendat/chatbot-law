@@ -1,0 +1,641 @@
+NGHỊ Đ ỊNH
+    C Ủ A C H Í N H P H Ủ S Ố  4 2 / 2 0 0 3 / NĐ - C P N G À Y 0 2  T H Á N G 5
+NĂM  2 0 0 3
+V Ề B Ả O H Ộ Q U Y Ề N S Ở H Ữ U C Ô N G N G H I Ệ P ĐỐ I V Ớ I T H I Ế T K Ế
+B Ố T R Í M Ạ C H T Í C H H Ợ P B Á N D Ẫ N
+                            C H Í N H P H Ủ
+    Căn cứ Luật Tổ chức Chính phủ ngày 25 tháng 12 năm 2001;
+    Căn cứ Bộ Luật Dân sự ngày 28 tháng 10 năm 1995;
+      Theo đề nghị của Bộ trưởng Bộ Khoa học và Công nghệ,
+    NGHỊ Đ ỊNH:
+    C HƯ ƠN G I
+Q U Y Đ Ị N H C H U N G
+    Điều 1. Phạm vi điều chỉnh
+    Nghị định này quy định chi tiết việc bảo hộ quyền sở hữu công
+nghiệp đối với thiết kế bố trí mạch tích hợp bán dẫn.
+    Điều 2. Đối tượng áp dụng
+    1. Nghị định này áp dụng đối với mọi tổ chức, cá nhân của Việt
+Nam.
+    2. Nghị định này cũng áp dụng đối với những tổ chức, cá nhân
+của nước ngoài được hưởng sự bảo hộ quyền sở hữu công nghiệp
+đối với thiết kế bố trí mạch tích hợp bán dẫn theo quy định của các
+điều ước quốc tế mà Việt Nam ký kết hoặc tham gia.
+    Trong trường hợp điều ước quốc tế mà Cộng hoà xã hội chủ
+nghĩa Việt Nam ký kết hoặc tham gia có quy định khác với quy định
+của Nghị định này thì áp dụng quy định của điều ước quốc tế đó.
+    Điều 3. Giải thích từ ngữ
+    Trong Nghị định này, các từ ngữ dưới đây được hiểu như sau:
+    1. "Mạch tích hợp bán dẫn" là sản phẩm dưới dạng thành phẩm
+hoặc bán thành phẩm, trong đó các phần tử - với ít nhất một phần
+tử tích cực và một số hoặc tất cả các mối liên kết được gắn liền bên
+trong hoặc bên trên tấm vật liệu bán dẫn và nhằm thực hiện chức
+năng điện tử. "Mạch tích hợp" đồng nghĩa với "IC", "chip" và "mạch
+vi điện tử";
+
+    2. "Thiết kế bố trí mạch tích hợp bán dẫn" là cấu trúc không
+gian của các phần tử mạch và các mối liên kết các phần tử đó trong
+mạch tích hợp bán dẫn (sau đây gọi là "Thiết kế bố trí”);
+    3. "Tác giả thiết kế bố trí" là người hoặc những người tạo ra
+thiết kế bố trí bằng lao động sáng tạo của mình.
+    Những người chỉ giúp đỡ, hỗ trợ về kỹ thuật, vật chất, kinh phí
+nhưng không góp phần tạo ra thiết kế bố trí bằng lao động sáng tạo
+của mình thì không được coi là tác giả;
+    4. "Chủ sở hữu" là chủ thể được cấp Văn bằng bảo hộ hoặc chủ
+thể được chuyển  giao một cách hợp pháp  quyền sở  hữu công
+nghiệp đối với thiết kế bố trí;
+    5. "Phân phối" dùng để chỉ mọi hình thức lưu thông thương
+mại, gồm bán, cho thuê, chuyển nhượng, kể cả quảng cáo, chào
+hàng hoặc tàng trữ nhằm các mục đích đó;
+      6. "Khai thác thiết kế bố trí nhằm mục đích thương mại" là
+việc phân phối công khai mạch tích hợp bán dẫn được sản xuất theo
+    thiết kế bố trí đó hoặc hàng hoá chứa mạch tích hợp bán dẫn được
+                   sản xuất theo thiết kế bố trí đó.
+    Điều 4. Đối tượng được bảo hộ
+    1. Đối tượng được bảo hộ theo Nghị định này là thiết kế bố trí
+có tính nguyên gốc.
+    2. Thiết kế bố trí được công nhận có tính nguyên gốc nếu đáp
+ứng đầy đủ các điều kiện sau đây:
+    a) Thiết kế bố trí đó là kết quả lao động sáng tạo của chính tác
+giả thiết kế bố trí;
+    b) Tại thời điểm được tạo ra, thiết kế bố trí đó chưa được biết
+đến rộng rãi trong giới những người sáng tạo thiết kế bố trí và
+những nhà sản xuất mạch tích hợp bán dẫn.
+    Điều 5. Đối tượng không được bảo hộ
+    Các đối tượng sau đây không được bảo hộ theo Nghị định này:
+    1. Nguyên lý, quy trình, hệ thống, phương pháp được thực hiện
+bởi mạch tích hợp bán dẫn.
+    2. Thông tin, phần mềm có trong mạch tích hợp bán dẫn.
+    C HƯ ƠN G  I I
+X Á C L Ậ P Q U Y Ề N S Ở H Ữ U C Ô N G N G H I Ệ P
+ĐỐ I V Ớ I T H I Ế T K Ế B Ố T R Í
+
+                       Điều 6. Căn cứ xác lập quyền của chủ sở hữu,
+quyền của tác giả thiết kế bố trí
+        Quyền sở hữu công nghiệp đối với thiết kế bố trí của chủ sở
+hữu và quyền của tác giả thiết kế bố trí được xác lập theo Văn bằng
+bảo hộ thiết kế bố trí (sau đây gọi là Văn bằng bảo hộ) do Cục Sở
+hữu công nghiệp thuộc Bộ Khoa học và Công nghệ cấp theo quy
+định tại Chương này.
+    Điều 7. Văn bằng bảo hộ
+        1. Văn bằng bảo hộ có tên là "Giấy chứng nhận đăng ký thiết
+kế bố trí mạch tích hợp bán dẫn", có hiệu lực trên toàn lãnh thổ
+Cộng hoà xã hội chủ nghĩa Việt Nam.
+       2. Thời hạn hiệu lực của Văn bằng bảo hộ bắt đầu từ ngày cấp
+Văn bằng và chấm dứt vào ngày sớm nhất trong số những ngày
+sau:
+    a) Ngày kết thúc 10 năm, kể từ ngày cấp Văn bằng;
+     b) Ngày kết thúc 10 năm, kể từ ngày thiết kế bố trí được người
+có quyền nộp đơn hoặc người được người đó cho phép khai thác
+thương mại lần đầu tiên tại bất kỳ nơi nào trên thế giới;
+    c) Ngày kết thúc 15 năm, kể từ ngày tạo ra thiết kế bố trí.
+          3. Nội dung Văn bằng bảo hộ được xác định theo Quyết định
+cấp Văn bằng bảo hộ quy định tại khoản 1 Điều 14 của Nghị định
+này.
+    Điều 8.   Quyền tạm thời của chủ sở hữu
+       Trong trường hợp thiết kế bố trí đã được người nộp đơn (hoặc
+người được người nộp       đơn cho phép) khai thác thương mại trước
+ngày Văn bằng bảo hộ       được cấp, nếu trong thời gian kể từ ngày
+khai thác thương mại đến ngày được cấp Văn bằng bảo hộ mà có
+người thứ ba sử dụng thiết kế bố trí đó nhằm mục đích thương mại
+thì người nộp đơn có quyền thông báo cho người thứ ba nói trên về
+việc mình đã nộp đơn.
+        Nếu đã được thông báo, mà người thứ ba vẫn tiếp tục sử dụng
+thiết kế bố trí thì sau khi được cấp Văn bằng bảo hộ, chủ sở hữu
+thiết kế bố trí có quyền yêu cầu người thứ ba này trả một khoản
+tiền đền bù tương đương với khoản thanh toán cho việc chuyển giao
+quyền sử dụng đối với thiết kế bố trí đó tương ứng với phạm vi đã
+sử dụng tính từ ngày nhận được thông báo đến ngày Văn bằng bảo
+hộ được cấp.
+    Điều 9. Đơn yêu cầu cấp Văn bằng bảo hộ
+        1. Đơn yêu cầu cấp Văn bằng bảo hộ là tập hợp các tài liệu,
+
+mẫu vật thể hiện yêu cầu của người nộp đơn về việc cấp Văn bằng
+bảo hộ.
+         2. Mỗi Đơn chỉ được yêu cầu cấp Văn bằng bảo hộ đối với một
+thiết kế bố trí.
+        3. Các tài liệu trong đơn yêu cầu cấp Văn bằng bảo hộ và mọi
+giấy tờ giao dịch giữa người nộp đơn và Cục Sở hữu công nghiệp
+đều phải được làm bằng tiếng Việt. Các tài liệu bằng các ngôn ngữ
+khác chỉ được dùng để đối chiếu, tham khảo hoặc để kiểm tra.
+         4. Đơn yêu cầu cấp Văn bằng bảo hộ phải đáp ứng các yêu cầu
+về hình thức và nội dung theo quy định của Bộ trưởng Bộ Khoa học
+và Công nghệ.
+    Điều  10.   Quyền    nộp   đơ n  yêu  cầu   cấp              Văn
+bằng bảo hộ
+        1. Tổ chức, cá nhân sau đây có quyền nộp đơn yêu cầu cấp Văn
+bằng bảo hộ:
+    a) Tác giả tạo ra thiết kế bố trí bằng công sức và chi phí riêng
+của mình;
+       b) Tổ chức, cá nhân đầu tư kinh phí, phương tiện vật chất cho
+tác giả sáng tạo ra thiết kế bố trí dưới hình thức giao việc, thuê
+việc, nếu trong hợp đồng lao động, hợp đồng thuê việc không có
+thoả thuận khác.
+           2. Người có quyền nộp đơn yêu cầu cấp Văn bằng bảo hộ quy
+định tại khoản 1 của Điều này được chuyển giao quyền nộp đơn, kể
+cả đơn đã nộp, cho tổ chức, cá nhân khác dưới hình thức chuyển
+nhượng bằng văn bản hoặc để thừa kế.
+         3. Nếu nhiều tổ chức, cá nhân thuộc các trường hợp quy định
+tại khoản 1 của Điều này cùng nhau tạo ra một thiết kế bố trí thì
+quyền nộp đơn cùng thuộc về các tổ chức, cá nhân đó và quyền nộp
+đơn chỉ được thực hiện nếu được tất cả các tổ chức, cá nhân đó
+đồng ý.
+         4. Nếu nhiều tổ chức, cá nhân thuộc các trường hợp quy định
+tại khoản 1 của Điều này độc lập với nhau tạo ra thiết kế bố trí
+trùng nhau thì tất cả các tổ chức, cá nhân đó đều có quyền nộp đơn
+yêu cầu cấp Văn bằng bảo hộ và các Văn bằng bảo hộ (nếu được
+cấp) có hiệu lực độc lập với nhau.
+    Điều  11.  Thời  hiệu   thực                 hiện quyền nộp đơ n
+yêu cầu cấp văn bằng bảo hộ đ ối với                     thiết kế bố
+trí đã được khai thác thươ ng mại
+      Đối với thiết kế bố trí đã được người có quyền nộp đơn yêu cầu
+cấp Văn bằng bảo hộ khai thác hoặc người được người đó cho phép
+khai thác nhằm mục đích thương mại, thời hiệu thực hiện quyền
+
+nộp đơn yêu cầu cấp Văn bằng bảo hộ là hai năm, kể từ ngày tiến
+hành việc khai thác thương mại nêu trên lần đầu tiên tại bất kỳ nơi
+nào trên thế giới.
+    Điều   12.  Thực   hiện  quyền    nộp   đơ n  yêu             cầu
+cấp Văn bằng bảo hộ
+            1. Để được cấp Văn bằng bảo hộ, tổ chức, cá nhân có quyền
+nộp đơn quy định tại khoản 1 Điều 10 của Nghị định này phải nộp
+đơn yêu cầu cấp Văn bằng bảo hộ cho Cục Sở hữu công nghiệp. Văn
+bằng bảo hộ được Cục Sở hữu công nghiệp cấp trên cơ sở kết quả
+xét nghiệm đơn yêu cầu cấp Văn bằng bảo hộ theo trình tự và thủ
+tục quy định tại Chương này.
+          2. Tổ chức, cá nhân Việt Nam có thể trực tiếp hoặc uỷ quyền
+cho tổ chức dịch vụ đại diện sở hữu công nghiệp tiến hành việc nộp
+đơn yêu cầu cấp Văn bằng bảo hộ và tiến hành các thủ tục liên
+quan.
+           3. Tổ chức, cá nhân nước ngoài thực hiện quyền nộp đơn yêu
+cầu cấp Văn bằng bảo hộ và tiến hành các thủ tục liên quan như
+sau:
+             a) Cá nhân nước ngoài thường trú tại Việt Nam, pháp nhân
+nước ngoài có đại diện hợp pháp tại Việt Nam, cá nhân hoặc pháp
+nhân nước ngoài có cơ sở sản xuất, kinh doanh tại Việt Nam trực
+tiếp hoặc uỷ quyền cho tổ chức dịch vụ đại diện sở hữu công nghiệp
+thực hiện việc nộp đơn yêu cầu cấp Văn bằng bảo hộ và tiến hành
+các thủ tục liên quan;
+          b) Cá nhân, pháp nhân nước ngoài không thuộc các trường hợp
+quy định tại điểm a của khoản này nộp đơn yêu cầu cấp Văn bằng
+bảo hộ và tiến hành các thủ tục liên quan thông qua việc uỷ quyền
+cho tổ chức dịch vụ đại diện sở hữu công nghiệp thực hiện.
+       4. Tổ chức dịch vụ đại diện sở hữu công nghiệp nêu tại khoản 2
+và    khoản 3 Điều này là tổ chức dịch vụ đại diện sở hữu công nghiệp
+hoạt động theo quy định tại Nghị định số 63/CP ngày 24 tháng 10
+năm 1996 của Chính phủ quy định chi tiết về sở hữu công nghiệp
+được sửa đổi, bổ sung theo Nghị định số 06/2001/NĐ-CP ngày 01
+tháng 02 năm 2001.
+          5. Người nộp đơn phải bảo đảm tính trung thực của các thông
+tin về quyền nộp đơn yêu cầu cấp Văn bằng bảo hộ, về người nộp
+đơn và về tác giả khai trong đơn. Khi Văn bằng bảo hộ bị hủy bỏ
+hiệu lực vì lý do các thông tin nói trên không trung thực thì chủ Văn
+bằng bảo hộ phải chịu trách nhiệm do hậu quả của việc thiếu trung
+thực của mình gây ra.
+    Điều   13.  Xét   nghiệm    đơn   yêu   cầu  cấp              Văn
+bằng bảo hộ
+
+            1. Đơn yêu cầu cấp Văn bằng bảo hộ được xét nghiệm về mặt
+hình thức (xem xét sự tuân thủ các yêu cầu về số lượng, hình thức
+trình bày các tài liệu trong đơn) để kiểm tra đơn có đáp ứng các yêu
+cầu của đơn hợp lệ hay không.
+    Đối tượng nêu trong đơn không           được kiểm tra về khả năng
+được bảo hộ theo tiêu chuẩn bảo hộ quy       định tại Điều 4 của Nghị
+định này.
+        2. Thủ tục, thời hạn xét nghiệm hình thức đơn yêu cầu cấp Văn
+bằng bảo hộ do Bộ trưởng Bộ Khoa học và Công nghệ quy định.
+    Điều   14.  Cấp,   từ  chối  cấp   và  đăng   bạ              Văn
+bằng bảo hộ
+           1. Cục trưởng Cục Sở hữu công nghiệp ra quyết định cấp Văn
+bằng bảo hộ, trừ các trường hợp quy định tại khoản 2 của Điều này.
+Quyết định cấp Văn bằng bảo hộ phải nêu rõ tên, địa chỉ của người
+được cấp Văn bằng bảo hộ; số đơn yêu cầu cấp Văn bằng bảo hộ,
+ngày nộp đơn; tên tổ chức dịch vụ đại diện sở hữu công nghiệp; họ
+tên tác giả thiết kế bố trí (hoặc các đồng tác giả); tên gọi và phân
+loại mạch tích hợp bán dẫn sản xuất theo thiết kế bố trí được bảo
+hộ, ngày khai thác thiết kế bố trí nhằm mục đích thương mại lần
+đầu tiên (nếu khai trong đơn); ngày tạo ra thiết kế bố trí; tên và số
+Văn bằng bảo hộ; thời hạn bảo hộ.
+          2. Trong các trường hợp sau đây, Cục trưởng Cục Sở hữu công
+nghiệp ra thông báo từ chối cấp Văn bằng bảo hộ, trong đó phải
+nêu rõ lý do và gửi thông báo cho người nộp đơn:
+             a) Đơn yêu cầu cấp Văn bằng bảo hộ không đáp ứng các yêu
+cầu quy định tại các khoản 2, 3 và 4 Điều 9 của Nghị định này;
+    b) Đơn do người không có quyền nộp đơn nộp;
+    c) Quyền nộp đơn yêu cầu cấp Văn bằng bảo hộ thuộc nhiều tổ
+chức, cá nhân theo quy định tại khoản 3 Điều 10 của Nghị định này,
+nhưng một hoặc nhiều người trong số đó không đồng ý thực hiện
+việc nộp đơn yêu cầu cấp Văn bằng bảo hộ;
+           d) Đơn yêu cầu cấp Văn bằng bảo hộ được nộp sau khi đã hết
+thời hiệu quy định tại Điều 11 của Nghị định này;
+             đ) Đơn yêu cầu cấp Văn bằng bảo hộ được nộp trái với quy
+định về việc thực hiện quyền nộp đơn quy định tại các khoản 2 và 3
+Điều 12 của Nghị định này;
+    e) Người nộp đơn không nộp lệ phí theo quy       định tại Điều 20
+của Nghị định này;
+         3. Văn bằng bảo hộ được ghi vào đăng bạ quốc gia về thiết kế
+bố trí mạch tích hợp bán dẫn.
+    4. Văn bằng bảo hộ được trao cho người nộp đơn.
+    Nếu người nộp đơn là tập thể thì chỉ thành viên đầu tiên trong
+
+danh sách các thành viên của tập thể đó được trao Văn bằng bảo hộ
+và tên thành viên đó được ghi chú trong          đăng bạ quốc gia. Các
+thành viên khác có quyền yêu cầu Cục Sở hữu công nghiệp cấp phó
+bản Văn bằng bảo hộ theo thủ tục do Bộ trưởng Bộ Khoa học và
+Công nghệ quy định và phải nộp lệ phí cấp phó bản Văn bằng bảo
+hộ.
+    Điều   15.  Cấp  lại  V ăn  bằng   bảo  hộ,  cấp               bản
+sao tài li ệu
+          Theo yêu cầu của chủ sở hữu (hoặc các chủ sở hữu chung), Cục
+Sở hữu công nghiệp cấp lại Văn bằng bảo hộ (kể cả phó bản Văn
+bằng bảo hộ) nếu xét thấy có lý do chính đáng.
+    Theo yêu cầu  của các tổ chức, cá nhân, Cục Sở            hữu công
+nghiệp cấp bản trích lục đăng bạ quốc gia và bản sao tài liệu đơn
+yêu cầu cấp Văn bằng bảo hộ, trừ những tài liệu được coi là tài liệu
+mật theo quy định của Bộ trưởng Bộ Khoa học và Công nghệ. Riêng
+tài liệu xác định thiết kế bố trí, bản sao chỉ được cấp cho cơ quan có
+thẩm quyền và các tổ chức, cá nhân liên quan đến thủ tục hủy bỏ
+hiệu lực Văn bằng bảo hộ hoặc thủ tục xử lý hành vi xâm phạm
+quyền.
+         Tổ chức, cá nhân yêu cầu cấp lại Văn bằng bảo hộ, cấp bản sao
+tài liệu phải nộp phí và lệ phí theo quy định.
+    Điều 16. Đì nh chỉ hiệu lực V ăn bằng bảo hộ
+          1. Văn bằng bảo hộ bị đình chỉ hiệu lực trong các trường hợp
+sau đây:
+            a) Chủ sở hữu tuyên bố từ bỏ toàn bộ quyền được hưởng theo
+Văn bằng bảo hộ;
+             b) Chủ sở hữu không còn tồn tại mà không có người kế thừa
+hợp pháp.
+          2. Trường hợp đình chỉ hiệu lực của Văn bằng bảo hộ theo quy
+định tại điểm a khoản 1 của Điều này thì hiệu lực của Văn bằng bảo
+hộ bị đình chỉ từ ngày bị tuyên bố từ bỏ.
+    Trường hợp          đình chỉ hiệu lực của Văn bằng bảo hộ theo quy
+định tại điểm b khoản 1 của Điều này thì hiệu lực của Văn bằng bảo
+hộ bị đình chỉ từ ngày chủ sở hữu chấm dứt tồn tại.
+             3. Chủ sở hữu có quyền nộp đơn cho Cục Sở hữu công nghiệp
+yêu cầu đình chỉ hiệu lực Văn bằng bảo hộ với lý do nêu tại điểm a
+khoản 1 của Điều này.
+             Mọi tổ chức, cá nhân có quyền nộp đơn cho Cục Sở hữu công
+nghiệp yêu cầu đình chỉ hiệu lực Văn bằng bảo hộ với lý do nêu tại
+điểm b khoản 1 của Điều này. Người yêu cầu đình chỉ hiệu lực Văn
+bằng bảo hộ phải nộp lệ phí theo quy định.
+
+    Căn cứ kết quả xem xét đơn yêu cầu        đình chỉ hiệu lực Văn
+bằng bảo hộ và ý kiến của các bên liên quan, Cục trưởng Cục Sở
+hữu công nghiệp ra quyết định đình chỉ hiệu lực Văn bằng bảo hộ
+hoặc thông báo từ chối chấp nhận yêu cầu đình chỉ hiệu lực Văn
+bằng bảo hộ.
+       4. Thủ tục, trình tự xử lý đơn yêu cầu đình chỉ hiệu lực Văn
+bằng bảo hộ do Bộ trưởng Bộ Khoa học và Công nghệ quy định.
+    Điều 17. Hủy bỏ hiệu lực V ăn bằng bảo hộ
+     1. Hiệu lực Văn bằng bảo hộ bị hủy bỏ toàn bộ trong các trường
+hợp sau đây:
+        a) Đơn yêu cầu cấp Văn bằng bảo hộ thuộc các trường hợp quy
+định tại các điểm b, c và d khoản 2 Điều 14 của Nghị định này;
+      b) Thiết kế bố trí được bảo hộ không đáp ứng điều kiện bảo hộ
+quy định tại Điều 4 hoặc thuộc đối tượng không được bảo hộ theo
+quy định tại Điều 5 của Nghị định này.
+        2. Hiệu lực Văn bằng bảo hộ bị hủy bỏ một phần trong trường
+hợp phần đó không đáp ứng tiêu chuẩn bảo hộ.
+        3. Mọi tổ chức, cá nhân có quyền nộp đơn yêu cầu Cục Sở hữu
+công nghiệp hủy bỏ hiệu lực Văn bằng bảo hộ trong các trường hợp
+quy định tại khoản 1 và khoản 2 của Điều này. Người yêu cầu hủy
+bỏ hiệu lực Văn bằng bảo hộ phải nộp lệ phí theo quy định.
+        Căn cứ kết quả xem xét đơn yêu cầu hủy bỏ hiệu lực Văn bằng
+bảo hộ và ý kiến của các bên liên quan, Cục trưởng Cục Sở hữu
+công nghiệp ra Quyết định hủy bỏ một phần hoặc toàn bộ hiệu lực
+Văn bằng bảo hộ hoặc thông báo từ chối chấp nhận yêu cầu hủy bỏ
+hiệu lực Văn bằng bảo hộ.
+    4. Thủ tục, trình tự xử lý đơn yêu cầu hủy bỏ hiệu lực Văn bằng
+bảo hộ do Bộ trưởng Bộ Khoa học và Công nghệ quy định.
+    Điều  18.  Khiếu nại    các  quyết   đ ịnh            liên quan
+đến  việc   cấp,  đì nh chỉ,      hủy bỏ    hiệu           lực V ăn
+bằng bảo hộ
+        1. Quyền khiếu nại các quyết định, thông báo của Cục Sở hữu
+công nghiệp liên quan đến việc cấp, đình chỉ, hủy bỏ hiệu lực Văn
+bằng bảo hộ được quy định như sau:
+    a) Khiếu nại lần đầu:
+        Người nộp đơn yêu cầu cấp Văn bằng bảo hộ, đơn yêu cầu đình
+chỉ hoặc hủy bỏ hiệu lực Văn bằng bảo hộ có quyền khiếu nại với
+Cục trưởng Cục Sở hữu công nghiệp về thông báo từ chối cấp Văn
+bằng bảo hộ, thông báo từ chối chấp nhận yêu cầu đình chỉ hoặc
+hủy bỏ hiệu lực Văn bằng bảo hộ.
+
+     Mọi tổ chức, cá nhân có quyền và lợi ích liên quan trực tiếp đến
+việc cấp, đình chỉ hoặc hủy bỏ hiệu lực Văn bằng bảo hộ đều có
+quyền khiếu nại Quyết định cấp Văn bằng bảo hộ, Quyết định đình
+chỉ hoặc hủy bỏ hiệu lực Văn bằng bảo hộ.
+    b) Khiếu nại lần thứ hai, khởi kiện:
+    Nếu hết thời hạn giải quyết khiếu nại lần đầu quy        định tại
+khoản 4 của Điều này mà khiếu nại không được giải quyết hoặc nếu
+không đồng ý với quyết       định giải quyết khiếu nại của Cục trưởng
+Cục Sở hữu công nghiệp, người đã thực hiện quyền khiếu nại lần
+đầu theo quy định tại điểm a của khoản này có quyền khiếu nại với
+Bộ trưởng Bộ Khoa học và Công nghệ (khiếu nại lần thứ hai) hoặc
+khởi kiện theo thủ tục tố tụng hành chính.
+        2. Nội dung khiếu nại phải được thể hiện thành văn bản, trong
+đó phải nêu rõ họ và tên, địa chỉ của người khiếu nại; số, ngày ký,
+nội dung quyết định hoặc thông báo bị khiếu nại; số đơn yêu cầu
+cấp Văn bằng bảo hộ liên quan; tên đối tượng cần bảo hộ nêu trong
+đơn; nội dung, lý lẽ, dẫn chứng minh hoạ cho lý lẽ khiếu nại; đề
+nghị cụ thể về việc sửa chữa hoặc hủy bỏ quyết định hoặc kết luận
+liên quan.
+      3. Thời hiệu khiếu nại lần đầu là 90 ngày tính từ ngày người có
+quyền khiếu nại nhận được hoặc biết được quyết định hoặc thông
+báo nêu tại điểm a khoản 1 của Điều này.
+     Thời hiệu khiếu nại lần thứ hai là 30 ngày tính từ ngày hết thời
+hạn giải quyết khiếu nại lần đầu quy định tại khoản 4 của Điều này
+mà khiếu nại đó không được giải quyết hoặc tính từ ngày người có
+quyền khiếu nại nhận được hoặc biết được quyết        định giải quyết
+khiếu nại lần đầu.
+            Trường hợp do trở ngại khách quan, bất khả kháng mà người
+khiếu nại không thực hiện được quyền khiếu nại theo đúng thời hiệu
+thì thời gian có trở ngại đó không được tính vào thời hiệu khiếu nại.
+     4. Thời hạn giải quyết khiếu nại lần đầu là 30 ngày, lần thứ hai
+là 45 ngày tính từ ngày thụ lý đơn khiếu nại. Đối với các vụ việc
+phức tạp, thời hạn giải quyết khiếu nại lần đầu có thể kéo dài đến
+45 ngày, lần thứ hai đến 60 ngày tính từ ngày thụ lý đơn khiếu nại.
+Thời gian sửa đổi, bổ sung Hồ sơ khiếu nại không được tính vào thời
+hạn nói trên.
+      5. Thẩm quyền, trình tự, thủ tục giải quyết khiếu nại được thực
+hiện theo quy định của pháp luật về khiếu nại, tố cáo. Người khiếu
+nại phải nộp phí cung cấp dịch vụ để giải quyết khiếu nại về sở hữu
+công nghiệp theo quy định.
+    Điều 19. Công bố
+    1. Mọi đơn yêu cầu cấp Văn bằng bảo hộ đã được công nhận
+
+hợp lệ đều được công bố dưới hình thức cho phép tra cứu trực tiếp
+(không sao, chép) tại Cục Sở hữu công nghiệp. Đối với các thông tin
+mật theo quy định của Bộ trưởng Bộ Khoa học và Công nghệ, chỉ có
+các cơ quan có thẩm        quyền và các Bên liên quan trong thủ tục hủy
+bỏ hiệu lực Văn bằng bảo hộ hoặc thủ tục xử lý hành vi xâm phạm
+quyền mới được phép tra cứu.
+     2. Mọi Quyết định về việc xác lập, sửa      đổi, đình chỉ, hủy bỏ,
+chuyển giao quyền sở hữu công nghiệp đối với thiết kế bố trí đều
+được Cục Sở hữu công nghiệp công bố trên Công báo Sở hữu công
+nghiệp trong thời hạn 60 ngày tính từ ngày ra quyết định.
+     Điều 20. Phí và lệ phí
+      1. Tổ chức, cá nhân tiến hành thủ tục xác lập, sửa đổi, đình chỉ,
+hủy bỏ hiệu lực Văn bằng bảo hộ, chuyển giao quyền sở hữu công
+nghiệp đối với thiết kế bố trí, thủ tục khiếu nại hoặc các thủ tục liên
+quan khác trước Cục Sở hữu công nghiệp hoặc các cơ quan có thẩm
+quyền khác đều có nghĩa vụ nộp cho cơ quan thực hiện các thủ tục
+đó các khoản phí và lệ phí theo quy định.
+     2. Cục Sở hữu công nghiệp và các cơ quan có thẩm quyền khác
+quy định tại khoản 1 của Điều này có nghĩa vụ thu đủ, thu đúng thời
+hạn, thu đúng thủ tục các khoản phí và lệ phí liên quan và phải nộp
+vào ngân sách Nhà nước theo quy định của pháp luật hiện hành.
+            Các cơ quan thu phí và lệ phí được phép sử dụng một phần lệ
+phí thu được phù hợp với quy định của pháp luật về phí và lệ phí
+nhằm nâng cao năng lực chuyên môn, nghiệp vụ, động viên những
+người trực tiếp thực hiện các công việc tạo ra nguồn thu.
+     3. Những khoản phí, lệ phí đã được nộp nhưng phần việc tương
+       ứng không được tiến hành vì không xảy ra tình huống phải thực
+      hiện hoặc do lỗi của cơ quan có nghĩa vụ thực hiện phần việc đó
+     phải được hoàn trả cho người nộp phí, lệ phí và việc hoàn trả phải
+ được người nộp phí, lệ phí xác nhận hoặc phải có chứng từ hoàn trả.
+     C HƯ ƠN G  I I I
+Q U Y Ề N V À N G H Ĩ A V Ụ C Ủ A C H Ủ S Ở H Ữ U ,
+Q U Y Ề N C Ủ A T Á C G I Ả T H I Ế T K Ế B Ố T R Í
+     Điều 21.    Quyền của chủ sở hữu
+     Chủ sở hữu có các quyền sau đây:
+     1. Độc quyền sử dụng thiết kế bố trí;
+     2. Chuyển giao quyền sử dụng thiết kế bố trí;
+     3. Quyền tạm thời quy định tại Điều 8 của Nghị định này;
+     4. Chuyển giao hoặc từ bỏ toàn bộ quyền sở hữu công nghiệp
+đối với thiết kế bố trí;
+
+    5. Yêu cầu xử lý, khởi kiện về việc xâm phạm các quyền trên
+của mình.
+    Điều 22. Độc quyền sử dụng thiết kế bố trí
+    Độc quyền sử dụng thiết kế bố trí của chủ sở hữu quy   định tại
+Điều 21 của Nghị định này là quyền thực hiện hoặc ngăn cấm người
+khác thực hiện bất kỳ hành vi nào sau đây   đối với thiết kế bố trí
+được bảo hộ nhằm mục đích kinh doanh:
+    1. Sao chép thiết kế bố trí được bảo hộ; sản xuất mạch tích hợp
+bán dẫn theo thiết kế bố trí được bảo hộ;
+       2. Phân phối, nhập khẩu bản sao thiết kế bố trí được bảo hộ,
+mạch tích hợp bán dẫn sản xuất theo thiết kế bố trí được bảo hộ
+hoặc hàng hoá chứa mạch tích hợp bán dẫn sản xuất theo thiết kế
+bố trí được bảo hộ.
+                        Điều 23. Chuyển giao quyền sử dụng thiết kế
+bố trí
+      1. Quyền chuyển giao quyền sử dụng thiết kế bố trí của chủ sở
+hữu quy định tại        Điều 21 của Nghị định này là quyền cho phép
+người khác thực hiện bất kỳ hành vi nào thuộc độc quyền sử dụng
+thiết kế bố trí quy định tại Điều 22 của Nghị định này.
+     2. Trường hợp quyền sở hữu công nghiệp đối với thiết kế bố trí
+thuộc sở hữu chung, việc một hoặc một  số chủ sở hữu          chung
+chuyển giao quyền sử dụng thiết kế bố trí cho người khác phải được
+sự đồng ý của tất cả các chủ sở hữu chung còn lại.
+    3. Việc chuyển giao quyền sử dụng thiết kế bố trí phải được thể
+hiện bằng văn bản  hợp đồng. Nội dung Hợp  đồng chuyển         giao
+quyền sử dụng thiết kế bố trí phải tuân theo các quy định của Bộ
+trưởng Bộ Khoa học và Công nghệ và các quy        định khác có liên
+quan của pháp luật.
+         4. Hợp đồng chuyển giao quyền sử dụng thiết kế bố trí phải
+đăng ký tại Cục Sở hữu công nghiệp theo quy định của Bộ trưởng Bộ
+Khoa học và Công nghệ. Hợp đồng chuyển giao quyền sử dụng thiết
+kế bố trí có hiệu lực từ ngày đăng ký. Bên được chuyển giao (Bên
+nhận) có quyền sử dụng thiết kế bố trí trong phạm vi và với điều
+kiện ghi trong Hợp đồng chuyển giao quyền sử dụng thiết kế bố trí
+đã được đăng ký.
+          5. Hợp đồng chuyển giao quyền sử dụng thiết kế bố trí mặc
+nhiên bị đình chỉ hiệu lực hoặc vô       hiệu khi quyền sở hữu công
+nghiệp đối với thiết kế bố trí của Bên giao bị đình chỉ hoặc bị hủy
+bỏ.
+
+    Điều   24.    Chuyển  giao,   từ  bỏ  quyền    sở              hữu
+công nghiệp đ ối với thiết kế bố trí
+         1. Việc chuyển giao quyền sở hữu công nghiệp đối với thiết kế
+bố trí được thực  hiện dưới hình thức chuyển nhượng theo          thoả
+thuận, để thừa kế, chuyển dịch trong trường hợp sáp nhập, hợp
+nhất, chia tách... pháp nhân.
+    2. Trường hợp quyền sở hữu công nghiệp đối với thiết kế bố trí
+thuộc sở hữu chung, việc chuyển giao phải được sự đồng ý của tất
+cả các chủ sở hữu chung.
+              3. Thoả thuận chuyển nhượng quyền sở hữu công nghiệp đối
+với thiết kế bố trí phải được thể hiện bằng văn bản Hợp           đồng
+chuyển nhượng theo quy định của Bộ trưởng Bộ Khoa học và Công
+nghệ.
+         4. Mọi hình thức chuyển giao quyền sở hữu công nghiệp đối với
+thiết kế bố trí đều phải được đăng ký với Cục Sở hữu công nghiệp
+theo quy định của Bộ trưởng Bộ Khoa học và Công nghệ.
+           5. Kể từ ngày việc chuyển giao quyền sở hữu công nghiệp đối
+với thiết kế bố trí được đăng ký tại Cục Sở hữu công nghiệp, Bên
+được chuyển giao trở thành chủ sở hữu và tiếp nhận mọi quyền và
+nghĩa vụ của Bên chuyển giao phát sinh từ Văn bằng bảo hộ và các
+quyền và nghĩa vụ của Bên chuyển giao phát sinh trên cơ sở các
+giao dịch với bên thứ ba, với điều kiện điều đó phải được ghi trong
+Hợp đồng chuyển nhượng hoặc văn bản chuyển giao.
+           6. Chủ sở hữu không được từ bỏ quyền sở hữu công nghiệp đối
+với thiết kế bố trí khi không được sự đồng ý của Bên được chuyển
+giao quyền sử dụng thiết kế bố trí nếu Hợp đồng chuyển giao quyền
+sử dụng thiết kế bố trí đang còn trong thời hạn hiệu lực. Quy định
+này không áp dụng cho trường hợp một hoặc một số chủ sở hữu
+chung từ bỏ phần quyền của mình nhưng vẫn còn một hoặc một số
+chủ sở hữu chung khác tiếp tục sở hữu thiết kế bố trí đó.
+    Điều   25.    Nghĩa  vụ  trả  thù  lao   cho  tác              giả
+thiết kế bố trí
+       1. Nếu tác giả thiết kế bố trí không phải là chủ sở hữu thì chủ
+sở hữu có nghĩa vụ trả thù lao cho tác giả thiết kế bố trí về việc đã
+tạo ra thiết kế bố trí theo thoả thuận giữa tác giả thiết kế bố trí và
+chủ sở hữu, hoặc theo quy định tại khoản 2 của           Điều này, nếu
+không có thoả thuận khác.
+       2. Nếu giữa tác giả thiết kế bố trí và chủ sở hữu không có thoả
+thuận nào khác thì mức và thời hạn thù lao phải tuân theo quy định
+sau đây:
+       a) Mức thù lao tối thiểu cho tác giả thiết kế bố trí bằng 5% số
+tiền làm lợi thu được trong mỗi năm sử dụng thiết kế bố trí hoặc
+15% tổng số tiền mà chủ sở hữu nhận được trong mỗi lần nhận tiền
+
+thanh toán do chuyển giao quyền sử dụng thiết kế bố trí;
+     b) Việc thanh toán tiền thù lao cho tác giả thiết kế bố trí phải
+được thực hiện không muộn hơn 60 ngày tính từ ngày cuối cùng của
+tháng thứ 12 của mỗi năm sử dụng hoặc không muộn hơn 30 ngày
+tính từ ngày chủ sở hữu nhận tiền thanh toán do chuyển giao quyền
+sử dụng thiết kế bố trí.
+     Điều 26. Quyền của tác giả thiết kế bố trí
+     1. Tác giả thiết kế bố trí có các quyền sau đây:
+          a) Được ghi họ tên với danh nghĩa là tác giả trong Văn bằng
+bảo hộ, trong Đăng bạ quốc gia cũng như trong các tài liệu công bố
+về thiết kế bố trí;
+        b) Được nhận thù lao của chủ sở hữu theo quy định tại Điều 25
+của Nghị định này;
+          c) Được yêu cầu xử lý, khởi kiện về việc xâm phạm các quyền
+nêu trên của mình.
+     2. Quyền nhận thù lao của tác giả thiết kế bố trí nêu tại điểm b
+khoản 1 của Điều này có thể được chuyển giao cho người khác, kể
+cả dưới hình thức để thừa kế theo quy định của pháp luật.
+     C HƯ ƠN G I V
+B Ả O H Ộ Q U Y Ề N S Ở H Ữ U C Ô N G N G H I Ệ P Đ Ố I V Ớ I
+T H I Ế T K Ế B Ố T R Í
+                           Điều 27. Hành vi xâm phạm quyền của chủ sở
+hữu
+        1. Trong thời hạn bảo hộ thiết kế bố trí, mọi hành vi sử dụng
+thiết kế bố trí được quy định tại Điều 22 Nghị định này mà không
+được phép của chủ sở hữu và không thuộc các trường hợp quy định
+tại Điều 28 của Nghị          định này đều bị coi là hành vi xâm phạm
+quyền sở hữu công nghiệp đối với thiết kế bố trí của chủ sở hữu.
+        2. Việc sử dụng thiết kế bố trí mà không trả tiền đền bù theo
+quy  định tại Điều 8 và không thuộc các trường hợp quy       định tại
+Điều 28 của Nghị định này bị coi là hành vi xâm phạm quyền tạm
+thời của chủ sở hữu.
+     Điều 28.   Hành    vi không   bị  coi                là xâm phạm
+quyền của chủ sở hữu
+     Việc sử dụng thiết kế bố trí trong các trường hợp sau        đây
+không bị coi là hành vi xâm phạm quyền của chủ sở hữu:
+           1. Sử dụng thiết kế bố trí được bảo hộ không nhằm mục đích
+
+thương mại, như sử dụng cá nhân, đánh giá, phân tích, nghiên cứu
+hoặc giảng dạy;
+         2. Phân phối, nhập khẩu bản sao thiết kế bố trí được bảo hộ,
+mạch tích hợp bán dẫn sản xuất theo thiết kế bố trí được bảo hộ
+hoặc hàng hoá chứa mạch tích hợp bán dẫn sản xuất theo thiết kế
+bố trí được bảo hộ khi không biết hoặc không có cơ sở để biết rằng
+thiết kế bố trí đang được bảo hộ;
+         3. Phân phối, nhập khẩu bản sao thiết kế bố trí được bảo hộ,
+mạch tích hợp bán dẫn sản xuất theo thiết kế bố trí được bảo hộ
+hoặc hàng hoá chứa mạch tích hợp bán dẫn sản xuất theo thiết kế
+bố trí được bảo hộ đã được tiếp nhận hoặc đặt hàng khi không biết
+hoặc không có cơ sở để biết rằng thiết kế bố trí đang được bảo hộ,
+nếu hành vi phân phối hoặc nhập khẩu được thực hiện sau khi đã
+biết về điều đó và người sử dụng trả cho chủ sở hữu một khoản tiền
+tương đương với khoản thanh toán cho việc chuyển giao quyền sử
+dụng thiết kế bố trí đó;
+         4. Phân phối, nhập khẩu bản sao thiết kế bố trí được bảo hộ,
+mạch tích hợp bán dẫn sản xuất theo thiết kế bố trí được bảo hộ
+hoặc hàng hoá chứa mạch tích hợp bán dẫn sản xuất theo thiết kế
+bố trí được bảo hộ do chủ sở hữu, người được chuyển giao quyền sử
+dụng hoặc người sử dụng hợp pháp theo quy định tại khoản 3 của
+Điều này đưa ra thị trường, kể cả thị trường nước ngoài;
+       5. Sử dụng thiết kế bố trí có tính nguyên gốc được tạo ra trên
+cơ sở phân tích, đánh giá thiết kế bố trí được bảo hộ theo quy định
+tại khoản 1 của Điều này, hoặc thiết kế bố trí do ng ười khác độc lập
+tạo ra trùng với thiết kế bố trí được bảo hộ.
+    Điều   29.   Hành   vi xâm phạm      quyền   của              tác
+giả thiết kế bố trí
+         Việc chủ sở hữu không thực hiện nghĩa vụ trả thù lao cho tác
+giả thiết kế bố trí theo quy định tại Điều 25 của Nghị định này và
+không bảo đảm quyền của tác giả thiết kế bố trí theo quy     định tại
+điểm a khoản 1 Điều 26 của Nghị           định này bị coi là xâm phạm
+quyền của tác giả thiết kế bố trí.
+    Điều 30.   Bảo   đảm   thực                  thi quyền của chủ sở
+hữu và quyền của tác giả thiết kế bố trí
+       1. Quyền sở hữu công nghiệp đối với thiết kế bố trí của chủ sở
+hữu và quyền của tác giả thiết kế bố trí được Nhà nước bảo hộ.
+Nghiêm cấm mọi  hành  vi xâm phạm quyền  của chủ sở hữu và
+quyền của tác giả thiết kế bố trí.
+           Tùy theo tính chất, mức độ và hậu quả của hành vi xâm phạm
+
+quyền sở hữu công nghiệp đối với thiết kế bố trí của chủ sở hữu và
+quyền của tác giả thiết kế bố trí, tổ chức, cá nhân thực hiện hành vi
+xâm phạm bị xử lý hành chính hoặc truy cứu trách nhiệm hình sự,
+nếu gây thiệt hại thì phải bồi thường thiệt hại theo quy định của
+pháp luật.
+     2. Chủ sở hữu và tác giả thiết kế bố trí có quyền yêu cầu các cơ
+quan Nhà nước có thẩm quyền buộc người thực hiện hành vi xâm
+phạm thuộc các trường hợp quy định tại Điều 27 và Điều 29 của
+Nghị định này phải chấm dứt hành vi xâm phạm và bồi thường thiệt
+hại.
+    3. Việc xử lý các hành vi xâm phạm quyền sở hữu công nghiệp
+    đối với thiết kế bố trí của chủ sở hữu và quyền của tác giả thiết kế
+       bố trí được tiến hành theo quy định của pháp luật hiện hành về
+      trình tự và thủ tục xử lý hành vi xâm phạm các quyền đối với các
+                     đối tượng sở hữu công nghiệp khác.
+     C HƯ Ơ N G V
+Q U Ả N L Ý N H À N Ư Ớ C V Ề B Ả O H Ộ Q U Y Ề N
+S Ở H Ữ U C Ô N G N G H I Ệ P Đ Ố I V Ớ I T H I Ế T K Ế B Ố T R Í
+    Điều   31.  Nội dung    quản    lý Nhà   n ư ớc,            trách
+nhiệm của các     cơ quan Nhà                     nư ớc có thẩm quyền
+quản lý, bảo vệ lợi ích quốc gia và lợi ích xã hội
+    Hoạt           động bảo hộ quyền sở hữu công nghiệp liên quan đến
+thiết kế bố trí thuộc phạm vi quản lý Nhà nước về sở hữu công
+nghiệp.
+            Các quy định về nội dung quản lý Nhà nước về hoạt động sở
+hữu công nghiệp, trách nhiệm của các cơ quan Nhà nước có thẩm
+quyền quản lý về sở hữu công nghiệp, bảo vệ lợi ích quốc gia và lợi
+ích xã hội tại Nghị định số 63/CP ngày 24 tháng 10 năm 1996 của
+Chính phủ quy định chi tiết về sở hữu công nghiệp, được sửa đổi, bổ
+sung theo Nghị định số 06/2001/NĐ-CP ngày 01 tháng 02 năm 2001
+của Chính phủ cũng được áp dụng cho các hoạt động về bảo hộ
+quyền sở hữu công nghiệp đối với thiết kế bố trí.
+    Điều 32. Trách nhiệm của các Bộ hữu quan
+           1. Bộ Khoa học và Công nghệ có trách nhiệm quy định về nội
+dung, hình thức, thủ tục nộp, tiếp nhận, xét nghiệm đơn yêu cầu
+cấp Văn bằng bảo hộ; thủ tục đình chỉ, hủy bỏ hiệu lực Văn bằng
+bảo hộ; thủ tục khiếu nại các quyết định liên quan đến việc xác lập,
+đình chỉ, hủy bỏ hiệu lực quyền sở hữu công nghiệp đối với thiết kế
+bố trí; thủ tục đăng ký hợp đồng chuyển giao quyền sử dụng và việc
+chuyển giao quyền sở hữu công nghiệp đối với thiết kế bố trí và các
+thủ tục liên quan khác.
+
+    2. Bộ Tài chính chủ trì, phối hợp với Bộ Khoa học và Công nghệ
+quy định chế độ thu, nộp, quản lý và sử dụng các loại phí, lệ phí đối
+với các thủ tục liên quan đến bảo hộ quyền sở hữu công nghiệp đối
+với thiết kế bố trí.
+    3. Bộ Công nghiệp có trách nhiệm phối hợp với Bộ Khoa học và
+Công nghệ quy định và tổ chức thực hiện việc giám định kỹ thuật
+phục vụ thủ tục hủy bỏ Văn bằng bảo hộ và thủ tục bảo đảm thực
+thi quyền sở hữu công nghiệp đối với thiết kế bố trí.
+    C HƯ ƠN G  V I
+ĐI Ề U K H O Ả N T H I H À N H
+    Điều 33. Điều khoản chuyển ti ếp
+    1. Đối với các thiết kế bố trí đã được khai thác nhằm mục đích
+thương mại tại bất kỳ nơi nào trên thế giới vào bất kỳ thời điểm nào
+trong thời gian từ 18 tháng đến hai năm trước ngày Nghị định này
+có hiệu lực thì thời hiệu thực hiện quyền nộp đơn yêu cầu bảo hộ là
+06 tháng kể từ ngày Nghị định này bắt đầu có hiệu lực.
+    2. Quy định về quyền ngăn cấm sử dụng thiết kế bố trí của chủ
+sở hữu tại khoản 2 Điều 22 Nghị định này không áp dụng đối với các
+mạch tích hợp bán dẫn đã tồn tại từ trước ngày Nghị định này có
+hiệu lực.
+    3. Quy định về quyền tạm thời của chủ sở hữu tại Điều 8 của
+Nghị định này không áp dụng đối với các hành vi sử dụng thiết kế
+bố trí được thực hiện trước ngày Nghị định này bắt đầu có hiệu lực.
+    Điều 34. Hiệu lực và trách nhiệm thi hành
+    1. Nghị định này có hiệu lực sau 60 ngày, kể từ ngày đăng công
+báo.
+2. Các Bộ trưởng, Thủ trưởng cơ quan ngang Bộ, Thủ trưởng cơ
+quan thuộc Chính phủ, Chủ tịch ủy ban nhân dân tỉnh, thành phố
+trực thuộc Trung ương, Cục trưởng Cục Sở hữu công nghiệp có trách
+nhiệm thi hành Nghị định này.

@@ -1,0 +1,490 @@
+CHÍNH PHỦ                          CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+             _______                              Độc lập - Tự do - Hạnh phúc
+        Số: 49/2024/NĐ-CP                                  _______________
+                                                Hà Nội, ngày 10 tháng 5 năm 2024
+                                         NGHỊ ĐỊNH
+                            Quy định về hoạt động thông tin cơ sở
+                                         ____________
+       Căn cứ Luật Tổ chức Chính phủ ngày 19 tháng 6 năm 2015;
+       Căn cứ Luật Tổ chức chính quyền địa phương ngày 19 tháng 6 năm 2015;
+       Căn cứ Luật sửa đổi, bổ sung một số điều của Luật Tổ chức Chính phủ và Luật Tổ chức
+chính quyền địa phương ngày 22 tháng 11 năm 2019;
+       Căn cứ Luật Xuất bản ngày 20 tháng 11 năm 2012;
+       Căn cứ Luật Báo chí ngày 05 tháng 4 năm 2016;
+       Căn cứ Luật Quảng cáo ngày 10 tháng 12 năm 2018;
+       Căn cứ Luật Viễn thông ngày 24 tháng 11 năm 2023;
+       Căn cứ Luật Công nghệ thông tin ngày 29 tháng 6 năm 2006;
+       Căn cứ Luật An toàn thông tin mạng ngày 19 tháng 11 năm 2015;
+       Căn cứ Luật An ninh mạng ngày 12 tháng 6 năm 2018;
+       Căn cứ Luật Tiếp cận thông tin ngày 06 tháng 4 năm 2016;
+       Căn cứ Luật Thực hiện dân chủ ở cơ sở ngày 10 tháng 11 năm 2022; Theo đề nghị của Bộ
+trưởng Bộ Thông tin và Truyền thông;
+       Chính phủ ban hành Nghị định quy định về hoạt động thông tin cơ sở.
+                                          Chương I
+                                     QUY ĐỊNH CHUNG
+       Điều 1. Phạm vi điều chỉnh
+       Nghị định này quy định về hoạt động thông tin cơ sở; trách nhiệm quản lý nhà nước về hoạt
+động thông tin cơ sở; quyền và nghĩa vụ của các cơ quan, tổ chức, cá nhân tham gia hoạt động
+thông tin cơ sở.
+       Điều 2. Đối tượng áp dụng
+       Nghị định này áp dụng đối với các bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ, Ủy ban
+nhân dân cấp tỉnh, Ủy ban nhân dân cấp huyện, Ủy ban nhân dân cấp xã, cơ quan, tổ chức, cá nhân
+tham gia hoạt động thông tin cơ sở.
+       Điều 3. Giải thích từ ngữ
+       Trong Nghị định này, các từ ngữ dưới đây được hiểu như sau:
+       1. Thông tin cơ sở là thông tin thiết yếu được truyền tải trực tiếp đến người dân thông qua
+các loại hình thông tin: đài truyền thanh cấp xã; bảng tin công cộng; bản tin thông tin cơ sở; tài liệu
+không kinh doanh phục vụ hoạt động thông tin cơ sở; tuyên truyền trực tiếp qua tuyên truyền viên cơ
+sở; cổng hoặc trang thông tin điện tử; mạng xã hội, ứng dụng nhắn tin trên Internet; tin nhắn viễn
+thông.
+       2. Hoạt động thông tin cơ sở là hoạt động cung cấp thông tin thiết yếu; tiếp nhận thông tin
+phản ánh và thông tin nội dung trả lời của cơ quan, tổ chức, cá nhân có thẩm quyền đối với thông tin
+phản ánh của người dân thông qua các loại hình thông tin quy định tại khoản 1 Điều này.
+       3. Ứng dụng nhắn tin trên Internet là dịch vụ nhắn tin trên các nền tảng, phần mềm truy cập
+trên Internet.
+
+        4. Tin nhắn viễn thông là dịch vụ nhắn tin trên mạng viễn thông di động mặt đất (mạng thông
+tin di động).
+        5. Hoạt động thông tin cơ sở của cấp huyện là hoạt động do đài truyền thanh - truyền hình
+cấp huyện hoặc bộ phận chuyên biệt làm công tác thông tin cơ sở thuộc Trung tâm Văn hóa, Thông
+tin và Thể thao, Trung tâm Truyền thông và Văn hóa hoặc Trung tâm có tên gọi khác của cấp huyện
+thực hiện theo quy định tại Điều 40 Nghị định này.
+        6. Hệ thống thông tin nguồn thông tin cơ sở trung ương là hệ thống cung cấp thông tin nguồn
+cho hoạt động thông tin cơ sở; thu thập, tổng hợp, phân tích, quản lý dữ liệu, đánh giá hiệu quả hoạt
+động thông tin cơ sở phục vụ công tác quản lý nhà nước trên phạm vi toàn quốc.
+        7. Hệ thống thông tin nguồn thông tin cơ sở cấp tỉnh là hệ thống cung cấp thông tin nguồn
+cho hoạt động thông tin cơ sở; thu thập, tổng hợp, phân tích, quản lý dữ liệu, đánh giá hiệu quả hoạt
+động thông tin cơ sở phục vụ công tác quản lý nhà nước trên địa bàn cấp tỉnh.
+        Điều 4. Nguyên tắc hoạt động thông tin cơ sở
+        1. Thông tin kịp thời, chính xác, công khai, minh bạch, phù hợp với trình độ, nhu cầu của
+người dân ở từng vùng, miền, đặc biệt là người dân ở vùng đồng bào dân tộc thiểu số và miền núi,
+vùng sâu, vùng xa, biên giới, hải đảo.
+        2. Phục vụ công tác chỉ đạo, điều hành của cấp ủy, chính quyền địa phương.
+        3. Bảo đảm thực hiện nhiệm vụ truyền thông chính sách của Đảng, Nhà nước, cung cấp
+thông tin thiết yếu đến người dân.
+        4. Người dân được bảo đảm và bình đẳng, không bị phân biệt đối xử trong việc thực hiện
+quyền tiếp cận thông tin.
+        5. Tôn trọng ý kiến đóng góp của người dân; tiếp nhận thông tin phản ánh và thông tin nội
+dung trả lời của cơ quan, tổ chức, cá nhân có thẩm quyền đối với thông tin phản ánh của người dân.
+        6. Tuân thủ quy định của pháp luật về bảo đảm an ninh, trật tự, an toàn xã hội, bảo vệ bí mật
+nhà nước, bảo đảm quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân.
+        Điều 5. Chính sách của Nhà nước về phát triển thông tin cơ sở
+        1. Nhà nước bảo đảm nguồn lực cần thiết cho hoạt động thông tin cơ sở.
+        2. Bồi dưỡng nâng cao năng lực chuyên môn, nghiệp vụ tuyên truyền, kỹ năng sử dụng thiết
+bị kỹ thuật, công nghệ, kỹ năng chuyển đổi số trong hoạt động thông tin cơ sở cho người tham gia
+hoạt động thông tin cơ sở.
+        Điều 6. Thông tin thiết yếu của thông tin cơ sở
+        1. Thông tin về đường lối, chủ trương của Đảng, chính sách, pháp luật của Nhà nước, các
+quy định của cấp ủy, chính quyền địa phương, những sự kiện quan trọng liên quan đến người dân ở
+địa phương.
+        2. Những thông tin liên quan đến người dân ở địa phương:
+        a) Thông tin về dự án, chương trình phát triển kinh tế, văn hóa, an sinh xã hội ở địa phương;
+        b) Thông tin liên quan đến chính trị, kinh tế, văn hóa, xã hội và kiến thức khoa học, kỹ thuật,
+công nghệ phục vụ phát triển kinh tế - xã hội của địa phương;
+        c) Thông tin liên quan đến an ninh, trật tự, an toàn xã hội và công tác quân sự ở địa phương;
+        d) Thông tin về phòng, chống thiên tai, tìm kiếm, cứu nạn; hỏa hoạn; cấp cứu, dịch bệnh;
+thảm họa xảy ra ở địa phương hoặc có ảnh hưởng đến địa phương;
+        đ) Thông tin về gương người tốt, việc tốt, nhân tố mới, điển hình tiên tiến trong các lĩnh vực;
+        e) Thông tin các biện pháp đấu tranh phòng, chống các hành vi vi phạm pháp luật và các hiện
+tượng tiêu cực trong xã hội;
+        g) Thông tin sản phẩm, dịch vụ cần thiết phục vụ sản xuất và đời sống của người dân ở địa
+phương.
+        3. Những thông tin khác theo quy định của pháp luật về tiếp cận thông tin và quy định của
+pháp luật về thực hiện dân chủ ở cơ sở.
+
+                                            Chương II
+                                    HOẠT ĐỘNG THÔNG TIN CƠ SỞ
+                                              Mục 1
+                                     ĐÀI TRUYỀN THANH CẤP XÃ
+        Điều 7. Trách nhiệm của Ủy ban nhân dân cấp xã đối với đài truyền thanh cấp xã
+            1. Đài truyền thanh cấp xã là phương tiện thông tin, tuyên truyền được thiết lập theo đơn vị
+hành chính xã, phường, thị trấn để thực hiện công tác thông tin, tuyên truyền và phục vụ công tác chỉ
+đạo, điều hành của cấp ủy, chính quyền do Ủy ban nhân dân cấp xã trực tiếp quản lý.
+        2. Ủy ban nhân dân cấp xã có trách nhiệm:
+                a) Ban hành Quy chế hoạt động của đài truyền thanh cấp xã phù hợp với đặc điểm sinh hoạt
+của người dân ở địa phương;
+                b) Bố trí nhân sự vận hành hoạt động đài truyền thanh là công chức văn hóa - xã hội hoặc
+người hoạt động không chuyên trách cấp xã; tổ chức tập huấn, bồi dưỡng chuyên môn, nghiệp vụ
+tuyên truyền, kỹ năng sử dụng thiết bị kỹ thuật, công nghệ truyền thanh đối với nhân sự vận hành
+hoạt động đài truyền thanh;
+          c) Bố trí cơ sở vật chất, thiết bị kỹ thuật, công nghệ và các điều kiện cần thiết đáp ứng hoạt
+động của đài truyền thanh; kinh phí duy trì hoạt động thường xuyên của đài truyền thanh; chi trả
+nhuận bút, thù lao đối với sản phẩm truyền thông nêu tại khoản 1 Điều 9 Nghị định này theo quy định
+về nhuận bút, thù lao do Hội đồng nhân dân cấp tỉnh ban hành.
+        Điều 8. Nội dung hoạt động của đài truyền thanh cấp xã
+            1. Cung cấp, phổ biến thông tin thiết yếu đến người dân bằng tiếng Việt, tiếng dân tộc thiểu
+số tại địa phương.
+             2. Thông tin nội dung trả lời của cơ quan, tổ chức, cá nhân có thẩm quyền đối với thông tin
+phản ánh của người dân phù hợp với tính chất, yêu cầu của nội dung thông tin phát trên đài truyền
+thanh.
+        Điều 9. Cách thức và nguyên tắc hoạt động của đài truyền thanh cấp xã
+               1. Sản xuất và phát các chương trình phát thanh do đài truyền thanh tự sản xuất; phát các
+thông báo của cấp ủy, chính quyền địa phương.
+               2. Phát các chương trình phát thanh của cấp huyện sản xuất theo khung giờ, lịch phát sóng
+định kỳ hoặc trong trường hợp khẩn cấp do Ủy ban nhân dân cấp huyện quyết định.
+               3. Phát các chương trình phát thanh tiếp nhận từ hệ thống thông tin nguồn thông tin cơ sở
+trung ương và hệ thống thông tin nguồn thông tin cơ sở cấp tỉnh, các chương trình phát thanh phục
+vụ nhiệm vụ chính trị, thông tin, tuyên truyền thiết yếu của quốc gia và của cấp tỉnh theo yêu cầu của
+cơ quan quản lý nhà nước có thẩm quyền.
+           4. Căn cứ điều kiện thực tế, đài truyền thanh cấp xã tiếp sóng, phát lại chương trình thời sự
+và các chương trình phát thanh khác của Đài Tiếng nói Việt Nam, đài phát thanh và truyền hình cấp
+tỉnh để phục vụ nhu cầu thông tin thiết yếu của người dân.
+             5. Hoạt động phát thanh thực hiện theo quy định của pháp luật về truyền dẫn, phát sóng phát
+thanh, quy định của pháp luật về viễn thông, công nghệ thông tin.
+        Điều 10. Trách nhiệm của nhân sự vận hành hoạt động đài truyền thanh cấp xã
+        1. Vận hành hoạt động đài truyền thanh theo quy định của pháp luật và Quy chế hoạt động
+của đài truyền thanh do Ủy ban nhân dân cấp xã ban hành.
+        2. Viết, biên tập tin, bài và cung cấp thông tin thiết yếu đến người dân chính xác, kịp thời, dễ
+nghe, dễ hiểu; nắm vững kỹ thuật, quy trình vận hành máy móc, thiết bị của đài truyền thanh.
+               3. Tiếp nhận thông tin phản ánh của người dân, báo cáo Chủ tịch Ủy ban nhân dân cấp xã để
+giải quyết hoặc chuyển đến cơ quan, tổ chức, cá nhân có thẩm quyền giải quyết.
+                                              Mục 2
+                                        BẢNG TIN CÔNG CỘNG
+
+        Điều 11. Đối tượng thiết lập và quản lý bảng tin công cộng
+        1. Bảng tin công cộng bao gồm bảng tin điện tử và bảng tin làm bằng chất liệu khác được cố
+định tại một địa điểm.
+        2. Đối tượng thiết lập bảng tin công cộng là cơ quan Đảng, cơ quan nhà nước, Mặt trận Tổ
+quốc Việt Nam, các tổ chức chính trị - xã hội ở trung ương, cấp tỉnh, cấp huyện, cấp xã và thôn, tổ
+dân phố.
+        3. Cơ quan Đảng, cơ quan nhà nước, Mặt trận Tổ quốc Việt Nam, các tổ chức chính trị - xã
+hội ở trung ương, cấp tỉnh, cấp huyện, cấp xã và thôn, tổ dân phố thiết lập bảng tin công cộng chịu
+trách nhiệm quản lý, duy trì hoạt động và nội dung thông tin đăng, phát trên bảng tin công cộng.
+        Điều 12. Điều kiện thiết lập bảng tin công cộng
+        1. Việc thiết lập bảng tin công cộng thực hiện theo quy định của pháp luật về xây dựng và
+tuân thủ các quy định về bảo vệ di tích lịch sử, văn hóa, hành lang an toàn giao thông, đê điều, lưới
+điện quốc gia; không được che khuất đèn tín hiệu giao thông, bảng chỉ dẫn công cộng; không ảnh
+hưởng đến kiến trúc, cảnh quan; tuân thủ quy hoạch của địa phương.
+        2. Không dùng âm thanh để truyền tải thông tin đối với bảng tin công cộng đặt ngoài trời.
+        Điều 13. Nội dung hoạt động của bảng tin công cộng
+        1. Cung cấp, phổ biến thông tin thiết yếu đến người dân.
+        2. Căn cứ điều kiện thực tế, cơ quan Đảng, cơ quan nhà nước, Mặt trận Tổ quốc Việt Nam,
+các tổ chức chính trị - xã hội ở trung ương, cấp tỉnh, cấp huyện, cấp xã và thôn, tổ dân phố thiết lập
+bảng tin công cộng có thể phối hợp với doanh nghiệp để đầu tư xây dựng bảng tin công cộng; doanh
+nghiệp được dành 20% diện tích ở phía dưới cùng của bảng tin công cộng để quảng cáo về biểu
+trưng, lô-gô, nhãn hiệu hàng hóa. Việc quảng cáo trên bảng tin công cộng thực hiện theo quy định
+pháp luật về quảng cáo.
+        Điều 14. Cách thức hoạt động của bảng tin công cộng
+        1. Bảng tin công cộng truyền tải thông tin bằng chữ viết, hình ảnh.
+        2. Căn cứ điều kiện thực tế, bảng tin điện tử công cộng có tính năng tra cứu thông tin thiết
+yếu; kết nối với hệ thống thông tin nguồn thông tin cơ sở cấp tỉnh theo quy định của pháp luật và
+hướng dẫn của Bộ Thông tin và Truyền thông.
+                                             Mục 3
+                                  BẢN TIN THÔNG TIN CƠ SỞ
+        Điều 15. Đối tượng xuất bản bản tin thông tin cơ sở
+        Đối tượng xuất bản bản tin thông tin cơ sở là cơ quan Đảng, cơ quan nhà nước, Mặt trận Tổ
+quốc Việt Nam và các tổ chức chính trị - xã hội ở trung ương, cấp tỉnh, cấp huyện, cấp xã.
+        Điều 16. Nội dung và hình thức hoạt động của bản tin thông tin cơ sở
+        1. Bản tin thông tin cơ sở được xuất bản định kỳ để cung cấp, phổ biến thông tin thiết yếu
+bằng tiếng Việt, tiếng dân tộc thiểu số tại địa phương, chữ nổi cho người khiếm thị, phù hợp với
+người dân ở từng vùng, miền, khu vực.
+        2. Bản tin thông tin cơ sở sau khi được cấp giấy phép xuất bản có thể xuất bản dạng bản in
+hoặc bản điện tử trên cổng hoặc trang thông tin điện tử và các phương tiện thông tin điện tử khác.
+        Điều 17. Trách nhiệm của cơ quan Đảng, cơ quan nhà nước, Mặt trận Tổ quốc Việt
+Nam và các tổ chức chính trị - xã hội ở trung ương, cấp tỉnh, cấp huyện, cấp xã xuất bản bản
+tin thông tin cơ sở
+        1. Thực hiện các quy định về xuất bản và điều kiện cấp giấy phép xuất bản bản tin theo quy
+định của pháp luật về báo chí.
+        2. Chịu trách nhiệm về nội dung thông tin của bản tin thông tin cơ sở.
+                                             Mục 4
+
+                                 TÀI LIỆU KHÔNG KINH DOANH
+                           PHỤC VỤ HOẠT ĐỘNG THÔNG TIN CƠ SỞ
+        Điều 18. Đối tượng xuất bản tài liệu không kinh doanh phục vụ hoạt động thông tin cơ
+sở
+             Đối tượng xuất bản tài liệu không kinh doanh phục vụ hoạt động thông tin cơ sở là cơ quan
+Đảng, cơ quan nhà nước, Mặt trận Tổ quốc Việt Nam và các tổ chức chính trị - xã hội ở trung ương,
+cấp tỉnh, cấp huyện, cấp xã.
+                  Điều 19. Nội dung và hình thức của tài liệu không kinh doanh phục vụ hoạt động thông
+tin cơ sở
+           1. Tài liệu không kinh doanh phục vụ hoạt động thông tin cơ sở cung cấp, phổ biến thông tin
+thiết yếu bằng tiếng Việt, tiếng dân tộc thiểu số tại địa phương, chữ nổi cho người khiếm thị để tuyên
+truyền, cổ động phục vụ nhiệm vụ chính trị.
+            2. Tài liệu không kinh doanh phục vụ hoạt động thông tin cơ sở được xuất bản theo các hình
+thức: Sách in, sách chữ nổi, tờ rời, tờ gấp, tranh, ảnh, áp phích, bản ghi âm, ghi hình có nội dung
+thay sách hoặc minh họa cho sách.
+              3. Tài liệu không kinh doanh xuất bản dạng điện tử được đăng, phát trên bảng tin điện tử
+công cộng, cổng hoặc trang thông tin điện tử, mạng xã hội, ứng dụng nhắn tin trên Internet và các
+phương tiện thông tin điện tử khác theo quy định của pháp luật về thông tin điện tử và pháp luật có
+liên quan.
+                        Điều 20. Trách nhiệm của cơ quan Đảng, cơ quan nhà nước, Mặt trận Tổ quốc Việt
+Nam và các tổ chức chính trị - xã hội ở trung ương, cấp tỉnh, cấp huyện, cấp xã xuất bản tài
+liệu không kinh doanh phục vụ hoạt động thông tin cơ sở
+            1. Thực hiện xuất bản tài liệu không kinh doanh phục vụ hoạt động thông tin cơ sở theo quy
+định của pháp luật về xuất bản.
+             2. Chịu trách nhiệm về nội dung thông tin của tài liệu không kinh doanh phục vụ hoạt động
+thông tin cơ sở.
+                                              Mục 5
+                        TUYÊN TRUYỀN TRỰC TIẾP QUA TUYÊN TRUYỀN VIÊN CƠ SỞ
+        Điều 21. Tuyên truyền viên cơ sở và trách nhiệm của tuyên truyền viên cơ sở
+                 1. Tuyên truyền viên cơ sở do Chủ tịch Ủy ban nhân dân cấp xã quyết định công nhận là
+những người hoạt động không chuyên trách ở thôn, tổ dân phố gồm: Bí thư chi bộ, Trưởng thôn hoặc
+Tổ trưởng tổ dân phố, Trưởng Ban công tác Mặt trận.
+        2. Tuyên truyền viên cơ sở cần đáp ứng những yêu cầu cơ bản sau:
+                a) Có phẩm chất chính trị, lập trường tư tưởng vững vàng; chấp hành tốt đường lối, chủ
+trương của Đảng, chính sách, pháp luật của Nhà nước; có phẩm chất đạo đức, lối sống tốt; có uy tín
+trong công tác; không trong thời gian bị kỷ luật từ hình thức khiển trách trở lên theo quy định của
+pháp luật;
+            b) Có khả năng truyền đạt thông tin đầy đủ, chính xác, kịp thời đến người dân và tiếp nhận
+thông tin phản ánh của người dân; sử dụng thông thạo ngôn ngữ nói bằng tiếng Việt hoặc tiếng dân
+tộc thiểu số tại địa phương;
+          c) Thông thạo địa bàn; nắm vững phong tục, tập quán sinh hoạt, trình độ và nhu cầu thông tin
+của người dân ở địa phương.
+        3. Tuyên truyền viên cơ sở có trách nhiệm:
+                a) Tuyên truyền, vận động người dân theo sự phân công của Chủ tịch Ủy ban nhân dân cấp
+xã;
+        b) Truyền đạt đầy đủ, chính xác, kịp thời nội dung thông tin, tuyên truyền trực tiếp đến người
+dân;
+
+        c) Tiếp nhận thông tin phản ánh của người dân, báo cáo Chủ tịch Ủy ban nhân dân cấp xã để
+giải quyết hoặc chuyển cơ quan, tổ chức, cá nhân có thẩm quyền giải quyết.
+        Điều 22. Nội dung hoạt động của tuyên truyền viên cơ sở
+        1. Cung cấp, phổ biến thông tin thiết yếu đến người dân.
+        2. Thông tin nội dung trả lời của cơ quan, tổ chức, cá nhân có thẩm quyền thông qua công
+tác tuyên truyền, vận động người dân.
+        Điều 23. Cách thức và nguyên tắc hoạt động của tuyên truyền viên cơ sở
+        1. Trực tiếp tuyên truyền, phổ biến thông tin thiết yếu và vận động người dân chấp hành
+đường lối, chủ trương của Đảng, chính sách, pháp luật của Nhà nước, các quy định của cấp ủy,
+chính quyền địa phương.
+        2. Hình thức, quy mô, thời gian, địa điểm thực hiện công tác tuyên truyền, vận động phải bảo
+đảm hiệu quả, phù hợp với đặc điểm sinh hoạt của người dân ở địa phương.
+        Điều 24. Trách nhiệm của Chủ tịch Ủy ban nhân dân cấp xã
+        1. Lựa chọn và công nhận tuyên truyền viên cơ sở đáp ứng những yêu cầu cơ bản theo quy
+định tại khoản 2 Điều 21 Nghị định này.
+        2. Cung cấp thông tin, tài liệu tuyên truyền; tổ chức tập huấn, bồi dưỡng chuyên môn, nghiệp
+vụ tuyên truyền đối với đội ngũ tuyên truyền viên cơ sở.
+        3. Bố trí kinh phí chi trả thù lao theo quy định về nhuận bút, thù lao do Hội đồng nhân dân cấp
+tỉnh ban hành và các điều kiện cần thiết để tuyên truyền viên cơ sở hoạt động.
+                                             Mục 6
+                                     TUYÊN TRUYỀN TRÊN CỔNG
+                              HOẶC TRANG THÔNG TIN ĐIỆN TỬ
+        Điều 25. Đối tượng thực hiện hoạt động tuyên truyền thông tin thiết yếu trên cổng
+hoặc trang thông tin điện tử
+        Đối tượng thực hiện hoạt động tuyên truyền thông tin thiết yếu đến người dân trên cổng hoặc
+trang thông tin điện tử là cơ quan Đảng, cơ quan nhà nước, Mặt trận Tổ quốc Việt Nam và các tổ
+chức chính trị - xã hội ở trung ương, cấp tỉnh, cấp huyện, cấp xã.
+        Điều 26. Nội dung và hình thức thực hiện hoạt động tuyên truyền thông tin thiết yếu
+trên cổng hoặc trang thông tin điện tử
+        1. Cung cấp, phổ biến thông tin thiết yếu đến người dân.
+        2. Thông tin nội dung trả lời của cơ quan, tổ chức, cá nhân có thẩm quyền đối với thông tin
+phản ánh của người dân.
+        3. Thực hiện tuyên truyền bằng hình thức tin, bài, ảnh, video clip, đồ họa thông tin và các
+hình thức phù hợp khác.
+        Điều 27. Trách nhiệm của cơ quan Đảng, cơ quan nhà nước, Mặt trận Tổ quốc Việt
+Nam và các tổ chức chính trị - xã hội ở trung ương, cấp tỉnh, cấp huyện, cấp xã thực hiện hoạt
+động tuyên truyền thông tin thiết yếu trên cổng hoặc trang thông tin điện tử
+        1. Quản lý và chịu trách nhiệm về nội dung thông tin trên cổng hoặc trang thông tin điện tử
+theo quy định của pháp luật về cung cấp thông tin và dịch vụ công trực tuyến của cơ quan nhà nước
+trên môi trường mạng.
+        2. Giải quyết hoặc chuyển đến cơ quan, tổ chức, cá nhân có thẩm quyền giải quyết các thông
+tin phản ánh của người dân trên cổng hoặc trang thông tin điện tử.
+                                             Mục 7
+                                  TUYÊN TRUYỀN QUA MẠNG XÃ HỘI
+                               VÀ ỨNG DỤNG NHẮN TIN TRÊN INTERNET
+        Điều 28. Đối tượng thực hiện hoạt động tuyên truyền thông tin thiết yếu qua mạng xã
+hội, ứng dụng nhắn tin trên Internet
+
+              Đối tượng thực hiện hoạt động tuyên truyền thông tin thiết yếu đến người dân qua mạng xã
+hội, ứng dụng nhắn tin trên Internet là cơ quan Đảng, cơ quan nhà nước, Mặt trận Tổ quốc Việt Nam,
+các tổ chức chính trị - xã hội ở trung ương, cấp tỉnh, cấp huyện, cấp xã và thôn, tổ dân phố.
+                 Điều 29. Nội dung tuyên truyền thông tin thiết yếu qua mạng xã hội, ứng dụng nhắn tin
+trên Internet
+        1. Cung cấp, phổ biến thông tin thiết yếu đến người dân.
+           2. Thông tin nội dung trả lời của cơ quan, tổ chức, cá nhân có thẩm quyền đối với thông tin
+phản ánh của người dân.
+            3. Trao đổi, chia sẻ thông tin thiết yếu phù hợp với yêu cầu tiếp nhận thông tin của người
+dân; phù hợp với chức năng, nhiệm vụ, quyền hạn của cơ quan Đảng, cơ quan nhà nước, Mặt trận
+Tổ quốc Việt Nam, các tổ chức chính trị - xã hội ở trung ương, cấp tỉnh, cấp huyện, cấp xã và thôn, tổ
+dân phố, tuân thủ Quy tắc ứng xử trên mạng xã hội được cơ quan nhà nước có thẩm quyền ban
+hành.
+                        Điều 30. Trách nhiệm của cơ quan Đảng, cơ quan nhà nước, Mặt trận Tổ quốc Việt
+Nam, các tổ chức chính trị - xã hội ở trung ương, cấp tỉnh, cấp huyện, cấp xã và thôn, tổ dân
+phố thực hiện hoạt động tuyên truyền thông tin thiết yếu qua mạng xã hội, ứng dụng nhắn tin
+trên Internet
+           1. Lựa chọn mạng xã hội, ứng dụng nhắn tin trên Internet phù hợp và chịu trách nhiệm về nội
+dung thông tin cung cấp, phổ biến, trao đổi, chia sẻ qua mạng xã hội, ứng dụng nhắn tin trên Internet
+theo quy định của pháp luật về quản lý, cung cấp, sử dụng dịch vụ Internet, thông tin trên mạng xã
+hội và quy định của pháp luật về viễn thông.
+         2. Xây dựng quy trình tiếp nhận thông tin phản ánh và thông tin nội dung trả lời của cơ quan,
+tổ chức, cá nhân có thẩm quyền đối với thông tin phản ánh của người dân qua mạng xã hội, ứng
+dụng nhắn tin trên Internet.
+            3. Sử dụng tên hiệu thật của cơ quan, tổ chức, thôn, tổ dân phố khi cung cấp thông tin qua
+mạng xã hội, ứng dụng nhắn tin trên Internet.
+             4. Thực hiện biện pháp bảo mật tài khoản sử dụng mạng xã hội, tài khoản ứng dụng nhắn tin
+trên Internet và thông báo kịp thời tới cơ quan quản lý nhà nước có thẩm quyền, nhà cung cấp dịch
+vụ khi tài khoản bị mất quyền kiểm soát, bị giả mạo, lợi dụng và sử dụng vào mục đích không lành
+mạnh, ảnh hưởng đến an ninh quốc gia, trật tự và an toàn xã hội, ảnh hưởng đến quyền và lợi ích
+hợp pháp của cơ quan, tổ chức, cá nhân.
+                        Điều 31. Trách nhiệm của người dân khi phản ánh thông tin qua mạng xã hội, ứng
+dụng nhắn tin trên Internet
+           1. Sử dụng tên, địa chỉ thật của mình khi phản ánh thông tin qua mạng xã hội, ứng dụng nhắn
+tin trên Internet để bảo đảm việc trả lời của cơ quan, tổ chức, cá nhân có thẩm quyền đến đúng
+người phản ánh thông tin.
+            2. Chịu trách nhiệm về nội dung thông tin phản ánh qua mạng xã hội, ứng dụng nhắn tin trên
+Internet; thông tin phản ánh phải bảo đảm đúng sự thật.
+        3. Thực hiện nghĩa vụ của người sử dụng dịch vụ qua mạng xã hội, ứng dụng nhắn tin trên
+Internet theo quy định của pháp luật.
+                                              Mục 8
+                               TUYÊN TRUYỀN QUA TIN NHẮN VIỄN THÔNG
+                  Điều 32. Đối tượng thực hiện hoạt động tuyên truyền thông tin thiết yếu qua tin nhắn
+viễn thông
+             Đối tượng thực hiện hoạt động tuyên truyền thông tin thiết yếu đến người dân qua tin nhắn
+viễn thông là cơ quan Đảng, cơ quan nhà nước, Mặt trận Tổ quốc Việt Nam và các tổ chức chính trị -
+xã hội ở trung ương, Ủy ban nhân dân cấp tỉnh.
+                   Điều 33. Nội dung và cách thức thực hiện hoạt động tuyên truyền thông tin thiết yếu
+qua tin nhắn viễn thông
+        1. Cung cấp, phổ biến thông tin thiết yếu đến người dân.
+
+       2. Việc thông tin, tuyên truyền về phòng, chống thiên tai, tìm kiếm, cứu nạn và tình trạng khẩn
+cấp thực hiện theo quy định của pháp luật có liên quan.
+       3. Cơ quan Đảng, cơ quan nhà nước, Mặt trận Tổ quốc Việt Nam và các tổ chức chính trị - xã
+hội ở trung ương, Ủy ban nhân dân cấp tỉnh căn cứ yêu cầu về nội dung, phạm vi tuyên truyền đến
+người dân để lựa chọn doanh nghiệp viễn thông cung cấp dịch vụ tin nhắn viễn thông theo quy định
+của pháp luật về đấu thầu.
+       Điều 34. Trách nhiệm của cơ quan Đảng, cơ quan nhà nước, Mặt trận Tổ quốc Việt
+Nam và các tổ chức chính trị - xã hội ở trung ương, Ủy ban nhân dân cấp tỉnh thực hiện hoạt
+động tuyên truyền qua tin nhắn viễn thông
+       1. Cơ quan Đảng, cơ quan nhà nước, Mặt trận Tổ quốc Việt Nam và các tổ chức chính trị - xã
+hội ở trung ương, Ủy ban nhân dân cấp tỉnh quyết định và chịu trách nhiệm về nội dung tin nhắn; bảo
+đảm nội dung tin nhắn phù hợp với định dạng của tin nhắn viễn thông; quyết định đặc tính tập thuê
+bao cần gửi tin nhắn viễn thông.
+       2. Người đứng đầu cơ quan Đảng, cơ quan nhà nước, Mặt trận Tổ quốc Việt Nam và các tổ
+chức chính trị - xã hội ở trung ương quyết định nội dung, thời lượng tin nhắn tuyên truyền đến các
+thuê bao viễn thông trong phạm vi cả nước hoặc từng khu vực phù hợp với chức năng, nhiệm vụ,
+quyền hạn của cơ quan, tổ chức ở trung ương.
+       3. Chủ tịch Ủy ban nhân dân cấp tỉnh quyết định nội dung, thời lượng tin nhắn tuyên truyền
+đến các thuê bao viễn thông trên phạm vi địa bàn cấp tỉnh.
+                                           Chương III
+                                       TỔ CHỨC THỰC HIỆN
+       Điều 35. Trách nhiệm Bộ Thông tin và Truyền thông
+       1. Chủ trì, phối hợp với các bộ, ngành có liên quan:
+       a) Xây dựng, ban hành hoặc trình cấp có thẩm quyền ban hành, hướng dẫn tổ chức thực
+hiện chiến lược, chương trình, kế hoạch phát triển và các văn bản quy phạm pháp luật về thông tin
+cơ sở;
+       b) Cung cấp thông tin phục vụ hoạt động thông tin cơ sở trên phạm vi cả nước;
+       c) Phổ biến, giáo dục pháp luật về thông tin cơ sở;
+       d) Tổ chức hoạt động nghiên cứu, ứng dụng khoa học và công nghệ về thông tin cơ sở; quản
+lý hệ thống thông tin nguồn thông tin cơ sở trung ương;
+       đ) Thực hiện hợp tác quốc tế về thông tin cơ sở.
+       2. Chủ trì, phối hợp với các bộ, ngành có liên quan và Ủy ban nhân dân cấp tỉnh:
+       a) Tổ chức tập huấn, bồi dưỡng đội ngũ nhân lực tham gia hoạt động thông tin cơ sở;
+       b) Thực hiện chế độ thông tin, báo cáo, thống kê hoạt động thông tin cơ sở;
+       c) Tổ chức công tác thi đua, khen thưởng; ban hành quy định, quy chế và tổ chức hội thi, liên
+hoan, giải thưởng thuộc lĩnh vực thông tin cơ sở.
+       3. Thanh tra, kiểm tra, giải quyết khiếu nại, tố cáo và xử lý vi phạm trong hoạt động thông tin
+cơ sở theo chức năng quản lý nhà nước của bộ.
+       Điều 36. Trách nhiệm của các bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ, cơ
+quan Đảng, Mặt trận Tổ quốc Việt Nam và các tổ chức chính trị - xã hội
+       1. Cung cấp thông tin thuộc lĩnh vực phụ trách phục vụ hoạt động thông tin cơ sở.
+       2. Quản lý nội dung thông tin trên các loại hình thông tin cơ sở do bộ, ngành, cơ quan, tổ
+chức thiết lập, sử dụng.
+       Điều 37. Trách nhiệm của Ủy ban nhân dân cấp tỉnh
+       1. Xây dựng và tổ chức thực hiện chương trình, kế hoạch phát triển thông tin cơ sở của địa
+phương theo quy định của pháp luật và hướng dẫn của Bộ Thông tin và Truyền thông.
+
+                  2. Hướng dẫn, kiểm tra việc thực hiện các văn bản quy phạm pháp luật, chính sách, quy
+định, quy chế về hoạt động thông tin cơ sở; phổ biến, giáo dục pháp luật về thông tin cơ sở ở địa
+phương.
+           3. Chủ trì, phối hợp với các cơ quan, tổ chức liên quan cung cấp thông tin của cấp tỉnh phục
+vụ hoạt động thông tin cơ sở ở địa phương.
+              4. Trình Hội đồng nhân dân cấp tỉnh ban hành quy định cụ thể về chế độ nhuận bút, thù lao
+đối với các sản phẩm truyền thông của cấp huyện, cấp xã theo quy định của pháp luật và nguồn kinh
+phí của địa phương.
+              5. Phối hợp với Bộ Thông tin và Truyền thông và các cơ quan, tổ chức có liên quan tổ chức
+nghiên cứu, ứng dụng khoa học, công nghệ về thông tin cơ sở; quản lý hệ thống thông tin nguồn
+thông tin cơ sở cấp tỉnh và kết nối với hệ thống thông tin nguồn thông tin cơ sở trung ương theo
+hướng dẫn của Bộ Thông tin và Truyền thông.
+          6. Chủ trì, phối hợp với Bộ Thông tin và Truyền thông và các cơ quan, tổ chức có liên quan tổ
+chức tập huấn, bồi dưỡng đội ngũ nhân lực tham gia hoạt động thông tin cơ sở ở địa phương.
+                7. Thực hiện chế độ thông tin, báo cáo, thống kê hoạt động thông tin cơ sở ở địa phương
+theo quy định của pháp luật và hướng dẫn của Bộ Thông tin và Truyền thông.
+          8. Chủ trì, phối hợp với Bộ Thông tin và Truyền thông và các cơ quan, tổ chức có liên quan tổ
+chức thực hiện công tác thi đua, khen thưởng; tổ chức hội thi, liên hoan, giải thưởng thuộc lĩnh vực
+thông tin cơ sở ở địa phương.
+        9. Thanh tra, kiểm tra, giải quyết khiếu nại, tố cáo và xử lý vi phạm trong hoạt động thông tin
+cơ sở theo chức năng quản lý nhà nước của Ủy ban nhân dân cấp tỉnh.
+        Điều 38. Trách nhiệm của Ủy ban nhân dân cấp huyện
+               1. Tổ chức thực hiện chiến lược, chương trình, kế hoạch phát triển thông tin cơ sở ở địa
+phương theo hướng dẫn của Ủy ban nhân dân cấp tỉnh.
+            2. Tổ chức thực hiện và kiểm tra việc thực hiện các văn bản quy phạm pháp luật, chính sách,
+quy định, quy chế về hoạt động thông tin cơ sở; phổ biến, giáo dục pháp luật về thông tin cơ sở ở địa
+phương.
+               3. Chủ trì, phối hợp với các cơ quan, tổ chức liên quan cung cấp thông tin của cấp huyện
+phục vụ hoạt động thông tin cơ sở ở địa phương.
+        4. Quản lý và tổ chức hoạt động các loại hình thông tin cơ sở ở cấp huyện.
+              5. Thực hiện chế độ thông tin, báo cáo, thống kê hoạt động thông tin cơ sở của địa phương
+theo quy định của pháp luật và hướng dẫn của Ủy ban nhân dân cấp tỉnh.
+            6. Tổ chức thực hiện công tác thi đua, khen thưởng; tổ chức hội thi, liên hoan, giải thưởng
+thuộc lĩnh vực thông tin cơ sở ở địa phương.
+        7. Thanh tra, kiểm tra, giải quyết khiếu nại, tố cáo và xử lý vi phạm trong hoạt động thông tin
+cơ sở theo chức năng quản lý nhà nước của Ủy ban nhân dân cấp huyện.
+        Điều 39. Trách nhiệm của Ủy ban nhân dân cấp xã
+               1. Tổ chức thực hiện chiến lược, chương trình, kế hoạch phát triển thông tin cơ sở ở địa
+phương theo hướng dẫn của Ủy ban nhân dân cấp huyện.
+            2. Tổ chức thực hiện và kiểm tra việc thực hiện các văn bản quy phạm pháp luật, chính sách,
+quy định, quy chế về hoạt động thông tin cơ sở; phổ biến, giáo dục pháp luật về thông tin cơ sở ở địa
+phương.
+               3. Chủ trì, phối hợp với các cơ quan, tổ chức có liên quan cung cấp thông tin của cấp xã
+phục vụ hoạt động thông tin cơ sở ở địa phương.
+              4. Quản lý và tổ chức hoạt động các loại hình thông tin cơ sở; ban hành Quy chế hoạt động
+các loại hình thông tin cơ sở của cấp xã.
+              5. Thực hiện chế độ thông tin, báo cáo, thống kê hoạt động thông tin cơ sở của địa phương
+theo quy định của pháp luật và hướng dẫn của Ủy ban nhân dân cấp huyện.
+        6. Tiếp nhận, xử lý thông tin, ý kiến phản ánh của người dân ở cơ sở.
+
+        Điều 40. Hoạt động thông tin cơ sở của cấp huyện
+        1. Sản xuất chương trình phát thanh bằng tiếng Việt, tiếng dân tộc thiểu số tại địa phương để
+phát trên đài truyền thanh cấp xã.
+        2. Sản xuất tin, bài, ảnh, video clip, đồ họa thông tin và các hình thức phù hợp khác để cung
+cấp, phổ biến thông tin thiết yếu đến người dân trên đa phương tiện, đa nền tảng theo quy định của
+pháp luật.
+        3. Cộng tác, phối hợp sản xuất tin, bài, ảnh, video clip, chương trình phát thanh, chương trình
+truyền hình để đăng, phát trên báo, đài cấp tỉnh và trung ương theo quy định của pháp luật.
+        4. Vận hành hoạt động bảng tin công cộng của cấp huyện theo quy định của pháp luật và
+hướng dẫn của Ủy ban nhân dân cấp huyện.
+        5. Thực hiện cung cấp thông tin trên hệ thống thông tin nguồn thông tin cơ sở cấp tỉnh theo
+quy định của pháp luật và hướng dẫn của Bộ Thông tin và Truyền thông.
+        6. Thực hiện chế độ báo cáo định kỳ và đột xuất theo yêu cầu của cơ quan quản lý nhà nước
+có thẩm quyền.
+                                           Chương IV
+                                      ĐIỀU KHOẢN THI HÀNH
+        Điều 41. Điều khoản chuyển tiếp
+        Đài truyền thanh - truyền hình cấp huyện, Trung tâm Văn hóa, Thông tin và Thể thao, Trung
+tâm Truyền thông và Văn hóa hoặc Trung tâm có tên gọi khác của cấp huyện có hoạt động truyền
+thanh tiếp tục vận hành hệ thống kỹ thuật truyền dẫn, phát sóng hiện có để phát sóng, tiếp sóng
+chương trình phát thanh; không đầu tư, nâng cấp hệ thống kỹ thuật truyền dẫn, phát sóng; chấm dứt
+hoạt động phát sóng, tiếp sóng chương trình phát thanh trước ngày 31 tháng 12 năm 2025.
+        Điều 42. Hiệu lực thi hành
+        1. Nghị định này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2024.
+        2. Quyết định số 52/2016/QĐ-TTg ngày 06 tháng 12 năm 2016 của Thủ tướng Chính phủ ban
+hành Quy chế hoạt động thông tin cơ sở hết hiệu lực kể từ ngày Nghị định này có hiệu lực thi hành.
+        Điều 43. Trách nhiệm hướng dẫn và thi hành
+        1. Bộ trưởng Bộ Thông tin và Truyền thông chịu trách nhiệm hướng dẫn, tổ chức thực hiện
+và kiểm tra việc thực hiện Nghị định này.
+        2. Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch
+Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương và cơ quan, tổ chức, cá nhân có liên quan
+chịu trách nhiệm thi hành Nghị định này.
+ Nơi nhận:                                                        TM. CHÍNH PHỦ
+ - Ban Bí thư Trung ương Đảng;                                    KT. THỦ TƯỚNG
+ - Thủ tướng, các Phó Thủ tướng Chính phủ;                        PHÓ THỦ TƯỚNG
+ - Các bộ, cơ quan ngang bộ, cơ quan thuộc Chính
+ phủ;
+ - HĐND, UBND các tỉnh, thành phố trực thuộc trung
+ ương;
+ - Văn phòng Trung ương và các Ban của Đảng;                     Trần Lưu Quang
+ - Văn phòng Tổng Bí thư;
+ - Văn phòng Chủ tịch nước;
+ - Hội đồng Dân tộc và các Ủy ban của Quốc hội;
+ - Văn phòng Quốc hội;
+ - Tòa án nhân dân tối cao;
+ - Viện kiểm sát nhân dân tối cao;
+ - Kiểm toán nhà nước;
+ - Ủy ban Giám sát tài chính quốc gia;
+ - Ngân hàng Chính sách xã hội;
+ - Ngân hàng Phát triển Việt Nam;
+
+- Ủy ban trung ương Mặt trận Tổ quốc Việt Nam;
+- Cơ quan trung ương của các đoàn thể;
+- VPCP: BTCN, các PCN, Trợ lý TTg, TGĐ Cổng
+TTĐT, các Vụ, Cục, đơn vị trực thuộc, Công báo;
+- Lưu: VT, KGVX (2).
