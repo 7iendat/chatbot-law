@@ -1,4 +1,5 @@
 from fastapi import APIRouter, Depends, HTTPException, Query,status, Response, Request
+from fastapi.responses import RedirectResponse
 from services.auth_service import (
     verify_token, register_user
 )
@@ -7,8 +8,23 @@ from services.user_service import get_paginated_users, delete_user,change_passwo
 from dependencies import bearer_scheme, get_current_user, admin_required
 from schemas.user import LoginRequest, LoginResponse, RegisterRequest, RegisterResponse, UserOut,PaginatedResponse,ProfileResponse,ChangePasswordRequest,PasswordResetRequest,PasswordReset,VerifyLoginRequest,VerifyForgotPassRequest, ResentVerifyCode,TokenValidationResponse,TokenValidationRequest
 
+from starlette.config import Config
+from authlib.integrations.starlette_client import OAuth
+import os
+import config
+from db.mongoDB import user_collection
+import uuid
+from passlib.context import CryptContext
+from datetime import datetime, timedelta, timezone
+from utils.utils import create_access_token,create_refresh_token
+import re
+import logging
+from dependencies import get_app_state
+
+pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
 router = APIRouter()
+logger = logging.getLogger(__name__)
 
 @router.post("/login")
 async def login(request: LoginRequest):
@@ -121,10 +137,6 @@ async def complete_password_reset(request: PasswordReset):
 async def register(request: RegisterRequest):
     return await register_user(request)
 
-# @router.post("/logout")
-# async def logout(req: Request,credentials: HTTPAuthorizationCredentials = Depends(bearer_scheme)):
-#     return await logout_user(req, credentials)
-
 @router.post("/logout")
 async def logout_user(response: Response):
     """
@@ -132,7 +144,7 @@ async def logout_user(response: Response):
     """
 
     response.delete_cookie(key="access_token_cookie", path="/", samesite="lax") # Đảm bảo các thuộc tính khớp với lúc set
-    response.delete_cookie(key="refresh_token", path="/", samesite="lax")
+    response.delete_cookie(key="refresh_token", path="/api/user/refresh-token", samesite="lax")
     # Có thể thêm logic thu hồi refresh token ở backend nếu cần
 
     return {"message": "Đăng xuất thành công"}
@@ -237,3 +249,171 @@ async def validate_token(request: TokenValidationRequest):
             status_code=status.HTTP_401_UNAUTHORIZED,
             detail="Access token không hợp lệ"
         ) from e
+
+
+# --- Cấu hình Authlib ---
+# Tạo một đối tượng config cho Authlib từ biến môi trường
+auth_config = Config(environ=os.environ)
+oauth = OAuth(auth_config)
+
+# Đăng ký Google OAuth
+try:
+    oauth.register(
+        name='google',
+        server_metadata_url='https://accounts.google.com/.well-known/openid-configuration',
+        client_id=os.getenv("GOOGLE_CLIENT_ID"),
+        client_secret=os.getenv("GOOGLE_CLIENT_SECRET"),
+        client_kwargs={'scope': 'openid email profile'}
+    )
+except Exception as e:
+    logger.error(f"Failed to register Google OAuth: {e}")
+    raise Exception("Google OAuth configuration failed")
+
+@router.get('/login/google')
+async def login_via_google(request: Request):
+    """
+    Endpoint bắt đầu quá trình đăng nhập.
+    Nó sẽ chuyển hướng người dùng đến trang đăng nhập của Google.
+    """
+    try:
+        redirect_uri = request.url_for('auth_google_callback')
+        return await oauth.google.authorize_redirect(request, redirect_uri)
+    except Exception as e:
+        logger.error(f"Error initiating Google login: {e}")
+        raise HTTPException(status_code=500, detail="Failed to initiate Google login")
+
+@router.get('/google/callback', name='auth_google_callback')
+async def auth_google_callback(request: Request):
+    """
+    Endpoint callback mà Google sẽ gọi lại sau khi người dùng xác thực.
+    """
+    try:
+        # Lấy access token từ Google
+        token = await oauth.google.authorize_access_token(request)
+    except Exception as e:
+        logger.error(f"Error authorizing access token from Google: {e}")
+        raise HTTPException(status_code=400, detail="Could not authorize with Google.")
+
+    # Lấy thông tin người dùng từ Google
+    user_info = token.get('userinfo')
+    if not user_info or not user_info.get('email'):
+        raise HTTPException(status_code=400, detail="Could not retrieve user info from Google.")
+
+    user_email = user_info['email']
+    username = re.sub(r'[^a-zA-Z0-9]', '', user_email.split('@')[0])
+
+
+    # Kiểm tra xem user đã tồn tại trong DB chưa
+    db_user = user_collection.find_one({"email": user_email})
+
+    if not db_user:
+        placeholder_password = f"google-oauth2|{uuid.uuid4()}"
+        hashed_password = pwd_context.hash(placeholder_password)
+        # Nếu chưa, tạo user mới
+        logger.info(f"New user from Google: {user_email}. Creating account...")
+
+
+        # Tạo user mới với thông tin từ Google
+        user_collection.insert_one({
+            "email": user_email,
+            "username": username,
+            "password": hashed_password,  # Mật khẩu tạm thời, sẽ không dùng đến
+            "avatar_url": user_info.get('picture', None),
+            "role": "user",
+            "is_active": True,
+        })
+
+        # Lấy lại user vừa tạo để đảm bảo có _id và các trường khác
+        db_user = user_collection.find_one({"email": user_email})
+        if not db_user: # Kiểm tra lại sau khi insert
+             raise HTTPException(status_code=500, detail="Could not create and retrieve new user account.")
+
+
+    # 1. Tạo một authorization code ngẫu nhiên, ngắn hạn
+    auth_code = str(uuid.uuid4())
+
+    # 2. Lưu email của user vào Redis với key là auth_code
+    # Set thời gian hết hạn ngắn, ví dụ 1 phút (60 giây)
+    app_state = get_app_state(request=request)
+    redis_client = app_state.redis
+    redis_client.set(f"google_auth_code:{auth_code}", user_email, ex=60)
+
+    # 3. Chuyển hướng về trang callback của frontend, đính kèm code này
+    frontend_callback_url = f"{config.FRONTEND_URL}/auth/callback?code={auth_code}"
+
+    logger.info(f"Google auth successful for {user_email}. Redirecting to frontend with temp code.")
+    return RedirectResponse(url=frontend_callback_url)
+
+
+# === TẠO ENDPOINT MỚI ĐỂ ĐỔI CODE LẤY TOKEN ===
+@router.post("/token/google")
+async def exchange_google_code_for_token(request: Request,response: Response, code: str):
+    """
+    Frontend sẽ gọi endpoint này với code tạm thời để lấy JWT token và cookie.
+    """
+    app_state = get_app_state(request=request)
+    redis_client = app_state.redis
+    # 1. Lấy email từ Redis bằng code và xóa code ngay lập tức
+    redis_key = f"google_auth_code:{code}"
+    user_email_bytes =  redis_client.get(redis_key)
+    if not user_email_bytes:
+        raise HTTPException(status_code=400, detail="Invalid or expired authorization code.")
+
+    redis_client.delete(redis_key) # Dùng một lần
+    user_email = user_email_bytes.decode()
+
+    user_collection.update_one({
+        "email": user_email
+    }, {
+        "$set": {
+            "last_login": datetime.now(timezone.utc),  # Cập nhật thời gian đăng nhập
+            "login_type": "google"
+        }
+    })
+    # Tạo JWT token cho người dùng
+    access_token_expires = timedelta(minutes= int(config.ACCESS_TOKEN_EXPIRE_MINUTES))
+
+    refresh_token_expires = timedelta(days=7)
+
+    access_token = create_access_token(
+        data={"sub": user_email.lower()}, expires_delta=access_token_expires
+    )
+
+
+    IS_PRODUCTION = os.getenv("APP_ENVIRONMENT", "development").lower() == "production"
+
+    refresh_token_value = await  create_refresh_token(user_email.lower())
+
+
+
+    # Access Token Cookie
+    response.set_cookie(
+            key="access_token_cookie", # Tên cookie cho access token
+            value=access_token,
+            max_age=int(access_token_expires.total_seconds()), # Thời gian sống bằng access token
+            httponly=True,
+            secure=IS_PRODUCTION, # True trong production (HTTPS), False khi dev với HTTP
+            samesite="lax", # Hoặc "strict"
+            path="/",
+    )
+
+    # Refresh Token Cookie (logic của bạn đã có, điều chỉnh secure)
+    response.set_cookie(
+            key="refresh_token",
+            value=refresh_token_value,
+            max_age=int(refresh_token_expires.total_seconds()),
+            httponly=True,
+            secure=IS_PRODUCTION, # True trong production, False khi dev với HTTP
+            samesite="lax",
+            path="/api/user/refresh-token",
+        )
+
+    user_info = user_collection.find_one({"email": user_email})
+    user = {
+        "email": user_info.get("email"),
+        "username": user_info.get("username"),
+        "role": user_info.get("role"),
+        "avatar_url": user_info.get("avatar_url"),
+        "login_type": user_info.get("login_type", "google"),
+    }
+    return {"message": "Login successful", "user": user}

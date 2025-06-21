@@ -82,9 +82,12 @@ async def ask_question_service(app_state, request: QueryRequest, user: UserOut =
             chat_id,
             max_messages=10
         )
+
+        chat_history_string = format_chat_history_for_prompt(chat_history_messages)
+
         input_data_for_chain = {
             # "chat_history":  langchain_chat_history.messages, # Lấy messages đã được đồng bộ
-            "chat_history":  chat_history_messages, # Lấy messages đã được đồng bộ
+            "chat_history":  chat_history_string, # Lấy messages đã được đồng bộ
             "input": cleaned_question
         }
 
@@ -383,7 +386,7 @@ async def prepare_chat_history_optimized(
     num_to_fetch = max_messages + 2
     try:
         # Sử dụng lrange để lấy các tin nhắn gần nhất, hiệu quả hơn nhiều so với lấy tất cả
-        raw_messages_json = await redis.lrange(messages_key, -num_to_fetch, -1)
+        raw_messages_json =  redis.lrange(messages_key, -num_to_fetch, -1)
         if not raw_messages_json:
             return []
     except Exception as e:
@@ -423,3 +426,17 @@ async def prepare_chat_history_optimized(
 
     # Cắt lại theo max_messages cuối cùng để đảm bảo số lượng chính xác
     return langchain_messages[-max_messages:]
+
+def format_chat_history_for_prompt(chat_history: List[BaseMessage]) -> str:
+    """
+    Chuyển đổi danh sách đối tượng tin nhắn thành một chuỗi văn bản duy nhất.
+    """
+    if not chat_history:
+        return "Không có lịch sử trò chuyện."
+
+    formatted_history = []
+    for message in chat_history:
+        role = "Người dùng" if isinstance(message, HumanMessage) else "Trợ lý"
+        formatted_history.append(f"{role}: {message.content}")
+
+    return "\n".join(formatted_history)

@@ -1,466 +1,169 @@
-"""
-Bản đồ từ đồng nghĩa để ánh xạ ngôn ngữ thông dụng với ngôn ngữ chuyên ngành trong lĩnh vực pháp luật Việt Nam.
-File này cung cấp các cặp từ/cụm từ để cải thiện truy xuất tài liệu từ vector database, bao phủ các lĩnh vực pháp luật phổ biến.
+# utils/synonym_expander.py
 
-Cấu trúc:
-- Mỗi lĩnh vực pháp luật (như 'giao_thong', 'hanh_chinh', 'thue', v.v.) chứa một dictionary.
-- Key: Từ/cụm từ thông dụng (ngôn ngữ người dùng hay dùng).
-- Value: Danh sách các từ/cụm từ chuyên ngành tương ứng trong tài liệu pháp luật.
+import re
+import logging
+from typing import Dict, Optional, List
 
-Cách sử dụng:
-- Import vào code chính (ví dụ: create_retriever) và sử dụng để mở rộng truy vấn hoặc lọc tài liệu.
-- Có thể mở rộng bằng cách thêm các lĩnh vực hoặc cặp từ đồng nghĩa mới.
-"""
-from typing import Optional, List
-SYNONYM_MAP = {
+logger = logging.getLogger(__name__)
+
+# ==============================================================================
+# TỪ ĐIỂN ĐỒNG NGHĨA (SYNONYM MAP)
+# ==============================================================================
+
+# Cấu trúc: "thuật ngữ thông tục": "thuật ngữ pháp lý tương ứng"
+# Key là tiếng thường, value là tiếng pháp lý.
+# Mỗi lĩnh vực sẽ có một từ điển riêng.
+# utils/synonym_expander.py
+
+LEGAL_SYNONYM_MAP: Dict[str, Dict[str, str]] = {
+    # ==========================================================================
+    # LĨNH VỰC GIAO THÔNG
+    # ==========================================================================
     "giao_thong": {
-        "vượt đèn đỏ": [
-            "không chấp hành hiệu lệnh của đèn tín hiệu giao thông",
-            "vi phạm tín hiệu đèn đỏ",
-            "đi qua đèn đỏ",
-            "không dừng tại tín hiệu đèn đỏ"
-        ],
-        "phạt bao nhiêu": [
-            "mức phạt hành chính",
-            "số tiền phạt",
-            "mức xử phạt",
-            "khoản phạt"
-        ],
-        "xe máy": [
-            "mô tô",
-            "xe gắn máy",
-            "xe hai bánh có động cơ"
-        ],
-        "ô tô": [
-            "xe ô tô",
-            "xe chở người bốn bánh có động cơ",
-            "xe hơi"
-        ],
-        "chạy quá tốc độ": [
-            "vượt quá tốc độ cho phép",
-            "lái xe quá tốc độ quy định",
-            "vi phạm tốc độ tối đa"
-        ],
-        "đi ngược chiều": [
-            "đi ngược chiều trên đường một chiều",
-            "vi phạm quy tắc giao thông đường bộ về hướng đi",
-            "lái xe ngược chiều"
-        ],
-        "không đội mũ bảo hiểm": [
-            "không sử dụng mũ bảo hiểm khi điều khiển xe mô tô",
-            "vi phạm quy định về đội mũ bảo hiểm"
-        ],
-        "tước bằng lái": [
-            "tước giấy phép lái xe",
-            "bị thu hồi giấy phép lái xe",
-            "tạm giữ giấy phép lái xe"
-        ],
-        "đèn giao thông": [
-            "tín hiệu giao thông",
-            "đèn tín hiệu",
-            "hệ thống điều khiển giao thông"
-        ],
-        "đỗ xe sai chỗ": [
-            "dừng xe không đúng nơi quy định",
-            "đỗ xe trái phép",
-            "vi phạm quy định về dừng đỗ xe"
-        ],
-        "uống rượu bia lái xe": [
-            "điều khiển phương tiện có nồng độ cồn vượt mức cho phép",
-            "lái xe trong tình trạng có cồn",
-            "vi phạm quy định về nồng độ cồn"
-        ]
+        # Hành vi vi phạm
+        "vượt đèn đỏ": "không chấp hành hiệu lệnh của đèn tín hiệu giao thông",
+        "uống rượu bia lái xe": "điều khiển xe trên đường mà trong máu hoặc hơi thở có nồng độ cồn",
+        "thổi nồng độ cồn": "kiểm tra nồng độ cồn",
+        "chạy quá tốc độ": "điều khiển xe chạy quá tốc độ quy định",
+        "đi ngược chiều": "đi ngược chiều của đường một chiều, đi ngược chiều trên đường có biển “Cấm đi ngược chiều”",
+        "không đội mũ bảo hiểm": "không đội “mũ bảo hiểm cho người đi mô tô, xe máy” hoặc đội “mũ bảo hiểm cho người đi mô tô, xe máy” không cài quai đúng quy cách",
+        "sử dụng điện thoại khi lái xe": "dùng tay sử dụng điện thoại di động khi đang điều khiển xe",
+        "lấn làn": "đi không đúng phần đường hoặc làn đường quy định",
+        "không có bằng lái": "không có Giấy phép lái xe",
+        "không có bảo hiểm xe": "không có Giấy chứng nhận bảo hiểm trách nhiệm dân sự của chủ xe cơ giới",
+
+        # Đối tượng
+        "xe máy": "xe mô tô, xe gắn máy",
+        "ô tô": "xe ô tô",
+        "xe hơi": "xe ô tô",
+
+        # Giấy tờ & Thủ tục
+        "bằng lái xe": "giấy phép lái xe",
+        "gplx": "giấy phép lái xe",
+        "đăng kiểm": "kiểm định an toàn kỹ thuật và bảo vệ môi trường",
+        "phạt nguội": "xử phạt vi phạm hành chính được phát hiện thông qua phương tiện, thiết bị kỹ thuật nghiệp vụ",
+        "sang tên xe": "thủ tục đăng ký sang tên xe",
     },
-    "hanh_chinh": {
-        "đăng ký hộ khẩu": [
-            "đăng ký thường trú",
-            "đăng ký hộ khẩu thường trú",
-            "thủ tục nhập khẩu"
-        ],
-        "chứng minh nhân dân": [
-            "căn cước công dân",
-            "thẻ căn cước",
-            "giấy chứng minh nhân dân"
-        ],
-        "phạt hành chính": [
-            "xử phạt vi phạm hành chính",
-            "mức phạt hành chính",
-            "khoản phạt hành chính"
-        ],
-        "khiếu nại": [
-            "khiếu nại hành chính",
-            "đơn khiếu nại",
-            "yêu cầu giải quyết tranh chấp hành chính"
-        ],
-        "đăng ký tạm trú": [
-            "đăng ký tạm trú tại địa phương",
-            "thủ tục khai báo tạm trú",
-            "đăng ký nơi ở tạm thời"
-        ],
-        "cấp giấy phép": [
-            "cấp phép hành chính",
-            "giấy phép hoạt động",
-            "thủ tục cấp phép"
-        ]
+
+    # ==========================================================================
+    # LĨNH VỰC HÔN NHÂN & GIA ĐÌNH
+    # ==========================================================================
+    "hon_nhan_gia_dinh": {
+        "ly dị": "ly hôn",
+        "ly dị đơn phương": "ly hôn theo yêu cầu của một bên",
+        "ly dị thuận tình": "thuận tình ly hôn",
+        "giành quyền nuôi con": "tranh chấp về quyền trực tiếp nuôi con sau khi ly hôn",
+        "tiền cấp dưỡng": "nghĩa vụ cấp dưỡng",
+        "độ tuổi kết hôn": "điều kiện về độ tuổi kết hôn",
+        "đăng ký kết hôn": "thủ tục đăng ký kết hôn",
+        "tài sản chung": "chế độ tài sản của vợ chồng",
+        "chia tài sản": "chia tài sản chung trong thời kỳ hôn nhân hoặc khi ly hôn",
     },
-    "thue": {
-        "thuế thu nhập": [
-            "thuế thu nhập cá nhân",
-            "thuế TNCN",
-            "thuế đối với thu nhập cá nhân"
-        ],
-        "trốn thuế": [
-            "gian lận thuế",
-            "trốn tránh nghĩa vụ thuế",
-            "vi phạm quy định về nộp thuế"
-        ],
-        "thuế VAT": [
-            "thuế giá trị gia tăng",
-            "thuế GTGT",
-            "thuế đối với hàng hóa và dịch vụ"
-        ],
-        "miễn thuế": [
-            "miễn giảm thuế",
-            "ưu đãi thuế",
-            "không phải nộp thuế"
-        ],
-        "khấu trừ thuế": [
-            "khấu trừ thuế tại nguồn",
-            "trừ thuế trước khi trả",
-            "giảm trừ thuế"
-        ]
-    },
-    "lao_dong": {
-        "nghỉ thai sản": [
-            "chế độ thai sản",
-            "nghỉ sinh con",
-            "trợ cấp thai sản"
-        ],
-        "sa thải": [
-            "chấm dứt hợp đồng lao động",
-            "cho thôi việc",
-            "kỷ luật sa thải"
-        ],
-        "bảo hiểm xã hội": [
-            "bảo hiểm xã hội bắt buộc",
-            "BHXH",
-            "chế độ bảo hiểm xã hội"
-        ],
-        "lương tối thiểu": [
-            "mức lương tối thiểu vùng",
-            "lương cơ bản tối thiểu",
-            "mức lương thấp nhất"
-        ],
-        "hợp đồng lao động": [
-            "hợp đồng làm việc",
-            "thỏa thuận lao động",
-            "hợp đồng công việc"
-        ],
-        "ngày nghỉ phép": [
-            "nghỉ phép năm",
-            "ngày nghỉ có hưởng lương",
-            "chế độ nghỉ phép"
-        ]
-    },
-    "doanh_nghiep": {
-        "đăng ký kinh doanh": [
-            "đăng ký doanh nghiệp",
-            "thành lập công ty",
-            "giấy phép kinh doanh"
-        ],
-        "phá sản": [
-            "tuyên bố phá sản",
-            "giải thể doanh nghiệp",
-            "không có khả năng thanh toán nợ"
-        ],
-        "cổ phần hóa": [
-            "chuyển đổi thành công ty cổ phần",
-            "tư nhân hóa doanh nghiệp",
-            "phát hành cổ phần"
-        ],
-        "hợp đồng thương mại": [
-            "hợp đồng kinh doanh",
-            "thỏa thuận thương mại",
-            "giao dịch kinh doanh"
-        ],
-        "giải thể công ty": [
-            "chấm dứt hoạt động doanh nghiệp",
-            "đóng cửa công ty",
-            "thủ tục giải thể"
-        ]
-    },
+
+    # ==========================================================================
+    # LĨNH VỰC ĐẤT ĐAI & NHÀ Ở
+    # ==========================================================================
     "dat_dai": {
-        "sổ đỏ": [
-            "giấy chứng nhận quyền sử dụng đất",
-            "sổ hồng",
-            "giấy chứng nhận quyền sở hữu nhà ở và đất"
-        ],
-        "chuyển nhượng đất": [
-            "chuyển nhượng quyền sử dụng đất",
-            "mua bán đất đai",
-            "sang nhượng đất"
-        ],
-        "tranh chấp đất đai": [
-            "tranh chấp quyền sử dụng đất",
-            "mâu thuẫn đất đai",
-            "khiếu kiện về đất"
-        ],
-        "thu hồi đất": [
-            "nhà nước thu hồi đất",
-            "cưỡng chế đất đai",
-            "đền bù đất bị thu hồi"
-        ],
-        "cấp sổ đỏ": [
-            "cấp giấy chứng nhận quyền sử dụng đất",
-            "thủ tục cấp sổ đỏ",
-            "đăng ký quyền sử dụng đất"
-        ]
+        "làm sổ đỏ": "thủ tục cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất",
+        "sổ đỏ": "Giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất",
+        "sổ hồng": "Giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất",
+        "đền bù đất": "bồi thường, hỗ trợ, tái định cư khi Nhà nước thu hồi đất",
+        "thu hồi đất": "trường hợp Nhà nước thu hồi đất",
+        "tranh chấp đất đai": "giải quyết tranh chấp đất đai",
+        "mua bán đất": "chuyển nhượng quyền sử dụng đất",
+        "tách thửa": "thủ tục tách thửa đất",
     },
-    "hon_nhan": {
-        "ly hôn": [
-            "chấm dứt hôn nhân",
-            "giải quyết ly hôn",
-            "ly hôn theo pháp luật"
-        ],
-        "chia tài sản": [
-            "phân chia tài sản chung",
-            "giải quyết tài sản sau ly hôn",
-            "phân chia tài sản hôn nhân"
-        ],
-        "nuôi con": [
-            "quyền nuôi con",
-            "trách nhiệm nuôi dưỡng con",
-            "chăm sóc con sau ly hôn"
-        ],
-        "kết hôn": [
-            "đăng ký kết hôn",
-            "thủ tục kết hôn",
-            "hôn nhân hợp pháp"
-        ],
-        "bạo lực gia đình": [
-            "hành vi bạo lực gia đình",
-            "bạo hành trong gia đình",
-            "vi phạm pháp luật về bạo lực gia đình"
-        ]
+
+    # ==========================================================================
+    # LĨNH VỰC LAO ĐỘNG
+    # ==========================================================================
+    "lao_dong": {
+        "hợp đồng lao động": "hợp đồng lao động",
+        "hđlđ": "hợp đồng lao động",
+        "thử việc": "hợp đồng thử việc",
+        "bị đuổi việc": "xử lý kỷ luật sa thải hoặc đơn phương chấm dứt hợp đồng lao động",
+        "đòi lương": "tranh chấp lao động về tiền lương",
+        "bảo hiểm xã hội": "chế độ bảo hiểm xã hội",
+        "bhxh": "bảo hiểm xã hội",
+        "thất nghiệp": "bảo hiểm thất nghiệp",
     },
+
+    # ==========================================================================
+    # LĨNH VỰC HÌNH SỰ
+    # ==========================================================================
     "hinh_su": {
-        "trộm cắp": [
-            "chiếm đoạt tài sản",
-            "trộm cắp tài sản",
-            "vi phạm điều luật về chiếm đoạt"
-        ],
-        "giết người": [
-            "tội giết người",
-            "cố ý gây tử vong",
-            "vi phạm điều luật về tính mạng"
-        ],
-        "lừa đảo": [
-            "lừa đảo chiếm đoạt tài sản",
-            "gian lận tài sản",
-            "tội lừa đảo"
-        ],
-        "tham nhũng": [
-            "tham ô tài sản",
-            "lạm dụng chức vụ quyền hạn",
-            "tội tham nhũng"
-        ],
-        "ma túy": [
-            "buôn bán ma túy",
-            "tàng trữ chất ma túy",
-            "vi phạm pháp luật về ma túy"
-        ]
+        "tự thú": "tự thú, đầu thú",
+        "bị bắt": "bị bắt, tạm giữ, tạm giam",
+        "tại ngoại": "biện pháp ngăn chặn tại ngoại, cấm đi khỏi nơi cư trú",
+        "án treo": "hưởng án treo",
+        "xóa án tích": "điều kiện xóa án tích",
     },
-    "dan_su": {
-        "hợp đồng": [
-            "hợp đồng dân sự",
-            "thỏa thuận dân sự",
-            "giao dịch dân sự"
-        ],
-        "bồi thường": [
-            "bồi thường thiệt hại",
-            "trách nhiệm bồi thường",
-            "đền bù thiệt hại"
-        ],
-        "nợ": [
-            "khoản vay",
-            "nghĩa vụ trả nợ",
-            "nợ dân sự"
-        ],
-        "tranh chấp hợp đồng": [
-            "mâu thuẫn hợp đồng",
-            "tranh chấp giao dịch dân sự",
-            "khiếu kiện hợp đồng"
-        ],
-        "thừa kế": [
-            "phân chia di sản thừa kế",
-            "quyền thừa kế",
-            "di chúc hợp pháp"
-        ]
+
+    # ==========================================================================
+    # LĨNH VỰC DOANH NGHIỆP
+    # ==========================================================================
+    "doanh_nghiep": {
+        "mở công ty": "thủ tục thành lập doanh nghiệp",
+        "đăng ký kinh doanh": "đăng ký doanh nghiệp",
+        "giải thể công ty": "thủ tục giải thể doanh nghiệp",
+        "phá sản": "thủ tục phá sản doanh nghiệp",
     },
-    "moi_truong": {
-        "ô nhiễm": [
-            "gây ô nhiễm môi trường",
-            "vi phạm quy định về bảo vệ môi trường",
-            "ô nhiễm nguồn nước"
-        ],
-        "xử lý rác thải": [
-            "quản lý chất thải",
-            "xử lý rác thải sinh hoạt",
-            "vi phạm quy định về chất thải"
-        ],
-        "phạt môi trường": [
-            "xử phạt vi phạm về môi trường",
-            "mức phạt môi trường",
-            "khoản phạt bảo vệ môi trường"
-        ],
-        "bảo vệ môi trường": [
-            "tuân thủ quy định bảo vệ môi trường",
-            "trách nhiệm bảo vệ môi trường",
-            "chính sách môi trường"
-        ]
-    },
-    "y_te": {
-        "khám bệnh": [
-            "khám chữa bệnh",
-            "dịch vụ y tế",
-            "chăm sóc sức khỏe"
-        ],
-        "bảo hiểm y tế": [
-            "bảo hiểm y tế bắt buộc",
-            "BHYT",
-            "chế độ bảo hiểm y tế"
-        ],
-        "sai sót y khoa": [
-            "sai phạm trong khám chữa bệnh",
-            "lỗi y khoa",
-            "vi phạm quy định y tế"
-        ],
-        "vắc xin": [
-            "tiêm chủng",
-            "chương trình vắc xin",
-            "phòng ngừa bệnh bằng vắc xin"
-        ]
-    },
-    "giao_duc": {
-        "học phí": [
-            "mức học phí",
-            "chi phí học tập",
-            "phí giáo dục"
-        ],
-        "trường công": [
-            "trường học công lập",
-            "cơ sở giáo dục công lập",
-            "trường nhà nước"
-        ],
-        "miễn học phí": [
-            "miễn giảm học phí",
-            "hỗ trợ học phí",
-            "miễn phí giáo dục"
-        ],
-        "kỷ luật học sinh": [
-            "xử lý vi phạm học sinh",
-            "kỷ luật trong trường học",
-            "quy định về hành vi học sinh"
-        ]
-    },
-    "xay_dung": {
-        "giấy phép xây dựng": [
-            "cấp phép xây dựng",
-            "giấy phép thi công",
-            "thủ tục cấp phép xây dựng"
-        ],
-        "xây nhà không phép": [
-            "xây dựng không có giấy phép",
-            "vi phạm quy định về xây dựng",
-            "xây dựng trái phép"
-        ],
-        "quy hoạch": [
-            "quy hoạch đô thị",
-            "kế hoạch sử dụng đất",
-            "quy hoạch xây dựng"
-        ],
-        "an toàn xây dựng": [
-            "quy định an toàn thi công",
-            "bảo đảm an toàn xây dựng",
-            "vi phạm an toàn công trình"
-        ]
-    },
-    "thuong_mai": {
-        "mua bán hàng hóa": [
-            "giao dịch thương mại",
-            "mua bán hàng hóa",
-            "hợp đồng mua bán"
-        ],
-        "xuất nhập khẩu": [
-            "hoạt động xuất nhập khẩu",
-            "thương mại quốc tế",
-            "giao dịch xuất nhập khẩu"
-        ],
-        "cạnh tranh không lành mạnh": [
-            "vi phạm quy định về cạnh tranh",
-            "hành vi cạnh tranh không lành mạnh",
-            "lạm dụng vị trí cạnh tranh"
-        ],
-        "bảo vệ người tiêu dùng": [
-            "quyền lợi người tiêu dùng",
-            "bảo vệ lợi ích người mua",
-            "luật bảo vệ người tiêu dùng"
-        ]
-    },
-    "cong_nghe": {
-        "bảo mật dữ liệu": [
-            "bảo vệ dữ liệu cá nhân",
-            "an ninh dữ liệu",
-            "quy định về bảo mật thông tin"
-        ],
-        "tội phạm mạng": [
-            "tội phạm công nghệ cao",
-            "hành vi xâm phạm hệ thống mạng",
-            "vi phạm pháp luật về công nghệ"
-        ],
-        "sở hữu trí tuệ": [
-            "quyền sở hữu trí tuệ",
-            "bản quyền",
-            "sáng chế và nhãn hiệu"
-        ],
-        "phần mềm lậu": [
-            "sử dụng phần mềm không có bản quyền",
-            "vi phạm quyền sở hữu trí tuệ",
-            "phần mềm bất hợp pháp"
-        ]
-    },
-    "general": { # Từ đồng nghĩa chung, không phụ thuộc lĩnh vực
-        "quy định": ["nội dung quy định", "quy tắc", "điều khoản"],
-        "như thế nào": ["ra sao", "cụ thể là gì"],
+
+    # ==========================================================================
+    # THUẬT NGỮ CHUNG (GENERAL)
+    # ==========================================================================
+    "general": {
+        # Câu hỏi về mức phạt
+        "phạt bao nhiêu tiền": "mức xử phạt hành chính là bao nhiêu",
+        "phạt bao nhiêu": "mức xử phạt",
+        "bị phạt gì": "hình thức xử phạt",
+        "mức phạt": "mức xử phạt",
+
+        # Câu hỏi về thủ tục, giấy tờ
+        "cần giấy tờ gì": "hồ sơ bao gồm những giấy tờ gì",
+        "thủ tục như thế nào": "trình tự, thủ tục thực hiện như thế nào",
+        "làm thế nào": "cách thức thực hiện",
+        "phải làm sao": "quy trình giải quyết như thế nào",
+        "nộp đơn ở đâu": "thẩm quyền giải quyết của cơ quan nào",
+
+        # Câu hỏi về định nghĩa
+        "là gì": "được định nghĩa như thế nào",
+        "được hiểu là gì": "được hiểu như thế nào",
+
+        # Câu hỏi về điều kiện, quyền lợi
+        "khi nào thì được": "điều kiện để được",
+        "có được không": "có được phép hay không",
+        "ai được": "đối tượng nào được hưởng",
     }
 }
 
-def get_synonyms(field, term):
+
+# ==============================================================================
+# HÀM LOGIC ĐỂ VIẾT LẠI CÂU HỎI
+# ==============================================================================
+
+def rewrite_query_with_legal_synonyms(query: str, field: Optional[str] = None) -> str:
     """
-    Lấy danh sách từ đồng nghĩa cho một từ/cụm từ trong lĩnh vực cụ thể.
-
-    Args:
-        field (str): Lĩnh vực pháp luật (ví dụ: 'giao_thong', 'hanh_chinh').
-        term (str): Từ/cụm từ cần tìm đồng nghĩa.
-
-    Returns:
-        list: Danh sách các từ/cụm từ đồng nghĩa, hoặc [] nếu không tìm thấy.
+    CẢI TIẾN V2: Đảm bảo thay thế hoạt động.
     """
-    return SYNONYM_MAP.get(field, {}).get(term.lower(), [])
+    rewritten_query = query
 
-def get_synonyms_for_term(term: str, field: Optional[str] = None) -> List[str]:
-    """
-    Lấy danh sách từ đồng nghĩa cho một từ/cụm từ, có thể ưu tiên theo lĩnh vực.
-    """
-    term_lower = term.lower()
-    synonyms = []
+    keys_to_check = []
+    keys_to_check.extend(LEGAL_SYNONYM_MAP.get("general", {}).items())
+    if field and field in LEGAL_SYNONYM_MAP:
+        keys_to_check.extend(LEGAL_SYNONYM_MAP[field].items())
 
-    # Ưu tiên lấy từ đồng nghĩa theo lĩnh vực cụ thể
-    if field and field in SYNONYM_MAP:
-        synonyms.extend(SYNONYM_MAP[field].get(term_lower, []))
+    # Sắp xếp theo độ dài key giảm dần
+    sorted_items = sorted(keys_to_check, key=lambda item: len(item[0]), reverse=True)
 
-    # Lấy thêm từ đồng nghĩa chung
-    synonyms.extend(SYNONYM_MAP.get("general", {}).get(term_lower, []))
+    for colloquial_term, legal_term in sorted_items:
+        # Sử dụng re.sub với cờ IGNORECASE để thay thế không phân biệt hoa thường
+        # `\b` đảm bảo chỉ khớp toàn bộ từ/cụm từ
+        pattern = r'\b' + re.escape(colloquial_term) + r'\b'
+        # re.sub sẽ tự động tìm và thay thế, không cần `re.search` trước
+        new_query, count = re.subn(pattern, legal_term, rewritten_query, flags=re.IGNORECASE)
+        if count > 0:
+            logger.info(f"Query Rewriting: Replaced '{colloquial_term}' with '{legal_term}'")
+            rewritten_query = new_query
 
-    # Loại bỏ trùng lặp nếu có
-    return list(set(synonyms))
+    return rewritten_query

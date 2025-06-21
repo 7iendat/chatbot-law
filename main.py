@@ -10,6 +10,8 @@ from routers.documents import router as docs_router
 from routers.health_check import router as health_router
 from dependencies import initialize_api_components
 import logging
+from starlette.middleware.sessions import SessionMiddleware
+import os
 import traceback
 from core.logging_config import setup_logging
 setup_logging()
@@ -53,10 +55,17 @@ async def lifespan(app: FastAPI):
             logger.warning("⚠️ [Lifespan] Skipping resource cleanup due to startup failure.")
 
 app = FastAPI(
-    title="Chatbot Hỏi Đáp Luật Việt Nam",
+    title="JuriBot API",
     version="1.2.0",
     lifespan=lifespan
 )
+
+
+app.add_middleware(
+    SessionMiddleware,
+    secret_key=os.environ.get("SESSION_SECRET_KEY", "a_very_secret_key_for_development")
+)
+
 
 # Cấu hình CORS (áp dụng cho tất cả các route của app chính)
 app.add_middleware(
@@ -79,6 +88,8 @@ if __name__ == "__main__":
     uvicorn.run(
         "main:app", # Đảm bảo "main" là tên file python của bạn
         host=config.API_HOST if hasattr(config, 'API_HOST') else "0.0.0.0",
-        port=int(config.API_PORT) if hasattr(config, 'API_PORT') else 8000,
-        reload=True # reload=True chỉ nên dùng cho development
+        port=int(config.API_PORT) if hasattr(config, 'API_PORT') else 5000,
+        reload=True, # reload=True chỉ nên dùng cho development
+        timeout_keep_alive=120, # Tăng thời gian giữ kết nối
+        log_level="info" # Hoặc "debug" nếu bạn muốn nhiều thông tin hơn
     )

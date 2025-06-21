@@ -14,6 +14,7 @@ class AppState(BaseModel):
     redis: Optional[Any] = None
     retriever: Optional[Any] = None
     weaviateDB: Optional[Any] = None
+    reranker: Optional[Any] = None
 
 class QueryRequest(BaseModel):
     chat_id: str

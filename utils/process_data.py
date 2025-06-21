@@ -1,6 +1,6 @@
 import re
 import os
-from typing import List, Dict, Optional, Tuple, Union
+from typing import List, Dict, Optional, Tuple, Union,Any
 import logging
 from tqdm import tqdm
 import uuid
@@ -39,8 +39,8 @@ def filter_and_serialize_complex_metadata(documents: List[Document]) -> List[Doc
 
 # Các hằng số
 LEGAL_DOC_TYPES = ["Luật", "Bộ luật", "Nghị định", "Thông tư", "Quyết định", "Pháp lệnh", "Nghị quyết", "Chỉ thị", "Hiến pháp"]
-MAX_CHUNK_SIZE = 2500  # Kích thước tối đa cho một chunk trước khi bị chia nhỏ hơn
-CHUNK_OVERLAP = 200    # Độ chồng lấn khi chia nhỏ chunk quá lớn
+MAX_CHUNK_SIZE = 3000  # Kích thước tối đa cho một chunk trước khi bị chia nhỏ hơn
+CHUNK_OVERLAP = 300    # Độ chồng lấn khi chia nhỏ chunk quá lớn
 
 class SimpleTextSplitter:
     """Một text splitter đơn giản để chia nhỏ các chunk quá lớn."""
@@ -51,8 +51,11 @@ class SimpleTextSplitter:
     def split_text(self, text: str) -> List[str]:
         if not text: return []
         chunks = []
-        for i in range(0, len(text), self.chunk_size - self.chunk_overlap):
-            chunks.append(text[i : i + self.chunk_size])
+        start = 0
+        while start < len(text):
+            end = start + self.chunk_size
+            chunks.append(text[start:end])
+            start += self.chunk_size - self.chunk_overlap
         return chunks
 
 base_text_splitter = SimpleTextSplitter(chunk_size=MAX_CHUNK_SIZE, chunk_overlap=CHUNK_OVERLAP)
@@ -65,7 +68,7 @@ def generate_structured_id(doc_so_hieu: Optional[str], structure_path: List[str]
     # Ưu tiên so_hieu, nhưng fallback về filename để tránh "unknown-document"
     base_id = doc_so_hieu if doc_so_hieu else filename
     safe_base_id = re.sub(r'[/\s\.]', '-', base_id) # Thay thế các ký tự không an toàn
-    path_str = '_'.join(structure_path)
+    path_str = '_'.join(filter(None, structure_path))
 
     # Đảm bảo unique_string_id khác nhau cho mỗi file
     unique_string_id = f"{safe_base_id}_{path_str}"
@@ -101,238 +104,111 @@ def general_ocr_corrections(text: str) -> str:
     text = re.sub(r"\s+", " ", text)
     return text.strip()
 
-def clean_document_text(text: str) -> str:
-    """Làm sạch văn bản, loại bỏ header, footer, nhiễu."""
-    # Giữ lại phần đầu có thể chứa metadata quan trọng cho extract_document_metadata
-    # Chỉ loại bỏ các phần header/footer rõ ràng và nhiễu chung
-    text_lines = text.splitlines()
+### HÀM 1: CLEAN_DOCUMENT_TEXT (Cải tiến) ###
+def clean_document_text(raw_text: str) -> str:
+    """
+    Làm sạch văn bản luật một cách an toàn, giữ lại cấu trúc cột ở phần đầu
+    và loại bỏ nhiễu một cách có mục tiêu.
+    """
+    if not raw_text: return ""
+    lines = raw_text.splitlines()
 
-    # Tìm điểm bắt đầu của nội dung chính (sau metadata đầu văn bản)
-    start_content_index = 0
-    for i, line in enumerate(text_lines):
-        # Các dấu hiệu kết thúc phần metadata đầu văn bản và bắt đầu nội dung chính
-        if re.match(r"^\s*(?:PHẦN CHUNG|LỜI NÓI ĐẦU|Chương\s+[IVXLCDM]+|Điều\s+1)", line, re.IGNORECASE):
-            start_content_index = i
+    noise_patterns_to_remove = re.compile(
+        r"|".join([
+            r"LuatVietnam(?:\.vn)?", r"Tiện ích văn bản luật", r"www\.vanbanluat\.vn",
+            r"Hotline:", r"Email:", r"Cơ sở dữ liệu văn bản pháp luật",
+            r"Trang \d+\s*/\s*\d+", r"^\s*[=\-_*#]+\s*$", r"^\s*\[\s*Hình\s*ảnh\s*]\s*$",
+        ]), re.IGNORECASE
+    )
+    footer_keywords = ["Nơi nhận:", "TM. CHÍNH PHỦ", "TM. BAN BÍ THƯ", "KT. BỘ TRƯỞNG", "TL. BỘ TRƯỞNG", "CHỦ TỊCH QUỐC HỘI"]
+
+    footer_start_index = len(lines)
+    for i, line in enumerate(lines):
+        line_upper = line.strip().upper()
+        if any(keyword.upper() in line_upper for keyword in footer_keywords):
+            if "CHỦ TỊCH" in line_upper and i < len(lines) / 2 and "NƯỚC" in line_upper: continue
+            footer_start_index = i
             break
-        # Hoặc sau các dòng "Căn cứ...", "Theo đề nghị..."
-        if line.strip().lower().startswith(("căn cứ", "theo đề nghị của")):
-             # Tìm dòng trống hoặc dòng cấu trúc tiếp theo làm điểm bắt đầu
-            for j in range(i + 1, len(text_lines)):
-                if not text_lines[j].strip() or \
-                   re.match(r"^\s*(?:PHẦN CHUNG|LỜI NÓI ĐẦU|Chương\s+[IVXLCDM]+|Điều\s+1)", text_lines[j], re.IGNORECASE):
-                    start_content_index = j
-                    break
-            else: # Nếu không tìm thấy, dùng dòng ngay sau "Căn cứ"
-                start_content_index = i + 1
-            break
 
-    head_section_to_keep = "\n".join(text_lines[:start_content_index])
-    main_content_and_footer = "\n".join(text_lines[start_content_index:])
+    lines_before_footer = lines[:footer_start_index]
 
-    # Loại bỏ footer (Nơi nhận, chữ ký) từ phần main_content_and_footer
-    cleaned_main_content = re.sub(r"Nơi nhận:[\s\S]*?(?:TM\.\s*CHÍNH PHỦ|TM\.\s*BAN BÍ THƯ|CHỦ TỊCH QUỐC HỘI|THỦ TƯỚNG)[\s\S]*$", "", main_content_and_footer, flags=re.MULTILINE | re.IGNORECASE)
-    cleaned_main_content = re.sub(r"\s*\(Đã ký\)\s*$", "", cleaned_main_content, flags=re.MULTILINE | re.IGNORECASE)
-    cleaned_main_content = re.sub(r"^\s*[A-ZÀ-Ỹ\s]{5,}\s*$", "", cleaned_main_content, flags=re.MULTILINE) # Loại bỏ tên người ký nếu nó đứng một mình, viết hoa
-
-    # Nối lại phần đầu và phần nội dung đã làm sạch footer
-    text = head_section_to_keep + "\n" + cleaned_main_content
-
-    # Loại bỏ các dòng nhiễu chung của LuatVietnam và các dòng trống
-    lines = text.splitlines()
     cleaned_lines = []
-    luatvn_noise_patterns = [
-        r"^\s*LuatVietnam(?:\.vn)?.*$",
-        r"^\s*Tiện ích văn bản luật\s*$",
-        r"^\s*www\.vanbanluat\.vn\s*$",
-        r"^\s*\[\s*Hình\s*ảnh\s*]\s*$",
-        r"^[=*_\-]{5,}$",
-        r"^\s*Trang \d+ / \d+\s*$",
-        r"^\s*LuatVietnam\.vn\s+Luật Việt Nam\s+Cơ sở dữ liệu văn bản pháp luật lớn nhất Việt Nam.*$", # Các dòng quảng cáo
-        r"^\s*Hotline:\s*\d{4}\.\d{3}\.\d{3}.*Email:.*",
-        r"^\s*Đặt mua văn bản gốc.*",
-    ]
-    luatvn_noise_regex = [re.compile(pat, flags=re.IGNORECASE) for pat in luatvn_noise_patterns]
+    for line in lines_before_footer:
+        if noise_patterns_to_remove.search(line): continue
+        stripped_line = line.strip()
+        if not stripped_line: continue
+        cleaned_lines.append(stripped_line)
+
+    text = "\n".join(cleaned_lines)
+    text = general_ocr_corrections(text)
+    text = re.sub(r"\n{3,}", "\n\n", text).strip()
+    return text
+
+def extract_document_metadata(raw_text: str, filename: str) -> Dict[str, Any]:
+    """Trích xuất metadata, xử lý tốt định dạng 2 cột."""
+    metadata: Dict[str, Any] = { "so_hieu": None, "loai_van_ban": None, "ten_van_ban": None, "ngay_ban_hanh_str": None, "nam_ban_hanh": None, "co_quan_ban_hanh": None, "ngay_hieu_luc_str": None }
+    lines = raw_text.splitlines()[:50]
+
+    found_doc_type = False
+    is_capturing_title = False
+    title_lines = []
 
     for line in lines:
         stripped_line = line.strip()
         if not stripped_line:
+            is_capturing_title = False
             continue
-        if any(regex.match(stripped_line) for regex in luatvn_noise_regex):
-            continue
-        cleaned_lines.append(stripped_line)
 
-    cleaned_text = "\n".join(cleaned_lines)
-    cleaned_text = general_ocr_corrections(cleaned_text)
-    cleaned_text = re.sub(r"\n{3,}", "\n\n", cleaned_text)
-    return cleaned_text.strip()
-
-def extract_document_metadata(raw_text: str, filename: str) -> Dict[str, Optional[Union[str, int]]]:
-    """Trích xuất metadata từ raw_text (số hiệu, loại, tên, ngày/năm, cơ quan ban hành)."""
-    metadata: Dict[str, Optional[Union[str, int]]] = {
-        "so_hieu": None, "loai_van_ban": None, "ten_van_ban": None,
-        "ngay_ban_hanh_str": None, "nam_ban_hanh": None,
-        "co_quan_ban_hanh": None, "ngay_hieu_luc_str": None,
-    }
-    # Phân tích ~30 dòng đầu hoặc 2500 ký tự đầu của raw_text
-    head_text_lines = raw_text.splitlines()[:30]
-    head_text = "\n".join(head_text_lines)
-    if len(head_text) > 2500:
-        head_text = head_text[:2500]
-
-    head_text = general_ocr_corrections(head_text) # Sửa lỗi OCR cho phần đầu trước khi trích xuất
-
-    # 1. Cơ quan ban hành (Thường ở đầu tiên)
-    issuing_body_patterns = [
-        r"^\s*(CHÍNH PHỦ)", r"^\s*(QUỐC HỘI)", r"^\s*(BỘ TRƯỞNG\s+BỘ\s+[\w\sÀ-Ỹà-ỹ]+)",
-        r"^\s*(THỦ TƯỚNG\s+CHÍNH PHỦ)", r"^\s*(CHỦ TỊCH\s+NƯỚC)",
-        r"^\s*(HỘI ĐỒNG THẨM PHÁN TOÀ ÁN NHÂN DÂN TỐI CAO)", r"^\s*(ỦY BAN THƯỜNG VỤ QUỐC HỘI)"
-    ]
-    for pattern in issuing_body_patterns:
-        match = re.search(pattern, head_text, re.MULTILINE | re.IGNORECASE)
-        if match:
-            metadata["co_quan_ban_hanh"] = match.group(1).strip().upper()
-            break
-
-    # 2. Số hiệu
-    so_hieu_match = re.search(r"Số\s*:\s*([\w\d/.-]+(?:-\w+/\w+-\w+)?(?:/\w+-\w+)?)\s*(?:\n|\r)", head_text, re.IGNORECASE)
-    if so_hieu_match:
-        metadata["so_hieu"] = so_hieu_match.group(1).strip()
-
-    # 3. Ngày ban hành và Năm ban hành
-    date_location_patterns = [
-        r"(?:Hà Nội|[\w\s.]+),\s*ngày\s*(\d{1,2})\s*tháng\s*(\d{1,2})\s*năm\s*(\d{4})",
-        r"ngày\s*(\d{1,2})\s*tháng\s*(\d{1,2})\s*năm\s*(\d{4})"
-    ]
-    found_date = False
-    if metadata["so_hieu"]:
-        idx_so_hieu = head_text.find(str(metadata["so_hieu"]))
-        if idx_so_hieu != -1:
-            search_area = head_text[idx_so_hieu : min(len(head_text), idx_so_hieu + 250)] # Mở rộng search area
-            for pattern in date_location_patterns:
-                date_match = re.search(pattern, search_area, re.IGNORECASE)
-                if date_match:
-                    day, month, year = date_match.groups()[-3:]
+        parts = re.split(r'\s{3,}', stripped_line)
+        if len(parts) >= 2:
+            left, right = parts[0], parts[-1]
+            if any(kw in left.upper() for kw in ["CHÍNH PHỦ", "QUỐC HỘI", "BỘ"]): metadata["co_quan_ban_hanh"] = left.strip().upper()
+            if "số:" in left.lower():
+                if m := re.search(r"([\w\d/.-]+(?:-[\w\d/.-]+)?)", left): metadata["so_hieu"] = m.group(1).strip()
+                if m := re.search(r"ngày\s*(\d{1,2})\s*tháng\s*(\d{1,2})\s*năm\s*(\d{4})", right, re.I):
+                    day, month, year = m.groups()
                     metadata["ngay_ban_hanh_str"] = f"ngày {day} tháng {month} năm {year}"
                     metadata["nam_ban_hanh"] = int(year)
-                    found_date = True
-                    break
-    if not found_date:
-        for pattern in date_location_patterns:
-            date_match = re.search(pattern, head_text, re.IGNORECASE)
-            if date_match:
-                day, month, year = date_match.groups()[-3:]
-                metadata["ngay_ban_hanh_str"] = f"ngày {day} tháng {month} năm {year}"
-                metadata["nam_ban_hanh"] = int(year)
-                break
 
-    if not metadata["nam_ban_hanh"] and metadata["so_hieu"]:
-        year_match_in_so_hieu = re.search(r"/(\d{4})/", str(metadata["so_hieu"])) or \
-                                re.search(r"-(\d{4})-", str(metadata["so_hieu"]))
-        if year_match_in_so_hieu: metadata["nam_ban_hanh"] = int(year_match_in_so_hieu.group(1))
+        doc_type_pattern = r"^(" + "|".join(LEGAL_DOC_TYPES) + ")$"
+        if not found_doc_type and (m := re.fullmatch(doc_type_pattern, stripped_line, re.IGNORECASE)):
+            metadata["loai_van_ban"] = m.group(1).strip().upper()
+            found_doc_type = True
+            is_capturing_title = True
+            continue
+
+        if is_capturing_title:
+            if stripped_line.startswith(("Căn cứ", "Chương ", "Điều ", "Phần ")) or re.match(r"^-+$", stripped_line):
+                is_capturing_title = False
+            else:
+                title_lines.append(stripped_line)
+
+    if title_lines: metadata["ten_van_ban"] = re.sub(r'\s+', ' ', " ".join(title_lines)).strip()
+
+    # 2. Fallback tìm năm ban hành từ số hiệu hoặc tên file
     if not metadata["nam_ban_hanh"]:
-        year_filename_match = re.search(r"[-_](\d{4})[-_.]", filename) # Năm trong tên file thường có gạch nối/chấm
-        if not year_filename_match: year_filename_match = re.search(r"(\d{4})", filename)
-        if year_filename_match: metadata["nam_ban_hanh"] = int(year_filename_match.group(1))
+        if metadata["so_hieu"] and (m := re.search(r"/(\d{4})/", metadata["so_hieu"])):
+            metadata["nam_ban_hanh"] = int(m.group(1))
+        elif m := re.search(r"[-_](\d{4})[-_.]", filename):
+            metadata["nam_ban_hanh"] = int(m.group(1))
 
-    # 4. Loại văn bản và Tên văn bản
-    loai_vb_ten_vb_patterns = [
-        # Pattern cho loại VB và tên VB nằm trên các dòng khác nhau hoặc cùng dòng
-        # Ưu tiên bắt cụm (LOẠI VĂN BẢN \n TÊN VĂN BẢN) hoặc (LOẠI VĂN BẢN TÊN VĂN BẢN)
-        r"^\s*(NGHỊ ĐỊNH|BỘ LUẬT|LUẬT|THÔNG TƯ|QUYẾT ĐỊNH|PHÁP LỆNH|NGHỊ QUYẾT|CHỈ THỊ)\s*\n+\s*((?:[\w\sÀ-Ỹà-ỹ\d()/'.,-]+)(?:\n[\w\sÀ-Ỹà-ỹ\d()/'.,-]+)*)\s*(?=\n(?:Căn cứ|Theo đề nghị|Chương I|PHẦN CHUNG|Điều 1)|$)",
-        r"^\s*(NGHỊ ĐỊNH|BỘ LUẬT|LUẬT|THÔNG TƯ|QUYẾT ĐỊNH|PHÁP LỆNH|NGHỊ QUYẾT|CHỈ THỊ)\s+((?:[\w\sÀ-Ỹà-ỹ\d()/'.,-]+)(?:\n[\w\sÀ-Ỹà-ỹ\d()/'.,-]+)*)\s*(?=\n(?:Căn cứ|Theo đề nghị|Chương I|PHẦN CHUNG|Điều 1)|$)"
-    ]
-    found_type_and_title = False
-    for pattern_str in loai_vb_ten_vb_patterns:
-        match = re.search(pattern_str, head_text, re.MULTILINE | re.IGNORECASE)
-        if match:
-            metadata["loai_van_ban"] = match.group(1).strip().upper()
-            raw_title = match.group(2).strip()
-            # Làm sạch tên VB: loại bỏ các dòng chỉ có gạch ngang, số hiệu (nếu lẫn vào)
-            title_lines = [line.strip() for line in raw_title.split('\n') if line.strip() and not re.match(r"^-+$", line.strip())]
-            cleaned_title = " ".join(title_lines)
-            if metadata["so_hieu"] and metadata["so_hieu"] in cleaned_title: # Loại bỏ số hiệu nếu lẫn
-                cleaned_title = cleaned_title.replace(metadata["so_hieu"], "").strip()
-            metadata["ten_van_ban"] = re.sub(r"\s+", " ", cleaned_title).strip()
-            found_type_and_title = True
-            break
+    # 3. Fallback tìm loại văn bản nếu cách trên thất bại
+    if not metadata["loai_van_ban"]:
+         for doc_type in LEGAL_DOC_TYPES:
+             if metadata["ten_van_ban"] and metadata["ten_van_ban"].upper().startswith(doc_type.upper()):
+                 metadata["loai_van_ban"] = doc_type.upper()
+                 # Loại bỏ phần loại văn bản khỏi tên
+                 metadata["ten_van_ban"] = metadata["ten_van_ban"][len(doc_type):].strip()
+                 break
 
-    # Fallback nếu không tìm được theo cụm
-    if not found_type_and_title:
-        loai_vb_simple_patterns = [
-            r"\b(NGHỊ ĐỊNH)\b", r"\b(BỘ LUẬT)\b", r"\b(LUẬT)\b",
-            r"\b(THÔNG TƯ)\b", r"\b(QUYẾT ĐỊNH)\b", r"\b(PHÁP LỆNH)\b",
-            r"\b(NGHỊ QUYẾT)\b", r"\b(CHỈ THỊ)\b"
-        ]
-        for pattern_str in loai_vb_simple_patterns:
-            loai_match = re.search(pattern_str, head_text, re.IGNORECASE)
-            if loai_match:
-                metadata["loai_van_ban"] = loai_match.group(1).upper()
-                # Thử tìm tên văn bản sau loại, trước các keyword kết thúc
-                start_search_title = loai_match.end()
-                end_title_keywords = [r"Căn cứ", r"Theo đề nghị", r"Chương\s+I", r"PHẦN CHUNG", r"LỜI NÓI ĐẦU", r"Điều\s+1"]
-                end_search_pos = len(head_text)
-                for keyword in end_title_keywords:
-                    kw_match = re.search(keyword, head_text[start_search_title:], re.IGNORECASE)
-                    if kw_match:
-                        end_search_pos = min(end_search_pos, start_search_title + kw_match.start())
-
-                title_block = head_text[start_search_title:end_search_pos].strip()
-                title_lines = [line.strip() for line in title_block.split('\n') if line.strip() and (line.isupper() or (line[0].isupper() and len(line.split()) > 1)) and not line.lower().startswith(("căn cứ", "theo đề nghị"))]
-                if title_lines:
-                    raw_title = " ".join(title_lines).strip()
-                    if metadata["so_hieu"] and metadata["so_hieu"] in raw_title:
-                        raw_title = raw_title.replace(metadata["so_hieu"], "").strip()
-                    metadata["ten_van_ban"] = re.sub(r"\s+", " ", raw_title).strip()
-                break
-
-    # 5. Ngày hiệu lực (tìm trong toàn bộ raw_text vì có thể ở cuối)
-    eff_date_text = general_ocr_corrections(raw_text[-1000:]) # Kiểm tra 1000 ký tự cuối
-    effective_date_match = re.search(r"(?:Nghị định|Luật|Thông tư)\s+này\s+có\s+hiệu\s+lực\s+(?:thi\s+hành\s+)?(?:kể\s+)?từ\s+ngày\s*(\d{1,2})\s*tháng\s*(\d{1,2})\s*năm\s*(\d{4})", eff_date_text, re.IGNORECASE)
-    if effective_date_match:
-        day, month, year = effective_date_match.groups()
+    # 4. Tìm ngày hiệu lực ở cuối văn bản
+    # (Giữ nguyên logic này vì nó thường hoạt động tốt)
+    eff_text = "\n".join(raw_text.splitlines()[-20:]) # Chỉ tìm trong 20 dòng cuối
+    if m := re.search(r"có\s+hiệu\s+lực\s+(?:thi\s+hành\s+)?kể\s+từ\s+ngày\s*(\d{1,2})\s*tháng\s*(\d{1,2})\s*năm\s*(\d{4})", eff_text, re.I):
+        day, month, year = m.groups()
         metadata["ngay_hieu_luc_str"] = f"ngày {day} tháng {month} năm {year}"
 
-    if metadata["ngay_ban_hanh_str"]:
-        metadata["ngay_ban_hanh_str"] = str(metadata["ngay_ban_hanh_str"]) # Đảm bảo là string
-    if metadata["ngay_hieu_luc_str"]:
-        metadata["ngay_hieu_luc_str"] = str(metadata["ngay_hieu_luc_str"])
-
     return metadata
-
-
-def parse_law_item_line(line: str) -> Tuple[Optional[str], Optional[str], str]:
-    line = line.strip()
-    phan_match = re.match(r"^\s*(PHẦN\s+(?:THỨ\s+[\w\sÀ-Ỹà-ỹ]+|[IVXLCDM]+|CHUNG|CÁC TỘI PHẠM))\s*[:.]?\s*(.*)", line, re.IGNORECASE)
-    if phan_match: return "phan", phan_match.group(1).strip(), phan_match.group(2).strip()
-
-    chuong_match = re.match(r"^\s*(Chương\s+[IVXLCDM\d]+)\s*[:.]?\s*(.*)", line, re.IGNORECASE)
-    if chuong_match: return "chuong", chuong_match.group(1).strip(), chuong_match.group(2).strip()
-
-    muc_match = re.match(r"^\s*(Mục\s+\d+)\s*[:.]?\s*(.*)", line, re.IGNORECASE)
-    if muc_match: return "muc", muc_match.group(1).strip(), muc_match.group(2).strip()
-
-    dieu_match = re.match(r"^\s*(Điều\s+\d+[a-z]?)\s*[\.:\s]\s*(.*?)(?=\n|$)", line, re.IGNORECASE)
-    if dieu_match: return "dieu", dieu_match.group(1).strip(), dieu_match.group(2).strip()
-
-    khoan_match = re.match(r"^\s*(\d+)\.\s*(.+)", line)
-    if khoan_match:
-        content_after_number = khoan_match.group(2).strip()
-        # Heuristic: Nếu nội dung sau số không bắt đầu bằng một "điểm" (ví dụ "1. a) ...")
-        # VÀ nội dung có vẻ là một câu (bắt đầu bằng chữ hoa và có nhiều hơn 1-2 từ)
-        # thì coi là Khoản.
-        if not re.match(r"^\s*[a-zđ]\)", content_after_number):
-            if content_after_number and content_after_number[0].isupper() and len(content_after_number.split()) > 1 : #  and content_after_number.endswith(('.', ';', ':'))
-                # Điều kiện kết thúc bằng dấu câu có thể quá chặt, nhiều khoản không có.
-                return "khoan", khoan_match.group(1).strip(), content_after_number
-
-    diem_match = re.match(r"^\s*([a-zđ])\)\s*(.+)", line)
-    if diem_match: return "diem", diem_match.group(1).strip(), diem_match.group(2).strip()
-
-    tiet_match = re.match(r"^\s*[-–—]\s*(.+)", line)
-    if tiet_match: return "tiet", "-", tiet_match.group(1).strip()
-
-    return None, None, line # Là dòng văn bản thường
-
 
 
 def extract_cross_references(text_chunk_content: str, current_doc_full_metadata: Dict) -> List[Dict]:
@@ -492,307 +368,226 @@ def extract_cross_references(text_chunk_content: str, current_doc_full_metadata:
     return references
 
 
-# def hierarchical_split_law_document(doc_obj: Document, max_chunk_size: int = 2500) -> List[Document]:
-#     text = doc_obj.page_content
-#     source_metadata = doc_obj.metadata.copy() # Metadata của cả văn bản gốc
-
-#     chunks = []
-#     current_chunk_lines = []
-#     current_hierarchical_meta = {}
-
-#     document_level_meta_keys = [
-#         "so_hieu", "loai_van_ban", "ten_van_ban", "ngay_ban_hanh_str",
-#         "nam_ban_hanh", "co_quan_ban_hanh", "ngay_hieu_luc_str", "source",
-#         "field", "entity_type", "penalty"
-#     ]
-
-#     def create_chunk_base_metadata(dieu_code: Optional[str] = None, dieu_title: Optional[str] = None) -> Dict:
-#         # Bắt đầu với metadata của văn bản gốc
-#         chunk_meta = {k: v for k, v in source_metadata.items() if k in document_level_meta_keys and v is not None}
-#         # Thêm metadata phân cấp hiện tại (Phần, Chương, Mục)
-#         chunk_meta.update(current_hierarchical_meta)
-
-#         title_parts = []
-#         for key_code, key_title_content in [("phan_code", "phan_title"), ("chuong_code", "chuong_title"), ("muc_code", "muc_title")]:
-#             if key_code in chunk_meta:
-#                 title_part = chunk_meta[key_code]
-#                 if chunk_meta.get(key_title_content):
-#                     title_part += f": {chunk_meta[key_title_content]}"
-#                 title_parts.append(title_part)
-
-#         if dieu_code:
-#             chunk_meta["dieu_code"] = dieu_code
-#             chunk_meta["dieu_title"] = dieu_title if dieu_title else dieu_code
-#             dieu_part = dieu_code
-#             if dieu_title and dieu_title.lower() != dieu_code.lower().replace("điều", "Điều").strip():
-#                  dieu_part += f": {dieu_title}"
-#             title_parts.append(dieu_part)
-
-#         # Tạo tiêu đề cho chunk
-#         if title_parts:
-#             chunk_meta["title"] = " - ".join(title_parts)
-#         elif source_metadata.get("ten_van_ban"):
-#             chunk_meta["title"] = str(source_metadata.get("ten_van_ban"))
-#         else:
-#             chunk_meta["title"] = str(source_metadata.get("source", "N/A"))
-
-#         return chunk_meta
-
-#     def flush_current_chunk():
-#         nonlocal current_chunk_lines
-#         if not current_chunk_lines:
-#             return
-
-#         content = "\n".join(current_chunk_lines).strip()
-#         current_chunk_lines = [] # Reset buffer ngay
-
-#         if not content: return
-
-#         # Metadata cho chunk này (bao gồm thông tin Điều nếu có)
-#         chunk_base_meta = create_chunk_base_metadata(
-#             current_hierarchical_meta.get("current_dieu_code"),
-#             current_hierarchical_meta.get("current_dieu_title")
-#         )
-
-#         # Làm giàu thêm cho metadata của chunk
-#         penalties = extract_penalties_from_text(content)
-#         if penalties: chunk_base_meta["penalties"] = penalties
-
-#         cross_refs = extract_cross_references(content, source_metadata)
-#         if cross_refs: chunk_base_meta["cross_references"] = cross_refs
-
-#         if len(content) > max_chunk_size:
-#             logger.warning(f"🔸 Chunk '{chunk_base_meta.get('title')}' quá lớn ({len(content)} chars). Splitting.")
-#             # Khi chia nhỏ, mỗi sub-chunk sẽ kế thừa metadata và có ID riêng
-#             meta_for_sub_chunks = chunk_base_meta.copy()
-#             sub_docs_from_splitter = base_text_splitter.create_documents([content], metadatas=[meta_for_sub_chunks])
-
-#             for i, sub_doc in enumerate(sub_docs_from_splitter):
-#                 # ID đã được tạo bởi base_text_splitter.create_documents
-#                 sub_doc.metadata["sub_chunk_index"] = i + 1
-#                 chunks.append(sub_doc)
-#         else:
-#             chunk_id = str(uuid.uuid4())
-#             chunks.append(Document(page_content=content, metadata=chunk_base_meta, id=chunk_id))
-
-#     lines = text.splitlines()
-#     is_preamble = True
-
-#     for line_idx, line_text in enumerate(lines):
-#         line_stripped = line_text.strip()
-#         if not line_stripped:
-#             continue
-
-#         item_type, item_code, item_title_content = parse_law_item_line(line_stripped)
-
-#         # Nếu đang ở preamble và gặp dòng cấu trúc đầu tiên (Phần, Chương, Mục, Điều)
-#         if is_preamble and item_type in ["phan", "chuong", "muc", "dieu"]:
-#             if current_chunk_lines: # Xả preamble chunk nếu có
-#                 # Preamble chunk không có dieu_code/title cụ thể
-#                 current_hierarchical_meta.pop("current_dieu_code", None)
-#                 current_hierarchical_meta.pop("current_dieu_title", None)
-#                 flush_current_chunk()
-#             is_preamble = False # Kết thúc preamble
-
-#         if item_type == "phan":
-#             flush_current_chunk() # Xả chunk trước đó (nếu có)
-#             current_hierarchical_meta = {"phan_code": item_code, "phan_title": item_title_content} # Reset, chỉ giữ phần
-#         elif item_type == "chuong":
-#             flush_current_chunk()
-#             phan_info = {k:v for k,v in current_hierarchical_meta.items() if "phan" in k}
-#             current_hierarchical_meta = {**phan_info, "chuong_code": item_code, "chuong_title": item_title_content}
-#         elif item_type == "muc":
-#             flush_current_chunk()
-#             phan_chuong_info = {k:v for k,v in current_hierarchical_meta.items() if "phan" in k or "chuong" in k}
-#             current_hierarchical_meta = {**phan_chuong_info, "muc_code": item_code, "muc_title": item_title_content}
-#         elif item_type == "dieu":
-#             flush_current_chunk() # Xả chunk của Điều trước đó (nếu có) hoặc preamble/Mục/Chương
-#             # Thiết lập thông tin cho Điều hiện tại, sẽ được dùng khi flush_current_chunk tiếp theo
-#             current_hierarchical_meta["current_dieu_code"] = item_code
-#             current_hierarchical_meta["current_dieu_title"] = item_title_content
-
-#         current_chunk_lines.append(line_stripped) # Thêm dòng hiện tại vào buffer
-
-#     flush_current_chunk() # Xả chunk cuối cùng
-
-#     # Xử lý trường hợp toàn bộ văn bản không có cấu trúc Điều nào được nhận diện
-#     # Hoặc nếu chunks rỗng (văn bản quá ngắn, không có cấu trúc nào ngoài preamble)
-#     if (not any(c.metadata.get("dieu_code") for c in chunks) and text) or (not chunks and text):
-#         if not chunks: # Nếu chunks hoàn toàn rỗng
-#              logger.warning(f"🔸 Document '{source_metadata.get('source', 'N/A')}' không tạo được chunk cấu trúc. Splitting full text.")
-#         else: # Có chunk nhưng không có Điều (ví dụ chỉ có Preamble)
-#              logger.warning(f"🔸 Document '{source_metadata.get('source', 'N/A')}' không có 'Điều' structure. Treating existing chunks and/or splitting full text.")
-#              # Giữ lại các chunk đã có (ví dụ preamble) và chia phần còn lại nếu cần
-#              # Hoặc đơn giản là chia lại toàn bộ nếu logic này quá phức tạp
-
-#         # Đơn giản: nếu không có Điều, chia lại toàn bộ bằng base_splitter
-#         # (Điều này có thể làm mất các chunk preamble đã tạo nếu có)
-#         if not any(c.metadata.get("dieu_code") for c in chunks):
-#             chunks.clear() # Xóa các chunk đã có (nếu có)
-#             base_doc_meta = source_metadata.copy()
-#             base_doc_meta.pop("id", None); base_doc_meta.pop("weaviate_id", None) # ID sẽ do create_documents tạo
-#             if "title" not in base_doc_meta: # Đặt title chung
-#                  base_doc_meta["title"] = base_doc_meta.get("ten_van_ban", base_doc_meta.get("source", "N/A"))
-
-#             # Thêm penalties và cross_references cho toàn bộ văn bản nếu chia kiểu này
-#             penalties = extract_penalties_from_text(text)
-#             if penalties: base_doc_meta["penalties"] = penalties
-#             cross_refs = extract_cross_references(text, source_metadata)
-#             if cross_refs: base_doc_meta["cross_references"] = cross_refs
-
-#             sub_docs = base_text_splitter.create_documents([text], metadatas=[base_doc_meta])
-#             chunks.extend(sub_docs) # Thêm các sub_docs này vào
-
-#     return chunks
-
-# New code
 def hierarchical_split_law_document(doc_obj: Document) -> List[Document]:
     """
-    CẢI TIẾN LỚN: Chia văn bản luật theo cấu trúc Điều -> Khoản.
-    Giải quyết vấn đề lặp metadata và chunking không tối ưu.
+    PHIÊN BẢN CUỐI CÙNG: Chia văn bản luật theo cấu trúc, xử lý Preamble,
+    giữ trọn vẹn "Điều" và thêm "structured context".
     """
     text = doc_obj.page_content
     source_metadata = doc_obj.metadata.copy()
+    filename = source_metadata.get("source", "unknown_file")
     doc_so_hieu = source_metadata.get("so_hieu")
-    filename = source_metadata.get("source")
 
-    final_chunks = []
-    lines = text.splitlines()
+    final_chunks: List[Document] = []
 
-    hierarchy_context = {}
-    current_dieu_lines = []
-    current_dieu_code = None
-    current_dieu_title = ""
+    # === BƯỚC 1: TÁCH VĂN BẢN THÀNH CÁC KHỐI CÓ CẤU TRÚC LỚN ===
+    # Regex này sẽ chia văn bản tại MỌI dòng bắt đầu bằng "Phần", "Chương", hoặc "Điều".
+    # `(?=...)` là positive lookahead, nó tìm điểm chia mà không "ăn" mất chuỗi đó.
+    # Thêm `\s*($|\n)` vào cuối để xử lý các dòng tiêu đề không có nội dung theo sau.
+    split_pattern = r"(?=\n^\s*(?:PHẦN\s+(?:THỨ\s+[\w\sÀ-Ỹà-ỹ]+|[IVXLCDM]+|CHUNG)|Chương\s+[IVXLCDM\d]+|Điều\s+\d+[a-z]?)\s*[:.]?.*($|\n))"
+    blocks = re.split(split_pattern, text, flags=re.MULTILINE | re.IGNORECASE)
 
-    def flush_dieu_buffer():
-        nonlocal final_chunks, current_dieu_lines, current_dieu_code, current_dieu_title
-        if not current_dieu_lines: return
+    # Khối đầu tiên trước lần chia đầu tiên luôn là Preamble (hoặc toàn bộ văn bản nếu không có cấu trúc)
+    preamble_block = blocks.pop(0).strip()
+    if preamble_block:
+        logger.debug(f"Processing Preamble for {filename}...")
+        # Tạo metadata cho Preamble
+        preamble_meta = source_metadata.copy()
+        preamble_meta["title"] = f"{source_metadata.get('ten_van_ban', filename)} - Phần Mở đầu"
 
-        # 1. Chia buffer của "Điều" thành các buffer nhỏ hơn cho từng "Khoản"
-        khoan_buffers: Dict[str, List[str]] = {}
-        current_khoan_code = "khoan-0" # Buffer cho tiêu đề Điều và nội dung không thuộc khoản nào
-        khoan_buffers[current_khoan_code] = []
+        # Làm giàu metadata cho Preamble
+        preamble_meta["entity_type"] = infer_entity_type(preamble_block, preamble_meta.get("field"))
+        preamble_meta["penalties"] = extract_penalties_from_text(preamble_block) # Thường là rỗng
 
-        for line in current_dieu_lines:
-            item_type, item_code, _ = parse_law_item_line(line)
-            if item_type == "khoan":
-                current_khoan_code = item_code
-                if current_khoan_code not in khoan_buffers:
-                    khoan_buffers[current_khoan_code] = []
-            khoan_buffers[current_khoan_code].append(line)
+        # Tạo structured content
+        context_header = f"Trích từ: {preamble_meta['title']}\nThuộc văn bản: {preamble_meta.get('ten_van_ban', filename)}"
+        final_page_content = f"{context_header}\n\nNội dung:\n{preamble_block}"
 
-        # 2. Tạo chunk từ buffer của từng "Khoản"
-        for khoan_code, khoan_lines in khoan_buffers.items():
-            khoan_content = "\n".join(khoan_lines).strip()
-            if not khoan_content: continue
+        # Tạo chunk cho Preamble
+        chunk_id = generate_structured_id(doc_so_hieu, ["preamble"], filename)
+        final_chunks.append(Document(page_content=final_page_content, metadata=preamble_meta, id=chunk_id))
 
-            structure_path = [v for k, v in hierarchy_context.items() if k.endswith('_code')]
-            if current_dieu_code: structure_path.append(current_dieu_code)
-            if khoan_code != "khoan-0": structure_path.append(khoan_code)
+    # === BƯỚC 2: XỬ LÝ TỪNG KHỐI CẤU TRÚC (PHẦN, CHƯƠNG, ĐIỀU) ===
+    hierarchy_context: Dict[str, Any] = {}
 
-            chunk_metadata_base = {**source_metadata, **hierarchy_context}
-            if current_dieu_code:
-                chunk_metadata_base["dieu_code"] = current_dieu_code
-                chunk_metadata_base["dieu_title"] = current_dieu_title
-            if khoan_code != "khoan-0":
-                chunk_metadata_base["khoan_code"] = khoan_code
-            chunk_metadata_base["title"] = f"{source_metadata.get('ten_van_ban', 'Văn bản')} - {current_dieu_code or 'Nội dung chung'}"
+    for block_content in blocks:
+        block_content = block_content.strip()
+        if not block_content:
+            continue
 
-            # Nếu một Khoản quá lớn, mới chia nhỏ nó
-            if len(khoan_content) > MAX_CHUNK_SIZE:
-                sub_texts = base_text_splitter.split_text(khoan_content)
-                for i, sub_text in enumerate(sub_texts):
-                    sub_chunk_path = structure_path + [f"part-{i}"]
-                    sub_chunk_id = generate_structured_id(doc_so_hieu, sub_chunk_path,filename)
-                    sub_chunk_meta = chunk_metadata_base.copy()
-                    sub_chunk_meta["sub_chunk_index"] = i
-                    final_chunks.append(Document(page_content=sub_text, metadata=sub_chunk_meta, id=sub_chunk_id))
-            else:
-                chunk_id = generate_structured_id(doc_so_hieu, structure_path, filename)
-                final_chunks.append(Document(page_content=khoan_content, metadata=chunk_metadata_base.copy(), id=chunk_id))
+        first_line = block_content.splitlines()[0].strip()
+        item_type, item_code, item_title = parse_law_item_line(first_line)
 
-        current_dieu_lines = []
+        # Cập nhật ngữ cảnh phân cấp
+        if item_type == "phan":
+            hierarchy_context = {"phan_code": item_code, "phan_title": item_title}
+        elif item_type == "chuong":
+            # Khi gặp Chương mới, giữ lại Phần, reset các cấp nhỏ hơn
+            hierarchy_context = {k: v for k, v in hierarchy_context.items() if k.startswith("phan")}
+            hierarchy_context.update({"chuong_code": item_code, "chuong_title": item_title})
 
-    # Vòng lặp chính để xác định các khối "Điều"
-    for line_text in lines:
-        if not line_text.strip(): continue
-        item_type, item_code, item_title_content = parse_law_item_line(line_text)
-
+        # Chỉ xử lý sâu hơn nếu khối này là một "Điều"
         if item_type == "dieu":
-            flush_dieu_buffer()
-            current_dieu_code = item_code
-            current_dieu_title = item_title_content
+            # Cập nhật context cho Điều này
+            hierarchy_context.update({"dieu_code": item_code, "dieu_title": item_title})
 
-        if item_type == "phan": hierarchy_context.update({"phan_code": item_code, "phan_title": item_title_content})
-        elif item_type == "chuong": hierarchy_context.update({"chuong_code": item_code, "chuong_title": item_title_content})
+            # Tạo metadata cuối cùng cho khối "Điều"
+            block_meta = {**source_metadata, **hierarchy_context}
+            title_parts = [str(block_meta.get(k)) for k in ["phan_code", "chuong_code", "dieu_code"] if block_meta.get(k)]
+            block_meta["title"] = " - ".join(title_parts)
 
-        if current_dieu_code: current_dieu_lines.append(line_text)
+            # Làm giàu metadata cho toàn bộ "Điều"
+            block_meta["entity_type"] = infer_entity_type(block_content, block_meta.get("field"))
+            block_meta["penalties"] = extract_penalties_from_text(block_content)
+            block_meta["cross_references"] = extract_cross_references(block_content, source_metadata)
 
-    flush_dieu_buffer()
+            context_header = f"Trích từ: {block_meta['title']}\nThuộc văn bản: {block_meta.get('ten_van_ban', filename)}"
 
-    # Fallback cho văn bản không có cấu trúc "Điều"
-    if not final_chunks and text:
-        logger.warning(f"Văn bản '{doc_so_hieu}' không có cấu trúc 'Điều'. Chia toàn bộ văn bản.")
-        sub_texts = base_text_splitter.split_text(text)
-        for i, sub_text in enumerate(sub_texts):
-            chunk_id = generate_structured_id(doc_so_hieu, [f"fulltext-part-{i}"], filename)
-            chunk_meta = source_metadata.copy()
-            chunk_meta["title"] = chunk_meta.get("ten_van_ban", doc_so_hieu)
-            final_chunks.append(Document(page_content=sub_text, metadata=chunk_meta, id=chunk_id))
+            # Chia nhỏ "Điều" nếu cần
+            if len(block_content) > MAX_CHUNK_SIZE:
+                logger.debug(f"Splitting long article: {block_meta['title']}")
+                sub_texts = base_text_splitter.split_text(block_content)
+                for i, sub_text in enumerate(sub_texts):
+                    sub_chunk_meta = block_meta.copy()
+                    sub_chunk_meta["sub_chunk_index"] = i
+                    final_page_content = f"{context_header}\n\nNội dung:\n{sub_text}"
+                    chunk_id = generate_structured_id(doc_so_hieu, title_parts + [f"part-{i}"], filename)
+                    final_chunks.append(Document(page_content=final_page_content, metadata=sub_chunk_meta, id=chunk_id))
+            else:
+                final_page_content = f"Toàn văn: {block_meta['title']}\n\nNội dung:\n{block_content}"
+                chunk_id = generate_structured_id(doc_so_hieu, title_parts, filename)
+                final_chunks.append(Document(page_content=final_page_content, metadata=block_meta, id=chunk_id))
 
-    # 3. LÀM GIÀU METADATA SAU KHI CHIA (FIX LỖI LẶP DỮ LIỆU)
-    enriched_chunks = []
-    for chunk in final_chunks:
-        # Trích xuất metadata từ nội dung CỤ THỂ của CHÍNH CHUNK này
-        chunk.metadata["penalties"] = extract_penalties_from_text(chunk.page_content)
-        chunk.metadata["cross_references"] = extract_cross_references(chunk.page_content, source_metadata)
-        enriched_chunks.append(chunk)
+    return final_chunks
 
-    return enriched_chunks
+# def hierarchical_split_law_document(doc_obj: Document) -> List[Document]:
+#     """
+#     PHIÊN BẢN CUỐI CÙNG, MẠNH MẼ NHẤT: Chia văn bản luật theo bất kỳ cấu trúc lớn nào
+#     (Phần, Chương, Điều) và xử lý từng khối một cách độc lập.
+#     """
+#     text = doc_obj.page_content
+#     source_metadata = doc_obj.metadata.copy()
+#     filename = source_metadata.get("source", "unknown_file")
+#     doc_so_hieu = source_metadata.get("so_hieu")
+
+#     final_chunks: List[Document] = []
+
+#     # === BƯỚC 1: CHIA TOÀN BỘ VĂN BẢN THÀNH CÁC KHỐI CÓ CẤU TRÚC ===
+#     # Regex này sẽ chia văn bản tại MỌI dòng bắt đầu bằng "Phần", "Chương", hoặc "Điều".
+#     # `(?=...)` là positive lookahead, nó tìm điểm chia mà không "ăn" mất chuỗi đó.
+#     split_pattern = r"(?=\n^\s*(?:PHẦN|Chương|Điều)\s+)"
+#     blocks = re.split(split_pattern, text, flags=re.MULTILINE | re.IGNORECASE)
+
+#     hierarchy_context: Dict[str, Any] = {}
+
+#     for block in blocks:
+#         block_content = block.strip()
+#         if not block_content:
+#             continue
+
+#         # === BƯỚC 2: PHÂN TÍCH VÀ LÀM GIÀU METADATA CHO TỪNG KHỐI ===
+
+#         # Lấy dòng đầu tiên để xác định loại khối và cập nhật ngữ cảnh
+#         first_line = block_content.splitlines()[0]
+#         item_type, item_code, item_title = parse_law_item_line(first_line)
+
+#         if item_type == "phan":
+#             # Khi gặp "Phần" mới, reset toàn bộ ngữ cảnh
+#             hierarchy_context = {"phan_code": item_code, "phan_title": item_title}
+#         elif item_type == "chuong":
+#             # Khi gặp "Chương" mới, giữ lại "Phần", reset các cấp nhỏ hơn
+#             hierarchy_context = {
+#                 k: v for k, v in hierarchy_context.items()
+#                 if k in ["phan_code", "phan_title"]
+#             }
+#             hierarchy_context.update({"chuong_code": item_code, "chuong_title": item_title})
+#         elif item_type == "dieu":
+#             # Khi gặp "Điều" mới, chỉ cập nhật thông tin về "Điều"
+#             hierarchy_context.update({"dieu_code": item_code, "dieu_title": item_title})
+
+#         # Tạo metadata cuối cùng cho khối này
+#         block_meta = {**source_metadata, **hierarchy_context}
+
+#         # Tạo tiêu đề và đường dẫn cấu trúc
+#         title_parts = [str(block_meta.get(k)) for k in ["phan_code", "chuong_code", "muc_code", "dieu_code"] if block_meta.get(k)]
+#         block_meta["title"] = " - ".join(title_parts) if title_parts else source_metadata.get('ten_van_ban', filename)
+#         structure_path = title_parts
+
+#         # Làm giàu metadata cấp khối
+#         block_meta["entity_type"] = infer_entity_type(block_content, block_meta.get("field"))
+#         block_meta["penalties"] = extract_penalties_from_text(block_content)
+#         block_meta["cross_references"] = extract_cross_references(block_content, source_metadata)
+
+#         context_header = f"Trích từ: {block_meta['title']}\nThuộc văn bản: {block_meta.get('ten_van_ban', filename)}"
+
+#         # === BƯỚC 3: TẠO CHUNK TỪ KHỐI ===
+#         # (Logic chia nhỏ nếu khối quá dài giữ nguyên)
+#         if len(block_content) > MAX_CHUNK_SIZE:
+#             sub_texts = base_text_splitter.split_text(block_content)
+#             for i, sub_text in enumerate(sub_texts):
+#                 sub_chunk_meta = block_meta.copy()
+#                 sub_chunk_meta["sub_chunk_index"] = i
+#                 final_page_content = f"{context_header}\n\nNội dung:\n{sub_text}"
+#                 chunk_id = generate_structured_id(doc_so_hieu, structure_path + [f"part-{i}"], filename)
+#                 final_chunks.append(Document(page_content=final_page_content, metadata=sub_chunk_meta, id=chunk_id))
+#         else:
+#             final_page_content = f"Toàn văn: {block_meta['title']}\n\nNội dung:\n{block_content}"
+#             chunk_id = generate_structured_id(doc_so_hieu, structure_path, filename)
+#             final_chunks.append(Document(page_content=final_page_content, metadata=block_meta, id=chunk_id))
+
+#     return final_chunks
 
 
 def infer_field(text_content: str, doc_title: Optional[str]) -> str:
     """
-    CẢI TIẾN: Suy ra lĩnh vực pháp luật bằng hệ thống tính điểm để tăng độ chính xác.
+    CẢI TIẾN V2: Bổ sung từ khóa ngắn gọn, thông tục để xử lý câu hỏi người dùng.
     """
-    if not doc_title and not text_content: return "khac"
+    safe_text_content = str(text_content) if text_content else ""
+    safe_doc_title = str(doc_title) if doc_title else ""
 
-    search_text = ((doc_title.lower() if doc_title else "") + " " + text_content[:1000].lower()).strip()
-    title_lower = doc_title.lower() if doc_title else ""
+    if not safe_doc_title and not safe_text_content:
+        return "khac"
 
-        # Cấu trúc từ khóa có trọng số (weight)
+    # Chỉ cần một đoạn ngắn để tìm kiếm, giúp tăng hiệu suất
+    search_text = (safe_doc_title.lower() + " " + safe_text_content[:2500].lower()).strip()
+    title_lower = safe_doc_title.lower()
+
+
     field_keywords = {
         # 1. Giao thông
         "giao_thong": [
             ("trật tự, an toàn giao thông đường bộ", 12),
-            ("xử phạt vi phạm hành chính trong lĩnh vực giao thông", 10),
+            ("xử phạt vi phạm hành chính trong lĩnh vực giao thông", 11),
             ("giao thông đường bộ", 10),
             ("giao thông đường sắt", 10),
-            ("giấy phép lái xe", 8),
+            ("giấy phép lái xe", 9), ("gplx", 9),
             ("đèn tín hiệu giao thông", 8),
+            ("vượt đèn đỏ", 9),
+            ("nồng độ cồn", 9),
+            ("quá tốc độ", 8),
             ("đăng kiểm", 7),
-            ("xe ô tô", 5),
-            ("xe mô tô", 5),
-            ("nồng độ cồn", 5),
-            ("tốc độ", 3),
-            ("biển báo", 3),
-            ("lái xe", 2),
+            ("phạt nguội", 7),
+            ("xe ô tô", 5), ("ô-tô", 5),
+            ("xe máy", 5), ("xe mô tô", 5),
+            ("lái xe", 4),
+            ("biển báo", 4),
         ],
 
         # 2. Hình sự
         "hinh_su": [
             ("bộ luật hình sự", 12),
             ("truy cứu trách nhiệm hình sự", 10),
-            ("tội phạm", 8),
-            ("khởi tố", 8),
+            ("tội phạm", 9),
+            ("khởi tố", 8), ("tố tụng hình sự", 8),
             ("điều tra hình sự", 8),
             ("tòa án nhân dân", 7),
             ("viện kiểm sát", 7),
-            ("giết người", 5),
-            ("cướp giật tài sản", 5),
-            ("ma túy", 5),
-            ("tử hình", 5),
-            ("tù chung thân", 5),
+            ("giết người", 9),
+            ("cướp giật tài sản", 9),
+            ("lừa đảo chiếm đoạt tài sản", 9),
+            ("ma túy", 8),
+            ("cố ý gây thương tích", 8),
+            ("tử hình", 6), ("tù chung thân", 6),
         ],
 
         # 3. Dân sự
@@ -801,37 +596,39 @@ def infer_field(text_content: str, doc_title: Optional[str]) -> str:
             ("bồi thường thiệt hại ngoài hợp đồng", 10),
             ("giao dịch dân sự", 9),
             ("quyền sở hữu", 8),
-            ("thừa kế", 8),
-            ("di chúc", 8),
+            ("thừa kế", 9),
+            ("di chúc", 9),
             ("hợp đồng dân sự", 7),
-            ("tranh chấp dân sự", 5),
-            ("ly hôn", 4), # Có thể thuộc cả hôn nhân gia đình
+            ("tranh chấp dân sự", 6),
+            ("nghĩa vụ dân sự", 6),
+            ("đại diện, ủy quyền", 5),
         ],
 
         # 4. Hôn nhân và Gia đình
         "hon_nhan_gia_dinh": [
             ("luật hôn nhân và gia đình", 12),
             ("kết hôn", 9),
-            ("ly hôn", 9),
+            ("ly hôn", 10),
             ("quan hệ giữa vợ và chồng", 8),
-            ("tài sản chung của vợ chồng", 8),
-            ("quyền, nghĩa vụ của cha mẹ và con", 8),
-            ("cấp dưỡng", 7),
-            ("giám hộ", 5),
+            ("tài sản chung của vợ chồng", 8), ("tài sản riêng", 8),
+            ("quyền nuôi con", 9),
+            ("cấp dưỡng", 8),
+            ("mang thai hộ", 7),
+            ("giám hộ", 6),
         ],
 
         # 5. Lao động
         "lao_dong": [
             ("bộ luật lao động", 12),
             ("hợp đồng lao động", 10),
-            ("người sử dụng lao động", 8),
-            ("người lao động", 8),
-            ("bảo hiểm xã hội", 7),
-            ("tiền lương", 5),
-            ("thời giờ làm việc", 5),
-            ("kỷ luật lao động", 5),
-            ("sa thải", 5),
-            ("công đoàn", 3),
+            ("người lao động", 9), ("nlđ", 9),
+            ("người sử dụng lao động", 9), ("nsdlđ", 9),
+            ("bảo hiểm xã hội", 8), ("bhxh", 8),
+            ("tiền lương", 7), ("lương tối thiểu vùng", 7),
+            ("thời giờ làm việc", 6), ("thời giờ nghỉ ngơi", 6),
+            ("kỷ luật lao động", 6),
+            ("sa thải", 7), ("chấm dứt hợp đồng lao động", 7),
+            ("an toàn, vệ sinh lao động", 6),
         ],
 
         # 6. Đất đai
@@ -842,7 +639,9 @@ def infer_field(text_content: str, doc_title: Optional[str]) -> str:
             ("thu hồi đất", 8),
             ("bồi thường, hỗ trợ, tái định cư", 8),
             ("quy hoạch, kế hoạch sử dụng đất", 7),
-            ("sổ đỏ", 5), # Từ thông tục nhưng rất đặc trưng
+            ("sổ đỏ", 7), ("sổ hồng", 7),
+            ("tranh chấp đất đai", 7),
+            ("giá đất", 6),
         ],
 
         # 7. Doanh nghiệp & Đầu tư
@@ -855,8 +654,8 @@ def infer_field(text_content: str, doc_title: Optional[str]) -> str:
             ("công ty trách nhiệm hữu hạn", 8),
             ("doanh nghiệp tư nhân", 8),
             ("vốn điều lệ", 7),
-            ("cổ đông", 5),
-            ("phá sản", 5),
+            ("cổ đông", 6), ("thành viên góp vốn", 6),
+            ("phá sản", 7),
         ],
 
         # 8. Xây dựng & Nhà ở
@@ -867,51 +666,54 @@ def infer_field(text_content: str, doc_title: Optional[str]) -> str:
             ("quy hoạch xây dựng", 8),
             ("chủ đầu tư", 7),
             ("dự án đầu tư xây dựng", 7),
-            ("công trình xây dựng", 5),
-            ("thi công", 3),
+            ("hợp đồng xây dựng", 6),
+            ("chung cư", 6),
         ],
 
         # 9. Hành chính
         "hanh_chinh": [
-            ("luật xử lý vi phạm hành chính", 10), # Cụm từ dài và đặc trưng
-            ("khiếu nại, tố cáo", 8),
+            ("luật xử lý vi phạm hành chính", 10),
+            ("xử phạt vi phạm hành chính", 9),
+            ("khiếu nại", 8),
+            ("tố cáo", 8),
             ("thủ tục hành chính", 7),
-            ("công chức, viên chức", 7),
-            ("xử phạt vi phạm hành chính", 4), # Trọng số trung bình, vì nó là một phần của nhiều luật khác
-            ("nghị định", 1), # Trọng số cực thấp
-            ("thông tư", 1), # Trọng số cực thấp
+            ("công chức", 7), ("viên chức", 7),
+            ("cán bộ", 6),
         ],
 
         # 10. Thuế & Tài chính & Ngân hàng
         "tai_chinh_thue": [
-            ("luật các tổ chức tín dụng", 12),
             ("luật quản lý thuế", 12),
-            ("thuế giá trị gia tăng", 9),
-            ("thuế thu nhập doanh nghiệp", 9),
-            ("thuế thu nhập cá nhân", 9),
+            ("luật các tổ chức tín dụng", 12),
+            ("thuế giá trị gia tăng", 9), ("thuế gtgt", 9),
+            ("thuế thu nhập doanh nghiệp", 9), ("thuế tndn", 9),
+            ("thuế thu nhập cá nhân", 9), ("thuế tncn", 9),
             ("ngân sách nhà nước", 8),
-            ("trái phiếu", 5),
-            ("cổ phiếu", 5),
-            ("kế toán, kiểm toán", 4),
+            ("hóa đơn điện tử", 7),
+            ("kế toán, kiểm toán", 7),
+            ("ngân hàng", 6),
+            ("trái phiếu", 6),
         ],
 
         # 11. Môi trường
         "moi_truong": [
             ("luật bảo vệ môi trường", 12),
-            ("đánh giá tác động môi trường", 9),
+            ("đánh giá tác động môi trường", 9), ("đtm", 9),
             ("ô nhiễm môi trường", 8),
-            ("chất thải", 5),
-            ("khí thải", 3),
+            ("chất thải", 7), ("chất thải nguy hại", 7),
+            ("tài nguyên nước", 6),
+            ("khí thải", 6),
         ],
 
         # 12. Sở hữu trí tuệ
         "so_huu_tri_tue": [
             ("luật sở hữu trí tuệ", 12),
             ("quyền tác giả", 9),
-            ("quyền liên quan", 9),
+            ("bản quyền", 8),
+            ("quyền liên quan", 8),
             ("sáng chế", 8),
             ("nhãn hiệu", 8),
-            ("bản quyền", 7),
+            ("chỉ dẫn địa lý", 7),
         ],
 
         # 13. Giáo dục
@@ -919,148 +721,119 @@ def infer_field(text_content: str, doc_title: Optional[str]) -> str:
             ("luật giáo dục", 12),
             ("học sinh, sinh viên", 7),
             ("cơ sở giáo dục", 7),
-            ("học phí", 5),
-            ("đào tạo", 3),
-            ("giáo viên", 3),
+            ("học phí", 7),
+            ("tuyển sinh", 6),
+            ("giáo viên", 6),
+            ("bằng cấp, chứng chỉ", 5),
         ],
 
         # 14. Y tế
         "y_te": [
             ("luật khám bệnh, chữa bệnh", 12),
-            ("bảo hiểm y tế", 10),
-            ("dược", 8),
+            ("bảo hiểm y tế", 10), ("bhyt", 10),
+            ("dược", 8), ("thuốc", 7),
             ("trang thiết bị y tế", 7),
-            ("bệnh viện", 5),
-            ("thuốc", 3),
+            ("bệnh viện", 6),
+            ("an toàn thực phẩm", 6),
         ],
-
-        # ... Bạn có thể thêm các lĩnh vực khác như Thương mại, An ninh Quốc phòng ...
     }
 
+    # ... (phần logic tính điểm và trả về giữ nguyên) ...
     field_scores = {field: 0 for field in field_keywords.keys()}
-
     for field, weighted_keywords in field_keywords.items():
         score = 0
         for keyword, weight in weighted_keywords:
-            if keyword in title_lower:
-                score += weight * 3 # Nhân 3 lần điểm nếu ở trong tiêu đề
-
+            if doc_title and keyword in title_lower:
+                score += weight * 3
             occurrences_in_text = search_text.count(keyword)
             if occurrences_in_text > 0:
                 score += weight * occurrences_in_text
         field_scores[field] = score
 
-    # Lọc ra các lĩnh vực có điểm > 0
     positive_scores = {f: s for f, s in field_scores.items() if s > 0}
-
     if not positive_scores:
         return "khac"
 
     # In ra điểm số để debug
-    logger.debug(f"Field scores for title '{doc_title}': {positive_scores}")
+    logger.debug(f"Field scores for query '{text_content[:50]}...': {positive_scores}")
 
     best_field = max(positive_scores, key=positive_scores.get)
     return best_field
 
 
-# def infer_field(text_content: str, doc_title: Optional[str]) -> str:
-#     """Suy ra lĩnh vực pháp luật từ tiêu đề và nội dung."""
-#     search_text = ((doc_title.lower() if doc_title else "") + " " + text_content[:500].lower()).strip()
-#     field_keywords = {
-#         "giao_thong": ["giao thông", "trật tự an toàn giao thông", "lái xe", "tốc độ", "biển báo", "phạt nguội", "đường bộ", "đường sắt", "trừ điểm", "giấy phép lái xe"],
-#         "hinh_su": ["tội phạm", "hình sự", "giết người", "trộm cắp", "cướp", "ma túy", "bộ luật hình sự", "tử hình", "tù chung thân", "truy cứu"],
-#         "dan_su": ["dân sự", "thừa kế", "hợp đồng dân sự", "ly hôn", "bồi thường thiệt hại ngoài hợp đồng", "quyền sở hữu", "tranh chấp"],
-#         "lao_dong": ["lao động", "hợp đồng lao động", "tiền lương", "bảo hiểm xã hội", "thời giờ làm việc", "sa thải", "công đoàn", "người sử dụng lao động"],
-#         "doanh_nghiep": ["doanh nghiệp", "công ty", "thành lập doanh nghiệp", "phá sản", "cổ phần", "đầu tư", "kinh doanh"],
-#         "thuong_mai": ["thương mại", "hợp đồng mua bán", "xuất nhập khẩu", "hàng hóa", "dịch vụ", "quảng cáo"],
-#         "dat_dai": ["đất đai", "sử dụng đất", "thu hồi đất", "giấy chứng nhận quyền sử dụng đất", "quy hoạch đất", "bồi thường đất"],
-#         "xay_dung": ["xây dựng", "giấy phép xây dựng", "quy hoạch xây dựng", "công trình", "thi công"],
-#         "moi_truong": ["môi trường", "bảo vệ môi trường", "ô nhiễm", "chất thải", "đánh giá tác động môi trường", "khí thải", "nước thải"],
-#         "hanh_chinh": ["hành chính", "xử phạt vi phạm hành chính", "thủ tục hành chính", "công chức", "viên chức", "khiếu nại", "tố cáo", "nghị định"],
-#         "tai_chinh_ngan_hang": ["ngân hàng", "tín dụng", "thuế", "kế toán", "kiểm toán", "ngân sách", "trái phiếu", "cổ phiếu", "thị trường chứng khoán"],
-#         "so_huu_tri_tue": ["sở hữu trí tuệ", "quyền tác giả", "bản quyền", "sáng chế", "nhãn hiệu", "kiểu dáng công nghiệp"],
-#         "giao_duc": ["giáo dục", "học sinh", "sinh viên", "đào tạo", "trường học", "giáo viên", "học phí"],
-#         "y_te": ["y tế", "khám bệnh", "chữa bệnh", "dược", "bảo hiểm y tế", "thuốc", "bệnh viện"],
-#         "an_ninh_quoc_phong": ["an ninh quốc gia", "quốc phòng", "quân sự", "công an", "bí mật nhà nước"],
-#     }
-#     # Ưu tiên khớp nếu tên văn bản chứa từ khóa loại văn bản
-#     if doc_title:
-#         for field, keywords in field_keywords.items():
-#             # Kiểm tra xem có từ khóa nào trong field đó (thường là từ khóa chính như "luật giao thông", "bộ luật hình sự")
-#             # xuất hiện trong doc_title không
-#             main_keywords_for_field = keywords[:2] # Lấy vài từ khóa đầu tiên làm đại diện
-#             if any(mk.lower() in doc_title.lower() for mk in main_keywords_for_field):
-#                  if any(keyword.lower() in doc_title.lower() for keyword in keywords): # Check lại để chắc chắn hơn
-#                     return field
 
-#     for field, keywords in field_keywords.items():
-#         if any(keyword in search_text for keyword in keywords):
-#             return field
-#     return "khac"
-
-def infer_entity_type(query_or_text: str, field: str) -> Union[str, List[str], None]:
+def infer_entity_type(query_or_text: str, field: Optional[str]) -> Optional[List[str]]:
+    """
+    CẢI TIẾN V2: Mở rộng từ khóa, xử lý khi không có field và luôn trả về list.
+    """
     text_lower = query_or_text.lower()
     entity_definitions = {
         "giao_thong": {
-            "xe_oto": {"keywords": ["ô tô", "xe hơi", "xe con"], "priority": 10},
-            "xe_may": {"keywords": ["xe máy", "mô tô", "xe gắn máy"], "priority": 10},
+            "xe_oto": {"keywords": ["ô tô", "xe hơi", "xe con", "xe ô-tô"], "priority": 10},
+            "xe_may": {"keywords": ["xe máy", "mô tô", "xe gắn máy", "xe 2 bánh"], "priority": 10},
+            # Thêm các từ khóa ngắn gọn hơn
             "nguoi_dieu_khien": {"keywords": ["người điều khiển", "lái xe", "tài xế"], "priority": 9},
-            "phuong_tien": {"keywords": ["phương tiện", "xe"], "priority": 5},
+            "phuong_tien": {"keywords": ["phương tiện", "xe cộ", "xe"], "priority": 5}, # Thêm "xe cộ"
         },
         "hinh_su": {
-            "nguoi_pham_toi": {"keywords": ["tội phạm", "bị can", "bị cáo", "người phạm tội"], "priority": 10},
+            "nguoi_pham_toi": {"keywords": ["tội phạm", "bị can", "bị cáo", "người phạm tội", "kẻ gian"], "priority": 10},
             "nan_nhan": {"keywords": ["nạn nhân", "người bị hại"], "priority": 9},
         },
-         "lao_dong": {
-            "nguoi_lao_dong": {"keywords": ["người lao động", "nhân viên", "công nhân"], "priority": 10},
-            "nguoi_su_dung_lao_dong": {"keywords": ["người sử dụng lao động", "công ty", "doanh nghiệp"], "priority": 10},
-            "hop_dong_lao_dong": {"keywords": ["hợp đồng lao động"], "priority": 8},
+        "lao_dong": {
+            "nguoi_lao_dong": {"keywords": ["người lao động", "nhân viên", "công nhân", "nlđ"], "priority": 10},
+            "nguoi_su_dung_lao_dong": {"keywords": ["người sử dụng lao động", "công ty", "doanh nghiệp", "nsdlđ"], "priority": 10},
+            "hop_dong_lao_dong": {"keywords": ["hợp đồng lao động", "hđlđ"], "priority": 8},
         },
-        # ... (Thêm các định nghĩa khác nếu cần) ...
         "khac": {
-            "ca_nhan": {"keywords": ["cá nhân", "người", "công dân"], "priority": 7},
-            "to_chuc": {"keywords": ["tổ chức", "cơ quan", "đơn vị"], "priority": 7},
+            "ca_nhan": {"keywords": ["cá nhân", "người", "công dân", "một người"], "priority": 7},
+            "to_chuc": {"keywords": ["tổ chức", "cơ quan", "đơn vị", "công ty"], "priority": 7},
         }
     }
+
     found_entities = []
-    current_field_entities = entity_definitions.get(field, entity_definitions["khac"])
-    sorted_entities = sorted(current_field_entities.items(), key=lambda item: item[1]["priority"], reverse=True)
-    for entity_type, definition in sorted_entities:
-        sorted_keywords = sorted(definition["keywords"], key=len, reverse=True)
-        if any(re.search(r"\b" + re.escape(keyword) + r"\b", text_lower) for keyword in sorted_keywords):
-            if entity_type not in found_entities: found_entities.append(entity_type)
-    if not found_entities: return None
-    return found_entities[0] if len(found_entities) == 1 else found_entities
+
+    # CẢI TIẾN: Nếu có field, chỉ tìm trong field đó. Nếu không, tìm trong tất cả.
+    fields_to_check = [field] if field and field in entity_definitions else list(entity_definitions.keys())
+
+    for f in fields_to_check:
+        current_field_entities = entity_definitions.get(f, {})
+        sorted_entities = sorted(current_field_entities.items(), key=lambda item: item[1]["priority"], reverse=True)
+        for entity_type, definition in sorted_entities:
+            sorted_keywords = sorted(definition["keywords"], key=len, reverse=True)
+            if any(re.search(r"\b" + re.escape(keyword) + r"\b", text_lower) for keyword in sorted_keywords):
+                if entity_type not in found_entities:
+                    found_entities.append(entity_type)
+
+    if not found_entities:
+        return None
+
+    # Luôn trả về một danh sách các entity tìm được
+    return found_entities
 
 
-def parse_law_item_line(line: str) -> Tuple[Optional[str], Optional[str], str]:
-    """CẢI TIẾN: Phân tích dòng và trả về code đã được chuẩn hóa."""
-    line = line.strip()
+def parse_law_item_line(line: str) -> Tuple[Optional[str], str, str]:
+    """Phân tích cấu trúc dòng một cách mạnh mẽ và có thứ tự."""
+    stripped_line = line.strip()
+    patterns = [
+        ("phan", r"^\s*(PHẦN\s+(?:THỨ\s+[\w\sÀ-Ỹà-ỹ]+|[IVXLCDM]+|CHUNG))\s*?$"),
+        ("chuong", r"^\s*(Chương\s+[IVXLCDM\d]+)\s*?$"),
+        ("dieu", r"^\s*(Điều\s+\d+[a-z]?)\.?\s*(.*)"),
+    ]
+    for item_type, pattern_str in patterns:
+        match = re.match(pattern_str, stripped_line, re.IGNORECASE)
+        if match:
+            if item_type in ["phan", "chuong"]:
+                return item_type, match.group(1).strip(), ""
+            elif item_type == "dieu":
+                return item_type, match.group(1).strip(), match.group(2).strip()
 
-    phan_match = re.match(r"^\s*(PHẦN\s+(?:THỨ\s+[\w\sÀ-Ỹà-ỹ]+|[IVXLCDM]+|CHUNG|CÁC TỘI PHẠM))\s*[:.]?\s*(.*)", line, re.IGNORECASE)
-    if phan_match: return "phan", phan_match.group(1).lower().replace(" ", "-"), phan_match.group(2).strip()
-
-    chuong_match = re.match(r"^\s*(Chương\s+[IVXLCDM\d]+)\s*[:.]?\s*(.*)", line, re.IGNORECASE)
-    if chuong_match: return "chuong", chuong_match.group(1).lower().replace(" ", "-"), chuong_match.group(2).strip()
-
-    dieu_match = re.match(r"^\s*(Điều\s+\d+[a-z]?)\s*[\.:]?\s*(.*)", line, re.IGNORECASE)
-    if dieu_match:
-        item_code = dieu_match.group(1).lower().replace(" ", "-")
-        item_title = dieu_match.group(2).strip()
-        if re.match(r"^\d+\.", item_title):
-            return "dieu", item_code, ""
-        return "dieu", item_code, item_title
-
-    khoan_match = re.match(r"^\s*(\d+)\.\s*(.+)", line)
-    if khoan_match:
-        content = khoan_match.group(2).strip()
-        if not re.match(r"^\s*[a-zđ]\)", content) and content and content[0].isupper():
-            return "khoan", f"khoan-{khoan_match.group(1)}", content
-
-    diem_match = re.match(r"^\s*([a-zđ])\)\s*(.+)", line)
-    if diem_match: return "diem", f"diem-{diem_match.group(1)}", diem_match.group(2).strip()
-
-    return None, None, line
+    if stripped_line.isupper() and len(stripped_line.split()) > 1 and len(stripped_line) < 150:
+        return "title", "", stripped_line
+    if m := re.match(r"^\s*(\d+)\.\s+(.*)", stripped_line):
+        return "khoan", m.group(1), m.group(2).strip()
+    if m := re.match(r"^\s*([a-zđ])\)\s+(.*)", stripped_line):
+        return "diem", m.group(1), m.group(2).strip()
+    return None, "", stripped_line
 
 
 
@@ -1083,206 +856,110 @@ def _normalize_duration(value_str: str, unit_str: str) -> Optional[Dict[str, Uni
     except ValueError: return None
 
 def extract_penalties_from_text(text_content: str) -> List[Dict]:
+    """
+    Trích xuất các loại hình phạt khác nhau từ một đoạn văn bản.
+    Cải tiến: Sử dụng set để tránh thêm các hình phạt trùng lặp.
+    """
+    if not text_content:
+        return []
+
     penalties = []
-    # Chuyển text_content thành chữ thường một lần để tìm kiếm không phân biệt hoa thường
-    # Nhưng vẫn giữ text_content gốc để lấy original_text
-    text_lower_for_search = text_content.lower()
+    found_original_texts = set() # Set để theo dõi các chuỗi đã tìm thấy
 
-    # 1. Phạt tiền (KHOẢNG trước)
+    # --- 1. PHẠT TIỀN ---
+    # Ưu tiên bắt khoảng (từ... đến...) trước
     fine_range_pattern = r"phạt tiền từ\s*([\d\.,]+)\s*đồng\s*đến\s*([\d\.,]+)\s*đồng"
-    # Lưu vị trí các match của fine_range để không xử lý lại phần này cho fine_fixed
-    fine_range_spans = []
     for m in re.finditer(fine_range_pattern, text_content, re.IGNORECASE):
-        penalties.append({
-            "type": "fine",
-            "min_amount": _normalize_money(m.group(1)),
-            "max_amount": _normalize_money(m.group(2)),
-            "currency": "đồng",
-            "original_text": m.group(0)
-        })
-        fine_range_spans.append(m.span()) # Lưu lại span (start, end) của match này
+        original_text = m.group(0)
+        if original_text not in found_original_texts:
+            penalties.append({
+                "type": "fine",
+                "min_amount": _normalize_money(m.group(1)),
+                "max_amount": _normalize_money(m.group(2)),
+                "currency": "đồng",
+                "original_text": original_text
+            })
+            found_original_texts.add(original_text)
 
-    # 2. Phạt tiền (CỐ ĐỊNH sau, và không nằm trong các khoảng đã tìm thấy)
-    fine_fixed_pattern = r"phạt tiền\s*([\d\.,]+)\s*đồng"
+    # Bắt các mức phạt cố định sau
+    fine_fixed_pattern = r"\bphạt tiền\s*([\d\.,]+)\s*đồng\b"
     for m in re.finditer(fine_fixed_pattern, text_content, re.IGNORECASE):
-        current_span = m.span()
-        is_part_of_range = False
-        # Kiểm tra xem match này có nằm trong một fine_range_span không
-        for r_span_start, r_span_end in fine_range_spans:
-            # Nếu match của fine_fixed nằm hoàn toàn trong một match của fine_range
-            if r_span_start <= current_span[0] and current_span[1] <= r_span_end:
-                # Và nếu nó không phải là chính fine_range_match đó (trường hợp pattern giống hệt)
-                # (So sánh original_text để chắc chắn hơn, nhưng span là đủ)
-                if text_content[r_span_start:r_span_end] != m.group(0):
-                     is_part_of_range = True
-                     break
-        if is_part_of_range:
-            continue # Bỏ qua nếu nó là một phần của "phạt tiền từ...đến..."
+        original_text = m.group(0)
+        # Kiểm tra xem nó có phải là một phần của một khoảng đã tìm thấy không
+        is_part_of_range = any(original_text in found_range for found_range in found_original_texts)
+        if not is_part_of_range and original_text not in found_original_texts:
+            penalties.append({
+                "type": "fine",
+                "amount": _normalize_money(m.group(1)),
+                "currency": "đồng",
+                "original_text": original_text
+            })
+            found_original_texts.add(original_text)
 
-        # Heuristic bổ sung: Kiểm tra từ khóa "từ", "đến" xung quanh
-        # Ngữ cảnh trước (ví dụ 15 ký tự)
-        context_before = text_content[max(0, m.start() - 15):m.start()].lower()
-        # Ngữ cảnh sau (ví dụ 10 ký tự)
-        context_after = text_content[m.end():min(len(text_content), m.end() + 10)].lower()
-
-        if ("từ" in context_before and "đến" in text_content[m.start():m.end()+30].lower()) or \
-           ("đến" in context_after and "từ" in text_content[max(0, m.start()-30):m.end()].lower()):
-            # Có khả năng cao đây là một phần của một khoảng phạt mà regex trên chưa bắt hết
-            # Ví dụ: "phạt tiền từ năm trăm nghìn đồng, phạt tiền một triệu đồng đến hai triệu đồng"
-            # "phạt tiền một triệu đồng" có thể bị bắt nhầm.
-            # Logic này cần cẩn thận để không loại bỏ nhầm.
-            # Tạm thời có thể bỏ qua heuristic phức tạp này nếu việc kiểm tra span đã đủ tốt.
-            pass # Hiện tại, dựa vào fine_range_spans là chính
-
-        penalties.append({
-            "type": "fine",
-            "amount": _normalize_money(m.group(1)),
-            "currency": "đồng",
-            "original_text": m.group(0)
-        })
-
-    # 3. Hình phạt tù (KHOẢNG trước)
+    # --- 2. HÌNH PHẠT TÙ ---
     prison_range_pattern = r"phạt tù từ\s*(\d+)\s*(tháng|năm|ngày)\s*đến\s*(\d+)\s*(tháng|năm|ngày)"
-    prison_range_spans = []
-    for m in re.finditer(prison_range_pattern, text_lower_for_search): # Dùng text_lower
-        penalties.append({
-            "type": "prison",
-            "min_duration": _normalize_duration(m.group(1), m.group(2)),
-            "max_duration": _normalize_duration(m.group(3), m.group(4)),
-            "original_text": m.group(0) # Lấy từ text_lower_for_search, nhưng khi hiển thị có thể muốn text gốc
-                                      # Để nhất quán, có thể finditer trên text_content và dùng re.IGNORECASE
-                                      # Hoặc lưu original_text từ text_content[m.start():m.end()]
-        })
-        prison_range_spans.append(m.span())
+    for m in re.finditer(prison_range_pattern, text_content, re.IGNORECASE):
+        original_text = m.group(0)
+        if original_text not in found_original_texts:
+            penalties.append({
+                "type": "prison",
+                "min_duration": _normalize_duration(m.group(1), m.group(2)),
+                "max_duration": _normalize_duration(m.group(3), m.group(4)),
+                "original_text": original_text
+            })
+            found_original_texts.add(original_text)
 
-    # 4. Hình phạt tù (CỐ ĐỊNH sau, và không nằm trong các khoảng đã tìm thấy)
-    prison_fixed_pattern = r"phạt tù\s*(\d+)\s*(tháng|năm|ngày)"
-    for m in re.finditer(prison_fixed_pattern, text_lower_for_search): # Dùng text_lower
-        current_span = m.span()
-        is_part_of_range = any(r_start <= current_span[0] and current_span[1] <= r_end and text_lower_for_search[r_start:r_end] != m.group(0)
-                               for r_start, r_end in prison_range_spans)
-        if is_part_of_range:
-            continue
+    prison_fixed_pattern = r"\bphạt tù\s*(\d+)\s*(tháng|năm|ngày)\b"
+    for m in re.finditer(prison_fixed_pattern, text_content, re.IGNORECASE):
+        original_text = m.group(0)
+        is_part_of_range = any(original_text in found_range for found_range in found_original_texts)
+        if not is_part_of_range and original_text not in found_original_texts:
+            penalties.append({
+                "type": "prison",
+                "duration": _normalize_duration(m.group(1), m.group(2)),
+                "original_text": original_text
+            })
+            found_original_texts.add(original_text)
 
-        # Heuristic kiểm tra "từ", "đến" xung quanh
-        context_before = text_lower_for_search[max(0, m.start() - 10):m.start()]
-        context_after = text_lower_for_search[m.end():min(len(text_lower_for_search), m.end() + 15)]
-        if ("từ" in context_before and "đến" in context_after) or \
-           ("từ" in context_before and re.search(r"đến\s*\d+\s*(tháng|năm|ngày)", text_lower_for_search[m.end():m.end()+30])):
-            continue # Có khả năng là một phần của khoảng mà regex chưa bắt hết
+    # Tù chung thân và tử hình
+    special_prison_patterns = {
+        "life_imprisonment": r"phạt tù chung thân",
+        "death_penalty": r"phạt tử hình"
+    }
+    for p_type, pattern in special_prison_patterns.items():
+        if match := re.search(pattern, text_content, re.IGNORECASE):
+            original_text = match.group(0)
+            if original_text not in found_original_texts:
+                penalties.append({"type": "prison", "duration_type": p_type, "original_text": original_text})
+                found_original_texts.add(original_text)
 
-        penalties.append({
-            "type": "prison",
-            "duration": _normalize_duration(m.group(1), m.group(2)),
-            "original_text": m.group(0) # Tương tự trên, cân nhắc lấy từ text_content
-        })
+    # --- 3. TƯỚC QUYỀN SỬ DỤNG GIẤY PHÉP ---
+    license_revocation_pattern = r"tước quyền sử dụng giấy phép lái xe\s*(?:từ|từ\s*thời\s*hạn)?\s*(\d+)\s*(tháng)\s*đến\s*(\d+)\s*(tháng)"
+    for m in re.finditer(license_revocation_pattern, text_content, re.IGNORECASE):
+        original_text = m.group(0)
+        if original_text not in found_original_texts:
+            penalties.append({
+                "type": "license_revocation",
+                "min_duration": _normalize_duration(m.group(1), m.group(2)),
+                "max_duration": _normalize_duration(m.group(3), m.group(4)),
+                "original_text": original_text
+            })
+            found_original_texts.add(original_text)
 
-    # ... (các loại penalty khác giữ nguyên hoặc áp dụng logic tương tự nếu có look-behind phức tạp) ...
-    # Tù chung thân
-    if match := re.search(r"phạt tù chung thân", text_lower_for_search):
-        penalties.append({"type": "prison", "duration_type": "life_imprisonment", "original_text": match.group(0)})
-    # Tử hình
-    if match := re.search(r"phạt tử hình", text_lower_for_search):
-        penalties.append({"type": "prison", "duration_type": "death_penalty", "original_text": match.group(0)})
+    # --- 4. CÁC HÌNH PHẠT KHÁC (Cảnh cáo, tịch thu, v.v.) ---
+    other_patterns = {
+        "warning": r"\bphạt cảnh cáo\b",
+        "confiscation_object_vehicle": r"tịch thu tang vật,? phương tiện vi phạm hành chính",
+        "deportation": r"\btrục xuất\b"
+    }
+    for p_type, pattern in other_patterns.items():
+        if match := re.search(pattern, text_content, re.IGNORECASE):
+            original_text = match.group(0)
+            if original_text not in found_original_texts:
+                penalties.append({"type": p_type, "original_text": original_text})
+                found_original_texts.add(original_text)
 
-    # Cải tạo không giam giữ
-    for m in re.finditer(r"cải tạo không giam giữ\s*(?:đến\s*)?(\d+)\s*(năm|tháng)", text_lower_for_search):
-        penalties.append({"type": "non_custodial_reform", "max_duration": _normalize_duration(m.group(1), m.group(2)), "original_text": m.group(0)})
-
-    # Cảnh cáo
-    if match := re.search(r"\bphạt cảnh cáo\b", text_lower_for_search):
-        penalties.append({"type": "warning", "original_text": match.group(0)})
-
-    # Tịch thu
-    if match := re.search(r"tịch thu tang vật(?:\s*,\s*phương tiện(?: được sử dụng để vi phạm hành chính)?)?", text_lower_for_search):
-        penalties.append({"type": "confiscation_object_vehicle", "original_text": match.group(0)})
-    if m := re.search(r"tịch thu (một phần hoặc toàn bộ|toàn bộ|một phần) tài sản", text_lower_for_search):
-        penalties.append({"type": "confiscation_property", "scope": m.group(1), "original_text": m.group(0)})
-    elif match := re.search(r"tịch thu tài sản", text_lower_for_search):
-         penalties.append({"type": "confiscation_property", "scope": "không xác định", "original_text": match.group(0)})
-
-    # Tước quyền sử dụng
-    for m in re.finditer(r"tước quyền sử dụng\s*(?:giấy phép lái xe|giấy phép|chứng chỉ hành nghề|phù hiệu|tem kiểm định)\s*(?:có thời hạn|từ)?\s*(\d+)\s*(?:đến\s*(\d+)\s*)?(tháng|năm)", text_lower_for_search):
-        min_v_str, max_v_str, unit_str = m.groups()
-        duration_info = {}
-        if max_v_str: # Có khoảng từ...đến
-            duration_info["min_duration"] = _normalize_duration(min_v_str, unit_str)
-            duration_info["max_duration"] = _normalize_duration(max_v_str, unit_str)
-        else: # Chỉ có một giá trị
-            duration_info["duration"] = _normalize_duration(min_v_str, unit_str)
-        penalties.append({"type": "license_revocation", **duration_info, "original_text": m.group(0)})
-
-    if match := re.search(r"tước quyền sử dụng\s*(?:giấy phép lái xe|giấy phép|chứng chỉ hành nghề)\s*vĩnh viễn", text_lower_for_search):
-        penalties.append({"type": "license_revocation", "duration_type": "permanent", "original_text": match.group(0)})
-
-    # Trục xuất
-    if match := re.search(r"\btrục xuất\b", text_lower_for_search):
-        penalties.append({"type": "deportation", "original_text": match.group(0)})
-
-    # Cấm đảm nhiệm, hành nghề, cư trú
-    for m in re.finditer(r"(cấm đảm nhiệm chức vụ|cấm hành nghề(?: hoặc làm công việc nhất định)?|cấm cư trú)\s*(?:từ\s*(\d+)\s*(?:đến\s*(\d+)\s*)?(năm|tháng))?", text_lower_for_search):
-        p_text, min_v_str, max_v_str, unit_str = m.groups()
-        p_type = "prohibit_holding_office"
-        if "hành nghề" in p_text: p_type = "prohibit_profession"
-        elif "cư trú" in p_text: p_type = "prohibit_residence"
-        d_info = {}
-        if min_v_str and unit_str:
-            if max_v_str:
-                d_info["min_duration"] = _normalize_duration(min_v_str, unit_str)
-                d_info["max_duration"] = _normalize_duration(max_v_str, unit_str)
-            else:
-                d_info["duration"] = _normalize_duration(min_v_str, unit_str)
-        penalties.append({"type": p_type, **d_info, "original_text": m.group(0)})
-
-    # Biện pháp khắc phục
-    for m in re.finditer(r"buộc\s*((?:khôi phục lại tình trạng ban đầu|phá dỡ|tháo dỡ|nộp lại số lợi bất hợp pháp|thực hiện biện pháp khắc phục|tái xuất|trả lại tài sản|công khai xin lỗi|bồi thường thiệt hại)(?:[\w\sÀ-Ỹà-ỹ,]*)?)", text_lower_for_search):
-        action_full = m.group(1)
-        action_key = action_full.split(',')[0].split(' và ')[0].strip()
-        remedy_type_map = {
-            "khôi phục lại tình trạng ban đầu": "remedial_restore", "phá dỡ": "remedial_demolish",
-            "tháo dỡ": "remedial_demolish", "nộp lại số lợi bất hợp pháp": "remedial_return_illegal_profit",
-            "tái xuất": "remedial_re_export", "trả lại tài sản": "remedial_return_property",
-            "công khai xin lỗi": "remedial_public_apology", "bồi thường thiệt hại": "remedial_compensation"
-        }
-        remedy_type = "remedial_action"
-        for key_text, r_type in remedy_type_map.items():
-            if key_text in action_key:
-                remedy_type = r_type
-                break
-        penalties.append({"type": remedy_type, "description": action_full, "original_text": m.group(0)})
-
-    # Trừ điểm GPLX
-    for m in re.finditer(r"trừ điểm giấy phép lái xe\s*(\d+)\s*điểm", text_lower_for_search):
-        penalties.append({"type": "demerit_points_license", "points": int(m.group(1)) if m.group(1).isdigit() else None, "original_text": m.group(0)})
-
-    # Lọc penalties để loại bỏ trùng lặp và ưu tiên match dài hơn
-    # Sắp xếp theo vị trí bắt đầu, sau đó theo độ dài giảm dần (để xử lý match dài trước)
-    penalties.sort(key=lambda p: (text_content.find(p["original_text"]), -len(p["original_text"])))
-
-    final_penalties = []
-    processed_spans = [] # List các (start, end) của các penalty đã được chọn
-
-    for p in penalties:
-        current_penalty_span_start = text_content.find(p["original_text"])
-        current_penalty_span_end = current_penalty_span_start + len(p["original_text"])
-        current_penalty_span = (current_penalty_span_start, current_penalty_span_end)
-
-        is_overlapping_or_substring = False
-        for proc_start, proc_end in processed_spans:
-            # Nếu penalty hiện tại nằm trong hoặc bị bao phủ bởi một penalty đã xử lý
-            if (proc_start <= current_penalty_span[0] and current_penalty_span[1] <= proc_end) or \
-               (current_penalty_span[0] <= proc_start and proc_end <= current_penalty_span[1]):
-                # Nếu p là substring của một cái đã có, bỏ qua p
-                # Nếu một cái đã có là substring của p, thì cần phức tạp hơn, nhưng do đã sort, p dài hơn sẽ được ưu tiên
-                if current_penalty_span[0] >= proc_start and current_penalty_span[1] <= proc_end and len(p["original_text"]) < (proc_end - proc_start):
-                    is_overlapping_or_substring = True
-                    break
-
-        if not is_overlapping_or_substring:
-            final_penalties.append(p)
-            processed_spans.append(current_penalty_span)
-
-    return final_penalties
+    return penalties
 
 
 def load_process_and_split_documents(folder_path: str) -> List[Document]:
@@ -1344,55 +1021,60 @@ def load_process_and_split_documents(folder_path: str) -> List[Document]:
 
 
 # new code
+
+# utils/process_data.py
+
 def process_single_file(file_path: str) -> List[Document]:
     """
-    Hàm này thực hiện toàn bộ pipeline xử lý cho một file duy nhất.
-    Nó sẽ được gọi song song cho nhiều file.
-
-    Returns:
-        Một list các đối tượng Document (chunks) đã được xử lý cho file đó.
-        Metadata phức tạp (list/dict) vẫn ở dạng Python object.
+    PHIÊN BẢN CUỐI CÙNG: Pipeline xử lý hoàn chỉnh cho một file duy nhất,
+    với thứ tự xử lý được tối ưu hóa.
     """
     filename = os.path.basename(file_path)
-    logger.debug(f"Bắt đầu xử lý file: {filename}...")
+    logger.info(f"--- Starting Full Processing Pipeline for: {filename} ---")
+
     try:
+        # --- BƯỚC 1: ĐỌC FILE ---
         with open(file_path, 'r', encoding='utf-8') as f:
             raw_content = f.read()
-
         if not raw_content.strip():
-            logger.warning(f"File '{filename}' rỗng.")
+            logger.warning(f"File '{filename}' is empty. Skipping.")
             return []
 
-        # 1. Trích xuất metadata gốc từ raw_content
-        doc_metadata = extract_document_metadata(raw_content, filename)
-        doc_metadata["source"] = filename
-
-        # 2. Làm sạch nội dung chính
+        # --- BƯỚC 2: LÀM SẠCH VĂN BẢN ---
+        # Việc làm sạch trước giúp các bước sau hoạt động chính xác hơn
         cleaned_content = clean_document_text(raw_content)
         if not cleaned_content.strip():
-            logger.warning(f"File '{filename}' rỗng sau khi làm sạch.")
+            logger.warning(f"File '{filename}' is empty after cleaning. Skipping.")
             return []
 
-        # 3. Suy luận metadata bổ sung cho toàn bộ văn bản
+        logger.debug(f"File '{filename}' cleaned successfully.")
+
+        # --- BƯỚC 3: TRÍCH XUẤT METADATA CẤP VĂN BẢN ---
+        # Trích xuất từ nội dung đã được làm sạch
+        doc_metadata = extract_document_metadata(cleaned_content, filename)
+        doc_metadata["source"] = filename
+
+        logger.debug(f"Extracted document metadata for '{filename}': so_hieu={doc_metadata.get('so_hieu')}, loai_van_ban={doc_metadata.get('loai_van_ban')}")
+
+        # --- BƯỚC 4: SUY LUẬN LĨNH VỰC ---
+        # Dựa trên nội dung sạch và tiêu đề đã trích xuất
         doc_metadata["field"] = infer_field(cleaned_content, doc_metadata.get("ten_van_ban"))
 
-        # infer_entity_type có thể trả về list, giữ nguyên dạng list
-        doc_metadata["entity_type"] = infer_entity_type(cleaned_content, doc_metadata.get("field",""))
+        logger.debug(f"Inferred field for '{filename}': {doc_metadata['field']}")
 
-        # 4. Tạo đối tượng Document lớn ban đầu để truyền vào hàm chia chunk
+        # --- BƯỚC 5: TẠO ĐỐI TƯỢNG DOCUMENT VÀ CHIA CHUNK ---
         doc_to_split = Document(page_content=cleaned_content, metadata=doc_metadata)
 
-        # 5. Chia văn bản thành các chunk theo cấu trúc, đồng thời trích xuất
-        # metadata cho từng chunk (penalties, cross_references)
-        # Hàm hierarchical_split_law_document sẽ tự thêm các metadata này vào từng chunk
+        # Gọi hàm chia chunk phiên bản cuối cùng
         chunks_from_file = hierarchical_split_law_document(doc_to_split)
 
-        # Không cần gọi filter_and_serialize_complex_metadata ở đây nữa.
-        # Việc này sẽ được thực hiện tập trung trước khi ingest.
+        if not chunks_from_file:
+            logger.warning(f"File '{filename}' did not yield any chunks after processing.")
+        else:
+            logger.info(f"✅ Successfully processed '{filename}', generated {len(chunks_from_file)} chunks.")
 
-        logger.info(f"✅ Xử lý xong file '{filename}', tạo ra {len(chunks_from_file)} chunks.")
         return chunks_from_file
 
     except Exception as e:
-        logger.error(f"❌ Lỗi khi xử lý file '{filename}': {e}", exc_info=True)
+        logger.error(f"❌ A critical error occurred while processing file '{filename}': {e}", exc_info=True)
         return []

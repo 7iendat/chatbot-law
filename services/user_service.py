@@ -606,7 +606,8 @@ async def verify_login_code(email: str, code: str, res: Response): # Bỏ kiểu
                     "login_verification_timestamp": ""
                 },
                 "$set": {
-                    "last_login": datetime.now(timezone.utc if expiry.tzinfo else None) # Giữ timezone nhất quán
+                    "last_login": datetime.now(timezone.utc if expiry.tzinfo else None), # Giữ timezone nhất quán
+                    "login_type": "email", # Giả sử đây là đăng nhập bằng email
                 }
             }
         )
@@ -623,7 +624,8 @@ async def verify_login_code(email: str, code: str, res: Response): # Bỏ kiểu
                 "email": email.lower(),
                 "username": user.get("username", email.lower().split('@')[0]), # Cung cấp username mặc định nếu không có
                 "role": user.get("role", "user"),
-                "avatar_url": user.get("avatar_url", None) # Hoặc một avatar mặc định
+                "avatar_url": user.get("avatar_url", None), # Hoặc một avatar mặc định,
+                "login_type": user.get("login_type", "email") # Giả sử đây là đăng nhập bằng email
             },
             "message": "Đăng nhập thành công. Tokens đã được lưu trữ an toàn."
         }

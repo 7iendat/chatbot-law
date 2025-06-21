@@ -38,3 +38,7 @@ python-docx
 pypandoc
 llama-index
 llama-parse
+itsdangerous
+
+Authlib[fastapi]
+httpx

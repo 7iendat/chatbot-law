@@ -16,7 +16,7 @@ router = APIRouter()
 
 ALLOWED_EXTENSIONS = {".pdf", ".docx", ".doc"}
 
-@router.post("/upload/", status_code=202)
+@router.post("/upload", status_code=202)
 async def upload_and_ingest_documents(
     fastapi_request: Request,
     background_tasks: BackgroundTasks,

@@ -70,7 +70,7 @@ def build_store_v5(force_rebuild: bool = False, pool_batch_size: int = 50):
         device = 'cpu' # Giả định không có GPU
         logger.info(f"💻 Sử dụng thiết bị: {device}")
 
-        weaviate_client = connect_to_weaviate()
+        weaviate_client = connect_to_weaviate(run_diagnostics=False)
         if not weaviate_client: raise ConnectionError("Không thể kết nối đến Weaviate.")
 
         logger.info("🧠 Tải model embedding (chạy trên CPU)...")

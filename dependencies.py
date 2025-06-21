@@ -8,15 +8,18 @@ import torch
 import rag_components
 from schemas.chat import AppState
 from pydantic import ValidationError
-from config import SECRET_KEY, ALGORITHM,EMBEDDING_MODEL_NAME, LLM_TEMPERATURE, LLM_MAX_NEW_TOKENS, WEAVIATE_COLLECTION_NAME, WEAVIATE_URL, SEARCH_K
+from config import SECRET_KEY, ALGORITHM,EMBEDDING_MODEL_NAME,WEAVIATE_COLLECTION_NAME, WEAVIATE_URL
 from utils.utils import load_legal_dictionary
-from groq import Groq
+# from groq import Groq
+from langchain_groq import ChatGroq
 from typing import Annotated, Optional
 from schemas.user import UserOut, UserRole
 from fastapi import status
 from datetime import datetime, timezone
 import redis
-# from utils.AdvancedLawRetriever import AdvancedLawRetriever
+from utils.AdvancedLawRetriever import AdvancedLawRetriever
+from services.reranker_service import get_reranker_compressor
+
 
 
 
@@ -61,7 +64,7 @@ def initialize_api_components(app_state: AppState):
 
     load_dotenv()
     # --- Kiểm tra kết nối tới Redis ---
-    app_state.process_input_llm = Groq(api_key=os.environ.get("PRE_PROCESS_INPUT_KEY"))
+    app_state.process_input_llm = ChatGroq(model='llama-3.3-70b-versatile',temperature=0.2)
     try:
         app_state.redis = initialize_redis_client() # Gọi hàm khởi tạo redis
     except Exception as e:
@@ -133,22 +136,36 @@ def initialize_api_components(app_state: AppState):
     #     }
     # )
 
-    app_state.retriever = app_state.vectorstore.as_retriever(
-        search_type="similarity_score_threshold",  # tìm kiếm dựa trên ngưỡng điểm tương đồng
-        search_kwargs={
-            "k": 10,          # lấy tối đa 3 tài liệu phù hợp nhất
-            "score_threshold": 0.5,  # ngưỡng điểm tương đồng tối thiểu (tùy chỉnh theo nhu cầu)
-        }
+    # app_state.retriever = app_state.vectorstore.as_retriever(
+    #     search_type="similarity_score_threshold",  # tìm kiếm dựa trên ngưỡng điểm tương đồng
+    #     search_kwargs={
+    #         "k": 5,
+    #         "score_threshold": 0.5,
+    #     }
+    # )
+
+    app_state.reranker = get_reranker_compressor() # Singleton re-ranker
+
+    app_state.retriever = AdvancedLawRetriever(
+        client=app_state.weaviateDB,
+        collection_name=WEAVIATE_COLLECTION_NAME,
+        llm=app_state.llm,
+        reranker=app_state.reranker, # Singleton re-ranker
+        embeddings_model=app_state.embeddings
     )
 
     # app_state.retriever = AdvancedLawRetriever(
-    #     vectorstore=app_state.vectorstore,
+    #     client=app_state.weaviateDB,
+    #     collection_name=WEAVIATE_COLLECTION_NAME,
     #     default_k=10,
+    #     embeddings_model=app_state.embeddings,
     #     recency_bias_weight=0.65,  # <-- Giá trị mới được đề xuất
     #     year_filter_margin=0,
     #     enable_query_expansion=True,
     #     max_expanded_queries=3,       # <-- Giá trị mới được đề xuất
-    #     final_score_threshold_after_bias=0.45
+    #     final_score_threshold_after_bias=0.45,
+    #     llm=app_state.llm,
+    #     reranker=get_reranker_compressor()
     # )
 
 
@@ -160,11 +177,17 @@ def initialize_api_components(app_state: AppState):
 
     # 5. Tạo QA Chain (giữ nguyên)
     logger.info(f"🔸Đang tạo QA Chain...")
+    # app_state.qa_chain = rag_components.create_qa_chain(
+    #     app_state.llm,
+    #     app_state.vectorstore,
+    #     app_state.retriever,
+    #     app_state.process_input_llm
+    # )
+
     app_state.qa_chain = rag_components.create_qa_chain(
-        app_state.llm,
-        app_state.vectorstore,
-        app_state.retriever,
-        app_state.process_input_llm
+        llm=app_state.llm,
+        retriever=app_state.retriever,
+        process_input_llm=app_state.process_input_llm
     )
     if app_state.qa_chain is None:
         raise HTTPException(status_code=500, detail="Failed to create QA Chain")

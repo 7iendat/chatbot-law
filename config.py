@@ -1,6 +1,10 @@
 # config.py
 import os
 
+# config.py
+from dotenv import load_dotenv
+load_dotenv()
+
 
 API_HOST = "0.0.0.0"
 API_PORT = 5000
@@ -38,8 +42,13 @@ LLM_MAX_NEW_TOKENS = 1024
 # REDIS_PORT = 6379
 # REDIS_PASSWORD = "AU5bAAIjcDFmODMwYzI5MGE4YWI0OTc4ODQ4NzJmMWY1MTI0MjM5NnAxMA"
 
-SECRET_KEY = "4pqtnocaspevbuquv2vwkwvgf60t5lk1pbf7zsu1eikpc604cvktuuz5zl68hmvh"
+SECRET_KEY = "1eb10877ca31c8589ef2e9c7eebd1e68"
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 60
 
 LLAMA_CLOUD_API_KEY="llx-yvHfZ8BOQL6imOd2cudcMKpFcsEnjiAdBEy8uQANsCujCiOW"
+
+GOOGLE_CLIENT_ID = os.environ.get("GOOGLE_CLIENT_ID")
+GOOGLE_CLIENT_SECRET = os.environ.get("GOOGLE_CLIENT_SECRET")
+
+FRONTEND_URL = "http://localhost:3000"

@@ -7,7 +7,7 @@ import utils.utils as utils
 from core.runnables import router_as_runnable
 from langchain_core.documents import Document
 import logging
-from langchain_core.output_parsers import StrOutputParser
+from langchain_core.output_parsers import StrOutputParser, JsonOutputParser
 from typing import List,Any,Optional,Dict
 from langchain_weaviate.vectorstores import WeaviateVectorStore
 from langchain_google_genai import ChatGoogleGenerativeAI
@@ -20,27 +20,31 @@ import weaviate
 import weaviate.classes.config as wvc_config
 from weaviate.exceptions import WeaviateQueryException
 import time
+from utils.AdvancedLawRetriever import AdvancedLawRetriever
+
+from operator import itemgetter
+
 
 logger = logging.getLogger(__name__)
 
 WEAVIATE_SCHEMA_CONFIG: List[Dict[str, Any]] = [
     # Tên trường, Kiểu dữ liệu trong Weaviate, Có nên vector hóa trường này không?
-    {"name": "source", "dataType": wvc_config.DataType.TEXT, "vectorize": False},
-    {"name": "title", "dataType": wvc_config.DataType.TEXT, "vectorize": True},
-    {"name": "field", "dataType": wvc_config.DataType.TEXT, "vectorize": True},
-    {"name": "so_hieu", "dataType": wvc_config.DataType.TEXT, "vectorize": False},
-    {"name": "loai_van_ban", "dataType": wvc_config.DataType.TEXT, "vectorize": True},
-    {"name": "ten_van_ban", "dataType": wvc_config.DataType.TEXT, "vectorize": True},
-    {"name": "co_quan_ban_hanh", "dataType": wvc_config.DataType.TEXT, "vectorize": False},
-    {"name": "ngay_ban_hanh_str", "dataType": wvc_config.DataType.TEXT, "vectorize": False},
-    {"name": "nam_ban_hanh", "dataType": wvc_config.DataType.INT, "vectorize": False},
-    {"name": "phan_code", "dataType": wvc_config.DataType.TEXT, "vectorize": False},
-    {"name": "chuong_code", "dataType": wvc_config.DataType.TEXT, "vectorize": False},
-    {"name": "muc_code", "dataType": wvc_config.DataType.TEXT, "vectorize": False},
-    {"name": "dieu_code", "dataType": wvc_config.DataType.TEXT, "vectorize": False},
-    {"name": "entity_type", "dataType": wvc_config.DataType.TEXT, "vectorize": False},
-    {"name": "penalties", "dataType": wvc_config.DataType.TEXT, "vectorize": False},
-    {"name": "cross_references", "dataType": wvc_config.DataType.TEXT, "vectorize": False},
+    {"name": "source", "dataType": wvc_config.DataType.TEXT,"index_searchable": False, "vectorize": False},
+    {"name": "title", "dataType": wvc_config.DataType.TEXT, "index_searchable": True, "tokenization": wvc_config.Tokenization.WORD, "vectorize": True},
+    {"name": "field", "dataType": wvc_config.DataType.TEXT,"index_searchable": True, "vectorize": True},
+    {"name": "so_hieu", "dataType": wvc_config.DataType.TEXT, "index_searchable": False,"vectorize": False},
+    {"name": "loai_van_ban", "dataType": wvc_config.DataType.TEXT, "index_searchable": True,"vectorize": True},
+    {"name": "ten_van_ban", "dataType": wvc_config.DataType.TEXT,"index_searchable": True, "tokenization": wvc_config.Tokenization.WORD, "vectorize": True},
+    {"name": "co_quan_ban_hanh", "dataType": wvc_config.DataType.TEXT, "index_searchable": False,"vectorize": False},
+    {"name": "ngay_ban_hanh_str", "dataType": wvc_config.DataType.TEXT,"index_searchable": False, "vectorize": False},
+    {"name": "nam_ban_hanh", "dataType": wvc_config.DataType.INT,"index_searchable": True, "vectorize": False},
+    {"name": "phan_code", "dataType": wvc_config.DataType.TEXT,"index_searchable": False, "vectorize": False},
+    {"name": "chuong_code", "dataType": wvc_config.DataType.TEXT, "index_searchable": False,"vectorize": False},
+    {"name": "muc_code", "dataType": wvc_config.DataType.TEXT,"index_searchable": False, "vectorize": False},
+    {"name": "dieu_code", "dataType": wvc_config.DataType.TEXT,"index_searchable": False, "vectorize": False},
+    {"name": "entity_type", "dataType": wvc_config.DataType.TEXT,"index_searchable": True, "vectorize": False},
+    {"name": "penalties", "dataType": wvc_config.DataType.TEXT,"index_searchable": False, "vectorize": False},
+    {"name": "cross_references", "dataType": wvc_config.DataType.TEXT, "index_searchable": False, "vectorize": False},
 ]
 
 # Hàm get_huggingface_embeddings giữ nguyên
@@ -71,46 +75,58 @@ def get_huggingface_embeddings(model_name: str, device: str = 'cpu'):
 # Begin New
 
 def _create_weaviate_schema_if_not_exists(client: weaviate.WeaviateClient, collection_name: str):
-    """Tạo schema cho collection một cách tường minh từ cấu hình WEAVIATE_SCHEMA_CONFIG."""
+    """
+    CẢI TIẾN: Tạo schema với cấu hình chi tiết cho filtering và hybrid search.
+    """
     if client.collections.exists(collection_name):
-        logger.info(f"✅ Schema cho collection '{collection_name}' đã tồn tại.")
+        logger.info(f"✅ Schema for collection '{collection_name}' already exists.")
         return
 
-    logger.info(f"🔸 Schema cho collection '{collection_name}' chưa tồn tại. Đang tạo từ cấu hình...")
+    logger.info(f"🔸 Schema for collection '{collection_name}' not found. Creating...")
     try:
-        # Tự động tạo list các thuộc tính từ cấu hình
-        properties = [
-            wvc_config.Property(
-                name=prop["name"],
-                data_type=prop["dataType"],
-                # Nếu vectorize=True, thì không skip (skip=False).
-                # Nếu vectorize=False, thì skip (skip=True).
-                skip_vectorization=not prop["vectorize"]
+        properties = []
+        for prop_config in WEAVIATE_SCHEMA_CONFIG:
+            properties.append(
+                wvc_config.Property(
+                    name=prop_config["name"],
+                    data_type=prop_config["dataType"],
+                    # Bỏ qua vector hóa nếu vectorize=False hoặc không được định nghĩa
+                    skip_vectorization=not prop_config.get("vectorize", False),
+                    # Kích hoạt tokenization cho các trường cần tìm kiếm từ khóa
+                    tokenization=prop_config.get("tokenization")
+                )
             )
-            for prop in WEAVIATE_SCHEMA_CONFIG
-        ]
-        # Thêm trường 'text' mặc định của LangChain
-        properties.append(wvc_config.Property(name="text", data_type=wvc_config.DataType.TEXT, skip_vectorization=False))
+
+        # Thêm trường 'text' chính, tối ưu cho cả vector và keyword search
+        properties.append(
+            wvc_config.Property(
+                name="text",
+                data_type=wvc_config.DataType.TEXT,
+                skip_vectorization=False, # Luôn vector hóa nội dung chính
+                tokenization=wvc_config.Tokenization.WORD # Cho phép tìm kiếm BM25 trên nội dung
+            )
+        )
 
         client.collections.create(
             name=collection_name,
             properties=properties,
-            # vectorizer_config=wvc_config.Configure.Vectorizer.text2vec_contextionary(
-            #     # Khi tự cung cấp vector, ta nên đặt vectorizer là 'none'.
-            #     # Tuy nhiên, nếu bạn muốn Weaviate vector hóa các trường có cờ vectorize=True,
-            #     # bạn cần chỉ định một vectorizer ở đây (ví dụ: text2vec-transformers).
-            #     # Để nhất quán với code ingest hiện tại (tự cung cấp vector), ta dùng 'none'.
-            #     vectorize_collection_name=False
-            # ),
+            # Kích hoạt inverted index (bắt buộc cho filtering và BM25)
+            inverted_index_config=wvc_config.Configure.inverted_index(
+                index_null_state=True,
+                index_property_length=True,
+                index_timestamps=True,
+                bm25_b=0.75,  # Tham số BM25, có thể điều chỉnh
+                bm25_k1=1.2   # Tham số K1 cho BM25
+            ),
+
             vectorizer_config=wvc_config.Configure.Vectorizer.none(),
             vector_index_config=wvc_config.Configure.VectorIndex.hnsw(
                 distance_metric=wvc_config.VectorDistances.COSINE
-            ),
-
+            )
         )
-        logger.info(f"✅ Đã tạo schema cho collection '{collection_name}' thành công.")
+        logger.info(f"✅ Successfully created schema for collection '{collection_name}'.")
     except WeaviateQueryException as e:
-        logger.error(f"❌ Lỗi khi tạo schema cho collection '{collection_name}': {e}")
+        logger.error(f"❌ Error creating schema: {e}", exc_info=True)
         raise
 
 def _ingest_chunks_with_native_batching(client: weaviate.WeaviateClient, collection_name: str, chunks: List[Document], embeddings_model):
@@ -380,104 +396,117 @@ def format_chat_history(chat_history):
     return formatted_history
 
 
-def create_qa_chain(llm, vectorstore, retriever, process_input_llm=None):
-    if not llm or not vectorstore:
-        logger.error("🔸Thiếu LLM hoặc Vector Store để tạo QA Chain.")
+
+
+def create_qa_chain(
+    llm: Any,
+    retriever: Any, # Nhận retriever nâng cao đã được khởi tạo
+    process_input_llm: Any = None
+):
+    """
+    PHIÊN BẢN CUỐI CÙNG: Tạo ra một RAG chain hoàn chỉnh, tối ưu hóa với:
+    1. Unified Pre-processing: Một lệnh gọi LLM để hiểu lịch sử, "dịch" thuật ngữ, và phân loại.
+    2. Multi-route: Định tuyến thông minh đến các nhánh xử lý chuyên biệt.
+    3. Advanced Retriever: Sử dụng retriever tùy chỉnh cho nhánh pháp luật.
+    """
+    if not all([llm, retriever]):
+        logger.error("🔸 Thiếu LLM hoặc Retriever chính để tạo QA Chain.")
         return None
 
     try:
-        logger.info("🔸Bắt đầu tạo ConversationalRetrievalChain...")
+        logger.info("🔸 Bắt đầu tạo QA Chain Tối ưu (phiên bản cuối cùng)...")
 
-        # ----- PROMPTS -----
-        generic_prompt = ChatPromptTemplate.from_messages([
+        # LLM cho bước tiền xử lý (thường là model mạnh nhất)
+        preprocessing_llm = process_input_llm or llm
+
+        # ----- PROMPTS (Sử dụng các phiên bản đã cải tiến) -----
+
+        # 1. Prompt tiền xử lý hợp nhất
+        # Sử dụng phiên bản V5 mạnh mẽ nhất để "dịch" thuật ngữ hiệu quả
+        unified_preprocessing_prompt = ChatPromptTemplate.from_template(
+            prompt_templete.UNIFIED_PREPROCESSING_PROMPT
+        )
+
+        # 2. Prompt để tạo câu trả lời RAG từ context
+        # Sử dụng phiên bản V4 để "dạy" LLM cách phân tích và ưu tiên thông tin
+        qa_prompt = ChatPromptTemplate.from_template(
+            prompt_templete.QA_PROMPT_TEMPLATE
+        )
+
+        # 3. Các prompt cho các nhánh khác
+        persona_prompt = ChatPromptTemplate.from_messages([
             ("system", prompt_templete.GENERAL_PROMPT),
             ("human", "{input}")
         ])
-
-        condense_prompt = ChatPromptTemplate.from_messages([
-            ("system", prompt_templete.CONDENSE_QUESTION_PROMPT),
-            MessagesPlaceholder(variable_name="chat_history"),
-            ("human", "{input}")
-        ])
-
-        qa_prompt = ChatPromptTemplate.from_messages([
-            ("system", prompt_templete.SYSTEM_PROMPT),
-            ("human", prompt_templete.QA_PROMPT_TEMPLATE)
-        ])
-
-        # ----- TẠO CHAIN XỬ LÝ TÀI LIỆU -----
-        document_chain = create_stuff_documents_chain(
-            llm=llm,
-            prompt=qa_prompt,
-            document_variable_name="context",
-            output_parser=StrOutputParser()
+        knowledge_prompt = ChatPromptTemplate.from_template(
+            "Bạn là một trợ lý AI am hiểu. Hãy trả lời câu hỏi sau một cách trực tiếp và súc tích.\n\nCâu hỏi: {input}"
         )
 
-        _retriever = retriever or vectorstore.as_retriever(
-            search_type="similarity_score_threshold",
-            search_kwargs={"k": 10, "score_threshold": 0.5} # Cấu hình retriever mặc định của bạn
-        )
+        # ----- STEP 1: UNIFIED PREPROCESSING CHAIN -----
+        # Đây là bộ não xử lý đầu vào, thay thế cho 3 lệnh gọi LLM cũ
+        unified_preprocessing_chain = (
+            unified_preprocessing_prompt
+            | preprocessing_llm
+            | JsonOutputParser()
+        ).with_config({"run_name": "UnifiedQuestionPreprocessor"})
 
-        # history_aware_retriever sẽ nhận {input: câu hỏi đã xử lý bởi Groq, chat_history: ...}
-        history_aware_retriever = create_history_aware_retriever(
-            llm=llm,
-            retriever=_retriever,
-            prompt=condense_prompt,
-        )
+        # ----- STEP 2: DEFINE BRANCHES (CÁC NHÁNH XỬ LÝ) -----
 
-        # legal_chain_retrieval_part sẽ xử lý câu hỏi đã được process_with_groq
-        legal_chain_retrieval_part = create_retrieval_chain(
-            history_aware_retriever, # Retriever này sẽ nhận câu hỏi đã được xử lý
-            document_chain
-        )
-
-        def process_question_for_legal_chain(input_dict: Dict):
-            # input_dict ở đây sẽ là {"input": cleaned_question, "chat_history": ...}
-            # từ RunnablePassthrough trong router
-            cleaned_question = input_dict.get("input", "")
-            question_for_chain = utils.process_with_groq(process_input_llm, cleaned_question) # Gọi hàm của bạn
-            logger.info(f"[Legal Branch] Question processed by Groq: {question_for_chain}")
-            # Trả về dict mới cho history_aware_retriever và legal_chain_retrieval_part
-            return {"input": question_for_chain, "chat_history": input_dict.get("chat_history", [])}
-
-        # Full legal chain
-        legal_chain_full = (
-            RunnableLambda(process_question_for_legal_chain)
-            | legal_chain_retrieval_part
-        ).with_config({"run_name": "LegalChainWithGroqProcessing"})
-
-        # ----- CHAIN TỔNG QUÁT (GENERAL) -----
-        general_chain = (
-            RunnablePassthrough.assign( # Giữ lại chat_history nếu cần, nhưng generic_prompt không dùng
-                input_for_prompt=lambda x: x["input"]
-            )
+        # --- Nhánh 1: LEGAL (RAG) ---
+        # Sử dụng retriever nâng cao đã được truyền vào
+        legal_chain = (
+            # `retriever` nhận `rewritten_question` từ dict đầu vào
+            RunnablePassthrough.assign(context=itemgetter("rewritten_question") | retriever)
+            # Chuẩn bị input cho qa_prompt cuối cùng
+            .assign(input=itemgetter("rewritten_question"))
             | {
-                "answer": generic_prompt | llm | StrOutputParser(),
-                "context": lambda x: [] # Trả về context rỗng
-              }
-        ).with_config({"run_name": "GeneralChain"})
+                "answer": qa_prompt | llm | StrOutputParser(),
+                "context": itemgetter("context") # Giữ lại context để có thể hiển thị nguồn
+            }
+        ).with_config({"run_name": "AdvancedLegalRAGChain"})
 
+        # --- Nhánh 2: KNOWLEDGE RETRIEVAL ---
+        knowledge_chain = (
+            {"input": itemgetter("rewritten_question")}
+            | knowledge_prompt
+            | llm
+            | StrOutputParser()
+            | (lambda answer: {"answer": answer, "context": []}) # Định dạng output cho nhất quán
+        ).with_config({"run_name": "KnowledgeChain"})
 
-        def get_route_key_from_input_dict(input_dict_for_router: Dict) -> str:
-            question_for_routing = input_dict_for_router.get("input", "")
-            logger.info(f"DEBUG get_route_key: question_for_routing NHẬN ĐƯỢC = '{question_for_routing}'")
-            # << Thêm toàn bộ các log debug bên trong route_logic như đã thảo luận ở lần trước >>
-            route = route_logic({"input": question_for_routing})
-            logger.info(f"DEBUG get_route_key: route_logic TRẢ VỀ = '{route}' CHO INPUT = '{question_for_routing}'")
-            return route
+        # --- Nhánh 3: GENERAL CHAT ---
+        general_chat_chain = (
+            {"input": itemgetter("rewritten_question")}
+            | persona_prompt
+            | llm
+            | StrOutputParser()
+            | (lambda answer: {"answer": answer, "context": []})
+        ).with_config({"run_name": "GeneralChatChain"})
 
-        qa_router_chain = router_as_runnable( # Đảm bảo router_as_runnable của bạn hoạt động đúng
-            routes={
-                "general": general_chain,
-                "legal": legal_chain_full # Sử dụng legal_chain đã bao gồm xử lý Groq
-            },
-            get_key=RunnableLambda(get_route_key_from_input_dict), # Truyền cleaned_question vào route_logic
-            default=general_chain # Hoặc legal_chain tùy theo hành vi mặc định bạn muốn
-        ).with_config({"run_name": "MainQARouter"})
+        # ----- STEP 3: ROUTER -----
+        # Định nghĩa các nhánh mà router có thể chọn
+        branches = {
+            "legal_rag": legal_chain,
+            "knowledge_retrieval": knowledge_chain,
+            "general_chat": general_chat_chain,
+            # Thêm nhánh legal_term_explanation ở đây nếu bạn triển khai nó
+        }
 
-        logger.info("🔸Đã tạo thành công QA Router Chain.")
-        return qa_router_chain
+        def route_branches(info: dict):
+            """Hàm định tuyến, chọn chain phù hợp dựa trên kết quả phân loại."""
+            classification = info.get("classification", "general_chat")
+            logger.info(f"Routing to branch: '{classification}'")
+            # Chọn chain, mặc định là general_chat nếu có lỗi
+            return branches.get(classification, general_chat_chain)
+
+        # ----- STEP 4: FULL CHAIN -----
+        # Kết hợp thành một chuỗi xử lý duy nhất và liền mạch
+        # Luồng: Input -> Tiền xử lý (Viết lại + Phân loại) -> Router -> Chạy nhánh được chọn
+        full_chain = unified_preprocessing_chain | RunnableLambda(route_branches)
+
+        logger.info("✅ Successfully created Final Optimized QA Chain.")
+        return full_chain
 
     except Exception as e:
-        logger.error(f"🔸Lỗi khi tạo QA Chain: {e}", exc_info=True)
+        logger.error(f"❌ Error creating QA Chain: {e}", exc_info=True)
         return None
