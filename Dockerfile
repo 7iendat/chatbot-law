@@ -71,9 +71,9 @@ RUN python -c "from langchain_community.cross_encoders import HuggingFaceCrossEn
 
 # Mở cổng mà ứng dụng sẽ lắng nghe bên trong container
 # Port này phải khớp với port trong lệnh CMD
-EXPOSE 10000
+EXPOSE 5000
 
 # Lệnh chạy ứng dụng cho PRODUCTION sử dụng Gunicorn
 # Gunicorn ổn định và hiệu quả hơn Uvicorn --reload
 # Nó sẽ tự động sử dụng biến $PORT do Render cung cấp
-CMD ["gunicorn", "-w", "4", "-k", "uvicorn.workers.UvicornWorker", "main:app", "--bind", "0.0.0.0:10000", "--timeout", "120"]
+CMD ["gunicorn", "-w", "4", "-k", "uvicorn.workers.UvicornWorker", "main:app", "--bind", "0.0.0.0:5000", "--timeout", "120"]
