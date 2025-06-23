@@ -56,7 +56,8 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(
     title="JuriBot API",
-    version="1.2.0",
+    version="2.0",
+    description="Backend API cho Trợ lý Pháp luật JuriBot",
     lifespan=lifespan
 )
 
@@ -68,9 +69,10 @@ app.add_middleware(
 
 
 # Cấu hình CORS (áp dụng cho tất cả các route của app chính)
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],
+    allow_origins=[config.ALLOWED_ORIGINS],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -85,6 +87,7 @@ app.include_router(health_router, prefix="/api", tags=["Status"]) # Hoặc chỉ
 # Run with Uvicorn
 if __name__ == "__main__":
     logger.info("=> Chạy FastAPI server với Uvicorn...")
+    is_dev_mode = config.APP_ENVIRONMENT.lower() == "development"
     uvicorn.run(
         "main:app", # Đảm bảo "main" là tên file python của bạn
         host=config.API_HOST if hasattr(config, 'API_HOST') else "0.0.0.0",

@@ -9,6 +9,8 @@ load_dotenv()
 API_HOST = os.environ.get("API_HOST")
 API_PORT = os.environ.get("API_PORT")
 
+ALLOWED_ORIGINS = os.environ.get("ALLOWED_ORIGINS")
+
 # --- Cấu hình Đường dẫn ---
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 CORE_DATA_FOLDER = os.path.join(BASE_DIR, "data", "core")
@@ -46,5 +48,7 @@ GOOGLE_CLIENT_ID = os.environ.get("GOOGLE_CLIENT_ID")
 GOOGLE_CLIENT_SECRET = os.environ.get("GOOGLE_CLIENT_SECRET")
 
 FRONTEND_URL = os.environ.get("FRONTEND_URL")
+
+APP_ENVIRONMENT = os.environ.get("APP_ENVIRONMENT")
 
 CHECKPOINT_FILE = "processed_files.log"
