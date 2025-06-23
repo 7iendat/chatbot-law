@@ -1,8 +1,7 @@
-from langchain_weaviate.vectorstores import WeaviateVectorStore
 import weaviate
-import weaviate.classes as wvc # Import các lớp của weaviate
 from weaviate.connect import ConnectionParams
 from weaviate import WeaviateClient
+from weaviate.classes.init import Auth
 import logging
 import config
 import weaviate.classes.query as wvc_query
@@ -87,19 +86,35 @@ def connect_to_weaviate(run_diagnostics: bool = True) -> WeaviateClient:
     """
 
     try:
-        client = WeaviateClient(
-            connection_params=ConnectionParams.from_url(
-                url="http://weaviate:8080",  # Trong Docker
-                grpc_port=50051  # Cổng gRPC mặc định của Weaviate
+
+        if config.WEAVIATE_URL and config.WEAVIATE_API_KEY:
+            logger.info(f"Connecting to Weaviate Cloud Services at {config.WEAVIATE_URL}")
+            client = weaviate.connect_to_weaviate_cloud(
+                cluster_url=config.WEAVIATE_URL,
+                auth_credentials=Auth.api_key(config.WEAVIATE_API_KEY),
             )
-        )
+        else:
+            client = WeaviateClient(
+                connection_params=ConnectionParams.from_url(
+                    url="http://weaviate:8080",  # Trong Docker
+                    grpc_port=50051  # Cổng gRPC mặc định của Weaviate
+                )
+            )
+            client.connect()
 
-
-        client.connect()
-
-
-
+        # Kiểm tra kết nối
+        if not client.is_connected():
+            raise Exception("Không thể kết nối tới Weaviate.")
         logger.info(f"✅ Kết nối tới Weaviate tại  thành công.")
+
+
+
+
+
+
+
+
+
 
         # Chạy kiểm tra chẩn đoán nếu được yêu cầu
         if run_diagnostics:

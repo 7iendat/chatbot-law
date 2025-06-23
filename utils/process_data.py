@@ -6,6 +6,7 @@ from tqdm import tqdm
 import uuid
 import json
 from langchain_core.documents import Document
+from config import LEGAL_DOC_TYPES, MAX_CHUNK_SIZE, CHUNK_OVERLAP
 
 
 logger = logging.getLogger(__name__)
@@ -36,11 +37,6 @@ def filter_and_serialize_complex_metadata(documents: List[Document]) -> List[Doc
         updated_documents.append(doc)
     return updated_documents
 
-
-# Các hằng số
-LEGAL_DOC_TYPES = ["Luật", "Bộ luật", "Nghị định", "Thông tư", "Quyết định", "Pháp lệnh", "Nghị quyết", "Chỉ thị", "Hiến pháp"]
-MAX_CHUNK_SIZE = 3000  # Kích thước tối đa cho một chunk trước khi bị chia nhỏ hơn
-CHUNK_OVERLAP = 300    # Độ chồng lấn khi chia nhỏ chunk quá lớn
 
 class SimpleTextSplitter:
     """Một text splitter đơn giản để chia nhỏ các chunk quá lớn."""
@@ -459,83 +455,6 @@ def hierarchical_split_law_document(doc_obj: Document) -> List[Document]:
                 final_chunks.append(Document(page_content=final_page_content, metadata=block_meta, id=chunk_id))
 
     return final_chunks
-
-# def hierarchical_split_law_document(doc_obj: Document) -> List[Document]:
-#     """
-#     PHIÊN BẢN CUỐI CÙNG, MẠNH MẼ NHẤT: Chia văn bản luật theo bất kỳ cấu trúc lớn nào
-#     (Phần, Chương, Điều) và xử lý từng khối một cách độc lập.
-#     """
-#     text = doc_obj.page_content
-#     source_metadata = doc_obj.metadata.copy()
-#     filename = source_metadata.get("source", "unknown_file")
-#     doc_so_hieu = source_metadata.get("so_hieu")
-
-#     final_chunks: List[Document] = []
-
-#     # === BƯỚC 1: CHIA TOÀN BỘ VĂN BẢN THÀNH CÁC KHỐI CÓ CẤU TRÚC ===
-#     # Regex này sẽ chia văn bản tại MỌI dòng bắt đầu bằng "Phần", "Chương", hoặc "Điều".
-#     # `(?=...)` là positive lookahead, nó tìm điểm chia mà không "ăn" mất chuỗi đó.
-#     split_pattern = r"(?=\n^\s*(?:PHẦN|Chương|Điều)\s+)"
-#     blocks = re.split(split_pattern, text, flags=re.MULTILINE | re.IGNORECASE)
-
-#     hierarchy_context: Dict[str, Any] = {}
-
-#     for block in blocks:
-#         block_content = block.strip()
-#         if not block_content:
-#             continue
-
-#         # === BƯỚC 2: PHÂN TÍCH VÀ LÀM GIÀU METADATA CHO TỪNG KHỐI ===
-
-#         # Lấy dòng đầu tiên để xác định loại khối và cập nhật ngữ cảnh
-#         first_line = block_content.splitlines()[0]
-#         item_type, item_code, item_title = parse_law_item_line(first_line)
-
-#         if item_type == "phan":
-#             # Khi gặp "Phần" mới, reset toàn bộ ngữ cảnh
-#             hierarchy_context = {"phan_code": item_code, "phan_title": item_title}
-#         elif item_type == "chuong":
-#             # Khi gặp "Chương" mới, giữ lại "Phần", reset các cấp nhỏ hơn
-#             hierarchy_context = {
-#                 k: v for k, v in hierarchy_context.items()
-#                 if k in ["phan_code", "phan_title"]
-#             }
-#             hierarchy_context.update({"chuong_code": item_code, "chuong_title": item_title})
-#         elif item_type == "dieu":
-#             # Khi gặp "Điều" mới, chỉ cập nhật thông tin về "Điều"
-#             hierarchy_context.update({"dieu_code": item_code, "dieu_title": item_title})
-
-#         # Tạo metadata cuối cùng cho khối này
-#         block_meta = {**source_metadata, **hierarchy_context}
-
-#         # Tạo tiêu đề và đường dẫn cấu trúc
-#         title_parts = [str(block_meta.get(k)) for k in ["phan_code", "chuong_code", "muc_code", "dieu_code"] if block_meta.get(k)]
-#         block_meta["title"] = " - ".join(title_parts) if title_parts else source_metadata.get('ten_van_ban', filename)
-#         structure_path = title_parts
-
-#         # Làm giàu metadata cấp khối
-#         block_meta["entity_type"] = infer_entity_type(block_content, block_meta.get("field"))
-#         block_meta["penalties"] = extract_penalties_from_text(block_content)
-#         block_meta["cross_references"] = extract_cross_references(block_content, source_metadata)
-
-#         context_header = f"Trích từ: {block_meta['title']}\nThuộc văn bản: {block_meta.get('ten_van_ban', filename)}"
-
-#         # === BƯỚC 3: TẠO CHUNK TỪ KHỐI ===
-#         # (Logic chia nhỏ nếu khối quá dài giữ nguyên)
-#         if len(block_content) > MAX_CHUNK_SIZE:
-#             sub_texts = base_text_splitter.split_text(block_content)
-#             for i, sub_text in enumerate(sub_texts):
-#                 sub_chunk_meta = block_meta.copy()
-#                 sub_chunk_meta["sub_chunk_index"] = i
-#                 final_page_content = f"{context_header}\n\nNội dung:\n{sub_text}"
-#                 chunk_id = generate_structured_id(doc_so_hieu, structure_path + [f"part-{i}"], filename)
-#                 final_chunks.append(Document(page_content=final_page_content, metadata=sub_chunk_meta, id=chunk_id))
-#         else:
-#             final_page_content = f"Toàn văn: {block_meta['title']}\n\nNội dung:\n{block_content}"
-#             chunk_id = generate_structured_id(doc_so_hieu, structure_path, filename)
-#             final_chunks.append(Document(page_content=final_page_content, metadata=block_meta, id=chunk_id))
-
-#     return final_chunks
 
 
 def infer_field(text_content: str, doc_title: Optional[str]) -> str:
@@ -1019,10 +938,6 @@ def load_process_and_split_documents(folder_path: str) -> List[Document]:
 
     return all_final_chunks
 
-
-# new code
-
-# utils/process_data.py
 
 def process_single_file(file_path: str) -> List[Document]:
     """

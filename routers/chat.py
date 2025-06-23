@@ -11,7 +11,6 @@ from redis.asyncio import Redis
 from datetime import datetime, timezone
 from db.mongoDB import conversations_collection
 from fastapi.responses import StreamingResponse
-import json
 from schemas.chat import Message,ConversationResponse
 from typing import List
 # Thiết lập logger
@@ -43,11 +42,11 @@ async def create_chat(
     try:
         # Sử dụng await nếu redis_client là async
         if hasattr(redis_client, 'hmset_async'): # Kiểm tra phương thức async (ví dụ)
-            redis_client.hmset(meta_key, conversation_meta_data)
-            redis_client.expire(meta_key, 86400) # TTL: 24 giờ
+            await redis_client.hmset(meta_key, conversation_meta_data)
+            await redis_client.expire(meta_key, 86400) # TTL: 24 giờ
         else: # Client đồng bộ
-            redis_client.hmset(meta_key, conversation_meta_data)
-            redis_client.expire(meta_key, 86400) # TTL: 24 giờ
+            await redis_client.hmset(meta_key, conversation_meta_data)
+            await redis_client.expire(meta_key, 86400) # TTL: 24 giờ
 
         logger.info(f"Đã tạo metadata cho chat_id {chat_id} trong Redis với key {meta_key}.")
     except Exception as e:
@@ -74,9 +73,9 @@ async def create_chat(
         # Cân nhắc xóa key meta trong Redis nếu MongoDB thất bại để tránh trạng thái không nhất quán
         try:
             if hasattr(redis_client, 'delete_async'):
-                redis_client.delete(meta_key)
+                await redis_client.delete(meta_key)
             else:
-                redis_client.delete(meta_key)
+                await redis_client.delete(meta_key)
             logger.info(f"Đã xóa meta key {meta_key} khỏi Redis do lỗi MongoDB.")
         except Exception as redis_del_err:
             logger.error(f"Lỗi khi xóa meta key {meta_key} khỏi Redis: {redis_del_err}")
@@ -142,20 +141,7 @@ async def delete_chat(chat_id: str, request: Request, user: UserOut = Depends(ge
 
     return {"message": "Chat deleted successfully"}
 
-# @router.get("/{chat_id}/history",response_model=ChatHistoryResponse)
-# async def history(request: Request,chat_id: str):
-#     app_state = get_app_state(request=request)
-#     redis = app_state.redis
-#     if not  redis.exists(f"chat:{chat_id}:messages"):
-#         raise HTTPException(status_code=404, detail="Chat not found")
 
-#     try:
-#         logger.info(f"Fetching history for session: {chat_id}")
-#         history = get_redis_history(redis, chat_id)
-#         return {"chat_id": chat_id, "history": history}
-#     except Exception as e:
-#         logger.error(f"Error fetching history for session {chat_id}: {e}")
-#         raise HTTPException(status_code=500, detail="Internal Server Error")
 
 @router.get("/conversations", response_model=List[ConversationResponse])
 async def get_conversations(user: UserOut = Depends(get_current_user)):
@@ -164,26 +150,13 @@ async def get_conversations(user: UserOut = Depends(get_current_user)):
         db_conversations_cursor = conversations_collection.find({"user_id": user.email})
 
         response_list = []
-        # Chuyển cursor thành list để kiểm tra ngay lập tức
-        # (Cẩn thận với lượng dữ liệu lớn, chỉ dùng để debug)
-        # conversation_docs = list(db_conversations_cursor)
-        # logger.info(f"Found {len(conversation_docs)} conversations in DB.")
+
 
         for conv_doc in db_conversations_cursor: # Hoặc conversation_docs nếu bạn debug
             logger.debug(f"Processing conversation doc: {conv_doc}") # Log toàn bộ doc để xem cấu trúc
             all_messages = conv_doc.get("messages", [])
             logger.debug(f"Messages for this conversation: {all_messages}")
 
-            # Kiểm tra an toàn trước khi truy cập messages
-            # last_message_content = ""
-            # if all_messages and isinstance(all_messages, list) and len(all_messages) > 0:
-            #    last_message_obj = all_messages[-1]
-            #    if isinstance(last_message_obj, dict) and "content" in last_message_obj:
-            #        last_message_content = last_message_obj["content"]
-            #    else:
-            #        logger.warning(f"Last message object is not a dict or 'content' key is missing: {last_message_obj}")
-            # else:
-            #    logger.info(f"No messages found or messages array is empty for conv_id: {conv_doc.get('conversation_id')}")
 
             response_list.append({
                 "conversation_id": conv_doc["conversation_id"],
@@ -196,30 +169,6 @@ async def get_conversations(user: UserOut = Depends(get_current_user)):
     except Exception as e:
         logger.error(f"Error in get_conversations for user {user.email}: {e}", exc_info=True) # exc_info=True sẽ log cả traceback
         raise HTTPException(status_code=500, detail="An error occurred while fetching conversations.")
-
-# @router.post("/load_conversation")
-# async def load_conversation(request: Request,request_body: QueryRequest, user_email: str = Depends(get_current_user)):
-#     app_state = get_app_state(request=request)
-#     chat_id = request_body.chat_id
-
-#     # Kiểm tra hội thoại trong MongoDB
-#     conversation = conversations_collection.find_one({"conversation_id": chat_id, "user_id": user_email})
-#     if not conversation:
-#         raise HTTPException(status_code=404, detail="Hội thoại không tồn tại")
-
-#     # Nạp tin nhắn vào Redis
-#     redis_key = f"conversation:{chat_id}"
-#     app_state.redis.delete(redis_key)
-#     for message in conversation["messages"]:
-#         app_state.redis.rpush(redis_key, json.dumps(message))
-#     app_state.redis.expire(redis_key, 86400)
-
-#     # Cập nhật meta
-#     meta_key = f"chat:{chat_id}:meta"
-#     app_state.redis.hset(meta_key, mapping={"user": user_email})
-#     app_state.redis.expire(meta_key, 86400)
-
-#     return {"message": f"Hội thoại {chat_id} đã được nạp vào Redis"}
 
 
 @router.get("/c/{chat_id}", response_model=ChatHistoryResponse)
@@ -289,28 +238,12 @@ async def load_conversation_and_sync_redis(
             pipe.hset(meta_redis_key, conversation_meta_data)
             pipe.expire(meta_redis_key, 86400)
 
-            # Đồng bộ hóa với key của Langchain RedisChatMessageHistory (QUAN TRỌNG)
-            # redis_url_lc = os.environ.get("REDIS_URL_LANGCHAIN", os.environ.get("REDIS_URL"))
-            # if redis_url_lc:
-            #     lc_history_syncer = RedisChatMessageHistory(url=redis_url_lc, session_id=chat_id, ttl=86400)
-            #     await lc_history_syncer.aclear() # Xóa cũ trước khi nạp
-            #     for msg_model in validated_history_for_response:
-            #         if msg_model.role == "user":
-            #             await lc_history_syncer.aadd_user_message(msg_model.content)
-            #         elif msg_model.role == "assistant":
-            #             await lc_history_syncer.aadd_ai_message(msg_model.content)
-            #     logger.info(f"Đã đồng bộ hóa lịch sử vào Langchain key cho chat_id {chat_id}")
 
             pipe.execute()
         logger.info(f"Đã nạp và đồng bộ hội thoại {chat_id} vào Redis với {len(validated_history_for_response)} tin nhắn.")
 
     except Exception as e:
         logger.error(f"Lỗi khi nạp hội thoại {chat_id} vào Redis: {e}", exc_info=True)
-        # Không nên raise lỗi ở đây nếu việc trả về history vẫn thành công.
-        # Việc Redis thất bại có thể là một vấn đề riêng cần theo dõi.
-        # Tuy nhiên, nếu Redis là thiết yếu cho việc chat tiếp, thì nên raise.
-        # Hiện tại, chúng ta vẫn trả về history từ DB.
-        # Nếu muốn chặt chẽ: raise HTTPException(status_code=500, detail="Lỗi khi đồng bộ với bộ nhớ đệm")
 
     # 4. Trả về response
     return ChatHistoryResponse(

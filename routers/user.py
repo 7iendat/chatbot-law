@@ -5,7 +5,7 @@ from services.auth_service import (
 )
 from datetime import datetime , timezone
 from services.user_service import get_paginated_users, delete_user,change_password,reset_password_request,reset_password, generate_and_store_verification_code, authenticate_user, verify_login_code,refresh_access_token,verify_forgot_password_code
-from dependencies import bearer_scheme, get_current_user, admin_required
+from dependencies import  get_current_user, admin_required
 from schemas.user import LoginRequest, LoginResponse, RegisterRequest, RegisterResponse, UserOut,PaginatedResponse,ProfileResponse,ChangePasswordRequest,PasswordResetRequest,PasswordReset,VerifyLoginRequest,VerifyForgotPassRequest, ResentVerifyCode,TokenValidationResponse,TokenValidationRequest
 
 from starlette.config import Config

@@ -2,7 +2,7 @@
 
 import re
 import logging
-from typing import Dict, Optional, List
+from typing import Dict, Optional
 
 logger = logging.getLogger(__name__)
 

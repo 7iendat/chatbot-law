@@ -20,16 +20,16 @@ async def ask_question_service(app_state, request: QueryRequest, user: UserOut =
 
     # --- 1. Xác thực và kiểm tra metadata từ Redis ---
     meta_key = f"conversation_meta:{chat_id}"
-    if not   app_state.redis.exists(meta_key): # Dùng await nếu redis client là async
+    if not await  app_state.redis.exists(meta_key): # Dùng await nếu redis client là async
         logger.warning(f"Metadata cho chat_id {chat_id} không tìm thấy trong Redis.")
         raise HTTPException(status_code=404, detail="Chat ID not found or session expired. Please reload the conversation.")
 
-    user_in_redis =  app_state.redis.hget(meta_key, "user_id") # Key đã đổi thành user_id
+    user_in_redis = await app_state.redis.hget(meta_key, "user_id") # Key đã đổi thành user_id
     if not user_in_redis:
         logger.error(f"user_id không có trong metadata của chat {chat_id}.")
         raise HTTPException(status_code=404, detail="Chat metadata corrupted.")
 
-    if user_in_redis.decode() != user.email:
+    if user_in_redis != user.email:
         logger.warning(f"User {user.email} không được phép truy cập chat {chat_id} (thuộc về {user_in_redis.decode()}).")
         raise HTTPException(status_code=403, detail="Unauthorized to access this chat.")
 
@@ -47,7 +47,7 @@ async def ask_question_service(app_state, request: QueryRequest, user: UserOut =
             assistant_response_time = datetime.now(timezone.utc)
 
             # Lưu vào Redis và MongoDB
-            save_chat_to_redis(
+            await save_chat_to_redis(
                 app_state.redis, chat_id, question_content, answer_def, current_utc_time, assistant_response_time
             )
             await save_chat_to_mongo(
@@ -140,7 +140,7 @@ async def ask_question_service(app_state, request: QueryRequest, user: UserOut =
 
     # --- 6. Lưu tin nhắn mới (câu hỏi của user và trả lời của AI) ---
     # Lưu vào key "conversation_messages:{chat_id}" của chúng ta
-    save_chat_to_redis(
+    await save_chat_to_redis(
         app_state.redis, chat_id, question_content, assistant_response_content, current_utc_time, assistant_response_time
     )
     # Lưu vào MongoDB
@@ -215,7 +215,7 @@ async def stream_chat_generator(
                 yield f"event: end_stream\ndata: {{}}\n\n" # Event kết thúc tùy chỉnh
 
                 # Lưu vào Redis và MongoDB (sau khi stream)
-                save_chat_to_redis(
+                await save_chat_to_redis(
                     app_state.redis, chat_id, question_content, full_answer_for_saving, current_utc_time, assistant_response_time_dict
                 )
                 asyncio.create_task(save_chat_to_mongo( # Chạy nền
@@ -316,7 +316,7 @@ async def stream_chat_generator(
 
 
         logger.info(f"Stream: Full answer for {chat_id} to be saved: {full_answer_for_saving[:100]}...")
-        save_chat_to_redis(
+        await save_chat_to_redis(
             app_state.redis, chat_id, question_content, full_answer_for_saving, current_utc_time, assistant_response_time
         )
         # Chạy lưu MongoDB ngầm để không block
@@ -386,7 +386,7 @@ async def prepare_chat_history_optimized(
     num_to_fetch = max_messages + 2
     try:
         # Sử dụng lrange để lấy các tin nhắn gần nhất, hiệu quả hơn nhiều so với lấy tất cả
-        raw_messages_json =  redis.lrange(messages_key, -num_to_fetch, -1)
+        raw_messages_json = await redis.lrange(messages_key, -num_to_fetch, -1)
         if not raw_messages_json:
             return []
     except Exception as e:

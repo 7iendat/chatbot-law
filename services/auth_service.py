@@ -1,11 +1,10 @@
-import uuid
 from fastapi.responses import JSONResponse
 from jose import JWTError, jwt
 from datetime import datetime, timedelta, timezone
 from fastapi import HTTPException, Depends, Request, status
 from schemas.user import RegisterRequest, LoginRequest
 from db.mongoDB import user_collection, blacklist_collection
-from utils.utils import hash_password, verify_password
+from utils.utils import  verify_password
 from config import SECRET_KEY, ALGORITHM, ACCESS_TOKEN_EXPIRE_MINUTES
 from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
 from passlib.context import CryptContext

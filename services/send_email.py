@@ -1,11 +1,9 @@
 import resend
 from fastapi import HTTPException, status
 import os
-from datetime import datetime
-
-
 import logging
 from dotenv import load_dotenv
+
 load_dotenv()
 logger = logging.getLogger(__name__)
 

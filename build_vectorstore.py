@@ -11,8 +11,8 @@ import config
 from db.weaviateDB import connect_to_weaviate
 from rag_components import (
     get_huggingface_embeddings,
-    _create_weaviate_schema_if_not_exists,
-    _ingest_chunks_with_native_batching,
+    create_weaviate_schema_if_not_exists,
+    ingest_chunks_with_native_batching,
     filter_and_serialize_complex_metadata
 )
 from utils.process_data import process_single_file
@@ -20,18 +20,16 @@ from utils.process_data import process_single_file
 logger = logging.getLogger(__name__)
 
 # --- CÁC HÀM HỖ TRỢ CHO CHECKPOINTING ---
-CHECKPOINT_FILE = "processed_files.log"
-
 def load_processed_files() -> set:
     """Đọc file checkpoint và trả về một set các tên file đã xử lý."""
-    if not os.path.exists(CHECKPOINT_FILE):
+    if not os.path.exists(config.CHECKPOINT_FILE):
         return set()
-    with open(CHECKPOINT_FILE, 'r', encoding='utf-8') as f:
+    with open(config.CHECKPOINT_FILE, 'r', encoding='utf-8') as f:
         return {line.strip() for line in f if line.strip()}
 
 def log_processed_file(filename: str):
     """Ghi tên file đã xử lý thành công vào file checkpoint."""
-    with open(CHECKPOINT_FILE, 'a', encoding='utf-8') as f:
+    with open(config.CHECKPOINT_FILE, 'a', encoding='utf-8') as f:
         f.write(filename + '\n')
 
 def clear_weaviate_collection(client, collection_name: str):
@@ -43,9 +41,9 @@ def clear_weaviate_collection(client, collection_name: str):
             logger.info(f"✅ Đã xóa collection '{collection_name}' thành công.")
 
         # Xóa cả file checkpoint khi rebuild
-        if os.path.exists(CHECKPOINT_FILE):
-            os.remove(CHECKPOINT_FILE)
-            logger.info(f"🗑️ Đã xóa file checkpoint '{CHECKPOINT_FILE}'.")
+        if os.path.exists(config.CHECKPOINT_FILE):
+            os.remove(config.CHECKPOINT_FILE)
+            logger.info(f"🗑️ Đã xóa file checkpoint '{config.CHECKPOINT_FILE}'.")
 
     except Exception as e:
         logger.error(f"❌ Lỗi khi xóa collection: {e}")
@@ -82,7 +80,7 @@ def build_store_v5(force_rebuild: bool = False, pool_batch_size: int = 50):
         if force_rebuild:
             clear_weaviate_collection(weaviate_client, collection_name)
 
-        _create_weaviate_schema_if_not_exists(weaviate_client, collection_name)
+        create_weaviate_schema_if_not_exists(weaviate_client, collection_name)
 
         # --- 2. LỌC FILE VÀ CHUẨN BỊ BATCH ---
         processed_files = load_processed_files()
@@ -125,7 +123,7 @@ def build_store_v5(force_rebuild: bool = False, pool_batch_size: int = 50):
 
                         processed_chunks = filter_and_serialize_complex_metadata(chunks_from_file)
 
-                        _ingest_chunks_with_native_batching(
+                        ingest_chunks_with_native_batching(
                             client=weaviate_client,
                             collection_name=collection_name,
                             chunks=processed_chunks,

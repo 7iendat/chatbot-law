@@ -10,19 +10,15 @@ from schemas.chat import AppState
 from pydantic import ValidationError
 from config import SECRET_KEY, ALGORITHM,EMBEDDING_MODEL_NAME,WEAVIATE_COLLECTION_NAME, WEAVIATE_URL
 from utils.utils import load_legal_dictionary
-# from groq import Groq
+import config
 from langchain_groq import ChatGroq
 from typing import Annotated, Optional
 from schemas.user import UserOut, UserRole
 from fastapi import status
 from datetime import datetime, timezone
-import redis
+from db.redis import get_redis_client # Giả sử bạn đã định nghĩa hàm này trong db/redis.py
 from utils.AdvancedLawRetriever import AdvancedLawRetriever
 from services.reranker_service import get_reranker_compressor
-
-
-
-
 from db.weaviateDB import connect_to_weaviate
 import logging
 
@@ -41,37 +37,37 @@ def get_app_state(request: Request):
         raise RuntimeError("Application state ('app_state') not found. Initialization failed?")
     return request.app.state.app_state
 
-def initialize_redis_client():
-    redis_url = os.environ.get("REDIS_URL")
-    if not redis_url:
-        logger.error("🔸[Redis] REDIS_URL environment variable not set.")
-        raise ValueError("REDIS_URL is not configured.")
-    try:
-        logger.info(f"🔸[Redis] Attempting to connect to Redis at {redis_url}...")
-        client = redis.Redis.from_url(redis_url, socket_connect_timeout=5, socket_timeout=5)
-        logger.info("🔸[Redis] Connected successfully and pinged.")
-        return client
-    except redis.exceptions.ConnectionError as e:
-        logger.error(f"🔸[Redis] Connection failed for URL '{redis_url}': {e}")
-        raise ConnectionError(f"Failed to connect to Redis: {e}")
-    except Exception as e:
-        logger.error(f"🔸[Redis] Error initializing Redis from URL '{redis_url}': {e}")
-        raise RuntimeError(f"Error initializing Redis: {e}")
+# def initialize_redis_client():
+#     redis_url = os.environ.get("REDIS_URL")
+#     if not redis_url:
+#         logger.error("🔸[Redis] REDIS_URL environment variable not set.")
+#         raise ValueError("REDIS_URL is not configured.")
+#     try:
+#         logger.info(f"🔸[Redis] Attempting to connect to Redis at {redis_url}...")
+#         client = redis.Redis.from_url(redis_url, socket_connect_timeout=5, socket_timeout=5)
+#         logger.info("🔸[Redis] Connected successfully and pinged.")
+#         return client
+#     except redis.exceptions.ConnectionError as e:
+#         logger.error(f"🔸[Redis] Connection failed for URL '{redis_url}': {e}")
+#         raise ConnectionError(f"Failed to connect to Redis: {e}")
+#     except Exception as e:
+#         logger.error(f"🔸[Redis] Error initializing Redis from URL '{redis_url}': {e}")
+#         raise RuntimeError(f"Error initializing Redis: {e}")
 
-def initialize_api_components(app_state: AppState):
+async def initialize_api_components(app_state: AppState):
     """Khởi tạo các thành phần cần thiết cho API """
     logger.info("🔸Bắt đầu Khởi tạo API Components")
 
     load_dotenv()
     # --- Kiểm tra kết nối tới Redis ---
-    app_state.process_input_llm = ChatGroq(model='llama-3.3-70b-versatile',temperature=0.2)
+    app_state.process_input_llm = ChatGroq(model=config.GROQ_MODEL_NAME,temperature=0.2)
     try:
-        app_state.redis = initialize_redis_client() # Gọi hàm khởi tạo redis
+        app_state.redis = await get_redis_client() # Gọi hàm khởi tạo redis
     except Exception as e:
         logger.error(f"☠️ LỖI NGHIÊM TRỌNG khi khởi tạo Redis trong initialize_api_components: {e}")
         raise
-    app_state.dict = load_legal_dictionary('./data/dictionary/legal_terms.json')
-    app_state.weaviateDB = connect_to_weaviate()
+    app_state.dict = load_legal_dictionary(config.LEGAL_DIC_FOLDER+ "/legal_terms.json")
+    app_state.weaviateDB = connect_to_weaviate(run_diagnostics=False)
     # --- Kiểm tra kết nối tới MongoDB ---
     if user_collection is  None or app_state.weaviateDB is None:
         logger.error("🔸Lỗi kết nối tới MongoDB hoặc Weaviate.")
@@ -118,31 +114,6 @@ def initialize_api_components(app_state: AppState):
 
     # 4. Tạo retriever (giữ nguyên)
     logger.info(f"🔸Đang tạo retriever...")
-    # app_state.retriever = create_retriever(
-    #     app_state.vectorstore,
-    #     app_state["embeddings"],
-    #     llm,
-    # )
-    # app_state.retriever = create_retriever(
-    #     app_state.vectorstore,
-    #     app_state["embeddings"],
-    #     llm,
-    #     config={
-    #         "recent_years": 5,
-    #         "primary_docs": 4,
-    #         "total_docs": 6,
-    #         "content_min_chars": 1500,
-    #         "use_llm_paraphrase": False
-    #     }
-    # )
-
-    # app_state.retriever = app_state.vectorstore.as_retriever(
-    #     search_type="similarity_score_threshold",  # tìm kiếm dựa trên ngưỡng điểm tương đồng
-    #     search_kwargs={
-    #         "k": 5,
-    #         "score_threshold": 0.5,
-    #     }
-    # )
 
     app_state.reranker = get_reranker_compressor() # Singleton re-ranker
 
@@ -154,35 +125,12 @@ def initialize_api_components(app_state: AppState):
         embeddings_model=app_state.embeddings
     )
 
-    # app_state.retriever = AdvancedLawRetriever(
-    #     client=app_state.weaviateDB,
-    #     collection_name=WEAVIATE_COLLECTION_NAME,
-    #     default_k=10,
-    #     embeddings_model=app_state.embeddings,
-    #     recency_bias_weight=0.65,  # <-- Giá trị mới được đề xuất
-    #     year_filter_margin=0,
-    #     enable_query_expansion=True,
-    #     max_expanded_queries=3,       # <-- Giá trị mới được đề xuất
-    #     final_score_threshold_after_bias=0.45,
-    #     llm=app_state.llm,
-    #     reranker=get_reranker_compressor()
-    # )
-
-
-    # from time_priority_retriever import build_law_retriever
-    # app_state.retriever = build_law_retriever(app_state.vectorstore)
     if app_state.retriever is None:
         raise HTTPException(status_code=500, detail="Failed to create retriever")
     logger.info(f"🔸Đã tạo retriever thành công.")
 
     # 5. Tạo QA Chain (giữ nguyên)
     logger.info(f"🔸Đang tạo QA Chain...")
-    # app_state.qa_chain = rag_components.create_qa_chain(
-    #     app_state.llm,
-    #     app_state.vectorstore,
-    #     app_state.retriever,
-    #     app_state.process_input_llm
-    # )
 
     app_state.qa_chain = rag_components.create_qa_chain(
         llm=app_state.llm,
@@ -195,7 +143,6 @@ def initialize_api_components(app_state: AppState):
     logger.info(f"🔸Khởi tạo API Components hoàn tất ")
 
 
-
 async def get_access_token_from_cookie(request: Request) -> Optional[str]:
     """
     Lấy access token từ cookie 'access_token_cookie'.
@@ -205,7 +152,6 @@ async def get_access_token_from_cookie(request: Request) -> Optional[str]:
     logger.debug(f"GET_ACCESS_TOKEN_FROM_COOKIE: Cookies nhận được: {request.cookies}")
     logger.info(f"GET_ACCESS_TOKEN_FROM_COOKIE: Token trích xuất từ 'access_token_cookie': {'PRESENT' if token else 'MISSING'}")
     return token
-
 
 async def get_current_user(
     request: Request,
@@ -339,25 +285,13 @@ async def get_current_user(
 
     # 4. Tạo đối tượng UserOut và kiểm tra is_active
     try:
-        # Bỏ comment các log này nếu bạn cần debug sâu hơn
-        # logger.info(f"GET_CURRENT_USER: Raw user_data: {user_data}")
-        # logger.info(f"GET_CURRENT_USER: is_active value: {user_data.get('is_active')} (type: {type(user_data.get('is_active'))})")
 
-        # Xử lý username mặc định nếu cần (nên làm ở UserOut hoặc lúc tạo user)
         if user_data and ('username' not in user_data or not user_data.get('username')):
             user_data['username'] = email.lower().split('@')[0]
             logger.info(f"GET_CURRENT_USER: Set default username: {user_data['username']}")
 
-        # Pydantic sẽ tự xử lý is_active nếu có default trong model UserOut
-        # Nếu UserOut có is_active: bool = True, thì không cần dòng này
-        # if user_data and 'is_active' not in user_data:
-        #     logger.warning("GET_CURRENT_USER: is_active không có trong DB, Pydantic sẽ dùng default (nếu có)")
-        #     # user_data['is_active'] = True # Không cần thiết nếu model có default
+        user = UserOut(**user_data)
 
-        user = UserOut(**user_data) # user_data không thể là None ở đây do kiểm tra ở bước 3
-        # logger.info(f"GET_CURRENT_USER: UserOut tạo thành công: {user.model_dump_json(indent=2)}")
-
-        # Bật lại kiểm tra is_active nếu bạn muốn chặn user không active
         if not user.is_active:
             logger.error(f"GET_CURRENT_USER: *** TÀI KHOẢN BỊ KHÓA ({user.email}) - RAISING 403 ***")
             raise HTTPException(
@@ -366,8 +300,6 @@ async def get_current_user(
             )
 
         logger.info(f"GET_CURRENT_USER: *** XÁC THỰC THÀNH CÔNG *** - User: {user.email}, Active: {user.is_active}, Role: {user.role}")
-
-
 
         return user
 
@@ -403,39 +335,3 @@ async def admin_required(
             headers={"WWW-Authenticate": "Bearer"},
         )
     return current_user
-
-async def super_admin_required(
-    current_user: Annotated[UserOut, Depends(get_current_user)]
-) -> UserOut:
-    """
-    Dependency kiểm tra người dùng hiện tại có quyền super admin hay không.
-    Trả về thông tin người dùng nếu có quyền super admin, nếu không raise HTTPException.
-    """
-    if not current_user.role or current_user.role != UserRole.SUPER_ADMIN:
-        raise HTTPException(
-            status_code=status.HTTP_403_FORBIDDEN,
-            detail="Bạn không có quyền truy cập chức năng này",
-            headers={"WWW-Authenticate": "Bearer"},
-        )
-    return current_user
-
-# Tạo một dependency factory để kiểm tra quyền động
-def role_required(*allowed_roles):
-    """
-    Factory tạo dependency kiểm tra người dùng có thuộc một trong các role được cho phép hay không.
-
-    Usage:
-        @router.get("/staff-only")
-        async def staff_route(user: UserOut = Depends(role_required(UserRole.ADMIN, UserRole.STAFF))):
-            return {"message": "You have staff access"}
-    """
-    async def check_role(current_user: Annotated[UserOut, Depends(get_current_user)]) -> UserOut:
-        if not current_user.role or current_user.role not in allowed_roles:
-            raise HTTPException(
-                status_code=status.HTTP_403_FORBIDDEN,
-                detail="Bạn không có quyền truy cập chức năng này",
-                headers={"WWW-Authenticate": "Bearer"},
-            )
-        return current_user
-
-    return check_role

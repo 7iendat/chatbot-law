@@ -26,7 +26,7 @@ async def lifespan(app: FastAPI):
     initialization_successful = False
     try:
         logger.info("✅ [Lifespan] Calling initialize_api_components...")
-        initialize_api_components(current_app_state_instance)
+        await initialize_api_components(current_app_state_instance)
         app.state.app_state = current_app_state_instance
         initialization_successful = True
         logger.info("✅ [Lifespan] SUCCESSFULLY set app.state.app_state.")

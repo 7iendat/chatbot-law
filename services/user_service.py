@@ -9,8 +9,7 @@ from bson import ObjectId
 from passlib.context import CryptContext
 from services.send_email import send_reset_password_email,send_verification_code_email,send_suspicious_activity_email
 from schemas.user import LoginRequest
-from utils.utils import create_access_token,create_refresh_token, verify_password
-import json
+from utils.utils import create_access_token,create_refresh_token
 import os
 
 
@@ -408,93 +407,6 @@ async def generate_and_store_verification_code(email: str) -> bool:
         )
 
 
-# async def verify_login_code( email: str, code: str, res: Response) -> dict:
-#     """
-#     Xác minh mã đăng nhập và trả về thông tin đăng nhập kèm refresh token.
-
-#     Args:
-#         email (str): Địa chỉ email của người dùng.
-#         code (str): Mã xác minh do người dùng cung cấp.
-
-#     Returns:
-#         dict: Thông tin đăng nhập bao gồm access_token, refresh_token, username, email, role.
-
-#     Raises:
-#         HTTPException: Nếu mã không hợp lệ, đã hết hạn hoặc có lỗi hệ thống.
-#     """
-#     try:
-#         # Find user by email and code
-#         user =  user_collection.find_one({
-#             "email": email.lower(),
-#             "login_verification_code": code
-#         })
-#         if not user:
-#             logger.warning(f"Mã xác minh không hợp lệ: {code} cho email: {email}")
-#             raise HTTPException(
-#                 status_code=status.HTTP_400_BAD_REQUEST,
-#                 detail="Mã xác minh không hợp lệ"
-#             )
-
-#         # Check if code is expired
-#         expiry = user.get("login_verification_expiry")
-#         if not expiry or expiry < datetime.now():
-#             logger.warning(f"Mã xác minh đã hết hạn cho email: {email}")
-#             raise HTTPException(
-#                 status_code=status.HTTP_400_BAD_REQUEST,
-#                 detail="Mã xác minh đã hết hạn"
-#             )
-
-#         # Generate access and refresh tokens
-#         accessToken = create_access_token(data={"sub": email})
-#         refresh_token = await create_refresh_token(email)
-
-#         # Set refresh token as HttpOnly cookie
-#         res.set_cookie(
-#             key="refresh_token",
-#             value=refresh_token,
-#             max_age=7 * 24 * 60 * 60,  # 7 days in seconds
-#             httponly=True,              # Prevents JavaScript access
-#             secure=False,                # HTTPS only (set to False for development)
-#             samesite="lax",          # CSRF protection
-#             path="/",                   # Available for all routes
-#         )
-
-
-#         # Clear verification code
-#         user_collection.update_one(
-#             {"_id": ObjectId(user["_id"])},
-#             {
-#                 "$unset": {
-#                     "login_verification_code": "",
-#                     "login_verification_expiry": "",
-#                     "login_verification_timestamp": ""
-#                 },
-#                 "$set": {
-#                     "last_login": datetime.now()
-#                 }
-#             }
-#         )
-
-#         logger.info(f"Đăng nhập thành công cho email: {email}")
-#         return {
-#             "accessToken": accessToken,
-#             "user": {
-#                 "email": email.lower(),
-#                 "username": user.get("username", "N/A"),
-#                 "role": user.get("role", "user"),
-#                 "avatar_url": user.get("avatar_url", None)
-#             },
-#             "message": "Đăng nhập thành công"
-#         }
-
-#     except HTTPException as he:
-#         raise he
-#     except Exception as e:
-#         logger.error(f"Lỗi khi xác minh mã đăng nhập: {str(e)}")
-#         raise HTTPException(
-#             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
-#             detail="Lỗi hệ thống khi xác minh mã đăng nhập."
-#         )
 
 async def verify_login_code(email: str, code: str, res: Response): # Bỏ kiểu trả về dict, để FastAPI tự suy luận hoặc dùng Pydantic model
     """

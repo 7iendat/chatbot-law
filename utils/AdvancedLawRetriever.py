@@ -1,23 +1,16 @@
-# retrievers/advanced_retriever.py
-
 import logging
 from typing import List, Dict, Any, Optional
-import datetime
-import re
 import weaviate
 import weaviate.classes.query as wvc_query
 from concurrent.futures import ThreadPoolExecutor
-
 from langchain_core.retrievers import BaseRetriever
 from langchain_core.callbacks.manager import CallbackManagerForRetrieverRun
 from langchain_core.documents import Document
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
-
-# Import các hàm cần thiết
 from utils.process_data import infer_field, infer_entity_type
-from utils.synonym_map import rewrite_query_with_legal_synonyms # <-- Sử dụng hàm này
-import prompt_templete # <-- Import file prompt
+from utils.synonym_map import rewrite_query_with_legal_synonyms
+import prompt_templete
 
 logger = logging.getLogger(__name__)
 
@@ -33,7 +26,7 @@ class AdvancedLawRetriever(BaseRetriever):
     hybrid_search_alpha: float = 0.5
     doc_type_boost: float = 0.4
 
-    class Config:
+    class ConfigDict:
         arbitrary_types_allowed = True
 
     # === CÁC HÀM HELPER ===

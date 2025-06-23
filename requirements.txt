@@ -7,9 +7,6 @@ langchain-groq
 sentence-transformers
 python-multipart
 huggingface-hub[hf-xet]
-pymupdf # PyMuPDF
-pytesseract # OCR
-pillow # Hỗ trợ ảnh
 tiktoken
 gradio # Vẫn giữ nếu bạn muốn chạy cả app.py
 python-dotenv
@@ -23,7 +20,6 @@ bcrypt
 pymongo[srv]
 pydantic[email]
 python-jose
-underthesea
 opencv-python
 tenacity
 rank_bm25
@@ -32,13 +28,13 @@ weaviate-client
 unidecode
 resend
 passlib
-python-Levenshtein
 langchain-google-genai
 python-docx
 pypandoc
 llama-index
 llama-parse
 itsdangerous
-
 Authlib[fastapi]
 httpx
+
+gunicorn

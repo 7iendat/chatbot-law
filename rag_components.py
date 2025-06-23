@@ -1,27 +1,19 @@
 from langchain_huggingface import HuggingFaceEmbeddings
 import config
 import prompt_templete
-from langchain_core.prompts import ChatPromptTemplate,MessagesPlaceholder
+from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.runnables import RunnableLambda, RunnablePassthrough
-import utils.utils as utils
-from core.runnables import router_as_runnable
 from langchain_core.documents import Document
 import logging
 from langchain_core.output_parsers import StrOutputParser, JsonOutputParser
-from typing import List,Any,Optional,Dict
+from typing import List,Any,Dict
 from langchain_weaviate.vectorstores import WeaviateVectorStore
 from langchain_google_genai import ChatGoogleGenerativeAI
-from utils.route_logic import route_logic
-from langchain.chains import create_history_aware_retriever, create_retrieval_chain
-from langchain.chains.combine_documents import create_stuff_documents_chain
-from langchain_core.messages import HumanMessage, AIMessage
 from utils.process_data import filter_and_serialize_complex_metadata
 import weaviate
 import weaviate.classes.config as wvc_config
 from weaviate.exceptions import WeaviateQueryException
 import time
-from utils.AdvancedLawRetriever import AdvancedLawRetriever
-
 from operator import itemgetter
 
 
@@ -74,7 +66,7 @@ def get_huggingface_embeddings(model_name: str, device: str = 'cpu'):
 
 # Begin New
 
-def _create_weaviate_schema_if_not_exists(client: weaviate.WeaviateClient, collection_name: str):
+def create_weaviate_schema_if_not_exists(client: weaviate.WeaviateClient, collection_name: str):
     """
     CẢI TIẾN: Tạo schema với cấu hình chi tiết cho filtering và hybrid search.
     """
@@ -129,7 +121,7 @@ def _create_weaviate_schema_if_not_exists(client: weaviate.WeaviateClient, colle
         logger.error(f"❌ Error creating schema: {e}", exc_info=True)
         raise
 
-def _ingest_chunks_with_native_batching(client: weaviate.WeaviateClient, collection_name: str, chunks: List[Document], embeddings_model):
+def ingest_chunks_with_native_batching(client: weaviate.WeaviateClient, collection_name: str, chunks: List[Document], embeddings_model):
     """Sử dụng API batch gốc của Weaviate, an toàn và hiệu suất cao."""
     logger.info(f"🚀 Bắt đầu quá trình ingestion cho {len(chunks)} chunks...")
 
@@ -172,64 +164,7 @@ def _ingest_chunks_with_native_batching(client: weaviate.WeaviateClient, collect
             if i >= 5: break
             logger.error(f"  - Lỗi {i+1}: {error_msg}")
 
-def build_and_load_vectorstore(
-    embeddings,
-    collection_name: str,
-    weaviate_client: weaviate.WeaviateClient,
-    chunks: Optional[List[Document]] = None
-) -> Optional[WeaviateVectorStore]:
-    """
-    Hàm điều phối: đảm bảo schema tồn tại, ingest dữ liệu nếu có,
-    và cuối cùng trả về một đối tượng WeaviateVectorStore của LangChain.
-    """
-    if not weaviate_client or not weaviate_client.is_connected():
-        logger.error("🔸 Weaviate client không được cung cấp hoặc không kết nối.")
-        return None
-    if not embeddings:
-        logger.error("🔸 Model embedding không được cung cấp.")
-        return None
 
-    try:
-        # Bước 1: Đảm bảo Schema tồn tại với cấu trúc đúng từ cấu hình
-        _create_weaviate_schema_if_not_exists(weaviate_client, collection_name)
-
-        # Bước 2: Ingest dữ liệu nếu `chunks` được cung cấp
-        if chunks:
-            logger.info(f"🔸 Có {len(chunks)} chunks được cung cấp để ingest.")
-
-            # Tiền xử lý: Serialize các metadata phức tạp
-            processed_chunks = filter_and_serialize_complex_metadata(chunks)
-
-            # Ingest bằng phương pháp hiệu suất cao và an toàn
-            _ingest_chunks_with_native_batching(
-                client=weaviate_client,
-                collection_name=collection_name,
-                chunks=processed_chunks,
-                embeddings_model=embeddings
-            )
-        else:
-            logger.info("🔸 Không có chunks nào, chỉ tải vector store đã có.")
-
-        # Bước 3: Tạo và trả về đối tượng wrapper của LangChain
-        logger.info(f"🔸 Đang tạo LangChain wrapper cho collection '{collection_name}'...")
-
-        # Tự động lấy danh sách metadata từ cấu hình
-        all_metadata_fields = [prop["name"] for prop in WEAVIATE_SCHEMA_CONFIG]
-
-        # 4. CẬP NHẬT: Khởi tạo WeaviateVectorStore theo API mới
-        vectorstore = WeaviateVectorStore(
-            client=weaviate_client,
-            index_name=collection_name,
-            text_key="text", # Phải khớp với tên trường trong schema
-            attributes=all_metadata_fields # Quan trọng: để LangChain biết lấy các trường này
-        )
-
-        logger.info("✅ Vector store đã sẵn sàng để sử dụng.")
-        return vectorstore
-
-    except Exception as e:
-        logger.error(f"❌ Lỗi nghiêm trọng trong quá trình xây dựng/tải vector store: {e}", exc_info=True)
-        return None
 # End new
 
 def create_or_load_vectorstore(embeddings, weaviate_url, collection_name, weaviate_client, chunks=None):
@@ -384,19 +319,6 @@ def get_google_llm(google_api_key):
         logger.error(f"🔸Lỗi khi khởi tạo Google Generative AI LLM: {e}")
         return None
 
-def format_chat_history(chat_history):
-    if not chat_history:
-        return []
-    formatted_history = []
-    for message in chat_history:
-        if isinstance(message, tuple) and len(message) == 2:
-            human_msg, ai_msg = message
-            formatted_history.append(HumanMessage(content=human_msg))
-            formatted_history.append(AIMessage(content=ai_msg))
-    return formatted_history
-
-
-
 
 def create_qa_chain(
     llm: Any,
@@ -438,9 +360,7 @@ def create_qa_chain(
             ("system", prompt_templete.GENERAL_PROMPT),
             ("human", "{input}")
         ])
-        knowledge_prompt = ChatPromptTemplate.from_template(
-            "Bạn là một trợ lý AI am hiểu. Hãy trả lời câu hỏi sau một cách trực tiếp và súc tích.\n\nCâu hỏi: {input}"
-        )
+
 
         # ----- STEP 1: UNIFIED PREPROCESSING CHAIN -----
         # Đây là bộ não xử lý đầu vào, thay thế cho 3 lệnh gọi LLM cũ
@@ -465,14 +385,7 @@ def create_qa_chain(
             }
         ).with_config({"run_name": "AdvancedLegalRAGChain"})
 
-        # --- Nhánh 2: KNOWLEDGE RETRIEVAL ---
-        knowledge_chain = (
-            {"input": itemgetter("rewritten_question")}
-            | knowledge_prompt
-            | llm
-            | StrOutputParser()
-            | (lambda answer: {"answer": answer, "context": []}) # Định dạng output cho nhất quán
-        ).with_config({"run_name": "KnowledgeChain"})
+
 
         # --- Nhánh 3: GENERAL CHAT ---
         general_chat_chain = (
@@ -487,7 +400,6 @@ def create_qa_chain(
         # Định nghĩa các nhánh mà router có thể chọn
         branches = {
             "legal_rag": legal_chain,
-            "knowledge_retrieval": knowledge_chain,
             "general_chat": general_chat_chain,
             # Thêm nhánh legal_term_explanation ở đây nếu bạn triển khai nó
         }
