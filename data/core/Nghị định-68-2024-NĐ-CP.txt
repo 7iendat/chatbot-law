@@ -1,0 +1,1037 @@
+CHÍNH PHỦ                          CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+                          _______                      Độc lập – Tự do – Hạnh phúc
+                                                              ______________________
+                     Số: 68/2024/NĐ-CP               Hà Nội, ngày 25 tháng 6 năm 2024
+                                         NGHỊ ĐỊNH
+                        Quy định về chữ ký số chuyên dùng công vụ
+                                       _____________
+       Căn cứ Luật Tổ chức Chính phủ ngày 19 tháng 6 năm 2015; Luật sửa đổi, bổ sung một số
+điều của Luật Tổ chức Chính phủ và Luật Tổ chức chính quyền địa phương ngày 22 tháng 11 năm
+2019;
+       Căn cứ Luật Cơ yếu ngày 26 tháng 11 năm 2011;
+       Căn cứ Luật Giao dịch điện tử ngày 22 tháng 6 năm 2023;
+       Theo đề nghị của Bộ trưởng Bộ Quốc phòng;
+       Chính phủ ban hành Nghị định quy định về chữ ký số chuyên dùng công vụ.
+                                          Chương  I
+                                     QUY ĐỊNH CHUNG
+       Điều 1. Phạm vi điều chỉnh
+       Nghị định này quy định chi tiết về dịch vụ chứng thực chữ ký số chuyên dùng công vụ; việc
+cung cấp, quản lý, sử dụng chữ ký số chuyên dùng công vụ, chứng thư chữ ký số chuyên dùng công
+vụ và dịch vụ chứng thực chữ ký số chuyên dùng công vụ.
+       Điều 2. Đối tượng áp dụng
+       1. Các cơ quan, tổ chức thuộc các cơ quan nhà nước; tổ chức chính trị; tổ chức chính trị - xã
+hội; đơn vị sự nghiệp công lập.
+       2. Cán bộ, công chức, viên chức, người làm việc trong lực lượng vũ trang nhân dân và người
+làm việc trong tổ chức cơ yếu.
+       3. Các cơ quan, tổ chức, cá nhân khác liên quan đến hoạt động cung cấp, quản lý, sử dụng
+chữ ký số chuyên dùng công vụ, chứng thư chữ ký số chuyên dùng công vụ và dịch vụ chứng thực
+chữ ký số chuyên dùng công vụ.
+       Điều 3. Giải thích từ ngữ
+       Trong Nghị định này, các từ ngữ dưới đây được hiểu như sau:
+       1. Khóa bí mật là một khóa trong cặp khóa thuộc hệ thống mật mã không đối xứng, được
+dùng để tạo chữ ký số.
+       2. Khóa công khai là một khóa trong cặp khóa thuộc hệ thống mật mã không đối xứng, được
+dùng để kiểm tra chữ ký số tạo bởi khóa bí mật tương ứng trong cặp khóa.
+       3. Thuê bao là cơ quan, tổ chức, cá nhân được cấp chứng thư chữ ký số chuyên dùng công
+vụ, chấp nhận chứng thư chữ ký số chuyên dùng công vụ và giữ khóa bí mật tương ứng với khóa
+công khai ghi trên chứng thư chữ ký số chuyên dùng công vụ được phát hành đó.
+       4. Tổ chức cung cấp dịch vụ chứng thực chữ ký số chuyên dùng công vụ là Cục Chứng thực
+số và Bảo mật thông tin trực thuộc Ban Cơ yếu Chính phủ.
+       5. Thiết bị lưu khóa bí mật là thiết bị vật lý chuyên dụng chứa khóa bí mật của thuê bao.
+       6. Cơ quan, tổ chức quản lý trực tiếp là cơ quan, tổ chức có tư cách pháp nhân, có con dấu
+riêng trực tiếp quản lý thuê bao sử dụng dịch vụ chứng thực chữ ký số chuyên dùng công vụ.
+       7. Yêu cầu chứng thực là các yêu cầu cấp mới, gia hạn, thay đổi nội dung thông tin, thu hồi
+chứng thư chữ ký số chuyên dùng công vụ và khôi phục thiết bị lưu khóa bí mật.
+       8. Hệ thống thông tin đăng ký, quản lý yêu cầu chứng thực là hệ thống điện tử hỗ trợ đăng
+          Luatvietnam                                                     LuatVietnam.vn
+Tiện ích văn bản luật
+
+ký, quản lý dịch vụ chứng thực chữ ký số chuyên dùng công vụ trên môi trường mạng.
+        9. CSCA - Country Signing Certification Authority là thành phần của Hệ thống chứng thực
+chữ ký số chuyên dùng công vụ phục vụ cấp chứng thư chữ ký số để phát hành hộ chiếu và thẻ căn
+cước có gắn chip điện tử.
+          10. DS - Document Signer là thành phần ký số dữ liệu chip trong hệ thống cá thể hóa của cơ
+quan phát hành hộ chiếu và thẻ căn cước có gắn chip điện tử.
+         11. IS - Inspection System là các hệ thống thiết bị phần cứng, phần mềm phục vụ kiểm tra hộ
+chiếu và thẻ căn cước có gắn chip điện tử.
+         12. CVCA - Country Verifying Certification Authourity là thành phần của Hệ thống chứng thực
+chữ ký số chuyên dùng công vụ phục vụ cấp chứng thư chữ ký số để kiểm tra hộ chiếu và thẻ căn
+cước có gắn chip điện tử.
+          13. DVCA - Document Verifier Certification Authourity là thành phần trung gian của CVCA để
+cấp chứng thư chữ ký số chuyên dùng công vụ cho IS.
+           14. Thiết bị HSM - Hardware Security Module là thiết bị lưu khóa bí mật tập trung của các
+thuê bao.
+        15. PKI Token là thiết bị lưu khóa bí mật và chứng thư chữ ký số của từng thuê bao.
+        16. SIM PKI là thiết bị thẻ SIM điện thoại có chức năng lưu khóa bí mật của thuê bao phục vụ
+ký số thông điệp dữ liệu trên thiết bị di động.
+              17. Giải pháp ký số tập trung là giải pháp ký số không sử dụng thiết bị phần cứng (PKI
+Token, SIM PKI), trong đó khóa bí mật của các thuê bao được lưu giữ tập trung trên thiết bị HSM của
+Tổ chức cung cấp dịch vụ chứng thực chữ ký số chuyên dùng công vụ.
+          18. CRL - Certificate Revocation List là danh sách chứng thư chữ ký số chuyên dùng công vụ
+bị thu hồi.
+          19. OCSP - Online Certificate Status Protocol là dịch vụ kiểm tra, cho phép xác định trạng
+thái hiện thời của chứng thư chữ ký số chuyên dùng công vụ.
+        Điều 4. Gửi, nhận văn bản yêu cầu chứng thực, thiết bị lưu khóa bí mật
+          1. Gửi, nhận văn bản yêu cầu chứng thực giữa cơ quan, tổ chức quản lý trực tiếp và Tổ chức
+cung cấp-dịch vụ chứng thực chữ ký số chuyên dùng công vụ được thực hiện bằng văn bản điện tử
+đã ký số theo quy định của pháp luật về công tác văn thư qua Hệ thống thông tin đăng ký, quản lý
+yêu cầu chứng thực hoặc Trục liên thông văn bản quốc gia.
+         2. Gửi, nhận thiết bị lưu khóa bí mật giữa thuê bao, cơ quan, tổ chức quản lý trực tiếp, Tổ
+chức cung cấp dịch vụ chứng thực chữ ký số chuyên dùng công vụ được thực hiện bằng phương
+thức trực tiếp hoặc thông qua Tổ chức cơ yếu hoặc đơn vị cung cấp dịch vụ bưu chính công ích theo
+quy định của pháp luật.
+                Điều 5. Gửi, nhận văn bản yêu cầu chứng thực, thiết bị lưu khóa bí mật trong Bộ Quốc
+phòng, Bộ Công an và Bộ Ngoại giao
+            Gửi, nhận văn bản yêu cầu chứng thực, thiết bị lưu khóa bí mật giữa các cơ quan, tổ chức
+quản lý trực tiếp trong Bộ Quốc phòng, Bộ Công an và Bộ Ngoại giao với Tổ chức cung cấp dịch vụ
+chứng thực chữ ký số chuyên dùng công vụ thông qua các Tổ chức cơ yếu trực thuộc Bộ Quốc
+phòng, Bộ Công an và Bộ Ngoại giao.
+                                            Chương II
+                         HOẠT ĐỘNG CUNG CẤP DỊCH VỤ CHỨNG THỰC CHỮ KÝ SỐ
+                                       CHUYÊN DÙNG CÔNG VỤ
+        Điều 6. Dịch vụ chứng thực chữ ký số chuyên dùng công vụ
+        Dịch vụ chứng thực chữ ký số chuyên dùng công vụ do Tổ chức cung cấp dịch vụ chứng
+thực chữ ký số chuyên dùng công vụ cung cấp bao gồm:
+        1. Tạo và phân phối các cặp khóa.
+        2. Cấp chứng thư chữ ký số chuyên dùng công vụ.
+
+        3. Gia hạn chứng thư chữ ký số chuyên dùng công vụ.
+        4. Thay đổi nội dung thông tin của chứng thư chữ ký số chuyên dùng công vụ.
+        5. Thu hồi chứng thư chữ ký số chuyên dùng công vụ.
+        6. Khôi phục thiết bị lưu khóa bí mật.
+        7. Công bố và duy trì trực tuyến cơ sở dữ liệu về chứng thư chữ ký số chuyên dùng công vụ.
+        8. Kiểm tra chứng thư chữ ký số chuyên dùng công vụ trực tuyến.
+        9. Cấp dấu thời gian.
+        Điều 7. Nội dung chứng thư chữ ký số chuyên dùng công vụ
+        1. Tên của Tổ chức cung cấp dịch vụ chứng thực chữ ký số chuyên dùng công vụ.
+        2. Tên của thuê bao.
+        3. Số hiệu chứng thư chữ ký số chuyên dùng công vụ.
+        4. Thời gian hiệu lực của chứng thư chữ ký số chuyên dùng công vụ.
+        5. Khóa công khai.
+        6. Chữ ký số của Tổ chức cung cấp dịch vụ chứng thực chữ ký số chuyên dùng công vụ.
+        7. Các hạn chế về mục đích, phạm vi sử dụng của chứng thư chữ ký số chuyên dùng công
+vụ.
+        Điều 8. Tạo và phân phối các cặp khóa
+        1. Tổ chức cung cấp dịch vụ chứng thực chữ ký số chuyên dùng công vụ tạo các cặp khóa
+(khóa công khai và khóa bí mật) của thuê bao.
+        2. Khóa công khai được gắn liền với chứng thư chữ ký số chuyên dùng công vụ và được
+công bố trực tuyến tại trang thông tin điện tử của Tổ chức cung cấp dịch vụ chứng thực chữ ký số
+chuyên dùng công vụ.
+        3. Khóa bí mật tương ứng với từng chứng thư chữ ký số chuyên dùng công vụ của thuê bao
+được lưu giữ trên thiết bị lưu khóa bí mật và được chuyển đến thuê bao bằng phương thức an toàn.
+Trong trường hợp sử dụng giải pháp ký số tập trung, khóa bí mật của các thuê bao được lưu giữ tập
+trung trên thiết bị HSM của Tổ chức cung cấp dịch vụ chứng thực chữ ký số chuyên dùng công vụ.
+        Điều 9. Thời hạn có hiệu lực của chứng thư chữ ký số chuyên dùng công vụ
+        1. Chứng thư chữ ký số chuyên dùng công vụ của Tổ chức cung cấp dịch vụ chứng thực chữ
+ký số chuyên dùng công vụ thời hạn có hiệu lực là 20 năm.
+        2. Chứng thư chữ ký số chuyên dùng công vụ của thuê bao cấp mới thời hạn có hiệu lực tối
+đa là 05 năm.
+        3. Chứng thư chữ ký số chuyên dùng công vụ của thuê bao được gia hạn thời hạn có hiệu
+lực được gia hạn tối đa là 03 năm.
+        4. Đối với chứng thư chữ ký số chuyên dùng công vụ phục vụ phát hành, kiểm tra hộ chiếu
+có gắn chíp điện tử, thời hạn hiệu lực của chứng thư chữ ký số theo quy định tại Điều 23 Nghị định
+này. Đối với chứng thư chữ ký số chuyên dùng công vụ phục vụ phát hành, kiểm tra thẻ căn cước có
+gắn chíp điện tử, thời hạn hiệu lực của chứng thư chữ ký số theo quy định tại Điều 26 Nghị định này.
+        Điều 10. Điều kiện cấp mới chứng thư chữ ký số chuyên dùng công vụ
+        1. Điều kiện cấp mới chứng thư chữ ký số chuyên dùng công vụ cho cá nhân
+        a) Phải là cá nhân của các cơ quan, tổ chức được quy định tại Điều 2 Nghị định này và có
+nhu cầu giao dịch điện tử;
+        b) Có văn bản đề nghị của cơ quan, tổ chức quản lý trực tiếp.
+        2. Điều kiện cấp mới chứng thư chữ ký số chuyên dùng công vụ cho cơ quan, tổ chức
+        a) Phải là cơ quan, tổ chức có tư cách pháp nhân quy định tại Điều 2 Nghị định này;
+        b) Có quyết định thành lập cơ quan, tổ chức hoặc xác nhận của người đứng đầu cơ quan, tổ
+
+chức cấp trên trực tiếp;
+        c) Có văn bản đề nghị của cơ quan, tổ chức quản lý trực tiếp.
+              3. Điều kiện cấp mới chứng thư chữ ký số chuyên dùng công vụ cho thiết bị, dịch vụ, phần
+mềm
+             a) Thiết bị, dịch vụ, phần mềm thuộc sở hữu, quản lý của cơ quan, tổ chức có tư cách pháp
+nhân quy định tại Điều 2 Nghị định này;
+        b) Có văn bản đề nghị của cơ quan, tổ chức quản lý trực tiếp.
+        Điều 11. Hồ sơ, trình tự, thủ tục cấp chứng thư chữ ký số chuyên dùng công vụ
+        1. Đề nghị cấp chứng thư chữ ký số chuyên dùng công vụ
+        a) Chứng thư chữ ký số chuyên dùng công vụ cho cá nhân
+             Cơ quan, tổ chức quản lý trực tiếp có văn bản đề nghị cấp chứng thư chữ ký số chuyên dùng
+công vụ theo Mẫu số 01 tại Phụ lục kèm theo Nghị định này gửi Tổ chức cung cấp dịch vụ chứng
+thực chữ ký số chuyên dùng công vụ.
+        b) Chứng thư chữ ký số chuyên dùng công vụ cho cơ quan, tổ chức
+        Cơ quan, tổ chức quản lý trực tiếp có văn bản đề nghị cấp mới chứng thư chữ ký số chuyên
+dùng công vụ theo Mẫu số 02 tại Phụ lục kèm theo Nghị định này gửi Tổ chức cung cấp dịch vụ
+chứng thực chữ ký số chuyên dùng công vụ.
+        c) Chứng thư chữ ký số chuyên dùng công vụ cho thiết bị, dịch vụ, phần mềm
+        Cơ quan, tổ chức quản lý trực tiếp có văn bản đề nghị cấp mới chứng thư chữ ký số chuyên
+dùng công vụ theo Mẫu số 03 tại Phụ lục kèm theo Nghị định này gửi Tổ chức cung cấp dịch vụ
+chứng thực chữ ký số chuyên dùng công vụ.
+               2. Trong thời hạn 03 ngày làm việc, kể từ ngày tiếp nhận hồ sơ hợp lệ, Tổ chức cung cấp
+dịch vụ chứng thực chữ ký số chuyên dùng công vụ có trách nhiệm kiểm tra hồ sơ, tổ chức tạo cặp
+khóa, tạo chứng thư chữ ký số chuyên dùng công vụ, bảo đảm thiết bị lưu khóa bí mật cho thuê bao.
+Thông báo thời gian, địa điểm tiếp nhận thiết bị lưu khóa bí mật cho cơ quan, tổ chức quản lý trực
+tiếp; hoặc gửi thông tin tài khoản cho thuê bao trong trường hợp triển khai giải pháp ký số tập trung.
+        Trường hợp không chấp nhận đề nghị cấp chứng thư chữ ký số chuyên dùng công vụ, Tổ
+chức cung cấp dịch vụ chứng thực chữ ký số chuyên dùng công vụ thông báo bằng văn bản nêu rõ lý
+do cho cơ quan, tổ chức quản lý trực tiếp biết.
+        3. Cơ quan, tổ chức quản lý trực tiếp có trách nhiệm tiếp nhận thiết bị lưu khóa bí mật từ Tổ
+chức cung cấp dịch vụ chứng thực chữ ký số chuyên dùng công vụ; ngay sau khi bàn giao thiết bị lưu
+khóa bí mật cho thuê bao, gửi thông báo theo Mẫu số 07 tại Phụ lục kèm theo Nghị định này về Tổ
+chức cung cấp dịch vụ chứng thực chữ ký số chuyên dùng công vụ để phục vụ công tác quản lý.
+        Điều 12. Điều kiện gia hạn chứng thư chữ ký số chuyên dùng công vụ
+        1. Chứng thư chữ ký số chuyên dùng công vụ chỉ được đề nghị gia hạn 01 lần và phải đảm
+bảo còn thời hạn sử dụng ít nhất 30 ngày.
+        2. Cơ quan, tổ chức quản lý trực tiếp phải có văn bản đề nghị gia hạn chứng thư chữ ký số
+chuyên dùng công vụ.
+        Điều 13. Hồ sơ, trình tự, thủ tục gia hạn chứng thư chữ ký số chuyên dùng công vụ
+        1. Cơ quan, tổ chức quản lý trực tiếp có văn bản đề nghị gia hạn chứng thư chữ ký số
+chuyên dùng công vụ theo Mẫu số 04 tại Phụ lục kèm theo Nghị định này gửi Tổ chức cung cấp dịch
+vụ chứng thực chữ ký số chuyên dùng công vụ.
+        2. Trong thời hạn 03 ngày làm việc, kể từ ngày tiếp nhận đề nghị gia hạn chứng thư chữ ký
+số hợp lệ, Tổ chức cung cấp dịch vụ chứng thực chữ ký số chuyên dùng công vụ có trách nhiệm gia
+hạn chứng thư chữ ký số chuyên dùng công vụ cho thuê bao và thông báo cho cơ quan, tổ chức
+quản lý trực tiếp biết.
+        Trường hợp không chấp nhận đề nghị gia hạn chứng thư chữ ký số chuyên dùng công vụ, Tổ
+chức cung cấp dịch vụ chứng thực chữ ký số chuyên dùng công vụ thông báo bằng văn bản nêu rõ lý
+do cho cơ quan, tổ chức quản lý trực tiếp biết.
+
+        Điều 14. Điều kiện thay đổi nội dung thông tin của chứng thư chữ ký số chuyên dùng
+công vụ
+        1. Chứng thư chữ ký số chuyên dùng công vụ yêu cầu thay đổi nội dung thông tin phải đảm
+bảo còn thời hạn sử dụng ít nhất 30 ngày. Việc thay đổi nội dung thông tin chứng thư chữ ký số
+chuyên dùng công vụ không làm thay đổi thời hạn sử dụng của chứng thư chữ ký số chuyên dùng
+công vụ đó.
+        2. Cơ quan, tổ chức quản lý trực tiếp phải có văn bản đề nghị thay đổi nội dung thông tin
+chứng thư chữ ký số chuyên dùng công vụ.
+        Điều 15. Các trường hợp thay đổi nội dung thông tin của chứng thư chữ ký số chuyên
+dùng công vụ
+        1. Đối với chứng thư chữ ký số chuyên dùng công vụ của cá nhân
+        a) Thay đổi cơ quan, tổ chức công tác mà thông tin không phù hợp với thông tin trong chứng
+thư chữ ký số chuyên dùng công vụ;
+        b) Thay đổi thông tin về địa chỉ thư điện tử công vụ.
+        2. Đối với chứng thư chữ ký số chuyên dùng công vụ của cơ quan, tổ chức
+        Cơ quan, tổ chức đổi tên hoặc địa chỉ hoạt động mà thông tin không phù hợp với thông tin
+trong chứng thư chữ ký số chuyên dùng công vụ.
+        3. Đối với chứng thư chữ ký số chuyên dùng công vụ của thiết bị, dịch vụ, phần mềm
+        Thiết bị, dịch vụ, phần mềm đổi tên hoặc được nâng cấp phiên bản, bổ sung tính năng mà
+thông tin không phù hợp với thông tin trong chứng thư chữ ký số chuyên dùng công vụ.
+        Điều 16. Hồ sơ, trình tự, thủ tục thay đổi nội dung thông tin của chứng thư chữ ký số
+chuyên dùng công vụ
+        1. Cơ quan, tổ chức quản lý trực tiếp có văn bản đề nghị thay đổi nội dung thông tin của
+chứng thư chữ ký số chuyên dùng công vụ theo Mẫu số 04 tại Phụ lục kèm theo Nghị định này gửi Tổ
+chức cung cấp dịch vụ chứng thực chữ ký số chuyên dùng công vụ.
+        2. Trong thời hạn 03 ngày làm việc, kể từ ngày tiếp nhận đề nghị thay đổi nội dung thông tin
+của chứng thư chữ ký số chuyên dùng công vụ hợp lệ, Tổ chức cung cấp dịch vụ chứng thực chữ ký
+số chuyên dùng công vụ có trách nhiệm thay đổi nội dung thông tin của chứng thư chữ ký số chuyên
+dùng công vụ cho thuê bao và thông báo cho cơ quan, tổ chức quản lý trực tiếp biết.
+        Trường hợp không chấp nhận đề nghị thay đổi nội dung thông tin của chứng thư chữ ký số
+chuyên dùng công vụ, Tổ chức cung cấp dịch vụ chứng thực chữ ký số chuyên dùng công vụ thông
+báo bằng văn bản nêu rõ lý do cho cơ quan, tổ chức quản lý trực tiếp biết.
+        Điều 17. Các trường hợp thu hồi chứng thư chữ ký số chuyên dùng công vụ
+        1. Đối với mọi loại chứng thư chữ ký số chuyên dùng công vụ
+        a) Chứng thư chữ ký số chuyên dùng công vụ hết hạn sử dụng;
+        b) Theo yêu cầu bằng văn bản của thuê bao và có xác nhận của cơ quan, tổ chức quản lý
+trực tiếp trong các trường hợp: Khóa bí mật bị lộ hoặc nghi bị lộ; thiết bị lưu khóa bí mật bị hỏng, bị
+thất lạc hoặc các trường hợp mất an toàn khác;
+        c) Theo yêu cầu bằng văn bản từ cơ quan tiến hành tố tụng, cơ quan công an;
+        d) Theo yêu cầu bằng văn bản từ cơ quan, tổ chức quản lý trực tiếp.
+        2. Đối với chứng thư chữ ký số chuyên dùng công vụ của cá nhân
+        a) Các trường hợp quy định tại khoản 1 Điều này;
+        b) Cá nhân thay đổi vị trí công tác mà thông tin về vị trí công tác mới không phù hợp với
+thông tin trong chứng thư chữ ký số chuyên dùng công vụ;
+        c) Cá nhân nghỉ hưu, thôi việc, từ trần.
+        3. Đối với chứng thư chữ ký số chuyên dùng công vụ của cơ quan, tổ chức
+        a) Các trường hợp quy định tại khoản 1 Điều này;
+
+        b) Cơ quan, tổ chức giải thể, chia tách, sáp nhập.
+        4. Đối với chứng thư chữ ký số chuyên dùng công vụ của thiết bị, dịch vụ, phần mềm
+        a) Các trường hợp quy định tại khoản 1 Điều này;
+        b) Thiết bị, dịch vụ, phần mềm ngừng hoạt động.
+        Điều 18. Thẩm quyền đề nghị thu hồi chứng thư chữ ký số chuyên dùng công vụ
+                1. Tổ chức cung cấp dịch vụ chứng thực chữ ký số chuyên dùng công vụ tự động thu hồi
+      chứng thư chữ ký số chuyên dùng công vụ khi chứng thư chữ ký số chuyên dùng công vụ hết hạn sử
+dụng.
+                2. Mọi trường hợp thu hồi chứng thư chữ ký số chuyên dùng công vụ không thuộc trường
+    hợp chứng thư chữ ký số hết hạn sử dụng, cơ quan, tổ chức quản lý trực tiếp phải kịp thời có văn
+      bản đề nghị thu hồi chứng thư chữ ký số chuyên dùng công vụ gửi Tổ chức cung cấp dịch vụ chứng
+thực chữ ký số chuyên dùng công vụ.
+             3. Trường hợp thuê bao là cá nhân nghỉ hưu, thôi việc, chuyển cơ quan khác, từ trần; cơ
+   quan, tổ chức quản lý trực tiếp thuê bao có thẩm quyền đề nghị thu hồi chứng thư chữ ký số chuyên
+dùng công vụ gửi Tổ chức cung cấp dịch vụ chứng thực chữ ký số chuyên dùng công vụ.
+           4. Trường hợp thuê bao là tổ chức giải thể, chia tách, sáp nhập; cơ quan, tổ chức quản lý
+      trực tiếp của tổ chức đó có thẩm quyền đề nghị thu hồi chứng thư chữ ký số chuyên dùng công vụ
+gửi Tổ chức cung cấp dịch vụ chứng thực chữ ký số chuyên dùng công vụ.
+        5. Cơ quan tiến hành tố tụng, cơ quan công an.
+             6. Đề nghị thu hồi chứng thư chữ ký số chuyên dùng công vụ gửi Tổ chức cung cấp dịch vụ
+chứng thực chữ ký số chuyên dùng công vụ phải thực hiện nhanh nhất bằng văn bản.
+        Điều 19. Hồ sơ, trình tự, thủ tục thu hồi chứng thư chữ ký số chuyên dùng công vụ
+                1. Hồ sơ thu hồi chứng thư chữ ký số chuyên dùng công vụ gồm một trong những văn bản
+sau
+             a) Văn bản đề nghị thu hồi chứng thư chữ ký số chuyên dùng công vụ của cơ quan, tổ chức
+quản lý trực tiếp;
+            b) Văn bản đề nghị thu hồi chứng thư chữ ký số chuyên dùng công vụ của cơ quan tiến hành
+tố tụng, cơ quan công an.
+        2. Trình tự, thủ tục thu hồi chứng thư chữ ký số chuyên dùng công vụ
+         a) Cơ quan, tổ chức quản lý trực tiếp có văn bản đề nghị thu hồi chứng thư chữ ký số chuyên
+         dùng công vụ theo Mẫu số 05 tại Phụ lục kèm theo Nghị định này gửi Tổ chức cung cấp dịch vụ
+chứng thực chữ ký số chuyên dùng công vụ;
+           b) Trong thời hạn 01 ngày làm việc, kể từ ngày nhận được đề nghị thu hồi chứng thư chữ ký
+      số chuyên dùng công vụ, Tổ chức cung cấp dịch vụ chứng thực chữ ký số chuyên dùng công vụ phải
+         làm mất hiệu lực của chứng thư chữ ký số chuyên dùng công vụ và công bố chứng thư chữ ký số
+ chuyên dùng công vụ bị thu hồi trên trang thông tin điện tử của Tổ chức cung cấp dịch vụ chứng thực
+        chữ ký số chuyên dùng công vụ; đồng thời thông báo bằng văn bản cho cơ quan, tổ chức quản lý
+trực tiếp biết.
+                   Điều 20. Thu hồi thiết bị lưu khóa bí mật sau khi chứng thư chữ ký số chuyên dùng
+công vụ hết hạn sử dụng hoặc chứng thư chữ ký số chuyên dùng công vụ bị thu hồi
+        1. Thu hồi thiết bị lưu khóa bí mật do thuê bao quản lý trong trường hợp chứng thư chữ ký số
+chuyên dùng công vụ hết hạn sử dụng hoặc chứng thư chữ ký số chuyên dùng công vụ bị thu hồi.
+          2. Thuê bao phải có trách nhiệm bàn giao lại thiết bị lưu khóa bí mật cho cơ quan, tổ chức
+    quản lý trực tiếp khi chứng thư chữ ký số chuyên dùng công vụ hết hạn sử dụng hoặc chứng thư chữ
+ký số chuyên dùng công vụ bị thu hồi.
+            3. Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được thông báo thu hồi chứng thư chữ
+   ký số chuyên dùng công vụ, cơ quan, tổ chức quản lý trực tiếp có trách nhiệm thu hồi thiết bị lưu
+         khóa bí mật của thuê bao, bàn giao cho Tổ chức cung cấp dịch vụ chứng thực chữ ký số chuyên
+  dùng công vụ. Biên bản giao, nhận thiết bị lưu khóa bí mật sau khi chứng thư chữ ký số chuyên dùng
+
+công vụ hết hạn sử dụng hoặc chứng thư chữ ký số chuyên dùng công vụ bị thu hồi theo Mẫu số 08
+tại Phụ lục kèm theo Nghị định này.
+        4. Trong trường hợp thiết bị lưu khóa bí mật bị thất lạc, cơ quan, tổ chức quản lý trực tiếp
+phải lập biên bản xác nhận theo Mẫu số 09 tại Phụ lục kèm theo Nghị định này gửi ngay về Tổ chức
+cung cấp dịch vụ chứng thực chữ ký số chuyên dùng công vụ.
+                    Điều 21. Cấp chứng thư chữ ký số chuyên dùng công vụ sau khi chứng thư chữ ký số
+chuyên dùng công vụ cũ hết hạn hoặc chứng thư chữ ký số chuyên dùng công vụ bị thu hồi
+                1. Thuê bao có nhu cầu cấp chứng thư chữ ký số chuyên dùng công vụ sau khi chứng thư
+chữ ký số chuyên dùng công vụ cũ hết hạn hoặc chứng thư chữ ký số chuyên dùng công vụ bị thu hồi
+nếu đủ điều kiện tại Điều 10 Nghị định này được xem xét cấp chứng thư chữ ký số chuyên dùng công
+vụ mới.
+        2. Hồ sơ, trình tự, thủ tục như cấp chứng thư chữ ký số chuyên dùng công vụ lần đầu.
+        Điều 22. Khôi phục thiết bị lưu khóa bí mật do thuê bao quản lý
+        1. Trường hợp khôi phục thiết bị lưu khóa bí mật
+            Thiết bị lưu khóa bí mật sẽ bị khóa khi nhập sai mật khẩu quá số lần quy định do Tổ chức
+cung cấp dịch vụ chứng thực chữ ký số chuyên dùng công vụ thiết lập. Để thiết bị lưu khóa bí mật
+hoạt động trở lại, cần phải thực hiện quy trình khôi phục thiết bị lưu khóa bí mật.
+        2. Hồ sơ khôi phục thiết bị lưu khóa bí mật
+           Văn bản đề nghị khôi phục thiết bị lưu khóa bí mật cho thuê bao của cơ quan, tổ chức quản
+lý trực tiếp.
+        3. Trình tự, thủ tục khôi phục thiết bị lưu khóa bí mật
+         a) Cơ quan, tổ chức quản lý trực tiếp có văn bản đề nghị khôi phục thiết bị lưu khóa bí mật
+theo Mẫu số 06 tại Phụ lục kèm theo Nghị định này gửi Tổ chức cung cấp dịch vụ chứng thực chữ ký
+số chuyên dùng công vụ;
+             b) Trong thời hạn 01 ngày làm việc, kể từ ngày nhận được yêu cầu khôi phục thiết bị lưu
+khóa bí mật hợp lệ, Tổ chức cung cấp dịch vụ chứng thực chữ ký số chuyên dùng công vụ thực hiện
+việc khôi phục thiết bị lưu khóa bí mật; đồng thời, thông báo cho cơ quan, tổ chức quản lý trực tiếp
+biết.
+             Trường hợp không chấp nhận đề nghị khôi phục thiết bị lưu khóa bí mật, Tổ chức cung cấp
+dịch vụ chứng thực chữ ký số chuyên dùng công vụ thông báo bằng văn bản nêu rõ lý do cho cơ
+quan, tổ chức quản lý trực tiếp biết.
+                                           Chương III
+                       CUNG CẤP DỊCH VỤ CHỨNG THỰC CHỮ KÝ SỐ CHUYÊN DÙNG
+                          CÔNG VỤ PHỤC VỤ PHÁT HÀNH, KIỂM TRA HỘ CHIẾU
+                              VÀ THẺ CĂN CƯỚC CÓ GẮN CHÍP ĐIỆN TỬ
+                                             Mục 1
+                             CUNG CẤP DỊCH VỤ CHỨNG THỰC CHỮ KÝ SỐ
+                        CHUYÊN DÙNG CÔNG VỤ PHỤC VỤ PHÁT HÀNH, KIỂM TRA
+                                  HỘ CHIẾU CÓ GẮN CHÍP ĐIỆN TỬ
+        Điều 23. Thời hạn có hiệu lực của chứng thư chữ ký số chuyên dùng công vụ phục vụ
+phát hành, kiểm tra hộ chiếu có gắn chíp điện tử
+                1. Thời hạn có hiệu lực của chứng thư số chuyên dùng công vụ phục vụ ký phát hành hộ
+chiếu có gắn chíp điện tử
+               a) Chứng thư chữ ký số chuyên dùng công vụ của CSCA thời hạn có hiệu lực tối đa là 15
+năm, khóa bí mật tương ứng thời hạn có hiệu lực tối đa là 05 năm;
+            b) Chứng thư chữ ký số chuyên dùng công vụ của DS thời hạn có hiệu lực tối đa là 10 năm,
+khóa bí mật tương ứng thời hạn có hiệu lực tối đa là 03 tháng hoặc ký phát hành tối đa là 100.000 Hộ
+chiếu có gắn chíp điện tử.
+
+        2. Thời hạn có hiệu lực của chứng thư chữ ký số chuyên dùng công vụ phục vụ kiểm tra hộ
+chiếu có gắn chíp điện tử
+        a) Chứng thư chữ ký số chuyên dùng công vụ của CVCA thời hạn có hiệu lực tối đa là 03
+năm, khóa bí mật tương ứng thời hạn có hiệu lực tối đa là 03 năm;
+        b) Chứng thư chữ ký số chuyên dùng công vụ của DVCA thời hạn có hiệu lực tối đa là 03
+tháng, khóa bí mật tương ứng thời hạn có hiệu lực tối đa là 03 tháng;
+        c) Chứng thư chữ ký số chuyên dùng công vụ của IS thời hạn có hiệu lực tối đa là 01 tháng,
+khóa bí mật tương ứng thời hạn có hiệu lực tối đa là 01 tháng.
+        Điều 24. Đăng ký, gửi, nhận yêu cầu chứng thực
+        1. Đăng ký dịch vụ chứng thực chữ ký số chuyên dùng công vụ
+               Cơ quan đăng ký dịch vụ chứng thực chữ ký số chuyên dùng công vụ phục vụ phát hành,
+kiểm tra hộ chiếu có gắn chíp điện tử là tổ chức trực thuộc Bộ Quốc phòng, Bộ Công an, Bộ Ngoại
+giao (sau đây gọi chung là Cơ quan chuyên trách) làm nhiệm vụ quản lý, kiểm soát việc nhập cảnh,
+xuất cảnh, quá cảnh, cư trú theo quy định của pháp luật.
+        2. Gửi, nhận yêu cầu chứng thực
+        Việc gửi, nhận yêu cầu chứng thực giữa Cơ quan chuyên trách; các Tổ chức cơ yếu trực
+thuộc Bộ Quốc phòng, Bộ Công an, Bộ Ngoại giao với Tổ chức cung cấp dịch vụ chứng thực chữ ký
+số chuyên dùng công vụ được thực hiện qua Hệ thống quản trị vòng đời chứng thư chữ ký số chuyên
+dùng công vụ phục vụ công tác phát hành, quản lý hộ chiếu có gắn chíp điện tử.
+        Điều 25. Trình tự, thủ tục cấp, thu hồi chứng thư chữ ký số chuyên dùng công vụ phục
+vụ phát hành, kiểm tra hộ chiếu có gắn chíp điện tử
+            1. Cấp chứng thư chữ ký số chuyên dùng công vụ phục vụ ký số phát hành Hộ chiếu có gắn
+chíp điện tử
+        a) Cơ quan chuyên trách thực hiện sinh khóa, tạo yêu cầu chứng thực DS, sử dụng chứng
+thư chữ ký số chuyên dùng công vụ của tổ chức ký số lên yêu cầu chứng thực DS gửi Tổ chức cơ
+yếu trực thuộc Bộ chủ quản;
+              b) Ngay khi tiếp nhận yêu cầu chứng thực DS hợp lệ, Tổ chức cơ yếu trực thuộc Bộ chủ
+quản có trách nhiệm sử dụng chứng thư chữ ký số chuyên dùng công vụ của tổ chức ký số lên yêu
+cầu chứng thực và gửi Tổ chức cung cấp dịch vụ chứng thực chữ ký số chuyên dùng công vụ;
+          c) Ngay khi tiếp nhận yêu cầu chứng thực hợp lệ, Tổ chức cung cấp dịch vụ chứng thực chữ
+ký số chuyên dùng công vụ có trách nhiệm tạo chứng thư chữ ký số chuyên dùng công vụ DS và gửi
+kết quả về Cơ quan chuyên trách; đồng thời, thông báo cho Tổ chức cơ yếu trực thuộc Bộ chủ quản
+biết.
+        2. Cấp chứng thư chữ ký số chuyên dùng công vụ phục vụ kiểm tra hộ chiếu có gắn chíp điện
+tử
+        a) Cấp chứng thư chữ ký số chuyên dùng công vụ DVCA của Việt Nam cho nước ngoài
+        Cơ quan chuyên trách tiếp nhận yêu cầu cấp chứng thư chữ ký số DVCA của Việt Nam từ
+nước ngoài, sử dụng chứng thư chữ ký số chuyên dùng công vụ của tổ chức ký số lên yêu cầu
+chứng thực và gửi Tổ chức cơ yếu trực thuộc Bộ chủ quản;
+        Ngay khi tiếp nhận yêu cầu chứng thực hợp lệ, Tổ chức cơ yếu trực thuộc Bộ chủ quản có
+trách nhiệm sử dụng chứng thư chữ ký số chuyên dùng công vụ của tổ chức ký số lên yêu cầu chứng
+thực và gửi Tổ chức cung cấp dịch vụ chứng thực chữ ký số chuyên dùng công vụ;
+            Ngay khi tiếp nhận đề nghị cấp chứng thư chữ ký số chuyên dùng công vụ hợp lệ, Tổ chức
+cung cấp dịch vụ chứng thực chữ ký số chuyên dùng công vụ có trách nhiệm tạo chứng thư chữ ký
+số chuyên dùng công vụ DVCA và gửi kết quả về Cơ quan chuyên trách; đồng thời, thông báo cho Tổ
+chức cơ yếu trực thuộc Bộ chủ quản biết.
+        b) Tiếp nhận chứng thư chữ ký số DVCA của nước ngoài
+        Tổ chức cung cấp dịch vụ chứng thực chữ ký số chuyên dùng công vụ sinh khóa, tạo yêu cầu
+chứng thực DVCA của nước ngoài và gửi Tổ chức cơ yếu trực thuộc Bộ chủ quản;
+
+                Ngay khi tiếp nhận yêu cầu chứng thực, Tổ chức cơ yếu trực thuộc Bộ chủ quản có trách
+       nhiệm sử dụng chứng thư chữ ký số chuyên dùng công vụ của tổ chức ký số lên yêu cầu chứng thực
+và gửi Cơ quan chuyên trách;
+              Cơ quan chuyên trách gửi yêu cầu chứng thực cho nước ngoài, đồng thời tiếp nhận kết quả
+chứng thực từ nước ngoài và gửi Tổ chức cơ yếu trực thuộc Bộ chủ quản;
+                Ngay khi tiếp nhận kết quả chứng thực, Tổ chức cơ yếu trực thuộc Bộ chủ quản có trách
+           nhiệm và gửi Tổ chức cung cấp dịch vụ chứng thực chữ ký số chuyên dùng công vụ để tạo DVCA
+cho nước ngoài.
+        3. Cấp chứng thư chữ ký số chuyên dùng công vụ cho IS
+               a) Cơ quan chuyên trách sinh khóa, tạo yêu cầu chứng thực IS, sử dụng chứng thư chữ ký
+số của tổ chức ký số lên yêu cầu chứng thực và gửi Tổ chức cơ yếu trực thuộc Bộ chủ quản;
+            b) Ngay khi tiếp nhận yêu cầu chứng thực hợp lệ, Tổ chức cơ yếu trực thuộc Bộ chủ quản có
+      trách nhiệm sử dụng chứng thư chữ ký số của tổ chức ký số lên yêu cầu chứng thực và gửi Tổ chức
+cung cấp dịch vụ chứng thực chữ ký số chuyên dùng công vụ;
+               c) Ngay khi tiếp nhận đề nghị cấp chứng thư chữ ký số hợp lệ, Tổ chức cung cấp dịch vụ
+        chứng thực chữ ký số chuyên dùng công vụ có trách nhiệm tạo chứng thư chữ ký số cho IS và gửi
+       kết quả về Cơ quan chuyên trách; đồng thời thông báo cho Tổ chức cơ yếu trực thuộc Bộ chủ quản
+biết.
+              4. Trình tự, thủ tục thu hồi chứng thư chữ ký số chuyên dùng công vụ phục vụ phát hành,
+kiểm tra hộ chiếu có gắn chíp điện tử thực hiện theo quy định tại Điều 19 Nghị định này.
+                                            Mục 2
+                            CUNG CẤP DỊCH VỤ CHỨNG THỰC CHỮ KÝ SỐ
+                       CHUYÊN DÙNG CÔNG VỤ PHỤC VỤ PHÁT HÀNH, KIỂM TRA
+                               THẺ CĂN CƯỚC CÓ GẮN CHÍP ĐIỆN TỬ
+                    Điều 26. Thời hạn có hiệu lực của chứng thư chữ ký số chuyên dùng công vụ phục vụ
+phát hành, kiểm tra thẻ căn cước có gắn chíp điện tử
+                1. Thời hạn có hiệu lực của chứng thư chữ ký số chuyên dùng công vụ phục vụ phát hành
+thẻ căn cước có gắn chíp điện tử
+                a) Chứng thư chữ ký số chuyên dùng công vụ của CSCA thời hạn có hiệu lực tối đa là 27
+năm, khóa bí mật tương ứng thời hạn có hiệu lực tối đa là 05 năm;
+             b) Chứng thư chữ ký số chuyên dùng công vụ của DS thời hạn có hiệu lực tối đa là 22 năm,
+khóa bí mật tương ứng thời hạn có hiệu lực tối đa là 03 tháng hoặc ký phát hành tối đa là 100.000 thẻ
+căn cước có gắn chíp điện tử.
+             2. Thời hạn có hiệu lực của chứng thư chữ ký số chuyên dùng công vụ phục vụ kiểm tra thẻ
+căn cước có gắn chíp điện tử
+                a) Chứng thư chữ ký số chuyên dùng công vụ của CVCA thời hạn có hiệu lực tối đa là 03
+năm, khóa bí mật tương ứng thời hạn có hiệu lực tối đa là 03 năm;
+                b) Chứng thư chữ ký số chuyên dùng công vụ của DVCA thời hạn có hiệu lực tối đa là 03
+tháng, khóa bí mật tương ứng thời hạn có hiệu lực tối đa là 03 tháng;
+           c) Chứng thư chữ ký số chuyên dùng công vụ của IS thời hạn có hiệu lực tối đa là 01 tháng,
+khóa bí mật tương ứng thời hạn có hiệu lực tối đa là 01 tháng.
+        Điều 27. Gửi, nhận yêu cầu chứng thực
+               Việc gửi, nhận yêu cầu chứng thực giữa Cơ quan quản lý căn cước Bộ Công an, Tổ chức cơ
+      yếu trực thuộc Bộ Công an với Tổ chức cung cấp dịch vụ chứng thực chữ ký số chuyên dùng công vụ
+        được thực hiện qua Hệ thống quản trị vòng đời chứng thư chữ ký số chuyên dùng công vụ phục vụ
+công tác cấp, quản lý thẻ căn cước có gắn chíp điện tử.
+                 Điều 28. Trình tự, thủ tục cấp, thu hồi chứng thư chữ ký số chuyên dùng công vụ phục
+vụ phát hành, kiểm tra thẻ căn cước có gắn chíp điện tử
+               1. Cấp chứng thư chữ ký số chuyên dùng công vụ phục vụ ký số phát hành thẻ căn cước có
+
+gắn chíp điện tử
+               a) Cơ quan quản lý căn cước Bộ Công an thực hiện sinh khóa, tạo yêu cầu chứng thực DS,
+sử dụng chứng thư chữ ký số chuyên dùng công vụ của tổ chức ký số lên yêu cầu chứng thực DS và
+gửi Tổ chức cơ yếu trực thuộc Bộ Công an;
+             b) Ngay khi tiếp nhận yêu cầu chứng thực DS hợp lệ, Tổ chức cơ yếu trực thuộc Bộ Công an
+có trách nhiệm sử dụng chứng thư chữ ký số chuyên dùng công vụ của tổ chức ký số lên yêu cầu
+chứng thực và gửi Tổ chức cung cấp dịch vụ chứng thực chữ ký số chuyên dùng công vụ;
+             c) Ngay khi tiếp nhận yêu cầu chứng thực hợp lệ, Tổ chức cung cấp dịch vụ chứng thực chữ
+ký số chuyên dùng công vụ có trách nhiệm tạo chứng thư chữ ký số chuyên dùng công vụ DS và gửi
+kết quả về Cơ quan quản lý căn cước Bộ Công an; đồng thời, thông báo cho Tổ chức cơ yếu trực
+thuộc Bộ Công an biết.
+             2. Cấp chứng thư chữ ký số chuyên dùng công vụ phục vụ kiểm tra thẻ căn cước có gắn chíp
+điện tử
+                 a) Cơ quan quản lý căn cước Bộ Công an sinh khóa, tạo yêu cầu chứng thực IS, sử dụng
+chứng thư chữ ký số chuyên dùng công vụ của tổ chức ký số lên yêu cầu chứng thực và gửi Tổ chức
+cơ yếu trực thuộc Bộ Công an;
+             b) Ngay khi tiếp nhận yêu cầu chứng thực hợp lệ, Tổ chức cơ yếu trực thuộc Bộ Công an có
+trách nhiệm sử dụng chứng thư chữ ký số chuyên dùng công vụ của tổ chức ký số lên yêu cầu chứng
+thực và gửi Tổ chức cung cấp dịch vụ chứng thực chữ ký số chuyên dùng công vụ;
+               c) Ngay khi tiếp nhận đề nghị cấp chứng thư chữ ký số hợp lệ, Tổ chức cung cấp dịch vụ
+chứng thực chữ ký số chuyên dùng công vụ có trách nhiệm tạo chứng thư chữ ký số chuyên dùng
+công vụ cho IS và gửi kết quả về Cơ quan quản lý căn cước Bộ Công an; đồng thời, thông báo cho
+Tổ chức cơ yếu trực thuộc Bộ Công an biết.
+              3. Trình tự, thủ tục thu hồi chứng thư chữ ký số chuyên dùng công vụ phục vụ phát hành,
+kiểm tra thẻ căn cước thực hiện theo quy định tại Điều 19 Nghị định này.
+                                           Chương IV
+                             SỬ DỤNG CHỮ KÝ SỐ CHUYÊN DÙNG CÔNG VỤ,
+                       CHỨNG THƯ CHỮ KÝ SỐ CHUYÊN DÙNG CÔNG VỤ VÀ DỊCH VỤ
+                            CHỨNG THỰC CHỮ KÝ SỐ CHUYÊN DÙNG CÔNG VỤ
+        Điều 29. Quy trình tạo chữ ký số chuyên dùng công vụ
+           1. Kiểm tra hiệu lực của chứng thư chữ ký số chuyên dùng công vụ theo quy định tại Điều 31
+Nghị định này.
+        2. Kiểm tra hợp lệ của đường dẫn chứng thực theo quy định tại Điều 32 Nghị định này.
+                 3. Sử dụng khóa bí mật tương ứng với chứng thư chữ ký số chuyên dùng công vụ của chủ
+thể thực hiện ký số để tạo chữ ký số chuyên dùng công vụ.
+        4. Trong trường hợp pháp luật quy định thông điệp dữ liệu cần có dấu thời gian thì thông điệp
+dữ liệu được xem là đáp ứng nếu thông điệp dữ liệu đó được gắn dấu thời gian tương ứng với chữ
+ký số chuyên dùng công vụ đã tạo ra; địa chỉ máy chủ dấu thời gian được công bố bởi Tổ chức cung
+cấp dịch vụ chứng thực chữ ký số chuyên dùng công vụ.
+           5. Hiển thị thông tin về chữ ký số chuyên dùng công vụ theo quy định của pháp luật có liên
+quan.
+        Điều 30. Quy trình kiểm tra chữ ký số chuyên dùng công vụ
+        Chữ ký số chuyên dùng công vụ là hợp lệ khi đáp ứng các điều kiện sau:
+             1. Đảm bảo tính toàn vẹn của dữ liệu ký số bằng cách kiểm tra chữ ký số chuyên dùng công
+vụ tương ứng với khóa công khai của chứng thư chữ ký số chuyên dùng công vụ.
+            2. Thông tin của chủ thể thực hiện ký số phù hợp với chứng thư chữ ký số chuyên dùng công
+vụ.
+             3. Thời gian ký số phải phù hợp nội dung của dữ liệu ký số và quy trình kiểm tra đáp ứng
+Nghị định này.
+
+        4. Đảm bảo hiệu lực của chứng thư chữ ký số chuyên dùng công vụ của chủ thể thực hiện ký
+số theo quy định tại Điều 31 Nghị định này.
+        5. Đảm bảo hợp lệ của đường dẫn chứng thực theo quy định tại Điều 32 Nghị định này.
+        Điều 31. Kiểm tra hiệu lực của chứng thư chữ ký số chuyên dùng công vụ
+        1. Chứng thư chữ ký số chuyên dùng công vụ có hiệu lực khi đáp ứng các điều kiện sau:
+        a) Có thời hạn hiệu lực tại thời điểm ký số;
+        b) Phù hợp phạm vi sử dụng của chứng thư chữ ký số chuyên dùng công vụ, trách nhiệm
+pháp lý của chủ thể ký số và đáp ứng các điều kiện kiểm tra tại Nghị định này;
+        c) Trạng thái của chứng thư chữ ký số chuyên dùng công vụ được kiểm tra theo quy định tại
+khoản 2 Điều này còn hoạt động tại thời điểm ký số.
+        2. Kiểm tra trạng thái chứng thư chữ ký số chuyên dùng công vụ qua danh sách chứng thư
+chữ ký số chuyên dùng công vụ bị thu hồi (CRL) hoặc qua trạng thái chứng thư chữ ký số chuyên
+dùng công vụ trực tuyến (OCSP) được công bố bởi Tổ chức cung cấp dịch vụ chứng thực chữ ký số
+chuyên dùng công vụ tại thời điểm ký số.
+        Điều 32. Kiểm tra hợp lệ của đường dẫn chứng thực
+        1. Kiểm tra hiệu lực của chứng thư chữ ký số chuyên dùng công vụ trong đường dẫn chứng
+thực theo quy định tại Điều 31 Nghị định này, đảm bảo các chứng thư chữ ký số chuyên dùng công
+vụ sau có hiệu lực tại thời điểm ký số:
+        a) Chứng thư chữ ký số chuyên dùng công vụ của chủ thể thực hiện ký số;
+        b) Chứng thư chữ ký số chuyên dùng công vụ trung gian (nếu có);
+        c) Chứng thư chữ ký số chuyên dùng công vụ gốc.
+        2. Chứng thư chữ ký số chuyên dùng công vụ gốc trong đường dẫn chứng thực phải phù
+hợp với chứng thư chữ ký số chuyên dùng công vụ gốc được công bố bởi Tổ chức cung cấp dịch dụ
+chứng thực chữ ký số chuyên dùng công vụ.
+        Điều 33. Yêu cầu kỹ thuật và chức năng đối với phần mềm ký số chuyên dùng công vụ,
+kiểm tra chữ ký số chuyên dùng công vụ
+        Phần mềm ký số chuyên dùng công vụ, kiểm tra chữ ký số chuyên dùng công vụ là chương
+trình phần mềm độc lập hoặc thành phần (Module) phần mềm có chức năng ký số, kiểm tra tính hợp
+lệ của chữ ký số chuyên dùng công vụ đáp ứng các điều kiện sau:
+        1. Đáp ứng các tiêu chuẩn, quy chuẩn kỹ thuật quốc gia về chữ ký số theo quy định của pháp
+luật.
+        2. Phần mềm ký số có các chức năng tạo chữ ký số chuyên dùng công vụ đáp ứng quy trình
+quy định tại Điều 29 Nghị định này.
+        3. Phần mềm kiểm tra chữ ký số chuyên dùng công vụ có các chức năng kiểm tra chữ ký số
+chuyên dùng công vụ đáp ứng quy trình được quy định tại Điều 30 Nghị định này.
+        4. Có chức năng thông báo (bằng chữ hoặc bằng ký hiệu) cho chủ thể ký số, kiểm tra chữ ký
+số chuyên dùng công vụ biết việc ký số thành công hay không thành công.
+                                           Chương V
+                       TRÁCH NHIỆM CỦA CÁC CƠ QUAN, TỔ CHỨC VÀ CÁ NHÂN
+        Điều 34. Trách nhiệm triển khai, quản lý, sử dụng dịch vụ chứng thực chữ ký số
+chuyên dùng công vụ
+        1. Người đứng đầu các cơ quan, tổ chức: Văn phòng Trung ương Đảng và các ban, cơ quan
+tham mưu, giúp việc trực thuộc Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam; Hội đồng Dân
+tộc và các Ủy ban của Quốc hội; Văn phòng Quốc hội; Văn phòng Chủ tịch nước; các bộ, cơ quan
+ngang bộ, cơ quan thuộc Chính phủ; Viện kiểm sát nhân dân tối cao; Tòa án nhân dân tối cao; Kiểm
+toán nhà nước; cơ quan Trung ương của các đoàn thể; tỉnh ủy, thành ủy trực thuộc Trung ương; Hội
+đồng nhân dân, Ủy ban nhân dân tỉnh, thành phố trực thuộc Trung ương và các tổ chức khác theo
+quy định của cấp có thẩm quyền có trách nhiệm:
+
+                a) Xây dựng, ban hành quy định, quy chế về quản lý, sử dụng chữ ký số chuyên dùng công
+vụ, chứng thư chữ ký số chuyên dùng công vụ, thiết bị lưu khóa bí mật và dịch vụ chứng thực chữ ký
+số chuyên dùng công vụ trong phạm vi quản lý;
+                b) Định kỳ hằng năm, báo cáo tình hình công tác quản lý, triển khai, sử dụng chữ ký số
+chuyên dùng công vụ, chứng thư chữ ký số chuyên dùng công vụ, thiết bị lưu khóa bí mật và dịch vụ
+chứng thực chữ ký số chuyên dùng công vụ; đồng thời xây dựng kế hoạch, nhu cầu sử dụng của
+năm tiếp theo cho thuê bao thuộc quyền quản lý theo hướng dẫn của Ban Cơ yếu Chính phủ;
+         c) Quản lý, hướng dẫn, kiểm tra các thuê bao trong quá trình triển khai, quản lý, sử dụng chữ
+ký số chuyên dùng công vụ, chứng thư chữ ký số chuyên dùng công vụ, thiết bị lưu khóa bí mật và
+dịch vụ chứng thực chữ ký số chuyên dùng công vụ thuộc phạm vi quản lý;
+            d) Chủ trì tổ chức tập huấn, huấn luyện triển khai, sử dụng chữ ký số chuyên dùng công vụ,
+chứng thư chữ ký số chuyên dùng công vụ, thiết bị lưu khóa bí mật và dịch vụ chứng thực chữ ký số
+chuyên dùng công vụ cho các thuê bao thuộc phạm vi quản lý;
+               đ) Chủ trì, phối hợp với Tổ chức cung cấp dịch vụ chứng thực chữ ký số chuyên dùng công
+vụ thực hiện công tác hỗ trợ về đăng ký, quản lý, sử dụng chữ ký số chuyên dùng công vụ, chứng
+thư chữ ký số chuyên dùng công vụ, thiết bị lưu khóa bí mật và dịch vụ chứng thực chữ ký số chuyên
+dùng công vụ cho các thuê bao thuộc phạm vi quản lý; tổ chức thực hiện gia hạn, thay đổi nội dung
+thông tin chứng thư chữ ký số chuyên dùng công vụ, khôi phục thiết bị lưu khóa bí mật cho các thuê
+bao thuộc phạm vi quản lý khi có nhu cầu.
+               2. Những người quy định tại khoản 1 Điều này có thể ủy quyền cho cơ quan chức năng trực
+thuộc tổ chức triển khai thực hiện các nội dung tại các điểm a, b, c, d, đ khoản 1 Điều này.
+        Điều 35. Trách nhiệm của Bộ trưởng Bộ Quốc phòng
+                 Bộ trưởng Bộ Quốc phòng có trách nhiệm chỉ đạo Ban Cơ yếu Chính phủ thực hiện quản lý
+nhà nước về chữ ký số chuyên dùng công vụ, cụ thể:
+            1. Xây dựng, đề xuất chủ trương, tổ chức thực hiện chiến lược, kế hoạch và chính sách phát
+triển dịch vụ chứng thực chữ ký số chuyên dùng công vụ.
+                 2. Chủ trì xây dựng và trình cấp có thẩm quyền ban hành văn bản quy phạm pháp luật về
+chữ ký số chuyên dùng công vụ; tiêu chuẩn, quy chuẩn kỹ thuật, yêu cầu kỹ thuật, định mức kinh tế
+kỹ thuật, chất lượng sản phẩm, dịch vụ trong hoạt động cung cấp, quản lý, sử dụng chữ ký số chuyên
+dùng công vụ, chứng thư chữ ký số chuyên dùng công vụ và dịch vụ chứng thực chữ ký số chuyên
+dùng công vụ theo quy định của pháp luật.
+              3. Quản lý công tác báo cáo, thống kê tình hình cung cấp, quản lý, sử dụng dịch vụ chứng
+thực chữ ký số chuyên dùng công vụ; quản lý việc giám sát an ninh, an toàn các hệ thống thông tin
+phục vụ cung cấp dịch vụ chứng thực chữ ký số chuyên dùng công vụ; sơ kết, tổng kết đánh giá kết
+quả thực hiện.
+        4. Quản lý dịch vụ cấp dấu thời gian của chữ ký số chuyên dùng công vụ.
+               5. Quản lý, tổ chức việc xây dựng, khai thác và phát triển hạ tầng chứng thực chữ ký số
+chuyên dùng công vụ; việc phát hành, thu hồi chứng thư chữ ký số chuyên dùng công vụ.
+        6. Tuyên truyền, phổ biến chính sách, pháp luật về chữ ký số chuyên dùng công vụ.
+          7. Quản lý công tác đào tạo, bồi dưỡng, phát triển nguồn nhân lực, chuyên gia trong lĩnh vực
+chữ ký số chuyên dùng công vụ.
+        8. Thanh tra, kiểm tra, giải quyết khiếu nại, tố cáo và xử lý vi phạm về chữ ký số chuyên dùng
+công vụ theo quy định của pháp luật.
+        9. Hợp tác quốc tế về chữ ký số chuyên dùng công vụ.
+                         Điều 36. Trách nhiệm của Tổ chức cung cấp dịch vụ chứng thực chữ ký số chuyên
+dùng công vụ
+        1. Tham mưu Ban Cơ yếu Chính phủ giúp Bộ trưởng Bộ Quốc phòng thực hiện nhiệm vụ
+quản lý nhà nước về chữ ký số chuyên dùng công vụ theo quy định của pháp luật; thực hiện bảo đảm
+cung cấp chứng thư chữ ký số chuyên dùng công vụ, thiết bị lưu khóa bí mật, dịch vụ chứng thực
+chữ ký số chuyên dùng công vụ bảo đảm an toàn, hiệu quả trên cơ sở kế hoạch, nhu cầu của các cơ
+quan, tổ chức liên quan.
+
+             2. Tham mưu, giúp Ban Cơ yếu Chính phủ hướng dẫn quy trình nghiệp vụ về việc cung cấp,
+quản lý, sử dụng dịch vụ chứng thực chữ ký số chuyên dùng công vụ. Phối hợp với các cơ quan, tổ
+chức có liên quan xây dựng quy định, quy chế về quản lý, sử dụng chữ ký số chuyên dùng công vụ,
+chứng thư chữ ký số chuyên dùng công vụ, thiết bị lưu khóa bí mật và dịch vụ chứng thực chữ ký số
+chuyên dùng công vụ.
+         3. Đảm bảo an toàn tuyệt đối khóa bí mật và xử lý các tình huống trong quá trình cung cấp,
+quản lý, sử dụng chữ ký số chuyên dùng công vụ, chứng thư chữ ký số chuyên dùng công vụ và dịch
+vụ chứng thực chữ ký số chuyên dùng công vụ.
+           4. Quản lý, vận hành hạ tầng kỹ thuật của hệ thống cung cấp dịch vụ chứng thực chữ ký số
+chuyên dùng công vụ, các hệ thống thông tin đảm bảo việc cung cấp dịch vụ chứng thực chữ ký số
+chuyên dùng công vụ được an toàn, liên tục.
+         5. Cập nhật, lưu trữ đầy đủ, chính xác thông tin yêu cầu chứng thực theo quy định của pháp
+luật.
+         6. Đảm bảo kênh thông tin tiếp nhận các yêu cầu chứng thực; cập nhật, duy trì 24 giờ trong
+ngày và 7 ngày trong tuần các cơ sở dữ liệu trực tuyến về chính sách chứng thư chữ ký số chuyên
+dùng công vụ, các quy định về việc cung cấp, quản lý, sử dụng dịch vụ chứng thực chữ ký số chuyên
+dùng công vụ, chứng thư chữ ký số chuyên dùng công vụ của Tổ chức cung cấp dịch vụ chứng thực
+chữ ký số chuyên dùng công vụ, danh sách chứng thư chữ ký số chuyên dùng công vụ có hiệu lực,
+chứng thư chữ ký số chuyên dùng công vụ bị thu hồi và những thông tin cần thiết khác.
+       7. Hướng dẫn, kiểm tra các tổ chức, cá nhân có liên quan việc đăng ký, cung cấp, quản lý, sử
+dụng chữ ký số chuyên dùng công vụ, chứng thư chữ ký số chuyên dùng công vụ và dịch vụ chứng
+thực chữ ký số chuyên dùng công vụ.
+           8. Chủ trì tổ chức tập huấn, huấn luyện triển khai và sử dụng chữ ký số chuyên dùng công
+vụ, chứng thư chữ ký số chuyên dùng công vụ, thiết bị lưu khóa bí mật, dịch vụ chứng thực chữ ký số
+chuyên dùng công vụ cho các cơ quan, tổ chức được ủy quyền tại khoản 2 Điều 34 Nghị định này và
+các đối tượng khác có liên quan.
+         9. Hướng dẫn, chuyển giao công cụ hỗ trợ về gia hạn, thay đổi nội dung thông tin chứng thư
+chữ ký số chuyên dùng công vụ, khôi phục thiết bị lưu khóa bí mật cho các cơ quan, tổ chức được ủy
+quyền tại khoản 2 Điều 34 Nghị định này.
+          10. Phối hợp, hỗ trợ các cơ quan, tổ chức liên quan tích hợp dịch vụ chứng thực chữ ký số
+chuyên dùng công vụ vào các ứng dụng công nghệ thông tin nhằm đảm bảo xác thực, an toàn thông
+tin.
+         11. Phối hợp với Tổ chức cung cấp dịch vụ chứng thực điện tử quốc gia xây dựng, triển khai
+mô hình, giải pháp liên thông giữa Tổ chức cung cấp dịch vụ chứng thực chữ ký số chuyên dùng
+công vụ với Tổ chức cung cấp dịch vụ chứng thực điện tử quốc gia để bảo đảm cho việc kiểm tra
+hiệu lực chữ ký số chuyên dùng công vụ theo quy định của pháp luật.
+            12. Nghiên cứu, ứng dụng, triển khai các công nghệ xác thực, chữ ký điện tử phù hợp với
+các ứng dụng công nghệ thông tin phục vụ các cơ quan, tổ chức được quy định tại Điều 2 Nghị định
+này.
+        Điều 37. Trách nhiệm của cơ quan, tổ chức quản lý trực tiếp
+        1. Căn cứ yêu cầu đảm bảo an toàn, xác thực thông tin trong giao dịch điện tử phục vụ nhiệm
+vụ của cơ quan, tổ chức mình xem xét, xác nhận văn bản và chịu trách nhiệm về tính chính xác của
+các thông tin đề nghị cấp, gia hạn, thay đổi nội dung thông tin, thu hồi chứng thư chữ ký số chuyên
+dùng công vụ, khôi phục thiết bị lưu khóa bí mật cho cơ quan, tổ chức, cá nhân thuộc quyền quản lý.
+           2. Tiếp nhận, bàn giao chứng thư chữ ký số chuyên dùng công vụ, thiết bị lưu khóa bí mật
+cho thuê bao và chịu trách nhiệm quản lý, sử dụng hiệu quả thiết bị lưu khóa bí mật, dịch vụ chứng
+thực chữ ký số chuyên dùng công vụ trong phạm vi quản lý.
+         3. Thu hồi thiết bị lưu khóa bí mật của các cơ quan, tổ chức, cá nhân thuộc quyền bàn giao
+cho Tổ chức cung cấp dịch vụ chứng thực chữ ký số chuyên dùng công vụ.
+     4. Cập nhật, quản lý, lưu trữ hồ sơ đề nghị cấp, gia hạn, thay đổi nội dung thông tin, thu hồi
+chứng thư chữ ký số chuyên dùng công vụ, khôi phục thiết bị lưu khóa bí mật của thuê bao thuộc
+phạm vi quản lý.
+
+              5. Hướng dẫn, kiểm tra, đánh giá việc triển khai, sử dụng chữ ký số chuyên dùng công vụ,
+chứng thư chữ ký số chuyên dùng công vụ, thiết bị lưu khóa bí mật và dịch vụ chứng thực chữ ký số
+chuyên dùng công vụ thuộc phạm vi quản lý.
+           6. Định kỳ, đột xuất báo cáo về tình hình cung cấp, quản lý, sử dụng dịch vụ chứng thực chữ
+ký số chuyên dùng công vụ theo yêu cầu của cơ quan có thẩm quyền.
+                       Điều 38. Trách nhiệm của Tổ chức cơ yếu trực thuộc Bộ Quốc phòng, Bộ Công an và
+Bộ Ngoại giao
+                  1. Hằng năm, tham mưu giúp người đứng đầu Bộ chủ quản xây dựng kế hoạch, nhu cầu ứng
+dụng dịch vụ chứng thực chữ ký số chuyên dùng công vụ cho thuê bao thuộc quyền quản lý để bảo
+đảm an toàn và xác thực thông tin trong giao dịch điện tử.
+               2. Xây dựng, trình cấp có thẩm quyền ban hành quy định, quy chế về quản lý, sử dụng chữ
+ký số chuyên dùng công vụ, chứng thư chữ ký số chuyên dùng công vụ và dịch vụ chứng thực chữ
+ký số chuyên dùng công vụ thuộc phạm vi quản lý.
+            3. Chịu trách nhiệm về tính chính xác của các thông tin đề nghị cấp, gia hạn, thay đổi nội
+dung thông tin, thu hồi chứng thư chữ ký số chuyên dùng công vụ, khôi phục thiết bị lưu khóa bí mật.
+             4. Tiếp nhận chứng thư chữ ký số chuyên dùng công vụ, thiết bị lưu khóa bí mật từ Tổ chức
+cung cấp dịch vụ chứng thực chữ ký số chuyên dùng công vụ bàn giao cho cơ quan, tổ chức quản lý
+trực tiếp.
+          5. Tiếp nhận thiết bị lưu khóa bí mật thu hồi từ cơ quan, tổ chức quản lý trực tiếp bàn giao
+cho Tổ chức cung cấp dịch vụ chứng thực chữ ký số chuyên dùng công vụ.
+        6. Cập nhật, quản lý, lưu trữ hồ sơ đề nghị cấp, gia hạn, thay đổi nội dung thông tin, thu hồi
+chứng thư chữ ký số chuyên dùng công vụ, khôi phục thiết bị lưu khóa bí mật của thuê bao thuộc
+phạm vi quản lý.
+               7. Chủ trì, phối hợp với Tổ chức cung cấp dịch vụ chứng thực chữ ký số chuyên dùng công
+vụ tổ chức tập huấn, huấn luyện triển khai, sử dụng chữ ký số chuyên dùng công vụ, chứng thư chữ
+ký số chuyên dùng công vụ, thiết bị lưu khóa bí mật và dịch vụ chứng thực chữ ký số chuyên dùng
+công vụ cho các thuê bao trong phạm vi quản lý.
+            8. Hướng dẫn, kiểm tra các thuê bao trong quá trình triển khai, quản lý, sử dụng chữ ký số
+chuyên dùng công vụ, chứng thư chữ ký số chuyên dùng công vụ, thiết bị lưu khóa bí mật và dịch vụ
+chứng thực chữ ký số chuyên dùng công vụ.
+             9. Thiết lập, quản lý, vận hành hệ thống kỹ thuật và đảm bảo kết nối với Tổ chức cung cấp
+dịch vụ chứng thực chữ ký số chuyên dùng công vụ phục vụ triển khai cung cấp các dịch vụ kiểm tra
+trạng thái chứng thư chữ ký số chuyên dùng công vụ (OCSP, CRL), cấp dấu thời gian (TSA) và các
+dịch vụ được ủy quyền khác trong các mạng truyền số liệu dùng riêng của Bộ chủ quản.
+              10. Phối hợp với Tổ chức cung cấp dịch vụ chứng thực chữ ký số chuyên dùng công vụ triển
+khai tích hợp dịch vụ chứng thực chữ ký số chuyên dùng công vụ vào các ứng dụng công nghệ thông
+tin nhằm đảm bảo xác thực, an toàn thông tin.
+        11. Thống kê, quản lý việc cấp, gia hạn, thay đổi nội dung thông tin, thu hồi chứng thư chữ ký
+số chuyên dùng công vụ, khôi phục thiết bị lưu khóa bí mật của các cơ quan, tổ chức, cá nhân trong
+phạm vi quản lý của Bộ chủ quản và định kỳ 01 năm một lần trước ngày 31 tháng 10 hoặc đột xuất
+báo cáo về Ban Cơ yếu Chính phủ (qua Tổ chức cung cấp dịch vụ chứng thực chữ ký số chuyên
+dùng công vụ).
+        Điều 39. Trách nhiệm của Thuê bao
+        1. Cung cấp các thông tin liên quan đến việc cấp, gia hạn, thay đổi nội dung thông tin, thu hồi
+chứng thư chữ ký số chuyên dùng công vụ và khôi phục thiết bị lưu khóa bí mật chính xác và đầy đủ.
+            2. Tiếp nhận chứng thư chữ ký số chuyên dùng công vụ, thiết bị lưu khóa bí mật từ cơ quan,
+tổ chức quản lý trực tiếp theo quy định.
+              3. Thông báo kịp thời cho cơ quan, tổ chức quản lý trực tiếp thu hồi chứng thư chữ ký số
+chuyên dùng công vụ theo quy định tại Điều 17 Nghị định này.
+        4. Bàn giao thiết bị lưu khóa bí mật thu hồi cho cơ quan, tổ chức quản lý trực tiếp theo quy
+định tại khoản 2 Điều 20 Nghị định này.
+
+        5. Đề nghị khôi phục thiết bị lưu khóa bí mật trong trường hợp thiết bị lưu khóa bí mật bị khóa
+theo quy định tại Điều 22 Nghị định này.
+        6. Quản lý thiết bị lưu khóa bí mật theo quy định của pháp luật.
+        7. Sử dụng chứng thư chữ ký số chuyên dùng công vụ đúng mục đích và tuân thủ các quy
+trình, quy định về quản lý, sử dụng chữ ký số chuyên dùng công vụ, chứng thư chữ ký số chuyên
+dùng công vụ, thiết bị lưu khóa bí mật và dịch vụ chứng thực chữ ký số chuyên dùng công vụ.
+                                          Chương VI
+                                     ĐIỀU KHOẢN THI HÀNH
+        Điều 40. Sửa đổi, thay thế một số điều của các Nghị định có liên quan
+                    1. Thay thế cụm từ “dịch vụ chứng thực chữ ký số chuyên dùng Chính phủ” bằng cụm từ
+“dịch vụ chứng thực chữ ký số chuyên dùng công vụ” tại khoản 1, khoản 2 Điều 30 Nghị định số
+45/2020/NĐ-CP ngày 08 tháng 4 năm 2020 của Chính phủ quy định về thực hiện thủ tục hành chính
+trên môi trường điện tử.
+        2.          Thay thế cụm từ “chứng thư số được cung cấp bởi tổ chức cung cấp dịch vụ chứng thực
+chữ ký số chuyên dùng phục vụ các cơ quan thuộc hệ thống chính trị” bằng cụm từ “chứng thư chữ
+ký số được cung cấp bởi Tổ chức cung cấp dịch vụ chứng thực chữ ký số chuyên dùng công vụ” tại
+khoản 1 Điều 14 Nghị định số 156/2016/NĐ-CP ngày 21 tháng 11 năm 2016 của Chính phủ sửa đổi,
+bổ sung một số điều của Nghị định số 27/2007/NĐ-CP ngày 23 tháng 02 năm 2007 của Chính phủ về
+giao dịch điện tử trong hoạt động tài chính.
+        Điều 41. Hiệu lực thi hành
+        Nghị định này có hiệu lực thi hành từ ngày 15 tháng 8 năm 2024.
+        Điều 42. Quy định chuyển tiếp
+        1. Chứng thư số được cấp đến ngày Nghị định này có hiệu lực thi hành vẫn còn hiệu lực thì
+được tiếp tục thực hiện theo quy định có liên quan và có giá trị tương đương chứng thư chữ ký số
+theo quy định tại Nghị định này.
+        2. Hồ sơ và trách nhiệm quản lý, lưu trữ hồ sơ đề nghị cấp mới, gia hạn, thay đổi nội dung
+thông tin, thu hồi chứng thư số và khôi phục thiết bị lưu khóa bí mật đã thực hiện đến ngày Nghị định
+này có hiệu lực thi hành tiếp tục thực hiện theo quy định có liên quan và có giá trị tương đương các
+nội dung quy định tại Nghị định này.
+        3. Các cơ quan, tổ chức đã được ủy quyền khôi phục thiết bị lưu khóa bí mật đến ngày Nghị
+định này có hiệu lực thi hành tiếp tục thực hiện cho đến khi có sự thay đổi bằng văn bản của cấp có
+thẩm quyền.
+        Điều 43. Trách nhiệm thi hành
+        Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy
+ban nhân dân các tỉnh, thành phố trực thuộc Trung ương và các tổ chức, cá nhân có liên quan chịu
+trách nhiệm thi hành Nghị định này./.
+ Nơi nhận:                                                      TM. CHÍNH PHỦ
+ - Ban Bí thư Trung ương Đảng;                                  KT. THỦ TƯỚNG
+ - Thủ tướng, các Phó Thủ tướng Chính phủ;                      PHÓ THỦ TƯỚNG
+ - Các bộ, cơ quan ngang bộ, cơ quan thuộc
+ Chính phủ;
+ - Tỉnh ủy/thành ủy, HĐND, UBND các tỉnh,
+ thành phố trực thuộc Trung ương;
+ - Văn phòng Trung ương và các Ban của Đảng;
+ - Văn phòng Tổng Bí thư;                                      Trần Lưu Quang
+ - Văn phòng Chủ tịch nước;
+ - Hội đồng Dân tộc và các Ủy ban của Quốc hội;
+ - Văn phòng Quốc hội;
+ - Tòa án nhân dân tối cao;
+ - Viện kiểm sát nhân dân tối cao;
+ - Kiểm toán nhà nước;
+
+- Ủy ban Giám sát tài chính quốc gia;
+- Ngân hàng Chính sách xã hội;
+- Ngân hàng Phát triển Việt Nam;
+- Ủy ban Trung ương Mặt trận Tổ quốc Việt
+Nam;
+- Cơ quan Trung ương của các đoàn thể;
+- Ban Cơ yếu Chính phủ;
+- VPCP: BTCN, các PCN, Trợ lý TTg, TGĐ
+Cổng TTĐT, các Vụ, Cục, đơn vị trực thuộc,
+Công báo;
+- Lưu: VT, KSTT (2)
+
+                                        Phụ lục
+                          (Kèm theo Nghị định số 68/2024/NĐ-CP
+                        ngày 25 tháng 6 năm 2024 của Chính phủ)
+                                        ________
+STT         Mẫu biểu                               Nội dung
+01         Mẫu số 01    Văn bản đề nghị cấp chứng thư chữ ký số chuyên dùng công vụ cho cá
+                        nhân
+02         Mẫu số 02    Văn bản đề nghị cấp chứng thư chữ ký số chuyên dùng công vụ cho cơ
+                        quan, tổ chức
+03         Mẫu số 03    Văn bản đề nghị cấp chứng thư chữ ký số chuyên dùng công vụ cho thiết
+                        bị, dịch vụ, phần mềm
+04         Mẫu số 04    Văn bản đề nghị gia hạn, thay đổi nội dung thông tin chứng thư chữ ký số
+                        chuyên dùng công vụ
+05         Mẫu số 05    Văn bản đề nghị thu hồi chứng thư chữ ký số chuyên dùng công vụ
+06         Mẫu số 06    Văn bản đề nghị khôi phục thiết bị lưu khóa bí mật
+07         Mẫu số 07    Văn bản bàn giao thiết bị lưu khóa bí mật cho thuê bao
+                        Biên bản giao, nhận thiết bị lưu khóa bí mật sau khi chứng thư chữ ký số
+08         Mẫu số 08    chuyên dùng công vụ hết hạn sử dụng hoặc chứng thư chữ ký số chuyên
+                        dùng công vụ bị thu hồi
+09         Mẫu số 09    Biên bản xác nhận thất lạc thiết bị lưu khóa bí mật
+
+                                                                                                                                      Mẫu số 01
+                        <CƠ QUAN CHỦ QUẢN>                                                 CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+                         <CƠ QUAN, TỔ CHỨC QUẢN LÝ TRỰC TIẾP>                                 Độc lập – Tự do – Hạnh phúc
+                                      __________                                                    ________________________
+                             <Số, ký hiệu>                                                  <Địa danh>, ngày … tháng … năm …
+       V/v đề nghị cấp chứng thư chữ ký số chuyên dùng công vụ cho cá nhân (1)
+                                     Kính gửi: Cục Chứng thực số và Bảo mật thông tin, Ban Cơ yếu Chính phủ.
+       1. Thông tin người tiếp nhận chứng thư chữ ký số chuyên dùng công vụ (thiết bị lưu khóa bí mật):
+       - Họ và tên: ………………………..Số định danh cá nhân: ……………….Ngày cấp: ……………Nơi cấp: ……………………
+       - Chức vụ:………………………….Số điện thoại di động: ………………………Địa chỉ thư điện tử công vụ:…………………
+       - Địa chỉ tiếp nhận: <Chi tiết địa chỉ của cơ quan, tổ chức công tác>.
+       2. Số lượng và danh sách đăng ký: <Tổng số cá nhân đăng ký>, gồm:
+  TT  Họ và tên Ngày sinh Số định danh cá nhân/  Địa chỉ thư  Tên cơ quan, tổ Tỉnh/Thành  Chức vụ    Số điện    Số hiệu chứng     SIM PKI (4)
+                           Ngày cấp, nơi cấp    điện tử công  chức công tác    phố (3)             thoại di động thư chữ ký số cũ
+                                                   vụ (2)                                                           (nếu có)
+  01
+  02
+  …
+ Nơi nhận:                                                                       Người đứng đầu Cơ quan, tổ chức quản lý trực tiếp (5)
+ - Như trên;                                                                                (Ký, đóng dấu và ghi rõ họ tên)
+ - Lưu: VT, …
+       Ghi chú:
+       (1) Đối với trường hợp đề nghị sử dụng giải pháp ký số tập trung thì sửa thành "V/v đề nghị cấp chứng thư chữ ký số chuyên dùng công vụ cho cá
+nhân sử dụng giải pháp ký số tập trung”.
+       (2) Địa chỉ thư điện tử của cá nhân được cấp bởi cơ quan nhà nước (không sử dụng các địa chỉ thư điện tử gmail, yahoo, hotmail...).
+       (3) Tỉnh/Thành phố của cơ quan, tổ chức công tác.
+       (4) Nếu Thuê bao muốn đăng ký sử dụng SIM PKI thì điền thông tin nhà mạng viễn thông (Viettel, Vinaphone, Mobifone); Thuê bao muốn chuyển số
+đang sử dụng sang SIM PKI thì ghi thêm ký hiệu "cs” (Ví dụ: Viettel/cs). Nếu không đăng ký sử dụng thì bỏ trống.
+
+(5) Đối với Bộ Quốc phòng, Bộ Công an, Bộ Ngoại giao là người đứng đầu các Tổ chức cơ yếu trực thuộc.
+
+                                                                                                                                     Mẫu số 02
+                           <CƠ QUAN CHỦ QUẢN>                                                CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+                           <CƠ QUAN, TỔ CHỨC QUẢN LÝ TRỰC TIẾP>                                 Độc lập – Tự do – Hạnh phúc
+                                        __________                                                    ________________________
+                                <Số, ký hiệu>                                                 <Địa danh>, ngày … tháng … năm …
+       V/v đề nghị cấp chứng thư chữ ký số chuyên dùng công vụ cho cơ quan, tổ chức
+                                     Kính gửi: Cục Chứng thực số và Bảo mật thông tin, Ban Cơ yếu Chính phủ.
+       1. Thông tin người tiếp nhận thiết bị lưu khóa bí mật:
+       - Họ và tên: ………………………..Số định danh cá nhân: ……………….Ngày cấp: ……………Nơi cấp: ……………………
+       - Chức vụ:………………………….Số điện thoại di động: ………………………Địa chỉ thư điện tử công vụ:…………………
+       - Địa chỉ tiếp nhận: <Chi tiết địa chỉ của cơ quan, tổ chức công tác>.
+       2. Số lượng và danh sách đăng ký: <Tổng số cơ quan, tổ chức đăng ký>, gồm:
+    TT       Tên cơ quan, tổ chức          Địa chỉ           Mã số thuế      Mã quan hệ     Tỉnh/Thành phố (1)    Địa chỉ thư điện tử công vụ (2)
+                                                                              ngân sách
+    01
+    02
+    …
+ Nơi nhận:                                                                       Người đứng đầu Cơ quan, tổ chức quản lý trực tiếp (3)
+ - Như trên;                                                                                (Ký, đóng dấu và ghi rõ họ tên)
+ - Lưu: VT, …
+       Ghi chú:
+       (1) Tỉnh/Thành phố của cơ quan, tổ chức.
+       (2) Địa chỉ thư điện tử của cơ quan, tổ chức sử dụng chứng thư chữ ký số chuyên dùng công vụ được cấp bởi cơ quan nhà nước (không sử dụng các
+địa chỉ thư điện tử gmail, yahoo, hotmail...).
+       (3) Đối với Bộ Quốc phòng, Bộ Công an, Bộ Ngoại giao là người đứng đầu các Tổ chức cơ yếu trực thuộc.
+
+                                                                                                                                       Mẫu số 03
+                        <CƠ QUAN CHỦ QUẢN>                                                  CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+                  <CƠ QUAN, TỔ CHỨC QUẢN LÝ TRỰC TIẾP>                                         Độc lập – Tự do – Hạnh phúc
+                               __________                                                        ________________________
+                              <Số, ký hiệu>                                                  <Địa danh>, ngày … tháng … năm …
+         V/v đề nghị cấp chứng thư chữ ký số chuyên dùng công vụ
+                      cho thiết bị, dịch vụ, phần mềm
+                                      Kính gửi: Cục Chứng thực số và Bảo mật thông tin, Ban Cơ yếu Chính phủ.
+       1. Thông tin người tiếp nhận chứng thư chữ ký số (thiết bị lưu khóa bí mật):
+       - Họ và tên: ………………………..Số định danh cá nhân: ……………….Ngày cấp: ……………Nơi cấp: ……………………
+       - Chức vụ:………………………….Số điện thoại di động: ………………………Địa chỉ thư điện tử công vụ:…………………
+       - Địa chỉ tiếp nhận: <Chi tiết địa chỉ của cơ quan, tổ chức công tác>.
+       2. Số lượng và danh sách đăng ký: <Tổng số chứng thư chữ ký số đăng ký>, gồm:
+ TT    Loại chứng thư chữ ký số chuyên Tên chứng thư chữ ký số chuyên   Cơ quan, tổ chức     Tỉnh/Thành phố   Địa chỉ thư điện tử   IP/DNS (5)
+               dùng công vụ (1)               dùng công vụ (2)                (3)                                 công vụ (4)
+  01
+  02
+  …
+ Nơi nhận:                                                                        Người đứng đầu Cơ quan, tổ chức quản lý trực tiếp (6)
+ - Như trên;                                                                                 (Ký, đóng dấu và ghi rõ họ tên)
+ - Lưu: VT, …
+       Ghi chú:
+       (1) Các loại chứng thư chữ ký số chuyên dùng công vụ Web Server (SSL), VPN Server, Mail Server, Code Signing, phục vụ Bộ phận Một cửa ...
+thuộc quyền sở hữu của cơ quan, tổ chức.
+       (2) Tên đăng ký chứng thư chữ ký số chuyên dùng công vụ: Tên miền hoặc Tên thiết bị hoặc Tên Bộ phận Một cửa.
+       (3) Cơ quan, tổ chức quản lý thiết bị, dịch vụ, phần mềm.
+       (4) Đối với chứng thư chữ ký số chuyên dùng công vụ Code Signing.
+       (5) Đối với chứng thư chữ ký số chuyên dùng công vụ Web Server.
+
+(6) Đối với Bộ Quốc phòng, Bộ Công an, Bộ Ngoại giao là người đứng đầu các Tổ chức cơ yếu trực thuộc.
+
+                                                                                                                                      Mẫu số 04
+                        <CƠ QUAN CHỦ QUẢN>                                                 CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+                  <CƠ QUAN, TỔ CHỨC QUẢN LÝ TRỰC TIẾP>                                        Độc lập – Tự do – Hạnh phúc
+                               __________                                                       ________________________
+                              <Số, ký hiệu>                                                 <Địa danh>, ngày … tháng … năm …
+            V/v đề nghị gia hạn, thay đổi nội dung thông tin
+                chứng thư chữ ký số chuyên dùng công vụ
+                                     Kính gửi: Cục Chứng thực số và Bảo mật thông tin, Ban Cơ yếu Chính phủ.
+       1. Thông tin người tiếp nhận chứng thư chữ ký số chuyên dùng công vụ:
+       - Họ và tên: ………………………..Số định danh cá nhân: ………………….Ngày cấp: ……………Nơi cấp: ……………………
+       - Chức vụ:………………………….Số điện thoại di động: ………………………Địa chỉ thư điện tử công vụ:…………………
+       - Địa chỉ tiếp nhận: <Chi tiết địa chỉ của cơ quan, tổ chức công tác>.
+       2. Số lượng và danh sách đăng ký: <Tổng số chứng thư chữ ký số chuyên dùng công vụ đăng ký>, gồm:
+   TT  Tên chứng thư chữ ký số chuyên    Số hiệu chứng thư chữ ký số  Địa chỉ thư điện tử Thông tin cần thay Thông  tin    Dịch vụ yêu cầu (4)
+                dùng công vụ                 chuyên dùng công vụ          công vụ (1)          đổi (2)        mới (3)  Gia hạn (5)    TĐTT (6)
+   01                                                                                                                       □            □
+   02                                                                                                                       □            □
+  ...
+ Nơi nhận:                                                                       Người đứng đầu Cơ quan, tổ chức quản lý trực tiếp (7)
+ - Như trên;                                                                                (Ký, đóng dấu và ghi rõ họ tên)
+ - Lưu: VT, …
+       Ghi chú:
+       (1) Địa chỉ thư điện tử công vụ thuê bao đã đăng ký trong đề nghị cấp chứng thư chữ ký số chuyên dùng công vụ.
+       (2) và (3) sử dụng khi đăng ký thay đổi nội dung thông tin chứng thư chữ ký số chuyên dùng công vụ.
+       (4) Nếu đăng ký gia hạn chứng thư chữ ký số chuyên dùng công vụ đánh dấu    “x” vào ô vuông “□” trống tại cột (5); nếu đăng ký thay đổi nội dung
+thông tin chứng thư chữ ký số chuyên dùng công vụ đánh dấu “x” vào ô vuông “□” trống tại cột (6); nếu đăng ký cả gia hạn và thay đổi nội dung thông tin
+chứng thư chữ ký số chuyên dùng công vụ thì đánh dấu “x” vào ô vuông “□” trống tại cột (5) và (6).
+       (7) Đối với Bộ Quốc phòng, Bộ Công an, Bộ Ngoại giao là người đứng đầu các Tổ chức cơ yếu trực thuộc.
+
+                                                                                                                                      Mẫu số 05
+                       <CƠ QUAN CHỦ QUẢN>                                                  CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+                 <CƠ QUAN, TỔ CHỨC QUẢN LÝ TRỰC TIẾP>                                         Độc lập – Tự do – Hạnh phúc
+                              __________                                                        ________________________
+                             <Số, ký hiệu>                                                  <Địa danh>, ngày … tháng … năm …
+       V/v đề nghị thu hồi chứng thư chữ ký số chuyên dùng công vụ
+                                     Kính gửi: Cục Chứng thực số và Bảo mật thông tin, Ban Cơ yếu Chính phủ.
+       1. Thông tin đầu mối phối hợp thu hồi thiết bị lưu khóa bí mật:
+       - Họ và tên: ………………………..Số định danh cá nhân: ………………….Ngày cấp: ……………Nơi cấp: ……………………
+       - Chức vụ:………………………….Số điện thoại di động: ………………………Địa chỉ thư điện tử công vụ:…………………
+       - Địa chỉ thu hồi: <Chi tiết địa chỉ của cơ quan, tổ chức công tác>.
+       2. Số lượng và danh sách thu hồi: <Tổng số chứng thư chữ ký số chuyên dùng công vụ đề nghị thu hồi>, gồm:
+ T    Tên chứng thư chữ ký số    Số định danh cá nhân/    Mã số thuế Mã quan hệ  Địa chỉ thư điện Số hiệu chứng thư chữ ký Số hiệu thiết Lý do thu
+ T      chuyên dùng công vụ      Ngày cấp, nơi cấp (1)       (2)     ngân sách    tử công vụ (4)  số chuyên dùng công vụ bị lưu khóa bí     hồi
+                                                                        (3)                                                     mật
+ 01
+ 02
+ …
+Nơi nhận:                                                                        Người đứng đầu Cơ quan, tổ chức quản lý trực tiếp (5)
+- Như trên;                                                                                 (Ký, đóng dấu và ghi rõ họ tên)
+- Lưu: VT, …
+       Ghi chú:
+       (1) Trường hợp thu hồi chứng thư chữ ký số chuyên dùng công vụ cho cá nhân.
+       (2), (3) Trường hợp thu hồi chứng thư chữ ký số chuyên dùng công vụ cho cơ quan, tổ chức.
+       (4) Địa chỉ thư điện tử của thuê bao đã đăng ký trong đề nghị cấp chứng thư chữ ký số chuyên dùng công vụ.
+       (5) Đối với Bộ Quốc phòng, Bộ Công an, Bộ Ngoại giao là người đứng đầu các Tổ chức cơ yếu trực thuộc.
+
+                                                                                                                                  Mẫu số 06
+                      <CƠ QUAN CHỦ QUẢN>                                                CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+                <CƠ QUAN, TỔ CHỨC QUẢN LÝ TRỰC TIẾP>                                       Độc lập – Tự do – Hạnh phúc
+                             __________                                                      ________________________
+                            <Số, ký hiệu>                                                <Địa danh>, ngày … tháng … năm …
+           V/v đề nghị khôi phục thiết bị lưu khóa bí mật
+                                   Kính gửi: Cục Chứng thực số và Bảo mật thông tin, Ban Cơ yếu Chính phủ.
+      1. Thông tin về người phối hợp thực hiện khôi phục thiết bị lưu khóa bí mật:
+      - Họ và tên: ………………………………………………………………………………………………………………………..
+      Số định danh cá nhân: ………………….Ngày cấp: ……………Nơi cấp: ……………………Chức vụ: ……………………….
+      Cơ quan, tổ chức công tác: …………………………………………………………………………………………………………
+      Số điện thoại di động: ……………………………………………………………………………………………………………..
+      2. Thông tin về thiết bị lưu khóa bí mật cần khôi phục:
+ TT       Số hiệu thiết bị lưu khóa bí mật                                       Thông tin của thuê bao
+                                           Tên chứng thư chữ ký số chuyên       Cơ quan, tổ chức công tác        Địa chỉ thư điện tử công vụ
+                                                    dùng công vụ
+ 01
+ 02
+  …
+Nơi nhận:                                                                     Người đứng đầu Cơ quan, tổ chức quản lý trực tiếp (1)
+- Như trên;                                                                              (Ký, đóng dấu và ghi rõ họ tên)
+- Lưu: VT, …
+      Ghi chú:
+      (1) Đối với Bộ Quốc phòng, Bộ Công an, Bộ Ngoại giao là người đứng đầu các Tổ chức cơ yếu trực thuộc.
+
+                                                                                  Mẫu số 07
+              <CƠ QUAN CHỦ QUẢN>                    CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+           <CƠ QUAN, TỔ CHỨC                           Độc lập – Tự do – Hạnh phúc
+              QUẢN LÝ TRỰC TIẾP>                         ________________________
+                  __________
+                <Số, ký hiệu>                        <Địa danh>, ngày … tháng … năm …
+            V/v bàn giao Thiết bị
+               lưu khóa bí mật
+           Kính gửi: Cục Chứng thực số và Bảo mật thông tin, Ban Cơ yếu Chính phủ.
+       Danh sách thuê bao nhận Thiết bị lưu khóa bí mật:
+  TT    Tên chứng thư chữ ký số chuyên  Số hiệu chứng thư chữ ký  Số hiệu Thiết bị lưu khóa bí
+                 dùng công vụ            số chuyên dùng công vụ              mật
+  01
+  02
+  …
+ Nơi nhận:                                         Người đứng đầu Cơ quan, tổ chức
+ - Như trên;                                              quản lý trực tiếp (1)
+ - Lưu: VT, …                                        (Ký, đóng dấu và ghi rõ họ tên)
+       Ghi chú:
+       (1) Đối với Bộ Quốc phòng, Bộ Công an, Bộ Ngoại giao là người đứng đầu các tổ chức Cơ
+yếu trực thuộc.
+
+                                                                         Mẫu số 08
+                        CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+                           Độc lập - Tự do - Hạnh phúc
+                                  _________________________
+                                                    <Địa danh>, ngày ... tháng ... năm ...
+               BIÊN BẢN GIAO/NHẬN THIẾT BỊ LƯU KHÓA BÍ MẬT SAU KHI
+             CHỨNG THƯ CHỮ KÝ SỐ CHUYÊN DÙNG CÔNG VỤ HẾT HẠN SỬ DỤNG
+             HOẶC CHỨNG THƯ CHỮ KÝ SỐ CHUYÊN DÙNG CÔNG VỤ BỊ THU HỒI
+         1. Bên giao
+         - Ông/Bà: ………………………………………………………………………
+         - Chức vụ: …………………………………………………………………….
+         - Cơ quan, tổ chức công tác: …………………………………………………..
+         2. Bên nhận
+         - Ông/Bà: ………………………………………………………………………
+         - Chức vụ: ………………………………………………………………………
+         - Cơ quan, tổ chức công tác: ……………………………………………………
+         3. Địa điểm giao/nhận:
+         4. Danh sách Thiết bị lưu khóa bí mật thu hồi
+      TT    Tên chứng thư chữ ký   Cơ quan, tổ chức    Số hiệu thiết bị  Ghi chú
+           số chuyên dùng công
+                    vụ
+      01
+      02
+     ...
+           Cộng
+         Hai bên thống nhất các nội dung giao/nhận như trên.
+         Biên bản được lập thành 03 bản có giá trị như nhau, mỗi bên giữ 01 bản và 01 bản gửi về
+Cục Chứng thực số và Bảo mật thông tin.
+                BÊN GIAO                                 BÊN NHẬN
+
+                                                                           Mẫu số 09
+                         CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+                            Độc lập - Tự do - Hạnh phúc
+                             _________________________
+                BIÊN BẢN XÁC NHẬN THẤT LẠC THIẾT BỊ LƯU KHÓA BÍ MẬT
+      Kính gửi: Cục Chứng thực số và Bảo mật thông tin, Ban Cơ yếu Chính phủ.
+      Hôm nay, ngày …..tháng ……năm 20...
+      Tại: ……………………………………………………………………………
+      Chúng tôi gồm:
+      I. Đại diện cơ quan, tổ chức quản lý trực tiếp:
+      1. Họ và tên: ……………………………………………………………………………
+      2. Chức vụ: ……………………………………………………………………………..
+      3. Cơ quan, tổ chức công tác: ………………………………………………………….
+      4. Địa chỉ: ………………………………………………………………………………
+      II. Người quản lý thiết bị lưu khóa bí mật:
+      1. Họ và tên: ……………………………………………………………………………
+      2. Ngày sinh: ……………………………………………………………………………
+      3. Số định danh cá nhân: ……………….Ngày cấp: …………….Nơi cấp:…………
+      4. Cơ quan, tổ chức công tác: ……………………………………………………….
+      5. Điện thoại di động: ……………………………………………………………….
+      Chúng tôi xác nhận việc ông (bà) …………………………………………………
+      Đã làm thất lạc thiết bị lưu khóa bí mật có thông tin như sau:
+      - Tên chứng thư chữ ký số chuyên dùng công vụ: ……………………………………….
+      - Số hiệu chứng thư chữ ký số chuyên dùng công vụ: ……………………………………
+      - Số hiệu thiết bị lưu khóa bí mật: ……………………………………………………….
+      - Địa chỉ thư điện tử công vụ: ……………………………………………………………
+      - Lý do thất lạc: ………………………………………………………………………….
+      Chúng tôi cam đoan những thông tin trên là đúng sự thật và hoàn toàn chịu trách nhiệm
+trước pháp luật về việc thất lạc thiết bị lưu khóa bí mật nêu trên.
+    Người quản lý thiết bị lưu khóa bí mật     Người đứng đầu Cơ quan, tổ chức
+            (Ký và ghi rõ họ tên)                   quản lý trực tiếp (1)
+                                               (Ký, đóng dấu và ghi rõ họ tên)
+      Ghi chú:
+      (1) Đối với Bộ Quốc phòng, Bộ Công an, Bộ Ngoại giao là người đứng đầu các tổ chức Cơ
+yếu trực thuộc.

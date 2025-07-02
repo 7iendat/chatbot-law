@@ -1,0 +1,835 @@
+CHÍNH PHỦ                              CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+            -----------------                         Độc lập – Tự do – Hạnh phúc
+         Số: 78/2013/NĐ-CP                            ---------------------------
+                                                                Hà Nội, ngày 17 tháng 07 năm 2013
+                                            NGHỊ ĐỊNH
+                               VỀ MINH BẠCH TÀI SẢN, THU NHẬP
+        Căn cứ Luật tổ chức Chính phủ ngày 25 tháng 12 năm 2001;
+        Căn cứ Luật phòng, chống tham nhũng số 55/2005/QH11 đã được sửa đổi, bổ sung một số điều
+theo Luật số 01/2007/QH12 và Luật số 27/2012/QH13;
+        Theo đề nghị của Tổng thanh tra Chính phủ;
+        Chính phủ ban hành Nghị định về minh bạch tài sản, thu nhập,
+                                             Chương 1.
+                                        NHỮNG QUY ĐỊNH CHUNG
+        Điều 1. Phạm vi điều chỉnh
+        Nghị định này quy định chi tiết và hướng dẫn thi hành những quy định về minh bạch tài sản, thu
+nhập tại Mục 4 Chương II Luật phòng, chống tham nhũng, bao gồm việc kê khai tài sản, thu nhập, công
+khai Bản kê khai; giải trình nguồn gốc tài sản tăng thêm; xác minh tài sản, thu nhập; xử lý vi phạm các
+quy định về minh bạch tài sản, thu nhập; trách nhiệm của cơ quan, tổ chức, đơn vị, cá nhân trong tổ chức
+thực hiện.
+        Điều 2. Đối tượng áp dụng
+        Người có nghĩa vụ kê khai tài sản, thu nhập (sau đây gọi tắt là Người có nghĩa vụ kê khai) được
+quy định tại Điều 7 Nghị định này; cơ quan, tổ chức, đơn vị và cá nhân có liên quan đến việc kê khai,
+công khai, giải trình, xác minh tài sản, thu nhập, xử lý vi phạm các quy định về minh bạch tài sản, thu
+nhập.
+        Điều 3. Giải thích từ ngữ
+        Trong Nghị định này các từ ngữ dưới đây được hiểu như sau:
+        1. “Kê khai tài sản, thu nhập” là việc ghi rõ ràng, đầy đủ, chính xác các loại tài sản, thu nhập, biến
+động tài sản, thu nhập phải kê khai, nguồn gốc tài sản tăng thêm theo Mẫu “Bản kê khai tài sản, thu
+nhập” ban hành kèm theo Nghị định này.
+        2. “Công khai Bản kê khai tài sản, thu nhập” là việc công bố thông tin trong Bản kê khai tài sản,
+thu nhập (sau đây gọi tắt là Bản kê khai) bằng những hình thức được quy định tại Nghị định này.
+        3. “Giải trình nguồn gốc tài sản tăng thêm” là việc tự giải thích, chứng minh của Người có nghĩa
+vụ kê khai về việc hình thành tài sản, thu nhập tăng thêm so với lần kê khai trước đó.
+        4. “Xác minh tài sản, thu nhập” là việc xem xét, đánh giá, kết luận của cơ quan, tổ chức, đơn vị,
+cá nhân có thẩm quyền về tính trung thực, chính xác của việc kê khai tài sản, thu nhập theo trình tự, thủ
+tục quy định tại Luật phòng, chống tham nhũng và Nghị định này.
+        Điều 4. Mục đích, nguyên tắc kê khai tài sản, thu nhập
+        1. Mục đích của việc kê khai tài sản, thu nhập là để cơ quan, tổ chức, đơn vị có thẩm quyền biết
+được tài sản, thu nhập của người có nghĩa vụ kê khai nhằm minh bạch tài sản, thu nhập của người đó;
+phục vụ cho công tác quản lý cán bộ, công chức, viên chức góp phần phòng ngừa và ngăn chặn hành vi
+tham nhũng.
+        2. Người có nghĩa vụ kê khai có trách nhiệm tự kê khai các thông tin theo quy định tại mẫu Bản
+kê khai và chịu trách nhiệm về tính chính xác, trung thực, đầy đủ đối với nội dung kê khai.
+        3. Tài sản, thu nhập phải kê khai là tài sản, thu nhập thuộc sở hữu hoặc quyền sử dụng của bản
+thân, của vợ hoặc chồng và con chưa thành niên tại thời điểm hoàn thành Bản kê khai.
+ Luatvietnam                   Trung tâm LuatVietnam     Cón9 ty CP Truyen thóng Ouóc tê INCOM
+                               Đia chí: Tấng 3, Tòa nhà TechnoSoft , phô Duy Tân, Cấu Giẩy , Hà Nậi
+  Www.vanbanluat.vn            ĐT: (04) 37833688   Fax: (04) 37833699
+                               Hotline: 016 9696 8989  Email: lawdata@luatvietnam. vn
+
+                   4. Giá trị tài sản, thu nhập kê khai được tính bằng tiền phải trả khi mua, khi nhận chuyển
+nhượng, xây dựng hoặc giá trị ước tính khi được cho, tặng, thừa kế.
+        Điều 5. Trách nhiệm của Người có nghĩa vụ kê khai
+        1. Kê khai trung thực, đầy đủ, rõ ràng, đúng thời hạn các thông tin về số lượng, giá trị tài sản, thu
+nhập và những biến động về tài sản, thu nhập phải kê khai theo quy định của Luật phòng, chống tham
+nhũng và Nghị định này.
+           2. Giải trình trung thực, đầy đủ, kịp thời về các nội dung liên quan đến việc kê khai tài sản, thu
+nhập; nguồn gốc tài sản tăng thêm khi có yêu cầu của cơ quan, tổ chức, đơn vị, cá nhân có thẩm quyền.
+                3. Thực hiện đầy đủ, kịp thời các yêu cầu của cơ quan, tổ chức, đơn vị, cá nhân có thẩm quyền
+phục vụ cho việc xác minh tài sản, thu nhập.
+                4. Thực hiện quyết định xử lý vi phạm quy định về minh bạch tài sản, thu nhập của cơ quan, tổ
+chức, đơn vị, cá nhân có thẩm quyền.
+        Điều 6. Những hành vi bị nghiêm cấm
+             1. Kê khai tài sản, thu nhập, giải trình nguồn gốc tài sản tăng thêm không trung thực, không đầy
+đủ, không kịp thời; tẩu tán tài sản; che dấu thu nhập dưới mọi hình thức.
+           2. Khai thác, sử dụng trái pháp luật Bản kê khai; lợi dụng việc minh bạch tài sản, thu nhập để gây
+mất đoàn kết nội bộ; gây khó khăn, cản trở việc xác minh tài sản, thu nhập; xuyên tạc, xúc phạm danh
+dự, uy tín của người được xác minh hoặc để thực hiện hành vi vi phạm pháp luật.
+        3. Cố ý làm sai lệch nội dung, hủy hoại Bản kê khai.
+          4. Làm sai lệch hồ sơ, kết quả xác minh; tiết lộ thông tin của hồ sơ xác minh tài sản, thu nhập khi
+chưa được phép của người có thẩm quyền.
+                                             Chương 2.
+                                     KÊ KHAI TÀI SẢN, THU NHẬP
+        Điều 7. Người có nghĩa vụ kê khai
+                 1. Đại biểu Quốc hội chuyên trách, đại biểu Hội đồng nhân dân chuyên trách, người ứng cử đại
+biểu Quốc hội, đại biểu Hội đồng nhân dân, người được dự kiến bầu, phê chuẩn tại Quốc hội, Hội đồng
+nhân dân.
+                      2. Cán bộ, công chức từ Phó trưởng phòng của Ủy ban nhân dân cấp huyện trở lên và người
+được hưởng phụ cấp chức vụ tương đương trong cơ quan, tổ chức, đơn vị.
+                      3. Sĩ quan chỉ huy từ cấp Phó tiểu đoàn trưởng, người hưởng phụ cấp chức vụ tương đương
+phó tiểu đoàn trưởng trở lên trong Quân đội nhân dân; sĩ quan chỉ huy từ cấp Phó tiểu đoàn trưởng, Phó
+trưởng công an phường, thị trấn, Phó đội trưởng trở lên trong Công an nhân dân.
+                 4. Người giữ chức vụ tương đương Phó trưởng phòng trở lên tại bệnh viện, viện nghiên cứu, cơ
+quan báo, tạp chí, ban quản lý dự án đầu tư xây dựng có sử dụng ngân sách, tài sản của Nhà nước, ban
+quản lý dự án đầu tư xây dựng sử dụng vốn hỗ trợ phát triển chính thức (ODA).
+                  5. Hiệu trưởng, Phó hiệu trưởng trường mầm non, tiểu học, trường trung học cơ sở, trung học
+phổ thông, trung tâm giáo dục thường xuyên, người giữ chức vụ tương đương Phó trưởng phòng trở lên
+trong các trường đại học, cao đẳng, trung cấp chuyên nghiệp, dạy nghề của Nhà nước.
+              6. Thành viên hội đồng quản trị, thành viên hội đồng thành viên, thành viên ban kiểm soát, kiểm
+soát viên, người giữ chức danh quản lý tương đương từ Phó trưởng phòng trở lên trong doanh nghiệp
+nhà nước, người là đại diện phần vốn của Nhà nước, phần vốn của doanh nghiệp nhà nước và giữ chức
+danh quản lý từ Phó trưởng phòng trở lên trong doanh nghiệp có vốn đầu tư của Nhà nước, của doanh
+nghiệp nhà nước.
+             7. Bí thư, Phó bí thư Đảng ủy, Chủ tịch, Phó chủ tịch Hội đồng nhân dân, Chủ tịch, Phó chủ tịch,
+Ủy viên Ủy ban nhân dân xã, phường, thị trấn; Trưởng công an, chỉ huy trưởng quân sự, cán bộ địa
+chính, xây dựng, tài chính, tư pháp - hộ tịch xã, phường, thị trấn.
+           8. Điều tra viên, kiểm sát viên, thẩm tra viên, thẩm phán, thư ký tòa án, kiểm toán viên nhà nước,
+thanh tra viên, chấp hành viên, công chứng viên nhà nước.
+
+        9. Người không giữ chức vụ quản lý trong các cơ quan nhà nước, cơ quan của Đảng, tổ chức
+chính trị - xã hội, đơn vị sự nghiệp công lập, đơn vị thuộc Quân đội nhân dân, Công an nhân dân làm
+công tác quản lý ngân sách, tài sản của Nhà nước hoặc trực tiếp tiếp xúc và giải quyết công việc của cơ
+quan, tổ chức, đơn vị, cá nhân trong các lĩnh vực quy định tại Danh mục ban hành kèm theo Nghị định
+này.
+        Điều 8. Tài sản, thu nhập phải kê khai.
+        1. Các loại nhà, công trình xây dựng:
+        a) Nhà, công trình xây dựng khác đã được cấp Giấy chứng nhận quyền sở hữu;
+                     b) Nhà, công trình xây dựng khác chưa được cấp Giấy chứng nhận quyền sở hữu hoặc giấy
+chứng nhận quyền sở hữu đứng tên người khác;
+        c) Nhà, công trình xây dựng khác đang thuê hoặc đang sử dụng thuộc sở hữu của Nhà nước.
+        2. Các quyền sử dụng đất:
+        a) Quyền sử dụng đất đã được cấp Giấy chứng nhận quyền sử dụng;
+                     b) Quyền sử dụng đất chưa được cấp Giấy chứng nhận quyền sử dụng hoặc Giấy chứng nhận
+quyền sử dụng đứng tên người khác.
+        3. Tiền mặt, tiền cho vay, tiền gửi các cá nhân, tổ chức trong nước, nước ngoài mà giá trị mỗi
+loại từ 50 triệu đồng trở lên.
+        4. Tài sản ở nước ngoài.
+             5. Ô tô, mô tô, xe máy, tầu, thuyền và những động sản khác mà Nhà nước quản lý (theo quy định
+của pháp luật phải đăng ký sử dụng và được cấp giấy đăng ký) có giá trị từ 50 triệu đồng trở lên.
+        6. Kim loại quý, đá quý, cổ phiếu, các loại giấy tờ có giá trị chuyển nhượng khác có giá trị từ 50
+triệu đồng trở lên.
+        7. Các khoản nợ phải trả có giá trị từ 50 triệu đồng trở lên.
+        8. Tổng thu nhập trong năm.
+        Điều 9. Trình tự, thủ tục kê khai, tiếp nhận Bản kê khai
+            1. Hàng năm, chậm nhất là ngày 30 tháng 11, đơn vị, bộ phận phụ trách công tác tổ chức, cán bộ
+lập danh sách Người có nghĩa vụ kê khai trình người đứng đầu cơ quan, tổ chức, đơn vị phê duyệt; gửi
+mẫu Bản kê khai, hướng dẫn và yêu cầu Người có nghĩa vụ kê khai thực hiện việc kê khai tài sản, thu
+nhập.
+               2. Trong thời hạn 10 ngày làm việc, kể từ ngày nhận được mẫu Bản kê khai, việc kê khai phải
+được hoàn thành và nộp về cho đơn vị, bộ phận phụ trách công tác tổ chức, cán bộ.
+        3. Trong thời hạn 07 ngày làm việc, kể từ ngày nhận được Bản kê khai, đơn vị, bộ phận phụ
+trách công tác tổ chức cán bộ kiểm tra tính đầy đủ các nội dung phải kê khai; trường hợp Bản kê khai
+chưa đúng quy định (theo mẫu) thì yêu cầu kê khai lại, thời hạn kê khai lại là 03 ngày làm việc kể từ ngày
+nhận được yêu cầu. Đơn vị, bộ phận phụ trách công tác tổ chức cán bộ lưu bản chính hoặc bản sao theo
+thẩm quyền, gửi 01 bản sao đến cơ quan, tổ chức, đơn vị nơi sẽ công khai Bản kê khai để thực hiện việc
+công khai theo quy định.
+        4. Việc kê khai tài sản, thu nhập phải hoàn thành chậm nhất là ngày 31 tháng 12 hằng năm.
+        Điều 10. Quản lý, sử dụng Bản kê khai
+        1. Bản kê khai được lưu cùng hồ sơ cán bộ, công chức, viên chức; Người có nghĩa vụ kê khai có
+trách nhiệm lưu giữ bản sao Bản kê khai của mình; đối với Người có nghĩa vụ kê khai thuộc diện cấp ủy
+quản lý (theo quy định về phân cấp quản lý cán bộ) thì đơn vị phụ trách công tác tổ chức, cán bộ sao y
+02 bản, nộp bản gốc cho ban tổ chức cấp ủy cùng cấp, lưu 01 bản sao tại đơn vị mình, gửi 01 bản sao
+cho cơ quan kiểm tra cấp ủy cùng cấp có thẩm quyền quản lý cán bộ (để phục vụ công tác giám sát và
+xác minh theo quy định).
+                Khi Người có nghĩa vụ kê khai được điều động sang cơ quan, tổ chức, đơn vị khác thì Bản kê
+khai của người đó phải được chuyển giao cùng hồ sơ cán bộ cho cơ quan, tổ chức, đơn vị mới. Khi
+Người có nghĩa vụ kê khai nghỉ hưu, thôi việc thì Bản kê khai của người đó được lưu giữ theo quy định
+về quản lý hồ sơ cán bộ, công chức, viên chức.
+        2. Bản kê khai được sử dụng trong các trường hợp sau:
+
+        a) Phục vụ cho việc bầu, phê chuẩn, bổ nhiệm, cách chức, miễn nhiệm, bãi nhiệm, kỷ luật đối với
+Người có nghĩa vụ kê khai tài sản, thu nhập;
+        b) Phục vụ cho hoạt động của cơ quan, tổ chức, đơn vị có thẩm quyền trong việc công khai, kiểm
+tra, thanh tra, kiểm toán, điều tra, xác minh, kết luận, xử lý về hành vi tham nhũng;
+        c) Phục vụ yêu cầu khác liên quan đến công tác tổ chức, cán bộ.
+        Điều 11. Thủ tục khai thác, sử dụng Bản kê khai
+        1. Khi cần khai thác, sử dụng Bản kê khai đã lưu cùng hồ sơ cán bộ, công chức, viên chức,
+người thực hiện việc khai thác, sử dụng phải có giấy giới thiệu của cơ quan, tổ chức, đơn vị có nhu cầu
+khai thác, sử dụng, trong đó ghi rõ họ, tên, chức vụ của người đến khai thác, sử dụng và mục đích của
+việc khai thác, sử dụng.
+        2. Việc khai thác, sử dụng Bản kê khai được tiến hành tại cơ quan quản lý Bản kê khai; nếu cần
+thiết phải khai thác, sử dụng tại nơi khác thì phải được sự đồng ý của người có thẩm quyền quản lý
+Người có nghĩa vụ kê khai và phải có biên bản giao nhận Bản kê khai.
+        3. Việc khai thác, sử dụng Bản kê khai phải phù hợp với quy định tại Khoản 2 Điều 10 Nghị định
+này.
+        Điều 12. Trách nhiệm của người đứng đầu cơ quan, tổ chức, đơn vị trong việc kê khai,
+công khai, quản lý Bản kê khai
+        1. Tổ chức, chỉ đạo việc kê khai, công khai kịp thời, đúng đối tượng, đúng trình tự, thủ tục theo
+quy định của Luật phòng, chống tham nhũng và Nghị định này.
+        2. Chịu trách nhiệm đối với hành vi vi phạm quy định về kê khai, công khai Bản kê khai trong cơ
+quan, tổ chức, đơn vị do mình quản lý theo quy định của pháp luật.
+        3. Chỉ đạo việc quản lý, sử dụng, khai thác Bản kê khai theo quy định.
+                                             Chương 3.
+           CÔNG KHAI BẢN KÊ KHAI VÀ GIẢI TRÌNH VIỆC KÊ KHAI TÀI SẢN, THU NHẬP
+        Điều 13. Hình thức, thời điểm công khai Bản kê khai
+        1. Người đứng đầu cơ quan, tổ chức, đơn vị quyết định công khai Bản kê khai tài sản, thu nhập
+của cán bộ, công chức, viên chức bằng một trong hai hình thức sau: Niêm yết tại trụ sở cơ quan, tổ
+chức, đơn vị hoặc công bố tại cuộc họp với phạm vi như quy định tại Điều 14 Nghị định này vào thời
+điểm sau tổng kết hàng năm.
+        2. Vị trí niêm yết phải đảm bảo an toàn, đủ điều kiện để mọi người trong cơ quan, tổ chức, đơn vị
+có thể xem các Bản kê khai; thời gian niêm yết tối thiểu là 30 ngày liên tục.
+        3. Việc công khai Bản kê khai phải được thực hiện sau khi đơn vị, bộ phận phụ trách công tác tổ
+chức cán bộ hoàn thành việc kiểm tra Bản kê khai theo quy định tại Khoản 3 Điều 9 Nghị định này và
+phải hoàn thành trước ngày 31 tháng 3 năm sau.
+        Điều 14. Phạm vi công khai Bản kê khai tại cuộc họp
+        1. Ở Trung ương:
+        a) Cán bộ, công chức giữ chức vụ từ Bộ trưởng và tương đương trở lên thì công khai trước đối
+tượng ghi phiếu tín nhiệm để lấy phiếu tín nhiệm hàng năm.
+        b) Cán bộ, công chức giữ chức vụ Thứ trưởng, Tổng cục trưởng, Phó Tổng cục trưởng và tương
+đương trở lên công khai trước lãnh đạo từ cấp cục, vụ và tương đương trở lên của cơ quan mình.
+        c) Cán bộ, công chức giữ chức vụ Cục trưởng, Phó cục trưởng, Vụ trưởng, Phó vụ trưởng và
+tương đương công khai trước lãnh đạo cấp phòng và tương đương trở lên trong đơn vị mình; trường
+hợp không tổ chức cấp phòng thì công khai trước toàn thể công chức, viên chức trong đơn vị mình.
+        d) Người có nghĩa vụ kê khai không thuộc diện quy định tại điểm a, b, c trên đây thì công khai
+trước toàn thể công chức, viên chức thuộc phòng, ban, đơn vị mình. Nếu biên chế của phòng, ban, đơn
+vị có từ 50 người trở lên và có tổ, đội, nhóm thì công khai trước tổ, đội, nhóm trực thuộc phòng, ban, đơn
+vị đó.
+        2. Ở địa phương:
+
+               a) Bí thư, Phó bí thư, Chủ tịch, Phó Chủ tịch Hội đồng nhân dân, Chủ tịch, Phó Chủ tịch Ủy ban
+nhân dân cấp tỉnh, Ủy viên thường trực Hội đồng nhân dân, trưởng các ban của Hội đồng nhân dân, các
+thành viên khác của Ủy ban nhân dân cấp tỉnh công khai trước đối tượng ghi phiếu tín nhiệm để lấy
+phiếu tín nhiệm hàng năm, gồm lãnh đạo Ủy ban nhân dân, Hội đồng nhân dân cấp tỉnh, đại biểu Hội
+đồng nhân dân cấp tỉnh, Giám đốc sở, ngành, trưởng các cơ quan, đơn vị trực thuộc Hội đồng dân nhân,
+Ủy ban nhân dân cấp tỉnh.
+                    b) Giám đốc, Phó giám đốc sở, ngành và tương đương, trưởng các cơ quan, đơn vị trực thuộc
+Hội đồng nhân dân, Ủy ban nhân dân cấp tỉnh công khai trước lãnh đạo cán bộ cấp phòng và tương
+đương trở lên trực thuộc sở, ngành, cơ quan, đơn vị đó.
+                  c) Bí thư, Phó bí thư, Chủ tịch, Phó Chủ tịch Hội đồng nhân dân, Ủy ban nhân dân cấp huyện,
+cấp xã, Ủy viên thường trực Hội đồng nhân dân, trưởng các ban của Hội đồng nhân dân, các thành viên
+khác của Ủy ban nhân dân cấp huyện, cấp xã công khai trước đối tượng ghi phiếu tín nhiệm hàng năm,
+gồm lãnh đạo Ủy ban nhân dân, Hội đồng nhân dân cấp huyện, cấp xã, đại biểu Hội đồng nhân dân cấp
+huyện, cấp xã, trưởng phòng, ban, cơ quan, đơn vị trực thuộc Hội đồng dân nhân, Ủy ban nhân dân cấp
+huyện, cấp xã.
+               d) Người có nghĩa vụ kê khai không thuộc diện quy định tại Điểm a, b, c trên đây thì công khai
+trước toàn thể công chức, viên chức thuộc phòng, ban, đơn vị. Nếu biên chế của phòng, ban, đơn vị có
+từ 50 người trở lên và có tổ, đội, nhóm thì công khai trước tổ, đội, nhóm trực thuộc phòng, ban, đơn vị
+đó.
+        3. Ở doanh nghiệp:
+                a) Chủ tịch Hội đồng thành viên (quản trị), Tổng giám đốc, Phó Tổng giám đốc, Trưởng ban kiểm
+soát, kiểm soát viên, Kế toán trưởng các Tập đoàn, Tổng công ty (công ty) nhà nước công khai trước Ủy
+viên Hội đồng thành viên (quản trị), Tổng giám đốc, Phó Tổng giám đốc, Trưởng ban kiểm soát, kiểm
+soát viên, Kế toán trưởng, Trưởng các đơn vị trực thuộc Tập đoàn, Tổng công ty, Chủ tịch Hội đồng
+thành viên (quản trị), Tổng giám đốc (giám đốc), các Tổng công ty (công ty) trực thuộc Tập đoàn, Tổng
+công ty, Trưởng các đoàn thể trong Tập đoàn, Tổng công ty nhà nước.
+                   b) Người đại diện phần vốn của Nhà nước, vốn của doanh nghiệp nhà nước và giữ chức danh từ
+Phó Trưởng phòng trở lên trong doanh nghiệp có vốn đầu tư của Nhà nước, vốn của doanh nghiệp nhà
+nước thì công khai Bản kê khai tại Tập đoàn, Tổng công ty (công ty) nơi cử mình làm đại diện phần vốn
+trước Ủy viên hội đồng thành viên (quản trị), Tổng giám đốc, Phó Tổng giám đốc, ban kiểm soát (kiểm
+soát viên), Kế toán trưởng. Trường hợp người đại diện phần vốn của Nhà nước là cán bộ, công chức,
+viên chức thì công khai Bản kê khai theo quy định tại Khoản 1, Khoản 2 Điều này.
+                 c) Người có nghĩa vụ kê khai không thuộc diện quy định tại Điểm a, Điểm b Khoản này thì công
+khai trước tập thể phòng, ban, đơn vị đó. Nếu biên chế của phòng, ban, đơn vị có từ 50 người trở lên và
+có tổ, đội, nhóm thì công khai ở tổ, đội, nhóm trực thuộc phòng, ban, đơn vị đó.
+        Điều 15. Giải trình nguồn gốc tài sản tăng thêm
+        1. Người có nghĩa vụ kê khai tự giải trình và chịu trách nhiệm về tính chính xác, trung thực, kịp
+thời của những thông tin về nguồn gốc tài sản tăng thêm.
+        2. Các loại tài sản tăng thêm phải giải trình nguồn gốc bao gồm:
+                 a) Tài sản quy định tại Khoản 1, Khoản 2 Điều 8 Nghị định này khi tăng thêm về số lượng hoặc
+thay đổi về cấp nhà, công trình, loại đất so với kỳ kê khai trước đó.
+                b) Tài sản quy định tại Khoản 3, Khoản 4, Khoản 5, Khoản 6 Điều 8 Nghị định này khi tăng thêm
+về số lượng hoặc thay đổi về chủng loại với mức giá trị tăng thêm từ 50 triệu đồng trở lên so với kỳ kê
+khai trước đó.
+           3. Việc tự giải trình nguồn gốc tài sản tăng thêm được thực hiện khi kê khai tài sản theo quy định
+tại Mẫu “Bản kê khai” và khi có yêu cầu của cơ quan, tổ chức, đơn vị, cá nhân có thẩm quyền.
+        Điều 16. Giải trình về việc kê khai tài sản, thu nhập
+                  1. Khi có một trong những căn cứ quy định tại Khoản 1 Điều 47 Luật phòng, chống tham nhũng,
+người đứng đầu cơ quan, tổ chức, đơn vị có thẩm quyền phải có văn bản yêu cầu người dự kiến được
+xác minh giải trình rõ việc kê khai tài sản, thu nhập của mình.
+                     2. Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được yêu cầu, người dự kiến được xác
+minh phải có văn bản giải trình. Nội dung giải trình phải làm rõ tính chính xác, trung thực, đầy đủ, kịp thời
+trong việc kê khai tài sản, thu nhập; giải trình rõ nguồn gốc tài sản, thu nhập tăng thêm và những thông
+
+tin khác mà cơ quan, tổ chức, cá nhân có thẩm quyền yêu cầu và những thông tin khác có liên quan mà
+cơ quan, tổ chức, cá nhân có thẩm quyền yêu cầu.
+        3. Trường hợp người đứng đầu cơ quan, tổ chức, đơn vị có thẩm quyền xét thấy nội dung giải
+trình của người dự kiến được xác minh đã rõ thì không cần tiến hành xác minh mà ban hành ngay kết
+luận về sự minh bạch trong kê khai tài sản, thu nhập của người đó.
+                                             Chương 4.
+                                     XÁC MINH TÀI SẢN, THU NHẬP
+        Điều 17. Quyết định xác minh tài sản, thu nhập
+        1. Trong trường hợp xét thấy việc giải trình của người dự kiến được xác minh chưa rõ thì người
+đứng đầu cơ quan, tổ chức, đơn vị có thẩm quyền ban hành quyết định xác minh tài sản, thu nhập (sau
+đây gọi tắt là quyết định xác minh).
+        2. Quyết định xác minh phải có các nội dung sau:
+        a) Căn cứ ban hành quyết định xác minh;
+        b) Họ, tên, chức vụ, nơi công tác của người được xác minh;
+        c) Họ, tên, chức vụ, nơi công tác của người xác minh; trường hợp thành lập đoàn xác minh thì
+phải ghi rõ họ, tên, chức vụ, nơi công tác của Trưởng đoàn, thành viên đoàn xác minh (gọi chung là
+người xác minh);
+        d) Nội dung xác minh;
+        đ) Thời hạn xác minh;
+        e) Nhiệm vụ, quyền hạn của người xác minh;
+        g) Các cơ quan, tổ chức, đơn vị phối hợp (nếu có).
+        3. Thời hạn xác minh là 15 ngày làm việc, trường hợp phức tạp thì thời hạn tối đa không quá 30
+ngày làm việc.
+        4. Trong trường hợp nội dung xác minh có tình tiết phức tạp, liên quan đến nhiều lĩnh vực, địa
+bàn xác minh rộng thì người quyết định xác minh thành lập đoàn xác minh và có quyền yêu cầu cơ quan,
+tổ chức, đơn vị có liên quan cử cán bộ tham gia đoàn xác minh.
+        Điều 18. Cơ quan, đơn vị xác minh tài sản, thu nhập
+        1. Trong trường hợp người được xác minh do cấp ủy đảng quản lý thì cơ quan có thẩm quyền
+xác minh là cơ quan Kiểm tra đảng cùng cấp, cụ thể như sau:
+        a) Cơ quan Kiểm tra đảng cấp Trung ương có thẩm quyền xác minh đối với người được xác
+minh là cán bộ, công chức thuộc diện Trung ương quản lý; trường hợp cần thiết thì trưng tập cán bộ của
+Thanh tra Chính phủ tham gia xác minh;
+        b) Cơ quan Kiểm tra đảng cấp tỉnh có thẩm quyền xác minh đối với người được xác minh là cán
+bộ, công chức thuộc diện ban thường vụ tỉnh ủy và cấp tương đương quản lý; trường hợp cần thiết thì
+trưng tập cán bộ của thanh tra tỉnh, thanh tra bộ tham gia xác minh;
+        c) Cơ quan Kiểm tra đảng cấp huyện có thẩm quyền xác minh đối với người được xác minh là
+cán bộ, công chức thuộc diện Ban Thường vụ huyện ủy và cấp tương đương quản lý; trường hợp cần
+thiết thì trưng tập cán bộ của thanh tra huyện tham gia xác minh.
+        2. Trong trường hợp người được xác minh công tác tại các cơ quan của Đảng mà không thuộc
+diện cấp ủy quản lý thì đơn vị có thẩm quyền xác minh được xác định như sau:
+        a) Đơn vị phụ trách công tác tổ chức, cán bộ của cơ quan Đảng ở cấp Trung ương, cấp tỉnh có
+thẩm quyền xác minh đối với người được xác minh đang công tác tại cơ quan, tổ chức, đơn vị đó;
+        b) Ban Tổ chức huyện ủy và tương đương có thẩm quyền xác minh đối với người được xác minh
+đang công tác tại cơ quan Đảng ở cấp huyện, cấp xã.
+        3. Trong trường hợp người được xác minh không thuộc diện cấp ủy quản lý, không công tác tại
+các cơ quan của Đảng thì cơ quan có thẩm quyền xác minh được xác định như sau:
+
+               a) Ở cấp Trung ương: Thanh tra bộ, cơ quan ngang bộ, đơn vị phụ trách tổ chức, cán bộ của cơ
+quan thuộc Chính phủ có thẩm quyền xác minh đối với người được xác minh đang công tác tại cơ quan,
+tổ chức, đơn vị thuộc bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ. Trong trường hợp cần thiết thì cơ
+quan thanh tra chủ trì, phối hợp, huy động cán bộ của đơn vị phụ trách công tác tổ chức, cán bộ của cơ
+quan, tổ chức, đơn vị thuộc bộ, cơ quan ngang bộ tham gia xác minh.
+              b) Ở cấp tỉnh: Thanh tra tỉnh có thẩm quyền xác minh đối với người được xác minh công tác tại
+cơ quan, tổ chức, đơn vị ở tỉnh, thành phố trực thuộc Trung ương. Trong trường hợp cần thiết thanh tra
+tỉnh chủ trì, phối hợp, huy động cán bộ của Sở Nội vụ, của thanh tra sở tham gia xác minh.
+                   Thanh tra sở có thẩm quyền xác minh đối với người được xác minh công tác tại cơ quan, tổ
+chức, đơn vị thuộc sở. Trong trường hợp cần thiết thanh tra sở chủ trì, phối hợp, huy động cán bộ của
+đơn vị phụ trách công tác tổ chức, cán bộ của cơ quan, tổ chức, đơn vị thuộc sở tham gia xác minh.
+                c) Ở cấp huyện: Thanh tra huyện có thẩm quyền xác minh đối với người được xác minh công tác
+tại cơ quan, tổ chức, đơn vị thuộc huyện, quận, thị xã, thành phố thuộc tỉnh, cán bộ, công chức cấp xã.
+Trong trường hợp cần thiết thanh tra huyện chủ trì, phối hợp, huy động cán bộ của phòng nội vụ, phòng,
+ban chuyên môn có liên quan thuộc Ủy ban nhân dân cấp huyện tham gia xác minh.
+              d) Ở doanh nghiệp nhà nước: Đơn vị phụ trách công tác thanh tra, kiểm tra nội bộ, tổ chức cán
+bộ có thẩm quyền xác minh đối với người được xác minh công tác tại tổ chức, đơn vị thuộc doanh nghiệp
+đó.
+                4. Cơ quan thanh tra, kiểm tra, đơn vị phụ trách công tác tổ chức, cán bộ thuộc các cơ quan
+khác của Nhà nước ở Trung ương, cơ quan Trung ương của các đoàn thể, cơ quan cấp tỉnh của tổ chức
+chính trị - xã hội có thẩm quyền xác minh đối với người được xác minh công tác tại cơ quan, tổ chức đó
+mà không thuộc diện cấp ủy quản lý.
+               Đơn vị phụ trách công tác tổ chức, cán bộ có thẩm quyền xác minh đối với người được xác minh
+công tác tại cơ quan cấp huyện của tổ chức chính trị - xã hội; trường hợp cần thiết thì có văn bản đề nghị
+Ủy ban kiểm tra cấp huyện phối hợp tiến hành xác minh.
+               5. Thanh tra Chính phủ có thẩm quyền xác minh lại việc xác minh tài sản, thu nhập của các cơ
+quan quy định tại Khoản 3 Điều này, khi phát hiện có vi phạm pháp luật.
+        Điều 19. Nội dung xác minh tài sản, thu nhập
+           Nội dung xác minh tài sản, thu nhập là tính trung thực, đầy đủ, rõ ràng, đúng thời hạn của những
+thông tin về số lượng, giá trị các loại tài sản, các khoản thu nhập, mô tả về tài sản, thu nhập, biến động
+tài sản, việc giải trình về biến động tài sản, nguồn gốc tài sản tăng thêm và những nội dung khác có liên
+quan trong Bản kê khai của người được xác minh.
+        Điều 20. Hoạt động xác minh tài sản, thu nhập
+        Trong quá trình xác minh tài sản, thu nhập, người xác minh tiến hành các hoạt động sau:
+        1. Nghiên cứu hồ sơ, tài liệu có liên quan đến nội dung xác minh;
+        2. Làm việc trực tiếp với người được xác minh;
+        3. Xác minh tại chỗ đối với tài sản, thu nhập được xác minh;
+        4. Làm việc với cơ quan, tổ chức, đơn vị quản lý, lưu trữ hồ sơ, tài liệu về tài sản, thu nhập được
+xác minh;
+               5. Làm việc với cơ quan, tổ chức, cá nhân có chuyên môn - kỹ thuật về tài sản, thu nhập được
+xác minh để đánh giá, giám định tài sản, thu nhập đó;
+               6. Làm việc với cơ quan, tổ chức, cá nhân có liên quan khác để phục vụ cho việc xác minh tài
+sản, thu nhập;
+        7. Hoạt động khác cần thiết cho việc xác minh tài sản, thu nhập.
+        Điều 21. Quyền hạn, trách nhiệm của người xác minh
+         1. Yêu cầu người được xác minh giải trình, cung cấp thông tin, tài liệu liên quan đến nội dung xác
+minh.
+           2. Yêu cầu cơ quan, tổ chức, cá nhân có thông tin, tài liệu liên quan đến nội dung xác minh cung
+cấp thông tin, tài liệu đó.
+
+        3. Kiến nghị cơ quan, tổ chức, đơn vị có thẩm quyền áp dụng các biện pháp cần thiết ngăn chặn
+hành vi tẩu tán tài sản, thu nhập, hành vi cản trở, can thiệp trái pháp luật vào hoạt động xác minh.
+        4. Bảo đảm tính khách quan, trung thực, chính xác, kịp thời, đúng nội dung, thời hạn ghi trong
+quyết định xác minh.
+        5. Giữ bí mật thông tin, tài liệu thu thập được trong quá trình xác minh.
+        6. Báo cáo kết quả xác minh với người thẩm quyền và chịu trách nhiệm về tính chính xác, trung
+thực, khách quan của nội dung báo cáo.
+        Điều 22. Trách nhiệm của cơ quan, tổ chức, đơn vị, cá nhân có liên quan
+        Ủy ban nhân dân các cấp, cơ quan công an, cơ quan quản lý nhà, đất, cơ quan thuế, ngân hàng
+và các cơ quan, tổ chức, đơn vị, cá nhân có liên quan có trách nhiệm:
+        1. Cử người làm việc với người xác minh để phục vụ hoạt động xác minh;
+        2. Cung cấp thông tin, tài liệu liên quan đến nội dung xác minh và chịu trách nhiệm về tính chính
+xác, đầy đủ của thông tin, tài liệu đã cung cấp;
+        3. Tiến hành các hoạt động thuộc phạm vi thẩm quyền, chuyên môn của mình để phục vụ cho
+việc xác minh, làm rõ các thông tin cần thiết trong quá trình xác minh hoặc ngăn chặn hành vi tẩu tán tài
+sản, thu nhập, hành vi cản trở hoạt động xác minh tài sản, thu nhập.
+        Điều 23. Biên bản làm việc
+        1. Các buổi làm việc giữa, người xác minh với người được xác minh, giữa người xác minh với cơ
+quan, tổ chức, đơn vị, cá nhân có liên quan phải được lập biên bản.
+        2. Biên bản làm việc phải có các nội dung sau:
+        a) Thời gian, địa điểm làm việc;
+        b) Thành phần tham gia;
+        c) Nội dung làm việc;
+        d) Nội dung được thống nhất tại buổi làm việc;
+        đ) Ý kiến bảo lưu (nếu có).
+        Điều 24. Báo cáo kết quả xác minh tài sản, thu nhập
+        1. Trong thời hạn 05 ngày làm việc, kể từ ngày kết thúc xác minh, người xác minh phải có báo
+cáo kết quả xác minh tài sản, thu nhập gửi người ban hành quyết định xác minh.
+        2. Báo cáo kết quả xác minh tài sản, thu nhập phải có các nội dung sau:
+        a) Nội dung xác minh, hoạt động xác minh đã được tiến hành và kết quả xác minh;
+        b) Nhận xét của người xác minh về việc kê khai tài sản, thu nhập;
+        c) Kiến nghị việc xử lý đối với Người có nghĩa vụ kê khai không trung thực.
+        Điều 25. Kết luận về sự minh bạch trong kê khai tài sản, thu nhập
+        1. Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được báo cáo kết quả xác minh, người
+đứng đầu cơ quan, tổ chức, đơn vị có thẩm quyền quản lý Người có nghĩa vụ kê khai phải kết luận về sự
+minh bạch trong kê khai tài sản, thu nhập.
+        2. Nội dung kết luận về sự minh bạch trong kê khai tài sản, thu nhập phải nêu rõ sự phù hợp hay
+không phù hợp giữa Bản kê khai và kết quả xác minh. Trường hợp có sự không phù hợp giữa kết quả
+xác minh và bản kê khai thì kết luận không trung thực và nêu rõ sự sai lệch về số lượng tài sản, thu
+nhập, thông tin mô tả về tài sản, thu nhập, biến động tài sản, thu nhập, nguồn gốc tài sản tăng thêm;
+quyết định hoặc kiến nghị người có thẩm quyền xử lý Người có nghĩa vụ kê khai không trung thực.
+        Kết luận về sự minh bạch phải gửi cho người được xác minh.
+        3. Trường hợp người được xác minh tài sản, thu nhập đề nghị xem xét lại kết luận thì người có
+thẩm quyền kết luận có trách nhiệm xem xét và trả lời trong thời hạn 05 ngày làm việc, kể từ ngày nhận
+được đề nghị. Trường hợp người được xác minh không đồng ý thì kiến nghị người đứng đầu cơ quan, tổ
+chức, đơn vị cấp trên trực tiếp của người có thẩm quyền kết luận xem xét giải quyết. Trong thời hạn 05
+ngày làm việc, người nhận được kiến nghị phải xem xét, và trả lời người được xác minh.
+
+        Điều 26. Công khai kết luận về sự minh bạch trong kê khai tài sản, thu nhập
+        1. Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được yêu cầu công khai bản kết luận về sự
+minh bạch trong kê khai tài sản, thu nhập của cơ quan, tổ chức đã yêu cầu xác minh, người đã ban hành
+kết luận về sự minh bạch trong kê khai tài sản, thu nhập phải công khai bản kết luận đó.
+        2. Đối với việc xác minh tài sản, thu nhập phục vụ cho việc miễn nhiệm, bãi nhiệm, kỷ luật hoặc
+khi có hành vi tham nhũng thì người đã ban hành kết luận về sự minh bạch trong kê khai tài sản, thu
+nhập phải công khai ngay bản kết luận đó.
+        3. Bản kết luận về sự minh bạch trong kê khai tài sản, thu nhập được công khai tại các địa điểm
+sau đây:
+        a) Trong cơ quan, tổ chức, đơn vị nơi người được xác minh tài sản, thu nhập làm việc;
+        b) Tại hội nghị cử tri nơi người được xác minh tài sản, thu nhập ứng cử đại biểu Quốc hội, đại
+biểu Hội đồng nhân dân;
+        c) Tại kỳ họp hoặc Đại hội, nơi người được xác minh tài sản, thu nhập được đề cử để Quốc hội,
+Hội đồng nhân dân hoặc Đại hội của tổ chức chính trị, tổ chức chính trị - xã hội bầu, phê chuẩn.
+        Điều 27. Hồ sơ xác minh tài sản, thu nhập
+        Việc xác minh tài sản, thu nhập phải được lập thành hồ sơ; hồ sơ xác minh tài sản, thu nhập
+được quản lý tại cơ quan, đơn vị có thẩm quyền xác minh. Hồ sơ xác minh gồm có:
+        1. Quyết định xác minh; biên bản làm việc; giải trình của người được xác minh; báo cáo kết quả
+xác minh;
+        2. Kết luận về sự minh bạch trong kê khai tài sản, thu nhập;
+        3. Văn bản yêu cầu, kiến nghị của người ban hành quyết định xác minh, người xác minh;
+        4. Kết quả đánh giá, giám định trong quá trình xác minh (nếu có);
+        5. Các tài liệu khác có liên quan đến việc xác minh.
+                                              Chương 5.
+                      XỬ LÝ VI PHẠM CÁC QUY ĐỊNH VỀ MINH BẠCH TÀI SẢN, THU NHẬP
+        Điều 28. Xử lý vi phạm về thời hạn trong minh bạch tài sản, thu nhập
+        Người tổ chức việc kê khai, việc công khai chậm; người kê khai, giải trình chậm; người tổng hợp,
+báo cáo kết quả về minh bạch tài sản, thu nhập chậm so với thời hạn quy định tại Nghị định này mà
+không có lý do chính đáng thì tùy theo tính chất, mức độ vi phạm phải bị xử lý kỷ luật như sau:
+        1. Áp dụng hình thức kỷ luật khiển trách đối với người thực hiện chậm trên 15 ngày đến 30 ngày;
+        2. Áp dụng hình thức kỷ luật cảnh cáo đối với người thực hiện chậm trên 30 ngày đến 45 ngày;
+        3. Áp dụng hình thức kỷ luật nặng hơn một bậc so với hình thức kỷ luật cảnh cáo đối với người
+thực hiện chậm trên 45 ngày.
+        Điều 29. Xử lý kỷ luật đối với người kê khai tài sản, thu nhập, giải trình nguồn gốc tài sản
+tặng thêm không trung thực
+        Người kê khai tài sản, thu nhập, người giải trình nguồn gốc tài sản tăng thêm không trung thực
+thì tùy theo tính chất, mức độ vi phạm phải bị xử lý kỷ luật như sau:
+        a) Đối với cán bộ áp dụng một trong các hình thức kỷ luật: Khiển trách, cảnh cáo, cách chức, bãi
+nhiệm;
+        b) Đối với công chức áp dụng một trong các hình thức kỷ luật: Khiển trách, cảnh cáo, hạ bậc
+lương, giáng chức, cách chức;
+        c) Đối với viên chức áp dụng một trong các hình thức kỷ luật: Khiển trách, cảnh cáo, cách chức;
+        đ) Đối với người làm việc trong các doanh nghiệp nhà nước áp dụng một trong các hình thức kỷ
+luật: Khiển trách, cảnh cáo, cách chức;
+        đ) Đối với người làm việc trong các cơ quan, đơn vị thuộc Quân đội nhân dân, Công an nhân dân
+áp dụng theo quy định về xử lý kỷ luật trong Quân đội nhân dân, Công an nhân dân.
+
+        Điều 30. Xử lý trách nhiệm trong xác minh tài sản, thu nhập
+                 1. Người yêu cầu xác minh, người ban hành quyết định xác minh, người xác minh, người có
+thẩm quyền kết luận về sự minh bạch trong kê khai tài sản, thu nhập có hành vi vi phạm các quy định về
+xác minh tài sản, thu nhập thì tùy theo tính chất, mức độ bị xử lý kỷ luật theo quy định của pháp luật.
+Trong trường hợp làm phương hại đến người được xác minh thì có trách nhiệm khắc phục hậu quả và
+cải chính công khai bằng văn bản; văn bản phải được gửi cho người được xác minh, cơ quan, tổ chức,
+đơn vị nơi người đó làm việc.
+             2. Người đứng đầu, người được giao nhiệm vụ cung cấp thông tin, tài liệu trong các cơ quan,
+đơn vị liên quan đến quản lý về đất đai, nhà, công trình kiến trúc, thuế, tài chính, ngân hàng và các cơ
+quan, đơn vị có liên quan khác không thực hiện, thực hiện không đầy đủ, không kịp thời yêu cầu phục vụ
+xác minh thì tùy theo tính chất, mức độ vi phạm bị xử lý kỷ luật hoặc truy cứu trách nhiệm hình sự theo
+quy định của pháp luật.
+           3. Người tiết lộ thông tin hồ sơ xác minh tài sản, thu nhập khi chưa được người có thẩm quyền
+cho phép thì tùy theo tính chất, mức độ vi phạm bị xử lý kỷ luật hoặc truy cứu trách nhiệm hình sự theo
+quy định của pháp luật.
+               Điều 31. Thẩm quyền, trình tự, thủ tục xử lý kỷ luật đối với hành vi vi phạm các quy định
+về minh bạch tài sản, thu nhập
+          1. Đối với cán bộ, công chức, viên chức thực hiện theo quy định của pháp luật về xử lý kỷ luật
+cán bộ, công chức, viên chức.
+             2. Đối với người làm việc trong Quân đội nhân dân, Công an nhân dân thực hiện theo quy định
+về xử lý kỷ luật trong Quân đội nhân dân, Công an nhân dân.
+          3. Đối với người làm việc trong doanh nghiệp nhà nước được thực hiện theo quy định về xử lý kỷ
+luật trong doanh nghiệp nhà nước.
+    4. Đối với người làm việc trong các tổ chức chính trị, tổ chức chính trị - xã hội thực hiện theo quy
+định về xử lý kỷ luật của tổ chức đó.
+                                              Chương 6.
+                                          TỔ CHỨC THỰC HIỆN
+                     Điều 32. Trách nhiệm hướng dẫn, đôn đốc, kiểm tra, thanh tra và tổng hợp kết quả về
+minh bạch tài sản, thu nhập
+               1. Người đứng đầu cơ quan, tổ chức, đơn vị có trách nhiệm hướng dẫn, đôn đốc, kiểm tra và
+tổng hợp kết quả kê khai, công khai, xác minh, kết luận và xử lý vi phạm về minh bạch tài sản, thu nhập,
+quản lý bản kê khai đối với người có nghĩa vụ kê khai thuộc diện quản lý của mình; định kỳ báo cáo kết
+quả về cơ quan thanh tra cùng cấp.
+              2. Ban Tổ chức đảng các cấp quản lý bản kê khai, tổng hợp kết quả kê khai đối với người có
+nghĩa vụ kê khai thuộc diện cấp ủy quản lý theo quy định về phân cấp cán bộ của Đảng; định kỳ gửi số
+liệu tổng hợp kết quả kê khai về cơ quan thanh tra cùng cấp.
+            3. Cơ quan Nội vụ các cấp hướng dẫn, đôn đốc, kiểm tra, thanh tra, tổng hợp kết quả kê khai,
+xác minh, kết luận và xử lý vi phạm về minh bạch tài sản, thu nhập đối với người kê khai đang công tác
+tại cơ quan của tổ chức xã hội, tổ chức xã hội - nghề nghiệp và tổ chức, đơn vị khác có sử dụng ngân
+sách, tài sản nhà nước; định kỳ báo cáo kết quả về cơ quan thanh tra cùng cấp.
+          4. Cơ quan Kiểm tra đảng các cấp tổng hợp kết quả xác minh, kết luận, công khai, xử lý vi phạm
+về minh bạch tài sản, thu nhập đối với người có nghĩa vụ kê khai thuộc diện cấp ủy quản lý theo quy định
+về phân cấp quản lý cán bộ của Đảng; định kỳ gửi số liệu tổng hợp về cơ quan thanh tra cùng cấp.
+           5. Cơ quan Thanh tra nhà nước các cấp hướng dẫn, đôn đốc, kiểm tra, thanh tra và tổng hợp kết
+quả kê khai, công khai, xác minh, kết luận, xử lý vi phạm về minh bạch tài sản, thu nhập trong phạm vi
+bộ, ngành, địa phương mình; định kỳ báo cáo kết quả về cơ quan thanh tra nhà nước cấp trên.
+           Thanh tra Chính phủ hướng dẫn, đôn đốc, kiểm tra, thanh tra và tổng hợp kết quả kê khai, công
+khai, xác minh, kết luận, xử lý vi phạm về minh bạch tài sản, thu nhập trong phạm vi cả nước.
+              6. Các Bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ, Ủy ban nhân dân tỉnh, thành phố trực
+thuộc Trung ương có trách nhiệm:
+
+          a) Tổ chức, chỉ đạo, tuyên truyền, phổ biến, đôn đốc, kiểm tra việc thực hiện các quy định về
+minh bạch tài sản, thu nhập trong phạm vi bộ, ngành, địa phương, cơ quan mình.
+            b) Rà soát, bãi bỏ theo thẩm quyền; kiến nghị các cơ quan, tổ chức có thẩm quyền bãi bỏ các
+quy định trái với các quy định về minh bạch tài sản, thu nhập tại Luật phòng, chống tham nhũng và Nghị
+định này.
+          c) Khen thưởng tập thể, cá nhân có thành tích, xử lý nghiêm minh người có hành vi vi phạm quy
+định về minh bạch tài sản, thu nhập.
+       Điều 33. Giám sát của Mặt trận Tổ quốc Việt Nam và các tổ chức thành viên
+           1. Mặt trận Tổ quốc Việt Nam và các tổ chức thành viên trong phạm vi nhiệm vụ, quyền hạn của
+mình có trách nhiệm giám sát việc thực hiện pháp luật về minh bạch tài sản, thu nhập.
+            2. Khi cần thiết, cơ quan nhà nước có trách nhiệm mời đại diện Mặt trận Tổ quốc Việt Nam và
+các tổ chức thành viên tham gia giám sát, thanh tra, kiểm tra việc thực hiện pháp luật về minh bạch tài
+sản, thu nhập. Mặt trận Tổ quốc Việt Nam và các tổ chức thành viên có trách nhiệm cung cấp thông tin,
+cử người tham gia khi được yêu cầu.
+          3. Mặt trận Tổ quốc Việt Nam và các tổ chức thành viên tiếp nhận các ý kiến phản ánh của nhân
+dân, kiến nghị cơ quan có thẩm quyền xem xét, xử lý hành vi vi phạm pháp luật về minh bạch tài sản, thu
+nhập.
+        4. Trường hợp phát hiện có dấu hiệu bất minh về tài sản, thu nhập thì Mặt trận Tổ quốc Việt Nam
+và các tổ chức thành viên kiến nghị cơ quan, tổ chức có thẩm quyền xem xét, giải quyết. Trong thời hạn
+15 ngày làm việc, kể từ ngày nhận được kiến nghị, cơ quan, tổ chức, cá nhân có trách nhiệm xem xét,
+giải quyết và thông báo kết quả giải quyết cho Mặt trận Tổ quốc Việt Nam và các tổ chức thành viên.
+            5. Mặt trận Tổ quốc Việt Nam và các thành viên của Mặt trận Tổ quốc xã, phường, thị trấn có
+quyền phát hiện, kiến nghị xử lý hành vi vi phạm pháp luật về minh bạch tài sản, thu nhập của cá nhân
+cư trú ở cấp xã, khu dân cư nhưng công tác ở nơi khác.
+       Điều 34. Hiệu lực thi hành
+       1. Nghị định này có hiệu lực thi hành kể từ ngày 05 tháng 9 năm 2013.
+                2. Nghị định này thay thế Nghị định số 37/2007/NĐ-CP ngày 09 tháng 3 năm 2007 của Chính
+phủ về minh bạch tài sản, thu nhập và Nghị định số 68/2011/NĐ-CP ngày 08 tháng 8 năm 2011 của
+Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 37/2007/NĐ-CP ngày 9 tháng 3 năm 2007 về
+minh bạch tài sản, thu nhập.
+       Điều 35. Trách nhiệm thi hành
+               Các Bộ trưởng, Thủ trưởng cơ quan ngang Bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch
+Ủy ban nhân dân tỉnh, thành phố trực thuộc Trung ương và các cơ quan, tổ chức, cá nhân liên quan chịu
+trách nhiệm thi hành Nghị định này./.
+  Nơi nhận:                                                      TM. CHÍNH PHỦ
+ - Ban Bí thư Trung ương Đảng;                                     THỦ TƯỚNG
+ - Thủ tướng, các Phó Thủ tướng Chính
+ phủ;
+ - Các Bộ, cơ quan ngang Bộ, cơ quan
+ thuộc CP;
+ - HĐND, UBND các tỉnh, TP trực thuộc TW;                      Nguyễn Tấn Dũng
+ - Văn phòng Trung ương và các Ban của
+ Đảng;
+ - Văn phòng Tổng Bí thư;
+ - Văn phòng Chủ tịch nước;
+ - Hội đồng Dân tộc và các Ủy ban của
+ Quốc hội;
+ - Văn phòng Quốc hội;
+ - Tòa án nhân dân tối cao;
+ - Viện kiểm sát nhân dân tối cao;
+ - Kiểm toán Nhà nước;
+ - Ủy ban Giám sát tài chính Quốc gia;
+ - Ngân hàng Chính sách xã hội;
+ - Ngân hàng Phát triển Việt Nam;
+
+ - UBTW Mặt trận Tổ quốc Việt Nam;
+ - Cơ quan Trung ương của các đoàn thể;
+ - VPCP: BTCN các PCN, Trợ lý TTCP,
+ Cổng TTĐT,
+ các Vụ, Cục, đơn vị trực thuộc, công báo;
+ - Lưu: Văn thư, V.I (3b).
+                                               DANH MỤC
+                       NGƯỜI PHẢI KÊ KHAI TÀI SẢN, THU NHẬP THEO KHOẢN 9 ĐIỀU 7
+                               NGHỊ ĐỊNH VỀ MINH BẠCH TÀI SẢN, THU NHẬP
+        (Ban hành kèm theo Nghị định số 78/2013/NĐ-CP ngày 17 tháng 7 năm 2013 của Chính phủ)
+        A. NGƯỜI QUẢN LÝ NGÂN SÁCH, TÀI SẢN TRONG CƠ QUAN, ĐƠN VỊ
+        1. Phân bổ ngân sách.
+        2. Kế toán.
+        3. Mua sắm công.
+        B. NGƯỜI TRỰC TIẾP TIẾP XÚC VÀ GIẢI QUYẾT CÔNG VIỆC
+        I. Tổ chức cán bộ
+        1. Thẩm định nhân sự để trình cấp có thẩm quyền bổ nhiệm, điều động, luân chuyển, đào tạo,
+bồi dưỡng cán bộ, công chức.
+        2. Tổ chức tuyển dụng, thi nâng ngạch cán bộ, công chức, viên chức.
+        3. Thẩm định hồ sơ để trình cấp có thẩm quyền phê duyệt về tổ chức bộ máy, biên chế.
+        4. Thẩm định các đề án thành lập mới, sắp xếp lại các cơ quan, tổ chức, đơn vị và doanh nghiệp
+Nhà nước, tổ chức phi chính phủ, Hội nghề nghiệp.
+        5. Thẩm định hồ sơ đề nghị thành lập mới, nhập, chia, điều chỉnh địa giới đơn vị hành chính các
+cấp.
+        6. Thẩm định hồ sơ để trình cấp có thẩm quyền quyết định các hình thức thi đua, khen thưởng,
+kỷ luật.
+        7. Phân bổ chỉ tiêu, ngân sách đào tạo.
+        II. Tài chính, ngân hàng
+        1. Quản lý các đối tượng nộp thuế.
+        2. Thu thuế, kiểm soát thuế, hoàn thuế, quyết toán thuế, quản lý và cấp phát ấn chỉ.
+        3. Kiểm hóa hàng hóa xuất nhập khẩu.
+        4. Thẩm định, kiểm tra và quyết toán kinh phí theo quy định của Luật Ngân sách.
+        5. Cấp giấy phép hoạt động ngân hàng, tổ chức tín dụng.
+        6. Thực hiện nghiệp vụ tín dụng tại các tổ chức tín dụng nhà nước; thẩm định và cho vay tín
+dụng.
+        7. Xử lý công nợ, các khoản nợ xấu; hoạt động mua và bán nợ; thẩm định, định giá trong đấu
+giá.
+        8. Cấp phát tiền, hàng thuộc Kho bạc Nhà nước và dự trữ quốc gia.
+        9. Thanh toán bảo hiểm xã hội, bảo hiểm y tế.
+        10. Cấp phép hoạt động ngoại hối, kinh doanh vàng, bạc, đá quý.
+        11. Giám sát hoạt động ngân hàng.
+        III. Công Thương
+        1. Cấp các loại giấy phép liên quan đến xuất nhập khẩu, dịch vụ thương mại.
+
+       2. Cấp giấy phép liên quan đến việc bảo đảm tiêu chuẩn an toàn trong sản xuất, kinh doanh.
+       3. Kiểm soát thị trường.
+       IV. Xây dựng
+       1. Cấp giấy phép trong lĩnh vực xây dựng.
+       2. Thẩm định dự án xây dựng.
+       3. Quản lý quy hoạch xây dựng.
+       4. Quản lý, giám sát chất lượng các công trình xây dựng.
+       5. Thẩm định, lập kế hoạch, kiểm soát, giám sát, điều phối, đền bù, giải phóng mặt bằng.
+       V. Giao thông
+       1. Giám định kỹ thuật, quản lý các công trình giao thông.
+       2. Đăng kiểm các loại phương tiện giao thông.
+       3. Sát hạch, cấp phép cho người điều khiển phương tiện giao thông.
+       4. Thẩm định, lập kế hoạch, kiểm soát, giám sát, điều phối, đền bù, giải phóng mặt bằng.
+       VI. Y tế
+       1. Cấp giấy chứng nhận vệ sinh, an toàn thực phẩm.
+       2. Cấp giấy chứng nhận hành nghề y, dược.
+       3. Cấp phép, giấy chứng nhận cơ sở đạt tiêu chuẩn sản xuất thức ăn gia súc, gia cầm.
+       4. Cấp giấy phép nhập khẩu thuốc tân dược.
+       5. Cấp giấy phép nhập khẩu hóa chất diệt côn trùng, khử trùng.
+       6. Cấp giấy chứng nhận nhập khẩu mỹ phẩm.
+       7. Kiểm định tiêu chuẩn, chất lượng sản phẩm.
+       8. Quản lý, giám sát, cung ứng các loại thuốc; dược liệu, dụng cụ, thiết bị vật tư y tế; các loại sản
+phẩm màu liên quan đến việc bảo vệ chăm sóc sức khỏe con người và lợi ích xã hội.
+       9. Thẩm định và định giá các loại thuốc tân dược.
+       VII. Văn hóa - Thể thao và Du lịch
+       1. Cấp giấy phép kinh doanh lữ hành quốc tế.
+       2. Cấp giấy phép công nhận cơ sở lưu trú du lịch.
+       3. Cấp giấy phép công nhận di tích lịch sử xếp hạng cấp quốc gia.
+       4. Cấp giấy phép thăm dò, khai quật khảo cổ.
+       5. Cấp giấy phép đưa di vật, cổ vật ra nước ngoài.
+       6. Cấp giấy phép biểu diễn nghệ thuật chuyên nghiệp.
+       7. Cấp giấy phép xuất nhập khẩu và phổ biến các ấn phẩm văn hóa.
+       8. Thẩm định hồ sơ xếp hạng khách sạn.
+       9. Thẩm định và cấp phép chương trình, tiết mục, vở diễn của các tổ chức cá nhân Việt Nam đi
+biểu diễn ở nước ngoài và các tổ chức, cá nhân nước ngoài vào biểu diễn tại Việt Nam.
+       11. Thẩm định, trình phê duyệt các dự án bảo quản, tu bổ và phục hồi di tích lịch sử quốc gia và
+di tích quốc gia đặc biệt theo quy định của pháp luật.
+       12. Trình phê duyệt hoặc thỏa thuận việc xây dựng các công trình ở khu vực bảo vệ II đối với di
+tích quốc gia và di tích quốc gia đặc biệt.
+       VIII. Thông tin và truyền thông
+       1. Cấp giấy phép hoạt động về Bưu chính, Viễn thông, Công nghệ thông tin, Báo chí và Xuất
+bản.
+
+        2. Cấp và phân bổ tài nguyên thông tin (kho số, tần số, tài nguyên Internet, quỹ đạo vệ tinh).
+        3. Quản lý các chương trình quảng cáo trên các phương tiện phát thanh, truyền hình, trên
+Internet.
+        4. Phân bổ, thẩm định, quản lý các dự án, đề án thuộc lĩnh vực công nghệ thông tin và truyền
+thông.
+        IX. Tài nguyên và Môi trường
+        1. Cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu, sử dụng tài sản gắn liền với đất.
+        2. Cấp giấy phép khảo sát, thăm dò, khai thác, chế biến khoáng sản.
+        3. Cấp giấy phép xử lý, vận chuyển chất thải nguy hại.
+        4. Cấp giấy chứng nhận đạt tiêu chuẩn môi trường.
+        5. Cấp giấy phép về thăm dò, khai thác, sử dụng tài nguyên nước và xả nước thải vào nguồn
+nước.
+        6. Xử lý hồ sơ giao đất, cho thuê đất, thu hồi đất, chuyển mục đích sử dụng đất, đăng ký quyền
+sử dụng đất, quyền sở hữu, sử dụng tài sản gắn liền với đất.
+        7. Bán, cho thuê tài sản gắn liền với đất; giao hạn mức đất; quản lý việc áp dụng đền bù, xác
+định người sử dụng đất thuộc đối tượng bồi thường, được hỗ trợ; mức bồi thường, hỗ trợ trong giải
+phóng mặt bằng.
+        8. Xử lý vi phạm về môi trường.
+        X. Nông nghiệp và Phát triển nông thôn
+        1. Cấp giấy cho thuê đất, giao đất; quản lý động vật thuộc danh mục quý hiếm.
+        2. Kiểm dịch động vật.
+        3. Kiểm lâm.
+        4. Kiểm soát thuốc thú y, thuốc bảo vệ thực vật, bệnh động vật, gia súc, gia cầm.
+        5. Theo dõi, quản lý bảo vệ nguồn lợi thủy sản, quản lý chất lượng an toàn vệ sinh, thú y, thủy
+sản.
+        XI. Đầu tư và Ngoại giao
+        1. Thẩm định, cấp giấy chứng nhận đầu tư của nước ngoài vào Việt Nam và của Việt Nam ra
+nước ngoài.
+        2. Thẩm định dự án.
+        3. Đấu thầu và quản lý đấu thầu.
+        4. Lập, phân bổ, quản lý kế hoạch vốn.
+        5. Quản lý quy hoạch.
+        6. Quản lý khu công nghiệp - khu chế xuất.
+        7. Quản lý doanh nghiệp và đăng ký kinh doanh.
+        8. Quản lý ODA.
+        9. Tiếp nhận và xử lý hồ sơ lãnh sự.
+        XII. Tư pháp
+        1. Chấp hành viên cơ quan thi hành án dân sự ở các cấp.
+        2. Thẩm tra viên thi hành án dân sự.
+        3. Đăng ký kết hôn có yếu tố nước ngoài, đăng ký giao dịch bảo đảm.
+        4. Cải chính tư pháp, chứng nhận tư pháp.
+        XIII. Lao động - Thương binh và Xã hội
+        1. Thẩm định hồ sơ cấp phép hoạt động dịch vụ đưa người lao động Việt Nam đi làm việc ở
+nước ngoài theo hợp đồng.
+
+        2. Thẩm định hồ sơ thành lập các trường cao đẳng nghề, trung cấp nghề; cấp giấy chứng nhận
+đăng ký hoạt động dạy nghề cho các cơ sở dạy nghề; phân bổ chỉ tiêu, kinh phí dạy nghề.
+        3. Thẩm định hồ sơ người có công; phê duyệt, cấp phát kinh phí ưu đãi đối với người có công.
+        XIV. Khoa học và Công nghệ
+        1. Hợp tác, trao đổi khoa học và công nghệ có yếu tố nước ngoài.
+        2. Thẩm định hồ sơ cấp, điều chỉnh, thu hồi, gia hạn các loại giấy phép, giấy chứng nhận, giấy
+đăng ký trong quản lý nhà nước về khoa học và công nghệ.
+        3. Thẩm định, giám định công nghệ đối với các dự án đầu tư.
+        4. Thẩm định, tư vấn cấp các văn bằng sở hữu trí tuệ.
+        5. Phân bổ, thẩm định các đề tài nghiên cứu khoa học thuộc lĩnh vực Khoa học và Công nghệ.
+        XV. Giáo dục và Đào tạo
+        1. Tuyển sinh, đào tạo thuộc các trường công lập.
+        2. Phân bổ chỉ tiêu tuyển sinh đào tạo cho các trường trong hệ thống giáo dục quốc dân; phân bổ
+chỉ tiêu đào tạo sau đại học và chỉ tiêu đào tạo ở nước ngoài.
+        3. Thẩm định, phê duyệt chương trình đào tạo, bồi dưỡng của các nhà trường trong hệ thống
+giáo dục quốc dân.
+        4. Thẩm định sách giáo khoa, giáo cụ giảng dạy, các vật tư kỹ thuật khác phục vụ giảng dạy,
+nghiên cứu.
+        5. Thẩm định hồ sơ thành lập các trường trong hệ thống giáo dục quốc dân.
+        6. Quản lý các dự án, đề án thuộc lĩnh vực Giáo dục và Đào tạo.
+        7. Phân bổ, thẩm định các đề tài nghiên cứu khoa học thuộc lĩnh vực Giáo dục và Đào tạo.
+        XVI. Quốc phòng
+        1. Trợ lý chính sách Ban Chỉ huy quân sự cấp huyện.
+        2. Trưởng ban thuộc Ban Chỉ huy quân sự cấp huyện và tương đương.
+        3. Giám đốc trung tâm dạy nghề và giới thiệu việc làm cấp tỉnh, thành phố trực thuộc Trung
+ương.
+        4. Trạm trưởng, Phó trạm trưởng thuộc đồn Biên phòng.
+        5. Trợ lý quân lực, Trợ lý cán bộ cấp Trung đoàn trở lên.
+        6. Trợ lý quản lý học viên, tuyển sinh, chính sách, bảo hiểm của các nhà trường.
+        VII. Công an
+        1. Cấp hộ chiếu, quản lý xuất nhập cảnh, nhập cư, cư trú của người nước ngoài ở Việt Nam.
+        2. Kiểm soát cửa khẩu.
+        3. Đăng ký và cấp biển số các loại phương tiện giao thông đường bộ; tuần tra, kiểm tra, kiểm
+soát và xử lý về an toàn giao thông đường bộ, đường thủy, đường sắt.
+        4. Đăng ký, quản lý hộ khẩu.
+        5. Đăng ký, quản lý các ngành nghề kinh doanh có điều kiện.
+        6. Trinh sát (các lĩnh vực Kinh tế, Hình sự, Ma túy, Môi trường, chống Tham nhũng).
+        7. Thẩm tra, phê duyệt thiết kế phòng cháy, kiểm tra an toàn phòng cháy.
+        8. Tuyển công dân phục vụ có thời hạn trong Công an nhân dân, tuyển sinh, tuyển dụng cán bộ,
+công chức.
+        9. Xử lý vi phạm về trật tự an toàn xã hội.
+        10. Giám thị, quản giáo tại các trại giam, trại tạm giam, Trung tâm Giáo dưỡng và Phục hồi nhân
+phẩm.
+
+      Thủ kho, thủ quỹ, quản lý vốn, quản lý vật tư, tài sản, phương tiện, quản lý dự án, thẩm định dự
+án, quản lý công trình, kế hoạch đầu tư, mua sắm cấp phát, quản lý vũ khí, khí tài, quản lý trang cấp
+      XVIII. Thanh tra và Phòng, chống tham nhũng
+      1. Làm công tác thanh tra mà chưa được bổ nhiệm vào ngạch thanh tra viên.
+      2. Giải quyết đơn, thư khiếu nại, tố cáo của cơ quan, tổ chức, đơn vị và cá nhân.
+      3. Làm công tác phòng, chống tham nhũng.
+      4. Công chức thực hiện chức năng thanh tra chuyên ngành.
+                                        MẪU
+                             KÊ KHAI TÀI SẢN, THU NHẬP
+     (Ban hành kèm theo Nghị định số 78/2013/NĐ-CP ngày 17 tháng 7 năm 2013 của Chính phủ)
+      I. THÔNG TIN CHUNG
+      1. Người kê khai tài sản, thu nhập
+      - Họ và tên: ……………………………………………………….. Năm sinh: …………
+      - Chức vụ/chức danh công tác: …………………………………………………………
+      - Cơ quan/đơn vị công tác: ………………………………………………………………
+      - Hộ khẩu thường trú: ……………………………………………………………………
+      - Chỗ ở hiện tại: …………………………………………………………………………..
+      2. Vợ hoặc chồng của người kê khai tài sản, thu nhập
+      - Họ và tên: ……………………………………………………….. Năm sinh: …………
+      - Chức vụ/chức danh công tác: …………………………………………………………
+      - Cơ quan/đơn vị công tác: ………………………………………………………………
+      - Hộ khẩu thường trú: ……………………………………………………………………
+      - Chỗ ở hiện tại: …………………………………………………………………………..
+      3. Con chưa thành niên của người kê khai tài sản, thu nhập
+      a) Con thứ nhất:
+      - Họ và tên: …………………………………………………………………………………
+      - Ngày, tháng, năm sinh: …………………………………………………………………
+      - Hộ khẩu thường trú: …………………………………………………………………….
+      - Chỗ ở hiện tại: ……………………………………………………………………………
+      b) Con thứ hai (trở lên): (kê khai như con thứ nhất)
+      II. THÔNG TIN MÔ TẢ VỀ TÀI SẢN
+      1. Nhà ở, công trình xây dựng: (Người kê khai tự mô tả các loại nhà, công trình xây dựng khác do
+bản thân, vợ hoặc chồng, con chưa thành niên sở hữu hoặc sở hữu một phần).
+      a) Nhà ở:
+      - Nhà thứ 1: (Địa chỉ tại: …………………………………………………………………)
+      + Loại nhà: ……………………………………. Cấp công trình …………………………
+      + Diện tích xây dựng: ………………………………………………………………………
+      + Giá trị: ……………………………………………………………………………………..
+      + Giấy chứng nhận quyền sở hữu: ………………………………………………………
+      + Thông tin khác (nếu có): …………………………………………………………………
+      - Nhà thứ 2 (Trở lên): Kê khai tương tự như nhà thứ nhất
+      b) Công trình xây dựng khác:
+
+        - Công trình thứ 1: (Địa chỉ tại: ……………………………………………………………
+        + Loại công trình …………………………..……… Cấp công trình ……………………
+        + Diện tích: …………………………………………………………………………………
+        + Giá trị: ……………………………………………………………………………………
+        + Giấy chứng nhận quyền sở hữu: …………………………………………………….
+        + Thông tin khác (nếu có): ………………………………………………………………
+        - Công trình thứ 2 (Trở lên): Kê khai tương tự như công trình thứ nhất.
+        2. Quyền sử dụng đất: (Người kê khai tự mô tả các loại đất do bản thân, vợ hoặc chồng, con
+chưa thành niên có quyền sử dụng toàn bộ hoặc một phần).
+        a) Đất ở:
+        - Mảnh thứ nhất: (Ghi theo từng lô, khoảnh, khuôn viên).
+        + Địa chỉ: ………………………………………………………………………………….
+        + Diện tích: ……………………………………………………………………………….
+        + Giá trị: ……………………………………………………………………………………
+        + Giấy chứng nhận quyền sử dụng: ……………………………………………………
+        + Thông tin khác (nếu có): ………………………………………………………………
+        - Mảnh thứ 2: (Mô tả như mảnh thứ nhất).
+        b) Các loại đất khác: (Ghi theo từng lô, khoảnh, khuôn viên).
+        - Mảnh thứ nhất: (Ghi theo từng lô, khoảnh, khuôn viên).
+        + Địa chỉ: ………………………………………………………………………………….
+        + Diện tích: ……………………………………………………………………………….
+        + Giá trị: ……………………………………………………………………………………
+        + Giấy chứng nhận quyền sử dụng: ……………………………………………………
+        + Thông tin khác (nếu có): ………………………………………………………………
+        - Mảnh thứ 2: (Mô tả như mảnh thứ nhất).
+        3. Tiền: Tiền mặt, tiền cho vay, tiền gửi các cá nhân, tổ chức trong nước, nước ngoài.
+        ………………………………………………………………………………………………
+        ………………………………………………………………………………………………
+        4. Tài sản khác ở nước ngoài.
+        5. Ô tô, mô tô, xe máy, tàu thuyền và những động sản khác mà nhà nước quản lý (theo quy định
+của pháp luật phải đăng ký sử dụng và được cấp giấy đăng ký) có giá trị từ 50 triệu đồng trở lên.
+        6. Kim loại quý, đá quý, cổ phiếu, các loại giấy tờ có giá trị chuyển nhượng khác có giá trị từ 50
+triệu đồng trở lên.
+        7. Các khoản nợ phải trả có giá trị từ 50 triệu đồng trở lên (nếu có).
+        8. Tổng thu nhập trong năm.
+        III. GIẢI TRÌNH SỰ BIẾN ĐỘNG CỦA TÀI SẢN, THU NHẬP
+                     Loại tài sản                      Tăng/giảm    Nội dung giải trình nguồn gốc
+                                                                     tài sản, thu nhập tăng thêm
+1. Nhà ở, công trình xây dựng:
+a) Nhà ở:
+b) Công trình xây dựng khác:
+2. Quyền sử dụng đất:
+a) Đất ở:
+b) Các loại đất khác:
+
+3. Tiền mặt, tiền cho vay, tiền gửi các cá nhân, tổ chức
+trong nước, nước ngoài.
+4. Tài sản khác ở nước ngoài.
+5. Ô tô, mô tô, xe máy, tàu thuyền và những động sản
+khác mà nhà nước quản lý có giá trị từ 50 triệu đồng trở
+lên.
+6. Kim loại quý, đá quý, cổ phiếu, các loại giấy tờ có giá
+trị chuyển nhượng khác có giá trị từ 50 triệu đồng trở
+lên.
+7. Các khoản nợ phải trả có giá trị từ 50 triệu đồng trở
+lên (nếu có).
+8. Tổng thu nhập trong năm
+(Người kê khai tự xác định các loại tài sản tăng, giảm trong kỳ kê khai và giải trình sự tăng, giảm của tài
+sản thuộc sở hữu của bản thân, vợ hoặc chồng, con chưa thành niên).
+    Ngày nhận bản kê khai tài sản, thu nhập             Ngày hoàn thành kê khai tài sản, thu nhập
+          …… ngày …….. tháng …… năm ……                    …… ngày …….. tháng …… năm ……
+             Người nhận bản kê khai                               Người kê khai tài sản
+     (Ký, ghi rõ họ tên, chức vụ/chức danh)                        (Ký, ghi rõ họ tên)
+Ghi chú: Người nhận bản kê khai, người kê khai tài sản, thu nhập phải ký trên từng trang của bản kê khai
+tài sản, thu nhập.

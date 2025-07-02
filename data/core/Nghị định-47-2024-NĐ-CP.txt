@@ -1,0 +1,971 @@
+CHÍNH PHỦ                      CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+             __________                             Độc lập - Tự do - Hạnh phúc
+         Số: 47/2024/NĐ-CP                             ______________________
+                                                  Hà Nội, ngày 09 tháng 5 năm 2024
+                                            NGHỊ ĐỊNH
+                         Quy định về danh mục cơ sở dữ liệu quốc gia;
+          việc xây dựng, cập nhật, duy trì, khai thác và sử dụng cơ sở dữ liệu quốc gia
+                                        __________________
+        Căn cứ Luật Tổ chức Chính phủ ngày 19 tháng 6 năm 2015; Luật sửa đổi, bổ sung một số
+điều của Luật Tổ chức Chính phủ và Luật Tổ chức chính quyền địa phương ngày 22 tháng 11 năm
+2019;
+        Căn cứ Luật Công nghệ thông tin ngày 29 tháng 6 năm 2006;
+        Căn cứ Luật An toàn thông tin mạng ngày 19 tháng 11 năm 2015;
+        Căn cứ Luật An ninh mạng ngày 12 tháng 6 năm 2018;
+        Theo đề nghị của Bộ trưởng Bộ Thông tin và Truyền thông;
+        Chính phủ ban hành Nghị định quy định về danh mục cơ sở dữ liệu quốc gia; việc xây dựng,
+cập nhật, duy trì, khai thác và sử dụng cơ sở dữ liệu quốc gia.
+                                            Chương I
+                                       QUY ĐỊNH CHUNG
+        Điều 1. Phạm vi điều chỉnh
+        Nghị định này quy định về danh mục cơ sở dữ liệu quốc gia; việc xây dựng, cập nhật, duy trì,
+khai thác và sử dụng cơ sở dữ liệu quốc gia.
+        Điều 2. Đối tượng áp dụng
+        Nghị định này áp dụng đối với cơ quan, tổ chức, cá nhân liên quan đến việc xây dựng, cập
+nhật, duy trì và khai thác, sử dụng cơ sở dữ liệu quốc gia.
+        Điều 3. Giải thích từ ngữ
+        1. Cơ sở dữ liệu là tập hợp dữ liệu số được sắp xếp, tổ chức để truy cập, khai thác, chia sẻ,
+quản lý và cập nhật thông qua phương tiện điện tử.
+        2. Cơ sở dữ liệu quốc gia là cơ sở dữ liệu của một hoặc một số lĩnh vực kinh tế - xã hội được
+xây dựng, cập nhật và duy trì đáp ứng yêu cầu truy nhập và sử dụng thông tin của các ngành kinh tế
+và phục vụ lợi ích công cộng.
+        3. Hệ thống thông tin cơ sở dữ liệu quốc gia là tập hợp phần cứng, phần mềm và hệ quản trị
+cơ sở dữ liệu được thiết lập phục vụ mục đích tạo lập, cung cấp, truyền đưa, thu thập, xử lý, lưu trữ
+và trao đổi, chia sẻ thông tin của cơ sở dữ liệu quốc gia.
+        4. Chủ quản cơ sở dữ liệu quốc gia là bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ được
+giao chủ trì việc xây dựng, quản lý, vận hành và khai thác cơ sở dữ liệu quốc gia.
+        5. Đơn vị quản lý, duy trì dữ liệu là đơn vị, tổ chức được chủ quản cơ sở dữ liệu quốc gia
+giao nhiệm vụ quản lý, quản trị dữ liệu.
+        6. Đơn vị vận hành hệ thống thông tin cơ sở dữ liệu quốc gia là đơn vị, tổ chức được chủ
+quản cơ sở dữ liệu quốc gia giao nhiệm vụ vận hành hệ thống thông tin cơ sở dữ liệu quốc gia. Trong
+trường hợp thuê ngoài dịch vụ vận hành, đơn vị vận hành hệ thống thông tin cơ sở dữ liệu quốc gia
+là bên cung cấp dịch vụ.
+        Điều 4. Nguyên tắc chung
+        1. Cơ sở dữ liệu quốc gia được xây dựng, khai thác và sử dụng thống nhất từ Trung ương
+đến địa phương. Hệ thống thông tin cơ sở dữ liệu quốc gia được quản lý, xây dựng, duy trì tập trung.
+Việc xây dựng, thu thập, cập nhật, quản lý, duy trì, khai thác, kết nối, chia sẻ, sử dụng các cơ sở dữ
+
+liệu quốc gia phải tuân theo các quy định của pháp luật về bảo vệ bí mật nhà nước và quân sự, quốc
+phòng.
+        2. Chính phủ là chủ sở hữu dữ liệu và thống nhất quản lý dữ liệu. Chính phủ phân công Chủ
+quản cơ sở dữ liệu quốc gia thực hiện quản lý, khai thác và sử dụng theo chức năng, nhiệm vụ; Bộ
+Thông tin và Truyền thông quản lý nhà nước về việc tổ chức, quản lý và sử dụng tài nguyên thông tin,
+cơ sở dữ liệu quốc gia. Dữ liệu phát sinh từ hoạt động quản lý nhà nước chuyên ngành thuộc cơ
+quan cấp nào, thì cơ quan cấp đó chịu trách nhiệm cập nhật dữ liệu chính xác, kịp thời vào cơ sở dữ
+liệu quốc gia.
+        3. Việc tuân thủ quy định về quản lý, kết nối, chia sẻ dữ liệu số của cơ sở dữ liệu quốc gia
+được thực hiện thường xuyên, liên tục từ khâu thiết kế, xây dựng, cập nhật, duy trì, khai thác và sử
+dụng; bảo đảm thống nhất kết nối giữa cơ sở dữ liệu quốc gia với các cơ sở dữ liệu, hệ thống thông
+tin khác thông qua Nền tảng tích hợp, chia sẻ dữ liệu quốc gia; tuân thủ theo tiêu chuẩn, quy chuẩn
+kỹ thuật và Khung kiến trúc Chính phủ điện tử Việt Nam; tuân thủ các quy định pháp luật chuyên
+ngành liên quan.
+                                            Chương II
+                                 DANH MỤC CƠ SỞ DỮ LIỆU QUỐC GIA
+        Điều 5. Xác định dữ liệu chủ của cơ sở dữ liệu quốc gia
+        1. Dữ liệu chủ chứa thông tin cơ bản nhất để mô tả, định danh, phân biệt một đối tượng cụ
+thể được cơ quan nhà nước quản lý; dữ liệu chủ phải có mã định danh đối tượng; dữ liệu chủ được
+sử dụng làm cơ sở để tham chiếu, đồng bộ giữa các cơ sở dữ liệu hoặc các tập dữ liệu khác nhau.
+Khi dữ liệu chủ thay đổi, dữ liệu trong các cơ sở dữ liệu tham chiếu đến phải được đồng bộ tương
+ứng.
+        2. Dữ liệu chủ của cơ sở dữ liệu quốc gia có giá trị sử dụng chính thức, tương đương văn
+bản giấy chứa cùng nội dung thông tin được cơ quan có thẩm quyền cung cấp, trừ trường hợp pháp
+luật có quy định khác.
+        Điều 6. Phê duyệt, cập nhật, điều chỉnh Danh mục cơ sở dữ liệu quốc gia
+        1. Cơ sở dữ liệu quốc gia phải đáp ứng các yêu cầu sau:
+        a) Có mục tiêu phục vụ quản trị quốc gia, hoặc phục vụ giám sát, phân tích, nghiên cứu,
+hoạch định chính sách phát triển của quốc gia;
+        b) Có chứa dữ liệu chủ làm cơ sở tham chiếu, đồng bộ dữ liệu giữa các cơ sở dữ liệu, hệ
+thống thông tin của bộ, ngành, địa phương;
+        c) Có phạm vi khai thác và sử dụng rộng rãi trên toàn quốc, được kết nối, chia sẻ với bộ,
+ngành, địa phương và cơ quan nhà nước khác phục vụ quản lý nhà nước, giải quyết thủ tục hành
+chính, cải cách hành chính, đơn giản hóa thủ tục hành chính cho người dân, doanh nghiệp hoặc phục
+vụ các mục tiêu phát triển kinh tế - xã hội.
+        2. Cơ sở dữ liệu quốc gia phải nằm trong Danh mục cơ sở dữ liệu quốc gia. Bộ, cơ quan
+ngang bộ, cơ quan thuộc Chính phủ đề nghị bổ sung, cập nhật, điều chỉnh Danh mục cơ sở dữ liệu
+quốc gia, gửi Bộ Thông tin và Truyền thông tổng hợp, đánh giá. Trường hợp đủ điều kiện, trình cấp
+có thẩm quyền phê duyệt cập nhật, điều chỉnh danh mục. Tài liệu thuyết minh về cơ sở dữ liệu đề
+nghị bổ sung, cập nhật, điều chỉnh Danh mục cơ sở dữ liệu quốc gia bao gồm các nội dung sau:
+        a) Tên cơ sở dữ liệu quốc gia;
+        b) Mục tiêu xây dựng cơ sở dữ liệu quốc gia;
+        c) Thông tin về dữ liệu chủ của cơ sở dữ liệu quốc gia;
+        d) Phạm vi, quy mô dữ liệu trong cơ sở dữ liệu quốc gia;
+        đ) Đối tượng và mục đích khai thác, sử dụng cơ sở dữ liệu quốc gia;
+        e) Nguồn thông tin sẽ xây dựng và cập nhật vào cơ sở dữ liệu quốc gia;
+        g) Phương thức chia sẻ dữ liệu từ cơ sở dữ liệu quốc gia;
+        h) Văn bản pháp lý có liên quan đã được ban hành và dự kiến xây dựng.
+          Luatvietnam                                                         LuatVietnam.vn
+Tiện ích văn bản luật
+
+        3. Bộ trưởng Bộ Thông tin và Truyền thông hướng dẫn nội dung tài liệu thuyết minh về cơ sở
+dữ liệu đề nghị bổ sung, cập nhật, điều chỉnh Danh mục cơ sở dữ liệu quốc gia; thiết lập, phát triển,
+quản lý và vận hành hệ thống thông tin quản lý danh mục cơ sở dữ liệu quốc gia; triển khai giải pháp
+thực hiện việc đăng ký, cập nhật, điều chỉnh Danh mục cơ sở dữ liệu quốc gia trực tuyến, toàn trình.
+        4. Trường hợp đề nghị đưa cơ sở dữ liệu ra khỏi Danh mục cơ sở dữ liệu quốc gia, chủ quản
+cơ sở dữ liệu có văn bản đề nghị kèm theo thuyết minh lý do cơ sở dữ liệu không còn đáp ứng các
+yêu cầu tại khoản 1 Điều này.
+        5. Bộ Thông tin và Truyền thông chủ trì, phối hợp với các cơ quan có liên quan tổng hợp,
+đánh giá mức độ đáp ứng yêu cầu tại khoản 1 và khoản 2 Điều này, bảo đảm tính thống nhất, không
+trùng lặp trong phát triển dữ liệu và cơ sở dữ liệu quốc gia, trình cấp có thẩm quyền cập nhật, điều
+chỉnh Danh mục cơ sở dữ liệu quốc gia theo yêu cầu thực tiễn và nhu cầu ứng dụng công nghệ thông
+tin, chuyến đổi số, quản trị số, phát triển Chính phủ số, kinh tế số, xã hội số.
+        Điều 7.Mối quan hệ giữa cơ sở dữ liệu quốc gia với cơ sở dữ liệu của bộ, ngành, địa
+phương
+        1. Cơ sở dữ liệu quốc gia và cơ sở dữ liệu của bộ, ngành, địa phương tuân thủ Khung kiến
+trúc dữ liệu quy định bởi Khung kiến trúc Chính phủ điện tử Việt Nam.
+        2. Cơ sở dữ liệu của bộ, ngành, địa phương được lưu trữ, khai thác, sử dụng dữ liệu chủ của
+cơ sở dữ liệu quốc gia thuộc phạm vi, thẩm quyền quản lý nhà nước của bộ, ngành, địa phương
+mình theo quy định về kết nối, chia sẻ dữ liệu, bảo đảm tính cập nhật, đồng bộ dữ liệu với cơ sở dữ
+liệu quốc gia và yêu cầu an toàn thông tin mạng, an ninh mạng.
+        3. Chủ quản cơ sở dữ liệu của bộ, ngành, địa phương thu thập dữ liệu chủ của cơ sở dữ liệu
+quốc gia phải đáp ứng một trong các yêu cầu sau:
+        a) Dữ liệu chủ thuộc phạm vi, thẩm quyền quản lý nhà nước của bộ, ngành, địa phương đó
+và là nguồn dữ liệu của cơ sở dữ liệu quốc gia;
+        b) Là cơ quan chịu trách nhiệm cập nhật và điều chỉnh dữ liệu chủ.
+        4. Trường hợp cơ sở dữ liệu quốc gia chưa được xây dựng, bộ, ngành, địa phương được
+thực hiện thu thập dữ liệu và đưa vào cơ sở dữ liệu của bộ, ngành, địa phương, sẵn sàng phục vụ
+tích hợp vào cơ sở dữ liệu quốc gia.
+        5. Bộ trưởng Bộ Thông tin và Truyền thông chủ trì, phối hợp với các bộ, ngành, địa phương
+và cơ quan liên quan hướng dẫn, duy trì, cập nhật, tổ chức xây dựng và triển khai khung kiến trúc dữ
+liệu, làm cơ sở tham chiếu cho hoạt động xây dựng, cập nhật, duy trì, khai thác và sử dụng dữ liệu và
+cơ sở dữ liệu trên phạm vi toàn quốc.
+                                             Chương III
+                        XÂY DỰNG, CẬP NHẬT, DUY TRÌ VÀ KHAI THÁC,
+                                   SỬ DỤNG CƠ SỞ DỮ LIỆU QUỐC GIA
+        Điều 8. Yếu tố cơ bản của cơ sở dữ liệu quốc gia
+        1. Các bên liên quan bao gồm:
+        a) Chủ quản cơ sở dữ liệu quốc gia;
+        b) Đơn vị cung cấp, duy trì dữ liệu trong cơ sở dữ liệu quốc gia;
+        c) Đơn vị vận hành hệ thống thông tin cơ sở dữ liệu quốc gia;
+        d) Các bên liên quan đến việc kết nối, chia sẻ dữ liệu từ cơ sở dữ liệu quốc gia.
+        2. Các hoạt động liên quan bao gồm:
+        a) Xây dựng hệ thống thông tin cơ sở dữ liệu quốc gia;
+        b) Thu thập dữ liệu ban đầu;
+        c) Duy trì, cập nhật dữ liệu;
+        d) Duy trì, vận hành hệ thống thông tin cơ sở dữ liệu quốc gia;
+        đ) Kết nối, khai thác và sử dụng dữ liệu;
+
+        e) Quản trị dữ liệu.
+        3. Các thành phần liên quan bao gồm:
+        a) Dữ liệu;
+        b) Cơ sở dữ liệu;
+        c) Hệ quản trị cơ sở dữ liệu;
+        d) Kiến trúc tổng thể, gồm kiến trúc dữ liệu, kiến trúc hệ thống và các tài liệu kiến trúc khác;
+        đ) Hệ thống thông tin cơ sở dữ liệu.
+        4. Bộ trưởng Bộ Thông tin và Truyền thông hướng dẫn chi tiết về yếu tố cơ bản của cơ sở dữ
+liệu quốc gia.
+        Điều 9. Xây dựng cơ sở dữ liệu quốc gia
+        1. Xây dựng cơ sở dữ liệu quốc gia bao gồm các hoạt động:
+        a) Thiết kế kiến trúc dữ liệu phù hợp với Khung kiến trúc Chính phủ điện tử Việt Nam;
+        b) Thiết lập hệ thống thông tin cơ sở dữ liệu quốc gia bao gồm hạ tầng kỹ thuật, phần cứng,
+nền tảng, phần mềm, ứng dụng thông qua việc đầu tư, hoặc thuê dịch vụ hoặc sử dụng hệ thống
+thông tin sẵn có, bảo đảm không trùng lặp, chồng chéo, lãng phí;
+        c) Thu thập dữ liệu, tạo lập dữ liệu, chuẩn hóa dữ liệu để hình thành cơ sở dữ liệu;
+        d) Các hoạt động khác theo quy định pháp luật.
+        2. Thu thập, tạo lập dữ liệu phục vụ xây dựng cơ sở dữ liệu quốc gia
+        Dữ liệu, thông tin phục vụ xây dựng cơ sở dữ liệu quốc gia được thu thập, tạo lập từ các
+nguồn sau:
+        a) Thu thập trực tiếp từ hoạt động nghiệp vụ thông qua các hệ thống thông tin, nền tảng, ứng
+dụng, phần mềm nghiệp vụ;
+        b) Khai thác, chia sẻ từ các cơ sở dữ liệu quốc gia khác;
+        c) Trích, chọn và đồng bộ hóa dữ liệu liên quan từ các cơ sở dữ liệu chuyên ngành, cơ sở dữ
+liệu dùng chung của bộ, ngành, địa phương;
+        d) Từ số hóa, chuẩn hóa thông tin từ hồ sơ quản lý của cơ quan nhà nước;
+        đ) Từ các nguồn khác theo quy định pháp luật chuyên ngành.
+        3. Yêu cầu về thu thập, tạo lập và chuẩn hóa dữ liệu phục vụ xây dựng cơ sở dữ liệu quốc
+gia
+        a) Việc tạo lập dữ liệu trong cơ sở dữ liệu quốc gia phải sử dụng thống nhất các bảng mã
+danh mục dùng chung do cơ quan có thẩm quyền ban hành;
+        b) Chủ quản cơ sở dữ liệu quốc gia không được thu thập, tổ chức thu thập lại dữ liệu hoặc
+yêu cầu tổ chức, cá nhân cung cấp lại dữ liệu mà cơ quan mình đang quản lý hoặc dữ liệu đó được
+cơ quan nhà nước khác sẵn sàng kết nối, chia sẻ, trừ trường hợp yêu cầu cung cấp dữ liệu phục vụ
+cập nhật hoặc sử dụng cho mục đích xác minh, thẩm tra dữ liệu hoặc dữ liệu đó không bảo đảm yêu
+cầu về chất lượng theo tiêu chuẩn, quy chuẩn kỹ thuật hoặc pháp luật có quy định khác;
+        c) Thông tin chỉ được tạo lập và nhập vào cơ sở dữ liệu quốc gia khi thông tin đó được kiểm
+tra là chính xác;
+        d) Tuân  thủ quy định   về thu  thập, tạo lập và  chuẩn  hóa  dữ liệu  theo  Nghị định  số
+47/2020/NĐ-CP ngày 09 tháng 4 năm 2020 của Chính phủ về quản lý, kết nối và chia sẻ dữ liệu số
+của cơ quan nhà nước.
+        4. Việc xây dựng cơ sở dữ liệu quốc gia phải tuân thủ tiêu chuẩn, quy chuẩn kỹ thuật về ứng
+dụng công nghệ thông tin; tuân thủ các quy định về đầu tư, ứng dụng công nghệ thông tin; kết nối,
+chia sẻ dữ liệu; an toàn thông tin mạng; an ninh mạng và các quy định pháp luật liên quan khác.
+        Điều 10. Cập nhật thông tin trong cơ sở dữ liệu quốc gia
+        1. Cập nhật thông tin trong cơ sở dữ liệu quốc gia bao gồm các hoạt động:
+
+        a) Bổ sung thông tin;
+        b) Điều chỉnh thông tin.
+        2. Nguồn cập nhật thông tin trong cơ sở dữ liệu quốc gia bao gồm:
+        a) Kết quả thực hiện thủ tục hành chính;
+        b) Đề xuất sửa đổi, bổ sung của cơ quan, tổ chức, cá nhân;
+        c) Từ các cơ sở dữ liệu khác có liên quan khi có thay đổi;
+        d) Nguồn khác theo quy định của pháp luật.
+        3. Trách nhiệm cập nhật thông tin trong cơ sở dữ liệu quốc gia của các cơ quan liên quan
+thực hiện theo quy định của pháp luật chuyên ngành.
+        4. Việc cập nhật thông tin trong cơ sở dữ liệu quốc gia từ nguồn kết quả thủ tục hành chính
+phải được đồng bộ giữa các cơ sở dữ liệu và thực hiện theo quy định của pháp luật về kết nối và chia
+sẻ dữ liệu.
+        5. Việc cập nhật thông tin trong cơ sở dữ liệu quốc gia khi có đề xuất sửa đổi, bổ sung của
+cơ quan, tổ chức, cá nhân hoặc khi phát hiện thông tin chưa chính xác thực hiện theo quy định của
+pháp luật chuyên ngành.
+        6. Việc cập nhật dữ liệu vào cơ sở dữ liệu quốc gia từ cơ sở dữ liệu của bộ, ngành, địa
+phương được thực hiện như sau:
+        a) Trường hợp cơ sở dữ liệu của bộ, ngành, địa phương đã kết nối với cơ sở dữ liệu quốc
+gia, dữ liệu được cập nhật, đồng bộ vào cơ sở dữ liệu quốc gia ngay khi kết thúc nghiệp vụ hoặc kết
+thúc quy trình thực hiện các thủ tục hành chính và dữ liệu được cập nhật vào cơ sở dữ liệu của bộ,
+ngành, địa phương.
+        Chủ quản cơ sở dữ liệu quốc gia và chủ quản cơ sở dữ liệu bộ, ngành, địa phương thiết lập
+công cụ, biện pháp để xác thực việc hoàn thành quá trình cập nhật, đồng bộ dữ liệu vào cơ sở dữ
+liệu quốc gia;
+        b) Trường hợp cơ sở dữ liệu của bộ, ngành, địa phương chưa kết nối với cơ sở dữ liệu quốc
+gia, cơ quan chịu trách nhiệm cập nhật dữ liệu có trách nhiệm chuyển dữ liệu ngay khi kết thúc
+nghiệp vụ hoặc kết thúc quy trình thực hiện các thủ tục hành chính. Chủ quản cơ sở dữ liệu quốc gia
+thiết lập kênh dữ liệu an toàn, bảo mật để nhận dữ liệu.
+        Điều 11. Duy trì cơ sở dữ liệu quốc gia
+        Việc duy trì cơ sở dữ liệu quốc gia gồm các hoạt động sau:
+        1. Tổ chức kiểm tra, đánh giá, duy trì dữ liệu trong cơ sở dữ liệu quốc gia theo quy định tại
+Điều 16 Nghị định số 47/2020/NĐ-CP.
+        2. Việc duy trì hoạt động, vận hành hệ thống thông tin cơ sở dữ liệu quốc gia phục vụ hoạt
+động cập nhật, khai thác và sử dụng cơ sở dữ liệu quốc gia thực hiện theo quy định của pháp luật về
+ứng dụng công nghệ thông tin, kết nối, chia sẻ dữ liệu, an toàn thông tin mạng, an ninh mạng.
+        3. Triển khai bảo đảm an toàn hệ thống thông tin cơ sở dữ liệu quốc gia đáp ứng yêu cầu tối
+thiểu cấp độ 4 theo quy định của pháp luật về an toàn thông tin mạng.
+        Điều 12. Khai thác và sử dụng cơ sở dữ liệu quốc gia
+        1. Đối tượng khai thác và sử dụng dữ liệu:
+        a) Các cơ quan quản lý nhà nước theo chức năng, nhiệm vụ khai thác, sử dụng dữ liệu trong
+cơ sở dữ liệu quốc gia phục vụ các hoạt động quản lý nhà nước theo thẩm quyền;
+        b) Cơ quan, tổ chức và cá nhân được phép khai thác và sử dụng thông tin của mình theo quy
+định pháp luật về quản lý, kết nối, chia sẻ dữ liệu số của cơ quan nhà nước và bảo vệ thông tin cá
+nhân, dữ liệu cá nhân;
+        c) Cơ quan, tổ chức và cá nhân thực hiện khai thác và sử dụng thông tin trong cơ sở dữ liệu
+quốc gia theo quy chế khai thác và sử dụng cơ sở dữ liệu quốc gia do chủ quản cơ sở dữ liệu quốc
+gia ban hành.
+        2. Cách thức khai thác và sử dụng dữ liệu:
+
+           a) Dữ liệu chia sẻ giữa các cơ sở dữ liệu quốc gia, giữa cơ sở dữ liệu quốc gia với cơ sở dữ
+liệu bộ, ngành, địa phương, hệ thống thông tin khác thực hiện theo hình thức chia sẻ mặc định; thông
+qua Nền tảng tích hợp, chia sẻ dữ liệu quốc gia và Nền tảng tích hợp, chia sẻ dữ liệu cấp bộ, tỉnh và
+các nền tảng khác theo quy định của pháp luật;
+             b) Cơ quan, tổ chức, cá nhân khai thác, sử dụng dữ liệu từ cơ sở dữ liệu quốc gia qua Cổng
+dữ liệu quốc gia, Cổng Dịch vụ công Quốc gia, Cổng Thông tin điện tử của chủ quản cơ sở dữ liệu
+quốc gia, ứng dụng định danh quốc gia, nền tảng định danh và xác thực điện tử và các phương tiện
+khác do cơ quan có thẩm quyền cung cấp;
+              c) Cơ quan, tổ chức và cá nhân có quyền trích xuất thông tin của mình trong cơ sở dữ liệu
+quốc gia;
+              d) Các dịch vụ chia sẻ dữ liệu quy định tại khoản 1 Điều này phải được khai báo, cập nhật
+vào Hệ thống quản lý dịch vụ chia sẻ dữ liệu quy định tại Điều 26 Nghị định số 47/2020/NĐ-CP.
+         3. Hệ thống thông tin kết nối, chia sẻ dữ liệu với cơ sở dữ liệu quốc gia phải đáp ứng các yêu
+cầu:
+            a) Triển khai bảo đảm an toàn thông tin mạng tối thiểu cấp độ 3 theo quy định của pháp luật
+về an toàn thông tin mạng;
+         b) Được kiểm tra, đánh giá an toàn thông tin mạng trước khi kết nối, chia sẻ dữ liệu với cơ sở
+dữ liệu quốc gia hoặc kiểm tra định kỳ, đột xuất theo quy định.
+        4. Quy chế khai thác và sử dụng cơ sở dữ liệu quốc gia
+                a) Người đứng đầu cơ quan chủ quản cơ sở dữ liệu quốc gia có trách nhiệm ban hành và tổ
+chức thực hiện Quy chế khai thác và sử dụng cơ sở dữ liệu quốc gia thuộc phạm vi quản lý (sau đây
+gọi là Quy chế);
+                    b) Căn cứ xây dựng Quy chế, bao gồm: chức năng, nhiệm vụ và tổ chức, bộ máy của chủ
+quản cơ sở dữ liệu quốc gia; mục tiêu xây dựng cơ sở dữ liệu quốc gia; thông tin về dữ liệu chủ của
+cơ sở dữ liệu quốc gia; phạm vi, quy mô dữ liệu trong cơ sở dữ liệu quốc gia; đối tượng và mục đích
+khai thác, sử dụng cơ sở dữ liệu quốc gia; phương thức chia sẻ dữ liệu từ cơ sở dữ liệu quốc gia;
+thực trạng và yêu cầu về khai thác và sử dụng cơ sở dữ liệu quốc gia;
+                 c) Nội dung chủ yếu của Quy chế, bao gồm: đối tượng và phạm vi khai thác, sử dụng; quy
+định cụ thể trách nhiệm, quyền hạn và nghĩa vụ của từng cơ quan, tổ chức, cá nhân có liên quan đến
+quản lý, duy trì dữ liệu, vận hành hệ thống thông tin cơ sở dữ liệu quốc gia, khai thác và sử dụng cơ
+sở dữ liệu quốc gia; điều kiện, yêu cầu, quy trình kết nối, chia sẻ dữ liệu; các hình thức khai thác dữ
+liệu; yêu cầu về sử dụng dữ liệu và tuân thủ quy định của pháp luật trong khai thác và sử dụng thông
+tin, dữ liệu; chế tài xử lý đối với hành vi vi phạm quy chế.
+        5. Cập nhật, đồng bộ, khai thác và sử dụng dữ liệu tại Trung tâm dữ liệu quốc gia
+             a) Các cơ sở dữ liệu quốc gia phải đồng bộ, cập nhật dữ liệu về Trung tâm dữ liệu quốc gia
+bảo đảm quy định về kết nối, chia sẻ dữ liệu và yêu cầu an toàn thông tin mạng, an ninh mạng;
+        b) Dữ liệu từ các cơ sở dữ liệu quốc gia sau khi được đồng bộ về Trung tâm dữ liệu quốc gia
+tạo thành Cơ sở dữ liệu tổng hợp quốc gia và là cơ sở dữ liệu thuộc Danh mục cơ sở dữ liệu quốc
+gia. Thủ tướng Chính phủ quyết định phạm vi dữ liệu đồng bộ theo quy định tại khoản này;
+              c) Dữ liệu sau khi được đồng bộ về Cơ sở dữ liệu tổng hợp quốc gia được khai thác tại kho
+dữ liệu mở, kho dữ liệu dùng chung phục vụ các bộ, ban, ngành, địa phương và người dân, doanh
+nghiệp khai thác, sử dụng theo quy định của pháp luật, góp phần thúc đẩy phát triển kinh tế - xã hội;
+             d) Dữ liệu được đồng bộ về Trung tâm dữ liệu quốc gia có giá trị khai thác, sử dụng như dữ
+liệu gốc của các bộ, ngành khi bảo đảm dữ liệu được cập nhật, đồng nhất với dữ liệu tương ứng tại
+các cơ sở dữ liệu quốc gia và tuân thủ quy định của pháp luật chuyên ngành.
+             6. Việc khai thác và sử dụng cơ sở dữ liệu quốc gia tuân thủ quy định của pháp luật về bảo
+vệ thông tin cá nhân; bảo vệ dữ liệu cá nhân; bảo vệ bí mật nhà nước; an toàn thông tin mạng; an
+ninh mạng.
+        Điều 13. Quản lý cơ sở dữ liệu quốc gia
+               1. Chính phủ thống nhất quản lý cơ sở dữ liệu quốc gia. Chính phủ giao bộ, cơ quan ngang
+bộ, cơ quan thuộc Chính phủ làm chủ quản cơ sở dữ liệu quốc gia theo chức năng, nhiệm vụ được
+
+phân công.
+             2. Dữ liệu trong cơ sở dữ liệu quốc gia thuộc phạm vi quản lý nhà nước của cơ quan nào, cơ
+quan đó chịu trách nhiệm bảo đảm tính cập nhật, toàn vẹn của dữ liệu.
+        3. Quản lý, quản trị dữ liệu của cơ sở dữ liệu quốc gia
+        Các hoạt động quản lý, quản trị dữ liệu của cơ sở dữ liệu quốc gia bao gồm:
+        a) Quản trị dữ liệu theo quy định tại Điều 14 Nghị định số 47/2020/NĐ-CP;
+         b) Quản lý kiến trúc dữ liệu, bao gồm thiết kế và duy trì cơ sở hạ tầng dữ liệu để hỗ trợ tích
+hợp dữ liệu, chất lượng dữ liệu và khả năng truy cập dữ liệu;
+          c) Quản lý, thiết kế và mô hình dữ liệu, bao gồm xác định cấu trúc dữ liệu và các mối quan hệ
+để hỗ trợ các quy trình và mục tiêu xây dựng, khai thác dữ liệu trong cơ sở dữ liệu quốc gia;
+        d) Lưu trữ và vận hành dữ liệu, bao gồm bảo đảm dữ liệu được lưu trữ hiệu quả, an toàn và
+hỗ trợ tính khả dụng và hiệu suất khai thác dữ liệu;
+           đ) An toàn dữ liệu, bao gồm bảo vệ dữ liệu khỏi bị truy cập, tiết lộ hoặc sử dụng trái phép,
+bảo vệ thông tin cá nhân, bảo vệ dữ liệu cá nhân và bảo đảm tuân thủ các quy định khác về an toàn
+dữ liệu;
+        e) Quản lý việc tích hợp và tương tác dữ liệu, bao gồm kết nối, đồng bộ dữ liệu từ các nguồn
+khác nhau và bảo đảm khả năng dữ liệu trong cơ sở dữ liệu quốc gia có thế được kết nối, chia sẻ với
+các cơ sở dữ liệu, hệ thống thông tin khác của các bộ, ngành, địa phương;
+        g) Quản lý dữ liệu chủ bao gồm lựa chọn công nghệ, công cụ và quy trình nhằm bảo đảm dữ
+liệu chủ trong cơ sở dữ liệu quốc gia được thu thập, cập nhật, khai thác và sử dụng chính xác, nhất
+quán và đầy đủ;
+              h) Quản lý chất lượng dữ liệu, bao gồm bảo đảm dữ liệu chính xác, đầy đủ, kịp thời và phù
+hợp với yêu cầu nghiệp vụ.
+                                            Chương IV
+                           BẢO ĐẢM HOẠT ĐỘNG CỦA CƠ SỞ DỮ LIỆU QUỐC GIA
+        Điều 14. Bảo đảm hạ tầng kỹ thuật
+        1. Trung tâm dữ liệu quốc gia do cơ quan nhà nước chủ trì xây dựng, quản lý, khai thác và
+vận hành để phục vụ cơ sở dữ liệu quốc gia; phục vụ cơ sở dữ liệu dùng chung khác theo quy định
+của pháp luật. Thủ tướng Chính phủ hoặc cấp có thẩm quyền phê duyệt Đề án Trung tâm dữ liệu
+quốc gia phù hợp với quy hoạch hạ tầng thông tin và truyền thông; định hướng chuyển đổi số quốc
+gia, phát triển Chính phủ điện tử, Chính phủ số, kinh tế số và xã hội số.
+           2. Trung tâm dữ liệu quốc gia đáp ứng yêu cầu tối thiểu hạng III theo Tiêu chuẩn quốc gia về
+Trung tâm dữ liệu - Yêu cầu hạ tầng kỹ thuật viễn thông và yêu cầu tối thiểu mức 3 theo tiêu chuẩn
+quốc tế phổ biến. Bộ Thông tin và Truyền thông ban hành quy định về yêu cầu kỹ thuật và hướng dẫn
+áp dụng tiêu chuẩn, quy chuẩn kỹ thuật đối với Trung tâm dữ liệu quốc gia tại khoản 1 Điều này.
+        3. Trung tâm dữ liệu quốc gia cung cấp các loại dịch vụ sau:
+                  a) Dịch vụ hạ tầng nhà trạm, chỗ đặt máy chủ, cung cấp không gian hạ tầng chỗ đặt, hệ
+thống điện, điều hòa và các thiết bị liên quan khác để triển khai hệ thống thông tin cơ sở dữ liệu quốc
+gia, cho phép chủ quản cơ sở dữ liệu quốc gia, cơ quan, tổ chức có nhu cầu chủ động sử dụng, kiểm
+soát hệ thống của mình, theo hình thức sử dụng không gian chung hoặc theo khu riêng, tuân thủ quy
+định về quản lý, vận hành Trung tâm dữ liệu quốc gia;
+        b) Dịch vụ cung cấp máy chủ, thiết bị mạng, an toàn thông tin mạng, an ninh mạng, bảo mật
+hoặc lưu trữ với cấu hình đa dạng, không gian chỗ đặt tương ứng tại các Trung tâm dữ liệu quốc gia,
+phù hợp với nhu cầu của chủ quản cơ sở dữ liệu quốc gia, cơ quan, tổ chức có nhu cầu;
+        c) Dịch vụ triển khai và vận hành hạ tầng kỹ thuật phục vụ cơ sở dữ liệu quốc gia và hệ thống
+thông tin cơ sở dữ liệu quốc gia, cơ sở dữ liệu và hệ thống thông tin khác.
+        4. Chủ quản cơ sở dữ liệu quốc gia lựa chọn sử dụng dịch vụ trung tâm dữ liệu cung cấp bởi
+Trung tâm dữ liệu quốc gia theo quy định tại khoản 3 Điều này, bảo đảm phù hợp với hiện trạng, yêu
+cầu nghiệp vụ, quy định về đầu tư dự án công nghệ thông tin sử dụng vốn ngân sách nhà nước.
+
+               5. Thủ tướng Chính phủ ban hành Quy chế quản lý, vận hành và khai thác Trung tâm dữ liệu
+quốc gia; quy định về các điều kiện bảo đảm nguồn lực phục vụ xây dựng, quản trị, vận hành, khai
+thác Trung tâm dữ liệu quốc gia.
+        Điều 15. Bảo đảm nhân lực
+        1. Chủ quản cơ sở dữ liệu quốc gia có trách nhiệm bảo đảm nhân lực phục vụ quản lý, xây
+dựng, cập nhật, duy trì, khai thác và sử dụng cơ sở dữ liệu quốc gia. Trường hợp nhân lực tại chỗ
+không đáp ứng được, thì được thuê chuyên gia, tổ chức theo quy định của pháp luật.
+                 2. Chủ quản cơ sở dữ liệu quốc gia được thuê chuyên gia từ ngân sách nhà nước hằng năm
+theo quy định của pháp luật để tư vấn xây dựng cơ sở dữ liệu; thực hiện các hoạt động chuyên môn
+kỹ thuật về quản lý, vận hành, bảo đảm an toàn thông tin mạng cho hệ thống thông tin cơ sở dữ liệu
+quốc gia.
+        Điều 16. Bảo đảm kinh phí
+         1. Kinh phí xây dựng, cập nhật, duy trì, khai thác và sử dụng cơ sở dữ liệu quốc gia thực hiện
+theo quy định pháp luật về quản lý đầu tư ứng dụng công nghệ thông tin sử dụng nguồn vốn ngân
+sách nhà nước và kinh phí chi hoạt động ứng dụng công nghệ thông tin sử dụng kinh phí thường
+xuyên thuộc nguồn vốn ngân sách nhà nước và quy định pháp luật về các khoản thu hợp pháp khác.
+Kinh phí duy trì cơ sở dữ liệu quốc gia gồm kinh phí duy trì cơ sở dữ liệu quốc gia và kinh phí duy trì
+cơ sở dữ liệu của bộ, ngành, địa phương là nguồn thông tin của cơ sở dữ liệu quốc gia.
+              2. Cơ quan quản lý, vận hành Trung tâm dữ liệu quốc gia sử dụng kinh phí cấp từ ngân sách
+nhà nước, từ nguồn thu phí dịch vụ khai thác Trung tâm dữ liệu quốc gia theo quy định của Luật Phí
+và lệ phí và kinh phí khác theo quy định của pháp luật để phục vụ xây dựng, nâng cấp, vận hành
+Trung tâm dữ liệu quốc gia và hạ tầng công nghệ thông tin dùng chung các cơ sở dữ liệu quốc gia tại
+Trung tâm dữ liệu quốc gia.
+                 3. Chủ quản cơ sở dữ liệu quốc gia, cơ sở dữ liệu chuyên ngành sử dụng kinh phí cấp từ
+ngân sách nhà nước, từ nguồn thu phí dịch vụ khai thác cơ sở dữ liệu và lệ phí, kinh phí khác theo
+quy định của pháp luật để phục vụ xây dựng, cập nhật, quản lý và duy trì cơ sở dữ liệu, trừ kinh phí
+đã được cấp phục vụ hạ tầng công nghệ thông tin dùng chung tương ứng đã cấp tại khoản 2 Điều
+này.
+                  4. Bố trí kinh phí từ nguồn ngân sách nhà nước, nguồn thu hợp pháp khác để đầu tư xây
+dựng các cơ sở dữ liệu quốc gia; phân bổ kinh phí thường xuyên bảo đảm hoạt động thu thập thông
+tin, cập nhật, duy trì cơ sở dữ liệu quốc gia theo quy định của pháp luật về ngân sách nhà nước và
+pháp luật về đầu tư công.
+                                             Chương V
+                            TRÁCH NHIỆM QUẢN LÝ CƠ SỞ DỮ LIỆU QUỐC GIA
+        Điều 17. Trách nhiệm của chủ quản cơ sở dữ liệu quốc gia
+            1. Chủ trì xây dựng, duy trì cơ sở dữ liệu quốc gia, cập nhật dữ liệu thuộc phạm vi quản lý
+vào cơ sở dữ liệu quốc gia và bảo đảm hoạt động liên tục, ổn định, thông suốt đáp ứng yêu cầu khai
+thác và sử dụng của các cơ quan, tổ chức, cá nhân theo quy định của pháp luật.
+              2. Thực hiện trách nhiệm chủ quản hệ thống thông tin cơ sở dữ liệu quốc gia theo quy định
+tại Điều 25 Luật An toàn thông tin mạng ngày 19 tháng 11 năm 2015, Điều 20 Nghị định số
+85/2016/NĐ-CP ngày 01 tháng 7 năm 2016 của Chính phủ về bảo đảm an toàn hệ thống thông tin
+theo cấp độ và thực hiện trách nhiệm chủ quản hệ thống thông tin quan trọng về an ninh quốc gia
+theo Luật An ninh mạng ngày 12 tháng 6 năm 2018 khi hệ thống thông tin cơ sở dữ liệu quốc gia
+được xác định là hệ thống thông tin quan trọng về an ninh quốc gia.
+            3. Phân công đơn vị quản lý, duy trì dữ liệu; bảo đảm tổ chức bộ máy, quản lý nhân lực; thu
+hút, tuyển dụng, đào tạo, bồi dưỡng, thuê nhân lực phục vụ xây dựng, cập nhật, duy trì, khai thác và
+sử dụng cơ sở dữ liệu quốc gia thuộc phạm vi quản lý.
+           4. Đảm bảo điều kiện hạ tầng phục vụ kết nối, chia sẻ dữ liệu theo quy định tại Điều 27 Nghị
+định số 47/2020/NĐ-CP; thực hiện kết nối, chia sẻ dữ liệu của cơ sở dữ liệu quốc gia với cơ sở dữ
+liệu, hệ thống thông tin khác qua Nền tảng tích hợp, chia sẻ dữ liệu quốc gia và Nền tảng tích hợp,
+chia sẻ dữ liệu cấp bộ, tỉnh; cung cấp dữ liệu từ cơ sở dữ liệu quốc gia lên Cổng dữ liệu quốc gia
+phục vụ cơ quan, tổ chức và cá nhân khai thác thông tin theo các quy định tại Nghị định số
+
+47/2020/NĐ-CP.
+        5. Chủ trì, phối hợp với Bộ Thông tin và Truyền thông bảo đảm an toàn thông tin mạng, bảo
+vệ hệ thống thông tin theo quy định của pháp luật về an toàn thông tin mạng.
+             6. Chủ trì, phối hợp với chủ quản Trung tâm dữ liệu quốc gia xây dựng kế hoạch, lộ trình và
+đề xuất kinh phí để chuyển hệ thống thông tin cơ sở dữ liệu quốc gia về Trung tâm dữ liệu quốc gia,
+bảo đảm an toàn, không lãng phí.
+        7. Bộ trưởng, Thủ trưởng cơ quan chủ quản cơ sở dữ liệu quốc gia:
+            a) Chủ trì, phối hợp với các cơ quan có liên quan xây dựng thuyết minh đề xuất cơ sở dữ liệu
+quốc gia theo quy định tại Điều 6 của Nghị định này; phối hợp với các cơ quan chủ quản cơ sở dữ
+liệu quốc gia khác, các bộ, ngành, địa phương để bảo đảm cơ sở dữ liệu quốc gia được đề xuất đáp
+ứng yêu cầu, tổ chức thống nhất, được phân cấp quản lý theo trách nhiệm quản lý của cơ quan nhà
+nước;
+            b) Hướng dẫn quy trình thu thập, cập nhật, điều chỉnh thông tin trong cơ sở dữ liệu quốc gia
+thuộc phạm vi quản lý;
+                c) Chủ trì, phối hợp với Bộ trưởng Bộ Thông tin và Truyền thông và các cơ quan liên quan
+xây dựng, ban hành theo thẩm quyền quy định kỹ thuật về cấu trúc dữ liệu trao đổi, kết nối, chia sẻ
+cơ sở dữ liệu quốc gia với cơ sở dữ liệu của các bộ, ngành, địa phương; quy chế khai thác và sử
+dụng dữ liệu của cơ sở dữ liệu quốc gia thuộc phạm vi quản lý;
+                  d) Chủ trì xây dựng, ban hành hoặc trình cấp thẩm quyền ban hành văn bản quy phạm pháp
+luật quy định cơ quan được trích xuất dữ liệu chủ từ cơ sở dữ liệu quốc gia. Dữ liệu chủ trong cơ sở
+dữ liệu quốc gia có giá trị sử dụng chính thức, tương đương văn bản giấy được cơ quan có thẩm
+quyền cung cấp, trừ trường hợp pháp luật có quy định khác.
+        Điều 18. Trách nhiệm của đơn vị quản lý, duy trì dữ liệu
+            1. Tham mưu, tổ chức thực thi, giám sát các chính sách, quy định, kiểm tra, giám sát dữ liệu
+của cơ sở dữ liệu quốc gia.
+        2. Thực hiện quản trị dữ liệu; quản lý thiết kế và mô hình hóa dữ liệu; quản lý việc tích hợp và
+tương tác dữ liệu; quản lý chất lượng dữ liệu; an toàn dữ liệu; quản lý dữ liệu chủ của cơ sở dữ liệu
+quốc gia.
+        Điều 19. Trách nhiệm của đơn vị vận hành hệ thống thông tin cơ sở dữ liệu quốc gia
+                 1. Vận hành hạ tầng kỹ thuật, phần cứng, phần mềm, nền tảng, ứng dụng, hệ thống mạng để
+bảo đảm duy trì hoạt động bình thường của hệ thống thông tin cơ sở dữ liệu quốc gia phục vụ thu
+thập, cập nhật, duy trì, khai thác và sử dụng cơ sở dữ liệu quốc gia. Trường hợp đơn vị vận hành hệ
+thống thông tin cơ sở dữ liệu quốc gia là tổ chức, doanh nghiệp được đơn vị chủ quản thuê thực hiện
+vận hành, thì không được quản lý tài khoản quản trị hệ thống thông tin và tài khoản quản trị cơ sở dữ
+liệu.
+               2. Thực hiện trách nhiệm của đơn vị vận hành hệ thống thông tin theo quy định tại Điều 22
+Nghị định số 85/2016/NĐ-CP ngày 01 tháng 7 năm 2016 của Chính phủ về bảo đảm an toàn hệ thống
+thông tin theo cấp độ.
+        Điều 20. Trách nhiệm của Bộ Thông tin và Truyền thông
+           1. Xây dựng, quản lý, vận hành và duy trì Nền tảng tích hợp, chia sẻ dữ liệu quốc gia phục vụ
+kết nối giữa các cơ sở dữ liệu quốc gia và cơ sở dữ liệu quốc gia với cơ sở dữ liệu của bộ, ngành,
+địa phương, hệ thống thông tin khác; quản lý danh mục dịch vụ dữ liệu trong cơ quan nhà nước.
+        2. Điều phối kết nối các cơ sở dữ liệu quốc gia với Cổng dữ liệu quốc gia, Hệ thống quản lý
+dịch vụ chia sẻ dữ liệu để phục vụ các cơ quan nhà nước thực hiện các thủ tục yêu cầu và xử lý yêu
+cầu kết nối, chia sẻ dữ liệu theo quy định tại Nghị định số 47/2020/NĐ-CP.
+             3. Bộ trưởng Bộ Thông tin và Truyền thông chủ trì, phối hợp với chủ quản cơ sở dữ liệu quốc
+gia và các cơ quan liên quan xây dựng, ban hành hoặc gửi cơ quan có thẩm quyền ban hành quy
+định, tiêu chuẩn, quy chuẩn kỹ thuật chung về công nghệ thông tin phục vụ xây dựng, khai thác và sử
+dụng cơ sở dữ liệu quốc gia.
+                4. Chủ trì, phối hợp với các cơ quan chủ quản cơ sở dữ liệu quốc gia và các cơ quan liên
+quan thiết lập danh mục dữ liệu chủ trong cơ quan nhà nước, cơ sở dữ liệu tập trung chứa thông tin
+
+về dữ liệu chủ, mối liên kết dữ liệu chủ giữa các cơ sở dữ liệu quốc gia; xây dựng, ban hành hoặc
+trình cấp có thẩm quyền ban hành quy định về kiến trúc dữ liệu chủ.
+             5. Chủ trì, phối hợp với cơ quan liên quan đào tạo, hình thành mạng lưới các chuyên gia về
+xây dựng, cập nhật, duy trì, khai thác và sử dụng cơ sở dữ liệu quốc gia; chuyên gia về điện toán
+đám mây, phân tích dữ liệu phục vụ phát triển Chính phủ điện tử, Chính phủ số, kinh tế số và xã hội
+số theo chức năng, nhiệm vụ được giao.
+           6. Tổ chức hướng dẫn, kiểm tra, đánh giá định kỳ việc tuân thủ các quy định của pháp luật về
+xây dựng, cập nhật, duy trì, khai thác và sử dụng cơ sở dữ liệu quốc gia; phối hợp giám sát, ứng cứu
+sự cố an toàn thông tin mạng các hệ thống cơ sở dữ liệu quốc gia theo quy định của pháp luật.
+        Điều 21. Trách nhiệm của chủ quản Trung tâm dữ liệu quốc gia
+              1. Trình Thủ tướng Chính phủ ban hành quy chế quản lý và khai thác Trung tâm dữ liệu quốc
+gia.
+             2. Xây dựng, triển khai các giải pháp bảo đảm an toàn thông tin mạng, an ninh mạng đối với
+hạ tầng kỹ thuật dùng chung tại Trung tâm dữ liệu quốc gia.
+            3. Chủ trì, phối hợp với Bộ Thông tin và Truyền thông định kỳ đánh giá hạ tầng Trung tâm dữ
+liệu quốc gia.
+        4. Phối hợp với Bộ Thông tin và Truyền thông điều phối việc kết nối, chia sẻ dữ liệu; theo dõi,
+kiểm tra, đánh giá hoạt động việc duy trì, khai thác cơ sở dữ liệu quốc gia đặt tại Trung tâm dữ liệu
+quốc gia.
+        Điều 22. Trách nhiệm của Bộ Tài chính
+               Tổng hợp, trình cấp thẩm quyền bố trí kinh phí thường xuyên cho hoạt động thu thập thông
+tin, cập nhật, duy trì cơ sở dữ liệu quốc gia và Trung tâm dữ liệu quốc gia.
+        Điều 23. Trách nhiệm của Bộ Kế hoạch và Đầu tư
+                Phối hợp với Bộ Tài chính tổng hợp, bố trí nguồn vốn đầu tư từ nguồn ngân sách nhà nước
+để xây dựng, mở rộng và nâng cấp các cơ sở dữ liệu quốc gia theo quy định của Luật Đầu tư công,
+Luật Ngân sách nhà nước.
+                       Điều 24. Trách nhiệm của các bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ và Ủy
+ban nhân dân các tỉnh, thành phố trực thuộc trung ương
+          1. Cập nhật thông tin, bố trí kinh phí để thực hiện cập nhật thông tin vào cơ sở dữ liệu quốc
+gia thuộc phạm vi quản lý theo quy định tại Điều 10 Nghị định này.
+        2. Kết nối, chia sẻ dữ liệu trong cơ sở dữ liệu quốc gia, cơ sở dữ liệu chuyên ngành, cơ sở
+dữ liệu dùng chung thuộc phạm vi quản lý với cơ sở dữ liệu quốc gia khác.
+             3. Rà soát các quy định, thủ tục thuộc phạm vi, chức năng quản lý để đơn giản hóa giấy tờ,
+thủ tục hành chính trên cơ sở sử dụng dữ liệu từ cơ sở dữ liệu quốc gia.
+             4. Đề xuất bổ sung, cập nhật, điều chỉnh danh mục cơ sở dữ liệu quốc gia theo khoản 2 Điều
+6 của Nghị định này phù hợp nhu cầu ứng dụng công nghệ thông tin, chuyển đổi số của từng giai
+đoạn phát triển Chính phủ điện tử, Chính phủ số; kinh tế số và xã hội số thuộc phạm vi quản lý.
+           5. Chỉ đạo các cơ quan, đơn vị trực thuộc cung cấp thông tin, cập nhật biến động dữ liệu với
+cơ sở dữ liệu quốc gia và chịu trách nhiệm về độ chính xác, toàn vẹn các thông tin, dữ liệu này.
+                  6. Trường hợp đề xuất mới cơ sở dữ liệu quốc gia chưa có trong Danh mục cơ sở dữ liệu
+quốc gia vào văn bản quy phạm pháp luật chuyên ngành, cơ quan chủ trì đề xuất cần bảo đảm tuân
+thủ quy định tại khoản 1 Điều 6 Nghị định này, phải có văn bản thống nhất của Bộ Thông tin và
+Truyền thông.
+        Điều 25. Quyền và trách nhiệm của tổ chức, cá nhân
+              1. Được quyền khai thác, sử dụng dữ liệu từ cơ sở dữ liệu quốc gia theo quy định tại Nghị
+định này và quy chế khai thác và sử dụng cơ sở dữ liệu quốc gia.
+           2. Được quyền khiếu nại, tố cáo theo quy định của pháp luật khiếu nại, tố cáo khi bị vi phạm
+quyền khai thác, sử dụng dữ liệu của mình.
+                3. Tuân thủ các nguyên tắc quy định tại Điều 4 Nghị định này và các quy định của cấp có
+
+thẩm quyền về xây dựng, quản lý, khai thác, sử dụng cơ sở dữ liệu quốc gia.
+       4. Bảo đảm tính đầy đủ, chính xác của dữ liệu do mình cung cấp. Cập nhật, thông báo kịp
+thời cho cơ quan chủ quản cơ sở dữ liệu khi có sự thay đổi hoặc có sai sót đối với dữ liệu cung cấp.
+                                           Chương VI
+                                      ĐIỀU KHOẢN THI HÀNH
+       Điều 26. Quy định chuyển tiếp
+       1. Đối với các cơ sở dữ liệu quốc gia đã xây dựng trước thời điểm Trung tâm dữ liệu quốc
+gia quy định tại Điều 14 Nghị định này đi vào hoạt động:
+       a) Chuyển hệ thống thông tin cơ sở dữ liệu quốc gia về Trung tâm dữ liệu quốc gia đối với hệ
+thống thông tin cơ sở dữ liệu quốc gia đang đặt tại hạ tầng trung tâm dữ liệu của chủ quản cơ sở dữ
+liệu quốc gia không đáp ứng yêu cầu tối thiểu hạng II (hoặc tương đương) theo tiêu chuẩn quốc gia
+về trung tâm dữ liệu chậm nhất quý IV năm 2025. Trường hợp không đáp ứng được yêu cầu trên, cơ
+quan chủ quản cơ sở dữ liệu quốc gia báo cáo Thủ tướng Chính phủ quyết định;
+       b) Đối với cơ sở dữ liệu quốc gia hoạt động trên hạ tầng trung tâm dữ liệu đang thuê ngoài:
+chuyển hệ thống thông tin cơ sở dữ liệu quốc gia về Trung tâm dữ liệu quốc gia khi kết thúc hợp
+đồng thuê ngoài.
+       2. Đối với các cơ sở dữ liệu quốc gia đang được quy định tại các Luật và Nghị định hiện
+hành, chưa được cập nhật vào Danh mục cơ sở dữ liệu quốc gia: Trong vòng 01 năm kể từ ngày
+Nghị định này có hiệu lực, chủ quản cơ sở dữ liệu quốc gia chủ động rà soát, đáp ứng các yêu cầu
+quy định tại khoản 1 Điều 6 Nghị định này.
+       Điều 27. Điều khoản thi hành
+       1. Nghị định này có hiệu lực thi hành kể từ ngày ký ban hành.
+       2. Bãi bỏ các quy định sau đây:
+       a) Khoản 9 Điều 3; khoản 2 Điều 11; khoản 1 và khoản 3 Điều 12 Nghị định số 47/2020/NĐ-
+CP;
+       b) Điều 11 Nghị định số 64/2007/NĐ-CP ngày 10 tháng 4 năm 2007 của Chính phủ quy định
+về ứng dụng công nghệ thông tin trong hoạt động của cơ quan nhà nước.
+       3. Kể từ ngày Nghị định này có hiệu lực, các quy định về việc xây dựng, cập nhật, duy trì,
+khai thác và sử dụng cơ sở dữ liệu quốc gia chưa phù hợp với các quy định tại Nghị định này thì
+thống nhất áp dụng quy định tại Nghị định này.
+       Điều 28. Trách nhiệm thực hiện
+       Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ
+tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc trung ương và các cơ quan, tổ chức, cá nhân có
+liên quan chịu trách nhiệm thi hành Nghị định này.
+ Nơi nhận:                                                        TM. CHÍNH PHỦ
+ - Ban Bí thư Trung ương Đảng;                                    KT. THỦ TƯỚNG
+ - Thủ tướng, các Phó Thủ tướng Chính phủ;                        PHÓ THỦ TƯỚNG
+ - Các bộ, cơ quan ngang bộ, cơ quan thuộc
+ Chính phủ;
+ - HĐND, UBND các tỉnh, thành phố trực thuộc
+ trung ương;                                                    Trần Lưu Quang
+ - Văn phòng Trung ương và các Ban của Đảng;
+ - Văn phòng Tổng Bí thư;
+ - Văn phòng Chủ tịch nước;
+ - Hội đồng Dân tộc và các Ủy ban của Quốc hội;
+ - Văn phòng Quốc hội;
+ - Tòa án nhân dân tối cao;
+ - Viện kiểm sát nhân dân tối cao;
+ - Kiểm toán nhà nước;
+ - Ủy ban Giám sát tài chính quốc gia;
+
+- Ngân hàng Chính sách xã hội;
+- Ngân hàng Phát triển Việt Nam;
+- Ủy ban trung ương Mặt trận Tổ quốc Việt
+Nam;
+- Cơ quan trung ương của các đoàn thể;
+- Ủy ban Quốc gia về chuyển đổi số;
+- VPCP: BTCN, các PCN, Trợ lý TTg, TGĐ
+Cổng TTĐT, các Vụ, Cục, đơn vị trực thuộc,
+Công báo;
+- Lưu: VT, KSTT (2b).
+
+                                             Phụ lục
+                                 DANH MỤC CƠ SỞ DỮ LIỆU QUỐC GIA
+                               (Kèm theo Nghị định số 47/2024/NĐ-CP
+                             ngày 09 tháng 5 năm 2024 của Chính phủ)
+                                             ____________
+        I. CƠ SỞ DỮ LIỆU QUỐC GIA VỀ DÂN CƯ
+        1. Cơ quan chủ quản: Bộ Công an.
+        2. Mục tiêu xây dựng: Thiết lập cơ sở dữ liệu gốc về người dân để thống nhất dữ liệu dân cư
+trong các cơ quan nhà nước; sử dụng dữ liệu để thay thế các giấy tờ công dân trong các thủ tục
+hành chính; cải cách hành chính liên quan đến dân cư.
+        3. Phạm vi dữ liệu: Quy định tại khoản 6 Điều 3 Luật Căn cước năm 2023.
+        4. Thông tin về dữ liệu chủ sẽ lưu trữ và chia sẻ: Quy định tại khoản 1 Điều 9 Luật Căn cước
+công dân ngày 20 tháng 11 năm 2014.
+        5. Đối tượng và mục đích khai thác, sử dụng: Quy định tại khoản 1 Điều 9 Luật Căn cước
+công dân ngày 20 tháng 11 năm 2014.
+        6. Nguồn thông tin sẽ xây dựng và cập nhật: Quy định tại Điều 4 Nghị định số 137/2015/NĐ-
+CP ngày 31 tháng 12 năm 2015 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành
+Luật Căn cước công dân.
+        7. Phương thức chia sẻ dữ liệu từ cơ sở dữ liệu quốc gia:
+        Phương thức chia sẻ dữ liệu từ cơ sở dữ liệu quốc gia thực hiện theo quy định tại Nghị định
+số 47/2020/NĐ-CP ngày 09 tháng 4 năm 2020 của Chính phủ về quản lý, kết nối và chia sẻ dữ liệu số
+của cơ quan nhà nước và các quy định của pháp luật có liên quan; phù hợp với Khung Kiến trúc
+Chính phủ điện tử Việt Nam.
+        II. CƠ SỞ DỮ LIỆU QUỐC GIA VỀ ĐẤT ĐAI
+        1. Cơ quan chủ quản: Bộ Tài nguyên và Môi trường.
+        2. Mục tiêu xây dựng:
+        a) Phục vụ công tác quản lý nhà nước, cung cấp dịch vụ công về đất đai và chia sẻ thông tin
+đất đai với các cơ sở dữ liệu quốc gia khác, các hệ thống thông tin, cơ sở dữ liệu của cơ quan, tổ
+chức, cá nhân;
+        b) Tạo nền tảng dữ liệu phục vụ triển khai, vận hành Chính phủ điện tử hướng tới Chính phủ
+số, nền kinh tế số và xã hội số.
+        3. Phạm vi dữ liệu: Tập hợp các dữ liệu về đất đai có giá trị pháp lý, có tính chất tổng hợp
+cấp quốc gia.
+        4. Thông tin về dữ liệu chủ sẽ lưu trữ và chia sẻ:
+        a) Thông tin về thửa đất;
+        b) Thông tin khoanh đất hiện trạng;
+        c) Thông tin vùng quy hoạch sử dụng đất;
+        d) Siêu dữ liệu (dữ liệu đặc tả) đất đai;
+        đ) Danh mục dữ liệu đất đai dùng chung.
+        5. Đối tượng và mục đích khai thác, sử dụng:
+        a) Các cơ quan nhà nước trong công tác quản lý nhà nước, chuyên môn, nghiệp vụ và cung
+cấp dịch vụ công về đất đai; quy hoạch, định hướng phát triển kinh tế - xã hội, bảo đảm quốc phòng -
+an ninh, quy hoạch phát triển đô thị và xây dựng thành phố thông minh; xây dựng, vận hành Chính
+phủ điện tử;
+        b) Các tổ chức, cá nhân, hộ gia đình được cung cấp, khai thác, sử dụng dữ liệu theo quy
+định của pháp luật.
+        6. Nguồn thông tin sẽ xây dựng và cập nhật:
+
+        Nguồn thông tin để xây dựng và cập nhật vào cơ sở dữ liệu quốc gia về đất đai:
+        a) Dữ liệu địa chính: Từ cơ sở dữ liệu của địa phương, hồ sơ địa chính ở địa phương;
+        b) Dữ liệu thống kê, kiểm kê đất đai: Từ kết quả thống kê, kiểm kê đất đai được phê duyệt;
+        c) Dữ liệu quy hoạch, kế hoạch sử dụng đất: Từ kết quả quy hoạch, kế hoạch sử dụng đất
+được phê duyệt;
+        d) Dữ liệu giá đất: Từ kết quả xây dựng bảng giá đất, giá đất được giao dịch;
+        đ) Dữ liệu điều tra, quan trắc cơ bản về đất đai: Từ kết quả điều tra, quan trắc, đánh giá về
+chất lượng đất, thoái hóa đất, ô nhiễm đất và điều tra đánh giá tiềm năng đất đai;
+        e) Các nguồn dữ liệu khác gồm:
+        - Dữ liệu Giấy chứng nhận sai, hỏng, huỷ, thu hồi, mất;
+        - Dữ liệu về Giấy chứng nhận cấp cho người nước ngoài do địa phương báo cáo về Bộ Tài
+nguyên và Môi trường;
+        - Dữ liệu về tổ chức vi phạm pháp luật về đất đai được xác định do cơ quan có thẩm quyền
+công bố.
+        7. Phương thức chia sẻ dữ liệu từ cơ sở dữ liệu quốc gia:
+        Phương thức chia sẻ dữ liệu từ cơ sở dữ liệu quốc gia thực hiện theo quy định tại Nghị định
+số 47/2020/NĐ-CP ngày 09 tháng 4 năm 2020 của Chính phủ về quản lý, kết nối và chia sẻ dữ liệu số
+của cơ quan nhà nước và các quy định của pháp luật có liên quan; phù hợp với Khung Kiến trúc
+Chính phủ điện tử Việt Nam.
+        III. CƠ SỞ DỮ LIỆU QUỐC GIA VỀ ĐĂNG KÝ DOANH NGHIỆP
+        1. Cơ quan chủ quản: Bộ Kế hoạch và Đầu tư.
+        2. Mục tiêu xây dựng:
+        a) Cung cấp số liệu về doanh nghiệp phục vụ công tác quản lý nhà nước: xây dựng cơ chế,
+chính sách, chiến lược phát triển kinh tế - xã hội; phục vụ công tác quản lý nhà nước trong các lĩnh
+vực như: thuế, hải quan, bảo hiểm xã hội;
+        b) Cung cấp thông tin về doanh nghiệp cho xã hội góp phần thúc đẩy hoạt động sản xuất -
+kinh doanh, tạo lập môi trường kinh doanh minh bạch, hiệu quả kinh tế, thúc đẩy kinh tế chia sẻ.
+        3. Phạm vi dữ liệu:
+        Quy định tại khoản 4 Điều 3 Nghị định số 01/2021/NĐ-CP ngày 04 tháng 01 năm 2021 của
+Chính phủ về đăng ký doanh nghiệp và Nghị định số 108/2018/NĐ-CP ngày 23 tháng 8 năm 2018
+của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 78/2015/NĐ-CP ngày 14 tháng 9 năm
+2015 của Chính phủ về đăng ký doanh nghiệp. Cụ thể: Cơ sở dữ liệu quốc gia về đăng ký doanh
+nghiệp là tập hợp dữ liệu về đăng ký doanh nghiệp trên phạm vi toàn quốc. Thông tin trong hồ sơ
+đăng ký doanh nghiệp và tình trạng pháp lý của doanh nghiệp lưu giữ tại cơ sở dữ liệu quốc gia về
+đăng ký doanh nghiệp có giá trị pháp lý là thông tin gốc về doanh nghiệp.
+        4. Thông tin về dữ liệu chủ sẽ lưu trữ và chia sẻ:
+        - Các dữ liệu về doanh nghiệp: Tên doanh nghiệp; tên doanh nghiệp viết tắt; tình trạng hoạt
+động của doanh nghiệp; mã số doanh nghiệp; loại hình pháp lý; ngày thành lập doanh nghiệp; tên
+người đại diện pháp luật/chủ sở hữu doanh nghiệp; địa chỉ trụ sở chính; ngành nghề kinh doanh; vốn
+điều lệ.
+        - Dữ liệu khác: Bao gồm các thông tin trong lĩnh vực thành lập và hoạt động của doanh
+nghiệp được quy định tại Nghị định số 108/2018/NĐ-CP ngày 23 tháng 8 năm 2018 của Chính phủ về
+sửa đổi, bổ sung một số điều của Nghị định số 78/2015/NĐ-CP ngày 14 tháng 9 năm 2015 của Chính
+phủ về đăng ký doanh nghiệp, Thông tư số 20/2015/TT-BKHĐT ngày 01 tháng 12 năm 2015 của Bộ
+trưởng Bộ Kế hoạch và Đầu tư hướng dẫn về đăng ký doanh nghiệp và Thông tư số 02/2019/TT-
+BKHĐT ngày 08 tháng 01 năm 2019 của Bộ trưởng Bộ Kế hoạch và Đầu tư về sửa đổi, bổ sung một
+số điều của Thông tư số 20/2015/TT-BKHĐT.
+        5. Đối tượng và mục đích khai thác, sử dụng:
+
+       a) Cơ quan đăng ký kinh doanh: Thực hiện nghiệp vụ chuyên môn về đăng ký doanh nghiệp;
+       b) Cơ quan quản lý nhà nước ở trung ương và địa phương: thực hiện chức năng, nghiệp vụ
+quản lý nhà nước liên quan đến doanh nghiệp;
+       c) Tổng cục Thuế: Liên thông nghiệp vụ theo thời gian thực giữa cơ sở dữ liệu quốc gia về
+đăng ký doanh nghiệp với Hệ thống thông tin đăng ký thuế phục vụ việc cấp mã số doanh nghiệp;
+       d) Cổng Dịch vụ công Quốc gia: Đồng bộ trạng thái hồ sơ đăng ký doanh nghiệp;
+       đ) Cá nhân, doanh nghiệp: Thực hiện đăng ký doanh nghiệp, tra cứu, xác minh thông tin
+doanh nghiệp.
+       6. Nguồn thông tin sẽ xây dựng và cập nhật:
+       a) Hồ sơ đăng ký doanh nghiệp do cá nhân, tổ chức nộp trực tiếp tại Phòng Đăng ký kinh
+doanh hoặc nộp qua mạng điện tử và được Phòng Đăng ký kinh doanh ghi nhận hoặc chấp thuận
+vào cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp theo quy định của pháp luật;
+       b) Nguồn thông tin nhận từ các cơ quan nhà nước khác: Bộ Công an, Tổng cục Thuế - Bộ
+Tài chính, Bảo hiểm xã hội Việt Nam.
+       7. Phương thức chia sẻ dữ liệu từ cơ sở dữ liệu quốc gia:
+       Phương thức chia sẻ dữ liệu từ cơ sở dữ liệu quốc gia thực hiện theo quy định tại Nghị định
+số 47/2020/NĐ-CP ngày 09 tháng 4 năm 2020 của Chính phủ về quản lý, kết nối và chia sẻ dữ liệu số
+của cơ quan nhà nước và các quy định của pháp luật có liên quan; phù hợp với Khung Kiến trúc
+Chính phủ điện tử Việt Nam.
+       IV. CƠ SỞ DỮ LIỆU QUỐC GIA VỀ TÀI CHÍNH
+       1. Cơ quan chủ quản: Bộ Tài chính.
+       2. Mục tiêu xây dựng:
+       a) Nhằm bảo đảm tính liên kết, tích hợp, khả năng kết nối, chia sẻ thông tin, dữ liệu giữa các
+đơn vị trong ngành Tài chính, giữa Bộ Tài chính với các cơ quan, tổ chức, cá nhân ngoài ngành Tài
+chính; hỗ trợ xây dựng Chính phủ điện tử ngành Tài chính, hướng tới xây dựng Tài chính số (Digital
+Finance) dựa trên dữ liệu lớn và dữ liệu mở; tạo nền tảng cho ngành Tài chính tiếp cận, nắm vai trò
+chủ động, kiến tạo và thực hiện việc chuyển đổi sang nền Tài chính số hiện đại tại Việt Nam;
+       b) Là nơi tổng hợp, tích hợp các dữ liệu tài chính quốc gia từ các cơ sở dữ liệu chuyên
+ngành của Bộ Tài chính, các thông tin, dữ liệu chia sẻ từ các bộ, ngành để phát huy tối đa giá trị của
+dữ liệu phục vụ cho mục đích quản lý về tài chính.
+       3. Phạm vi dữ liệu:
+       Lưu trữ dữ liệu được tích hợp từ 07 nhóm nguồn dữ liệu chính ở mức độ chi tiết phù hợp,
+bao gồm: (i) Các Kho dữ liệu của Bộ Tài chính (Thuế; Hải quan; Thu chi ngân sách nhà nước; Kho
+bạc; Dự trữ nhà nước; Giá); (ii) Cơ sở dữ liệu chuyên ngành của Bộ Tài chính (Chứng khoán; Nợ
+công; Tài sản công; Bảo hiểm; Quản lý, giám sát vốn nhà nước tại doanh nghiệp; Danh mục điện tử
+dùng chung); (iii) Cơ sở dữ liệu từ các bộ, ngành khác; (iv) Dữ liệu mở; (v) Dữ liệu có cấu trúc bên
+ngoài; (vi) Dữ liệu phi cấu trúc; (vii) Dữ liệu văn bản của Bộ Tài chính.
+       4. Thông tin về dữ liệu chủ sẽ lưu trữ và chia sẻ:
+       a) Các dữ liệu chủ: Các dữ liệu tổng hợp của Kho bạc Nhà nước; các lĩnh vực thuế, hải
+quan, chứng khoán, giá, tài sản công;
+       b) Các dữ liệu chia sẻ: Các dữ liệu được Bộ Tài chính ban hành tại Quyết định số 1374/QĐ-
+BTC ngày 21 tháng 7 năm 2021 của Bộ Tài chính ban hành Danh mục cơ sở dữ liệu, Danh mục dữ
+liệu mở của Bộ Tài chính, Quyết định số 2198/QĐ-BTC ngày 10 tháng 10 năm 2023 sửa đổi, bổ sung
+Danh mục cơ sở dữ liệu, Danh mục dữ liệu mở ban hành kèm Quyết định số 1374/QĐ-BTC ngày 21
+tháng 7 năm 2021 của Bộ Tài chính; Quyết định số 2470/QĐ-BTC ngày 29 tháng 11 năm 2022 của
+Bộ Tài chính ban hành Danh mục dữ liệu chia sẻ theo hình thức mặc định của Bộ Tài chính và các
+văn bản sửa đổi, bổ sung thay thế nếu có.
+       5. Đối tượng và mục đích khai thác, sử dụng:
+       Đối tượng và mục đích sử dụng, khai thác cơ sở dữ liệu quốc gia về tài chính là các đơn vị
+
+thuộc Bộ Tài chính và cơ quan tài chính địa phương và các bộ, ngành, địa phương (nếu phát sinh
+nhu cầu kết nối) bao gồm:
+        a) Các Vụ, Cục và tương đương tại trụ sở Bộ Tài chính (Khối cơ quan Bộ);
+        b) Tổng cục Thuế; Kho bạc Nhà nước; Tổng cục Hải quan; Ủy ban Chứng khoán Nhà nước;
+        c) Viện Chiến lược và Chính sách tài chính;
+        d) Các Sở Tài chính; các phòng Tài chính - Kế hoạch;
+        đ) Các bộ, ngành trung ương có nhu cầu kết nối, khai thác, sử dụng dữ liệu số của Bộ Tài
+chính theo Nghị định số 47/2020/NĐ-CP ngày 09 tháng 4 năm 2020 của Chính phủ về quản lý, kết nối
+và chia sẻ dữ liệu số của cơ quan nhà nước và quy định về sử dụng thông tin số liệu từ Bộ Tài chính.
+        6. Nguồn thông tin sẽ xây dựng và cập nhật:
+        a) Các Kho dữ liệu của Bộ Tài chính (các lĩnh vực thuế; hải quan; thu chi ngân sách nhà
+nước; kho bạc; dự trữ nhà nước; giá);
+        b) Cơ sở dữ liệu chuyên ngành của Bộ Tài chính (chứng khoán; nợ công; tài sản công; bảo
+hiểm; quản lý, giám sát vốn nhà nước tại doanh nghiệp; danh mục điện tử dùng chung);
+        c) Cơ sở dữ liệu từ các bộ, ngành khác;
+        d) Dữ liệu nguồn mở;
+        đ) Dữ liệu có cấu trúc bên ngoài;
+        e) Dữ liệu phi cấu trúc;
+        g) Dữ liệu văn bản của Bộ Tài chính.
+        7. Phương thức chia sẻ dữ liệu từ cơ sở dữ liệu quốc gia:
+        Phương thức chia sẻ dữ liệu từ cơ sở dữ liệu quốc gia thực hiện theo quy định tại Nghị định
+số 47/2020/NĐ-CP ngày 09 tháng 4 năm 2020 của Chính phủ về quản lý, kết nối và chia sẻ dữ liệu số
+của cơ quan nhà nước và các quy định của pháp luật có liên quan; phù hợp với Khung Kiến trúc
+Chính phủ điện tử Việt Nam.
+        V. CƠ SỞ DỮ LIỆU QUỐC GIA VỀ BẢO HIỂM
+        1. Cơ quan chủ quản: Bảo hiểm xã hội Việt Nam.
+        2. Mục tiêu xây dựng: Lưu trữ thông tin về bảo hiểm xã hội, bảo hiểm y tế, bảo hiểm thất
+nghiệp và thông tin về y tế, an sinh xã hội được cơ quan có thẩm quyền ghi nhận và bảo đảm quyền
+lợi, nghĩa vụ về bảo hiểm của công dân và chia sẻ dữ liệu với các bộ, ngành, địa phương trên quy mô
+quốc gia.
+        3. Phạm vi dữ liệu:
+        Quy định tại khoản 1 Điều 6 Nghị định số 43/2021/NĐ-CP ngày 31 tháng 3 năm 2021 của
+Chính phủ quy định Cơ sở dữ liệu quốc gia về Bảo hiểm.
+        4. Thông tin về dữ liệu chủ sẽ lưu trữ và chia sẻ:
+        Quy định tại các điểm d, đ và e khoản 1 Điều 6 Nghị định số 43/2021/NĐ-CP ngày 31 tháng 3
+năm 2021 của Chính phủ quy định Cơ sở dữ liệu quốc gia về Bảo hiểm.
+        5. Đối tượng và mục đích khai thác, sử dụng:
+        Quy định tại Điều 10 Nghị định số 43/2021/NĐ-CP ngày 31 tháng 3 năm 2021 của Chính phủ
+quy định Cơ sở dữ liệu quốc gia về Bảo hiểm.
+        6. Nguồn thông tin sẽ xây dựng và cập nhật:
+        Quy định tại Điều 7 và Điều 8 Nghị định số 43/2021/NĐ-CP ngày 31 tháng 3 năm 2021 của
+Chính phủ quy định Cơ sở dữ liệu quốc gia về Bảo hiểm.
+        7. Phương thức chia sẻ dữ liệu từ cơ sở dữ liệu quốc gia:
+        Phương thức chia sẻ dữ liệu từ cơ sở dữ liệu quốc gia thực hiện theo quy định tại Nghị định
+số 47/2020/NĐ-CP ngày 09 tháng 4 năm 2020 của Chính phủ về quản lý, kết nối và chia sẻ dữ liệu số
+của cơ quan nhà nước và các quy định của pháp luật có liên quan; phù hợp với Khung Kiến trúc
+
+Chính phủ điện tử Việt Nam.
+       VI. CƠ SỞ DỮ LIỆU QUỐC GIA VỀ CÁN BỘ, CÔNG CHỨC, VIÊN CHỨC TRONG CÁC
+CƠ QUAN NHÀ NƯỚC
+       1. Cơ quan chủ quản: Bộ Nội vụ.
+       2. Mục tiêu xây dựng:
+       a) Thực hiện việc xây dựng, quản lý, cập nhật dữ liệu thường xuyên, tổ chức khai thác, sử
+dụng và lưu trữ cơ sở dữ liệu quốc gia về cán bộ, công chức, viên chức đồng bộ, thống nhất trên
+phạm vi toàn quốc, góp phần nâng cao hiệu quả công tác quản lý cán bộ, công chức, viên chức trong
+các cơ quan nhà nước theo hướng hiện đại, là một trong những cấu phần quan trọng trong tiến trình
+xây dựng Chính phủ điện tử, hướng tới nền kinh tế số, xã hội số;
+       b) Bảo đảm kết nối, chia sẻ thông tin dữ liệu với cơ sở dữ liệu cán bộ, công chức, viên chức
+của các bộ, ngành, địa phương; cơ sở dữ liệu quốc gia ở các lĩnh vực khác, góp phần vào quá trình
+xây dựng, phát triển Chính phủ số; thực hiện minh bạch hóa công tác quản lý cán bộ, công chức, viên
+chức, góp phần xây dựng một nền hành chính phục vụ, hiện đại, chuyên nghiệp, hiệu lực, hiệu quả.
+       3. Phạm vi dữ liệu:
+       Thông tin về cán bộ, công chức, viên chức, người làm việc theo chế độ hợp đồng lao động
+trong cơ quan hành chính, đơn vị sự nghiệp công lập thuộc Hệ thống cơ quan nhà nước các cấp từ
+trung ương đến địa phương, bao gồm:
+       a) Các bộ (trừ Bộ Công an, Bộ Quốc phòng), cơ quan ngang bộ, cơ quan thuộc Chính phủ,
+các tổ chức do Chính phủ, Thủ tướng Chính phủ thành lập;
+       b) Tòa án nhân dân các cấp, Viện kiểm sát nhân dân các cấp;
+       c) Văn phòng Chủ tịch nước, Văn phòng Quốc hội;
+       d) Kiểm toán Nhà nước;
+       đ) Hội đồng nhân dân, Ủy ban nhân dân các cấp; cơ quan của Hội đồng nhân dân; các cơ
+quan chuyên môn thuộc Ủy ban nhân dân cấp tỉnh, cấp huyện;
+       e) Các đơn vị sự nghiệp công lập ở trung ương và địa phương.
+       4. Thông tin về dữ liệu chủ sẽ lưu trữ và chia sẻ:
+       Quy định tại Phụ lục Thông tư số 06/2023/TT-BNV ngày 04 tháng 5 năm 2023 của Bộ trưởng
+Bộ Nội vụ ban hành quy chế cập nhật, sử dụng, khai thác dữ liệu, thông tin của Cơ sở dữ liệu quốc
+gia về cán bộ, công chức, viên chức trong các cơ quan nhà nước.
+       5. Đối tượng và mục đích khai thác, sử dụng:
+       Quy định tại Điều 8 Thông tư số 06/2023/TT-BNV ngày 04 tháng 5 năm 2023 của Bộ trưởng
+Bộ Nội vụ ban hành quy chế cập nhật, sử dụng, khai thác dữ liệu, thông tin của Cơ sở dữ liệu quốc
+gia về cán bộ, công chức, viên chức trong các cơ quan nhà nước.
+       6. Nguồn thông tin sẽ xây dựng và cập nhật:
+       Quy định tại Điều 6 Thông tư số 06/2023/TT-BNV ngày 04 tháng 5 năm 2023 của Bộ trưởng
+Bộ Nội vụ ban hành quy chế cập nhật, sử dụng, khai thác dữ liệu, thông tin của Cơ sở dữ liệu quốc
+gia về cán bộ, công chức, viên chức trong các cơ quan nhà nước.
+       7. Phương thức chia sẻ dữ liệu từ cơ sở dữ liệu quốc gia:
+       Phương thức chia sẻ dữ liệu từ cơ sở dữ liệu quốc gia thực hiện theo quy định tại Nghị định
+số 47/2020/NĐ-CP ngày 09 tháng 4 năm 2020 của Chính phủ về quản lý, kết nối và chia sẻ dữ liệu số
+của cơ quan nhà nước và các quy định của pháp luật có liên quan; phù hợp với Khung Kiến trúc
+Chính phủ điện tử Việt Nam.
+       VII. CƠ SỞ DỮ LIỆU QUỐC GIA VỀ THỦ TỤC HÀNH CHÍNH
+       1. Cơ quan chủ quản: Văn phòng Chính phủ.
+       2. Mục tiêu xây dựng:
+       a) Đáp ứng các yêu cầu Chính phủ, Thủ tướng Chính phủ đã giao tại các Nghị định số
+
+63/2010/NĐ-CP, 92/2017/NĐ-CP, 61/2018/NĐ-CP, 45/2020/NĐ-CP, 107/2021/NĐ-CP, 42/2022/NĐ-
+CP và Quyết định số 31/2021/QĐ-TTg;
+             b) Hình thành bộ dữ liệu chủ của quốc gia về thủ tục hành chính, bao gồm dữ liệu về thủ tục
+hành chính của các cơ quan nhà nước các cấp, các danh mục dùng chung, kết quả giải quyết thủ tục
+hành chính... đe chia sẻ cho các bộ, ngành, địa phương nhằm bảo đảm tính thống nhất trong thực
+hiện thủ tục hành chính, công bố, công khai, rà soát, đánh giá thủ tục hành chính.
+        3. Phạm vi dữ liệu:
+        a) Dữ liệu chủ: Dữ liệu thủ tục hành chính; dịch vụ công trực tuyến; danh mục các cơ quan,
+đơn vị hành chính, ngành, lĩnh vực; kết quả giải quyết thủ tục hành chính; các khoản thu, nộp vào
+ngân sách nhà nước khi thực thiện thủ tục hành chính, ngân hàng thương mại, tổ chức cung ứng
+dịch vụ trung gian thanh toán;
+               b) Dữ liệu khác: Dữ liệu văn bản quy phạm pháp luật quy định về thủ tục hành chính; quyết
+định công bố thủ tục hành chính của cơ quan nhà nước có thẩm quyền;
+        c) Các trường tin chính của dữ liệu chủ, bao gồm: (1) Mã số thủ tục hành chính; (2) Tên thủ
+tục hành chính; (3) Trình tự thực hiện; (4) Cách thức thực hiện; (5) Hồ sơ; (6) Thời hạn giải quyết; (7)
+Đối tượng thực hiện thủ tục hành chính; (8) Cơ quan thực hiện thủ tục hành chính; (9) Kết quả thực
+hiện thủ tục hành chính; (10) Mẫu đơn, mẫu tờ khai hành chính; (11) Mẫu kết quả thực hiện thủ tục
+hành chính; (12) Yêu cầu, điều kiện; (13) Phí, lệ phí.
+        4. Thông tin về dữ liệu chủ sẽ lưu trữ và chia sẻ:
+             Các trường tin chính của dữ liệu chủ bao gồm: (1) Mã số thủ tục hành chính; (2) Tên thủ tục
+hành chính; (3) Trình tự thực hiện; (4) Cách thức thực hiện; (5) Hồ sơ; (6) Thời hạn giải quyết; (7) Đối
+tượng thực hiện thủ tục hành chính; (8) Cơ quan thực hiện thủ tục hành chính; (9) Kết quả thực hiện
+thủ tục hành chính; (10) Mẫu đơn, mẫu tờ khai hành chính; (11) Mẫu kết quả thực hiện thủ tục hành
+chính; (12) Yêu cầu, điều kiện; (13) Phí, lệ phí.
+        5. Đối tượng và mục đích khai thác, sử dụng:
+                     a) Cán bộ, công chức cơ quan hành chính nhà nước các cấp khai thác, sử dụng để: cập
+nhật, công khai thủ tục hành chính thuộc phạm vi ban hành, giải quyết của bộ, cơ quan, địa phương;
+khai thác dữ liệu thủ tục hành chính, tích hợp danh mục dữ liệu chủ dùng chung phục vụ giải quyết
+thủ tục hành chính tại Hệ thống thông tin giải quyết thủ tục hành chính của bộ, cơ quan, địa phương;
+số hóa lưu trữ hồ sơ thủ tục hành chính; rà soát, đánh giá, đề xuất các biện pháp cải cách thủ tục
+hành chính, cắt giảm quy định kinh doanh;
+              b) Người dân, doanh nghiệp, hiệp hội: Tra cứu, khai thác, sử dụng khi có nhu cầu tìm hiểu,
+thực hiện thủ tục hành chính trên môi trường điện tử;
+                c) Ngân hàng thương mại, tổ chức cung ứng dịch vụ trung gian thanh toán: khai thác thông
+tin về các khoản thu, nộp phí, lệ phí thông qua Nền tảng thanh toán của Cổng Dịch vụ công quốc gia.
+        6. Nguồn thông tin sẽ xây dựng và cập nhật:
+        Dữ liệu chủ thủ tục hành chính được cập nhật, đăng tải trên cơ sở dữ liệu quốc gia là các thủ
+tục hành chính được Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Chủ tịch Ủy ban nhân dân tỉnh, thành
+phố trực thuộc trung ương công bố (quy định tại Điều 23 Nghị định số 63/2010/NĐ-CP); các dữ liệu
+khác được cập nhật theo văn bản quy phạm pháp luật của cấp có thẩm quyền theo quy trình được
+quy định tại Quyết định số 31/2021/QĐ-TTg của Thủ tướng Chính phủ.
+        7. Phương thức chia sẻ dữ liệu từ cơ sở dữ liệu quốc gia:
+             Phương thức chia sẻ dữ liệu từ cơ sở dữ liệu quốc gia thực hiện theo quy định tại Nghị định
+số 47/2020/NĐ-CP ngày 09 tháng 4 năm 2020 của Chính phủ về quản lý, kết nối và chia sẻ dữ liệu số
+của cơ quan nhà nước và các quy định của pháp luật có liên quan; phù hợp với Khung Kiến trúc
+Chính phủ điện tử Việt Nam.
+        VIII. CƠ SỞ DỮ LIỆU TỔNG HỢP QUỐC GIA
+        1. Cơ quan chủ quản: Bộ Công an.
+        2. Mục tiêu xây dựng:
+        a) Là nơi tích hợp, đồng bộ, lưu trữ, khai thác, chia sẻ và điều phối dữ liệu tổng hợp từ các
+
+cơ sở dữ liệu quốc gia và thực hiện việc phân tích chuyên sâu các dữ liệu, hỗ trợ công tác xây dựng
+các cơ chế chính sách, quy hoạch, chiến lược phát triển quốc gia;
+        b) Tạo điều kiện phát triển nhiều sản phẩm dịch vụ mới trên nền các dữ liệu số được khai
+thác góp phần thúc đẩy phát triển kinh tế - xã hội.
+        3. Phạm vi dữ liệu:
+        Cơ sở dữ liệu tổng hợp quốc gia gồm các thông tin được tổng hợp từ các Cơ sở dữ liệu quốc
+gia, cơ sở dữ liệu chuyên ngành, dữ liệu khác.
+        4. Thông tin về dữ liệu chủ sẽ lưu trữ và chia sẻ:
+        Dữ liệu chủ được tổng hợp từ dữ liệu chủ của các cơ sở dữ liệu quốc gia, cơ sở dữ liệu
+chuyên ngành của các bộ, ngành, địa phương và các cơ sở dữ liệu khác;
+        Tạo lập kho dữ liệu dùng chung cung cấp thông tin cho các bộ, ngành, địa phương khai thác
+theo hình thức mặc định, đẩy mạnh cung cấp thông tin cho các thủ tục hành chính, hình thành kho dữ
+liệu mở để chia sẻ cho người dân, doanh nghiệp phục vụ phát triển kinh tế, xã hội.
+        5. Đối tượng và mục đích khai thác, sử dụng:
+        Các bộ, ban, ngành, địa phương sử dụng các dữ liệu tổng hợp đã thu thập để thực hiện đơn
+giản hóa các thủ tục hành chính, cải thiện sự phục vụ của cơ quan nhà nước cho người dân, doanh
+nghiệp. Đồng thời, tiến hành phân tích chuyên sâu nhằm hỗ trợ Chính phủ nâng cao vai trò quản lý
+nhà nước trong công tác quản lý nhà nước; đưa ra các chính sách góp phần thúc đẩy sự phát triển,
+tiến bộ cho xã hội.
+        Các tổ chức, cá nhân sử dụng và khai thác dữ liệu mở phục vụ phát triển nhiều sản phẩm
+dịch vụ mới trên nền các dữ liệu số được khai thác.
+        6. Nguồn thông tin sẽ xây dựng và cập nhật:
+        a) Từ các cơ sở dữ liệu quốc gia;
+        b) Các thông tin liên quan đến con người từ cơ sở dữ liệu của các bộ, ngành, địa phương;
+        c) Dữ liệu do người dân và doanh nghiệp cung cấp;
+        d) Dữ liệu mở trong và ngoài nước.
+        7. Phương thức chia sẻ dữ liệu từ cơ sở dữ liệu quốc gia:
+        Phương thức chia sẻ dữ liệu từ cơ sở dữ liệu quốc gia thực hiện theo quy định tại Nghị định
+số 47/2020/NĐ-CP ngày 09 tháng 4 năm 2020 của Chính phủ về quản lý, kết nối và chia sẻ dữ liệu số
+của cơ quan nhà nước và các quy định của pháp luật có liên quan; phù hợp với Khung Kiến trúc
+Chính phủ điện tử Việt Nam.
+        IX. CƠ SỞ DỮ LIỆU QUỐC GIA VỀ HOẠT ĐỘNG XÂY DỰNG
+        1. Cơ quan chủ quản: Bộ Xây dựng.
+        2. Mục tiêu xây dựng:
+        Quản lý nhà nước về dữ liệu thuộc phạm vi quản lý; đồng bộ dữ liệu theo chuẩn chung thống
+nhất; bảo đảm dữ liệu có thể kết nối, chia sẻ; cải cách thủ tục hành chính.
+        3. Phạm vi dữ liệu:
+        Thông tin về hoạt động xây dựng (thông tin về quy hoạch xây dựng; thông tin về dự án đầu
+tư xây dựng/công trình xây dựng; thông tin về định mức xây dựng, giá xây dựng công trình và chỉ số
+giá xây dựng) phục vụ công tác quản lý nhà nước, đáp ứng yêu cầu phát triển kinh tế - xã hội và yêu
+cầu hợp pháp của các cơ quan, tổ chức, cá nhân.
+        4. Thông tin về dữ liệu chủ sẽ lưu trữ và chia sẻ:
+        Thông tin về quy hoạch xây dựng, quy hoạch đô thị; thông tin về dự án đầu tư xây dựng,
+công trình xây dựng; thông tin về định mức xây dựng, giá xây dựng công trình và chỉ số giá xây dựng
+theo quy định của Chính phủ về quản lý chi phí đầu tư xây dựng.
+        5. Đối tượng và mục đích khai thác, sử dụng:
+        a) Cơ quan nhà nước;
+
+        b) Cá nhân, doanh nghiệp hoặc các cơ quan tổ chức có nhu cầu;
+        c) Các đối tượng có mục đích sử dụng khác theo quy định của pháp luật.
+        6. Nguồn thông tin sẽ xây dựng và cập nhật:
+        a) Từ cơ quan nhà nước có thẩm quyền thực hiện công tác thẩm định quy hoạch xây dựng,
+quy hoạch đô thị, thẩm định Báo cáo nghiên cứu khả thi, thẩm định thiết kế xây dựng triển khai sau
+thiết kế cơ sở, cấp giấy phép xây dựng, kiểm tra công tác nghiệm thu;
+        b) Từ các chủ đầu tư dự án, công trình xây dựng, người đề nghị thẩm định (trong trường hợp
+chưa có chủ đầu tư);
+        c) Dữ liệu được chia sẻ, liên kết từ các cơ sở dữ liệu quốc gia khác có liên quan;
+        d) Đồng bộ từ nguồn cơ sở dữ liệu chuyên ngành của các cơ quan có thẩm quyền khác có
+liên quan.
+        7. Phương thức chia sẻ dữ liệu từ cơ sở dữ liệu quốc gia:
+        Phương thức chia sẻ dữ liệu từ cơ sở dữ liệu quốc gia thực hiện theo quy định tại Nghị định
+số 47/2020/NĐ-CP ngày 09 tháng 4 năm 2020 của Chính phủ về quản lý, kết nối và chia sẻ dữ liệu số
+của cơ quan nhà nước và các quy định của pháp luật có liên quan; phù hợp với Khung Kiến trúc
+Chính phủ điện tử Việt Nam.
+        X. CƠ SỞ DỮ LIỆU QUỐC GIA VỀ XUẤT NHẬP CẢNH
+        1. Cơ quan chủ quản: Bộ Công an.
+        2. Mục tiêu xây dựng:
+        a) Quản lý tập trung, thống nhất thông tin xuất cảnh, nhập cảnh của công dân Việt Nam và
+thông tin nhập cảnh, xuất cảnh, quá cảnh, cư trú của người nước ngoài tại Việt Nam; thông tin cấp
+giấy tờ xuất nhập cảnh của công dân Việt Nam; thông tin cấp thị thực, thẻ tạm trú, thẻ thường trú của
+người nước ngoài;
+        b) Cung cấp thông tin phục vụ bảo vệ an ninh quốc gia, trật tự an toàn xã hội và xây dựng
+chính sách, quy hoạch, chiến lược phát triển kinh tế, xã hội;
+        c) Phục vụ cải cách thủ tục hành chính, chuyển đổi số, thực hiện các dịch vụ công trực tuyến,
+giao dịch dân sự;
+        d) Tăng cường hợp tác quốc tế trong lĩnh vực xuất nhập cảnh.
+        3. Phạm vi dữ liệu:
+        a) Thông tin liên quan việc quản lý hoạt động xuất cảnh, nhập cảnh của công dân Việt Nam;
+nhập cảnh, xuất cảnh, quá cảnh, cư trú của người nước ngoài trong lãnh thổ Việt Nam;
+        b) Thông tin cấp giấy tờ xuất nhập cảnh của công dân Việt Nam; thông tin cấp thị thực, thẻ
+tạm trú, thẻ thường trú của người nước ngoài;
+        c) Dữ liệu sinh trắc học của công dân Việt Nam và người nước ngoài tham gia các hoạt động
+xuất nhập cảnh;
+        d) Dữ liệu người chưa cho nhập cảnh, tạm hoãn xuất cảnh do các cơ quan đăng ký theo quy
+định của pháp luật;
+        đ) Dữ liệu đối tượng truy nã;
+        e) Dữ liệu từ các tổ chức, cá nhân trong nước có liên quan; từ các cơ quan quản lý xuất nhập
+cảnh của các nước trên thế giới; dữ liệu giấy tờ mất, hết giá trị, dữ liệu đối tượng truy nã từ Interpol;
+        g) Dữ liệu căn cước công dân, dữ liệu dân cư và các dữ liệu có liên quan khác.
+        4. Thông tin về dữ liệu chủ sẽ lưu trữ và chia sẻ:
+        a) Thông tin liên quan đến xuất cảnh, nhập cảnh của công dân Việt Nam;
+        b) Thông tin nhập cảnh, xuất cảnh, quá cảnh, cư trú của người nước ngoài;
+        c) Thông tin cấp giấy tờ xuất nhập cảnh cho công dân Việt Nam và cho người nước ngoài.
+        5. Đối tượng và mục đích khai thác, sử dụng:
+
+        a) Các đơn vị thuộc Bộ Công an phục vụ công tác nghiệp vụ;
+        b) Cơ quan tiến hành tố tụng; cơ quan thi hành án hoặc các cơ quan quản lý nhà nước được
+đề nghị cung cấp thông tin về xuất nhập cảnh trong Cơ sở dữ liệu quốc gia về xuất nhập cảnh để
+phục vụ công tác điều tra, truy tố, xét xử, thực hiện các quyết định thi hành án, áp dụng biện pháp xử
+lý hành chính hoặc giải quyết công việc theo chức năng, nhiệm vụ được phân công;
+        c) Công dân Việt Nam được đề nghị cung cấp hoặc xác nhận thông tin liên quan đến xuất
+nhập cảnh được khai thác thông tin liên quan đến việc thu hồi, huỷ, khôi phục, kiếm soát hộ chiếu,
+giấy tờ xuất nhập cảnh và lịch sử xuất nhập cảnh trong Cơ sở dữ liệu quốc gia về xuất nhập cảnh để
+chủ động thực hiện công tác quản lý theo chức năng, nhiệm vụ.
+        6. Nguồn thông tin sẽ xây dựng và cập nhật:
+        a) Dữ liệu xuất nhập cảnh thu thập từ các cơ quan quản lý xuất nhập cảnh thuộc Bộ Công an
+và Bộ Quốc phòng;
+        b) Dữ liệu cấp giấy tờ xuất nhập cảnh từ các cơ quan quản lý xuất nhập cảnh thuộc Bộ Công
+an, từ Bộ Ngoại giao và các cơ quan đại diện Việt Nam ở nước ngoài;
+        c) Dữ liệu từ các đơn vị liên quan trong Bộ Công an;
+        d) Dữ liệu từ các cá nhân, tổ chức trong nước, ngoài nước;
+        đ) Các dữ liệu khác từ các bộ, ngành có liên quan.
+        7. Phương thức chia sẻ dữ liệu từ cơ sở dữ liệu quốc gia:
+        Phương thức chia sẻ dữ liệu từ cơ sở dữ liệu quốc gia thực hiện theo quy định tại Nghị định
+số 47/2020/NĐ-CP ngày 09 tháng 4 năm 2020 của Chính phủ về quản lý, kết nối và chia sẻ dữ liệu số
+của cơ quan nhà nước và các quy định của pháp luật có liên quan; phù hợp với Khung Kiến trúc
+Chính phủ điện tử Việt Nam.

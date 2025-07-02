@@ -6,11 +6,7 @@ langchain-core
 langchain-groq
 sentence-transformers
 python-multipart
-pymupdf # PyMuPDF
-pytesseract # OCR
-pillow # Hỗ trợ ảnh
-# faiss-cpu # Có thể xóa nếu không dùng FAISS nữa
-chromadb # Thêm ChromaDB
+huggingface-hub[hf-xet]
 tiktoken
 gradio # Vẫn giữ nếu bạn muốn chạy cả app.py
 python-dotenv
@@ -19,9 +15,26 @@ regex
 fastapi
 tqdm
 uvicorn[standard] # standard bao gồm các dependencies cần thiết
-# langchain-redis
 redis
 bcrypt
 pymongo[srv]
 pydantic[email]
 python-jose
+opencv-python
+tenacity
+rank_bm25
+langchain-weaviate
+weaviate-client
+unidecode
+resend
+passlib
+langchain-google-genai
+python-docx
+pypandoc
+llama-index
+llama-parse
+itsdangerous
+Authlib[fastapi]
+httpx
+
+gunicorn

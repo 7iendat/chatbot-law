@@ -1,0 +1,318 @@
+CHÍNH PHỦ                           CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+                          ________                    Độc lập - Tự do - Hạnh phúc
+                     Số: 72/2025/NĐ-CP                  _______________________
+                                                    Hà Nội, ngày 28 tháng 3 năm 2025
+                                                 NGHỊ ĐỊNH
+                     Quy định về cơ chế, thời gian điều chỉnh giá bán lẻ điện bình quân
+                                                  ________
+        Căn cứ Luật Tổ chức Chính phủ ngày 18 tháng 02 năm 2025;
+        Căn cứ Luật Điện lực ngày 30 tháng 11 năm 2024;
+        Theo đề nghị của Bộ trưởng Bộ Công Thương;
+        Chính phủ ban hành Nghị định quy định về cơ chế, thời gian điều chỉnh giá bán lẻ điện bình
+quân.
+                                                  Chương I
+                                            NHỮNG QUY ĐỊNH CHUNG
+        Điều 1. Phạm vi điều chỉnh và đối tượng áp dụng
+        1. Nghị định này quy định chi tiết điểm a khoản 3 Điều 50 và điểm c khoản 2 Điều 52 Luật
+Điện lực, bao gồm:
+        a) Điểm a khoản 3 Điều 50 quy định cơ chế, thời gian điều chỉnh giá bán lẻ điện bình quân;
+        b) Điểm c khoản 2 Điều 52 quy định giá bán lẻ điện được phản ánh và điều chỉnh kịp thời
+theo biến động thực tế của thông số đầu vào, bù đắp chi phí hợp lý, hợp lệ với lợi nhuận hợp lý để
+bảo toàn, phát triển vốn kinh doanh của doanh nghiệp phù hợp với điều kiện kinh tế - xã hội của từng
+thời kỳ và cấp độ thị trường điện cạnh tranh.
+        2. Nghị định này áp dụng đối với cơ quan, tổ chức, cá nhân tham gia hoạt động điện lực và
+sử dụng điện.
+        Điều 2. Giải thích từ ngữ
+        Trong Nghị định này, các từ ngữ dưới đây được hiểu như sau:
+        1. Bên mua điện là Tập đoàn Điện lực Việt Nam và các Tổng công ty Điện lực thuộc Tập
+đoàn Điện lực Việt Nam.
+        2. Bên bán điện là đơn vị phát điện, tổ chức, cá nhân thực hiện hợp đồng mua bán điện có ký
+hợp đồng mua bán điện với Bên mua điện.
+        3. Giá bán lẻ điện bình quân là mức giá bán lẻ điện được xác định theo nguyên tắc tính tổng
+chi phí sản xuất, kinh doanh điện và mức lợi nhuận bình quân cho 01 kWh thương phẩm trong từng
+thời kỳ.
+        4. Giá bán lẻ điện bình quân hiện hành là mức giá bán lẻ điện bình quân đang áp dụng tại
+thời điểm xem xét điều chỉnh giá điện.
+        5. Khung giá của mức giá bán lẻ điện bình quân (sau đây viết tắt là khung giá) là phạm vi
+giữa mức giá bán lẻ điện tối thiểu và mức giá bán lẻ điện tối đa.
+        6. Năm N là năm giá bán lẻ điện bình quân được xây dựng theo quy định tại Nghị định này.
+        7. Thông số đầu vào cơ bản trong khâu phát điện là các yếu tố có tác động trực tiếp đến chi
+phí phát điện mà đơn vị điện lực không có khả năng kiểm soát, bao gồm giá nhiên liệu, tỷ giá ngoại
+tệ, cơ cấu sản lượng điện phát và chi phí mua điện trên thị trường điện, trong đó chi phí mua điện
+trên thị trường điện là chi phí thanh toán cho các đơn vị phát điện tham gia thị trường điện theo quy
+định vận hành thị trường điện do Bộ Công Thương ban hành.
+                                                 Chương II
+                CƠ CHẾ, THỜI GIAN ĐIỀU CHỈNH GIÁ BÁN LẺ ĐIỆN BÌNH QUÂN
+          LuatVietnam                                                       LuatVietnam.vn
+  Ton ch van ban luai
+
+                                             Mục 1
+                      CƠ CHẾ ĐIỀU CHỈNH GIÁ BÁN LẺ ĐIỆN BÌNH QUÂN
+        Điều 3. Nguyên tắc điều chỉnh giá bán lẻ điện bình quân
+               1. Hằng năm, sau khi Tập đoàn Điện lực Việt Nam công bố công khai chi phí sản xuất kinh
+doanh điện năm N-2, giá bán lẻ điện bình quân năm N            được xem xét, điều chỉnh theo biến động
+khách quan thông số đầu vào; của tất cả các khâu (phát điện, truyền tải điện, phân phối - bán lẻ điện,
+điều độ vận hành hệ thống điện và điều hành giao dịch thị trường điện lực, dịch vụ phụ trợ hệ thống
+điện và điều hành - quản lý ngành) và việc phân bổ các khoản chi phí khác chưa được tính vào giá
+điện.
+           2. Trong năm, giá bán lẻ điện bình quân được xem xét điều chỉnh trên cơ sở cập nhật chi phí
+khâu phát điện, chi phí mua điện từ các nhà máy điện cung cấp dịch vụ phụ trợ theo thông số đầu
+vào cơ bản trong khâu phát điện và các khoản chi phí khác chưa được tính vào giá điện.
+             3. Khi giá bán lẻ điện bình quân giảm từ 1% trở lên so với giá bán lẻ điện bình quân hiện
+hành thì giá điện được phép điều chỉnh giảm tương ứng.
+             4. Khi giá bán lẻ điện bình quân tăng từ 2% trở lên so với giá bán lẻ điện bình quân hiện
+hành thì giá điện được phép điều chỉnh tăng.
+        5. Giá bán lẻ điện bình quân được tính toán theo quy định tại Điều 4 Nghị định này. Trường
+hợp giá bán lẻ điện bình quân tính toán nằm ngoài khung giá, chỉ được xem xét điều chỉnh trong
+phạm vi khung giá do Thủ tướng Chính phủ quy định. Tập đoàn Điện lực Việt Nam được điều chỉnh
+tăng hoặc giảm giá bán lẻ điện bình quân trong phạm vi khung giá theo cơ chế quy định tại Điều 5 và
+Điều 6 Nghị định này.
+            Trường hợp giá bán lẻ điện bình quân cần điều chỉnh cao hơn giá bán lẻ điện bình quân hiện
+hành từ 10% trở lên, Bộ Công Thương chủ trì, phối hợp với các bộ, cơ quan liên quan kiểm tra, rà
+soát và báo cáo Chính phủ xem xét, cho ý kiến. Trường hợp cần thiết, Bộ Công Thương phối hợp với
+các bộ, cơ quan liên quan báo cáo Ban Chỉ đạo điều hành giá trước khi báo cáo Chính phủ.
+        6. Việc điều chỉnh giá bán lẻ điện bình quân phải thực hiện công khai, minh bạch.
+        Điều 4. Phương pháp lập giá bán lẻ điện bình quân
+        1. Giá bán lẻ điện bình quân được lập trên cơ sở chi phí khâu phát điện, chi phí mua các dịch
+vụ truyền tải điện, phân phối - bán lẻ điện, điều độ vận hành hệ thống điện và điều hành giao dịch thị
+trường điện lực, chi phí dịch vụ phụ trợ hệ thống điện, chi phí điều hành - quản lý ngành, các khoản
+chi phí khác được phân bổ và chỉ bao gồm những chi phí phục vụ trực tiếp cho việc sản xuất, cung
+ứng điện của Tập đoàn Điện lực Việt Nam để đảm bảo khả năng vận hành, cung ứng điện và đáp
+ứng nhu cầu đầu tư theo kế hoạch được duyệt, trong đó chi phí các khâu có tính đến các khoản giảm
+trừ giá thành theo quy định.
+        2. Giá bán lẻ điện bình quân năm N(GBQ) được xác định theo công thức sau:
+                        GpQ~ Cp      DVPT+CIr +CPP-BL + Cchung +CpĐ   khac
+                              ATp                ATP                 ATp
+        Trong đó:
+        a) CPĐ: Tổng chi phí khâu phát điện năm N (đồng), được xác định theo công thức sau:
+        CPĐ = CTTĐ + CĐMT + CBOT + CTTN + CNLTT + CNK
+        Trong đó:
+        CTTĐ: Tổng chi phí mua điện năm N (đồng) từ các nhà máy điện trực tiếp và gián tiếp tham gia
+thị trường điện;
+        CĐMT: Tổng chi phí và lợi nhuận định mức năm N (đồng) từ các nhà máy thủy điện chiến lược
+đa mục tiêu và nhà máy điện hạch toán phụ thuộc khác trong giai đoạn chưa tham gia thị trường điện
+cạnh tranh của Tập đoàn Điện lực Việt Nam, trong đó tổng chi phí được xác định theo quy định do Bộ
+Công Thương ban hành;
+        CBOT: Tổng chi phí mua điện năm N (đồng) từ các nhà máy điện BOT;
+        CTTN: Tổng chi phí mua điện năm N (đồng) từ các nhà máy năng lượng tái tạo nhỏ;
+
+        CNLTT: Tổng chi phí mua điện năm N (đồng) từ các nhà máy điện sử dụng năng lượng tái tạo
+và năng lượng mới, bao gồm cả hệ thống lưu trữ điện;
+        CNK: Tổng chi phí mua điện năm N (đồng) từ nhập khẩu điện;
+        b) CDVPT: Tổng chi phí các nhà máy điện cung cấp dịch vụ phụ trợ hệ thống điện năm N
+(đồng), bao gồm cả chi phí chạy thử nghiệm của các nhà máy điện;
+        c) CTT:Tổng chi phí mua dịch vụ truyền tải điện năm N (đồng);
+        d) CPP-BL: Tổng chi phí phân phối - bán lẻ điện và lợi nhuận định mức năm N (đồng), bao gồm
+cả chi phí huy động các nguồn máy phát điện dự phòng của khách hàng sử dụng điện để bổ sung
+nguồn cung cho hệ thống điện quốc gia trong tình huống cấp bách đe dọa nghiêm trọng đến khả
+năng bảo đảm cung cấp điện;
+        đ) Cchung: Tổng chi phí điều hành - quản lý ngành và lợi nhuận định mức năm N (đồng);
+            e) CĐĐ: Tổng chi phí mua dịch vụ điều độ vận hành hệ thống điện và điều hành giao dịch thị
+trường điện lực năm N (đồng);
+           g) Ckhac: Tổng các chi phí khác chưa được tính vào giá điện, là các khoản chi phí được phép
+tính nhưng chưa tính vào giá điện, bao gồm cả chênh lệch tỷ giá đánh giá lại chưa được phân bổ,
+chênh lệch tỷ giá chưa được ghi nhận và thanh toán cho các nhà máy điện theo thỏa thuận tại hợp
+đồng mua bán điện, được tính toán phân bổ vào giá bán lẻ điện bình quân năm N (đồng);
+        h) ATP: Tổng sản lượng điện thương phẩm dự kiến cho năm N (kWh).
+             3. Chi phí mua điện từ Bên bán điện được thực hiện theo quy định vận hành thị trường điện
+theo từng cấp độ do Bộ Công Thương ban hành và theo Hợp đồng mua bán điện đã ký kết giữa Bên
+bán điện và Bên mua điện.
+          4. Chi phí mua dịch vụ truyền tải điện, chi phí mua dịch vụ phân phối - bán lẻ điện, chi phí
+mua dịch vụ điều độ vận hành hệ thống điện và điều hành giao dịch thị trường điện lực, chi phí các
+nhà máy điện cung cấp dịch vụ phụ trợ hệ thống điện, chi phí điều hành - quản lý ngành được xác
+định trên cơ sở chi phí cộng lợi nhuận định mức của các khâu truyền tải điện, phân phối - bán lẻ điện,
+điều độ vận hành hệ thống điện và điều hành giao dịch thị trường điện lực, các nhà máy điện cung
+cấp dịch vụ phụ trợ hệ thống điện, điều hành - quản lý ngành của Tập đoàn Điện lực Việt Nam theo
+quy định do Bộ Công Thương ban hành theo từng cấp độ thị trường điện. Các khoản giảm trừ giá
+thành được xác định trên cơ sở số liệu tại Báo cáo tài chính đã được kiểm toán.
+        5. Lợi nhuận định mức năm N (LNN) trong tính toán giá bán lẻ điện bình quân (đồng) của các
+khâu phân phối - bán lẻ điện; điều hành - quản lý ngành; các nhà máy thủy điện chiến lược đa mục
+tiêu và nhà máy điện hạch toán phụ thuộc khác trong giai đoạn chưa tham gia thị trường điện cạnh
+tranh của Tập đoàn Điện lực Việt Nam được xác định theo công thức sau:
+                                   [LNN     VcsHn x ROEN
+        Trong đó:                            1     TTnDNn
+        VCSHN        : Vốn chủ sở hữu (đồng) của các khâu phân phối - bán lẻ điện; điều hành - quản lý
+ngành; nhà máy thủy điện chiến lược đa mục tiêu và nhà máy điện hạch toán phụ thuộc khác trong
+giai đoạn chưa tham gia thị trường điện cạnh tranh của Tập đoàn Điện lực Việt Nam dùng cho sản
+xuất kinh doanh điện tại thời điểm ngày 31 tháng 12 (hoặc ngày 30 tháng 6 trong trường hợp chưa có
+số liệu thời điểm ngày 31 tháng 12) năm N-1;
+        ROEN : Tỷ suất lợi nhuận sau thuế trên vốn chủ sở hữu (%) không thấp hơn bình quân theo
+ngày lãi suất liên ngân hàng thời hạn 06 tháng đăng tải trên cổng thông tin điện tử Ngân hàng Nhà
+nước Việt Nam của năm N-2;
+        TTNDNN    : Thuế suất thuế thu nhập doanh nghiệp trong tính toán giá bán lẻ điện bình quân (%)
+được áp dụng bằng mức quy định tại khoản 1 Điều 10 Luật thuế thu nhập doanh nghiệp là 20% và
+được cập nhật nếu có thay đổi về quy định thuế suất thuế thu nhập doanh nghiệp.
+        Điều 5. Điều chỉnh giá bán lẻ điện bình quân hằng năm
+        1. Trên cơ sở kế hoạch cung cấp điện và vận hành hệ thống điện năm N do Bộ Công
+
+Thương ban hành, chi phí sản xuất, kinh doanh điện năm N-2 của Tập đoàn Điện lực Việt Nam, ước
+kết quả sản xuất kinh doanh điện năm N-1 (trong trường hợp chưa công bố chi phí sản xuất kinh
+doanh điện năm N-1), trước ngày 25 tháng 01 năm N Tập đoàn Điện lực Việt Nam tính toán giá bán
+lẻ điện bình quân theo công thức quy định tại khoản 2 Điều 4 Nghị định này, thực hiện yêu cầu về hồ
+sơ theo quy định tại khoản 2 Điều này và thực hiện như sau:
+             a) Trường hợp giá bán lẻ điện bình quân tính toán giảm từ 1% trở lên so với giá bán lẻ điện
+bình quân hiện hành, Tập đoàn Điện lực Việt Nam có trách nhiệm giảm giá bán lẻ điện bình quân ở
+mức tương ứng. Trong thời hạn 05 ngày làm việc kể từ ngày thực hiện điều chỉnh, Tập đoàn Điện lực
+Việt Nam có trách nhiệm lập hồ sơ báo cáo Bộ Công Thương để kiểm tra, giám sát;
+                b) Trường hợp giá bán lẻ điện bình quân cần điều chỉnh tăng từ 2% đến dưới 5% so với giá
+bán lẻ điện bình quân hiện hành, Tập đoàn Điện lực Việt Nam lập hồ sơ phương án giá bán lẻ điện
+bình quân báo cáo Bộ Công Thương kiểm tra, rà soát và cho ý kiến. Trong thời hạn 15 ngày làm việc
+kể từ ngày nhận đủ hồ sơ phương án giá bán lẻ điện bình quân của Tập đoàn Điện lực Việt Nam, Bộ
+Công Thương có trách nhiệm có ý kiến bằng văn bản. Tập đoàn Điện lực Việt Nam quyết định việc
+điều chỉnh tăng giá bán lẻ điện bình quân sau khi Bộ Công Thương có ý kiến. Trong thời hạn 05 ngày
+làm việc kể từ ngày thực hiện điều chỉnh, Tập đoàn Điện lực Việt Nam có trách nhiệm báo cáo Bộ
+Công Thương để giám sát;
+               c) Trường hợp giá bán lẻ điện bình quân cần điều chỉnh tăng từ 5% đến dưới 10% so với giá
+bán lẻ điện bình quân hiện hành, Tập đoàn Điện lực Việt Nam được phép điều chỉnh tăng giá bán lẻ
+điện bình quân ở mức tương ứng sau khi báo cáo và được Bộ Công Thương chấp thuận. Trong thời
+hạn 15 ngày làm việc kể từ ngày nhận đủ hồ sơ phương án giá bán lẻ điện bình quân của Tập đoàn
+Điện lực Việt Nam, Bộ Công Thương có trách nhiệm trả lời bằng văn bản để Tập đoàn Điện lực Việt
+Nam triển khai thực hiện. Trong thời hạn 05 ngày làm việc kể từ ngày thực hiện điều chỉnh, Tập đoàn
+Điện lực Việt Nam có trách nhiệm báo cáo Bộ Công Thương để giám sát;
+            d) Trường hợp giá bán lẻ điện bình quân cần điều chỉnh tăng từ 10% trở lên so với giá bán lẻ
+điện bình quân hiện hành, trên cơ sở hồ sơ phương án giá điện do Tập đoàn Điện lực Việt Nam trình,
+Bộ Công Thương chủ trì kiểm tra, rà soát và gửi lấy ý kiến các bộ, cơ quan liên quan. Trên cơ sở ý
+kiến góp ý các bộ, cơ quan liên quan, Bộ Công Thương tổng hợp, báo cáo Chính phủ xem xét, cho ý
+kiến. Trường hợp cần thiết, Bộ Công Thương phối hợp với các bộ, cơ quan liên quan báo cáo Ban
+Chỉ đạo điều hành giá trước khi báo cáo Chính phủ.
+                    2. Hồ sơ phương án giá bán lẻ điện bình quân hằng năm của Tập đoàn Điện lực Việt Nam
+bao gồm:
+                   a) Công văn báo cáo về phương án giá bán lẻ điện bình quân hằng năm của Tập đoàn Điện
+lực Việt Nam, trong đó bao gồm các nội dung phân tích, đánh giá tình hình chi phí sản xuất kinh
+doanh điện các khâu;
+                  b) Các nội dung kèm theo Công văn báo cáo phương án giá bán lẻ điện bình quân hằng năm
+của Tập đoàn Điện lực Việt Nam bao gồm: nguyên tắc tính toán chi phí từng khâu (phát điện, truyền
+tải điện, phân phối - bán lẻ điện, điều độ vận hành hệ thống điện và điều hành giao dịch thị trường
+điện lực, điều hành - quản lý ngành), trong đó có nguyên tắc dự kiến các thông số đầu vào như tỷ giá
+ngoại tệ, giá nhiên liệu trong nước và giá nhiên liệu nhập khẩu, giá các nhà máy điện dự kiến đưa
+vào vận hành trong năm tính toán nhưng chưa có hợp đồng mua bán điện; bảng tổng hợp kết quả
+tính toán chi phí từng khâu; bảng chi tiết số liệu tính toán chi phí từng khâu; các tài liệu, văn bản sử
+dụng làm căn cứ, cơ sở trong việc tính toán; thuyết minh các định mức: chi phí và các đơn giá được
+sử dụng trong tính toán chi phí dự kiến năm N của các khâu (nếu có); thuyết minh các chi phí sản
+xuất kinh doanh điện chưa được tính vào giá bán lẻ điện nhưng đã được phân bổ vào giá thành sản
+xuất kinh doanh điện và số dư còn lại dự kiến phân bổ vào giá bán lẻ điện bình quân năm N; báo cáo
+đánh giá ảnh hưởng của việc điều chỉnh giá điện đến chi phí mua điện của khách hàng sử dụng điện.
+        Điều 6. Điều chỉnh giá bán lẻ điện bình quân trong năm
+               1. Trước ngày 25 tháng đầu tiên quý II, quý III và quý IV, Tập đoàn Điện lực Việt Nam xác
+định sản lượng điện thương phẩm thực tế của quý trước và tổng sản lượng điện thương phẩm cộng
+dồn từ đầu năm, ước sản lượng điện thương phẩm các tháng còn lại trong năm; xác định chi phí phát
+điện của quý trước liền kề, chi phí phát điện cộng dồn từ đầu năm (bao gồm cả chi phí mua điện từ
+các nhà máy cung cấp dịch vụ phụ trợ), ước chi phí khâu phát điện các tháng còn lại trong năm theo
+thông số đầu vào cơ bản trong khâu phát điện và cập nhật các khoản chi phí khác chưa được tính
+vào giá bán lẻ điện bình quân để tính toán lại giá bán lẻ điện bình quân theo công thức quy định tại
+
+khoản 2 Điều 4 Nghị định này (các thông số khác giữ nguyên không thay đổi), thực hiện yêu cầu về
+hồ sơ theo quy định tại khoản 2 Điều này và thực hiện như sau:
+       a) Trường hợp sau khi tính toán cập nhật, giá bán lẻ điện bình quân tính toán thấp hơn từ 1%
+trở lên so với giá bán lẻ điện bình quân hiện hành, Tập đoàn Điện lực Việt Nam có trách nhiệm điều
+chỉnh giảm giá bán lẻ điện bình quân ở mức tương ứng. Trong thời hạn 05 ngày làm việc kể từ ngày
+thực hiện điều chỉnh, Tập đoàn Điện lực Việt Nam có trách nhiệm lập hồ sơ báo cáo Bộ Công
+Thương để kiểm tra, giám sát;
+         b) Trường hợp sau khi tính toán cập nhật, giá bán lẻ điện bình quân cần điều chỉnh cao hơn
+so với giá bán lẻ điện bình quân hiện hành từ 2% đến dưới 5%, Tập đoàn Điện lực Việt Nam lập hồ
+sơ phương án giá bán lẻ điện bình quân báo cáo Bộ Công Thương kiểm tra, rà soát và cho ý kiến.
+Trong thời hạn 15 ngày làm việc kể từ ngày nhận đủ hồ sơ phương án giá bán lẻ điện bình quân của
+Tập đoàn Điện lực Việt Nam, Bộ Công Thương có trách nhiệm có ý kiến bằng văn bản. Tập đoàn
+Điện lực Việt Nam quyết định việc điều chỉnh tăng giá bán lẻ điện bình quân sau khi Bộ Công Thương
+có ý kiến. Trong thời hạn 05 ngày làm việc kể từ ngày thực hiện điều chỉnh, Tập đoàn Điện lực Việt
+Nam có trách nhiệm báo cáo Bộ Công Thương để giám sát;
+         c) Trường hợp sau khi tính toán cập nhật, giá bán lẻ điện bình quân cần điều chỉnh cao hơn
+so với giá bán lẻ điện bình quân hiện hành từ 5% đến dưới 10%, Tập đoàn Điện lực Việt Nam được
+phép điều chỉnh tăng giá bán lẻ điện bình quân ở mức tương ứng sau khi báo cáo và được Bộ Công
+Thương chấp thuận. Trong thời hạn 15 ngày làm việc kể từ ngày nhận đủ hồ sơ phương án giá bán
+lẻ điện bình quân của Tập đoàn Điện lực Việt Nam, Bộ Công Thương có trách nhiệm trả lời bằng văn
+bản để Tập đoàn Điện lực Việt Nam triển khai thực hiện. Trong thời hạn 05 ngày làm việc kể từ ngày
+thực hiện điều chỉnh, Tập đoàn Điện lực Việt Nam có trách nhiệm báo cáo Bộ Công Thương để giám
+sát;
+         d) Trường hợp sau khi tính toán cập nhật, giá bán lẻ điện bình quân cần điều chỉnh cao hơn
+so với giá bán lẻ điện bình quân hiện hành từ 10% trở lên, trên cơ sở hồ sơ phương án giá bán lẻ
+điện bình quân do Tập đoàn Điện lực Việt Nam trình, Bộ Công Thương chủ trì kiểm tra, rà soát và gửi
+lấy ý kiến các bộ, cơ quan liên quan. Trên cơ sở ý kiến góp ý của các bộ, cơ quan liên quan, Bộ Công
+Thương tổng hợp, báo cáo Chính phủ xem xét, cho ý kiến. Trường hợp cần thiết, Bộ Công Thương
+phối hợp với các bộ, cơ quan liên quan báo cáo Ban Chỉ đạo điều hành giá trước khi báo cáo Chính
+phủ.
+              2. Hồ sơ phương án giá bán lẻ điện bình quân trong năm của Tập đoàn Điện lực Việt Nam
+bao gồm:
+             a) Công văn báo cáo về phương án giá bán lẻ điện bình quân trong năm của Tập đoàn Điện
+lực Việt Nam, trong đó bao gồm các nội dung phân tích, đánh giá tình hình thực hiện chi phí khâu
+phát điện của quý trước liền kề;
+              b) Các nội dung kèm theo Công văn báo cáo phương án giá bán lẻ điện bình quân của Tập
+đoàn Điện lực Việt Nam bao gồm: nguyên tắc tính toán cập nhật chi phí khâu phát điện, trong đó có
+nguyên tắc dự kiến các thông số đầu vào như tỷ giá ngoại tệ, giá nhiên liệu trong nước và giá nhiên
+liệu nhập khẩu, giá các nhà máy điện dự kiến đưa vào vận hành trong năm tính toán nhưng chưa có
+hợp đồng mua bán điện; bảng tổng hợp kết quả tính toán và bảng chi tiết số liệu tính toán chi phí
+khâu phát điện; các tài liệu, văn bản sử dụng làm căn cứ, cơ sở trong việc tính toán; thuyết minh các
+định mức chi phí và các đơn giá được sử dụng trong tính toán cập nhật chi phí dự kiến năm N của
+khâu phát điện (nếu có); thuyết minh các chi phí sản xuất kinh doanh điện chưa được tính vào giá
+bán lẻ điện nhưng đã được phân bổ vào giá thành sản xuất kinh doanh điện và số dư còn lại dự kiến
+phân bổ vào giá bán lẻ điện bình quân năm N; báo cáo đánh giá ảnh hưởng của việc điều chỉnh giá
+điện đến chi phí mua điện của khách hàng sử dụng điện.
+        Điều 7. Kiểm tra điều chỉnh giá bán lẻ điện bình quân
+           1. Trường hợp Tập đoàn Điện lực Việt Nam quyết định điều chỉnh giá bán lẻ điện bình quân
+theo quy định tại điểm a khoản 1 Điều 5 và điểm a khoản 1 Điều 6 Nghị định này hoặc trường hợp
+Tập đoàn Điện lực Việt Nam trình Bộ Công Thương hồ sơ phương án giá điện theo quy định tại điểm
+d khoản 1 Điều 5 và điểm d khoản 1 Điều 6 Nghị định này, Bộ Công Thương chủ trì, phối hợp với các
+bộ, cơ quan liên quan xem xét kiểm tra các báo cáo, tính toán của Tập đoàn Điện lực Việt Nam.
+              2. Trường hợp giá bán lẻ điện bình quân cần điều chỉnh giảm mà Tập đoàn Điện lực Việt
+Nam không điều chỉnh giảm, Bộ Công Thương có trách nhiệm yêu cầu Tập đoàn Điện lực Việt Nam
+điều chỉnh giảm giá bán lẻ điện bình quân.
+
+        Tập đoàn Điện lực Việt Nam có trách nhiệm thực hiện theo yêu cầu của Bộ Công Thương
+trong thời hạn 05 ngày làm việc kể từ ngày nhận được yêu cầu.
+        3. Nếu phát hiện có sai sót trong kết quả tính toán giá điện theo quy định tại điểm a khoản 1
+Điều 5 và điểm a khoản 1 Điều 6 Nghị định này, Bộ Công Thương có trách nhiệm yêu cầu Tập đoàn
+Điện lực Việt Nam dừng điều chỉnh hoặc điều chỉnh lại giá bán lẻ điện bình quân. Tập đoàn Điện lực
+Việt Nam có trách nhiệm thực hiện theo yêu cầu của Bộ Công Thương trong thời hạn 05 ngày làm
+việc kể từ ngày nhận được yêu cầu.
+                                             Mục 2
+                         THỜI GIAN ĐIỀU CHỈNH GIÁ BÁN LẺ ĐIỆN BÌNH QUÂN
+        Điều 8. Thời gian điều chỉnh giá bán lẻ điện bình quân
+        Thời gian điều chỉnh giá bán lẻ điện bình quân tối thiểu là 03 tháng kể từ lần điều chỉnh giá
+điện gần nhất.
+                                          Chương III
+                                    ĐIỀU KHOẢN THI HÀNH
+        Điều 9. Tổ chức thực hiện
+        1. Bộ Công Thương có trách nhiệm:
+        a) Hướng dẫn Tập đoàn Điện lực Việt Nam tính toán giá bán lẻ điện bình quân theo quy định
+tại Điều 4 Nghị định này;
+        b) Chủ trì kiểm tra theo quy định tại Điều 7 Nghị định này.
+        2. Các bộ, cơ quan liên quan có trách nhiệm:
+        a) Bộ Tài chính phối hợp với Bộ Công Thương thực hiện Nghị định này với vai trò là cơ quan
+quản lý nhà nước về giá;
+        b) Các bộ, cơ quan liên quan có ý kiến tham gia, phối hợp đối với các nội dung liên quan
+trong phạm vi được phân công quản lý theo chức năng, nhiệm vụ được giao và quy định của pháp
+luật.
+        3. Tập đoàn Điện lực Việt Nam có trách nhiệm:
+        a) Thực hiện tính toán giá bán lẻ điện bình quân theo quy định tại Điều 4, Điều 5 và Điều 6
+Nghị định này và gửi 01 bộ hồ sơ báo cáo phương án giá bán lẻ điện bình quân đến Bộ Công
+Thương;
+        b) Thực hiện điều chỉnh giá bán lẻ điện bình quân, gửi các báo cáo để cơ quan có thẩm
+quyền kiểm tra, giám sát theo quy định tại Điều 5 và Điều 6 Nghị định này.
+        Điều 10. Hiệu lực thi hành
+        Nghị định này có hiệu lực thi hành kể từ ngày ký ban hành.
+ Nơi nhận:                                                      TM. CHÍNH PHỦ
+ - Ban Bí thư Trung ương Đảng;                                  KT. THỦ TƯỚNG
+ - Thủ tướng, các Phó Thủ tướng Chính phủ;                      PHÓ THỦ TƯỚNG
+ - Các bộ, cơ quan ngang bộ, cơ quan thuộc
+ Chính phủ;
+ - HĐND, UBND các tỉnh, thành phố trực thuộc
+ trung ương;
+ - Văn phòng Trung ương và các Ban của Đảng;
+ - Văn phòng Tổng Bí thư;
+ - Văn phòng Chủ tịch nước;                                     Bùi Thanh Sơn
+ - Hội đồng Dân tộc và các Ủy ban của Quốc hội;
+ - Văn phòng Quốc hội;
+ - Tòa án nhân dân tối cao;
+ - Viện kiểm sát nhân dân tối cao;
+ - Kiểm toán nhà nước;
+
+- Ngân hàng Chính sách xã hội;
+- Ngân hàng Phát triển Việt Nam;
+- Ủy ban trung ương Mặt trận Tổ quốc Việt
+Nam;
+- Cơ quan trung ương của các đoàn thể;
+- Tập đoàn Điện lực Việt Nam;
+- VPCP: BTCN, các PCN, Trợ lý TTg, TGĐ
+Cổng TTĐT, các Vụ, Cục, đơn vị trực thuộc,
+Công báo;
+- Lưu: VT, KTTH (2b).

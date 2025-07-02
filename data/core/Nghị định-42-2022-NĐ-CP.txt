@@ -1,0 +1,557 @@
+CHÍNH PHỦ                     CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+              ______                             Độc lập - Tự do - Hạnh phúc
+        Số: 42/2022/NĐ-CP                         _________________________
+                                               Hà Nội, ngày 24 tháng 6 năm 2022
+                                               NGHỊ ĐỊNH
+                     Quy định về việc cung cấp thông tin và dịch vụ công trực tuyến
+                               của cơ quan nhà nước trên môi trường mạng
+                                             ______________
+       Căn cứ Luật Tổ chức Chính phủ ngày 19 tháng 6 năm 2015; Luật sửa đổi, bổ sung một số
+điều của Luật Tổ chức Chính phủ và Luật Tổ chức chính quyền địa phương ngày 22 tháng 11 năm
+2019;
+       Căn cứ Luật Công nghệ thông tin ngày 29 tháng 6 năm 2006;
+       Căn cứ Luật An toàn thông tin mạng ngày 19 tháng 11 năm 2015;
+       Căn cứ Luật Tiếp cận thông tin ngày 06 tháng 4 năm 2016;
+       Theo đề nghị của Bộ trưởng Bộ Thông tin và Truyền thông;
+       Chính phủ ban hành Nghị định quy định về việc cung cấp thông tin và dịch vụ công trực tuyến
+của cơ quan nhà nước trên môi trường mạng.
+                                          Chương I
+                                     QUY ĐỊNH CHUNG
+       Điều 1. Phạm vi điều chỉnh
+       Nghị định này quy định về việc cung cấp thông tin và dịch vụ công trực tuyến của cơ quan
+nhà nước trên môi trường mạng.
+       Điều 2. Đối tượng áp dụng
+       1. Bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ; Tổng cục, Cục và cơ quan tương
+đương; Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương; cơ quan chuyên môn thuộc Ủy ban
+nhân dân tỉnh, thành phố trực thuộc trung ương; Ủy ban nhân dân huyện, quận, thị xã, thành phố
+thuộc tỉnh, thành phố trực thuộc trung ương (sau đây gọi chung là Ủy ban nhân dân cấp huyện); Ủy
+ban nhân dân xã, phường, thị trấn thuộc huyện, quận, thị xã, thành phố thuộc tỉnh, thành phố trực
+thuộc trung ương (sau đây gọi chung là Ủy ban nhân dân cấp xã).
+       2. Tổ chức, cá nhân tham gia cung cấp và sử dụng thông tin, dịch vụ công trực tuyến của cơ
+quan nhà nước trên môi trường mạng theo quy định pháp luật.
+       3. Cơ quan, tổ chức khác tự nguyện áp dụng các quy định của Nghị định này.
+       Điều 3. Giải thích từ ngữ
+       Trong Nghị định này, các từ ngữ dưới đây được hiểu như sau:
+       1. Cổng thông tin điện tử là điểm truy cập của cơ quan trên môi trường mạng, liên kết, tích
+hợp các kênh thông tin, các dịch vụ và các ứng dụng mà qua đó người dùng có thể khai thác, sử
+dụng và cá nhân hóa việc hiển thị thông tin.
+       2. Cơ quan chủ quản trang thông tin điện tử hoặc cổng thông tin điện tử là các cơ quan nhà
+nước quy định tại khoản 1 Điều 2 của Nghị định này (sau đây gọi tắt là cơ quan chủ quản).
+       3. Cổng dữ liệu cấp bộ, cấp tỉnh là điểm đầu mối truy cập thông tin, dữ liệu trên môi trường
+mạng phục vụ việc công bố dữ liệu mở, cung cấp thông tin về chia sẻ dữ liệu của cơ quan nhà nước
+trong nội bộ của bộ, tỉnh; cung cấp các tài liệu, dịch vụ, công cụ, ứng dụng xử lý, khai thác dữ liệu
+được công bố bởi các cơ quan nhà nước trong nội bộ của bộ, tỉnh.
+       4. Dịch vụ hành chính công là những dịch vụ liên quan đến hoạt động thực thi pháp luật,
+không nhằm mục tiêu lợi nhuận, do cơ quan nhà nước có thẩm quyền cấp cho tổ chức, cá nhân dưới
+hình thức các loại giấy tờ có giá trị pháp lý hoặc dưới hình thức thông báo kết quả thực hiện trong
+các lĩnh vực mà cơ quan nhà nước đó quản lý.
+          Luatvietnam                                                     LuatVietnam.vn
+Tiện ích văn bản luật
+
+            Mỗi dịch vụ hành chính công gắn liền với một hoặc một số thủ tục hành chính để giải quyết
+một công việc cụ thể liên quan đến tổ chức, cá nhân.
+            5. Dịch vụ công trực tuyến của cơ quan nhà nước là dịch vụ hành chính công và các dịch vụ
+khác của cơ quan nhà nước được cung cấp cho các tổ chức, cá nhân trên môi trường mạng.
+        6. Các chủ thể tham gia giao dịch là các cơ quan nhà nước, tổ chức, cá nhân tham gia vào
+các giao dịch của dịch vụ công trực tuyến.
+              7. Biểu mẫu điện tử không tương tác là biểu mẫu của thủ tục hành chính (mẫu đơn, mẫu tờ
+khai) được định dạng và lưu trữ dưới dạng tệp tin điện tử để tải về và điền thông tin.
+             8. Biểu mẫu điện tử tương tác là biểu mẫu của thủ tục hành chính được thể hiện dưới dạng
+ứng dụng máy tính (thông thường dưới dạng ứng dụng trên Web) để tổ chức, cá nhân cung cấp, trao
+đổi thông tin, dữ liệu khi sử dụng dịch vụ công trực tuyến của cơ quan nhà nước.
+        9. Kênh cung cấp thông tin và dịch vụ công trực tuyến của cơ quan nhà nước trên môi
+trường mạng (sau đây gọi là kênh cung cấp) là kênh giao tiếp trên môi trường mạng được cơ quan
+nhà nước xác định và quản lý để kiểm soát việc cung cấp thông tin và dịch vụ công trực tuyến cho tổ
+chức, cá nhân.
+                10. Hệ thống giám sát, đo lường mức độ cung cấp và sử dụng dịch vụ Chính phủ số là hệ
+thống do Bộ Thông tin và Truyền thông xây dựng để thực hiện đo lường, đánh giá, theo dõi, quản lý
+việc cung cấp và hiệu quả sử dụng thông tin và dịch vụ công trực tuyến của các cơ quan nhà nước.
+        11. Dữ liệu đặc tả là những thông tin mô tả các đặc tính của dữ liệu như nội dung, định dạng,
+chất lượng, điều kiện và các đặc tính khác nhằm tạo thuận lợi cho quá trình tìm kiếm, truy cập, quản
+lý và lưu trữ dữ liệu.
+              12. Cổng kết nối dịch vụ chứng thực chữ ký số công cộng do Bộ Thông tin và Truyền thông
+xây dựng, là hệ thống thông tin kết nối đến các tổ chức cung cấp dịch vụ chứng thực chữ ký số công
+cộng và tổ chức cung cấp dịch vụ chứng thực chữ ký số chuyên dùng Chính phủ.
+                                          Chương II
+        CUNG CẤP THÔNG TIN CỦA CƠ QUAN NHÀ NƯỚC TRÊN MÔI TRƯỜNG MẠNG
+        Điều 4. Thông tin cung cấp trên môi trường mạng
+                1. Cơ quan nhà nước công khai trên môi trường mạng các thông tin cho tổ chức, cá nhân
+theo quy định của Luật Tiếp cận thông tin, Luật Công nghệ thông tin, phải bảo đảm cung cấp các
+thông tin như sau:
+        a) Văn bản quy phạm pháp luật và văn bản quản lý hành chính         thuộc thẩm quyền ban hành
+hoặc được giao chủ trì soạn thảo, trong đó nêu rõ: hình thức văn bản, thẩm quyền ban hành, số ký
+hiệu, ngày ban hành, ngày hiệu lực, trích yếu, tệp văn bản cho phép      tải về, cung cấp công cụ tìm
+kiếm văn bản.
+            Việc cung cấp thông tin văn bản quy phạm pháp luật tuân thủ các quy định của pháp luật và
+bảo đảm đồng bộ với Cơ sở dữ liệu quốc gia về văn bản pháp luật hoặc Công báo Chính phủ nước
+Cộng hoà xã hội chủ nghĩa Việt Nam.
+             b) Điều ước quốc tế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên, thỏa thuận
+quốc tế mà Việt Nam là một bên.
+           c) Thủ tục hành chính, dịch vụ công trực tuyến, quy trình giải quyết công việc của cơ quan
+nhà nước tuân thủ các quy định của pháp luật, bảo đảm thống nhất, tích hợp từ Cổng Dịch vụ công
+quốc gia, Cổng dịch vụ công cấp bộ, cấp tỉnh.
+          d) Thông tin phổ biến, hướng dẫn thực hiện pháp luật, chế độ, chính sách đối với những lĩnh
+vực thuộc phạm vi quản lý của cơ quan nhà nước.
+           đ) Chiến lược, chương trình, dự án, đề án, kế hoạch, quy hoạch phát triển kinh tế - xã hội
+của quốc gia, địa phương; quy hoạch ngành, lĩnh vực và phương thức, kết quả thực hiện; chương
+trình, kế hoạch công tác hằng năm của cơ quan nhà nước, trong đó:
+        - Bộ, cơ quan          ngang bộ, cơ quan thuộc Chính phủ cung cấp thông tin về chiến lược, kế
+hoạch, quy hoạch ngành, lĩnh vực thuộc thẩm quyền trong phạm vi cả nước. Cơ quan chuyên môn
+thuộc Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương cung cấp thông tin về chiến lược, kế
+
+hoạch, quy hoạch ngành, lĩnh vực thuộc thẩm quyền tại địa phương.
+                 - Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương, Ủy ban nhân dân cấp huyện cung
+cấp thông tin về chiến lược, kế hoạch, quy hoạch phát triển kinh tế - xã hội trên địa bàn quản lý của
+mình.
+        - Việc công bố quy hoạch tuân theo Luật Quy hoạch.
+                   - Thông tin về danh mục dự án, chương trình và kết quả thực hiện đầu tư công, mua sắm
+công và quản lý, sử dụng vốn đầu tư công, các nguồn vốn vay theo quy định của pháp luật.
+        e) Thông tin về chức năng, nhiệm vụ, quyền hạn, cơ cấu tổ chức, sơ đồ tổ chức của cơ quan
+và của đơn vị trực thuộc; địa chỉ, số điện thoại, số fax, địa chỉ thư điện tử của cơ quan nhà nước; họ
+tên, chức vụ, đơn vị công tác, số điện thoại, địa chỉ thư điện tử chính thức của cán bộ, công chức làm
+đầu mối liên hệ:
+                 - Đối với bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ, Tổng cục, Cục và cơ quan tương
+đương, cơ quan chuyên môn thuộc Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương phải bảo
+đảm có các thông tin về sơ đồ, cơ cấu tổ chức, chức năng, nhiệm vụ, quyền hạn của cơ quan, đơn vị
+trực thuộc; tóm lược quá trình hình thành và phát triển của cơ quan; tiểu sử tóm tắt và nhiệm vụ đảm
+nhiệm của lãnh đạo cơ quan.
+                  - Đối với Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương và Ủy ban nhân dân cấp
+huyện phải bảo đảm có các thông tin về tổ chức bộ máy hành chính, bản đồ địa giới hành chính đến
+cấp xã, điều kiện tự nhiên, lịch sử, truyền thống văn hóa, di tích, danh thắng; tiểu sử tóm tắt và nhiệm
+vụ đảm nhiệm của lãnh đạo cơ quan.
+                g) Báo cáo tài chính năm công khai theo quy định của Luật Kế toán; thông tin thống kê về
+ngành, lĩnh vực quản lý theo quy định của Luật Thống kê; thông tin về danh mục và kết quả chương
+trình, đề tài khoa học theo quy định của Luật Khoa học và Công nghệ; thông tin về dịch theo quy định
+của Luật Phòng, chống bệnh truyền nhiễm.
+          h) Danh mục thông tin phải được công khai, trong đó nêu rõ địa chỉ, hình thức, thời điểm, thời
+hạn công khai đối với từng loại thông tin.
+        i) Các thông tin khác mà pháp luật quy định phải công bố công khai.
+              2. Ngoài các thông tin quy định tại khoản 1 Điều này, các cơ quan nhà nước có thể cung cấp
+thông tin khác theo thẩm quyền.
+                  3. Thông tin của cơ quan nhà nước cung cấp trên môi trường mạng phải được cập nhật kịp
+thời sau khi có sự thay đổi.
+        Điều 5. Kênh cung cấp thông tin
+                1. Trang thông tin điện tử hoặc Cổng thông tin điện tử của cơ quan nhà nước (sau đây gọi
+chung là Cổng thông tin điện tử của cơ quan nhà nước) là kênh cung cấp thông tin thống nhất, tập
+trung của cơ quan nhà nước trên môi trường mạng.
+        2. Căn cứ vào điều kiện cụ thể, các cơ quan nhà nước triển khai các kênh cung cấp thông tin
+khác sau đây cho tổ chức, cá nhân trên môi trường mạng:
+        a) Cổng dữ liệu cấp bộ, cấp tỉnh
+                   Cổng dữ liệu cấp bộ tích hợp với Cổng dữ liệu quốc gia và là cổng thành phần của Cổng
+thông tin điện tử của bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ; Cổng dữ liệu cấp tỉnh tích hợp
+với Cổng dữ liệu quốc gia và là cổng thành phần của Cổng thông tin điện tử của Ủy ban nhân dân
+tỉnh, thành phố trực thuộc trung ương.
+                     b) Mạng xã hội do cơ quan nhà nước cho phép cung cấp thông tin trên môi trường mạng
+theo quy định của pháp luật.
+        c) Thư điện tử (Email).
+              d) Ứng dụng trên thiết bị di động do cơ quan nhà nước cho phép cung cấp thông tin trên môi
+trường mạng được triển khai tập trung, thống nhất, dùng chung trong phạm vi bộ, ngành, địa phương
+để cung cấp thông tin của cơ quan nhà nước trên môi trường mạng, tránh trùng lặp.
+        đ) Tổng đài điện thoại.
+
+                3. Cơ quan nhà nước công bố các kênh cung cấp thông tin trên môi trường mạng. Các kênh
+cung cấp này đáp ứng các yêu cầu sau đây:
+               a) Bảo đảm thuận tiện trên nhiều phương tiện truy cập khác nhau, bao gồm cả thiết bị di
+động.
+        b) Cho phép tổ chức, cá nhân đánh giá trực tuyến mức độ hài lòng về thông tin được cung
+cấp. Cơ quan nhà nước bảo đảm tính bí mật, riêng tư của tổ chức, cá nhân đánh giá.
+              c) Bảo đảm an toàn thông tin mạng; áp dụng các tiêu chuẩn, công nghệ hỗ trợ người khuyết
+tật tiếp cận, sử dụng sản phẩm, dịch vụ thông tin và truyền thông; tuân thủ các quy chuẩn kỹ thuật về
+cung cấp thông tin trên môi trường mạng.
+             d) Bộ Thông tin và Truyền thông hướng dẫn tiêu chuẩn hỗ trợ người khuyết tật tiếp cận, sử
+dụng sản phẩm, dịch vụ thông tin và truyền thông; cung cấp thông tin trên môi trường mạng.
+               4. Tổ chức, cá nhân có quyền chọn lựa kênh do cơ quan nhà nước cung cấp để truy cập, sử
+dụng thông tin của cơ quan nhà nước trên môi trường mạng và có trách nhiệm tuân thủ các quy định
+trong việc sử dụng thông tin trên môi trường mạng.
+        Điều 6. Cổng thông tin điện tử của cơ quan nhà nước
+              1. Cổng thông tin điện tử của bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ, Ủy ban nhân
+dân tỉnh, thành phố trực thuộc trung ương là kênh cung cấp thông tin chính thống, tập trung của cơ
+quan nhà nước trong phạm vi bộ, ngành, địa phương trên môi trường mạng. Cơ quan, đơn vị thuộc
+bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ; cơ quan chuyên môn thuộc Ủy ban nhân dân tỉnh,
+thành phố trực thuộc trung ương; Ủy ban nhân dân cấp huyện; Ủy ban nhân dân cấp xã nếu có trang
+thông tin điện tử thì phải là thành phần của Cổng thông tin điện tử của bộ, cơ quan ngang bộ, cơ
+quan thuộc Chính phủ, Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương.
+        2. Cổng thông tin điện tử Chính phủ làm đầu mối kết nối thông tin chỉ đạo, điều hành của
+Chính phủ trên môi trường mạng; hướng dẫn nghiệp vụ, tích hợp thông tin với Cổng thông tin điện tử
+của các bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ và Ủy ban nhân dân các tỉnh, thành phố
+trực thuộc trung ương.
+              3. Cổng thông tin điện tử của bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ, Ủy ban nhân
+dân tỉnh, thành phố trực thuộc trung ương kết nối, tích hợp với Cổng Thông tin điện tử Chính phủ, Hệ
+thống giám sát, đo lường mức độ cung cấp và sử dụng dịch vụ Chính phủ số.
+                4. Tên miền truy cập cổng thông tin điện tử của cơ quan nhà nước sử dụng tên miền quốc
+gia Việt Nam “.vn” và sử dụng công nghệ địa chỉ Internet IPv6, tuân thủ theo quy tắc sau đây:
+             a) Đối với bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ, sử dụng tên miền cấp 3 có dạng:
+tenbonganh.gov.vn, trong đó tenbonganh là tên viết tắt hoặc đầy đủ bằng tiếng Việt không dấu hoặc
+là tên viết tắt bằng tiếng Anh của bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ theo quy định của
+Bộ Ngoại giao.
+               Cơ quan trực thuộc bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ sử dụng tên miền cấp 4
+có dạng: tendonvi.tenbonganh.gov.vn, trong đó tendonvi là tên viết tắt hoặc tên đầy đủ của cơ quan
+trực thuộc bằng tiếng Việt không dấu hoặc tiếng Anh.
+        b) Đối với Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương, sử dụng tên miền cấp 3
+có dạng: tentinhthanh.gov.vn, trong đó tentinhthanh là tên đầy đủ của tỉnh, thành phố trực thuộc trung
+ương bằng tiếng Việt không dấu.
+        Ủy ban nhân dân thành phố Hồ Chí Minh sử dụng tên miền truy cập là: hochiminhcity.gov.vn.
+                Cơ quan chuyên môn thuộc Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương sử dụng
+tên miền cấp 4 có dạng: tencoquan.tentinhthanh.gov.vn, trong đó tencoquan là tên viết tắt hoặc tên
+đầy đủ của cơ quan chuyên môn bằng tiếng Việt không dấu hoặc tiếng Anh.
+        c) Đối  với Ủy   ban  nhân   dân  cấp  huyện,  sử  dụng   tên  miền  cấp  4  có          dạng:
+tenquanhuyen.tentinhthanh.gov.vn, trong đó tenquanhuyen         là tên đầy đủ của huyện, quận, thị xã,
+thành phố thuộc tỉnh, thành phố trực thuộc trung ương bằng tiếng Việt không dấu.
+        d) Đối  với  Ủy   ban  nhân   dân  cấp   xã,  sử  dụng   tên miền   cấp  5  có           dạng:
+tenphuongxa.tenquanhuyen.tentinhthanh.gov.vn,  trong đó  tenphuongxa   là tên đầy  đủ của          xã,
+phường, thị trấn bằng tiếng Việt không dấu.
+
+        5. Bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ; Ủy ban nhân dân tỉnh, thành phố trực
+thuộc trung ương có trách nhiệm bổ sung, thay đổi tên miền truy cập theo quy định tại khoản 4 Điều
+này.
+        6. Bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ; Ủy ban nhân dân tỉnh, thành phố trực
+thuộc trung ương cung cấp các dữ liệu đặc tả cho Cổng thông tin điện tử của cơ quan nhà nước để
+hỗ trợ tìm kiếm, trao đổi và chia sẻ thông tin, bảo đảm khả năng liên kết, tích hợp với Cổng thông tin
+điện tử của cơ quan, tổ chức có liên quan, đồng thời bảo đảm an toàn thông tin mạng theo quy định
+của pháp luật.
+        7. Bộ Thông tin và Truyền thông hướng dẫn về cấu trúc, bố cục, yêu cầu kỹ thuật cho Cổng
+thông tin điện tử của cơ quan nhà nước và xây dựng công cụ dùng chung để các cơ quan nhà nước
+phát triển Cổng thông tin điện tử.
+        Điều 7. Các chức năng hỗ trợ cơ bản của cổng thông tin điện tử
+        1. Hỗ trợ tìm kiếm, liên kết và lưu trữ thông tin
+        a) Chức năng tra cứu, tìm kiếm thông tin cho phép tìm kiếm được đầy đủ và chính xác nội
+dung thông tin, tin, bài cần tìm hiện có theo yêu cầu của tổ chức, cá nhân.
+        b) Cung cấp đầy đủ, chính xác các đường liên kết đến cổng thông tin điện tử của cơ quan
+nhà nước khác có liên quan.
+        c) Cung cấp chức năng in ấn và lưu trữ cho mỗi tin, bài.
+        2. Cung cấp thông tin bằng tiếng nước ngoài
+        a) Cơ quan nhà nước phải bảo đảm cung cấp các thông tin bằng tiếng Anh gồm: Cơ cấu tổ
+chức, chức năng, nhiệm vụ, quyền hạn của cơ quan đó và của từng đơn vị trực thuộc; thông tin liên
+hệ của cán bộ, công chức có thẩm quyền, bao gồm họ tên, chức vụ, đơn vị công tác, số điện thoại,
+số fax, địa chỉ thư điện tử chính thức.
+        b) Khuyến khích cơ quan nhà nước đăng tải các mục thông tin khác bằng tiếng Anh và các
+ngôn ngữ khác.
+        c) Các mục thông tin quy định tại điểm a, điểm b của khoản 2 Điều này phải được cập nhật
+kịp thời khi có thay đổi.
+        3. Căn cứ vào điều kiện cụ thể, các cơ quan nhà nước triển khai các chức năng cơ bản tại
+khoản 1, khoản 2 Điều này trên các kênh cung cấp khác.
+        Điều 8. Tương tác với tổ chức, cá nhân trên môi trường mạng
+        1. Cơ quan nhà nước ứng dụng công nghệ thông tin, công nghệ số để cung cấp chức năng
+tương tác với tổ chức, cá nhân trên cổng thông tin điện tử, bao gồm:
+        a) Chức năng hỏi đáp và tiếp nhận thông tin phản hồi trực tuyến gồm: cung cấp chức năng
+cho phép tổ chức, cá nhân gửi câu hỏi, ý kiến trực tuyến, trả lời các câu hỏi, tiếp thu ý kiến góp ý,
+theo dõi tình trạng xử lý và nhận kết quả xử lý kiến nghị trực tuyến.
+        b) Hỗ trợ tính năng mạng xã hội.
+        c) Cho phép tham gia trong hoạt động xây dựng pháp luật, thực thi chính sách, pháp luật của
+cơ quan nhà nước theo quy định của pháp luật.
+        d) Cho phép đánh giá hoạt động cung cấp thông tin của cơ quan nhà nước trên môi trường
+mạng, bao gồm đánh giá về giao diện, nội dung, chất lượng, sự hỗ trợ của cơ quan nhà nước.
+        đ) Công khai toàn bộ các thông tin tương tác với tổ chức, cá nhân theo quy định của pháp
+luật.
+        2. Căn cứ vào điều kiện cụ thể, các cơ quan nhà nước có thể triển khai chức năng tương tác
+với tổ chức, cá nhân tại khoản 1 Điều này qua các kênh cung cấp thông tin khác trên môi trường
+mạng.
+        Điều 9. Kết nối, chia sẻ thông tin của cơ quan nhà nước trên môi trường mạng
+        1. Trường hợp cơ quan nhà nước triển khai nhiều kênh cung cấp thông tin trên môi trường
+mạng, các kênh này phải được kết nối, tích hợp để bảo đảm cung cấp thông tin đồng bộ với thông tin
+trên cổng thông tin điện tử của cơ quan nhà nước.
+
+               2. Các thông tin của cơ quan nhà nước trên môi trường mạng được lưu trữ dưới dạng máy
+có thể đọc được và chia sẻ dưới dạng dịch vụ web, giao diện lập trình ứng dụng hoặc các hình thức
+phổ biến khác để bảo đảm khả năng sẵn sàng kết nối, chia sẻ thông tin giữa các hệ thống thông tin
+của cơ quan nhà nước.
+         3. Việc kết nối, chia sẻ dữ liệu giữa các cơ quan nhà nước thực hiện theo quy định tại Nghị
+định số 47/2020/NĐ-CP ngày 09 tháng 4 năm 2020 của Chính phủ quản lý, kết nối và chia sẻ dữ liệu
+số của cơ quan nhà nước.
+                  Điều 10. Quản lý, giám sát cung cấp thông tin của cơ quan nhà nước trên môi trường
+mạng
+               1. Các bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ, Ủy ban nhân dân các tỉnh, thành
+phố trực thuộc trung ương chịu trách nhiệm kiểm tra, giám sát và đánh giá việc cung cấp thông tin
+của các cơ quan, đơn vị trực thuộc trên môi trường mạng để bảo đảm khả năng thuận tiện và bảo
+đảm chất lượng của việc cung cấp thông tin.
+       2. Bộ Thông tin và Truyền thông hướng dẫn các bộ, cơ quan ngang bộ, cơ quan thuộc Chính
+phủ, Ủy ban nhân dân các tỉnh, thành phố trực thuộc trung ương kết nối với Hệ thống giám sát, đo
+lường mức độ cung cấp và sử dụng dịch vụ Chính phủ số để quản lý, giám sát hiệu quả, mức độ
+cung cấp, sử dụng thông tin của cơ quan nhà nước trên môi trường mạng, tổng hợp, báo cáo Thủ
+tướng Chính phủ.
+                                         Chương III
+            CUNG CẤP DỊCH VỤ CÔNG TRỰC TUYẾN TRÊN MÔI TRƯỜNG MẠNG
+       Điều 11. Các mức độ cung cấp dịch vụ công trực tuyến
+       1. Cơ quan nhà nước cung cấp dịch vụ công trực tuyến theo 02 mức độ như sau:
+       a) Dịch vụ công trực tuyến toàn trình: là dịch vụ bảo   đảm cung cấp toàn bộ thông tin về thủ
+tục hành chính, việc thực hiện và giải quyết thủ tục hành chính đều được thực hiện trên môi trường
+mạng. Việc trả kết quả được thực hiện trực tuyến hoặc qua dịch vụ bưu chính công ích.
+       b) Dịch vụ công trực tuyến một phần: là dịch vụ công trực tuyến không bảo đảm các điều kiện
+quy định tại điểm a khoản 1 Điều này.
+             Cơ quan nhà nước ứng dụng công nghệ thông tin, công nghệ số tối đa trong quá trình cung
+cấp và xử lý dịch vụ công trực tuyến trên môi trường mạng trừ trường hợp tổ chức, cá nhân sử dụng
+dịch vụ phải hiện diện tại cơ quan nhà nước hoặc cơ quan nhà nước phải đi thẩm tra, xác minh tại
+hiện trường theo quy định của pháp luật.
+              2. Với các dịch vụ công trực tuyến cho phép tổ chức, cá nhân nộp hồ sơ trên môi trường
+mạng, cơ quan nhà nước có trách nhiệm:
+                   a) Triển khai áp dụng chữ ký số công cộng, chữ ký số chuyên dùng cho các ứng dụng
+chuyên ngành đáp ứng yêu cầu về chữ ký số trong quá trình thực hiện dịch vụ công trực tuyến.
+       b) Phát triển, sử dụng các biểu mẫu điện tử tương tác theo quy định.
+         c) Kết nối, khai thác dữ liệu từ các cơ sở dữ liệu quốc gia, cơ sở dữ liệu chuyên ngành, cơ
+sở dữ liệu dùng chung của các cơ quan nhà nước khác để tự động điền các thông tin vào biểu mẫu
+điện tử và cắt giảm thành phần hồ sơ, bảo đảm nguyên tắc tổ chức, cá nhân chỉ cung cấp thông tin
+một lần cho cơ quan nhà nước khi thực hiện dịch vụ công trực tuyến.
+       Việc kết nối, chia sẻ dữ liệu giữa các cơ quan nhà nước thực hiện theo quy định tại Nghị định
+số 47/2020/NĐ-CP ngày 09 tháng 4 năm 2020 của Chính phủ quản lý, kết nối và chia sẻ dữ liệu số
+của cơ quan nhà nước.
+               3. Văn phòng Chính phủ hướng dẫn rà soát, đánh giá thủ tục hành chính đáp ứng yêu cầu
+xây dựng dịch vụ công trực tuyến theo các mức độ quy định tại Nghị định này.
+       4. Bộ Thông tin và Truyền thông hướng dẫn tiêu chí kỹ thuật để đánh giá, xếp loại mức độ
+của dịch vụ công trực tuyến; hướng dẫn, quy định kỹ thuật về tích hợp chữ ký số hoặc ứng dụng ký
+số trên cổng dịch vụ công.
+       Điều 12. Danh mục dịch vụ công trực tuyến
+
+            1. Danh mục và thông tin của các dịch vụ công trực tuyến phải được cập nhật trên Cơ sở dữ
+liệu quốc gia về thủ tục hành chính, đồng bộ và đăng tải trên Cổng dịch vụ công cấp bộ, cấp tỉnh.
+               2. Các dịch vụ công trực tuyến phải được tổ chức, phân loại theo đối tượng sử dụng (tổ
+chức, cá nhân), theo nhóm dịch vụ (theo chủ đề), theo mức độ và cơ quan thực hiện để thuận tiện
+cho việc tìm kiếm, sử dụng.
+              3. Dịch vụ công trực tuyến khi cung cấp trên môi trường mạng được chuẩn hóa, đồng bộ về
+mã, tên dịch vụ công trực tuyến; cung cấp biểu mẫu điện tử kèm theo; hướng dẫn quy trình sử dụng
+cho tổ chức, cá nhân; hướng dẫn quy trình xử lý của các cơ quan nhà nước và kết quả của dịch vụ
+công trực tuyến với Cơ sở dữ liệu quốc gia về thủ tục hành chính. Việc chuẩn hóa này được công bố
+kèm hướng dẫn cho người dùng theo từng dịch vụ công trực tuyến.
+               4. Các dịch vụ công trực tuyến thuộc thẩm quyền thực hiện của cơ quan nhà nước các cấp
+trên địa bàn tỉnh, thành phố trực thuộc trung ương do các bộ, ngành triển khai cung cấp trên môi
+trường mạng phải được tích hợp, công bố công khai và đồng bộ thông tin tiếp nhận, xử lý hồ sơ trên
+Cổng dịch vụ công quốc gia và Hệ thống thông tin giải quyết thủ tục hành chính cấp tỉnh.
+             5. Quy định về định danh và xác thực điện tử của chủ thể tham gia giao dịch dịch vụ công
+trực tuyến phải được xác định rõ, công bố trên cổng dịch vụ công và tuân thủ quy định của pháp luật
+về định danh và xác thực điện tử.
+        Điều 13. Kênh cung cấp dịch vụ công trực tuyến
+        1. Cổng dịch vụ công cấp bộ, cấp tỉnh là thành phần của Hệ thống thông tin giải quyết thủ tục
+hành chính cấp bộ, cấp tỉnh, cung cấp thông tin, dịch vụ công trực tuyến thuộc thẩm quyền giải quyết
+của bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ, Ủy ban nhân dân các cấp cho tổ chức, cá
+nhân.
+        2. Cổng dịch vụ công cấp bộ, cấp tỉnh phải bảo đảm các yêu cầu:
+            a) Có tên miền thống nhất theo dạng: dichvucong.(tên bộ, địa phương).gov.vn với giao diện
+ngôn ngữ tiếng Việt, e-services.(tên bộ, địa phương tiếng Anh).gov.vn với giao diện ngôn ngữ tiếng
+Anh; tên bộ, địa phương đặt theo quy định của pháp luật và sử dụng công nghệ địa chỉ Internet IPv6.
+        b)       Kết nối, tích hợp với Cổng thông tin điện tử của bộ, cơ quan ngang bộ, cơ quan thuộc
+Chính phủ, Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương; Cổng dịch vụ công quốc gia.
+              c) Kết nối với Hệ thống giám sát, đo lường mức độ cung cấp và sử dụng dịch vụ Chính phủ
+số.
+           d) Kết nối với Cổng kết nối dịch vụ chứng thực chữ ký số công cộng để giúp cho tổ chức, cá
+nhân thực hiện ký số thuận tiện, dễ dàng khi sử dụng các dịch vụ công trực tuyến của cơ quan nhà
+nước trên môi trường mạng.
+          đ) Cấu trúc, bố cục, yêu cầu kỹ thuật đối với Cổng dịch vụ công cấp bộ, cấp tỉnh theo hướng
+dẫn của Bộ Thông tin và Truyền thông.
+                  e) Bộ Thông tin và Truyền thông xây dựng công cụ dùng chung để các cơ quan nhà nước
+phát triển Cổng dịch vụ công cấp bộ, cấp tỉnh.
+        3. Căn cứ vào điều kiện cụ thể, các cơ quan nhà nước chủ động triển khai các kênh cung
+cấp dịch vụ công trực tuyến khác sau đây:
+                a) Mạng xã hội do cơ quan nhà nước cho phép cung cấp dịch vụ công trực tuyến theo quy
+định của pháp luật.
+           b) Ứng dụng trên thiết bị di động của cơ quan nhà nước cho phép cung cấp dịch vụ công trực
+tuyến được triển khai tập trung, thống nhất, dùng chung trong phạm vi bộ, ngành, địa phương để
+cung cấp dịch vụ công trực tuyến của cơ quan nhà nước, tránh trùng lặp.
+        4. Cơ quan nhà nước công bố các kênh cung cấp dịch vụ công trực tuyến trên môi trường
+mạng.
+                5. Các kênh cung cấp dịch vụ công trực tuyến trên môi trường mạng đáp ứng các yêu cầu
+sau đây:
+              a) Bảo đảm thuận tiện trên nhiều phương tiện truy cập khác nhau, bao gồm cả thiết bị di
+động.
+
+              b) Cho phép tổ chức, cá nhân có thể đánh giá trực tuyến mức độ hài lòng về dịch vụ công
+trực tuyến được cung cấp. Cơ quan nhà nước bảo đảm tính bí mật, riêng tư của tổ chức, cá nhân
+đánh giá.
+        c) Đồng bộ về thông tin, trạng thái xử lý với dịch vụ công trực tuyến được cung cấp trên Cổng
+dịch vụ công quốc gia, Cổng dịch vụ công cấp bộ, cấp tỉnh.
+              6. Tổ chức, cá nhân có quyền chọn lựa kênh cung cấp dịch vụ công trực tuyến của cơ quan
+nhà nước trên môi trường mạng và có trách nhiệm tuân thủ những quy định về sử dụng các dịch vụ
+công trực tuyến đó.
+        Điều 14. Các yêu cầu kỹ thuật cung cấp dịch vụ công trực tuyến
+         1. Việc thiết kế, xây dựng, cung cấp các dịch vụ công trực tuyến tuân thủ các quy chuẩn, quy
+định kỹ thuật đối với các hệ thống thông tin cung cấp dịch vụ công trực tuyến và đáp ứng nhu cầu của
+tổ chức, cá nhân, hỗ trợ người khuyết tật tiếp cận, sử dụng sản phẩm, dịch vụ thông tin và truyền
+thông.
+             2. Hệ thống cung cấp dịch vụ công trực tuyến trên môi trường mạng phải có giao diện thân
+thiện, dễ sử dụng, an toàn, bảo mật, lấy tổ chức, cá nhân làm trung tâm.
+             3. Sản phẩm phần mềm cung cấp dịch vụ công trực tuyến được triển khai dưới dạng các dịch
+vụ để dễ dàng nhân rộng và tuỳ biến, ít đòi hỏi năng lực công nghệ.
+        Điều 15. Trách nhiệm cung cấp dịch vụ công trực tuyến
+        1. Cơ quan nhà nước cung cấp dịch vụ công trực tuyến có trách nhiệm:
+           a) Cải cách mô hình tổ chức, quy trình công việc để có thể ứng dụng tối đa công nghệ thông
+tin, công nghệ số trong hoạt động cung cấp dịch vụ công trực tuyến trên môi trường mạng.
+            b) Đối xử công bằng, không phân biệt khi người dùng truy cập dịch vụ công trực tuyến trên
+các kênh cung cấp khác nhau.
+          c) Kết nối, liên thông các kênh cung cấp để người dùng có thể truy cập thông tin trên nhiều
+kênh cung cấp khác nhau trong một lần sử dụng dịch vụ.
+          d) Sẵn sàng, chủ động, kịp thời cung cấp dịch vụ công trực tuyến thuận tiện, dễ dàng, nhanh
+chóng, hướng tới việc cá thể hóa theo nhu cầu của tổ chức, cá nhân.
+                 2. Khuyến khích các cơ quan nhà nước cung cấp các dịch vụ công trực tuyến khác ngoài
+dịch vụ hành chính công trên môi trường mạng.
+        Điều 16. Giám sát, đánh giá hiệu quả, mức độ sử dụng dịch vụ công trực tuyến
+        1. Việc quản lý, giám sát, đánh giá hiệu quả, mức độ sử dụng dịch vụ công trực tuyến của
+các cơ quan nhà nước phải được thực hiện tự động hóa bằng hệ thống thông tin với từng dịch vụ
+công trực tuyến, từng chủ thể tham gia giao dịch, từng bước thực hiện dịch vụ.
+             2. Bộ Thông tin và Truyền thông xây dựng hướng dẫn kỹ thuật chi tiết về công cụ đánh giá
+hiệu quả, mức độ sử dụng dịch vụ công trực tuyến của cơ quan nhà nước; tích hợp, đồng bộ thông
+tin kết quả đánh giá với Hệ thống đánh giá chỉ số phục vụ người dân, doanh nghiệp của Cổng dịch vụ
+công quốc gia, bảo đảm tận dụng, không thu thập lại các thông tin đã có.
+                3. Các bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ, Ủy ban nhân dân các tỉnh, thành
+phố trực thuộc trung ương có trách nhiệm:
+            a) Báo cáo kết quả triển khai và hiệu quả cung cấp dịch vụ công trực tuyến của bộ, ngành,
+địa phương; gửi Bộ Thông tin và Truyền thông theo định kỳ hằng tháng để tổng hợp, báo cáo Thủ
+tướng Chính phủ.
+          b) Kết nối các hệ thống cung cấp dịch vụ công trực tuyến cấp bộ, cấp tỉnh với Hệ thống giám
+sát, đo lường mức độ cung cấp và sử dụng dịch vụ Chính phủ số.
+                                          Chương IV
+           BẢO ĐẢM HOẠT ĐỘNG CUNG CẤP THÔNG TIN VÀ DỊCH VỤ CÔNG TRỰC TUYẾN TRÊN MÔI
+                                         TRƯỜNG MẠNG
+                                            Mục 1
+
+                                    BẢO ĐẢM NHÂN LỰC
+        Điều 17. Nhân lực biên tập cổng thông tin điện tử
+        Cơ quan nhà nước có trách nhiệm phân công, bố trí đủ nhân lực biên tập cổng thông tin điện
+tử để tiếp nhận, xử lý, biên tập, cập nhật thông tin, bảo đảm hoạt động của cổng thông tin điện tử
+theo quy định của pháp luật.
+        Điều 18. Nhân lực quản trị kỹ thuật
+        Cơ quan nhà nước có trách nhiệm bố trí đủ nhân lực chuyên môn để quản trị cổng thông tin
+điện tử, cổng dịch vụ công và các hệ thống cung cấp thông tin, dịch vụ công trực tuyến khác theo quy
+định của pháp luật.
+        Điều 19. Bồi dưỡng nhân lực
+        Cơ quan nhà nước có trách nhiệm bồi dưỡng nhân lực về kiến thức chuyên môn nghiệp vụ
+phù hợp với lĩnh vực đảm nhiệm để bảo đảm phục vụ hoạt động cung cấp thông tin và dịch vụ công
+trực tuyến của cơ quan nhà nước trên môi trường mạng.
+                                            Mục 2
+                                       BẢO ĐẢM KINH PHÍ
+        Điều 20. Kinh phí duy trì và phát triển các hoạt động cung cấp thông tin và dịch vụ
+công trực tuyến của cơ quan nhà nước trên môi trường mạng
+        1. Kinh phí duy trì và phát triển các hoạt động cung cấp thông tin và dịch vụ công trực tuyến
+của cơ quan nhà nước trên môi trường mạng được bảo đảm từ các nguồn:
+        a) Ngân sách nhà nước:
+        - Kinh phí duy trì và phát triển các hoạt động cung cấp thông tin và dịch vụ công trực tuyến
+của cơ quan nhà nước trên môi trường mạng được bố trí trong dự toán chi ngân sách hằng năm theo
+các lĩnh vực chi của cơ quan. Trong đó, nhiệm vụ chi cho duy trì và phát triển các hoạt động cung cấp
+thông tin và dịch vụ công trực tuyến của cơ quan, đơn vị ở trung ương do ngân sách trung ương bảo
+đảm; nhiệm vụ chi cho duy trì và phát triển các hoạt động cung cấp thông tin và dịch vụ công trực
+tuyến của cơ quan, đơn vị ở địa phương do ngân sách địa phương bảo đảm theo quy định của pháp
+luật về phân cấp ngân sách nhà nước.
+        - Kinh phí chi cho công tác bồi dưỡng cán bộ thực hiện cung cấp thông tin và dịch vụ công
+trực tuyến được bố trí hằng năm trong dự toán ngân sách của cơ quan để bồi dưỡng cán bộ, công
+chức thuộc phạm vi quản lý.
+        b) Nguồn thu hợp pháp của các cơ quan, đơn vị được phép để lại sử dụng theo quy định của
+pháp luật.
+        c) Nguồn viện trợ, nguồn hỗ trợ phát triển chính thức của các nhà tài trợ.
+        d) Các nguồn kinh phí hợp pháp khác theo quy định của pháp luật.
+        2. Cơ quan nhà nước hằng năm có trách nhiệm xây dựng kế hoạch bảo đảm kinh phí để duy
+trì và phát triển các hoạt động cung cấp thông tin và dịch vụ công trực tuyến của mình; báo cáo cơ
+quan có thẩm quyền để phân bổ kinh phí.
+        Điều 21. Kinh phí bảo đảm cơ sở hạ tầng và an toàn thông tin
+        1. Căn cứ vào nhu cầu thực tế, đơn vị được giao quản trị, vận hành được trang bị đầy đủ hệ
+thống máy chủ, đường truyền và các  thiết bị cần thiết khác để bảo đảm lưu trữ, khai thác, bảo mật,
+bảo đảm an toàn thông tin mạng phục vụ hoạt động cung cấp thông tin và dịch vụ công trực tuyến
+của cơ quan nhà nước trên môi trường mạng.
+        2. Định kỳ theo giai đoạn, hằng năm, đơn vị được giao quản trị, vận hành xây dựng kế hoạch
+bảo trì, bảo dưỡng, nâng cấp các hệ thống cung cấp thông tin và dịch vụ công trực tuyến; trình cấp
+có thẩm quyền xem xét, phân bổ kinh phí, nhằm bảo đảm hoạt động cung cấp thông tin và dịch vụ
+công trực tuyến ổn định, an toàn thông tin mạng.
+        Điều 22. Kinh phí tạo lập thông tin và chi trả nhuận bút, cung cấp thông tin
+        1. Chế độ thù lao, nhuận bút cho việc cung cấp thông tin của cơ quan nhà nước trên cổng
+
+thông tin điện tử và các kênh cung cấp khác thực hiện theo quy định về chế độ nhuận bút trong lĩnh
+vực báo chí, xuất bản.
+       2. Mức chi cho việc tạo lập, chuyển đổi và số hóa thông tin trên cổng thông tin điện tử và các
+kênh cung cấp khác thực hiện theo hướng dẫn của Bộ Tài chính về mức chi tạo lập thông tin điện tử.
+       3. Căn cứ khả năng kinh phí của cơ quan, Thủ trưởng cơ quan chủ quản quyết định mức chi
+cụ thể cho việc tạo lập thông tin và chi trả thù lao, nhuận bút phù hợp với các quy định của pháp luật.
+                                            Mục 3
+                               BẢO ĐẢM HẠ TẦNG KỸ THUẬT
+       Điều 23. Bảo đảm tiêu chuẩn, quy chuẩn kỹ thuật
+       1. Cơ quan nhà nước tuân thủ các tiêu chuẩn, quy chuẩn, hướng dẫn kỹ thuật để cung cấp
+thông tin và dịch vụ công trực tuyến trên môi trường mạng.
+       2. Bộ Thông tin và Truyền thông xây dựng và ban hành tiêu chuẩn, quy chuẩn, hướng dẫn kỹ
+thuật để cung cấp thông tin và dịch vụ công trực tuyến của cơ quan nhà nước trên môi trường mạng.
+       Điều 24. Bảo trì, bảo dưỡng, nâng cấp hệ thống cung cấp thông tin, dịch vụ công trực
+tuyến
+       1. Các kênh cung cấp thông tin và dịch vụ công trực tuyến và các hệ thống thông tin liên
+quan của cơ quan nhà nước phải được thường xuyên kiểm tra, bảo dưỡng để bảo đảm hoạt động tin
+cậy, liên tục.
+       2. Hằng năm, các kênh cung cấp thông tin và dịch vụ công trực tuyến và các hệ thống thông
+tin liên quan của cơ quan nhà nước phải được rà soát, có phương án nâng cấp, chỉnh sửa đáp ứng
+nhu cầu thực tế.
+       Điều 25. Bảo đảm hạ tầng kỹ thuật
+       1. Cơ quan nhà nước thực hiện đầu tư xây dựng hạ tầng kỹ thuật hoặc thuê dịch vụ từ nhà
+cung cấp bên ngoài để bảo đảm cho hoạt động cung cấp thông tin và dịch vụ công trực tuyến hiệu
+quả và tiết kiệm chi phí.
+       2. Cơ quan nhà nước có trách nhiệm trang bị đầy đủ     trang thiết bị cần thiết phục vụ cho việc
+thu thập, xử lý và cập nhật thông tin cho các kênh cung cấp thông tin và dịch vụ công trực tuyến trên
+môi trường mạng, bảo đảm khai thác hiệu quả hạ tầng công nghệ hiện có, ứng dụng các công nghệ
+hiện đại, ưu tiên ứng dụng công nghệ điện toán đám mây.
+       Điều 26. Bảo đảm an toàn thông tin, an ninh mạng
+       Cơ quan nhà nước có trách nhiệm cung cấp thông tin và dịch vụ công trực tuyến trên môi
+trường mạng bảo đảm các yêu cầu sau đây:
+       1. Bảo đảm an toàn thông tin, bảo vệ thông tin cá nhân và bảo đảm an toàn hệ thống thông
+tin theo quy định của pháp luật về an toàn thông tin, an ninh mạng.
+       2. Có giải pháp hiệu quả chống lại các tấn công gây mất an toàn thông tin mạng của các
+kênh cung cấp thông tin, dịch vụ công trực tuyến.
+       3. Có phương án dự phòng khắc phục sự cố bảo đảm các kênh cung cấp thông tin, dịch vụ
+công trực tuyến hoạt động liên tục ở mức tối đa.
+                                           Chương V
+                                      TỔ CHỨC THỰC HIỆN
+       Điều 27. Trách nhiệm của Bộ Thông tin và Truyền thông
+       1. Thực hiện các nhiệm vụ được giao tại các Điều 5, Điều 6, Điều 10, Điều 11, Điều 13, Điều
+16, Điều 23 của Nghị định này.
+       2. Xây dựng các nền tảng, công cụ kỹ thuật tạo điều kiện cho các cơ quan nhà nước cung
+cấp thông tin và dịch vụ công trực tuyến trên môi trường mạng theo nhiệm vụ được Chính phủ, Thủ
+tướng Chính phủ giao.
+       3. Kiểm tra, đánh giá hiệu quả, đáp ứng yêu cầu kỹ thuật trong cung cấp thông tin và       triển
+
+khai dịch vụ công trực tuyến của các cơ quan nhà nước; tổng hợp báo cáo Thủ tướng Chính phủ.
+        Điều 28. Trách nhiệm của Văn phòng Chính phủ
+        1. Thực hiện các nhiệm vụ được giao tại Điều 11 của Nghị định này.
+        2. Phát triển, vận hành và duy trì Cổng thông tin điện tử Chính phủ theo quy định tại khoản 2,
+khoản 3 Điều 6 của Nghị định này.
+        3. Quy định, hướng dẫn việc chuẩn hóa danh mục dịch vụ công trực tuyến các cấp và thống
+nhất trên phạm vi toàn quốc.
+        4. Phát triển, hoàn thiện Cổng dịch vụ công quốc gia và tích hợp dịch vụ công trực tuyến của
+các bộ, ngành, địa phương lên Cổng dịch vụ công quốc gia; theo dõi, giám sát, đánh giá chất lượng
+phục vụ tổ chức, cá nhân trong thực hiện thủ tục hành chính, cung cấp dịch vụ công của các bộ,
+ngành, địa phương bằng dữ liệu theo thời gian thực.
+        Điều 29. Trách nhiệm của các bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ, Ủy ban
+nhân dân các tỉnh, thành phố trực thuộc trung ương
+        1. Quản lý, giám sát và cải tiến chất lượng cung cấp thông tin và dịch vụ công trực tuyến của
+các cơ quan, đơn vị trực thuộc.
+        2. Tuân thủ các tiêu chuẩn, quy chuẩn kỹ thuật và hướng dẫn về cung cấp thông tin và dịch
+vụ công trực tuyến trên môi trường mạng.
+        3. Thực hiện chế độ báo cáo định kỳ về tình hình cung cấp thông tin và dịch vụ công trực
+tuyến.
+        4. Tổ chức thực hiện các quy định của Nghị định này tại bộ, cơ quan ngang bộ, cơ quan
+thuộc Chính phủ, Ủy ban nhân dân các tỉnh, thành phố trực thuộc trung ương.
+        Điều 30. Hiệu lực thi hành
+        1. Nghị định này có hiệu lực thi hành từ ngày 15 tháng 8 năm 2022.
+        2. Nghị định này thay thế Nghị định số 43/2011/NĐ-CP ngày 13 tháng 6 năm 2011 của Chính
+phủ quy định về việc cung cấp thông tin và dịch vụ công trực tuyến trên trang thông tin điện tử hoặc
+cổng thông tin điện tử của cơ quan nhà nước.
+        3. Đối với các trang thông tin điện tử của cơ quan nhà nước trực thuộc bộ, cơ quan ngang
+bộ, cơ quan thuộc Chính phủ; cơ quan chuyên môn thuộc Ủy ban nhân dân tỉnh, thành phố trực
+thuộc trung ương; Ủy ban nhân dân cấp huyện; Ủy ban nhân dân cấp xã chưa tuân thủ khoản 1 Điều
+6, trong 02 năm kể từ khi Nghị định này có hiệu lực thi hành, cơ quan chủ quản có trách nhiệm thực
+hiện theo quy định tại khoản 1 Điều 6.
+        Điều 31. Trách nhiệm thi hành
+        Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy
+ban nhân dân các tỉnh, thành phố trực thuộc trung ương và các cơ quan, tổ chức, cá nhân có liên
+quan chịu trách nhiệm thi hành Nghị định này.
+ Nơi nhận:                                                           TM. CHÍNH PHỦ
+ - Ban Bí thư Trung ương Đảng;                                       KT. THỦ TƯỚNG
+ - Thủ tướng, các Phó Thủ tướng Chính phủ;                           PHÓ THỦ TƯỚNG
+ - Các bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ;
+ - HĐND, UBND các tỉnh, thành phố trực thuộc trung ương;
+ - Văn phòng Trung ương và các Ban của Đảng;
+ - Văn phòng Tổng Bí thư;
+ - Văn phòng Chủ tịch nước;                                           Vũ Đức Đam
+ - Hội đồng Dân tộc và các Ủy ban của Quốc hội;
+ - Văn phòng Quốc hội;
+ - Tòa án nhân dân tối cao;
+ - Viện kiểm sát nhân dân tối cao;
+ - Kiểm toán nhà nước;
+ - Ủy ban Giám sát tài chính Quốc gia;
+ - Ngân hàng Chính sách xã hội;
+ - Ngân hàng Phát triển Việt Nam;
+
+- Ủy ban trung ương Mặt trận Tổ quốc Việt Nam;
+- Cơ quan trung ương của các đoàn thể;
+- VPCP: BTCN, các PCN, Trợ lý TTg, TGĐ Cổng TTĐT,
+các Vụ, Cục, đơn vị trực thuộc, Công báo;
+- Lưu: VT, KSTT(2)

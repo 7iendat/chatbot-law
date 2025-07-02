@@ -14,34 +14,49 @@ services:
             - ./build_vectorstore.py:/app/build_vectorstore.py
             - ./config.py:/app/config.py
             - ./prompt_templete.py:/app/prompt_templete.py
-            - ./custom_output_parser.py:/app/custom_output_parser.py
             - ./dependencies.py:/app/dependencies.py
-            - ./time_priority_retriever.py:/app/time_priority_retriever.py
             - ./data:/app/data
             - ./utils:/app/utils
-            - ./vector_store:/app/vector_store
             - ./db:/app/db
             - ./routers:/app/routers
             - ./schemas:/app/schemas
             - ./services:/app/services
+            - ./core:/app/core
             - hf_cache:/app/cache
         environment:
-            - TRANSFORMERS_CACHE=/app/cache
             - HF_HOME=/app/cache
             - HF_HUB_DISABLE_SYMLINKS_WARNING=1
+            # - WEAVIATE_URL=http://weaviate:8080
         restart: unless-stopped
-        depends_on:
-            - redis
+        # depends_on:
+        # - weaviate
+        networks:
+            - law-network
 
-    redis:
-        image: redis:7.2-alpine
-        container_name: redis-chatbot
-        ports:
-            - "6379:6379"
-        volumes:
-            - redis_data:/data
-        restart: always
+    # weaviate:
+    #     image: cr.weaviate.io/semitechnologies/weaviate:1.30.2
+    #     container_name: weaviate-law
+    #     ports:
+    #         - "8080:8080"
+    #         - "50051:50051"
+    #     volumes:
+    #         - weaviate_data:/var/lib/weaviate
+    #     restart: on-failure:0
+    #     environment:
+    #         QUERY_DEFAULTS_LIMIT: 25
+    #         AUTHENTICATION_ANONYMOUS_ACCESS_ENABLED: "true"
+    #         PERSISTENCE_DATA_PATH: "/var/lib/weaviate"
+    #         ENABLE_API_BASED_MODULES: "true"
+    #         CLUSTER_HOSTNAME: "node1"
+    #         DEFAULT_VECTORIZER_MODULE: "none"
+    #     networks:
+    #         - law-network
 
 volumes:
-    redis_data:
+    # redis_data:
     hf_cache:
+    # weaviate_data:
+
+networks:
+    law-network:
+        driver: bridge

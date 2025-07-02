@@ -1,0 +1,816 @@
+LUẬT
+                                    QUẢN LÝ NỢ CÔNG
+                    CỦA QUỐC HỘI KHOÁ XII, KỲ HỌP THỨ 5
+                   SỐ 29/2009/QH12 NGÀY 17 THÁNG 6 NĂM 2009
+      Căn cứ Hiến pháp nước Cộng hoà xã hội chủ nghĩa Việt Nam năm 1992 đã được sửa
+đổi, bổ sung một số điều theo Nghị quyết số 51/2001/QH10;
+      Quốc hội ban hành Luật quản lý nợ công.
+                                        CHƯƠNG I
+                                  NHỮNG QUY ĐỊNH CHUNG
+      Điều 1. Phạm vi điều chỉnh
+      1. Luật này quy định về quản lý nợ công, bao gồm hoạt động vay, sử dụng vốn vay, trả
+nợ và nghiệp vụ quản lý nợ công.
+      2. Nợ công được quy định trong Luật này bao gồm:
+      a) Nợ chính phủ;
+      b) Nợ được Chính phủ bảo lãnh;
+      c) Nợ chính quyền địa phương.
+      Điều 2. Đối tượng áp dụng
+      Luật này được áp dụng đối với tổ chức, cá nhân có liên quan đến hoạt động vay, sử
+dụng vốn vay, trả nợ và quản lý nợ công.
+      Điều 3. Giải thích từ ngữ
+      Trong Luật này, các từ ngữ dưới đây được hiểu như sau:
+      1. Nợ là khoản phải hoàn trả, bao gồm khoản gốc, lãi, phí và chi phí khác có liên quan
+tại một thời điểm, phát sinh từ việc vay của chủ thể được phép vay vốn theo quy định của
+pháp luật Việt Nam.
+      2. Nợ chính phủ là khoản nợ phát sinh từ các khoản vay trong nước, nước ngoài, được
+ký kết, phát hành nhân danh Nhà nước, nhân danh Chính phủ hoặc các khoản vay khác do Bộ
+Tài chính ký kết, phát hành, uỷ quyền phát hành theo quy định của pháp luật. Nợ chính phủ
+không bao gồm khoản nợ do Ngân hàng Nhà nước Việt Nam phát hành nhằm thực hiện chính
+sách tiền tệ trong từng thời kỳ.
+      3. Nợ được Chính phủ bảo lãnh là khoản nợ của doanh nghiệp, tổ chức tài chính, tín
+dụng vay trong nước, nước ngoài được Chính phủ bảo lãnh.
+      4. Nợ chính quyền địa phương là khoản nợ do Ủy ban nhân dân tỉnh, thành phố trực
+thuộc trung ương (sau đây gọi chung là Ủy ban nhân dân cấp tỉnh) ký kết, phát hành hoặc uỷ
+quyền phát hành.
+      5. Nợ nước ngoài của quốc gia là tổng các khoản nợ nước ngoài của Chính phủ, nợ
+được Chính phủ bảo lãnh, nợ của doanh nghiệp và tổ chức khác được vay theo phương thức
+tự vay, tự trả theo quy định của pháp luật Việt Nam.
+
+                                                                                          2
+      6. Vay là quá trình tạo ra nghĩa vụ trả nợ thông qua việc ký kết và thực hiện hiệp định,
+hợp đồng, thoả thuận vay (sau đây gọi chung là thoả thuận vay) hoặc phát hành công cụ nợ.
+      7. Người vay là bên vay trong thoả thuận vay hoặc là người phát hành công cụ nợ, có
+trách nhiệm hoàn trả vốn cho bên cho vay theo đúng các điều kiện, điều khoản của thoả thuận
+vay hoặc phát hành.
+          8. Người vay lại vốn vay của Chính phủ (sau đây gọi chung là người vay lại) là doanh
+nghiệp, tổ chức tài chính, tín dụng, Uỷ ban nhân dân cấp tỉnh ký thoả thuận vay lại và nhận nợ
+với cơ quan cho vay lại để sử dụng nguồn vốn vay của Chính phủ theo cơ chế cho vay lại.
+      9. Người được bảo lãnh là người vay được Chính phủ bảo lãnh. Người được bảo lãnh
+bao hàm cả người nhận chuyển nhượng, người nhận chuyển giao hợp pháp của người vay
+được người bảo lãnh chấp thuận.
+      10. Khoản vay ngắn hạn là khoản vay có kỳ hạn dưới một năm.
+      11. Khoản vay trung - dài hạn là khoản vay có kỳ hạn từ một năm trở lên.
+        12. Vay nước ngoài là khoản vay ngắn hạn, trung - dài hạn phải trả lãi hoặc không phải
+trả lãi do Nhà nước, Chính phủ, doanh nghiệp và tổ chức khác của Việt Nam vay của chính
+phủ nước ngoài, vùng lãnh thổ, tổ chức tài chính quốc tế, tổ chức và cá nhân nước ngoài.
+               13. Vay hỗ trợ phát triển chính thức (vay ODA) là khoản vay nhân danh Nhà nước,
+Chính phủ Việt Nam từ nhà tài trợ là chính phủ nước ngoài, tổ chức tài trợ song phương, tổ
+chức liên quốc gia hoặc tổ chức liên chính phủ có yếu tố không hoàn lại (thành tố ưu đãi) đạt
+ít nhất 35% đối với khoản vay có ràng buộc, 25% đối với khoản vay không ràng buộc.
+      14. Vay ưu đãi là khoản vay có điều kiện ưu đãi hơn so với vay thương mại nhưng
+thành tố ưu đãi chưa đạt tiêu chuẩn của vay ODA.
+      15. Vay thương mại là khoản vay theo điều kiện thị trường.
+      16. Công cụ nợ là tín phiếu, hối phiếu, trái phiếu, công trái và công cụ khác làm phát
+sinh nghĩa vụ trả nợ.
+      17. Trái phiếu chính phủ là loại trái phiếu do Bộ Tài chính phát hành nhằm huy động
+vốn cho ngân sách nhà nước hoặc huy động vốn cho công trình, dự án đầu tư cụ thể.
+      18. Trái phiếu được Chính phủ bảo lãnh là loại trái phiếu có kỳ hạn từ một năm trở lên,
+do doanh nghiệp phát hành nhằm huy động vốn cho dự án đầu tư theo chỉ định của Thủ tướng
+Chính phủ và được Chính phủ bảo lãnh.
+      19. Trái phiếu chính quyền địa phương là loại trái phiếu có kỳ hạn từ một năm trở lên,
+do Ủy ban nhân dân cấp tỉnh phát hành hoặc uỷ quyền phát hành nhằm huy động vốn cho
+công trình, dự án đầu tư của địa phương.
+      20. Trả nợ là việc thanh toán khoản nợ đến hạn phải trả, bao gồm khoản gốc, lãi, phí và
+chi phí khác có liên quan phát sinh từ việc vay.
+      21. Đảo nợ là việc vay mới để trả một hoặc nhiều khoản nợ hiện có.
+      22. Cơ cấu lại khoản nợ là việc thực hiện nghiệp vụ nhằm thay đổi điều kiện, điều
+khoản của khoản nợ hiện có mà không tạo ra nghĩa vụ trả nợ mới.
+      23. Cơ cấu lại danh mục nợ là việc thực hiện nghiệp vụ nhằm cơ cấu lại từng khoản nợ
+trong danh mục nợ, bao gồm đảo nợ, chuyển đổi, mua bán lại nợ, hoán đổi đồng tiền, lãi suất
+và các nghiệp vụ khác để giảm thiểu nghĩa vụ trả nợ, hạn chế rủi ro.
+      24. Xử lý nợ là việc thực hiện biện pháp để giải quyết khoản nợ khi gặp khó khăn trong
+trả nợ, không trả được nợ.
+
+                                                                                         3
+      25. Cơ quan cho vay lại là Bộ Tài chính hoặc tổ chức tài chính, tín dụng được Bộ Tài
+chính uỷ quyền thực hiện việc cho vay lại nguồn vốn vay nước ngoài của Chính phủ.
+      26. Bảo lãnh chính phủ là cam kết của Chính phủ với người cho vay về việc thực hiện
+nghĩa vụ trả nợ trong trường hợp đến hạn trả nợ mà người vay không thực hiện hoặc thực hiện
+không đầy đủ nghĩa vụ trả nợ.
+      27. Nghĩa vụ nợ dự phòng là nghĩa vụ nợ chưa phát sinh nhưng có thể phát sinh khi xảy
+ra ít nhất một trong các điều kiện đã được xác định trước.
+      28. Hạn mức vay là mức trần số tiền vay ròng (số tiền vay thực nhận trừ số trả nợ gốc)
+hàng năm.
+      29. Hạn mức nợ trên tổng sản phẩm quốc dân (GDP) là mức trần tỷ lệ giữa số dư nợ tại
+từng thời điểm với GDP.
+      Điều 4. Nội dung quản lý nhà nước về nợ công
+      1. Xây dựng, ban hành và tổ chức thực hiện văn bản quy phạm pháp luật về quản lý nợ
+công.
+      2. Xây dựng, ban hành chỉ tiêu an toàn về nợ, mục tiêu, định hướng huy động, sử dụng
+vốn vay và quản lý nợ công trong từng giai đoạn; hệ thống các chỉ tiêu giám sát nợ chính phủ,
+nợ công, nợ nước ngoài của quốc gia và kế hoạch vay, trả nợ chi tiết hàng năm.
+      3. Tổ chức huy động, phân bổ, sử dụng vốn vay và quản lý nợ công đúng mục đích, hiệu
+quả, bảo đảm thực hiện đầy đủ nghĩa vụ trả nợ.
+      4. Giám sát việc huy động, phân bổ, sử dụng vốn vay, trả nợ, quản lý nợ công, quản lý
+rủi ro tài khoá, bảo đảm an toàn nợ và an ninh tài chính quốc gia.
+      5. Đánh giá hiệu quả sử dụng vốn vay, hiệu quả quản lý nợ công.
+      6. Tổng hợp, báo cáo, công bố thông tin về nợ công.
+      7. Tuyên truyền, phổ biến chính sách, pháp luật về quản lý nợ công.
+      8. Thanh tra, kiểm tra việc thực hiện pháp luật về quản lý nợ công.
+      9. Xử lý vi phạm, giải quyết khiếu nại, tố cáo trong việc thực hiện pháp luật về quản lý
+nợ công.
+      10. Tổ chức đào tạo, bồi dưỡng nghiệp vụ quản lý nợ công.
+      11. Hợp tác quốc tế trong quản lý nợ công.
+      Điều 5. Nguyên tắc quản lý nợ công
+      1. Nhà nước quản lý thống nhất, toàn diện nợ công, từ việc huy động, phân bổ, sử dụng
+vốn vay đến việc trả nợ.
+      2. Bảo đảm an toàn nợ trong giới hạn được cấp có thẩm quyền phê duyệt, bảo đảm an
+ninh tài chính quốc gia và cân đối vĩ mô nền kinh tế.
+      3. Bảo đảm hiệu quả trong việc vay vốn và sử dụng vốn vay; không vay ngắn hạn để
+đầu tư dài hạn. Vốn vay thương mại nước ngoài chỉ sử dụng cho các chương trình, dự án có
+khả năng thu hồi vốn trực tiếp và bảo đảm khả năng trả nợ.
+      4. Người vay chịu trách nhiệm thực hiện đầy đủ nghĩa vụ trả nợ đối với khoản vay.
+
+                                                                                      4
+     5. Công khai, minh bạch trong việc huy động, phân bổ, sử dụng vốn vay, trả nợ và quản
+lý nợ công. Chương trình, dự án sử dụng vốn vay của Chính phủ, chính quyền địa phương
+phải được kiểm toán bởi Kiểm toán Nhà nước hoặc kiểm toán độc lập.
+     6. Mọi nghĩa vụ nợ của Chính phủ được đối xử bình đẳng.
+     Điều 6. Những hành vi bị cấm trong quản lý nợ công
+     1. Huy động vốn không đúng thẩm quyền, mục đích.
+     2. Quyết định cho vay, cho vay lại, cấp bảo lãnh chính phủ không đúng thẩm quyền,
+mục đích, đối tượng.
+     3. Sử dụng vốn vay trái phép, sai mục đích, lãng phí.
+     4. Lợi dụng chức vụ, quyền hạn để chiếm đoạt, chiếm dụng, gây thất thoát vốn vay.
+     5. Thông đồng, thiếu trách nhiệm trong công tác thẩm định.
+     6. Cản trở hoạt động giám sát, thanh tra, kiểm tra và xử lý vi phạm việc thực hiện pháp
+luật về quản lý nợ công.
+     7. Không cung cấp hoặc cung cấp không đầy đủ, kịp thời, chính xác thông tin về nợ
+công theo quy định của pháp luật.
+                                      CHƯƠNG II
+                         NHIỆM VỤ, QUYỀN HẠN CỦA QUỐC HỘI, CHÍNH PHỦ,
+                   CÁC CƠ QUAN NHÀ NƯỚC KHÁC VÀ TRÁCH NHIỆM
+                           CỦA TỔ CHỨC, CÁ NHÂN TRONG QUẢN LÝ NỢ CÔNG
+     Điều 7. Nhiệm vụ, quyền hạn của Quốc hội
+     1. Quyết định các chỉ tiêu an toàn về nợ trong kế hoạch phát triển kinh tế - xã hội năm
+năm, bao gồm:
+     a) Nợ công so với GDP;
+     b) Nợ nước ngoài của quốc gia so với GDP;
+     c) Trả nợ chính phủ so với tổng thu ngân sách nhà nước;
+     d) Nghĩa vụ trả nợ nước ngoài của quốc gia so với tổng kim ngạch xuất khẩu.
+     2. Quyết định mục tiêu, định hướng huy động, sử dụng vốn vay và quản lý nợ công
+trong từng giai đoạn năm năm nhằm bảo đảm chỉ tiêu an toàn về nợ.
+     3. Quyết định tổng mức, cơ cấu vay và trả nợ hàng năm của Chính phủ gắn với dự toán
+ngân sách nhà nước.
+     4. Quyết định chủ trương đầu tư đối với dự án, công trình quan trọng quốc gia từ nguồn
+vốn vay của Chính phủ.
+     5. Giám sát việc huy động, phân bổ, sử dụng vốn vay, trả nợ và quản lý nợ công.
+     Điều 8. Nhiệm vụ, quyền hạn của Chính phủ
+     1. Thống nhất quản lý nhà nước về nợ công, phân công trách nhiệm của từng cơ quan và
+trách nhiệm phối hợp giữa các cơ quan quản lý ngành và địa phương trong quản lý nợ công.
+
+                                                                                       5
+     2. Trình Quốc hội quyết định các chỉ tiêu an toàn về nợ; mục tiêu, định hướng huy
+động, sử dụng vốn vay và quản lý nợ công trong từng giai đoạn năm năm; tổng mức, cơ cấu
+vay và trả nợ hàng năm của Chính phủ gắn với dự toán ngân sách nhà nước.
+     3. Quyết định chính sách, giải pháp cụ thể nhằm thực hiện các chỉ tiêu an toàn về nợ
+quy định tại khoản 1 Điều 7 của Luật này.
+     4. Phê duyệt đề án phát hành trái phiếu quốc tế của Chính phủ; quyết định việc đàm
+phán, ký kết điều ước quốc tế về vay nước ngoài của Chính phủ.
+     5. Tổ chức thanh tra, kiểm tra về huy động, phân bổ, sử dụng vốn vay, trả nợ và quản lý
+nợ công; báo cáo Quốc hội, Uỷ ban thường vụ Quốc hội về sử dụng vốn vay, quản lý nợ công
+và việc thực hiện dự án, công trình quan trọng quốc gia, chương trình phát triển kinh tế - xã
+hội quan trọng khác sử dụng vốn vay của Chính phủ.
+     Điều 9. Nhiệm vụ, quyền hạn của Thủ tướng Chính phủ
+     1. Phê duyệt kế hoạch vay, trả nợ chi tiết hàng năm trên cơ sở tổng mức, cơ cấu vay và
+trả nợ hàng năm của Chính phủ được Quốc hội quyết định theo quy định tại khoản 3 Điều 7
+của Luật này, bao gồm các nội dung chủ yếu sau:
+     a) Kế hoạch vay của Chính phủ theo nguồn vay trong nước, vay nước ngoài và mục tiêu
+sử dụng nhưng không bao gồm các khoản vay ngắn hạn để bù đắp thiếu hụt tạm thời của ngân
+sách nhà nước;
+     b) Kế hoạch trả nợ của Chính phủ nhưng không bao gồm trả nợ cho các khoản vay ngắn
+hạn để bù đắp thiếu hụt tạm thời của ngân sách nhà nước;
+     c) Hạn mức vay thương mại nước ngoài và bảo lãnh vay nước ngoài của Chính phủ
+hàng năm.
+     2. Phê duyệt chương trình quản lý nợ trung hạn cho giai đoạn ba năm liền kề nhằm cụ
+thể hoá mục tiêu, định hướng huy động, sử dụng vốn vay và quản lý nợ công được Quốc hội
+quyết định theo quy định tại khoản 2 Điều 7 của Luật này, bao gồm các nội dung chủ yếu sau:
+     a) Cân đối nhu cầu vay vốn trong nước và nước ngoài;
+     b) Dự báo tỷ lệ nợ công trên GDP hàng năm;
+     c) Dự báo tỷ lệ nợ nước ngoài của quốc gia trên GDP hàng năm;
+     d) Dự báo hạn mức vay thương mại nước ngoài và bảo lãnh vay nước ngoài của Chính
+phủ hàng năm;
+     đ) Giải pháp, phương thức huy động vốn vay;
+     e) Nguồn và phương thức trả nợ;
+     g) Giải pháp xử lý nợ, cơ cấu lại khoản nợ, danh mục nợ;
+     h) Chính sách, văn bản quy phạm pháp luật cần ban hành nhằm nâng cao hiệu quả quản
+lý nợ công.
+     3. Phê duyệt danh mục yêu cầu tài trợ vốn ODA.
+     4. Quyết định nội dung điều ước quốc tế về vay nước ngoài của Chính phủ.
+     5. Phê duyệt đề án phát hành trái phiếu chính phủ để huy động vốn cho công trình, dự
+án đầu tư trong nước, đề án huy động và kế hoạch sử dụng vốn vay thương mại nước ngoài.
+     6. Phê duyệt đề án xử lý nợ, cơ cấu lại khoản nợ, danh mục nợ.
+
+                                                                                        6
+     7. Quyết định cấp phát hoặc cho vay lại đối với chương trình, dự án sử dụng vốn vay
+nước ngoài của Chính phủ.
+     8. Quyết định cấp bảo lãnh chính phủ.
+     9. Chỉ đạo công tác thanh tra, kiểm tra việc thực hiện pháp luật về quản lý nợ công.
+     Điều 10. Nhiệm vụ, quyền hạn của Bộ Tài chính
+     1. Giúp Chính phủ thống nhất quản lý nhà nước về nợ công.
+     2. Chủ trì xây dựng mục tiêu, định hướng huy động, sử dụng vốn vay và quản lý nợ
+công trong từng giai đoạn năm năm; chương trình quản lý nợ trung hạn; hệ thống các chỉ tiêu
+giám sát nợ chính phủ, nợ công, nợ nước ngoài của quốc gia và kế hoạch vay, trả nợ chi tiết
+hàng năm của Chính phủ trình cấp có thẩm quyền phê duyệt.
+     3. Tổ chức thực hiện hạn mức nợ công, hạn mức vay thương mại nước ngoài và bảo
+lãnh chính phủ.
+     4. Tổ chức đàm phán, ký kết thoả thuận vay nước ngoài theo phân công của Chính phủ.
+     5. Là đại diện chính thức cho người vay đối với các khoản vay nước ngoài nhân danh
+Nhà nước, Chính phủ, trừ các khoản vay do Ngân hàng Nhà nước Việt Nam được ủy quyền
+đàm phán, ký kết; thực hiện các giao dịch về nợ của Chính phủ.
+     6. Tổ chức đàm phán, ký kết các thoả thuận bảo lãnh chính phủ; là đại diện chính thức
+cho người bảo lãnh đối với các khoản bảo lãnh chính phủ.
+     7. Chủ trì xây dựng đề án phát hành trái phiếu quốc tế của Chính phủ trình Chính phủ
+phê duyệt.
+     8. Chủ trì xây dựng đề án phát hành trái phiếu chính phủ để huy động vốn cho công
+trình, dự án đầu tư trong nước, đề án huy động và kế hoạch sử dụng vốn vay thương mại nước
+ngoài trình Thủ tướng Chính phủ phê duyệt.
+     9. Tổ chức phát hành trái phiếu chính phủ trong nước và trái phiếu quốc tế theo kế
+hoạch hoặc đề án đã được phê duyệt.
+     10. Thực hiện vay để bù đắp thiếu hụt tạm thời của ngân sách trung ương từ các nguồn
+tài chính hợp pháp trong nước.
+     11. Quản lý các khoản vay của Chính phủ, bao gồm:
+     a) Xây dựng, ban hành chế độ quản lý tài chính đối với các khoản vay;
+     b) Thực hiện cấp phát từ nguồn vốn vay của Chính phủ cho các chương trình, dự án đầu
+tư và các mục tiêu khác đã được cấp có thẩm quyền phê duyệt; hướng dẫn và tổ chức cho vay
+lại nguồn vốn vay nước ngoài của Chính phủ.
+     12. Thẩm định hồ sơ đề nghị cấp bảo lãnh chính phủ, đề án phát hành trái phiếu trong
+nước, trái phiếu quốc tế được Chính phủ bảo lãnh của doanh nghiệp, tổ chức tài chính, tín
+dụng để trình Thủ tướng Chính phủ quyết định; thực hiện việc cấp và quản lý bảo lãnh chính
+phủ.
+     13. Thực hiện nghĩa vụ trả nợ của Chính phủ và nghĩa vụ của người bảo lãnh đối với
+các khoản bảo lãnh chính phủ.
+     14. Quản lý danh mục nợ công, tổ chức việc phân tích nợ bền vững, quản lý rủi ro; đề
+xuất, trình Thủ tướng Chính phủ phê duyệt và tổ chức thực hiện các đề án xử lý nợ, cơ cấu lại
+khoản nợ, danh mục nợ.
+     15. Quản lý Quỹ tích luỹ trả nợ.
+
+                                                                                       7
+     16. Xây dựng, quản lý cơ sở dữ liệu về nợ công; tổng hợp, báo cáo và công bố thông tin
+về nợ công.
+     17. Chủ trì, phối hợp với cơ quan cho vay lại và cơ quan khác có liên quan xác định các
+điều kiện cho vay lại cụ thể đối với chương trình, dự án sử dụng vốn vay nước ngoài theo quy
+định của pháp luật.
+     18. Ủy quyền cho tổ chức tài chính, tín dụng thực hiện việc cho vay lại hoặc ký kết thỏa
+thuận cho vay lại với người vay lại trong trường hợp Bộ Tài chính trực tiếp cho vay lại.
+     19. Theo dõi, thanh tra, kiểm tra, đánh giá việc sử dụng vốn vay của Chính phủ hoặc
+được Chính phủ bảo lãnh; vay và trả nợ của chính quyền địa phương; quản lý, thu hồi vốn cho
+vay lại theo các quy định về ủy quyền cho vay lại, thoả thuận cho vay lại.
+     20. Phối hợp với Ngân hàng Nhà nước Việt Nam trong việc huy động vốn trong nước,
+bảo đảm điều hành hiệu quả chính sách tiền tệ - tín dụng.
+     21. Tham gia với Bộ Kế hoạch và Đầu tư xây dựng, trình Thủ tướng Chính phủ phê
+duyệt danh mục yêu cầu tài trợ vốn ODA trước khi điều ước quốc tế khung về vay ODA hoặc
+thoả thuận danh mục dự án được ký kết.
+     22. Định kỳ hàng năm hoặc theo yêu cầu, báo cáo cấp có thẩm quyền về tình hình sử
+dụng vốn vay và quản lý nợ công.
+     Điều 11. Nhiệm vụ, quyền hạn của Bộ Kế hoạch và Đầu tư
+     1. Theo phân công của Chính phủ, chủ trì xây dựng danh mục yêu cầu tài trợ vốn ODA.
+     2. Theo phân công, ủy quyền của Thủ tướng Chính phủ, tổ chức vận động, điều phối
+nguồn vốn ODA, chủ trì đàm phán, ký kết điều ước quốc tế khung về vay ODA.
+     3. Theo dõi, đánh giá sau đối với các chương trình, dự án sử dụng nguồn vốn ODA của
+Chính phủ.
+     4. Tham gia với Bộ Tài chính trong việc:
+     a) Xây dựng mục tiêu, định hướng huy động, sử dụng vốn vay và quản lý nợ công trong
+từng giai đoạn năm năm; chương trình quản lý nợ trung hạn và kế hoạch vay, trả nợ chi tiết
+hàng năm của Chính phủ;
+     b) Xây dựng hệ thống các chỉ tiêu giám sát nợ chính phủ, nợ công và nợ nước ngoài của
+quốc gia;
+     c) Xây dựng đề án phát hành trái phiếu quốc tế của Chính phủ;
+     d) Xây dựng đề án phát hành trái phiếu công trình trung ương trong nước, đề án huy
+động và kế hoạch sử dụng vốn vay thương mại nước ngoài.
+     đ) Cân đối nguồn vốn ODA trong dự toán ngân sách nhà nước hàng năm cho các
+chương trình, dự án.
+     Điều 12. Nhiệm vụ, quyền hạn của Ngân hàng Nhà nước Việt Nam
+     1. Theo phân công, ủy quyền của Chủ tịch nước hoặc Chính phủ, chủ trì phối hợp với
+Bộ Tài chính và cơ quan khác có liên quan chuẩn bị nội dung, tiến hành đàm phán, ký kết
+điều ước quốc tế với các tổ chức tài chính tiền tệ quốc tế mà Ngân hàng Nhà nước Việt Nam
+là đại diện và là đại diện chính thức của người vay tại các điều ước quốc tế này.
+
+                                                                                       8
+     2. Thẩm định phương án vay lại vốn vay thương mại nước ngoài của Chính phủ theo
+các chương trình, hạn mức tín dụng và vay thương mại có bảo lãnh chính phủ của tổ chức tài
+chính, tín dụng.
+     3. Hướng dẫn và tổ chức đăng ký các khoản vay nước ngoài của doanh nghiệp, tổ chức
+tài chính, tín dụng được Chính phủ bảo lãnh.
+     4. Tham gia với Bộ Tài chính trong việc:
+     a) Xây dựng mục tiêu, định hướng huy động, sử dụng vốn vay và quản lý nợ công trong
+từng giai đoạn năm năm; chương trình quản lý nợ trung hạn và kế hoạch vay, trả nợ chi tiết
+hàng năm của Chính phủ;
+     b) Xây dựng hệ thống chỉ tiêu giám sát nợ chính phủ, nợ công và nợ nước ngoài của
+quốc gia;
+     c) Xây dựng phương án huy động vốn trong nước, nước ngoài của Chính phủ gắn với
+điều hành chính sách tiền tệ - tín dụng.
+     Điều 13. Nhiệm vụ, quyền hạn của các Bộ, cơ quan ngang Bộ
+     1. Các Bộ, cơ quan ngang Bộ trong phạm vi nhiệm vụ, quyền hạn của mình thực hiện
+quản lý nhà nước về nợ công theo phân công của Chính phủ.
+     2. Phê duyệt đề án vay, phát hành trái phiếu được Chính phủ bảo lãnh, đề án vay lại vốn
+vay của Chính phủ theo thẩm quyền trước khi gửi Bộ Tài chính để thẩm định.
+     3. Theo dõi, thanh tra, kiểm tra việc sử dụng vốn vay, phát hành trái phiếu của các đơn
+vị trực thuộc và báo cáo, cung cấp thông tin về nợ công.
+     Điều 14. Nhiệm vụ, quyền hạn của Hội đồng nhân dân cấp tỉnh
+     1. Phê duyệt kế hoạch vay, trả nợ chi tiết hàng năm của Uỷ ban nhân dân cấp tỉnh, bao
+gồm:
+     a) Kế hoạch vay của Uỷ ban nhân dân cấp tỉnh theo nguồn vay trong nước, vay lại vốn
+vay nước ngoài của Chính phủ và mục đích sử dụng;
+     b) Kế hoạch trả nợ từ ngân sách cấp tỉnh, nguồn thu hồi từ các dự án đầu tư của địa
+phương.
+     2. Quyết định danh mục dự án thuộc cấp tỉnh đầu tư từ nguồn vay lại vốn vay nước
+ngoài của Chính phủ, nguồn vốn vay trong nước theo quy định của Luật ngân sách nhà nước.
+     3. Quyết định vay vốn để đầu tư theo quy định của Luật ngân sách nhà nước, đề án vay,
+phát hành trái phiếu và trả nợ do Uỷ ban nhân dân cấp tỉnh trình.
+     4. Giám sát việc vay, vay lại, phát hành trái phiếu, sử dụng vốn vay và trả nợ của Uỷ
+ban nhân dân cấp tỉnh.
+     Điều 15. Nhiệm vụ, quyền hạn của Uỷ ban nhân dân cấp tỉnh
+     1. Lập kế hoạch vay, trả nợ chi tiết hàng năm của Uỷ ban nhân dân cấp tỉnh trình Hội
+đồng nhân dân cùng cấp phê duyệt.
+     2. Xây dựng danh mục dự án thuộc cấp tỉnh đầu tư từ nguồn vay lại vốn vay nước ngoài
+của Chính phủ, nguồn vốn vay trong nước theo quy định của Luật ngân sách nhà nước trình
+Hội đồng nhân dân cùng cấp quyết định.
+
+                                                                                            9
+         3. Xây dựng kế hoạch vay vốn để đầu tư theo quy định của Luật ngân sách nhà nước, đề
+án vay, phát hành trái phiếu và trả nợ trình Hội đồng nhân dân cùng cấp quyết định và gửi Bộ
+Tài chính, Bộ Kế hoạch và Đầu tư để theo dõi, tổng hợp. Trường hợp vay thông qua phát
+hành trái phiếu thì đề án phát hành trái phiếu phải được Bộ Tài chính chấp thuận bằng văn
+bản trước khi thực hiện.
+     4. Tổ chức phát hành trái phiếu chính quyền địa phương, vay từ các nguồn tài chính hợp
+pháp khác, vay lại nguồn vốn vay nước ngoài của Chính phủ theo quy định tại Điều 40 của
+Luật này.
+     5. Kiểm tra, đôn đốc việc sử dụng vốn vay lại từ nguồn vốn vay của Chính phủ, nguồn
+vốn phát hành trái phiếu chính quyền địa phương và thu hồi vốn; báo cáo, cung cấp thông tin
+về nợ công.
+     6. Bố trí trong cân đối ngân sách cấp tỉnh, nguồn thu hồi từ các dự án đầu tư của địa
+phương để bảo đảm trả hết nợ khi đến hạn.
+     Điều 16. Nhiệm vụ, quyền hạn của cơ quan, tổ chức tiếp nhận, sử dụng vốn vay hoặc
+được bảo lãnh vay vốn
+     Cơ quan, tổ chức tiếp nhận, sử dụng vốn vay hoặc được bảo lãnh vay vốn bảo đảm sử
+dụng vốn vay hiệu quả, đúng mục đích và thực hiện đầy đủ các nghĩa vụ liên quan phát sinh
+từ các thoả thuận vay hoặc bảo lãnh.
+     Điều 17. Trách nhiệm của tổ chức, cá nhân quyết định cho vay, cho vay lại, cấp bảo
+lãnh, thẩm định và tổ chức, cá nhân khác có liên quan
+     1. Tổ chức, cá nhân quyết định cho vay, cho vay lại, cấp bảo lãnh, thẩm định và tổ chức,
+cá nhân khác có liên quan trong phạm vi nhiệm vụ, quyền hạn của mình chịu trách nhiệm
+trước pháp luật về việc thực hiện nhiệm vụ, quyền hạn được giao theo đúng quy định của
+pháp luật về quản lý nợ công.
+     2. Trường hợp tổ chức, cá nhân lợi dụng chức vụ, quyền hạn được giao vi phạm điều
+cấm trong quản lý nhà nước về nợ công thì tùy theo tính chất, mức độ vi phạm mà bị xử lý
+theo quy định của pháp luật.
+                                       CHƯƠNG III
+                                  QUẢN LÝ NỢ CHÍNH PHỦ
+     Điều 18. Mục đích vay của Chính phủ
+     1. Đầu tư phát triển kinh tế - xã hội thuộc nhiệm vụ chi của ngân sách trung ương theo
+quy định của Luật ngân sách nhà nước.
+     2. Bù đắp thiếu hụt tạm thời của ngân sách nhà nước từ vay ngắn hạn.
+     3. Cơ cấu lại khoản nợ, danh mục nợ chính phủ và nợ được Chính phủ bảo lãnh.
+     4. Cho doanh nghiệp, tổ chức tài chính, tín dụng, chính quyền địa phương vay lại theo
+quy định của pháp luật.
+     5. Các mục đích khác nhằm bảo đảm an ninh tài chính quốc gia.
+     Điều 19. Hình thức vay của Chính phủ
+
+                                                                                           10
+          1. Chính phủ vay thông qua phát hành công cụ nợ và ký kết thỏa thuận vay trong phạm
+vi tổng mức, cơ cấu vay, trả nợ hàng năm của Chính phủ đã được Quốc hội quyết định.
+     2. Chính phủ vay bằng nội tệ, ngoại tệ, vàng hoặc hàng hoá quy đổi sang nội tệ hoặc
+ngoại tệ.
+     Điều 20. Vay trong nước
+     1. Chính phủ vay trong nước thông qua phát hành công cụ nợ và ký kết thỏa thuận vay.
+     2. Bộ Tài chính là cơ quan phát hành công cụ nợ của Chính phủ quy định tại khoản 1
+Điều này.
+     3. Bộ Tài chính ký kết thoả thuận vay trong nước theo kế hoạch vay, trả nợ chi tiết hàng
+năm của Chính phủ từ nguồn tài chính hợp pháp theo quy định của Luật ngân sách nhà nước.
+     4. Chính phủ quy định chi tiết việc phát hành công cụ nợ của Chính phủ và quản lý nợ
+trong nước của Chính phủ.
+     Điều 21. Vay nước ngoài
+          1. Chính phủ vay nước ngoài thông qua phát hành trái phiếu quốc tế của Chính phủ và
+thoả thuận vay.
+     2. Bộ Tài chính là cơ quan phát hành trái phiếu quốc tế của Chính phủ. Việc phát hành
+trái phiếu quốc tế của Chính phủ chỉ được thực hiện khi có đủ các điều kiện sau:
+     a) Chương trình, dự án sử dụng vốn từ phát hành trái phiếu quốc tế được xác định là
+trọng điểm quốc gia; chương trình, dự án đầu tư có hiệu quả, đã hoàn thành thủ tục đầu tư
+theo quy định của pháp luật về đầu tư và các quy định của pháp luật có liên quan;
+     b) Đáp ứng các điều kiện được quy định trong nghị quyết của Chính phủ về phát hành
+trái phiếu quốc tế;
+           c) Hồ sơ pháp lý cho việc phát hành trái phiếu quốc tế đã được hoàn thành theo quy
+định của pháp luật Việt Nam và thông lệ quốc tế;
+     d) Điều kiện thị trường quốc tế thuận lợi, bảo đảm thành công với chi phí hợp lý.
+     3. Việc vay thông qua thoả thuận vay được thực hiện như sau:
+            a) Đối với vay ODA, Bộ Kế hoạch và Đầu tư chủ trì vận động, xây dựng danh mục yêu
+cầu tài trợ vốn ODA, tổ chức đàm phán, ký kết điều ước quốc tế khung về vay ODA, phân bổ
+vốn ODA cho chương trình, dự án và quản lý nguồn vốn. Việc tổ chức đàm phán, ký kết thỏa
+thuận vay cụ thể do Bộ Tài chính chủ trì thực hiện. Trường hợp Ngân hàng Nhà nước Việt
+Nam được Chính phủ phân công đàm phán, ký kết thoả thuận vay thì Ngân hàng Nhà nước
+Việt Nam chuyển cho Bộ Tài chính thỏa thuận vay đã được ký kết để Bộ Tài chính tổ chức
+thực hiện;
+     b) Đối với vay không theo điều kiện ODA, Bộ Tài chính chủ trì đàm phán, ký kết thoả
+thuận vay theo quyết định của Chính phủ. Trường hợp Ngân hàng Nhà nước Việt Nam được
+Chính phủ phân công đàm phán, ký kết thoả thuận vay thì Ngân hàng Nhà nước Việt Nam
+chuyển cho Bộ Tài chính thỏa thuận vay đã được ký kết để Bộ Tài chính tổ chức thực hiện;
+       c) Các thoả thuận vay cụ thể được ký kết khi chương trình, dự án đầu tư được Quốc hội,
+Chính phủ, Thủ tướng Chính phủ cho phép sử dụng vốn vay nước ngoài để thực hiện và đã
+hoàn thành thủ tục đầu tư theo quy định của pháp luật về đầu tư và các quy định của pháp luật
+có liên quan hoặc đề án sử dụng vốn vay cho các mục tiêu khác đã được cấp có thẩm quyền
+phê duyệt và nội dung thoả thuận vay đã được phê duyệt.
+
+                                                                                           11
+          4. Việc ký kết và phê duyệt thỏa thuận khung về vay ODA, thoả thuận vay cụ thể nhân
+   danh Nhà nước thực hiện theo quy định của Luật ký kết, gia nhập và thực hiện điều ước quốc
+tế; đối với thoả thuận vay cụ thể khác thực hiện theo quy định sau:
+           a) Căn cứ kế hoạch vay, trả nợ chi tiết hàng năm và thỏa thuận khung về vay ODA đã
+    được cấp có thẩm quyền phê duyệt, cơ quan chủ trì đàm phán tổ chức đàm phán nội dung thỏa
+thuận vay với bên cho vay nước ngoài;
+        b) Cơ quan chủ trì đàm phán đồng thời xin ý kiến các cơ quan liên quan, trong đó có ý
+       kiến kiểm tra của Bộ Ngoại giao, ý kiến thẩm định của Bộ Tư pháp trình Thủ tướng Chính
+phủ quyết định việc ký kết thỏa thuận vay.
+     Chính phủ quy định trình tự, thủ tục ký kết và phê duyệt thỏa thuận vay cụ thể.
+        5. Chính phủ quy định chi tiết việc quản lý vay nước ngoài của Chính phủ; quản lý, sử
+dụng vốn ODA.
+     Điều 22. Sử dụng vốn vay của Chính phủ
+     1. Vốn vay của Chính phủ được sử dụng như sau:
+              a) Cấp phát từ nguồn vốn vay trong nước và vay ưu đãi của nước ngoài cho chương
+ trình, dự án đầu tư cơ sở hạ tầng, phúc lợi xã hội và chương trình, dự án thuộc các lĩnh vực
+       khác không có khả năng thu hồi vốn trực tiếp thuộc nhiệm vụ chi của ngân sách nhà nước
+theo quy định của Luật ngân sách nhà nước;
+           b) Cho vay lại toàn bộ hoặc một phần từ nguồn vốn vay nước ngoài cho chương trình,
+    dự án đầu tư có khả năng thu hồi một phần hoặc toàn bộ vốn vay, bao gồm cả dự án xây dựng
+ cơ sở hạ tầng phù hợp với định hướng phát triển kinh tế - xã hội của đất nước đã được cấp có
+        thẩm quyền phê duyệt. Chính phủ quy định chi tiết việc cho vay lại nguồn vốn vay nước
+ngoài của Chính phủ;
+          c) Cơ cấu lại khoản nợ, danh mục nợ theo kế hoạch vay, trả nợ chi tiết hàng năm của
+Chính phủ, đề án cơ cấu lại nợ đã được phê duyệt.
+      2. Các điều kiện cho vay lại đối với chương trình, dự án cụ thể về trị giá cho vay lại,
+ đồng tiền nhận nợ, lãi suất, thời hạn trả nợ, các loại phí thực hiện theo quy định của Chính
+phủ.
+            3. Căn cứ vào mục đích của từng khoản vay, Bộ Tài chính trình Thủ tướng Chính phủ
+quyết định cấp phát hoặc cho vay lại đối với từng chương trình, dự án.
+     Điều 23. Cơ quan cho vay lại, đối tượng được vay lại
+       1. Bộ Tài chính trực tiếp hoặc uỷ quyền cho tổ chức tài chính, tín dụng thực hiện việc
+cho vay lại.
+     2. Đối tượng được vay lại bao gồm:
+       a) Tổ chức tài chính, tín dụng vay để cho vay tiếp đến người sử dụng theo chương trình
+tín dụng, hợp phần tín dụng trong chương trình, dự án sử dụng vốn vay nước ngoài;
+           b) Doanh nghiệp vay để đầu tư cho chương trình, dự án có khả năng thu hồi một phần
+hoặc toàn bộ vốn vay;
+     c) Uỷ ban nhân dân cấp tỉnh vay để đầu tư phát triển kinh tế - xã hội thuộc nhiệm vụ chi
+của ngân sách địa phương.
+
+                                                                                            12
+     Điều 24. Điều kiện được vay lại
+     1. Điều kiện được vay lại đối với tổ chức tài chính, tín dụng bao gồm:
+             a) Có chương trình, dự án được cấp có thẩm quyền cho phép sử dụng vốn vay và được
+bên cho vay nước ngoài chấp thuận;
+          b) Bảo đảm khả năng trả nợ theo phương án tài chính được thẩm định theo quy định của
+pháp luật;
+          c) Trường hợp vay lại nguồn vốn vay thương mại nước ngoài của Chính phủ thì phải đạt
+    được hệ số an toàn vốn theo quy định của Chính phủ, trừ ngân hàng chính sách của Nhà nước.
+     2. Điều kiện được vay lại đối với doanh nghiệp bao gồm:
+          a) Có chương trình, dự án phù hợp với định hướng phát triển kinh tế - xã hội của đất
+      nước, được cấp có thẩm quyền cho phép sử dụng vốn vay, đã hoàn thành thủ tục đầu tư theo
+     quy định của pháp luật về đầu tư và các quy định của pháp luật có liên quan, được bên cho
+vay nước ngoài chấp thuận;
+         b) Đủ năng lực thực hiện dự án, bảo đảm khả năng trả nợ theo phương án tài chính được
+thẩm định theo quy định của pháp luật;
+              c) Trường hợp vay lại nguồn vốn vay thương mại nước ngoài của Chính phủ phải bảo
+       đảm tối thiểu 20% tổng mức vốn đầu tư là vốn chủ sở hữu. Đối với dự án, công trình quan
+ trọng quốc gia, trọng điểm có tính cấp bách và có tầm quan trọng đặc biệt cho phát triển kinh
+     tế - xã hội của đất nước mà doanh nghiệp chưa đáp ứng đủ điều kiện về vốn chủ sở hữu, Thủ
+       tướng Chính phủ xem xét, quyết định miễn áp dụng điều kiện này trong từng trường hợp cụ
+thể;
+          d) Tình hình tài chính lành mạnh, không bị lỗ trong ba năm liền kề gần nhất, trừ các
+khoản lỗ do thực hiện chính sách; tại thời điểm đề nghị vay lại không có nợ quá hạn với các tổ
+   chức tài chính, tín dụng; không có nợ quá hạn liên quan đến các khoản vay lại nguồn vốn vay
+        nước ngoài của Chính phủ và ngân sách nhà nước. Trường hợp doanh nghiệp chưa đủ ba năm
+      hoạt động liên tục thì phải có cam kết của chủ sở hữu hoặc của công ty mẹ về bảo đảm khả
+năng trả nợ đối với khoản vay lại;
+     đ) Thực hiện bảo đảm tiền vay cho khoản vay lại theo quy định của pháp luật.
+     3. Điều kiện được vay lại đối với Ủy ban nhân dân cấp tỉnh bao gồm:
+              a) Được cấp có thẩm quyền cho phép vay lại từ nguồn vốn vay nước ngoài của Chính
+phủ;
+           b) Có dự án đầu tư phát triển kinh tế - xã hội thuộc nhiệm vụ chi của ngân sách địa
+phương đã hoàn thành thủ tục đầu tư theo quy định của pháp luật về đầu tư và các quy định
+của pháp luật có liên quan;
+     c) Ngân sách địa phương bảo đảm trả được nợ.
+     Điều 25. Thẩm định chương trình, dự án vay lại
+     1. Đối với khoản vay ODA cho vay lại theo chương trình, dự án đầu tư:
+         a) Trường hợp cơ quan cho vay lại chịu rủi ro tín dụng, cơ quan cho vay lại thẩm định
+ phương án tài chính của chương trình, dự án cho vay lại, năng lực tài chính của người vay lại
+và báo cáo kết quả thẩm định cho Bộ Tài chính trước khi ký kết thỏa thuận cho vay lại;
+          b) Trường hợp cơ quan cho vay lại không chịu rủi ro tín dụng, Bộ Tài chính thực hiện
+       cho vay lại thông qua cơ quan cho vay lại căn cứ vào danh mục các dự án được vay lại từ
+
+                                                                                             13
+nguồn vốn vay nước ngoài của Chính phủ đã được cấp có thẩm quyền phê duyệt và kết quả
+thẩm định phương án tài chính của cơ quan phê duyệt dự án đầu tư.
+      2. Đối với khoản vay ODA theo chương trình, hạn mức tín dụng:
+              a) Bộ Tài chính thẩm định phương án sử dụng vốn vay và trả nợ của các tổ chức tài
+chính, tín dụng tham gia chương trình trước khi ký kết thỏa thuận cho vay lại;
+              b) Tổ chức tài chính, tín dụng cho vay đến người sử dụng vốn cuối cùng chịu trách
+nhiệm thẩm định dự án và chọn đối tượng cho vay phù hợp với chương trình tín dụng đã thoả
+thuận với nhà tài trợ hoặc người cho vay, đồng thời chịu mọi rủi ro phát sinh từ việc cho vay
+lại.
+            3. Đối với khoản vay thương mại của Chính phủ cho doanh nghiệp vay lại, cơ quan cho
+vay lại chịu trách nhiệm thẩm định lại phương án tài chính của các dự án cho vay lại, năng lực
+tài chính của người vay lại và báo cáo kết quả thẩm định cho Bộ Tài chính trước khi ký kết
+thoả thuận cho vay lại.
+      4. Đối với khoản vay thương mại theo chương trình, hạn mức tín dụng:
+               a) Ngân hàng Nhà nước Việt Nam thẩm định phương án sử dụng vốn vay và trả nợ của
+các tổ chức tín dụng tham gia chương trình và thông báo kết quả thẩm định cho Bộ Tài chính
+trước khi Bộ Tài chính ký kết thỏa thuận cho vay lại;
+              b) Tổ chức tín dụng cho vay đến người sử dụng vốn cuối cùng chịu trách nhiệm thẩm
+định dự án và chọn đối tượng cho vay phù hợp với chương trình tín dụng đã thoả thuận với
+nhà tài trợ hoặc người cho vay, đồng thời chịu mọi rủi ro phát sinh từ việc cho vay lại.
+          5. Đối với khoản vay của Chính phủ cho Ủy ban nhân dân cấp tỉnh vay lại, Bộ Tài chính
+thẩm định khả năng trả nợ của ngân sách cấp tỉnh theo quy định của pháp luật về phân cấp
+ngân sách trước khi ký kết thỏa thuận cho vay lại.
+          6. Cơ quan, tổ chức thẩm định chịu trách nhiệm về kết quả thẩm định theo quy định của
+pháp luật.
+      Điều 26. Trách nhiệm của cơ quan cho vay lại
+          1. Theo dõi, kiểm tra việc sử dụng vốn vay lại của người vay lại. Thực hiện ghi chép,
+hạch toán kế toán các khoản cho vay lại đối với từng người vay lại.
+      2. Hoàn thiện hồ sơ pháp lý, quản lý, xử lý tài sản thế chấp và các tài sản khác do người
+vay lại dùng để bảo đảm tiền vay.
+         3. Áp dụng biện pháp, chế tài cần thiết theo quy định của pháp luật để thu hồi vốn cho
+vay lại, bao gồm các khoản gốc, lãi, phí và chi phí khác có liên quan từ người vay lại đầy đủ,
+đúng hạn theo điều kiện quy định trong thoả thuận cho vay lại, hợp đồng ủy quyền cho vay lại
+và chuyển trả vào Quỹ tích luỹ trả nợ.
+            4. Cung cấp các thông tin, báo cáo liên quan đến việc thực hiện chương trình, dự án
+được vay vốn cho Bộ Tài chính và các cơ quan có thẩm quyền theo định kỳ hoặc theo yêu cầu
+và chịu trách nhiệm về tính chính xác, trung thực của các thông tin, báo cáo.
+         5. Sau khi đã áp dụng các biện pháp, chế tài cần thiết mà người vay lại không trả được
+một phần hoặc toàn bộ nợ thì cơ quan cho vay lại có trách nhiệm:
+      a) Trả nợ thay cho người vay lại nếu cơ quan cho vay lại được Bộ Tài chính ủy quyền
+cho vay lại theo phương thức chịu rủi ro tín dụng;
+
+                                                                                        14
+      b) Báo cáo Bộ Tài chính và cơ quan thẩm định chương trình, dự án để có biện pháp xử
+lý nếu cơ quan cho vay lại được Bộ Tài chính ủy quyền cho vay lại theo phương thức không
+chịu rủi ro tín dụng.
+      Điều 27. Trách nhiệm của người vay lại
+      1. Quản lý, sử dụng vốn vay lại theo đúng mục đích đã được phê duyệt trong báo cáo
+đầu tư hoặc báo cáo nghiên cứu khả thi của dự án đã được cấp có thẩm quyền phê duyệt.
+      2. Trả nợ đầy đủ, đúng hạn theo điều kiện quy định trong thoả thuận cho vay lại.
+Trường hợp không thực hiện đầy đủ nghĩa vụ trả nợ thì phải chấp hành các biện pháp, chế tài
+mà cơ quan cho vay lại áp dụng để thu hồi nợ và chịu trách nhiệm theo quy định của pháp luật
+nếu không trả được nợ.
+      3. Thực hiện đúng các quy định của pháp luật về thế chấp và các biện pháp bảo đảm tiền
+vay.
+      4. Cung cấp các thông tin, báo cáo liên quan đến việc thực hiện chương trình, dự án
+được vay vốn cho Bộ Tài chính, cơ quan cho vay lại, cơ quan có thẩm quyền theo định kỳ
+hoặc theo yêu cầu và chịu trách nhiệm về tính chính xác, trung thực của các thông tin, báo
+cáo.
+      Điều 28. Vay để cơ cấu lại danh mục nợ
+      1. Việc vay để cơ cấu lại danh mục nợ phải đáp ứng các điều kiện sau:
+      a) Khoản vay mới không vượt quá giá trị của khoản nợ được cơ cấu lại;
+      b) Giảm thiểu nghĩa vụ trả nợ hoặc rủi ro so với trước khi danh mục nợ được cơ cấu lại;
+      c) Không vay ngoại tệ để cơ cấu lại khoản vay bằng Đồng Việt Nam.
+      2. Bộ Tài chính thực hiện các nghiệp vụ cơ cấu lại danh mục nợ theo kế hoạch vay, trả
+nợ chi tiết hàng năm của Chính phủ hoặc đề án đã được phê duyệt.
+      Điều 29. Quỹ tích luỹ trả nợ
+      1. Quỹ tích luỹ trả nợ là quỹ thuộc ngân sách nhà nước, được Chính phủ thành lập và
+giao Bộ Tài chính quản lý nhằm bảo đảm khả năng thanh toán nghĩa vụ nợ của các khoản vay
+về cho vay lại hoặc nghĩa vụ nợ dự phòng của ngân sách nhà nước phát sinh từ các khoản bảo
+lãnh của Chính phủ.
+      2. Nguồn thu của Quỹ tích lũy trả nợ bao gồm:
+      a) Thu hồi nợ từ các khoản vay về cho vay lại của Chính phủ;
+      b) Phí bảo lãnh chính phủ;
+      c) Thu hồi các khoản tạm ứng vốn từ Quỹ tích lũy trả nợ theo quy định của Chính phủ;
+      d) Lãi tạm ứng vốn và lãi từ cơ cấu lại khoản nợ, danh mục nợ chính phủ;
+      đ) Lãi tiền gửi hoặc uỷ thác quản lý nguồn vốn của Quỹ tích lũy trả nợ;
+      e) Các khoản thu hợp pháp khác.
+      3. Nội dung chi của Quỹ tích lũy trả nợ bao gồm:
+      a) Hoàn trả ngân sách nhà nước các khoản trả nợ cho các khoản vay nước ngoài của
+Chính phủ vay về cho vay lại;
+
+                                                                                      15
+     b) Ứng trả thay cho người được bảo lãnh trong trường hợp người được bảo lãnh không
+trả được nợ;
+     c) Ứng vốn để thực hiện cơ cấu lại khoản nợ, danh mục nợ chính phủ và nợ được Chính
+phủ bảo lãnh nhằm giảm thiểu chi phí đi vay;
+     d) Ứng vốn khác nhằm nâng cao hiệu quả hoạt động của Quỹ tích lũy trả nợ theo quy
+định của Chính phủ;
+     đ) Chi phí nghiệp vụ quản lý Quỹ tích lũy trả nợ theo quy định của Chính phủ.
+     4. Nguồn vốn tạm thời nhàn rỗi của Quỹ tích lũy trả nợ phải được bảo toàn, phát triển
+thông qua dịch vụ tiền gửi và quản lý tài sản của tổ chức tài chính, tín dụng có uy tín trong
+nước.
+     5. Chính phủ quy định chi tiết việc quản lý Quỹ tích luỹ trả nợ.
+     Điều 30. Trả nợ chính phủ
+     1. Chính phủ bố trí ngân sách nhà nước để thực hiện đầy đủ các nghĩa vụ trả nợ trực tiếp
+của Chính phủ.
+     2. Việc chi trả các khoản gốc, lãi, phí và chi phí khác có liên quan phát sinh từ việc vay
+do Bộ Tài chính thực hiện từ ngân sách nhà nước theo kế hoạch vay, trả nợ chi tiết hàng năm
+của Chính phủ đã được phê duyệt.
+     3. Đối với các khoản cho vay lại từ nguồn vốn vay nước ngoài của Chính phủ, cơ quan
+cho vay lại thực hiện trả vào Quỹ tích luỹ trả nợ theo hướng dẫn của Bộ Tài chính.
+                                       CHƯƠNG IV
+                               QUẢN LÝ BẢO LÃNH CHÍNH PHỦ
+     Điều 31. Cơ quan cấp và quản lý bảo lãnh chính phủ
+     1. Bộ Tài chính là cơ quan cấp và quản lý bảo lãnh chính phủ đối với khoản vay hoặc
+phát hành trái phiếu trong nước, trái phiếu quốc tế.
+     2. Bộ Tài chính chủ trì xây dựng, trình Chính phủ ban hành quy định về cấp và quản lý
+bảo lãnh chính phủ.
+     Điều 32. Đối tượng được cấp bảo lãnh chính phủ
+     1. Doanh nghiệp thực hiện chương trình, dự án theo quy định tại Điều 33 của Luật này.
+     2. Ngân hàng chính sách của Nhà nước và tổ chức tài chính, tín dụng thực hiện chương
+trình tín dụng có mục tiêu của Nhà nước.
+     Điều 33. Chương trình, dự án được xem xét cấp bảo lãnh chính phủ
+     1. Chương trình, dự án đầu tư được Quốc hội hoặc Thủ tướng Chính phủ quyết định chủ
+trương đầu tư.
+     2. Chương trình, dự án ứng dụng công nghệ cao, dự án trong lĩnh vực năng lượng, khai
+thác, chế biến khoáng sản hoặc sản xuất hàng hoá, cung ứng dịch vụ xuất khẩu phù hợp với
+định hướng phát triển kinh tế - xã hội của đất nước.
+
+                                                                                        16
+        3. Chương trình, dự án thuộc lĩnh vực, địa bàn được Nhà nước khuyến khích đầu tư theo
+quy định của pháp luật về đầu tư và các quy định của pháp luật có liên quan.
+              4. Chương trình, dự án được tài trợ bằng khoản vay thương mại gắn với nguồn vốn
+ODA dưới dạng tín dụng hỗn hợp.
+      Điều 34. Điều kiện được cấp bảo lãnh chính phủ
+      1. Điều kiện được cấp bảo lãnh chính phủ đối với chương trình, dự án bao gồm:
+        a) Đã hoàn thành thủ tục đầu tư theo quy định của pháp luật về đầu tư và các quy định
+của pháp luật có liên quan;
+         b) Có đề án vay, phát hành trái phiếu, phương án sử dụng vốn vay, trả nợ được Bộ Tài
+chính thẩm định và được Thủ tướng Chính phủ phê duyệt.
+       2. Điều kiện được cấp bảo lãnh chính phủ đối với người vay, người phát hành trái phiếu
+bao gồm:
+          a) Trường hợp là doanh nghiệp thực hiện các dự án đầu tư phải bảo đảm tối thiểu 20%
+tổng mức vốn đầu tư là vốn chủ sở hữu. Đối với các tổ chức tài chính, tín dụng phải đạt hệ số
+an toàn vốn theo quy định của Chính phủ, trừ ngân hàng chính sách của Nhà nước;
+         b) Tình hình tài chính lành mạnh, không bị lỗ trong ba năm liền kề gần nhất, trừ các
+khoản lỗ do thực hiện chính sách; tại thời điểm đề nghị cấp bảo lãnh không có nợ quá hạn với
+các tổ chức tài chính, tín dụng; không có nợ quá hạn liên quan đến các khoản được bảo lãnh,
+các khoản vay lại nguồn vốn vay nước ngoài của Chính phủ và ngân sách nhà nước. Trường
+hợp doanh nghiệp, tổ chức tài chính, tín dụng chưa đủ ba năm hoạt động liên tục thì phải có
+cam kết của chủ sở hữu hoặc của công ty mẹ về bảo đảm khả năng trả nợ đối với khoản vay
+được bảo lãnh;
+      c) Chấp thuận các chế tài theo quy định của cơ quan cấp bảo lãnh;
+           d) Trường hợp phát hành trái phiếu quốc tế phải có hệ số tín nhiệm được thị trường
+quốc tế chấp nhận nhưng không thấp hơn một bậc so với hệ số tín nhiệm quốc gia;
+         đ) Không vi phạm pháp luật về quản lý nợ công trong thời hạn ba năm liền kề gần nhất
+tính đến thời điểm đề nghị cấp bảo lãnh;
+        e) Trường hợp dự án, công trình trọng điểm, dự án lớn có tính cấp bách và có tầm quan
+trọng đặc biệt cho phát triển kinh tế - xã hội của đất nước, nếu doanh nghiệp chưa đáp ứng đủ
+điều kiện về vốn chủ sở hữu, Thủ tướng Chính phủ xem xét, quyết định miễn áp dụng điều
+kiện này trong từng trường hợp cụ thể.
+        3. Điều kiện được cấp bảo lãnh chính phủ đối với khoản vay, phát hành trái phiếu quốc
+tế bao gồm:
+        a) Khoản vay nước ngoài thông qua thỏa thuận vay phải có trị giá tương đương 50 triệu
+Đô la Mỹ trở lên, trị giá phát hành trái phiếu quốc tế tương đương 100 triệu Đô la Mỹ trở lên
+và trong hạn mức vay thương mại, bảo lãnh vay nước ngoài hàng năm của Chính phủ, trừ các
+khoản vay quy định tại khoản 4 Điều 33 của Luật này; thời hạn trả nợ tối thiểu là mười năm
+và các điều kiện vay, phát hành phải phù hợp với điều kiện thị trường và thông lệ quốc tế;
+      b) Khoản vay, phát hành trái phiếu trong nước bằng ngoại tệ phải có trị giá tương đương
+30 triệu Đô la Mỹ trở lên, thời hạn trả nợ tối thiểu là năm năm; nếu bằng nội tệ phải có trị giá
+500 tỷ Đồng Việt Nam trở lên, thời hạn trả nợ tối thiểu là một năm.
+      Điều 35. Quản lý bảo lãnh chính phủ
+
+                                                                                       17
+     1. Khoản vay, phát hành trái phiếu quốc tế được Chính phủ bảo lãnh phải đăng ký tại
+Ngân hàng Nhà nước Việt Nam.
+     2. Việc quản lý, theo dõi và kiểm tra sử dụng vốn vay, phát hành trái phiếu được Chính
+phủ bảo lãnh thực hiện như đối với khoản vay khác của Chính phủ.
+     3. Nghĩa vụ nợ phát sinh từ khoản vay, phát hành trái phiếu được Chính phủ bảo lãnh là
+nghĩa vụ nợ dự phòng của Chính phủ.
+     Điều 36. Trách nhiệm của cơ quan cấp bảo lãnh và người được bảo lãnh
+     1. Bộ Tài chính là cơ quan cấp bảo lãnh có trách nhiệm:
+     a) Thẩm định phương án tài chính, điều kiện cấp bảo lãnh theo hồ sơ đề nghị cấp bảo
+lãnh cho các chương trình, dự án cụ thể trình Thủ tướng Chính phủ quyết định và chịu trách
+nhiệm về kết quả thẩm định;
+     b) Tham gia đàm phán về điều kiện vay, thỏa thuận vay và chủ trì đàm phán về nội dung
+thư bảo lãnh;
+     c) Kiểm tra kết quả hoạt động kinh doanh, sử dụng vốn vay nước ngoài để đánh giá khả
+năng trả nợ của người được bảo lãnh; kiến nghị biện pháp, chế tài xử lý trong trường hợp
+người được bảo lãnh gặp khó khăn về trả nợ trình Thủ tướng Chính phủ quyết định;
+     d) Thực hiện nghĩa vụ thanh toán của người bảo lãnh phát sinh theo thỏa thuận bảo lãnh
+từ nguồn Quỹ tích luỹ trả nợ trong trường hợp người được bảo lãnh không trả được nợ;
+     đ) Thu phí bảo lãnh chính phủ theo quy định của pháp luật;
+     e) Áp dụng các biện pháp, chế tài cần thiết theo quy định của pháp luật để thu hồi nợ và
+các chi phí phát sinh từ việc trả nợ thay người được bảo lãnh;
+     g) Tổng hợp, báo cáo cấp có thẩm quyền về các khoản bảo lãnh đã được phát hành.
+     2. Trách nhiệm của người được bảo lãnh:
+     a) Cung cấp cho cơ quan cấp bảo lãnh các tài liệu liên quan để thẩm định;
+     b) Thực hiện đầy đủ nghĩa vụ của người được bảo lãnh đối với cơ quan cấp bảo lãnh.
+Trường hợp không trả được nợ đầy đủ, đúng hạn thì phải chấp hành các biện pháp, chế tài mà
+cơ quan cấp bảo lãnh áp dụng; chịu trách nhiệm theo quy định của pháp luật nếu không trả
+được nợ;
+     c) Cung cấp thông tin theo yêu cầu của cơ quan cấp bảo lãnh về tình hình thực hiện
+chương trình, dự án và khả năng thực hiện nghĩa vụ thanh toán theo thỏa thuận vay;
+     d) Báo cáo kịp thời về nguy cơ vi phạm cam kết bảo lãnh;
+     đ) Nộp phí bảo lãnh đầy đủ và đúng hạn theo quy định của pháp luật.
+                                      CHƯƠNG V
+                 QUẢN LÝ NỢ CỦA CHÍNH QUYỀN ĐỊA PHƯƠNG
+     Điều 37. Mục đích vay của chính quyền địa phương
+     1. Đầu tư phát triển kinh tế - xã hội thuộc nhiệm vụ chi của ngân sách địa phương theo
+quy định của Luật ngân sách nhà nước.
+     2. Đầu tư vào các dự án có khả năng hoàn vốn tại địa phương.
+
+                                                                                      18
+     Điều 38. Hình thức vay của chính quyền địa phương
+     1. Đối với vay trong nước, Uỷ ban nhân dân cấp tỉnh chỉ được vay để đầu tư theo quy
+định tại Điều 37 của Luật này thông qua phát hành, uỷ quyền phát hành trái phiếu chính
+quyền địa phương, vay từ các nguồn tài chính hợp pháp khác theo quy định của pháp luật.
+     2. Đối với vay nước ngoài, Uỷ ban nhân dân cấp tỉnh không được trực tiếp vay nước
+ngoài mà chỉ được vay lại từ nguồn vốn vay nước ngoài của Chính phủ để đầu tư phát triển
+kinh tế - xã hội thuộc nhiệm vụ chi của ngân sách địa phương theo quy định tại điểm c khoản
+2 Điều 23 của Luật này.
+     Điều 39. Điều kiện vay trong nước của Uỷ ban nhân dân cấp tỉnh
+     1. Đối với vay để đầu tư phát triển kinh tế - xã hội thuộc nhiệm vụ chi của ngân sách địa
+phương theo quy định của Luật ngân sách nhà nước phải đáp ứng các điều kiện sau:
+     a) Dự án đã hoàn thành thủ tục đầu tư theo quy định của pháp luật về đầu tư và các quy
+định của pháp luật có liên quan, thuộc danh mục đầu tư trong kế hoạch năm năm đã được Hội
+đồng nhân dân cùng cấp quyết định;
+     b) Đề án phát hành trái phiếu, kế hoạch sử dụng vốn vay, trả nợ đã được Hội đồng nhân
+dân cùng cấp thông qua và Bộ Tài chính chấp thuận bằng văn bản;
+     c) Trị giá khoản vay, phát hành trái phiếu trong nước phải trong hạn mức vay của ngân
+sách địa phương theo quy định của Luật ngân sách nhà nước;
+     d) Trường hợp vay lại vốn vay nước ngoài của Chính phủ phải đáp ứng các điều kiện
+quy định tại khoản 3 Điều 24 và khoản 5 Điều 25 của Luật này.
+     2. Đối với vay để đầu tư vào các dự án có khả năng hoàn vốn tại địa phương phải đáp
+ứng các điều kiện sau:
+     a) Dự án đã hoàn thành thủ tục đầu tư theo quy định của pháp luật về đầu tư và các quy
+định của pháp luật có liên quan, được cơ quan có thẩm quyền xác định là có khả năng thu hồi
+vốn;
+     b) Đề án phát hành trái phiếu để đầu tư vào dự án đã được Bộ Tài chính thẩm định và
+chấp thuận bằng văn bản.
+     3. Chính phủ quy định chi tiết việc phát hành trái phiếu chính quyền địa phương.
+     Điều 40. Tổ chức vay
+     1. Uỷ ban nhân dân cấp tỉnh tổ chức phát hành trái phiếu chính quyền địa phương để
+vay vốn trong nước thông qua Kho bạc Nhà nước hoặc uỷ quyền cho tổ chức tài chính, tín
+dụng trên địa bàn phát hành theo quy định của Chính phủ và ký kết thoả thuận vay từ các
+nguồn tài chính hợp pháp khác theo quy định của pháp luật.
+     2. Đối với vay lại nguồn vốn vay nước ngoài của Chính phủ, Uỷ ban nhân dân cấp tỉnh
+thực hiện theo quy định tại các điều 23, 24 và 25 của Luật này.
+     Điều 41. Sử dụng vốn vay của chính quyền địa phương
+     1. Các khoản vay trong nước của Uỷ ban nhân dân cấp tỉnh để đầu tư phát triển kinh tế -
+xã hội thuộc nhiệm vụ chi của ngân sách địa phương được quản lý, sử dụng theo quy định của
+Luật ngân sách nhà nước.
+
+                                                                                       19
+     2. Các khoản vay để đầu tư vào dự án có khả năng hoàn vốn, các khoản vay lại từ nguồn
+vốn vay nước ngoài của Chính phủ được quản lý, sử dụng theo quy định của pháp luật.
+     Điều 42. Trả nợ
+     1. Uỷ ban nhân dân cấp tỉnh thanh toán đầy đủ, đúng hạn các khoản gốc, lãi, phí và chi
+phí khác có liên quan phát sinh từ việc vay của Uỷ ban nhân dân cấp tỉnh.
+     2. Việc hoàn trả vốn vay lại từ nguồn vốn vay nước ngoài của Chính phủ thực hiện theo
+quy định của Chính phủ.
+     3. Nguồn trả nợ được bảo đảm từ ngân sách cấp tỉnh và nguồn thu hồi từ các dự án đầu
+tư của địa phương.
+                                      CHƯƠNG VI
+                        TỔ CHỨC THÔNG TIN VỀ NỢ CÔNG
+     Điều 43. Xây dựng cơ sở dữ liệu về nợ công
+     1. Bộ Tài chính là cơ quan đầu mối xây dựng và quản lý thống nhất cơ sở dữ liệu về nợ
+công.
+     2. Chính phủ quy định chi tiết tổ chức thông tin về nợ công, cơ chế cung cấp, báo cáo và
+công bố thông tin về nợ công.
+     Điều 44. Báo cáo thông tin về nợ công
+     1. Hàng năm hoặc theo yêu cầu của Quốc hội, các cơ quan của Quốc hội, Bộ Tài chính
+tổng hợp, trình Chính phủ để báo cáo Quốc hội, các cơ quan của Quốc hội thông tin về nợ
+công, bao gồm:
+     a) Tình hình thực hiện kế hoạch vay, bảo lãnh và trả nợ hàng năm, trong đó có số ký kết
+vay, số rút vốn, trị giá phát hành, trị giá bảo lãnh, số trả nợ, số dư nợ, tỷ lệ nợ so với GDP;
+     b) Tình hình thực hiện các chương trình, dự án sử dụng vốn vay của Chính phủ và vốn
+vay được Chính phủ bảo lãnh;
+     c) Tình hình vay, trả nợ của Ủy ban nhân dân cấp tỉnh;
+     d) Các thông tin khác có liên quan.
+     2. Hàng năm, Uỷ ban nhân dân cấp tỉnh báo cáo Hội đồng nhân dân cùng cấp, Bộ Tài
+chính và các cơ quan có thẩm quyền thông tin về nợ công, bao gồm:
+     a) Tình hình vay, trả nợ của địa phương, trong đó có số ký kết vay, số vốn vay thực
+nhận, số trả nợ, số dư nợ;
+     b) Tình hình thực hiện chương trình, dự án sử dụng vốn vay;
+     c) Các thông tin khác có liên quan.
+     Điều 45. Cơ quan tiếp nhận và cung cấp thông tin về nợ công
+     1. Bộ Tài chính là cơ quan đầu mối tiếp nhận thông tin về nợ công.
+     2. Các cơ quan, tổ chức cung cấp thông tin về nợ công bao gồm:
+
+                                                                                      20
+     a) Các Bộ, cơ quan ngang Bộ;
+     b) Uỷ ban nhân dân cấp tỉnh;
+     c) Các tổ chức phát hành trái phiếu, vay vốn được Chính phủ bảo lãnh;
+     d) Cơ quan cho vay lại;
+     đ) Đơn vị sử dụng vốn vay của Chính phủ.
+     Điều 46. Phối hợp cung cấp thông tin về nợ công
+     1. Ngân hàng Nhà nước Việt Nam định kỳ cung cấp cho Bộ Tài chính thông tin tổng
+hợp về tình hình vay, trả nợ nước ngoài, hạn mức vay thương mại nước ngoài của doanh
+nghiệp, tổ chức tài chính, tín dụng theo quy định của Chính phủ.
+     2. Doanh nghiệp nhà nước và tổ chức tài chính, tín dụng của Nhà nước định kỳ cung
+cấp cho Bộ Tài chính thông tin về tình hình vay, trả nợ trong nước, nước ngoài theo quy định
+của Chính phủ.
+     3. Trường hợp cần thiết, Bộ Tài chính có quyền yêu cầu các cơ quan, tổ chức có liên
+quan cung cấp thông tin về bất kỳ khoản vay nào để quản lý nợ công.
+     Điều 47. Công khai thông tin về nợ công
+     1. Bộ Tài chính thực hiện công khai thông tin về nợ công.
+     2. Thông tin về nợ công được công khai bao gồm tổng số dư nợ, cơ cấu nợ trong nước,
+nợ nước ngoài của Chính phủ, nợ được Chính phủ bảo lãnh, nợ của chính quyền địa phương,
+số liệu vốn vay thực nhận và trả nợ hàng năm, các chỉ tiêu giám sát nợ chính phủ, nợ công, nợ
+nước ngoài của quốc gia.
+     3. Thông tin về nợ công được Bộ Tài chính công bố định kỳ theo quy định của pháp
+luật.
+                                    CHƯƠNG VII
+                              ĐIỀU KHOẢN THI HÀNH
+     Điều 48. Hiệu lực thi hành
+     Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2010.
+     Điều 49. Quy định chi tiết và hướng dẫn thi hành
+     Chính phủ quy định chi tiết, hướng dẫn thi hành các điều, khoản được giao trong Luật;
+hướng dẫn những nội dung cần thiết khác của Luật này để đáp ứng yêu cầu quản lý nhà nước.
+     Luật này đã được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khoá XII, kỳ họp
+thứ 5 thông qua ngày 17 tháng 6 năm 2009.
+                                                      CHỦ TỊCH QUỐC HỘI
+                                                       Nguyễn Phú Trọng

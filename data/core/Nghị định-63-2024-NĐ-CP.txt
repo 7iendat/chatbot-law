@@ -1,0 +1,932 @@
+CHÍNH PHỦ                          CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+             _______                              Độc lập - Tự do - Hạnh phúc
+                                                    ________________________
+        Số: 63/2024/NĐ-CP                       Hà Nội, ngày 10 tháng 6 năm 2024
+                                         NGHỊ ĐỊNH
+           Quy định việc thực hiện liên thông điện tử 02 nhóm thủ tục hành chính:
+                Đăng ký khai sinh, đăng ký thường trú, cấp thẻ bảo hiểm y tế
+              cho trẻ em dưới 6 tuổi; đăng ký khai tử, xóa đăng ký thường trú,
+                              giải quyết mai táng phí, tử tuất
+                                        ____________
+       Căn cứ Luật Tổ chức Chính phủ ngày 19 tháng 6 năm 2015; Luật sửa đổi, bổ sung một số
+điều của Luật Tổ chức Chính phủ và Luật Tổ chức chính quyền địa phương ngày 22 tháng 11 năm
+2019;
+       Căn cứ Luật Người cao tuổi ngày 23 tháng 11 năm 2009;
+       Căn cứ Luật Người khuyết tật ngày 17 tháng 6 năm 2010;
+       Căn cứ Luật Hộ tịch ngày 20 tháng 11 năm 2014;
+       Căn cứ Luật Bảo hiểm xã hội ngày 20 tháng 11 năm 2014;
+       Căn cứ Luật Bảo hiểm y tế ngày 14 tháng 11 năm 2008; Luật sửa đổi, bổ sung một số điều
+của Luật Bảo hiểm y tế ngày 13 tháng 6 năm 2014;
+       Căn cứ Luật Trẻ em ngày 05 tháng 4 năm 2016;
+       Căn cứ Luật Cư trú ngày 13 tháng 11 năm 2020;
+       Căn cứ Pháp lệnh Ưu đãi người có công với cách mạng ngày 09 tháng 12 năm 2020;
+       Theo đề nghị của Bộ trưởng, Chủ nhiệm Văn phòng Chính phủ;
+       Chính phủ ban hành Nghị định quy định việc thực hiện liên thông điện tử 02 nhóm thủ tục
+hành chính: Đăng ký khai sinh, đăng ký thường trú, cấp thẻ bảo hiểm y tế cho trẻ em dưới 6 tuổi;
+đăng ký khai tử, xóa đăng ký thường trú, giải quyết mai táng phí, tử tuất.
+                                          Chương I
+                                     QUY ĐỊNH CHUNG
+       Điều 1. Phạm vi điều chỉnh
+       Nghị định này quy định việc thực hiện liên thông điện tử 02 nhóm thủ tục hành chính: Đăng
+ký khai sinh, đăng ký thường trú, cấp thẻ bảo hiểm y tế cho trẻ em dưới 6 tuổi; đăng ký khai tử, xóa
+đăng ký thường trú, giải quyết mai táng phí, tử tuất (sau đây gọi tắt là 02 nhóm thủ tục hành chính
+liên thông điện tử); trách nhiệm của các bộ, ngành, cơ quan, tổ chức, cá nhân trong việc thực hiện 02
+nhóm thủ tục hành chính liên thông điện tử.
+       Điều 2. Đối tượng áp dụng
+       1. Nghị định này áp dụng đối với cơ quan, tổ chức, cá nhân liên quan đến việc thực hiện quy
+trình liên thông điện tử đối với 02 nhóm thủ tục hành chính: Đăng ký khai sinh, đăng ký thường trú,
+cấp thẻ bảo hiểm y tế cho trẻ em dưới 6 tuổi; đăng ký khai tử, xóa đăng ký thường trú, giải quyết mai
+táng phí, tử tuất.
+       2. Việc thực hiện thủ tục hành chính liên thông điện tử giải quyết hưởng trợ cấp mai táng, trợ
+cấp tuất do ngành bảo hiểm xã hội Việt Nam thực hiện áp dụng đối với người chết là người đang
+hưởng lương hưu, trợ cấp bảo hiểm xã hội hằng tháng hoặc đang tham gia bảo hiểm xã hội tự
+nguyện.
+       3. Việc thực hiện thủ tục hành chính liên thông điện tử giải quyết hỗ trợ chi phí mai táng,
+hưởng trợ cấp mai táng, trợ cấp tuất do ngành lao động, thương binh và xã hội thực hiện áp dụng đối
+với người chết là người đang hưởng chính sách bảo trợ xã hội, người có công với cách mạng.
+
+        Điều 3. Giải thích từ ngữ
+               1. Phần mềm dịch vụ công liên thông là nơi tiếp nhận, kê khai thông tin, dữ liệu từ người
+dùng và phân tách thông tin, dữ liệu hồ sơ gửi đến phần mềm nghiệp vụ của các Bộ, cơ quan: Công
+an, Lao động - Thương binh và Xã hội, Y tế, Bảo hiểm xã hội Việt Nam và Phần mềm đăng ký, quản
+lý hộ tịch điện tử dùng chung của Bộ Tư pháp qua Hệ thống thông tin giải quyết thủ tục hành chính
+cấp tỉnh.
+                   2. Phần mềm nghiệp vụ là phần mềm được xây dựng, phát triển, nâng cấp, chỉnh sửa theo
+các yêu cầu riêng của cơ quan, tổ chức nhằm đáp ứng yêu cầu đặc thù của cơ quan, tổ chức đó.
+        3. Giải quyết mai táng phí, tử tuất trong Nghị định này bao gồm giải quyết các chế độ: hỗ trợ
+chi phí mai táng, hưởng trợ cấp mai táng, hưởng trợ cấp tuất một lần, trợ cấp tuất hằng tháng, trợ
+cấp tuất nuôi dưỡng hằng tháng.
+                4. Người yêu cầu là người trực tiếp kê khai, nộp hồ sơ thực hiện thủ tục hành chính liên
+thông điện tử.
+        Điều 4. Nguyên tắc thực hiện quy trình liên thông điện tử
+              1. Việc tổ chức tiếp nhận, giải quyết thủ tục hành chính trên môi trường điện tử được thực
+hiện hợp lý, khoa học, bảo đảm yêu cầu khai thác, tái sử dụng dữ liệu phục vụ cải cách, đơn giản hóa
+thủ tục hành chính giữa các cơ quan, tổ chức và người yêu cầu, không yêu cầu nộp bản giấy; chuyển
+phương thức xử lý từ tiền kiểm sang hậu kiểm nhằm tạo thuận lợi cho người yêu cầu và cơ quan, tổ
+chức có liên quan trong việc tiếp nhận giải quyết thủ tục hành chính.
+        2. Việc thực hiện thủ tục hành chính liên thông điện tử tại Nghị định này có giá trị pháp lý như
+các hình thức khác theo quy định của pháp luật; không làm tăng chi phí cho cá nhân, tổ chức.
+           3. Kết quả giải quyết của thủ tục hành chính thuộc nhóm thủ tục hành chính liên thông điện tử
+là thành phần hồ sơ của thủ tục khác trong nhóm sẽ được hệ thống tự động chia sẻ để hoàn thiện hồ
+sơ gửi đến cơ quan có thẩm quyền giải quyết theo quy định.
+                   4. Đối với những dữ liệu mà cơ quan thực hiện thủ tục hành chính đang quản lý hoặc đã
+được cơ quan nhà nước khác sẵn sàng chia sẻ thì thực hiện theo quy định tại Nghị định số
+45/2020/NĐ-CP ngày 08 tháng 4 năm 2020 của Chính phủ về thực hiện thủ tục hành chính trên môi
+trường điện tử; đối với các thành phần hồ sơ chưa có dữ liệu điện tử thì thực hiện theo quy định tại
+Nghị định số 107/2021/NĐ-CP ngày 06 tháng 12 năm 2021 của Chính phủ sửa đổi, bổ sung một số
+điều của Nghị định số 61/2018/NĐ-CP ngày 23 tháng 4 năm 2018 của Chính phủ về thực hiện cơ chế
+một cửa, một cửa liên thông trong giải quyết thủ tục hành chính.
+             5. Các thông tin trong tờ khai điện tử quy định tại Nghị định này đã có trong Cơ sở dữ liệu
+quốc gia về dân cư, Cơ sở dữ liệu hộ tịch điện tử, Cơ sở dữ liệu quốc gia về Bảo hiểm, hệ thống
+thông tin có liên quan, được Phần mềm dịch vụ công liên thông điền tự động.
+                 6. Hồ sơ, biểu mẫu điện tử của từng thủ tục sẽ được Phần mềm dịch vụ công liên thông tự
+động phân tách để chuyển cho các cơ quan có thẩm quyền giải quyết theo đúng quy định. Hồ sơ
+đăng ký khai sinh, khai tử được Phần mềm dịch vụ công liên thông đồng bộ về Hệ thống thông tin giải
+quyết thủ tục hành chính cấp tỉnh; hồ sơ đăng ký thường trú, xóa đăng ký thường trú, hồ sơ cấp thẻ
+Bảo hiểm y tế cho trẻ em dưới 6 tuổi, hồ sơ đề nghị hưởng trợ cấp mai táng, tử tuất được đồng bộ về
+phần mềm nghiệp vụ của các bộ, ngành có liên quan.
+                 7. Thời gian người yêu cầu hoàn thiện hồ sơ hoặc xác nhận qua ứng dụng VNeID không tính
+vào thời gian giải quyết của các thủ tục hành chính.
+                                           Chương II
+                HỒ SƠ, QUY TRÌNH TIẾP NHẬN, GIẢI QUYẾT VÀ TRẢ KẾT QUẢ
+                        THỰC HIỆN LIÊN THÔNG ĐIỆN TỬ THỦ TỤC HÀNH CHÍNH
+                                             Mục 1
+                 THỰC HIỆN LIÊN THÔNG ĐIỆN TỬ NHÓM THỦ TỤC: ĐĂNG KÝ
+                      KHAI SINH, ĐĂNG KÝ THƯỜNG TRÚ, CẤP THẺ BẢO HIỂM Y TẾ
+                                     CHO TRẺ EM DƯỚI 6 TUỔI
+
+                  Điều 5. Hồ sơ thực hiện liên thông các thủ tục hành chính đăng ký khai sinh, đăng ký
+thường trú, cấp thẻ bảo hiểm y tế cho trẻ em dưới 6 tuổi
+                 Hồ sơ thực hiện liên thông điện tử các thủ tục hành chính: Đăng ký khai sinh, đăng ký
+thường trú, cấp thẻ bảo hiểm y tế cho trẻ em dưới 6 tuổi bao gồm các thành phần hồ sơ sau:
+        1. Tờ khai điện tử (Mẫu số 01 kèm theo Nghị định này).
+              2. Dữ liệu điện tử có ký số của Giấy chứng sinh được liên thông từ cơ sở khám bệnh, chữa
+bệnh với Phần mềm dịch vụ công liên thông. Trường hợp không có giấy chứng sinh thì đính kèm các
+thành phần hồ sơ thay thế theo quy định pháp luật về Hộ tịch.
+                 3. Trường hợp đăng ký thường trú cho trẻ em khác nơi thường trú của cha, mẹ (nếu được
+cha, mẹ đồng ý) thì đính kèm các thành phần hồ sơ theo quy định pháp luật về cư trú.
+           Các thành phần hồ sơ trên là bản giấy thì phải thực hiện số hóa theo quy định tại Nghị định
+số 107/2021/NĐ-CP của Chính phủ.
+        Điều 6. Nộp hồ sơ
+            Người yêu cầu truy cập vào Cổng Dịch vụ công quốc gia (tại địa chỉ dichvucong.gov.vn) hoặc
+trên ứng dụng VNeID, lựa chọn mục “Dịch vụ công liên thông khai sinh, khai tử” để thực hiện nộp hồ
+sơ trực tuyến và lệ phí theo quy định.
+        Điều 7. Tiếp nhận hồ sơ và thời hạn giải quyết
+        1. Hệ thống thông tin giải quyết thủ tục hành chính cấp tỉnh tiếp nhận hồ sơ đăng ký khai sinh
+từ Phần mềm dịch vụ công liên thông; thông báo hẹn trả kết quả được Phần mềm dịch vụ công liên
+thông gửi cho người yêu cầu qua Cổng Dịch vụ công quốc gia, ứng dụng VNeID và tin nhắn SMS.
+                2. Thời gian giải quyết nhóm thủ tục hành chính liên thông “Đăng ký khai sinh, đăng ký
+thường trú, cấp thẻ bảo hiểm y tế cho trẻ em dưới 6 tuổi” không quá 03 ngày làm việc kể từ khi các
+cơ quan có thẩm quyền giải quyết nhận đầy đủ hồ sơ theo quy định, trường hợp phải xác minh thì
+không quá 05 ngày làm việc. Nếu tiếp nhận hồ sơ sau 15 giờ thì thời gian được tính bắt đầu từ ngày
+làm việc tiếp theo.
+         3. Trường hợp cơ quan có thẩm quyền giải quyết thủ tục hành chính trễ hẹn thì phải xin lỗi và
+hẹn lại ngày trả kết quả thông qua Phần mềm dịch vụ công liên thông để gửi cho người yêu cầu qua
+Cổng Dịch vụ công quốc gia, ứng dụng VNeID và tin nhắn SMS, trong đó nêu rõ lý do chậm trả kết
+quả và thời gian hẹn lại ngày trả kết quả.
+               4. Việc đồng bộ hồ sơ giữa các hệ thống được thực hiện chậm nhất không quá 10 phút ngay
+sau khi giải quyết xong thủ tục. Cơ quan tiếp nhận thông tin, hồ sơ phải phản hồi trạng thái tiếp nhận
+trong thời gian không quá 2 giờ làm việc kể từ khi nhận được thông tin dữ liệu từ Phần mềm dịch vụ
+công liên thông. Trong trường hợp quá thời gian trên mà chưa nhận được phản hồi thành công thì
+Phần mềm dịch vụ công liên thông gửi cảnh báo cho hệ thống của các bên liên quan để cán bộ kỹ
+thuật thực hiện xử lý ngay trong ngày làm việc.
+              5. Sau khi Phần mềm đăng ký, quản lý hộ tịch điện tử dùng chung của Bộ Tư pháp tiếp nhận
+thành công, Hệ thống thông tin giải quyết thủ tục hành chính cấp tỉnh tiến hành phản hồi trạng thái và
+thông tin của hồ sơ đăng ký khai sinh cho Phần mềm dịch vụ công liên thông.
+                 Điều 8. Giải quyết hồ sơ đăng ký khai sinh, đăng ký thường trú, cấp thẻ bảo hiểm y tế
+cho trẻ em dưới 6 tuổi
+        1. Giải quyết hồ sơ đăng ký khai sinh
+               Sau khi hồ sơ đăng ký khai sinh điện tử được Hệ thống thông tin giải quyết thủ tục hành
+chính cấp tỉnh chuyển tới Phần mềm đăng ký, quản lý hộ tịch điện tử dùng chung của Bộ Tư pháp,
+công chức làm công tác hộ tịch thực hiện nghiệp vụ đăng ký khai sinh trên Phần mềm đăng ký, quản
+lý hộ tịch điện tử dùng chung của Bộ Tư pháp.
+                   a) Trường hợp hồ sơ đầy đủ, đúng quy định: Công chức làm công tác hộ tịch thực hiện
+nghiệp vụ đăng ký khai sinh trên Phần mềm đăng ký, quản lý hộ tịch điện tử dùng chung của Bộ Tư
+pháp. Thời gian giải quyết đăng ký khai sinh ngay trong ngày làm việc kể từ khi Phần mềm đăng ký,
+quản lý hộ tịch điện tử dùng chung của Bộ Tư pháp nhận đủ hồ sơ.
+            Sau khi có kết quả đăng ký khai sinh, Phần mềm đăng ký, quản lý hộ tịch điện tử dùng chung
+của Bộ Tư pháp tự động chuyển bản điện tử Giấy khai sinh đến Hệ thống thông tin giải quyết thủ tục
+
+hành chính cấp tỉnh để đồng bộ với Phần mềm dịch vụ công liên thông hoàn thiện hồ sơ điện tử của
+các thủ tục hành chính tiếp theo và gửi kết quả cho người yêu cầu.
+                  b) Trường hợp hồ sơ không đầy đủ, đúng quy định: Công chức làm công tác hộ tịch thực
+hiện thao tác trên Phần mềm đăng ký, quản lý hộ tịch điện tử dùng chung của Bộ Tư pháp gửi thông
+tin trạng thái hồ sơ đến Phần mềm dịch vụ công liên thông qua Hệ thống thông tin giải quyết thủ tục
+hành chính cấp tỉnh để thông báo cho người yêu cầu qua Cổng Dịch vụ công quốc gia, ứng dụng
+VNeID và tin nhắn SMS, trong đó nêu rõ lý do đối với các trường hợp hồ sơ không được tiếp nhận,
+các thành phần hồ sơ cần bổ sung trong thời gian không quá 01 ngày làm việc kể từ khi nhận được
+hồ sơ điện tử trên hệ thống.
+                Trường hợp cần bổ sung thành phần hồ sơ thì người yêu cầu có trách nhiệm hoàn thiện hồ
+sơ trong 07 ngày làm việc, nếu quá thời hạn này không bổ sung được thì hồ sơ bị từ chối.
+        c) Việc liên thông điện tử giữa Cơ sở dữ liệu hộ tịch điện tử và Cơ sở dữ liệu quốc gia về dân
+cư để kết nối, chia sẻ dữ liệu phục vụ thao tác nghiệp vụ, cấp số định danh cá nhân, thực hiện trên
+các hệ thống, phần mềm nghiệp vụ của Bộ Tư pháp, Bộ Công an.
+              Trong quá trình thực hiện có vướng mắc phát sinh liên quan đến cấp số định danh cá nhân,
+công chức làm công tác hộ tịch cập nhật vướng mắc trên Phần mềm đăng ký, quản lý hộ tịch điện tử
+dùng chung của Bộ Tư pháp. Bộ Công an chủ trì, phối hợp với Bộ Tư Pháp, Bộ Thông tin và Truyền
+thông kiểm tra, xử lý và trả kết quả xử lý trong thời gian không quá 01 ngày làm việc kể từ ngày tiếp
+nhận các vướng mắc từ Bộ Tư pháp.
+        2. Giải quyết hồ sơ đăng ký thường trú
+                Sau khi Phần mềm đăng ký, quản lý hộ tịch điện tử dụng chung của Bộ Tư pháp chuyển bản
+điện tử Giấy khai sinh sang Phần mềm dịch vụ công liên thông thông qua Hệ thống thông tin giải
+quyết thủ tục hành chính cấp tỉnh, Phần mềm dịch vụ công liên thông phân tách, chuyển hồ sơ điện
+tử (bao gồm biểu mẫu, tờ khai người yêu cầu đã kê khai, bản điện tử Giấy khai sinh) đến Hệ thống
+thông tin quản lý cư trú để thực hiện đăng ký thường trú.
+                 Các thông tin xác nhận đồng ý của chủ hộ, chủ sở hữu chỗ ở hợp pháp, của cha, mẹ hoặc
+người giám hộ được thực hiện qua ứng dụng VNeID hoặc qua quy trình nghiệp vụ của ngành công
+an. Thời hạn xác nhận qua ứng dụng VNeID không quá 05 ngày làm việc.
+                a) Trường hợp hồ sơ đầy đủ, đúng quy định: Cán bộ công an thực hiện các nghiệp vụ đăng
+ký thường trú trên Hệ thống thông tin quản lý cư trú của ngành công an. Thời gian giải quyết đăng ký
+thường trú không quá 02 ngày làm việc kể từ ngày nhận được hồ sơ điện tử từ Phần mềm dịch vụ
+công liên thông đối với trường hợp: con về với cha, mẹ và cha, mẹ là chủ hộ, đồng thời là chủ sở hữu
+chỗ ở hợp pháp; con về với cha, mẹ nhưng cha, mẹ không phải là chủ sở hữu chỗ ở hợp pháp. Đối
+với các trường hợp khác yêu cầu phải xác minh theo quy định của Luật Cư trú thì thời hạn giải quyết
+không quá 05 ngày làm việc kể từ ngày nhận được hồ sơ điện tử, thông tin xác nhận qua ứng dụng
+VNeID.
+                  b) Trường hợp hồ sơ không đầy đủ, chưa đúng quy định: Cơ quan đăng ký quản lý cư trú
+thực hiện thông báo cho người yêu cầu qua Cổng Dịch vụ công quốc gia, ứng dụng VNeID và tin
+nhắn SMS, trong đó nêu rõ lý do đối với các trường hợp hồ sơ không được tiếp nhận, các thành phần
+hồ sơ cần bổ sung trong thời gian không quá 01 ngày làm việc kể từ khi nhận được hồ sơ điện tử
+trên hệ thống.
+        3. Giải quyết hồ sơ cấp thẻ bảo hiểm y tế cho trẻ em dưới 6 tuổi
+            Sau khi hoàn tất thủ tục đăng ký khai sinh, Phần mềm đăng ký, quản lý hộ tịch điện tử dùng
+chung của Bộ Tư pháp chuyển bản điện tử Giấy khai sinh sang Phần mềm dịch vụ công liên thông
+thông qua Hệ thống thông tin giải quyết thủ tục hành chính cấp tỉnh, Phần mềm dịch vụ công liên
+thông thông phân tách, chuyển hồ sơ điện tử (bao gồm biểu mẫu, tờ khai người yêu cầu đã kê khai
+và bản điện tử Giấy khai sinh) đến Hệ thống thông tin ngành Bảo hiểm xã hội để thực hiện cấp thẻ
+bảo hiểm y tế cho trẻ em dưới 6 tuổi.
+               a) Trường hợp hồ sơ đầy đủ, đúng quy định: Cơ quan Bảo hiểm xã hội thực hiện các nghiệp
+vụ cấp thẻ bảo hiểm y tế cho trẻ em dưới 6 tuổi trên Hệ thống thông tin của ngành Bảo hiểm xã hội.
+Thời gian giải quyết cấp thẻ bảo hiểm y tế cho trẻ em dưới 6 tuổi không quá 02 ngày làm việc, kể từ
+ngày nhận được hồ sơ điện tử từ Phần mềm dịch vụ công liên thông.
+
+             b) Trường hợp hồ sơ không đầy đủ, chưa đúng quy định: Cơ quan Bảo hiểm xã hội gửi thông
+báo từ Hệ thống thông tin của ngành Bảo hiểm xã hội đến Phần mềm dịch vụ công liên thông để gửi
+cho người yêu cầu qua Cổng Dịch vụ công quốc gia, ứng dụng VNeID và tin nhắn SMS, trong đó nêu
+rõ lý do đối với các trường hợp hồ sơ không được tiếp nhận, các thành phần hồ sơ cần bổ sung trong
+thời gian không quá 01 ngày làm việc kể từ khi nhận được hồ sơ điện tử trên hệ thống.
+         4. Trường hợp xác định có sai sót trong bản điện tử Giấy khai sinh, Hệ thống thông tin quản
+lý cư trú, Hệ thống thông tin của ngành Bảo hiểm xã hội trả lại hồ sơ cho Phần mềm dịch vụ công liên
+thông; Phần mềm dịch vụ công liên thông gửi thông báo thông qua Hệ thống thông tin giải quyết thủ
+tục hành chính cấp tỉnh để cơ quan cấp Giấy khai sinh chỉnh sửa, xử lý theo quy định và thông báo
+cho người yêu cầu.
+        Điều 9. Trả kết quả
+        1. Trả kết quả điện tử
+               Bản điện tử Giấy khai sinh, Thẻ bảo hiểm y tế và Thông báo kết quả giải quyết đăng ký
+thường trú được các hệ thống tự động gửi đến người yêu cầu qua kho quản lý dữ liệu điện tử của tổ
+chức, cá nhân trên Cổng Dịch vụ công quốc gia, ứng dụng VNeID và Hệ thống thông tin giải quyết
+thủ tục hành chính cấp bộ, cấp tỉnh.
+        2. Trả kết quả bản giấy
+        a) Bản giấy của Giấy khai sinh được trả tại Bộ phận Một cửa cơ quan có thẩm quyền đăng ký
+khai sinh theo quy định pháp luật về hộ tịch.
+        b) Bản giấy của Thông báo kết quả giải quyết đăng ký thường trú, thẻ Bảo hiểm y tế được trả
+tại Bộ phận Một cửa nơi giải quyết hồ sơ đăng ký khai sinh hoặc tại Bộ phận Một cửa của các cơ
+quan giải quyết thủ tục hành chính hoặc qua dịch vụ bưu chính công ích theo đề nghị của người yêu
+cầu.
+        Người yêu cầu có nhu cầu nhận kết quả qua dịch vụ bưu chính công ích, cơ quan giải quyết
+thủ tục hành chính có trách nhiệm trả kết quả cho người yêu cầu theo quy định pháp luật về trả kết
+quả giải quyết thủ tục hành chính qua dịch vụ bưu chính công ích.
+        c) Cán bộ Bộ phận Một cửa căn cứ theo đề nghị của người yêu cầu trên Hệ thống thông tin
+giải quyết thủ tục hành chính cấp tỉnh, trả kết quả giải quyết thủ tục hành chính bản giấy, bản sao,
+trích lục (nếu có) cho người yêu cầu theo quy định.
+        3. Người yêu cầu thực hiện thanh toán phí, lệ phí (nếu có) của hồ sơ đăng ký khai sinh theo
+thông báo trên Cổng dịch vụ công quốc gia hoặc ứng dụng VNeID hoặc Hệ thống thông tin giải quyết
+thủ tục hành chính cấp tỉnh hoặc thanh toán trực tiếp tại Bộ phận một cửa.
+                                              Mục 2
+                     THỰC HIỆN LIÊN THÔNG NHÓM THỦ TỤC: ĐĂNG KÝ KHAI TỬ, XÓA
+                       ĐĂNG KÝ THƯỜNG TRÚ, GIẢI QUYẾT MAI TÁNG PHÍ, TỬ TUẤT
+        Điều 10. Hồ sơ thực hiện liên thông các thủ tục hành chính đăng ký khai tử, xóa đăng
+ký thường trú, giải quyết mai táng phí, tử tuất do cơ quan bảo hiểm xã hội giải quyết
+        1. Hồ sơ thực hiện liên thông các thủ tục hành chính đăng ký khai tử, xóa đăng ký thường
+trú, giải quyết mai táng phí bao gồm các thành phần sau:
+        a) Tờ khai điện tử (theo Mẫu số 02 ban hành kèm theo Nghị định này).
+        b) Dữ liệu điện tử có ký số của Giấy báo tử được chia sẻ tự động từ cơ sở khám chữa bệnh
+với Phần mềm dịch vụ công liên thông.
+        Trường hợp không có Giấy báo tử thì nộp các giấy tờ thay thế theo quy định pháp luật về hộ
+tịch.
+        2. Hồ sơ thực hiện liên thông các thủ tục hành chính đăng ký khai tử, xóa đăng ký thường
+trú, giải quyết trợ cấp mai táng, trợ cấp tuất một lần bao gồm các thành phần sau:
+        a) Tờ khai điện tử (theo Mẫu số 02 ban hành kèm theo Nghị định này).
+        b) Dữ liệu điện tử có ký số của Giấy báo tử được chia sẻ tự động từ cơ sở khám chữa bệnh
+với Phần mềm dịch vụ công liên thông.
+
+          Trường hợp không có Giấy báo tử thì nộp các giấy tờ thay thế theo quy định pháp luật về hộ
+tịch.
+          c) Thông tin xác nhận của các thân nhân đồng ý cử người đại diện nhận trợ cấp tuất một lần
+được thực hiện qua ứng dụng VNeID hoặc đính kèm Tờ khai điện tử về việc cử người đại diện nhận
+trợ cấp tuất một lần theo hướng dẫn của Bảo hiểm xã hội Việt Nam. Thời hạn xác nhận qua ứng
+dụng VNeID không quá 05 ngày làm việc.
+            3. Hồ sơ thực hiện liên thông các thủ tục hành chính đăng ký khai tử, xóa đăng ký thường
+trú, giải quyết trợ cấp mai táng, trợ cấp tuất hằng tháng bao gồm các thành phần sau:
+        a) Tờ khai điện tử (theo Mẫu số 02 ban hành kèm theo Nghị định này).
+            b) Dữ liệu điện tử có ký số của Giấy báo tử được chia sẻ tự động từ cơ sở khám chữa bệnh
+với Phần mềm dịch vụ công liên thông.
+          Trường hợp không có Giấy báo tử thì nộp các giấy tờ thay thế theo quy định pháp luật về hộ
+tịch.
+            c) Trường hợp thân nhân là con từ đủ 18 tuổi trở lên hoặc vợ dưới 55 tuổi, chồng dưới 60
+tuổi hoặc cha đẻ, mẹ đẻ của vợ hoặc cha đẻ, mẹ đẻ của chồng, mẹ đẻ của vợ hoặc mẹ đẻ của
+chồng, thành viên khác trong gia đình mà người tham gia bảo hiểm xã hội đang có nghĩa vụ nuôi
+dưỡng theo quy định của pháp luật về hôn nhân và gia đình nếu dưới 60 tuổi đối với nam, dưới 55
+tuổi đối với nữ nếu không có thu nhập hằng tháng hoặc có thu nhập hằng tháng nhưng thấp hơn mức
+lương cơ sở và bị suy giảm khả năng lao động từ 81% trở lên thì đính kèm các thành phần hồ sơ
+sau:
+             i) Bản điện tử Biên bản giám định mức suy giảm khả năng lao động của Hội đồng Giám định
+y khoa đối với thân nhân bị suy giảm khả năng lao động từ 81% trở lên hoặc biên bản Giám định y
+khoa để hưởng các chính sách khác trước đó mà đủ điều kiện hưởng hoặc Giấy xác nhận khuyết tật
+mức độ đặc biệt nặng tương đương mức suy giảm khả năng lao động từ 81% trở lên.
+         ii) Hóa đơn, chứng từ thu phí giám định, bảng kê các nội dung giám định của cơ sở thực hiện
+Giám định y khoa trong trường hợp thanh toán phí Giám định y khoa.
+        Trường hợp các thành phần hồ sơ trên là bản giấy thì phải thực hiện số hóa theo quy định tại
+Nghị định số 107/2021/NĐ-CP của Chính phủ.
+                Điều 11. Hồ sơ thực hiện liên thông các thủ tục hành chính đăng ký khai tử, xóa đăng
+ký thường trú, giải quyết mai táng phí, tử tuất do cơ quan lao động, thương binh và xã hội giải
+quyết
+        1. Hồ sơ thực hiện liên thông các thủ tục hành chính đăng ký khai tử, xóa đăng ký thường
+trú, giải quyết trợ cấp mai táng bao gồm các thành phần sau:
+        a) Tờ khai điện tử (theo Mẫu số 02 ban hành kèm theo Nghị định này).
+            b) Dữ liệu điện tử có ký số của Giấy báo tử được chia sẻ tự động từ cơ sở khám chữa bệnh
+với Phần mềm dịch vụ công liên thông.
+          Trường hợp không có Giấy báo tử thì nộp các giấy tờ thay thế theo quy định pháp luật về hộ
+tịch.
+        2. Hồ sơ thực hiện liên thông các thủ tục hành chính đăng ký khai tử, xóa đăng ký thường
+trú, hỗ trợ chi phí mai táng cho đối tượng bảo trợ xã hội bao gồm các thành phần sau:
+        a) Tờ khai điện tử (theo Mẫu số 02 ban hành kèm theo Nghị định này).
+            b) Dữ liệu điện tử có ký số của Giấy báo tử được chia sẻ tự động từ cơ sở khám chữa bệnh
+với Phần mềm dịch vụ công liên thông.
+          Trường hợp không có Giấy báo tử thì nộp các giấy tờ thay thế theo quy định pháp luật về hộ
+tịch.
+            c) Trường hợp người từ đủ 80 tuổi trở lên đang hưởng trợ cấp tuất hằng tháng chết thì bổ
+sung bản điện tử Quyết định thôi hưởng trợ cấp tuất hằng tháng. Bản điện tử này do Hệ thống thông
+tin của Bảo hiểm xã hội chuyển đến Phần mềm dịch vụ công liên thông.
+        3. Hồ sơ thực hiện liên thông các thủ tục hành chính đăng ký khai tử, xóa đăng ký thường
+trú, giải quyết trợ cấp mai táng, trợ cấp tuất một lần bao gồm các thành phần sau:
+
+        a) Tờ khai điện tử (theo Mẫu số 02 ban hành kèm theo Nghị định này).
+             b) Dữ liệu điện tử có ký số của Giấy báo tử được chia sẻ tự động từ cơ sở khám chữa bệnh
+với Phần mềm dịch vụ công liên thông.
+           Trường hợp không có Giấy báo tử thì nộp các giấy tờ thay thế theo quy định pháp luật về hộ
+tịch.
+           c) Thông tin xác nhận của các thân nhân đồng ý cử người đại diện nhận trợ cấp tuất một lần
+được thực hiện qua ứng dụng VNeID hoặc đính kèm bản điện tử văn bản thống nhất cử người đại
+diện nhận trợ cấp tuất một lần theo quy định. Thời hạn xác nhận qua ứng dụng VNeID không quá 05
+ngày làm việc.
+             4. Hồ sơ thực hiện liên thông các thủ tục hành chính đăng ký khai tử, xóa đăng ký thường
+trú, giải quyết trợ cấp mai táng, trợ cấp tuất hằng tháng bao gồm các thành phần sau:
+        a) Tờ khai điện tử (theo Mẫu số 02 ban hành kèm theo Nghị định này).
+             b) Dữ liệu điện tử có ký số của Giấy báo tử được chia sẻ tự động từ cơ sở khám chữa bệnh
+với Phần mềm dịch vụ công liên thông.
+           Trường hợp không có Giấy báo tử thì nộp các giấy tờ thay thế theo quy định pháp luật về hộ
+tịch.
+               c) Thông tin xác nhận của các thân nhân đồng thuận xác nhận người có công nuôi liệt sĩ
+được thực hiện qua ứng dụng VNeID hoặc đính kèm bản điện tử văn bản đồng thuận của các thân
+nhân xác nhận là người có công nuôi liệt sĩ. Thời hạn xác nhận qua ứng dụng VNeID không quá 05
+ngày làm việc.
+            d) Trường hợp thân nhân là con từ đủ 18 tuổi trở lên đang đi học thì đính kèm bản điện tử
+giấy xác nhận của cơ sở giáo dục nơi đang theo học hoặc bản điện tử Bằng tốt nghiệp trung học phổ
+thông nếu đang theo học tại cơ sở giáo dục nghề nghiệp hoặc giáo dục đại học hoặc giấy xác nhận
+của cơ sở giáo dục trung học phổ thông về thời điểm kết thúc học.
+              đ) Trường hợp thân nhân sống độc thân và không còn thân nhân hoặc mồ côi cả cha lẫn mẹ,
+Ủy ban nhân dân cấp xã có trách nhiệm hoàn thiện giấy xác nhận sống độc thân và không còn thân
+nhân hoặc mồ côi cả cha lẫn mẹ.
+        e) Trường hợp thân nhân là con người có công với cách mạng từ đủ 18 tuổi trở lên bị khuyết
+tật nặng hoặc đặc biệt nặng sau khi đủ 18 tuổi mà không có thu nhập hằng tháng hoặc có thu nhập
+hằng tháng nhưng thấp hơn 0,6 lần mức chuẩn thì đính kèm giấy xác nhận khuyết tật theo quy định
+của Luật Người khuyết tật và giấy xác nhận thu nhập theo quy định hiện hành. Trường hợp con từ đủ
+18 tuổi trở lên bị khuyết tật nặng, khuyết tật đặc biệt nặng từ nhỏ thì đính kèm giấy xác nhận khuyết
+tật theo quy định của Luật Người khuyết tật.
+         Trường hợp các thành phần hồ sơ trên là bản giấy thì phải thực hiện số hóa theo quy định tại
+Nghị định số 107/2021/NĐ-CP của Chính phủ.
+        Điều 12. Nộp hồ sơ
+           Người yêu cầu truy cập vào Cổng Dịch vụ công quốc gia (tại địa chỉ dichvucong.gov.vn) hoặc
+trên ứng dụng VNeID, lựa chọn mục “Dịch vụ công liên thông khai sinh, khai tử” để thực hiện nộp hồ
+sơ trực tuyến và lệ phí theo quy định.
+            Trường hợp người yêu cầu chỉ lựa chọn thực hiện liên thông 02 thủ tục hành chính (Đăng ký
+khai tử, xóa đăng ký thường trú); hoặc 03 thủ tục hành chính (Đăng ký khai tử, xóa đăng ký thường
+trú, giải quyết mai táng phí); hoặc 04 thủ tục hành chính (Đăng ký khai tử, xóa đăng ký thường trú,
+giải quyết mai táng phí, tử tuất), Phần mềm dịch vụ công liên thông sẽ điều chỉnh nội dung tờ khai
+điện tử và giấy tờ phải đính kèm theo nội dung liên thông mà người yêu cầu đã lựa chọn để người
+yêu cầu thực hiện nộp hồ sơ trực tuyến theo quy định.
+        Điều 13. Tiếp nhận hồ sơ và thời hạn giải quyết
+         1. Hệ thống thông tin giải quyết thủ tục hành chính cấp tỉnh tiếp nhận hồ sơ đăng ký khai tử
+từ Phần mềm dịch vụ công liên thông; thông báo hẹn trả kết quả được Phần mềm dịch vụ công liên
+thông gửi cho người yêu cầu qua Cổng Dịch vụ công quốc gia, ứng dụng VNeID và tin nhắn SMS.
+             2. Thời gian giải quyết nhóm thủ tục hành chính liên thông “Đăng ký khai tử, xóa đăng ký
+thường trú, giải quyết mai táng phí, tử tuất”:
+
+             a) Giải quyết trợ cấp mai táng, tử tuất đối với nhóm Người có công: không quá 18 ngày làm
+việc.
+        b) Giải quyết hỗ trợ chi phí mai táng đối với nhóm đối; tượng Bảo trợ xã hội: không quá 06
+ngày làm việc.
+           Không quá 11 ngày làm việc đối với trường hợp đối tượng là người từ đủ 80 tuổi trở lên đang
+hưởng trợ cấp tuất hằng tháng.
+           c) Trợ cấp mai táng, trợ cấp tử tuất đối với đối tượng do ngành Bảo hiểm xã hội giải quyết:
+không quá 09 ngày làm việc.
+          Trường hợp nhận hồ sơ sau 15 giờ thì thời gian được tính bắt đầu từ ngày làm việc tiếp theo.
+         3. Trường hợp cơ quan có thẩm quyền giải quyết thủ tục hành chính trễ hẹn thì phải xin lỗi và
+hẹn lại ngày trả kết quả, trong đó nêu rõ lý do chậm trả kết quả và thời gian hẹn lại ngày trả kết quả
+qua Cổng Dịch vụ công quốc gia, ứng dụng VNeID và tin nhắn SMS cho người yêu cầu.
+               4. Việc đồng bộ hồ sơ giữa các hệ thống được thực hiện chậm nhất không quá 10 phút ngay
+sau khi giải quyết xong thủ tục. Cơ quan tiếp nhận thông tin, hồ sơ phải phản hồi trạng thái tiếp nhận
+trong thời gian không quá 2 giờ làm việc kể từ khi nhận được thông tin dữ liệu từ Phần mềm dịch vụ
+công liên thông. Trong trường hợp quá thời gian trên mà chưa nhận được phản hồi thành công thì
+Phần mềm dịch vụ công liên thông gửi cảnh báo cho hệ thống của các bên liên quan để cán bộ kỹ
+thuật thực hiện xử lý ngay trong ngày làm việc.
+              5. Sau khi Phần mềm đăng ký, quản lý hộ tịch điện tử dùng chung của Bộ Tư pháp tiếp nhận
+thành công, Hệ thống thông tin giải quyết thủ tục hành chính cấp tỉnh tiến hành phản hồi trạng thái và
+thông tin của hồ sơ đăng ký khai tử cho Phần mềm dịch vụ công liên thông.
+                Điều 14. Giải quyết hồ sơ đăng ký khai tử, xóa đăng ký thường trú, giải quyết mai táng
+phí, tử tuất
+        1. Giải quyết hồ sơ đăng ký khai tử
+               Sau khi hồ sơ đăng ký khai tử điện tử được chuyển tới Phần mềm đăng ký, quản lý hộ tịch
+điện tử dùng chung của Bộ Tư pháp, công chức làm công tác hộ tịch thực hiện các nghiệp vụ đăng ký
+khai tử trên Phần mềm đăng ký, quản lý hộ tịch điện tử dùng chung của Bộ Tư pháp.
+               a) Trường hợp hồ sơ đầy đủ, đúng quy định: Công chức làm công tác hộ tịch thực hiện các
+nghiệp vụ đăng ký khai tử trên Phần mềm đăng ký, quản lý hộ tịch điện tử dùng chung của Bộ Tư
+pháp. Thời gian giải quyết đăng ký khai tử ngay trong ngày làm việc kể từ khi Phần mềm đăng ký,
+quản lý hộ tịch điện tử dùng chung của Bộ Tư pháp nhận đủ hồ sơ. Trường hợp cần xác minh thì thời
+hạn giải quyết không quá 03 ngày làm việc.
+              Sau khi có kết quả đăng ký khai tử, Phần mềm đăng ký, quản lý hộ tịch điện tử dùng chung
+của Bộ Tư pháp tự động chuyển bản điện tử Trích lục khai tử đến Hệ thống thông tin giải quyết thủ
+tục hành chính cấp tỉnh để đồng bộ với Phần mềm dịch vụ công liên thông để hoàn thiện hồ sơ điện
+tử của các thủ tục hành chính tiếp theo và gửi kết quả cho người yêu cầu.
+                  b) Trường hợp hồ sơ không đầy đủ, chưa đúng quy định: Công chức làm công tác hộ tịch
+thực hiện thao tác trên Phần mềm đăng ký, quản lý hộ tịch điện tử dùng chung của Bộ Tư pháp;
+thông tin trạng thái hồ sơ được gửi đến Phần mềm dịch vụ công liên thông qua hệ thống thông tin giải
+quyết thủ tục hành chính cấp tỉnh để thông báo cho người yêu cầu qua Cổng Dịch vụ công quốc gia,
+ứng dụng VNeID và tin nhắn SMS, trong đó nêu rõ lý do đối với các trường hợp hồ sơ không được
+tiếp nhận, các thành phần hồ sơ cần bổ sung trong thời gian không quá 01 ngày làm việc kể từ khi
+nhận được hồ sơ điện tử trên hệ thống.
+                Trường hợp cần bổ sung thành phần hồ sơ thì người yêu cầu có trách nhiệm hoàn thiện hồ
+sơ trong 07 ngày làm việc, nếu quá thời hạn này không bổ sung được thì hồ sơ bị từ chối.
+        2. Giải quyết hồ sơ xóa đăng ký thường trú
+        Sau khi bản điện tử Trích lục khai tử được cấp, Phần mềm đăng ký, quản lý hộ tịch điện tử
+dùng chung của Bộ Tư pháp tự động chuyển bản điện tử Trích lục khai tử đến Phần mềm dịch vụ
+công liên thông thông qua Hệ thống thông tin giải quyết thủ tục hành chính cấp tỉnh, Phần mềm dịch
+vụ công liên thông hoàn thiện hồ sơ điện tử (bao gồm biểu mẫu, tờ khai mà người yêu cầu đã kê
+khai, bản điện tử Trích lục khai tử và các thành phần hồ sơ liên quan (nếu có)) gửi đến Hệ thống
+thông tin quản lý cư trú để thực hiện xóa đăng ký thường trú.
+
+             a) Trường hợp hồ sơ đầy đủ, đúng quy định: Hệ thống thông tin quản lý cư trú tự động ghi
+        nhận thông tin ngày chết của công dân trong dữ liệu dân cư đồng thời gửi yêu cầu xác nhận xóa
+      đăng ký thường trú đến cơ quan Công an nơi công dân đăng ký thường trú ngay trong ngày làm việc
+để hoàn thiện xoá đăng ký thường trú theo quy định của pháp luật.
+                 b) Trường hợp hồ sơ không đầy đủ, chưa đúng quy định: Cơ quan đăng ký quản lý cư trú
+          thực hiện thông báo cho người yêu cầu qua Cổng Dịch vụ công quốc gia, ứng dụng VNeID và tin
+    nhắn SMS, trong đó nêu rõ lý do đối với các trường hợp hồ sơ không được tiếp nhận, các thành phần
+       hồ sơ cần bổ sung trong thời gian không quá 01 ngày làm việc kể từ khi nhận được hồ sơ điện tử
+trên hệ thống.
+        3. Giải quyết hồ sơ mai táng phí, tử tuất
+            Sau khi bản điện tử Trích lục khai tử được cấp, Phần mềm đăng ký, quản lý hộ tịch điện tử
+          dùng chung của Bộ Tư pháp tự động chuyển bản điện tử Trích lục khai tử đến Phần mềm dịch vụ
+   công liên thông thông qua Hệ thống thông tin giải quyết thủ tục hành chính cấp tỉnh, Phần mềm dịch
+      vụ công liên thông chuyển hồ sơ điện tử (bao gồm biểu mẫu, tờ khai mà người yêu cầu đã kê khai,
+    bản điện tử Trích lục khai tử và các thành phần hồ sơ liên quan) đến Hệ thống thông tin của ngành
+       Bảo hiểm xã hội hoặc ngành Lao động - Thương binh và Xã hội để thực hiện giải quyết chế độ mai
+táng phí, tử tuất.
+           Trường hợp đối tượng là người từ đủ 80 tuổi trở lên đang hưởng trợ cấp tuất hằng tháng, Hệ
+     thống phần mềm dịch vụ công liên thông tự động chuyển hồ sơ của đối tượng đến Hệ thống thông tin
+       của ngành Bảo hiểm xã hội. Sau hai (02) ngày làm việc, kể từ ngày nhận được hồ sơ, cơ quan Bảo
+     hiểm xã hội có trách nhiệm giải quyết và chuyển quyết định thôi hưởng trợ cấp tuất hằng tháng về
+         Phần mềm dịch vụ công liên thông để chuyển hồ sơ sang hệ thống thông tin của ngành Lao động,
+thương binh và xã hội giải quyết chi trả chế độ mai táng.
+        a) Trường hợp hồ sơ đầy đủ, đúng quy định:
+             Cơ quan Bảo hiểm xã hội hoặc cơ quan Lao động, thương binh và xã hội thực hiện nghiệp vụ
+giải quyết chế độ mai táng phí, tử tuất theo quy định.
+             Thời hạn giải quyết trợ cấp mai táng, trợ cấp tuất do cơ quan Bảo hiểm xã hội giải quyết
+      không quá 08 ngày làm việc; giải quyết thôi hưởng trợ cấp tuất hằng tháng không quá 02 ngày làm
+việc kể từ ngày nhận được hồ sơ điện tử từ Phần mềm dịch vụ công liên thông.
+          Thời hạn giải quyết hỗ trợ chi phí mai táng do cơ quan lao động, thương binh và xã hội giải
+         quyết không quá 05 ngày làm việc kể từ ngày nhận được hồ sơ điện tử từ Phần mềm dịch vụ công
+liên thông.
+        Thời hạn do cơ quan lao động, thương binh và xã hội giải quyết trợ cấp mai táng, trợ cấp tuất
+          đối với người có công không quá 17 ngày làm việc kể từ ngày nhận được hồ sơ điện tử từ Phần
+mềm dịch vụ công liên thông;
+                b) Trường hợp hồ sơ không đầy đủ, chưa đúng quy định: Cơ quan Bảo hiểm xã hội hoặc cơ
+          quan Lao động, thương binh và xã hội thực hiện thông báo cho người yêu cầu qua Cổng Dịch vụ
+    công quốc gia, ứng dụng VNeID và tin nhắn SMS, trong đó nêu rõ lý do đối với các trường hợp hồ sơ
+         không được tiếp nhận, các thành phần hồ sơ cần bổ sung trong thời gian không quá 01 ngày làm
+việc kể từ khi nhận được hồ sơ điện tử trên hệ thống.
+               Trường hợp cần bổ sung thành phần hồ sơ thì người yêu cầu có trách nhiệm hoàn thiện hồ
+sơ trong 07 ngày làm việc, nếu quá thời hạn này không bổ sung được thì hồ sơ bị từ chối.
+            4. Trường hợp xác định có sai sót trong bản điện tử Trích lục khai tử, Hệ thống thông tin
+      quản lý cư trú, Hệ thống thông tin của ngành Bảo hiểm xã hội trả lại hồ sơ cho Phần mềm dịch vụ
+    công liên thông; Phần mềm dịch vụ công liên thông gửi thông báo thông qua Hệ thống thông tin giải
+ quyết thủ tục hành chính cấp tỉnh để cơ quan cấp Trích lục khai tử chỉnh sửa, xử lý theo quy định và
+thông báo cho người yêu cầu.
+        Điều 15. Trả kết quả
+        1. Trả kết quả điện tử
+          Bản điện tử Trích lục khai tử, Thông báo kết quả giải quyết xóa đăng ký thường trú, trợ cấp
+    mai táng, tử tuất và Quyết định hưởng trợ cấp mai táng, Quyết định hưởng trợ cấp tuất được các hệ
+   thống tự động gửi đến người yêu cầu tại kho quản lý dữ liệu điện tử của tổ chức, cá nhân trên Cổng
+
+dịch vụ công quốc gia, ứng dụng VNeID và Hệ thống thông tin giải quyết thủ tục hành chính cấp bộ,
+cấp tỉnh.
+       2. Trả kết quả bản giấy
+              a) Bản giấy của Trích lục khai tử được trả tại Bộ phận Một cửa cơ quan có thẩm quyền đăng
+ký khai tử theo quy định pháp luật về hộ tịch.
+              b) Bản giấy Thông báo kết quả giải quyết xóa đăng ký thường trú, Quyết định hưởng trợ cấp
+mai táng, Quyết định hưởng trợ cấp tuất được trả tại Bộ phận Một cửa cơ quan có thẩm quyền đăng
+ký khai tử hoặc tại Bộ phận Một cửa của các cơ quan giải quyết thủ tục hành chính hoặc qua dịch vụ
+bưu chính công ích theo đề nghị của người yêu cầu.
+              Cán bộ Bộ phận Một cửa căn cứ theo đề nghị của người yêu cầu trên Hệ thống thông tin giải
+quyết thủ tục hành chính cấp tỉnh, trả kết quả giải quyết thủ tục hành chính bản giấy và bản sao, trích
+lục (nếu có) cho người yêu cầu theo quy định.
+               c) Người yêu cầu có nhu cầu nhận kết quả qua dịch vụ bưu chính công ích, cơ quan cấp kết
+quả giải quyết thủ tục hành chính có trách nhiệm trả kết quả cho người yêu cầu theo quy định pháp
+luật về trả kết quả giải quyết thủ tục hành chính qua dịch vụ bưu chính công ích.
+       3. Người yêu cầu thực hiện thanh toán phí, lệ phí (nếu có) của hồ sơ đăng ký khai tử theo
+thông báo trên Cổng dịch vụ công quốc gia hoặc ứng dụng VNeID hoặc Hệ thống thông tin giải quyết
+thủ tục hành chính cấp tỉnh hoặc thanh toán trực tiếp tại Bộ phận một cửa.
+                                           Chương III
+                      TRÁCH NHIỆM THỰC HIỆN LIÊN THÔNG THỦ TỤC HÀNH CHÍNH
+       Điều 16. Trách nhiệm cơ quan cung cấp thủ tục hành chính liên thông
+             1. Hoàn thiện cơ sở hạ tầng thông tin để sẵn sàng kết nối, chia sẻ dữ liệu bảo đảm kết nối
+thông suốt giữa Hệ thống thông tin, phần mềm nghiệp vụ của các bộ, cơ quan với Phần mềm dịch vụ
+công liên thông và ngược lại.
+             2. Xây dựng và hoàn thiện các tài liệu hướng dẫn người yêu cầu nộp hồ sơ thực hiện thủ tục
+hành chính.
+          3. Đồng bộ các trạng thái tiếp nhận, xử lý hồ sơ và kết quả giải quyết thủ tục hành chính với
+Phần mềm dịch vụ công liên thông và Hệ thống thông tin giải quyết thủ tục hành chính của cấp tỉnh.
+              4. Bảo đảm an toàn thông tin mạng, an ninh mạng, bảo vệ thông tin cá nhân, bảo vệ dữ liệu
+cá nhân và quy định khác của pháp luật có liên quan.
+       Điều 17. Trách nhiệm cơ quan thực hiện liên thông thủ tục hành chính
+          1. Bảo đảm các điều kiện về nhân sự, trang thiết bị làm việc, hạ tầng công nghệ thông tin cần
+thiết, bảo đảm an toàn thông tin, an ninh mạng, đường truyền để thực hiện kết nối Hệ thống thông tin
+giải quyết thủ tục hành chính cấp bộ, cấp tỉnh với Phần mềm dịch vụ công liên thông, phần mềm
+nghiệp vụ các bộ, ngành nhằm giải quyết thủ tục hành chính liên thông có hiệu quả.
+       2. Thực hiện số hóa hồ sơ, kết quả giải quyết thủ tục hành chính đúng quy định pháp luật.
+             3. Khai thác, sử dụng thông tin về cư trú của công dân trong Cơ sở dữ liệu quốc gia về dân
+cư để giải quyết thủ tục hành chính, cung cấp dịch vụ công thực hiện theo quy định tại Nghị định số
+104/2022/NĐ-CP ngày 21 tháng 12 năm 2022 của Chính phủ về sửa đổi, bổ sung một số điều của
+các nghị định liên quan đến việc nộp, xuất trình sổ hộ khẩu, sổ tạm trú giấy khi thực hiện thủ tục hành
+chính, cung cấp dịch vụ công.
+       4. Chấn chỉnh kịp thời và xử lý nghiêm người đứng đầu các cơ quan, đơn vị trực thuộc, cán
+bộ, công chức, viên chức không thực hiện nghiêm các quy định tại Nghị định này, để xảy ra các vi
+phạm liên quan đến hướng dẫn, tiếp nhận, giải quyết, trả kết quả giải quyết thủ tục hành chính liên
+thông.
+       Điều 18. Trách nhiệm của Bộ Tư pháp
+                1. Bảo đảm kết nối thông suốt giữa Phần mềm đăng ký, quản lý hộ tịch điện tử dùng chung
+của Bộ Tư pháp với Phần mềm dịch vụ công liên thông, Hệ thống thông tin giải quyết thủ tục hành
+
+chính cấp tỉnh để chia sẻ bản điện tử Giấy khai sinh, Trích lục khai tử phục vụ giải quyết các thủ tục
+về cư trú, cấp thẻ bảo hiểm y tế cho trẻ em dưới 06 tuổi và hồ sơ giải quyết mai táng phí, tử tuất.
+                   2. Nâng cấp, hoàn thiện Phần mềm đăng ký, quản lý hộ tịch điện tử dùng chung bảo đảm
+thông suốt, hiệu quả.
+        Điều 19. Trách nhiệm của Bộ Công an
+                  1. Xây dựng, quản lý, vận hành Phần mềm dịch vụ công liên thông bảo đảm kết nối thông
+suốt giữa Phần mềm dịch vụ công liên thông với các phần mềm nghiệp vụ của các bộ, cơ quan liên
+quan; các tính năng nộp hồ sơ, nộp, cập nhật bổ sung hồ sơ; phân tách các trường thông tin để
+chuyển vào hệ thống phần mềm nghiệp vụ của các bộ, ngành; cập nhật, đồng bộ trạng thái hồ sơ về
+hệ thống thông tin giải quyết thủ tục hành chính của địa phương.
+                  2. Nâng cấp ứng dụng VNeID, bảo đảm việc xác nhận đồng ý của chủ hộ, chủ sở hữu chỗ ở
+hợp pháp, của thân nhân người chết hưởng trợ cấp mai táng, hưởng chế độ tử tuất được thực hiện
+qua tài khoản VNeID hoặc ký số điện tử; điều chỉnh quy trình điện tử đối với thủ tục xoá đăng ký
+thường trú theo hướng đơn giản, thuận tiện cho công dân và cán bộ thực hiện thủ tục hành chính.
+               3. Chỉ đạo cơ quan đăng ký cư trú chủ động kiểm tra, xác minh nơi ở hợp pháp của chủ hộ,
+không yêu cầu người yêu cầu đến cơ quan công an nộp lại bản chính giấy tờ liên quan.
+        Điều 20. Trách nhiệm của Bộ Lao động - Thương binh và Xã hội
+           1. Bảo đảm thông tin, dữ liệu về: bảo trợ xã hội, người có công, hộ nghèo, hộ cận nghèo trên
+phạm vi toàn quốc hoạt động hiệu quả; kết nối thông suốt giữa Phần mềm dịch vụ công liên thông.
+Đồng bộ các trạng thái tiếp nhận, xử lý hồ sơ và kết quả giải quyết thủ tục hỗ trợ chi phí mai táng cho
+Phần mềm dịch vụ công liên thông và Hệ thống thông tin giải quyết thủ tục hành chính của địa
+phương.
+                2. Chỉ đạo, hướng dẫn cấp kết quả xác nhận khuyết tật điện tử; kết nối, chia sẻ, thường
+xuyên cập nhật khi có thay đổi thông tin dữ liệu về người có công, bảo trợ xã hội, hộ nghèo, hộ cận
+nghèo với Phần mềm dịch vụ công liên thông, cơ sở dữ liệu chuyên ngành.
+                3. Tập huấn, hướng dẫn nghiệp vụ sử dụng phần mềm nghiệp vụ của ngành; kịp thời có giải
+pháp tháo gỡ khó khăn trong quá trình triển khai thực hiện.
+        Điều 21. Trách nhiệm của Bộ Y tế
+               1. Chỉ đạo, hướng dẫn các cơ sở khám bệnh, chữa bệnh: thực hiện việc cấp giấy chứng sinh
+điện tử, giấy báo tử điện tử; kết nối, chia sẻ với Phần mềm dịch vụ công liên thông.
+            2. Xây dựng cơ sở dữ liệu của ngành y tế, bảo đảm cấp, kết nối, chia sẻ dữ liệu chứng sinh,
+báo tử điện tử với Phần mềm dịch vụ công liên thông.
+        Điều 22. Trách nhiệm của Bộ Thông tin và Truyền thông
+              1. Hướng dẫn việc kết nối, chia sẻ dữ liệu số giữa các cơ quan nhà nước; phối hợp với các
+cơ quan liên quan rà soát, đánh giá cơ sở hạ tầng thông tin, các vướng mắc và đề xuất giải pháp
+tháo gỡ trong việc kết nối, chia sẻ dữ liệu.
+             2. Kiểm tra, đánh giá hiệu quả, đáp ứng yêu cầu kỹ thuật trong cung cấp thông tin và triển
+khai dịch vụ công liên thông điện tử của các cơ quan nhà nước; tổng hợp báo cáo Thủ tướng Chính
+phủ.
+             3. Bảo đảm hạ tầng, kết nối mạng Internet để người dân tiếp cận, sử dụng dịch vụ công liên
+thông.
+         4. Chủ trì, phối hợp với các bộ, ngành có liên quan định kỳ kiểm tra an toàn thông tin đối với
+phần mềm dịch vụ công liên thông, các cơ sở dữ liệu, hệ thống thông tin có kết nối, chia sẻ dữ liệu
+với Phần mềm dịch vụ công liên thông bảo đảm cung cấp hai nhóm dịch vụ công liên thông an toàn,
+thông suốt trên môi trường mạng.
+        Điều 23. Trách nhiệm của Bảo hiểm xã hội Việt Nam
+              1. Bảo đảm Hệ thống thông tin của ngành Bảo hiểm xã hội hoạt động hiệu quả; kết nối thông
+suốt giữa Phần mềm dịch vụ công liên thông; đồng bộ các trạng thái tiếp nhận, xử lý hồ sơ và kết quả
+giải quyết với Phần mềm dịch vụ công liên thông.
+
+          2. Hỗ trợ hạ tầng kỹ thuật phục vụ việc kết nối, chia sẻ dữ liệu chứng sinh, báo tử điện tử
+giữa cơ sở khám bệnh, chữa bệnh với Phần mềm dịch vụ công liên thông trong thời gian Bộ Y tế
+chưa hoàn thiện cơ sở dữ liệu ngành y tế.
+           Thực hiện chia sẻ thông tin, dữ liệu chứng sinh, báo tử điện tử thuộc 02 nhóm thủ tục hành
+chính liên thông điện tử với cơ sở dữ liệu ngành y tế.
+          3. Hướng dẫn, chỉ đạo Bảo hiểm xã hội các cấp tiếp nhận, giải quyết, trả kết quả giải quyết
+thủ tục hành chính liên thông; phối hợp với các cơ quan nhà nước ở địa phương trong giải quyết thủ
+tục hành chính liên thông.
+        Điều 24. Trách nhiệm của Văn phòng Chính phủ
+               1. Giúp Thủ tướng Chính phủ đôn đốc, kiểm tra việc thực hiện Nghị định này tại các bộ,
+ngành, địa phương.
+           2. Phối hợp với các Bộ, cơ quan: Tư pháp, Công an, Lao động - Thương binh và Xã hội, Y tế,
+Bảo hiểm xã hội Việt Nam kiểm tra, đôn đốc, hướng dẫn việc triển khai thực hiện 02 nhóm thủ tục
+hành chính liên thông điện tử tại Bộ phận Một cửa của các địa phương.
+             3. Phối hợp với các bộ, ngành, địa phương tập huấn nghiệp vụ cho cán bộ, công chức, viên
+chức thực hiện giải quyết 02 nhóm thủ tục hành chính liên thông điện tử.
+        4. Công bố, công khai thủ tục hành chính liên thông điện tử theo quy định.
+              5. Tổng hợp các khó khăn, vướng mắc của các bộ, ngành, địa phương và đề xuất, kiến nghị
+sửa đổi, bổ sung Nghị định.
+        Điều 25. Trách nhiệm của cơ sở khám bệnh, chữa bệnh
+        1. Người đứng đầu các cơ sở khám bệnh, chữa bệnh chịu trách nhiệm liên thông dữ liệu giấy
+chứng sinh và giấy báo tử có ký số để kết nối, chia sẻ với Phần mềm dịch vụ công liên thông chậm
+nhất không quá 04 giờ làm việc sau khi cấp bản giấy Giấy chứng sinh, Giấy báo tử.
+             2. Bảo đảm hạ tầng kỹ thuật phục vụ việc kết nối, cập nhật, chia sẻ dữ liệu với Phần mềm
+dịch vụ công liên thông.
+              3. Tiếp nhận khám bệnh, chữa bệnh bằng số định danh cá nhân, thẻ căn cước, thẻ căn cước
+công dân hoặc thẻ bảo hiểm y tế, bản giấy hoặc bản điện tử.
+        Điều 26. Trách nhiệm của Ủy ban nhân dân cấp tỉnh
+         1. Nâng cấp, hoàn thiện hệ thống thông tin giải quyết thủ tục hành chính cấp tỉnh để bảo đảm
+thực hiện 02 nhóm thủ tục hành chính liên thông điện tử:
+            a) Thực hiện kết nối, chia sẻ dữ liệu với phần mềm dịch vụ công liên thông theo hướng dẫn
+của Bộ Công an.
+        b) Thực hiện kết nối, chia sẻ dữ liệu với Cổng dịch vụ công quốc gia về thanh toán trực tuyến
+theo quy định tại Nghị định số 45/2020/NĐ-CP ngày 08 tháng 4 năm 2020 của Chính phủ và hướng
+dẫn tại Thông tư số 01/2023/TT-VPCP ngày 05 tháng 4 năm 2023 của Văn phòng Chính phủ quy
+định một số nội dung và biện pháp thi hành trong số hóa hồ sơ, kết quả giải quyết thủ tục hành chính
+và thực hiện thủ tục hành chính trên môi trường điện tử.
+             c) Thực hiện kết nối, chia sẻ dữ liệu với Phần mềm đăng ký, quản lý hộ tịch điện tử dùng
+chung theo hướng dẫn của Bộ Tư pháp.
+         2. Cập nhật dữ liệu và chia sẻ dữ liệu vùng có điều kiện kinh tế - xã hội khó khăn, đặc biệt
+khó khăn, xã đảo, huyện đảo với Phần mềm dịch vụ công liên thông, cơ sở dữ liệu chuyên ngành.
+        3. Xây dựng kế hoạch, tổ chức đào tạo, bồi dưỡng, bố trí đủ nhân lực thực hiện, giải quyết 02
+nhóm thủ tục hành chính liên thông điện tử theo đúng quy định tại Nghị định này.
+         4. Bố trí kinh phí, cơ sở vật chất đáp ứng yêu cầu thực hiện dịch vụ công liên thông tại địa
+phương.
+         5. Tổ chức thanh tra, kiểm tra, giải quyết khiếu nại, tố cáo và xử lý vi phạm pháp luật theo
+thẩm quyền.
+        Điều 27. Trách nhiệm của Ủy ban nhân dân cấp huyện, cấp xã
+
+        1. Trực tiếp chỉ đạo việc triển khai có hiệu quả 02 nhóm thủ tục hành chính liên thông điện tử
+tại địa phương theo các quy định tại Nghị định này và quy chế tổ chức hoạt động của Bộ phận Một
+cửa do Ủy ban nhân dân cùng cấp ban hành.
+        2. Bảo đảm nguồn lực, cơ sở vật chất, hạ tầng, đường truyền đáp ứng yêu cầu thực hiện
+dịch vụ công liên thông tại địa phương.
+        3. Kịp thời chấn chỉnh và xử lý hoặc đề xuất cấp có thẩm quyền xử lý nghiêm cán bộ, công
+chức, người lao động thuộc thẩm quyền có hành vi vi phạm quy định tại Nghị định này.
+        4. Tổ chức thông tin, tuyên truyền chính sách, pháp luật về việc cung cấp, thực hiện liên
+thông điện tử 02 nhóm thủ tục hành chính liên thông điện tử: Đăng ký khai sinh, đăng ký thường trú,
+cấp thẻ bảo hiểm y tế cho trẻ em dưới 6 tuổi; đăng ký khai tử, xóa đăng ký thường trú, giải quyết mai
+táng phí, tử tuất.
+                                           Chương IV
+                                      ĐIỀU KHOẢN THI HÀNH
+        Điều 28. Quy định chuyển tiếp
+        1. Kể từ ngày Nghị định này có hiệu lực đến ngày 01 tháng 7 năm 2024, các Hệ thống thông
+tin giải quyết thủ tục hành chính cấp bộ, cấp tỉnh, phần mềm nghiệp vụ của các bộ, ngành, địa
+phương phải nâng cấp, hoàn thiện kết nối, chia sẻ, thông suốt với Cơ sở dữ liệu quốc gia về dân cư,
+Cơ sở dữ liệu quốc gia về thủ tục hành chính, Cơ sở dữ liệu quốc gia về Bảo hiểm, Cơ sở dữ liệu
+chuyên ngành và Phần mềm dịch vụ công liên thông theo quy định của Nghị định này.
+        2. Kể từ ngày 01 tháng 7 năm 2024, hồ sơ 02 nhóm thủ tục hành chính liên thông điện tử
+được tiếp nhận, giải quyết theo quy định tại Nghị định này.
+        Điều 29. Hiệu lực thi hành
+        1. Nghị định này có hiệu lực thi hành kể từ ngày ký ban hành.
+        2. Việc nộp, tiếp nhận, giải quyết các hồ sơ đơn lẻ của các tổ chức, cá nhân được thực hiện
+theo các quy định pháp luật chuyên ngành.
+        Điều 30. Trách nhiệm thi hành
+        Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ
+tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc trung ương và các tổ chức, cá nhân có liên quan
+chịu trách nhiệm thi hành Nghị định này.
+ Nơi nhận:                                                        TM. CHÍNH PHỦ
+ - Ban Bí thư Trung ương Đảng;                                     KT. THỦ TƯỚNG
+ - Thủ tướng, các Phó Thủ tướng Chính phủ;                         PHÓ THỦ TƯỚNG
+ - Các bộ, cơ quan ngang bộ, cơ quan thuộc Chính
+ phủ;
+ - HĐND, UBND các tỉnh, thành phố trực thuộc trung
+ ương;
+ - Văn phòng Trung ương và các Ban của Đảng;                     Trần Lưu Quang
+ - Văn phòng Tổng Bí thư;
+ - Văn phòng Chủ tịch nước;
+ - Hội đồng Dân tộc và các Ủy ban của Quốc hội;
+ - Văn phòng Quốc hội;
+ - Tòa án nhân dân tối cao;
+ - Viện kiểm sát nhân dân tối cao;
+ - Ngân hàng Chính sách xã hội;
+ - Ngân hàng Phát triển Việt Nam;
+ - Kiểm toán nhà nước;
+ - Ủy ban Giám sát tài chính Quốc gia;
+ - Ủy ban trung ương Mặt trận Tổ quốc Việt Nam;
+ - Cơ quan trung ương của các đoàn thể;
+ - VPCP: BTCN, các PCN, Trợ lý TTg, TGĐ Cổng
+
+TTĐT, các Vụ, Cục, đơn vị trực thuộc, Công báo;
+- Lưu: VT, KSTT (2b).Hữu
+
+                                                 Phụ lục
+               (Kèm theo Nghị định số 63/2024/NĐ-CP ngày 10 tháng 6 năm 2024 của Chính phủ)
+                                           _________
+Mẫu số 01      Tờ khai điện tử liên thông đăng ký khai sinh, đăng ký thường trú và cấp thẻ bảo
+               hiểm y tế cho trẻ em dưới 6 tuổi
+Mẫu số 02      Tờ khai điện tử liên thông đăng ký khai tử, xóa đăng ký thường trú, giải quyết mai
+               táng phí, tử tuất
+
+                                                                                             Mẫu số 01
+                                   CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+                                      Độc lập - Tự do - Hạnh phúc
+                                           ________________________
+                                            TỜ KHAI ĐIỆN TỬ
+                 Liên thông đăng ký khai sinh, đăng ký thường trú và cấp thẻ bảo hiểm y
+                                       tế cho trẻ em dưới 6 tuổi
+                                              ____________
+                                        Kính gửi: (1) ……………………….
+        Họ, chữ đệm, tên người yêu cầu:      ...............................................................................
+        Số định danh cá nhân: .................................................................................................
+        Nơi cư trú: (2) .............................................................................................................
+        Quan hệ với người được khai sinh: ..............................................................................
+        Số điện thoại: ………………………………….; Địa chỉ email: ...........................................
+        Đề nghị cơ quan đăng ký khai sinh cho người dưới đây:
+        Họ, chữ đệm, tên: ......................................................................................................
+        Ngày, tháng, năm sinh: …………………………. ghi bằng chữ: ........................................
+        Nơi sinh: (3) ................................................................................................................
+        Giới tính: …………………. Dân tộc: ………………………. Quốc tịch: ...............................
+        Quê quán: ...................................................................................................................
+        Số Giấy chứng sinh: …..ngày ... tháng... năm.... Cơ sở khám bệnh, chữa bệnh cấp: ......
+        Họ, chữ đệm, tên người mẹ:              ......................................................................................
+        Số định danh cá nhân/số hộ chiếu: ...............................................................................
+        Ngày, tháng, năm sinh (4): ...........................................................................................
+        Dân tộc: ……………………………………. Quốc tịch: ......................................................
+        Nơi cư trú: (2) .............................................................................................................
+        Họ, chữ đệm, tên người cha:              .....................................................................................
+        Số định danh cá nhân/số hộ chiếu: ...............................................................................
+        Ngày, tháng, năm sinh ……………………….. (4): Dân tộc: .............................................
+        Quốc tịch: ...................................................................................................................
+        Nơi cư trú (2): .............................................................................................................
+        Thông tin về Giấy chứng nhận kết hôn của cha, mẹ trẻ (nếu cha, mẹ trẻ có đăng ký kết hôn):
+số ..., quyển số .... đăng ký ngày ... tháng ... năm ... tại ...
+        Thông tin đăng ký thường trú:
+        Họ tên của chủ hộ: ………………………Số định danh cá nhân: .......................................
+        Quan hệ với chủ hộ: ....................................................................................................
+        Nơi đề nghị đăng ký thường trú: ..................................................................................
+        Nơi đăng ký khám, chữa bệnh ban đầu        (5): ................................................................
+        Số Giấy chứng nhận hộ nghèo: …………………………………… ngày cấp: .....................
+        Hình thức nhận kết quả của thủ tục hành chính:
+        1. Bản điện tử: □
+
+        Các kết quả thủ tục hành chính được gửi vào kho quản lý dữ liệu điện tử của người yêu cầu
+trên Cổng dịch vụ công quốc gia, ứng dụng VNeID và Hệ thống thông tin giải quyết thủ tục hành
+chính cấp bộ, cấp tỉnh.
+        2. Bản giấy:
+        - Giấy khai sinh: 01 bản chính; …….. bản sao giấy khai sinh tại Bộ phận Một cửa của cơ
+quan giải quyết đăng ký khai sinh.
+        - Thông báo kết quả giải quyết đăng ký cư trú:
+        + □ Tại Bộ phận Một cửa của cơ quan giải quyết đăng ký khai sinh
+        + □ Tại cơ quan giải quyết đăng ký thường trú
+        + □ Qua dịch vụ bưu chính công ích (cá nhân trả cước phí cho cơ quan cung cấp dịch vụ); địa
+chỉ nhận¹: ...
+        - Thẻ bảo hiểm y tế:
+        + □ Tại Bộ phận Một cửa của cơ quan giải quyết đăng ký khai sinh
+        + □ Tại cơ quan giải quyết hồ sơ cấp thẻ BHYT
+        + □ Qua dịch vụ bưu chính công ích (cá nhân trả cước phí cho cơ quan cung cấp dịch vụ);
+địa chỉ nhận²:
+        □ Đồng ý tích hợp thông tin thẻ bảo hiểm y tế, giấy khai sinh vào tài khoản định danh điện tử
+mức độ 2 trên ứng dụng VNeID của Bố hoặc Mẹ hoặc người giám hộ³: ..................................
+        Tôi cam đoan nội dung khai trên đây là đúng sự thật, được sự thỏa thuận nhất trí của các
+bên liên quan theo quy định pháp luật và chịu trách nhiệm trước pháp luật về cam đoan của mình.
+        Ghi chú:
+        (1) Lựa chọn tên các cơ quan có thẩm quyền giải quyết thủ tục hành chính trong quy trình
+liên thông.
+        (2) Công dân lựa chọn nơi thường trú hoặc nơi tạm trú, dữ liệu thường trú hoặc tạm trú theo
+căn cước công dân sẽ được điền tự động từ Cơ sở dữ liệu quốc gia về dân cư.
+        (3) Trường hợp sinh tại Cơ sở khám bệnh, chữa bệnh thì dữ liệu nơi sinh sẽ được điền tự
+động theo dữ liệu giấy chứng sinh từ cơ quan quản lý y tế hoặc từ Cơ sở dữ liệu của Bảo hiểm xã hội
+Việt Nam quản lý. Trường hợp không có dữ liệu thì ghi rõ tên cơ sở khám bệnh, chữa bệnh và địa
+danh hành chính.
+        Ví dụ:
+        - Bệnh viện Phụ sản Hà Nội.
+        - Trạm y tế phường Đình Bảng, thành phố Từ Sơn, tỉnh Bắc Ninh.
+        Trường hợp sinh ra ngoài cơ sở khám bệnh, chữa bệnh thì ghi địa danh của 03 cấp hành
+chính (xã, huyện, tỉnh), nơi sinh ra. Ví dụ: phường Đình Bảng, thành phố Từ Sơn, tỉnh Bắc Ninh.
+        (4) Dữ liệu ngày, tháng, năm sinh, nơi cư trú của cha, mẹ sẽ được điền tự động theo dữ liệu
+của Cơ sở dữ liệu quốc gia về dân cư.
+        (5) Lựa chọn dựa trên cơ sở thông tin do Bảo hiểm xã hội Việt Nam cung cấp.
+        _______________________
+        1 Chọn danh mục tỉnh/huyện/xã và nhập địa chỉ chi tiết (số nhà, tổ dân phố/thôn/xóm...).
+        2 Chọn danh mục tỉnh/huyện/xã và nhập địa chỉ chi tiết (số nhà, tổ dân phố/thôn/xóm...).
+        3 Trong Bố hoặc Mẹ hoặc người giám hộ là người yêu cầu.
+
+                                                                                         Mẫu số 02
+                                 CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+                                    Độc lập - Tự do - Hạnh phúc
+                                      _______________________
+                                          TỜ KHAI ĐIỆN TỬ
+        Liên thông đăng ký khai tử, xóa đăng ký thường trú, giải quyết mai táng phí, tử tuất
+                                           ______________
+                                Kính gửi: (1) …………………………
+        Họ, chữ đệm, tên người yêu cầu:    ...............................................................................
+        Nơi cư trú: (2) .............................................................................................................
+        Số định danh cá nhân: .................................................................................................
+        Quan hệ với người đã chết: .........................................................................................
+        Nội dung đề nghị: ........................................................................................................
+        1. Đăng ký khai tử cho người có thông tin dưới đây:
+        Họ, chữ đệm, tên: .......................................................................................................
+        Ngày, tháng, năm sinh: ................................................................................................
+        Giới tính: ……………….. Dân tộc: ……………………… Quốc tịch: ..................................
+        Nơi cư trú cuối cùng: (2) ..............................................................................................
+        Số định danh cá nhân: .................................................................................................
+        Đã chết vào lúc: giờ phút, ngày tháng năm ...................................................................
+        Nơi chết: .....................................................................................................................
+        Nguyên nhân chết: .......................................................................................................
+        Số Giấy báo tử/Giấy tờ thay thế Giấy báo tử: (3) …………………. do: ...........................
+        ………………………………….. cấp ngày ………… tháng ………………. năm ...................
+        2. Giải quyết mai táng phí, tử tuất
+        Thuộc đối tượng:
+        □ Bảo trợ xã hội¹:
+        □ Đang hưởng trợ cấp xã hội hằng tháng
+        □ Con của người đơn thân nghèo đang hưởng trợ cấp hằng tháng
+        □ Người từ đủ 80 tuổi trở lên đang hưởng trợ cấp tuất bảo hiểm xã hội
+        □ Người chết trong trường hợp khẩn cấp (thiên tai, hỏa hoạn, tai nạn giao thông,...).
+        □ Người có công²:
+        Quyết định hưởng trợ cấp số: ……..; ngày .... tháng ……năm ……của ..........................
+        Mức trợ cấp, phụ cấp hằng tháng/trợ cấp một lần:  ......................................................
+        Trợ cấp, phụ cấp hằng tháng đã nhận hết tháng ………………. năm ...............................
+        □ Bảo hiểm xã hội:
+        - Mã số bảo hiểm xã hội/Số sổ bảo hiểm xã hội của người chết: ………………
+        - Nơi hưởng lương hưu/trợ cấp bảo hiểm xã hội (đối với người đang hưởng lương hưu hoặc
+trợ cấp bảo hiểm xã hội hằng tháng): …………
+        - Nơi đóng bảo hiểm xã hội (đối với người đang tham gia bảo hiểm xã hội tự nguyện):
+……………………………………………………………………………………………………
+
+      Thân nhân người chết theo quy định của Luật bảo hiểm xã hội (bao gồm: con, vợ hoặc
+chồng, cha đẻ, mẹ đẻ, cha vợ hoặc cha chồng, mẹ vợ hoặc mẹ chồng; thành viên khác trong gia đình
+mà người chết khi còn sống có nghĩa vụ nuôi dưỡng)
+      Trường hợp chỉ liên thông giải quyết hưởng trợ cấp mai táng mà người lo mai táng là thân
+nhân thì kê khai thông tin của thân nhân lo mai táng và một thân nhân khác trong số các thân nhân
+nêu trên.
+      Trường hợp liên thông giải quyết hưởng trợ cấp tuất hằng tháng hoặc một lần: Kê khai tất cả
+thân nhân nêu trên. Trường hợp thân nhân đã chết thì ghi “đã chết” vào cột 7 và không phải kê khai
+thông tin tại cột 8, 9, 10). Số thân nhân được hưởng trợ cấp tuất hằng tháng do gia đình đề xuất
+không quá 04 người
+      Các thông tin của thân nhân được xác thực với Cơ sở dữ liệu quốc gia về dân cư.
+                                             Địa chỉ          Loại trợ Hình  Thông
+                   Số định Mối quan  Ngày,     nơi cư Mức thu cấp tuất thức tin xác
+                   danh cá  hệ với tháng, năm trú, số   nhập  đề nghị  nhận nhận của
+ TT   Họ và tên    nhân/Mã  người   sinh        điện    hằng  hưởng  trợ cấp  thân
+                   số BHXH   chết              thoại³  tháng⁴      5       6nhân qua
+                                                                             VNeID⁷
+                                  Nam   Nữ
+  1      2            3       4    5     6       7       8      9      10      11
+      Trường hợp thân nhân hưởng trợ cấp tử tuất chưa đủ 15 tuổi hoặc bị mất, hạn chế năng lực
+hành vi dân sự thì khai bổ sung:
+                                     Mã số BHXH/số
+                            Mối quan  CMND/số căn
+                             hệ của  cước công dân/
+       Họ, tên     Họ, tên   người    hộ chiếu (Nếu
+ TT     người       người   đứng tên người đứng tên  Địa chỉ nơi Số điện    Hình thức
+      hưởng trợ    đứng tên nhận trợ  nhận trợ cấp     cư trú⁸   thoại di nhận trợ cấp⁹
+         cấp       nhận trợ cấp với  trùng với thân                động
+                     cấp     người   nhân đã khai ở
+                           hưởng trợ bảng trên khì
+                              cấp   không phải khai
+                                        cột này)
+ 1       2          3          4           5              6        7          8
+ …
+      Danh sách thân nhân người có công¹⁰
+                      Mối                Địa chỉ Hoàn  Loại trợ    Hình     Thông tin
+      Họ và  Số định quan hệ Ngày, tháng, nơi cư cảnh  cấp tuất    thức    xác nhận của
+ TT         danh cá   với    năm sinh     trú,số hiện  đề nghị   nhận trợ   thân nhân
+       tên    nhân/  người                 điện tại¹¹  hưởng¹²    cấp¹³    qua VNeID¹⁴
+               CCCD có công Nam    Nữ     thoại
+      Phần khai chi tiết về con người có công từ đủ 18 tuổi trở lên đang tiếp tục đi học tại cơ sở
+đào tạo hoặc bị khuyết tật nặng, khuyết tật đặc biệt nặng.
+                                           Thời điểm kết   Cơ sở giáo dục đang theo
+  TT     Họ và tên  Năm sinh  Thời điểm bị thúc bậc học phổ          học
+                               khuyết tật¹⁵    thông        Tên cơ sở  Thời gian bắt
+                                                                         đầu đi học
+  1
+  2
+
+   ….
+         Người hoặc tổ chức nhận trợ cấp mai táng:
+         Cá nhân
+         Họ và tên¹⁶: ................................................................................................................
+         Ngày tháng năm sinh …………………………….. Nam/Nữ................................................
+         CCCD/CMND số............................... Ngày cấp ……………… Nơi cấp...........................
+         Địa chỉ nơi cư trú: ........................................................................................................
+         Số điện thoại: .............................................................................................................
+         Quan hệ với người từ trần: ..........................................................................................
+         Số điện thoại liên hệ: ...................................................................................................
+         Tổ chức
+         Tên tổ chức¹⁷: ............................................................................................................
+         Địa chỉ: .......................................................................................................................
+         Người đại diện theo pháp luật: ……………………………… Chức vụ: ..............................
+         Số điện thoại: .............................................................................................................
+         Đại diện thân nhân nhận trợ cấp tuất một lần
+         Họ và tên¹⁸: ................................................................................................................
+         Ngày tháng năm sinh: …………………………….. Nam/Nữ: .............................................
+         CCCD/CMND số …………………………… Ngày cấp …………………. Nơi cấp ................
+         Nơi thường trú: ...........................................................................................................
+         Số điện thoại: .............................................................................................................
+         Quan hệ với người từ trần: ..........................................................................................
+         Số điện thoại liên hệ: ...................................................................................................
+         Hình thức nhận kết quả giải quyết
+         1. Bản điện tử: □
+         Các kết quả thủ tục hành chính được gửi vào kho quản lý dữ liệu điện tử của người yêu cầu
+trên Cổng dịch vụ công quốc gia, ứng dụng VNeID và Hệ thống thông tin giải quyết thủ tục hành
+chính cấp bộ, cấp tỉnh.
+         2. Bản giấy:
+         □ Tại nơi đăng ký khai tử (dành cho đối tượng thuộc ngành Lao động - Thương binh và Xã
+hội)
+         □ Trực   tiếp tại cơ quan   BHXH/LĐTBXH      (hiển  thị địa chỉ/số  điện thoại  của  cơ  quan
+BHXH/LĐTBXH để người yêu cầu đến nhận kết quả).
+         □ Qua dịch vụ bưu chính (cá nhân trả cước phí cho cơ quan cung cấp dịch vụ).
+         Địa chỉ nhận¹⁹: ............................................................................................................
+         Tiền trợ cấp mai táng, tử tuất²⁰:
+         □ Tài khoản ngân hàng:
+         Tên chủ tài khoản²¹: ....................................................................................................
+         Số tài khoản: ..............................................................................................................
+         Ngân hàng: .................................................................................................................
+         □ Tiền mặt tại cơ quan BHXH/LĐTBXH (hiển thị địa chỉ cơ quan BHXH/LĐTBXH để người
+yêu cầu đến nhận tiền)
+
+         Tôi cam đoan những nội dung khai trên đây là đúng sự thật và chịu trách nhiệm trước pháp
+luật về cam đoan của mình.
+         Chú thích:
+         (1) Lựa chọn tên các cơ quan có thẩm quyền giải quyết thủ tục hành chính trong quy trình
+liên thông.
+         (2) Công dân lựa chọn nơi thường trú hoặc nơi tạm trú, dữ liệu thường trú hoặc tạm trú theo
+căn cước công dân sẽ được điền tự động từ Cơ sở dữ liệu quốc gia về dân cư.
+         (3) Công dân lựa chọn Giấy báo tử hoặc giấy tờ thay thế Giấy báo tử, nếu lựa chọn giấy tờ
+thay thế Giấy báo tử thì chọn theo loại giấy tờ, nhập số giấy tờ; trường hợp không có thì để trống.
+         ______________________
+         1 Đối tượng bảo trợ quy định tại Điều 11,14 Nghị định số 20/2021/NĐ-CP.
+         2 Mẫu số 12 Nghị định số 131/2021/NĐ-CP: Ghi rõ diện đối tượng người có công.
+         3 Chi tiết số nhà, phố, tổ, thôn, xã/phường/thị trấn, quận/huyện, tỉnh/thành phố; ghi số điện
+thoại di động.
+         4 Ghi rõ mức thu nhập hằng tháng thực tế của thân nhân tại thời điểm người được khai tử
+chết (không bao gồm khoản trợ cấp theo quy định của pháp luật về ưu đãi người có công).
+         5 Ghi rõ trợ cấp mai táng phí, tuất một lần hay trợ cấp tuất hàng tháng.
+         6 Trường hợp không dùng tiền mặt (nhận trợ cấp qua tài khoản ngân hàng thì ghi: số tài
+khoản..., chủ tài khoản, ngân hàng mở tài khoản; nhận qua ví điện tử thì ghi số điện thoại di động,...).
+         7 Trường hợp không xác nhận qua ứng dụng VNeID thì đính kèm bản điện tử văn bản thống
+nhất cử người đại diện nhận trợ cấp mai táng phí, tử tuất theo quy định.
+         8 Ghi chi tiết số nhà, phố, tổ, thôn, xã/phường/thị trấn, quận/huyện, tỉnh/thành phố; nếu người
+đứng tên nhận trợ cấp trùng với thân nhân đã khai ở bảng trên khì không phải khai cột này.
+         9 Trường hợp nhận trợ cấp tuất hằng tháng qua tài khoản ngân hàng thì ghi: số tài khoản...,
+chủ tài khoản, ngân hàng mở tài khoản.
+         10 Lập danh sách thân nhân người có công đủ điều kiện hưởng trợ cấp tuất.
+         11 Ghi rõ sống cô đơn, không nơi nương tựa hoặc con mồ côi cả cha mẹ.
+         12 Ghi rõ trợ cấp mai táng phí, tuất một lần hay trợ cấp tuất hằng tháng.
+         13 Trường hợp không dùng tiền mặt (nhận trợ cấp qua tài khoản ngân hàng thì ghi: số tài
+khoản..., chủ tài khoản, ngân hàng mở tài khoản; nhận qua ví điện tử thì ghi số điện thoại di động,...).
+         14 Trường hợp không xác nhận qua ứng dụng VNelD thì đính kèm bản điện tử văn bản thống
+nhất cử người đại diện nhận trợ cấp mai táng phí, tử tuất theo quy định.
+         15 Ghi rõ thời điểm bị khuyết tật: chưa đủ 18 tuổi hoặc từ đủ 18 tuổi trở lên (trường hợp không
+có con bị khuyết tật thì không ghi cột này).
+         16 Trường hợp người nhận trợ cấp mai táng không thuộc số thân nhân có tên trong bảng kê
+nêu trên thì khai thêm các thông tin bên dưới.
+         17 Tổ chức nhận hỗ trợ chi phí mai táng là tổ chức đứng ra tổ chức mai táng.
+         18 Thông tin của đại diện thân nhân nhận các khoản trợ cấp một lần được điền tự động từ
+bảng kê khai thân nhân.
+         19 Chọn danh mục tỉnh/huyện/xã và nhập địa chỉ chi tiết (số nhà, tổ dân phố/thôn/xóm...).
+         20 Trường hợp người nhận trợ cấp mai táng, trợ cấp tuất một lần không thuộc số thân nhân
+có tên trong bảng kê nêu trên thì khai thêm các thông tin bên dưới.
+         21 Thông tin chủ tài khoản phải trùng khớp với thông tin của cá nhân nhận trợ cấp mai táng.

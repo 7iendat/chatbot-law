@@ -1,102 +1,79 @@
+from pathlib import Path
+from llama_parse import LlamaParse
+import docx
+import pypandoc
+import shutil
 import os
-import time
-import asyncio
-import gc
-from fastapi import UploadFile, BackgroundTasks, HTTPException, Request
-from langchain.schema import Document
+import logging
+from langchain_core.documents import Document
 import config
+from db.weaviateDB import connect_to_weaviate
 import utils.utils as utils
+logger = logging.getLogger(__name__)
 
-async def update_vectorstore_bg(new_file_path: str, app_state):
-    print(f"[BG Task] => Bắt đầu cập nhật với file: {new_file_path}", flush=True)
+from rag_components import create_weaviate_schema_if_not_exists, ingest_chunks_with_native_batching
+from utils.process_data import hierarchical_split_law_document,extract_document_metadata,clean_document_text,infer_field, infer_entity_type, filter_and_serialize_complex_metadata
 
-    if not os.path.exists(new_file_path):
-        print(f"[BG Task] => File không tồn tại: {new_file_path}", flush=True)
-        return
+def convert_to_text_content(source_path: str) -> str:
+    source_file = Path(source_path)
+    file_extension = source_file.suffix.lower()
+    logger.info(f"Extracting content from: {source_file.name}")
+    content = ""
+    if file_extension == ".pdf":
+        parser = LlamaParse( api_key=config.LLAMA_CLOUD_API_KEY,
+                    result_type="text",
+                    verbose=True, # Giữ verbose để theo dõi
+                    language="vi")
+        documents = parser.load_data([str(source_file)])
+        if documents: content = documents[0].text
+    elif file_extension == ".docx":
+        doc = docx.Document(source_path)
+        content = '\n'.join([para.text for para in doc.paragraphs])
+    elif file_extension == ".doc":
+        content = pypandoc.convert_file(source_path, 'plain', format='doc')
+    else:
+        raise ValueError(f"Unsupported file format: {file_extension}")
+    if not content.strip():
+        raise ValueError("Extracted content is empty.")
+    logger.info(f"✅ Successfully extracted content from {source_file.name}.")
+    return content
 
+def full_process_and_ingest_pipeline(filepath: str, file_hash: str, embedding_model):
+    filename = os.path.basename(filepath)
+    logger.info(f"BACKGROUND TASK: Starting full pipeline for: {filename} (Hash: {file_hash[:10]}...)")
+    weaviate_client = None
     try:
-        ext = os.path.splitext(new_file_path)[1].lower()
-        content = ""
+        raw_content = convert_to_text_content(filepath)
 
-        if ext == '.pdf':
-            content = utils.extract_text_from_pdf_auto(new_file_path, lang='vie')
-        elif ext in ['.txt', '.md']:
-            with open(new_file_path, 'r', encoding='utf-8') as f:
-                content = f.read()
-        else:
-            print(f"[BG Task] => Định dạng file '{ext}' chưa được hỗ trợ.", flush=True)
-            return
+        doc_metadata = extract_document_metadata(raw_content, filename)
+        doc_metadata["source"] = filename
+        cleaned_content = clean_document_text(raw_content)
+        doc_metadata["field"] = infer_field(cleaned_content, doc_metadata.get("ten_van_ban"))
+        doc_metadata["entity_type"] = infer_entity_type(cleaned_content, doc_metadata.get("field", ""))
 
-        if not content.strip():
-            print(f"[BG Task] => Không thể trích xuất nội dung từ file: {new_file_path}", flush=True)
-            return
+        doc_to_split = Document(page_content=cleaned_content, metadata=doc_metadata)
+        chunks_from_file = hierarchical_split_law_document(doc_to_split)
 
-        doc = Document(page_content=content, metadata={"source": os.path.basename(new_file_path)})
-        doc_chunks = utils.split_by_structure(doc, max_chunk_size=config.CHUNK_SIZE * 2)
+        if not chunks_from_file:
+            raise ValueError("File did not yield any chunks after processing.")
 
-        if not doc_chunks:
-            print("[BG Task] => Không có chunk nào được tạo.", flush=True)
-            return
+        processed_chunks = filter_and_serialize_complex_metadata(chunks_from_file)
 
-        embeddings = app_state.get("embeddings")
-        vectorstore = app_state.get("vectorstore")
+        weaviate_client = connect_to_weaviate()
+        embeddings_model = embedding_model
+        collection_name = config.WEAVIATE_COLLECTION_NAME
+        create_weaviate_schema_if_not_exists(weaviate_client, collection_name)
 
-        if not embeddings or not vectorstore:
-            print(f"=> Không tìm thấy embeddings hoặc vectorstore trong app_state.", flush=True)
-            return
+        ingest_chunks_with_native_batching(weaviate_client, collection_name, processed_chunks, embeddings_model)
 
-        vectorstore.add_documents(doc_chunks)
-        vectorstore.persist()
-        del doc, doc_chunks, content
-        gc.collect()
-        print(f"[BG Task] => Đã thêm dữ liệu từ {os.path.basename(new_file_path)} vào Vector Store.", flush=True)
-
+        utils.log_processed_hash(file_hash)
+        logger.info(f"✅ Successfully ingested '{filename}'.")
+        shutil.move(filepath, os.path.join(config.PROCESSED_FILES_FOLDER, filename))
+        logger.info(f"Moved '{filename}' to processed folder.")
     except Exception as e:
-        print(f"=> Lỗi khi cập nhật Vector Store: {e}", flush=True)
-
-async def upload_and_index_document(file: UploadFile, user, background_tasks: BackgroundTasks, request: Request):
-    filename = file.filename
-    file_extension = os.path.splitext(filename)[1].lower()
-    base_filename = os.path.splitext(filename)[0]
-    output_filename = base_filename + ".txt"
-    output_path = os.path.join(config.INPUT_TXT_FOLDER, output_filename)
-
-    if any([
-        os.path.exists(os.path.join(config.INPUT_TXT_FOLDER, filename)),
-        os.path.exists(output_path)
-    ]):
-        return {"message": f"=> File '{filename}' hoặc bản .txt của nó đã tồn tại. Bỏ qua."}
-
-    if file_extension not in [".txt", ".pdf"]:
-        raise HTTPException(status_code=400, detail="=> Chỉ hỗ trợ file .txt và .pdf.")
-
-    os.makedirs(config.INPUT_TXT_FOLDER, exist_ok=True)
-
-    try:
-        contents = await file.read()
-        text = ""
-
-        if file_extension == ".txt":
-            text = contents.decode("utf-8")
-        elif file_extension == ".pdf":
-            if not all([utils.fitz, utils.Image, utils.io, utils.pytesseract]):
-                raise HTTPException(status_code=500, detail="=> Thiếu thư viện xử lý PDF: fitz, Pillow, pytesseract...")
-            temp_path = f"/tmp/{filename}"
-            with open(temp_path, "wb") as f:
-                f.write(contents)
-            text = utils.extract_text_from_scanned_pdf(temp_path)
-            os.remove(temp_path)
-
-        cleaned_text = utils.clean_text_optimized(text)
-        with open(output_path, "w", encoding="utf-8") as f:
-            f.write(cleaned_text)
-
-        app_state = request.app.state.app_state
-        background_tasks.add_task(update_vectorstore_bg, new_file_path=output_path, app_state=app_state)
-
-        return {"message": f"=> File '{filename}' đã được tải lên. Vector store đang được cập nhật nền."}
-
-    except Exception as e:
-        if os.path.exists(output_path):
-            os.remove(output_path)
-        raise HTTPException(status_code=500, detail=f"Lỗi khi xử lý file: {str(e)}")
+        logger.error(f"❌ FAILED pipeline for '{filename}': {e}", exc_info=True)
+        shutil.move(filepath, os.path.join(config.FAILED_FILES_FOLDER, filename))
+        logger.info(f"Moved '{filename}' to failed folder.")
+    finally:
+        if weaviate_client and weaviate_client.is_connected():
+            weaviate_client.close()

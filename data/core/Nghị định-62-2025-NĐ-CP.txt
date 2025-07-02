@@ -1,0 +1,2286 @@
+CHÍNH PHỦ                           CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+               ________                              Độc lập - Tự do - Hạnh phúc
+          Số: 62/2025/NĐ-CP                             ______________________
+                                                   Hà Nội, ngày 04 tháng 3 năm 2025
+                                           NGHỊ ĐỊNH
+                       Quy định chi tiết thi hành Luật Điện lực về bảo vệ
+                     công trình điện lực và an toàn trong lĩnh vực điện lực
+                                         ______________
+        Căn cứ Luật Tổ chức Chính phủ ngày 18 tháng 02 năm 2025;
+        Căn cứ Luật Điện lực ngày 30 tháng 11 năm 2024;
+        Căn cứ Luật Ban hành văn bản quy phạm pháp luật ngày 22 tháng 6 năm 2015; Luật sửa
+đổi, bổ sung một số điều của Luật Ban hành văn bản quy phạm pháp luật ngày 18 tháng 6 năm 2020;
+        Theo đề nghị của Bộ trưởng Bộ Công Thương;
+        Chính phủ ban hành Nghị định quy định chi tiết thi hành Luật Điện lực về bảo vệ công trình
+điện lực và an toàn trong lĩnh vực điện lực.
+                                            Chương I
+                                       QUY ĐỊNH CHUNG
+        Điều 1. Phạm vi điều chỉnh, đối tượng áp dụng
+        1. Nghị định này quy định chi tiết thi hành một số điều của Luật Điện lực về bảo vệ công trình
+điện lực và an toàn trong lĩnh vực điện, bao gồm: Khoản 5 Điều 67; khoản 10 Điều 68; khoản 9 Điều
+69; khoản 2 Điều 72; Điều 74; khoản 7 Điều 75; khoản 6 Điều 76; khoản 5 Điều 77; khoản 8 Điều 78.
+        2. Nghị định này áp dụng đối với cơ quan quản lý nhà nước có thẩm quyền; cơ quan, tổ
+chức, cá nhân tham gia hoạt động điện lực, sử dụng điện hoặc có các hoạt động khác liên quan đến
+điện lực tại Việt Nam.
+        Điều 2. Giải thích từ ngữ
+        Trong Nghị định này, các từ ngữ dưới đây được hiểu như sau:
+        1. Chủ sở hữu công trình thủy điện là tổ chức, cá nhân đầu tư xây dựng hoặc được chuyển
+giao quyền sở hữu công trình thủy điện.
+        2. Công trình lưới điện là tổ hợp các phương tiện, máy móc, thiết bị, kết cấu xây dựng phục
+vụ trực tiếp cho hoạt động truyền tải điện, phân phối điện, hệ thống bảo vệ công trình.
+        3. Công trình nguồn điện là tổ hợp các phương tiện, máy móc, thiết bị, kết cấu xây dựng
+phục vụ trực tiếp cho hoạt động phát điện, hệ thống bảo vệ công trình.
+        4. Công trình thủy điện là công trình có nhiệm vụ phát điện, bao gồm: Đập, hồ chứa thủy
+điện, tuyến năng lượng, nhà máy thủy điện và các công trình khác phục vụ quản lý, khai thác thủy
+điện.
+        5. Dây bọc là dây dẫn điện được bọc lớp cách điện có mức cách điện tối thiểu bằng điện áp
+pha của đường dây.
+        6. Điện áp cao là điện áp danh định trên 01 kV.
+        7. Đơn vị quản lý vận hành công trình thủy điện là tổ chức, cá nhân được chủ sở hữu công
+trình thủy điện giao thực hiện quản lý, vận hành và khai thác công trình thủy điện.
+        8. Hệ thống giám sát vận hành là hệ thống bao gồm thiết bị để kết nối số liệu quan trắc khí
+tượng thủy văn chuyên dùng, tình hình ngập lụt hạ du đập; camera giám sát vận hành công trình và
+phần mềm hỗ trợ điều hành đập, hồ chứa nước theo diễn biến thực tế.
+        9. Hồ chứa thủy điện là hồ chứa nước sử dụng để phát điện và cho các mục tiêu khác theo
+chức năng, nhiệm vụ của công trình.
+          Luatvietnam                                                        LuatVietnam.vn
+Tiện ích văn bản luật
+
+        10. Khoảng cách an toàn phóng điện theo cấp điện áp là khoảng cách tối thiểu từ phần tử
+mang điện đến điểm gần nhất của thiết bị, dụng cụ, phương tiện, công trình, cây, vật thể bay.
+        11. Khả năng xả lũ là năng lực của công trình xả cho phép xả được lũ ứng với tần suất lũ
+thiết kế hoặc tần suất lũ kiểm tra mà vẫn đảm bảo an toàn công trình.
+                12. Kiểm định an toàn đập, hồ chứa thủy điện là hoạt động kiểm tra, đánh giá chất lượng
+hoặc nguyên nhân hư hỏng, đánh giá an toàn của đập, hồ chứa thủy điện và các công trình có liên
+quan đến hồ chứa thủy điện thông qua đo đạc, quan trắc, thí nghiệm kết hợp với việc tính toán, phân
+tích.
+             13. Sự cố điện nghiêm trọng đến mức thảm họa là biến động lớn do sự cố điện trên diện rộng
+gây ra đe dọa hoặc làm thiệt hại nghiêm trọng về người, tài sản, môi trường, quốc phòng, an ninh
+quốc gia, trật tự an toàn xã hội vượt quá khả năng ứng phó, khắc phục của ngành điện và chính
+quyền địa phương.
+        14. Trạm điện là trạm biến áp, trạm cắt, trạm bù, trạm chỉnh lưu.
+             15. Trạng thái võng cực đại của dây dẫn điện là trạng thái tính toán dây dẫn khi đồng thời
+chịu tác động khắc nghiệt nhất của các yếu tố ảnh hưởng như dòng điện qua dây dẫn, nhiệt độ môi
+trường xung quanh, tải trọng gió.
+                16. Tuyến năng lượng là tổ hợp các hạng mục từ cửa nhận nước trên hồ chứa thủy điện qua
+cửa van vào tua bin phát điện đến hết kênh dẫn nước ra khỏi nhà máy thủy điện.
+               17. Vùng hạ du đập thủy điện là vùng bị ngập lụt khi hồ chứa thủy điện thực hiện xả nước
+theo quy trình, xả lũ trong tình huống khẩn cấp hoặc vỡ đập.
+                                            Chương II
+                                BẢO VỆ AN TOÀN CÔNG TRÌNH ĐIỆN LỰC
+        Điều 3. Quy định chung về bảo vệ công trình điện lực
+             1. Các cơ quan, tổ chức, cá nhân có trách nhiệm thông báo kịp thời cho cơ quan quản lý nhà
+nước, đơn vị điện lực khi phát hiện hành vi trộm cắp hoặc tháo gỡ dây néo, dây tiếp địa, trang thiết bị
+của lưới điện, trèo lên cột điện, vào trạm điện hoặc khu vực bảo vệ an toàn công trình điện khi không
+có nhiệm vụ.
+               2. Không sử dụng công trình điện lực vào những mục đích khác khi chưa được sự thỏa thuận
+của đơn vị quản lý công trình điện lực.
+             3. Không lắp đặt ăng ten thu phát sóng, dây phơi, giàn giáo, nhà lồng, nhà lưới, biến, hộp
+đèn quảng cáo và các vật dụng khác tại các vị trí mà khi bị đổ, rơi, văng, rung lắc gây hư hỏng, sự cố
+công trình điện lực.
+             4. Tổ chức, cá nhân không đào đất, chất tải hoặc hoạt động gây sụt lún hoặc có nguy cơ gây
+sạt lở, lún sụt công trình lưới điện, trạm điện; không đốt nương rẫy, rác thải, vật liệu, sử dụng các
+phương tiện thi công gây chấn động hoặc có khả năng làm hư hỏng, sự cố công trình điện lực; không
+bắn, quăng, ném bất kỳ vật gì lên đường dây điện, trạm điện và các công trình điện lực khác.
+               5. Không thực hiện nổ mìn, mở mỏ; xếp, chứa các chất dễ cháy nổ, các chất hóa học có khả
+năng gây ăn mòn hoặc có khả năng làm cháy, gây hư hỏng các bộ phận của công trình điện lực.
+                   6. Phương tiện bay được cấp phép phải bảo đảm khoảng cách an toàn đối với công trình
+điện lực, không được phép bay vào phạm vi 500 m tính từ mép ngoài công trình lưới điện cao áp,
+siêu cao áp trên không hoặc 100 m tính từ mép ngoài công trình lưới điện trên không trung áp ra các
+phía xung quanh, trừ trường hợp phương tiện bay làm nhiệm vụ quản lý, bảo dưỡng, sửa chữa
+đường dây điện được phép theo quy định.
+        Điều 4. Bảo vệ an toàn đường dây dẫn điện trên không điện áp cao
+           1. Chủ đầu tư, đơn vị quản lý vận hành công trình lưới điện có trách nhiệm tổ chức thực hiện
+các biện pháp bảo vệ an toàn đối với công trình lưới điện thuộc phạm vi quản lý bao gom khu vực
+thuộc hành lang bảo vệ an toàn công trình lưới điện.
+        2. Chủ sở hữu hoặc người sử dụng nhà ở, công trình đã được phép tồn tại trong hành lang
+bảo vệ an toàn đường dây dẫn điện trên không phải có biện pháp chằng néo, gia cố mái của nhà ở,
+công trình phòng tránh nguy cơ bay vào đường dây dẫn điện trên không; tuân thủ các quy định về
+
+bảo vệ an toàn đường dây dẫn điện trên không khi sửa chữa, cải tạo nhà ở, công trình; không được
+sử dụng mái hoặc bất kỳ bộ phận nào của nhà ở, công trình vào những mục đích có thể vi phạm
+khoảng cách an toàn phóng điện theo cấp điện áp được quy định trong bảng sau:
+              Điện áp     Trên 01 kV đến 22 kV          35 kV            110kV       220 kV
+                           Dây bọc   Dây trần   Dây bọc     Dây trần    Dây trần    Dây trần
+        Khoảng cách an toàn 1,0 m     2,0 m      1,5 m       3,0 m       4,0 m       6,0 m
+             phóng điện
+              3. Trước khi xây dựng mới, sửa chữa, cải tạo nhà ở, công trình trong hành lang bảo vệ an
+toàn đường dây dẫn điện trên không thì tổ chức, cá nhân có trách nhiệm thực hiện các biện pháp bảo
+đảm an toàn đường dây dẫn điện trên không theo yêu cầu kỹ thuật tại khoản 4 Điều 8 Nghị định này.
+Cơ quan cấp phép xây dựng có trách nhiệm lấy ý kiến đơn vị quản lý vận hành lưới điện trước khi
+cấp phép xây dựng nhà ở, công trình trong hành lang bảo vệ an toàn.
+                 4. Cây trong và ngoài hành lang bảo vệ an toàn đường dây dẫn điện trên không phải bảo
+đảm các quy định tại Điều 15 Nghị định này.
+               5. Chủ sở hữu ao, hồ nơi đường dây dẫn điện trên không điện áp cao đi qua phải có trách
+nhiệm phối hợp với đơn vị quản lý vận hành cắm biển cảnh báo và không được câu cá trong hành
+lang bảo vệ an toàn đường dây dẫn điện trên không và khu vực có nguy cơ vi phạm khoảng cách an
+toàn phóng điện theo cấp điện áp.
+              6. Trong phạm vi 1.000 m tính từ mép ngoài công trình lưới điện cao áp, siêu cao áp trên
+không hoặc 500 m tính từ mép ngoài công trình lưới điện trung áp ra các phía xung quanh, tổ chức,
+cá nhân không được thả diều, vật thể bay trừ các thiết bị phục vụ quốc phòng, an ninh và của đơn vị
+quản lý vận hành công trình điện lực làm nhiệm vụ kiểm tra, vận hành và bảo trì công trình.
+        7. Tổ chức, cá nhân không được đắp đất, xếp các loại vật liệu, thiết bị hoặc đổ phế thải trong
+hành lang an toàn bảo vệ đường dây dẫn điện trên không làm thay đổi khoảng cách từ dây dẫn điện
+trên không đến mặt đất tự nhiên hoặc vi phạm khoảng cách an toàn về điện.
+        8. Khi tiến hành công việc gần hành lang hoặc trong hành lang bảo vệ đường dây dẫn điện
+trên không, tổ chức, cá nhân phải có biện pháp không để thiết bị, dụng cụ, phương tiện vi phạm
+khoảng cách an toàn phóng điện theo cấp điện áp được quy định trong bảng sau, trừ trường hợp tổ
+chức, cá nhân thực hiện công việc áp dụng công nghệ phù hợp hoặc do yêu cầu cấp bách của công
+tác quốc phòng, an ninh phải có sự thoả thuận bằng văn bản với đơn vị điện lực về các biện pháp
+bảo đảm an toàn cần thiết:
+              Điện áp    Trên 01 kV đến 35      110kV             220 kV           500 kV
+                                kV
+        Khoảng cách an toàn   2,0 m              3,0 m            4,0 m            6,0 m
+       phóng điện
+        Điều 5. Bảo vệ an toàn đường cáp điện ngầm
+            1. Chủ đầu tư, đơn vị quản lý, vận hành đường cáp điện ngầm trong đất, trong nước có trách
+nhiệm tuân thủ quy định pháp luật về xây dựng và tiêu chuẩn, quy chuẩn kỹ thuật tương ứng, lắp đặt
+dấu hiệu cảnh báo vị trí đường cáp điện ngầm. Dấu hiệu cảnh báo phải có kích thước, thông tin và
+đặt ở vị trí phù hợp để tổ chức, cá nhân nhận biết và tuân thủ các quy định của pháp luật về giao
+thông đường bộ, đường thủy nội địa hoặc quản lý cảng biển và luồng hàng hải.
+                2. Trong phạm vi hành lang bảo vệ an toàn đường cáp điện ngầm trong vùng nước thủy nội
+địa không được thực hiện các hoạt động neo đậu tàu thuyền, đánh bắt cá và các hoạt động khác có
+nguy cơ tác động cơ học đến đường cáp điện ngầm.
+          3. Khi thi công các công trình trên mặt đất, trong lòng đất hoặc nạo vét lòng sông, hồ, vùng
+biển trong phạm vi hành lang bảo vệ an toàn đường cáp điện ngầm, bên thi công phải thông báo
+trước ít nhất 10 ngày cho đơn vị quản lý vận hành đường cáp điện ngầm và thống nhất với đơn vị
+quản lý vận hành lưới điện về các biện pháp bảo đảm an toàn đường cáp điện ngầm và an toàn trong
+quá trình thi công xây dựng.
+        4. Tổ chức, cá nhân sử dụng đất hợp pháp trong hành lang bảo vệ an         toàn đường cáp điện
+ngầm trong đất phải có biện pháp ngăn chặn các hoạt động sử dụng đất gây tác động đến đường cáp
+điện ngầm, xả nước thải và các chất ăn mòn khác vào khu vực hành lang bảo vệ an toàn đường cáp
+điện ngầm.
+               5. Việc bảo vệ an toàn đường cáp điện ngầm trên biển phải tuân thủ quy định tại khoản 1
+
+Điều này và các quy định sau:
+            a) Chủ đầu tư đường cáp điện ngầm trên biến phải tiến hành thiết lập các tín hiệu cảnh báo,
+các biện pháp bảo vệ và thực hiện thông báo hàng hải theo quy định pháp luật về hàng hải;
+                  b) Trong hành lang bảo vệ an toàn đường cáp điện ngầm trên biển, các tổ chức, cá nhân
+không được đánh bắt cá và các hoạt động tác động đến trầm tích đáy biến. Trong phạm vi 02 hải lý
+tính từ mép ngoài cùng về 02 phía của đường cáp điện ngầm, các tàu thuyền không có nhiệm vụ
+không được thả neo, bảo đảm an toàn đường cáp điện ngầm.
+       Điều 6. Bảo vệ an toàn trạm điện
+           1. Chủ đầu tư, đơn vị quản lý vận hành công trình trạm điện có trách nhiệm tổ chức thực hiện
+các biện pháp bảo vệ an toàn đối với công trình trạm điện thuộc phạm vi quản lý.
+             2. Người sử dụng đất, sở hữu cây có trách nhiệm không để nhà ở, công trình, cây trồng trên
+phần đất của mình vi phạm hành lang bảo vệ an toàn trạm điện.
+                   3. Trong hành lang an toàn trạm điện không được tập trung đông người, dựng lều quán,
+buôn bán, để xe, buộc gia súc, trừ trường hợp kiểm tra, bảo dưỡng, sửa chữa trạm điện.
+                4. Nhà ở và công trình xây dựng gần hành lang bảo vệ an toàn của trạm điện phải bảo đảm
+không làm hư hỏng bất kỳ bộ phận nào của trạm điện; không xâm phạm đường ra vào trạm điện,
+đường cấp thoát nước của trạm điện, hành lang bảo vệ an toàn đường cáp điện ngầm và đường dây
+dẫn điện trên không của trạm điện; không làm cản trở hệ thống thông gió của trạm điện; không để
+cho nước thải xâm nhập làm hư hỏng công trình điện.
+                5. Đường ra vào trạm điện có điện áp từ 110 kV trở lên phải bảo đảm cho phương tiện cứu
+hộ, cứu nạn, chữa cháy di chuyển khi thực hiện nhiệm vụ.
+       Điều 7. Bảo vệ an toàn nhà máy phát điện và công trình điện lực khác
+       1. Yêu cầu chung về bảo vệ an toàn nhà máy điện và công trình điện lực khác
+                 a) Phải được bảo vệ nghiêm ngặt, xung quanh phải có tường rào hoặc biện pháp bảo vệ để
+ngăn chặn người không có nhiệm vụ vào nhà máy phát điện, công trình điện lực khác; lắp đặt biển
+báo an toàn điện theo quy định pháp luật;
+              b) Phòng đặt trang thiết bị điện phải có biển báo khu vực nguy hiểm, đường thoát hiểm, hệ
+thống chiếu sáng đầy đủ, hệ thống thông gió làm mát thiết bị, cửa thông gió phải có lưới bảo vệ
+chống sự xâm nhập của các loài động vật;
+       c) Tùy theo đặc tính kỹ thuật và yêu cầu bảo vệ của từng loại trang thiết bị điện, phải đặt lưới
+bảo vệ, vách ngăn và treo biển báo an toàn điện; phải bảo đảm khoảng cách an toàn từ lưới bảo vệ
+hoặc vách ngăn đến phần mang điện của trang thiết bị và có các biện pháp hạn chế tối đa ảnh hưởng
+xấu của môi trường đến hoạt động của trang thiết bị điện;
+               d) Hệ thống cáp điện trong nhà máy phát điện, công trình điện lực khác phải được sắp xếp
+trật tự theo chủng loại, tính năng kỹ thuật, cấp điện áp và được đặt trên các giá đỡ. Cáp điện đi qua
+khu vực có ảnh hưởng của nhiệt độ cao phải được cách nhiệt và đi trong ống bảo vệ;
+                  đ) Hầm cáp, mương cáp phải có nắp đậy kín, thoát nước tốt, bảo quản sạch sẽ, khô ráo.
+Không được để nước, dầu, hóa chất, tạp vật tích tụ trong hầm cáp, mương cáp. Hệ thống đèn chiếu
+sáng sử dụng điện áp an toàn phù hợp với quy chuẩn kỹ thuật điện và an toàn điện;
+         e) Các trang thiết bị và hệ thống chống sét, nối đất trong nhà máy điện và các công trình điện
+lực khác phải được lắp đặt đúng thiết kế và được kiểm tra nghiệm thu, kiểm tra định kỳ theo đúng quy
+chuẩn kỹ thuật về kỹ thuật điện và an toàn điện.
+              2. Công trình điện gió phải tuân thủ các quy định tại khoản 1 Điều này và các quy định an
+toàn sau:
+              a) Chủ đầu tư công trình điện gió có trách nhiệm công bố công khai mốc giới hành lang bảo
+vệ an toàn công trình điện gió;
+            b) Cột tháp gió, tuabin gió phải có tín hiệu cảnh báo hàng không theo quy định pháp luật về
+hàng không. Cánh quạt gió phải có dấu hiệu nhận biết phù hợp;
+        c) Đối với công trình điện gió trên biển, chủ đầu tư có trách nhiệm thiết lập, duy trì hệ thống
+quản lý an toàn bảo đảm kiểm soát các rủi ro trong toàn bộ hoạt động của công trình điện gió trên
+
+biển và thực hiện báo hiệu hàng hải theo quy định pháp luật về hàng hải Việt Nam. Trong phạm vi 02
+hải lý tính từ mép ngoài cùng của cột tháp gió, trạm biến áp, cầu dẫn cáp điện và các hạng mục phụ
+trợ của công trình điện gió các tàu thuyền không có nhiệm vụ không được thả neo, bảo đảm an toàn
+cột tháp gió;
+        d) Tổ chức, cá nhân sử dụng đất, mặt nước hợp pháp trong phạm vi hành lang bảo vệ an
+toàn công trình nguồn điện khi triển khai các hoạt động trong phạm vi trên mặt đất, dưới lòng đất, trên
+mặt nước, dưới mặt nước thuộc hành lang bảo vệ an toàn công trình nguồn điện phải có trách nhiệm
+bảo đảm an toàn kỹ thuật cho công trình nguồn điện và có sự thỏa thuận với chủ công trình nguồn
+điện về các biện pháp bảo đảm an toàn kỹ thuật cho công trình theo quy định.
+                       Điều 8. Trách nhiệm phối hợp trong xây dựng, cải tạo, sửa chữa hoặc mở rộng công
+trình điện lực và công trình khác
+                1. Khi xây dựng, cải tạo, sửa chữa hoặc mở rộng công trình xây dựng có khả năng gây ảnh
+hưởng đến công trình điện lực, chủ đầu tư công trình xây dựng phải phối hợp với đơn vị điện lực
+triển khai các nội dung:
+        a) Thực hiện các biện pháp bảo vệ an toàn cho người, công trình xây dựng;
+                   b) Thực hiện các biện pháp phòng ngừa, ngăn chặn nguy cơ vi phạm khoảng cách an toàn
+phóng điện theo cấp điện áp hoặc nguy cơ gây hư hỏng công trình điện lực theo hướng dẫn của đơn
+vị điện lực;
+            c) Chủ đầu tư và đơn vị thi công xây dựng, cải tạo, sửa chữa hoặc mở rộng công trình để xảy
+ra sự cố, tai nạn hoặc hư hỏng công trình điện lực phải có trách nhiệm bồi thường theo quy định của
+pháp luật về dân sự;
+                  d) Trường hợp chủ đầu tư xây dựng, cải tạo, sửa chữa hoặc mở rộng công trình xây dựng
+không phối hợp với đơn vị điện lực thực hiện theo điểm b khoản này thì đơn vị điện lực báo cáo Ủy
+ban nhân dân cấp xã hoặc cơ quan thẩm quyền cấp phép xây dựng để xử lý theo quy định của pháp
+luật.
+        2. Khi xây dựng, cải tạo, sửa chữa hoặc mở rộng trạm sạc điện (trừ các thiết bị/trụ sạc điện
+được lắp đặt vào công trình, hạng mục công trình để phục vụ cho tiện ích công trình và sử dụng cho
+phương tiện giao thông, các phương tiện, thiết bị khác hoặc sử dụng cá nhân):
+               a) Chủ đầu tư xây dựng trạm sạc điện có trách nhiệm thiết kế, xây dựng, cải tạo, mở rộng
+trạm sạc điện đáp ứng quy chuẩn kỹ thuật về kỹ thuật điện, an toàn điện và các tiêu chuẩn, quy
+chuẩn kỹ thuật khác có liên quan; bảo đảm các thiết bị sử dụng điện của trạm sạc điện hoạt động an
+toàn; không gây sự cố, không làm ảnh hưởng đến chất lượng điện áp, tần số của lưới điện; không
+làm ảnh hưởng đến nhà ở, công trình xung quanh; tuân thủ các quy định chung về an toàn điện quy
+định tại Điều 17 Nghị định này;
+                b) Đơn vị quản lý vận hành lưới điện có trách nhiệm phối hợp với chủ đầu tư cung cấp hạ
+tầng kỹ thuật điện an toàn cho trạm sạc điện.
+                3. Khi xây dựng, cải tạo, sửa chữa hoặc mở rộng công trình điện lực có khả năng gây ảnh
+hưởng đến nhà ở, công trình khác thì chủ đầu tư công trình điện lực có trách nhiệm bảo đảm an toàn
+cho người, nhà ở, công trình khác xung quanh và có trách nhiệm bồi thường thiệt hại cho người sử
+dụng đất khi làm hư hỏng đến nhà ở, công trình xung quanh theo quy định của pháp luật về dân sự.
+          4. Khi đơn vị điện lực khắc phục sự cố hoặc cải tạo, sửa chữa, bảo trì công trình điện lực mà
+phải triển khai trong khu vực đất thuộc quyền sử dụng của tổ chức, cá nhân khác thì người có quyền
+sử dụng đất có trách nhiệm tạo điều kiện thuận lợi để đơn vị điện lực tiếp cận công trình điện lực để
+kiểm tra, sửa chữa, bảo trì và khắc phục sự cố. Đơn vị điện lực có trách nhiệm sau đây:
+                a) Thông báo cho người sử dụng đất về kế hoạch sửa chữa, bảo trì định kỳ trước khi thực
+hiện tối thiểu 05 ngày;
+            b) Trường hợp kiểm tra, khắc phục sự cố công trình điện lực, đơn vị điện lực được phép tiếp
+cận ngay hiện trường để khắc phục sự cố, đồng thời có trách nhiệm thông báo ngay cho người sử
+dụng đất; nếu không thông báo được cho người sử dụng đất thì phải thông báo chính quyền địa
+phương gần nhất biết để phối hợp xử lý;
+              c) Trong quá trình kiểm tra, sửa chữa, bảo trì và khắc phục sự cố quy định tại khoản này,
+đơn vị điện lực có trách nhiệm bảo vệ an toàn tài sản của người sử dụng đất. Trường hợp gây thiệt
+
+hại cho người sử dụng đất thì đơn vị điện lực có trách nhiệm bồi thường theo quy định của pháp luật
+về dân sự.
+            5. Khi xây dựng, cải tạo nâng cấp đoạn đường dây dẫn điện trên không điện áp cao vượt qua
+nhà ở, công trình có người sinh sống, làm việc bên trong; khu vực chợ, quảng trường, bệnh viện,
+trường học, nơi tổ chức hội chợ, triển lãm, trung tâm thương mại, khu vui chơi giải trí, bến tàu, bến
+xe, nhà ga; công trình quan trọng liên quan đến an ninh quốc gia; khu di tích lịch sử - văn hóa, danh
+lam thắng cảnh đã được nhà nước xếp hạng, chủ đầu tư, đơn vị điện lực phải tăng cường các biện
+pháp an toàn điện đối với đường dây theo các quy định sau:
+         a) Cột phải là cột thép hoặc bê tông cốt thép; hệ số an toàn của cột, xà, móng cột không nhỏ
+hơn 1,2;
+        b) Trong một khoảng cột, dây dẫn điện và dây chống sét không được phép có mối nối, trừ
+dây dẫn điện có tiết diện từ 240 mm² trở lên cho phép có một mối nối cho một dây. Hệ số an toàn của
+dây dẫn điện, dây chống sét không nhỏ hơn 2,5;
+           c) Cách điện phải bố trí kép cùng chủng loại và đặc tính kỹ thuật. Dây dẫn điện, dây chống
+sét nếu mắc trên cách điện kiểu treo phải sử dụng khoá đỡ kiểu cố định. Hệ số an toàn của cách điện
+và các phụ kiện phải đáp ứng đúng tiêu chuẩn theo quy định hiện hành;
+              d) Khoảng cách từ điểm thấp nhất của dây dẫn điện ở trạng thái võng cực đại đến mặt đất
+phải bảo đảm khoảng cách an toàn trong bảng sau, trừ trường hợp cải tạo đường dây không có cấu
+phần xây dựng.
+        Điện áp            Trên 01 kV đến 35 kV             110kV            220 kV
+        Khoảng
+cách                       14 m                             15 m             18m
+           6. Các tổ chức, cá nhân có trách nhiệm thông báo kịp thời với đơn vị điện lực hoặc cơ quan
+nhà nước có thẩm quyền khi phát hiện các hiện tượng mất an toàn điện, các hành vi vi phạm quy
+định về bảo vệ công trình điện lực và an toàn điện.
+            7. Đường dây dẫn điện được lắp đặt vào công trình hạ tầng kỹ thuật sử dụng chung theo quy
+định của pháp luật về quản lý và sử dụng chung công trình hạ tầng kỹ thuật. Chủ đầu tư xây dựng,
+cải tạo đường dây dẫn điện có trách nhiệm phối hợp với chủ đầu tư/đơn vị quản lý, sử dụng công
+trình hạ tầng kỹ thuật sử dụng chung để thỏa thuận và thực hiện các biện pháp bảo đảm an toàn cho
+đường dây dẫn điện, công trình hạ tầng kỹ thuật sử dụng chung, cộng đồng theo quy định của pháp
+luật hiện hành và các tiêu chuẩn, quy chuẩn liên quan đến an toàn điện, an toàn cho công trình hạ
+tầng kỹ thuật.
+        8. Ủy ban nhân dân các cấp tại địa phương có trách nhiệm chỉ đạo, giải quyết, xử lý các vi
+phạm về bảo vệ công trình điện lực và vi phạm hành lang bảo vệ an toàn công trình điện lực theo quy
+định của pháp luật.
+        Điều 9. Hành lang bảo vệ an toàn đường dây dẫn điện trên không
+               1. Hành lang bảo vệ an toàn đường dây dẫn điện trên không là vùng xung quanh đường dây
+dẫn điện trên không được giới hạn bởi chiều dài, chiều rộng, chiều cao như sau:
+         a) Chiều dài hành lang bảo vệ an toàn được tính từ vị trí đường dây ra khỏi ranh giới bảo vệ
+của trạm này đến vị trí đường dây đi vào ranh giới bảo vệ của trạm kế tiếp;
+              b) Chiều rộng hành lang được giới hạn bởi hai mặt thẳng đứng về hai phía của đường dây,
+song song với đường dây, có khoảng cách từ dây ngoài cùng về mỗi phía khi dây ở trạng thái tĩnh
+theo quy định trong bảng sau:
+   Điện áp      Trên 01 kV đến 22 kV          35 kV            110kV          220 kV   500 kV
+                Dây bọc     Dây trần    Dây bọc    Dây trần   Dây trần       Dây trần Dây trần
+ Khoảng cách     1,0 m       2,0 m       1,5 m      3,0 m      4,0 m          6,0 m    7,0 m
+               c) Chiều cao hành lang được tính từ đáy móng cột đến điểm cao nhất của công trình cộng
+thêm khoảng cách an toàn theo chiều thẳng đứng quy định trong bảng sau:
+          Điện áp        Trên 01 kV đến 35      110 kV            220 kV           500 kV
+                                kV
+        Khoảng cách           2,0 m             3,0 m             4,0 m            6,0 m
+
+        2. Hành lang bảo vệ an toàn đường cáp điện có điện áp trên 1kV đi trên mặt đất hoặc trên
+không được giới hạn về các phía 0,5 m tính từ mặt ngoài của sợi cáp ngoài cùng trở ra.
+        Điều 10. Hành lang bảo vệ an toàn đường cáp điện ngầm
+        1. Chiều dài hành lang được tính từ vị trí cáp ra khỏi ranh giới phạm vi bảo vệ của trạm này
+đến vị trí vào ranh giới phạm vi bảo vệ của trạm kế tiếp.
+        2. Chiều rộng hành lang được giới hạn bởi:
+        a) Mặt ngoài của mương cáp đối với cáp đặt trong mương cáp;
+        b) Hai mặt thẳng đứng cách mặt ngoài của vỏ cáp hoặc sợi cáp ngoài cùng về hai phía của
+đường cáp điện ngầm đối với cáp đặt trực tiếp trong đất, trong nước được quy định trong bảng sau:
+  Loại cáp      Đặt trực tiếp trong đất          Đặt trong vùng nước sông, hồ         Đặt trong
+    điện    Đất ổn định   Đất không ổn  Nơi không có tàu thuyền  Nơi có tàu thuyền qua  vùng
+                              định               qua lại                 lại             biển
+Khoảng cách    1,0 m         1,5 m               20 m                   100 m          100 m
+        3. Chiều cao được tính từ mặt đất hoặc mặt nước đến:
+        a) Mặt ngoài của đáy móng mương cáp đối với cáp đặt trong mương cáp;
+        b) Độ sâu thấp hơn điểm thấp nhất của vỏ cáp là 1,5 m đối với cáp đặt trực tiếp trong đất
+hoặc trong nước.
+        Điều 11. Hành lang bảo vệ an toàn trạm điện
+        1. Đối với các trạm điện không có tường, rào bao quanh, hành lang bảo vệ an toàn là hình
+khối có chiều cao từ đáy móng cột đến điểm cao nhất của công trình cộng với khoảng cách an toàn
+theo cấp điện áp, chiều rộng được giới hạn bởi không gian bao quanh trạm điện có khoảng cách đến
+các bộ phận mang điện gần nhất của trạm điện theo quy định trong bảng sau:
+             Điện áp                             Trên 01 kV đến 22 kV        35 kV
+           Khoảng cách                                  2,0 m                3,0 m
+        2. Đối với trạm điện cỏ tường hoặc hàng rào cố định bao quanh, hành lang bảo vệ an toàn
+được giới hạn đến điểm ngoài cùng của móng, kè bảo vệ tường hoặc hàng rào; chiều cao hành lang
+được tính từ đáy móng sâu nhất của công trình trạm điện đến điểm cao nhất của trạm điện cộng
+thêm khoảng cách an toàn phóng điện theo cấp điện áp như sau:
+          Điện áp         Trên 01 kV đến 35 kV          110kV           220 kV        500 kV
+        Khoảng cách              2,0 m                  3,0 m           4,0 m         6,0 m
+        3. Đối với các trạm biến áp, trạm phân phối điện hợp bộ, trạm cách điện khí, trạm kín có vỏ
+bằng kim loại, hành lang bảo vệ được giới hạn đến mặt ngoài của phần vỏ kim loại.
+        Điều 12. Hành lang bảo vệ an toàn công trình điện gió và các công trình nguồn điện
+khác
+        1. Hành lang bảo vệ an toàn công trình điện gió
+        a) Hành lang bảo vệ an toàn công trình điện gió trên đất liền và trên bi ển được xác định gồm:
+Hành lang bảo vệ an toàn cột tháp gió; hành lang bảo vệ an toàn đường cáp điện ngầm hoặc trên
+không từ cột tháp gió đến trạm điện; hành lang bảo vệ an toàn trạm điện và hành lang bảo vệ đường
+dây truyền tải, phân phối của công trình điện gió đến điểm đấu nối và hành lang bảo vệ an toàn các
+hạng mục phụ trợ khác của công trình điện gió;
+        b) Hành lang bảo vệ an toàn cột tháp gió là vùng xung quanh cột tháp gió được giới hạn
+bằng nửa hình cầu có tâm là tâm của chân cột tháp gió, bán kính bằng khoảng cách tối đa từ tâm của
+chân cột tháp đến mép ngoài cùng cánh tua bin gió.
+        2. Căn cứ tình hình phát triển dự án nguồn điện từng thời kỳ, Bộ Công Thương chủ trì, phối
+hợp với các bộ, ngành, Ủy ban nhân dân cấp tỉnh xây dựng, trình Chính phủ ban hành quy định về
+hành lang bảo vệ an toàn đối với các công trình nguồn điện khác.
+        Điều 13. Khoảng cách an toàn ở các vị trí giao chéo giữa đường dây dẫn điện trên
+không với đường giao thông
+        1. Ở những đoạn giao chéo giữa đường dây dẫn điện trên không với đường sắt, chiều cao tối
+thiểu của dây dẫn điện tại điểm thấp nhất khi dây dẫn ở trạng thái võng cực đại bằng 4,5 m cộng với
+
+khoảng cách an toàn phóng điện theo cấp điện áp quy định tại khoản 5 Điều này.
+           Trường hợp điểm cao nhất trên phương tiện vận chuyển có chiều cao lớn hơn 4,5 m thì chủ
+phương tiện phải liên hệ với đơn vị quản lý công trình lưới điện cao áp để thực hiện các biện pháp an
+toàn cần thiết.
+           2. Ở những đoạn giao chéo giữa đường dây dẫn điện trên không với đường sắt dành cho tàu
+chạy điện, chiều cao tối thiểu của dây dẫn điện tại điểm thấp nhất khi dây dẫn ở trạng thái võng cực
+đại bằng 7,5 m cộng với khoảng cách an toàn phóng điện theo cấp điện áp quy định tại khoản 5 Điều
+này.
+            3. Ở những đoạn giao chéo giữa đường dây dẫn điện trên không với đường bộ. khoảng cách
+theo phương thẳng đứng tính từ điểm cao nhất của mặt đường bộ tới điểm thấp nhất của đường dây
+tải điện, dây dẫn điện đi phía trên đường bộ không nhỏ hơn chiều cao tĩnh không của đường bộ theo
+quy định của pháp luật về đường bộ cộng với khoảng cách an toàn phóng điện theo cấp điện áp quy
+định tại khoản 5 Điều này.
+             Trường hợp điểm cao nhất trên phương tiện vận chuyển có chiều cao lớn hơn khoảng cách
+quy định tại khoản này thì chủ phương tiện phải liên hệ với đơn vị quản lý công trình lưới điện cao áp
+để thực hiện các biện pháp an toàn cần thiết.
+              4. Ở những đoạn giao chéo giữa đường dây dẫn điện trên không với đường thủy nội địa,
+chiều cao tối thiểu của dây dẫn điện tại điểm thấp nhất khi dây dẫn ở trạng thái võng cực đại bằng
+chiều cao tĩnh không theo cấp kỹ thuật của đường thủy nội địa theo quy định của pháp luật về đường
+thủy nội địa cộng với khoảng cách an toàn phóng điện theo cấp điện áp quy định tại khoản 5 Điều
+này. Phương tiện vận tải thủy khi đi qua điểm giao chéo giữa đường dây dẫn điện trên không với
+đường thủy nội địa phải bảo đảm chiều cao không vượt quá chiều cao tĩnh không theo cấp kỹ thuật
+của đường thủy nội địa đó.
+              Khoảng cách an toàn của đường dây dẫn điện trên không giao chéo với tuyến giao thông
+đường biển được quy định cho từng trường hợp cụ thể.
+            5. Khoảng cách an toàn phóng điện theo cấp điện áp ở các điểm giao chéo với đường giao
+thông được quy định trong bảng sau đây:
+               Cấp điện áp                 Trên 01 kV đến    110kV        220 kV      500 kV
+                                               35 kV
+Khoảng cách an toàn phóng điện tại khoản       3,0 m          3,0 m       4,0 m       7,5 m
+1, khoản 2 Điều này
+Khoảng cách an toàn phóng điện tại khoản       2,5 m          2,5 m       3,5 m       5,5 m
+3 Điều này
+Khoảng cách an toàn phóng điện tại khoản       1,5 m          2,0 m       3,0 m       4,5 m
+4 Điều này
+        Điều 14. Sử dụng đất thuộc hành lang bảo vệ an toàn công trình điện lực
+       1. Người sử dụng đất thuộc hành lang bảo vệ an toàn công trình điện lực có trách nhiệm tuân
+thủ quy định tại khoản 3, khoản 5, khoản 6, khoản 7 và khoản 8 Điều 68 Luật Điện lực.
+              2. Trường hợp sử dụng đất thuộc hành lang bảo vệ an toàn công trình điện lực gây ảnh
+hưởng đến an toàn công trình điện lực thì người sử dụng đất phải phối hợp với đơn vị điện lực thực
+hiện các biện pháp khắc phục như sau:
+          a) Triển khai các biện pháp khắc phục nhằm bảo đảm nhà ở, công trình đáp ứng yêu cầu tại
+Điều 16 Nghị định này;
+          b) Việc triển khai các biện pháp khắc phục phải được thực hiện ngay sau khi có thông báo
+của đơn vị điện lực. Chi phí triển khai các biện pháp khắc phục tại điểm a khoản này do chủ đầu tư
+công trình hình thành sau chi trả;
+        c) Việc xây dựng, cải tạo nhà ở, công trình trong hành lang bảo vệ an toàn công trình điện
+lực phải đáp ứng quy định tại khoản 4 Điều 8 Nghị định này. Chi phí cải tạo công trình điện lực do chủ
+đầu tư công trình xây dựng, cải tạo nhà ở chi trả.
+         3. Trường hợp hành lang bảo vệ an toàn công trình điện lực chồng lấn với hành lang bảo vệ
+các công trình khác, việc phân định ranh giới quản lý theo nguyên tắc sau đây:
+         a) Trường hợp chồng lấn với hành lang an toàn đường sắt, việc phân định ranh giới quản lý
+
+theo nguyên tắc ưu tiên bố trí hành lang an toàn cho đường sắt. Việc quản lý, sử dụng hành lang an
+toàn đường sắt không được làm ảnh hưởng đến an toàn vận hành công trình điện lực;
+                 b) Trường hợp chồng lấn với hành lang bảo vệ đường thủy nội địa, việc quản lý, sử dụng
+hành lang bảo vệ đường thủy nội địa không được ảnh hưởng đến an toàn vận hành công trình điện;
+        c) Đối với công trình điện lực nằm trong phạm vi bảo vệ đê điều theo quy định của Luật Đê
+điều hoặc có hành lang bảo vệ an toàn chồng lấn với hành lang bảo vệ đê điều, việc phân định ranh
+giới quản lý và sử dụng đất được thực hiện theo nguyên tắc ưu tiên bố trí thực hiện theo quy định
+của pháp luật về đê điều;
+               d) Trường hợp công trình điện lực đi chung với đường bộ hoặc có hành lang bảo vệ an toàn
+chồng lấn với hành lang an toàn đường bộ, công trình có sau phải có biện pháp đảm bảo an toàn cho
+công trình có trước. Việc quản lý, sử dụng hành lang an toàn đường bộ không được làm ảnh hưởng
+đến an toàn vận hành công trình điện lực;
+          đ) Tại các vị trí công trình điện lực chồng lấn, giao chéo nhau, hành lang an toàn công trình
+điện lực được xác định theo công trình có cấp kỹ thuật cao hơn; các công trình liền kề nhau được xác
+định hành lang an toàn công trình theo công trình có cấp điện áp cao hơn.
+               4. Ủy ban nhân dân các cấp trong phạm vi nhiệm vụ, quyền hạn của mình có trách nhiệm chủ
+trì, phối hợp với chủ đầu tư công trình điện lực lập và thực hiện kế hoạch giải phóng mặt bằng, di
+dân, tái định cư, bồi thường thiệt hại về đất đai, tài sản theo quy định của pháp luật về đất đai; quản
+lý, bảo vệ diện tích đất dành cho dự án và hành lang an toàn của công trình điện lực.
+                     Điều 15. Cây trong và ngoài hành lang bảo vệ an toàn đường dây dẫn điện trên không
+điện áp cao
+        1. Cây trong hành lang bảo vệ an toàn đường dây dẫn điện trên không điện áp cao
+               a) Đối với đường dây dẫn điện có điện áp đến 35 kV trong thành phố, thị xã, thị trấn thì
+khoảng cách từ điểm bất kỳ của cây đến dây dẫn điện ở trạng thái võng cực đại không nhỏ hơn
+khoảng cách quy định trong bảng sau:
+                    Điện áp                                        Đến 35 kV
+                  Khoảng cách                           Dây bọc                 Dây trần
+                                                         0,7 m                    1,5 m
+             b) Đối với đường dây có điện áp từ 110 kV đến 500 kV trong thành phố, thị xã, thị trấn thì
+khoảng cách từ điểm bất kỳ của cây đến dây dẫn thấp nhất khi đang ở trạng thái võng cực đại không
+nhỏ hơn khoảng cách quy định trong bảng sau, trừ trường hợp đặc biệt phải có biện pháp kỹ thuật
+đảm bảo an toàn và được Ủy ban nhân dân cấp tỉnh cho phép.
+          Điện áp               110kV                   220 kV                   500 kV
+        Khoảng cách             2,0 m                  Dây trần
+                                                        3,0 m                   4,5 m
+        c) Đối với đường dây ngoài thành phố, thị xã, thị trấn thì khoảng cách từ điểm cao nhất của
+cây theo chiều thẳng đứng đến độ cao của dây dẫn thấp nhất khi đang ở trạng thái võng cực đại
+không nhỏ hơn khoảng cách quy định trong bảng sau:
+          Điện áp              Đến 35 kV               110kV          220 kV           500 kV
+        Khoảng cách     Dây bọc        Dây trần                     Dây trần
+                         0,7 m           2,0 m         3,0 m          4,0 m            6,0 m
+                  d) Đường dây dẫn điện trên không vượt qua rừng đặc dụng, rừng phòng hộ, rừng sản xuất
+có nguồn gốc là rừng tự nhiên thuộc dự án đầu tư xây dựng công trình điện lực phải bảo đảm khoảng
+cách theo phương thẳng đứng từ chiều cao trung bình của cây đã phát triển tối đa đến dây dẫn điện
+thấp nhất khi dây ở trạng thái võng cực đại không nhỏ hơn quy định tại điểm c khoản này, đối với
+những cây cao vượt quá chiều cao trung bình của cây đã phát triển tối đa thì được phép chặt tỉa cành
+cây hoặc hạ chiều cao của cây để bảo đảm khoảng cách an toàn phóng điện. Việc chặt tỉa cành cây
+hoặc hạ chiều cao của cây phải bảo đảm tuân thủ quy định của pháp luật về lâm nghiệp.
+            đ) Cây trong hành lang và có trước khi có thông báo thu hồi đất để xây dựng công trình lưới
+điện có nguy cơ vi phạm khoảng cách an toàn phóng điện tại điểm a, điểm b, điểm c khoản này thì
+chủ đầu tư công trình lưới điện có trách nhiệm kiểm tra, chặt, tỉa cây và thực hiện bồi thường theo
+quy định của pháp luật.
+        2. Cây ngoài hành lang bảo vệ an toàn đường dây dẫn điện trên không điện áp cao
+
+             a) Khoảng cách từ bộ phận bất kỳ của cây khi cây bị đổ đến bộ phận bất kỳ của đường dây
+dẫn điện không nhỏ hơn khoảng cách an toàn phóng điện theo cấp điện áp quy định trong bảng sau:
+          Điện áp              Đến 35 kV              110kV và 220 kV            500 kV
+        Khoảng cách              0,7 m                     1,0 m                 2,0 m
+        b) Cây trong thành phố, thị xã, thị trấn không đáp ứng khoảng cách tại điểm a khoản này phải
+có biện pháp kỹ thuật bảo đảm an toàn và được Ủy ban nhân dân cấp tỉnh chấp thuận;
+         c) Cây có trước khi có thông báo thu hồi đất để xây dựng công trình lưới điện có nguy cơ vi
+phạm khoảng cách an toàn phóng điện tại điểm a khoản này thì chủ đầu tư công trình lưới điện có
+trách nhiệm kiểm tra, chặt, tỉa cây và thực hiện bồi thường theo quy định của pháp luật.
+        3. Lúa, hoa màu chỉ được trồng cách mép móng cột điện, móng néo ít nhất là 0,5 m.
+        4. Người sử dụng đất, chủ sở hữu cây có trách nhiệm thường xuyên kiểm tra, kịp thời chặt tỉa
+phân cây có nguy cơ vi phạm khoảng cách an toàn phóng điện theo cấp điện áp của đường dây dẫn
+điện trên không.
+        5. Đơn vị điện lực có trách nhiệm thường xuyên kiểm tra hành lang bảo vệ an toàn đường
+dây dẫn điện trên không do mình quản lý, khi phát hiện nguy cơ cây vi phạm khoảng cách an toàn
+phóng điện theo cấp điện áp của đường dây dẫn điện trên không phải kịp thời thông báo, hướng dẫn
+và phối hợp với người sử dụng đất, sở hữu cây chặt tỉa phần cây có nguy cơ vi phạm bảo đảm an
+toàn cho người, thiết bị và công trình điện lực. Trường hợp người sử dụng đất, sở hữu cây không
+thực hiện việc chặt tỉa phần cây vi phạm theo quy định tại khoản 4 Điều này, đơn vị điện lực báo cáo
+Ủy ban nhân dân các cấp tại địa phương để xử lý chặt tỉa bảo đảm an toàn.
+              Điều 16. Điều kiện để nhà ở, công trình xây dựng tồn tại trong và gần hành lang bảo vệ
+an toàn đường dây dẫn điện trên không
+             1. Nhà ở, công trình xây dựng tồn tại trong hành lang bảo vệ an toàn đường dây dẫn điện
+trên không có điện áp đến 220 kV phải đáp ứng đủ các điều kiện sau:
+            a) Mái lợp và tường bao phải làm bằng vật liệu không cháy và bảo đảm kết cấu an toàn xây
+dựng;
+               b) Không gây cản trở đường ra vào để kiểm tra, bảo dưỡng, sửa chữa và thay thế các bộ
+phận công trình lưới điện;
+            c) Khoảng cách từ bất kỳ bộ phận nào của nhà ở, công trình đến dây dẫn điện gần nhất khi
+dây ở trạng thái võng cực đại không nhỏ hơn khoảng cách an toàn quy định trong bảng sau:
+       Điện áp             Trên 01 kV đến 35 kV              110kV               220 kV
+     Khoảng cách                  3,0 m                      4,0 m               6,0 m
+             d) Đối với đường dây dẫn điện trên không có điện áp 220 kV, ngoài đáp ứng các điều kiện
+quy định tại điểm a, b, c khoản này còn phải đáp ứng yêu cầu sau: cường độ điện trường nhỏ hơn 5
+kV/m tại điểm bất kỳ ở ngoài nhà cách mặt đất 01 m và nhỏ hơn hoặc bằng 1 kV/m tại điểm bất kỳ ở
+bên trong nhà cách mặt đất 01 m; các kết cấu kim loại của công trình phải được nối đất phù hợp với
+tiêu chuẩn, quy chuẩn kỹ thuật tương ứng.
+              2. Nhà ở, công trình có người sinh sống và làm việc gần hành lang bảo vệ an toàn đường
+dây dẫn điện trên không có cấp điện áp từ 500 kV trở lên phải bảo đảm cường độ điện trường nhỏ
+hơn 5 kV/m và các kết cấu kim loại của công trình phải được nối đất phù hợp với tiêu chuẩn, quy
+chuẩn kỹ thuật tương ứng.
+           3. Nhà ở, công trình phục vụ sinh hoạt của hộ gia đình, cá nhân không phải di dời ra khỏi
+hành lang bảo vệ an toàn đường dây dẫn điện áp cao trên không điện áp đến 220 kV theo quy định
+tại khoản 1 Điều này thì tổ chức, cá nhân sở hữu nhà ở, công trình phục vụ sinh hoạt được bồi
+thường, hỗ trợ do làm hạn chế khả năng sử dụng và ảnh hưởng trong sinh hoạt. Việc bồi thường, hỗ
+trợ được thực hiện 01 lần như sau:
+            a) Nhà ở, công trình phục vụ sinh hoạt có một phần hoặc toàn bộ diện tích nằm trong hành
+lang bảo vệ an toàn đường dây dẫn điện áp cao trên không, được xây dựng trên đất đủ điều kiện bồi
+thường về đất theo quy định của pháp luật về đất đai trước ngày có thông báo thu hồi đất của cơ
+quan có thẩm quyền thì chủ sở hữu nhà ở, công trình phục vụ sinh hoạt được bồi thường, hỗ trợ
+phần diện tích trong hành lang bảo vệ an toàn đường dây dẫn điện áp cao trên không. Mức bồi
+thường, hỗ trợ cụ thể do Ủy ban nhân dân cấp tỉnh căn cứ tình hình thực tế tại địa phương quy định;
+
+                b) Trường hợp nhà ở, công trình phục vụ sinh hoạt được xây dựng trên đất không đủ điều
+kiện được bồi thường về đất theo quy định của pháp luật về đất đai, Ủy ban nhân dân cấp tỉnh xem
+xét, hỗ trợ dựa trên điều kiện thực tế của từng địa phương;
+          c) Nhà, công trình tồn tại trong hành lang nhưng chưa đáp ứng điều kiện quy định tại điểm a,
+khoản 1 Điều này thì Ủy ban nhân dân cấp tỉnh chỉ đạo các cơ quan chức năng xem xét hỗ trợ cải tạo
+nhằm đáp ứng các điều kiện tại điểm a khoản 1 Điều này;
+              d) Trường hợp nhà ở, công trình không thể cải tạo được để đáp ứng điều kiện quy định tại
+khoản 1 Điều này, mà phải dỡ bỏ hoặc di dời thì chủ sở hữu nhà ở, công trình được bồi thường, hỗ
+trợ theo quy định của pháp luật về đất đai.
+              4. Nhà ở, công trình phục vụ sinh hoạt của hộ gia đình, cá nhân nằm gần hành lang bảo vệ
+an toàn và giữa hai đường dây dẫn điện trên không điện áp 500 kV, có khoảng cách theo phương
+nằm ngang giữa hai dây dẫn pha ngoài cùng gần nhất của hai đường dây nhỏ hơn hoặc bằng 60 m
+thì chủ sở hữu nhà ở, công trình phục vụ sinh hoạt được lựa chọn một trong hai hình thức xử lý sau:
+            a) Được bồi thường, hỗ trợ để di dời như đối với nhà ở, công trình nằm trong hành lang bảo
+vệ an toàn phải giải tỏa theo quy định của pháp luật về bồi thường, hỗ trợ, tái định cư khi nhà nước
+thu hồi đất;
+       b) Nếu không có nhu cầu di dời thì phải có văn bản đề nghị được ở lại gửi Ủy ban nhân dân
+các cấp nơi có nhà ờ, công trình trong thời hạn 15 ngày, kể từ ngày có thông báo thu hồi đất của cơ
+quan có thẩm quyền để đầu tư xây dựng đường dây 500 kV xây dựng sau và được bồi thường, hỗ
+trợ do giảm khả năng sử dụng đất như đối với đất trong hành lang bảo vệ an toàn công trình theo quy
+định của pháp luật về đất đai.
+                                           Chương III
+                                        AN TOÀN ĐIỆN
+       Điều 17. Quy định chung về an toàn điện
+          1. Chủ đầu tư công trình điện lực, đơn vị quản lý vận hành, xây dựng, sửa chữa, cải tạo công
+trình điện lực và các hoạt động sử dụng điện cho sản xuất có trách nhiệm ngoài việc tuân thủ các quy
+định tại Điều 69 Luật Điện lực, phải tuân thủ các quy định sau về an toàn điện sau:
+           a) Có đầy đủ nội quy, quy trình, nhật ký vận hành, hồ sơ quản lý về an toàn điện trên cơ sở
+quy chuẩn kỹ thuật quốc gia về an toàn điện;
+       b) Có đầy đủ sơ đồ lưới điện, dụng cụ, phương tiện bảo vệ cá nhân, biển cấm, biển báo về
+an toàn điện theo quy định;
+       c) Người lao động được bố trí làm công việc xây dựng, sửa chữa, cải tạo, quản lý, vận hành
+hệ thống điện, công trình điện lực; kiểm định thiết bị, dụng cụ điện; thí nghiệm, thử nghiệm, xây lắp,
+bảo trì và sửa chữa đường dây điện hoặc thiết bị điện phải được đào tạo về nghiệp vụ, kỹ thuật phù
+hợp yêu cầu ngành nghề và được huấn luyện, cấp thẻ an toàn điện theo quy định của pháp luật;
+                 d) Sử dụng dây dẫn điện, thiết bị điện bảo đảm chất lượng sản phẩm, hàng hóa theo quy
+định và phù hợp với tiêu chuẩn, quy chuẩn kỹ thuật và các quy định pháp luật có liên quan;
+              đ) Tổ chức hoặc tham gia tuyên truyền, phổ biến pháp luật, kiến thức, kỹ năng về an toàn
+điện;
+             e) Thực hiện việc thống kê, báo cáo về sự cố, tai nạn điện theo quy định tại Điều 20 Nghị
+định này.
+              2. Chủ đầu tư hoặc đơn vị quản lý vận hành trạm điện có trách nhiệm thực hiện đo, vẽ bản
+đồ cường độ điện trường theo quy chuẩn kỹ thuật về an toàn điện. Tại các khu vực có cường độ điện
+trường từ 5 kV/m trở lên phải áp dụng quy định về thời gian cho phép làm việc trong một ngày làm
+việc theo quy định.
+       Điều 18. Biển cấm, biển báo, tín hiệu cảnh báo về an toàn điện
+          1. Chủ đầu tư, đơn vị quản lý vận hành công trình điện lực có trách nhiệm đặt biển cấm, biển
+báo an toàn điện tại các trạm điện, cột điện và các vị trí giao chéo giữa đường dây dẫn điện trên
+không, đường cáp điện ngầm với đường sắt, đường bộ, đường thủy nội địa phù hợp với quy chuẩn
+kỹ thuật về an toàn điện và các quy định của pháp luật về đường bộ, đường sắt, đường thủy nội địa.
+
+       2. Các cột điện phải được sơn màu trắng, đỏ từ khoảng chiều cao 50 m trở lên và phải đặt
+đèn tín hiệu trên đỉnh cột trong các trường hợp sau:
+       a) Cột điện cao từ 80 m trở lên;
+       b) Cột điện cao trên 50 m đến dưới 80 m nhưng ở vị trí có yêu cầu đặc biệt.
+       3. Tại điểm thấp nhất nơi giao chéo giữa đường dây dẫn điện trên không điện áp 220 kV trở
+lên với đường thủy nội địa, phải có báo hiệu phù hợp để các phương tiện giao thông đường thủy
+nhận biết được về ban đêm.
+       4. Trường hợp đường dây dẫn điện trên không nằm trong phạm vi vùng trời lân cận của sân
+bay việc sơn cột, đặt đèn báo hiệu theo quy định của pháp luật về quản lý độ cao chướng ngại vật
+hàng không.
+       5. Dọc theo đường cáp điện ngầm trong đất, chủ công trình phải đặt cột mốc hoặc dấu hiệu
+nhận biết đường cáp.
+       6. Đường cáp ngầm đặt trong nước phải có báo hiệu chỉ vị trí đường cáp, theo quy định của
+pháp luật về giao thông đường thủy nội địa hoặc quản lý cảng biển và luồng hàng hải.
+       7. Hình thức, quy cách biển báo an toàn điện và vị trí treo, lắp biển báo an toàn điện phải phù
+hợp với quy chuẩn kỹ thuật về an toàn điện.
+       Điều 19. Khắc phục sự cố, tai nạn điện
+       1. Trường hợp xảy ra sự cố, tai nạn điện, đơn vị quản lý vận hành công trình điện lực trong
+phạm vi nhiệm vụ, quyền hạn của mình có trách nhiệm xử lý, khắc phục sự cố hệ thống điện theo quy
+định của pháp luật, cấp cứu, sơ tán người ra khỏi khu vực nguy hiểm.
+       2. Trường hợp xảy ra sự cố, tai nạn điện nghiêm trọng đến mức thảm họa thì việc ban bố
+tình trạng khẩn cấp và áp dụng các biện pháp ứng phó được thực hiện theo quy định của pháp luật
+về tình trạng khẩn cấp.
+       Điều 20. Chế độ báo cáo về an toàn điện và vi phạm hành lang bảo vệ an toàn công
+trình điện lực
+       1. Ngoài việc thực hiện khai báo tai nạn theo quy định của pháp luật về an toàn, vệ sinh lao
+động, đơn vị quản lý vận hành công trình điện lực phải báo cáo cơ quan cấp trên (nếu có) và Sở
+Công Thương tại địa phương cụ thể như sau:
+       a) Báo cáo nhanh tai nạn điện chết người trong vòng 24 giờ kể từ khi tai nạn xảy ra;
+       b) Báo cáo về an toàn điện và vi phạm hành lang bảo vệ an toàn công trình điện lực định kỳ
+hàng năm. Thời gian chốt số liệu báo cáo từ ngày 01 tháng 01 đến ngày 31 tháng 12 hằng năm. Thời
+hạn gửi báo cáo trước ngày 10 tháng 01 năm sau.
+       2. Sở Công Thương có trách nhiệm báo cáo Ủy ban nhân dân cấp tỉnh và Bộ Công Thương
+về tình hình an toàn điện và vi phạm hành lang bảo vệ an toàn công trình điện lực trên địa bàn định
+kỳ hàng năm trước ngày 30 tháng 01 năm sau.
+       3. Nội dung báo cáo tại khoản 1, khoản 2 Điều này theo mẫu tại Phụ lục 1 ban hành kèm theo
+Nghị định này.
+       Điều 21. Trách nhiệm của tổ chức, cá nhân sử dụng điện về bảo đảm an toàn trong sử
+dụng điện cho mục đích sinh hoạt, dịch vụ
+       1. Việc xây dựng, lắp đặt hệ thống cung cấp điện trong nhà ở, công trình phải đáp ứng quy
+chuẩn kỹ thuật về hệ thống điện trong nhà ở, công trình theo quy định của pháp luật về xây dựng và
+quy chuẩn kỹ thuật về kỹ thuật điện theo quy định pháp luật về điện lực.
+       2. Khi ký hợp đồng mua bán điện cho mục đích sinh hoạt, dịch vụ, tổ chức, cá nhân sử dụng
+điện phải đăng ký đầy đủ thông tin về hệ thống điện cho bên bán điện như sau:
+       a) Tổng nhu cầu công suất sử dụng điện của nhà ở, công trình theo thực tế sử dụng;
+       b) Bảng kê các thiết bị và công suất sử dụng điện trong nhà ở, công trình;
+       c) Các thiết bị bảo vệ chống quá dòng đối với hệ thống điện trong nhà ở, công trình.
+       3. Lắp đặt, sử dụng thiết bị, dụng cụ điện phải bảo đảm về chất lượng sản phẩm, hàng hóa
+
+và tuân thủ hướng dẫn, bảo quản, bảo dưỡng của nhà sản xuất. Trong quá trình sử dụng điện, tổ
+chức, cá nhân có trách nhiệm thường xuyên kiểm tra an toàn hệ thống cung cấp điện từ sau công tơ
+mua điện đến tất cả các dây dẫn, thiết bị điện của mình; tổ chức sửa chữa, thay thế dây dẫn, thiết bị
+điện không bảo đảm tiêu chuẩn, chất lượng. Khi nhu cầu sử dụng công suất tăng cao hơn so với
+đăng ký, tổ chức, cá nhân sử dụng điện phải thông báo cho bên bán điện để có phương án cấp điện
+phù hợp.
+           4. Khi xảy ra sự cố chập, cháy hệ thống cung cấp điện trong nhà ở, công trình, tổ chức, cá
+nhân sử dụng điện có trách nhiệm sau:
+            a) Cắt điện, có biện pháp ngăn ngừa nguy cơ gây cháy lan sang đồ vật, trang thiết bị khác
+trong nhà ở, công trình; thực hiện cứu nạn, cứu hộ;
+        b) Kiểm tra nguyên nhân, khắc phục sự cố hệ thống cung cấp điện;
+            c) Trường hợp sự cố vượt quá khả năng xử lý của mình, phải thông báo kịp thời cho cơ quan
+chức năng liên quan tại địa phương, bên bán điện và các tổ chức, cá nhân xung quanh để phối hợp
+xử lý.
+                    Điều 22. Trách nhiệm của đơn vị bán điện trong việc bảo đảm an toàn trong sử dụng
+điện cho mục đích sinh hoạt, dịch vụ
+                1. Khi ký hợp đồng mua bán điện và cấp điện cho tổ chức, cá nhân sử dụng điện cho mục
+đích sinh hoạt, dịch vụ phải yêu cầu tổ chức, cá nhân cung cấp thông tin về hệ thống điện trong nhà
+ở, công trình và nhu cầu sử dụng điện năng theo quy định tại khoản 2 Điều 21 Nghị định này; có trách
+nhiệm cung cấp cho tổ chức, cá nhân sử dụng điện các thông tin về nguy cơ gây mất an toàn trong
+sử dụng điện và các biện pháp bảo đảm an toàn điện, cụ thể như sau:
+           a) Phổ biến, tuyên truyền các quy định của pháp luật về trách nhiệm đảm bảo an toàn của tổ
+chức, cá nhân sử dụng điện theo quy định của Luật Điện lực và Điều 21 Nghị định này;
+            b) Việc trao đổi thông tin đến tổ chức, cá nhân sử dụng điện phải được quy định trong hợp
+đồng mua bán điện và không giới hạn bởi các hình thức như bằng văn bản, bằng ứng dụng trực
+tuyến và các phương tiện thông tin khác.
+           2. Ứng dụng công nghệ số trong việc thông tin cho tổ chức, cá nhân sử dụng điện về nguy cơ
+mất an toàn điện trong quá trình sử dụng điện:
+          a) Triển khai, cung cấp các ứng dụng công nghệ số để kịp thời gửi thông tin đến tổ chức, cá
+nhân sử dụng điện khi có sự cố trên lưới điện do đơn vị điện lực quản lý hoặc nguy cơ sự cố do bão;
+               b) Ứng dụng công nghệ số trong công tác xây dựng tài liệu hướng dẫn, tuyên truyền, phổ
+biến kiến thức, kỹ năng sử dụng điện an toàn cho tổ chức, cá nhân sử dụng điện.
+               3. Định kỳ hàng năm chủ trì hoặc phối hợp với cơ quan quản lý nhà nước về điện lực các
+cấp, Ủy ban nhân dân cấp huyện, đơn vị truyền thông tổ chức các hoạt động tuyên truyền, phổ biến,
+hướng dẫn, nâng cao nhận thức cho tổ chức, cá nhân sử dụng điện an toàn.
+            4. Khi có yêu cầu của cơ quan có thẩm quyền, đơn vị bán điện có trách nhiệm phối hợp kiểm
+tra an toàn hệ thống điện của tổ chức, cá nhân sử dụng điện an toàn, trường hợp phát hiện có nguy
+cơ mất an toàn phải kịp thời có biện pháp ngăn chặn hoặc ngừng cung cấp điện theo quy định.
+                                           Chương IV
+                 HUẤN LUYỆN, SÁT HẠCH, XẾP BẬC, CẤP THẺ AN TOÀN ĐIỆN
+        Điều 23. Trách nhiệm huấn luyện, sát hạch và cấp thẻ an toàn điện
+            1. Người làm công việc xây dựng, sửa chữa, cải tạo, quản lý, vận hành hệ thống điện, công
+trình điện lực, kiểm định, thí nghiệm, xây lắp, sửa chữa đường dây điện hoặc thiết bị điện phải được
+huấn luyện, sát hạch và cấp thẻ an toàn điện.
+                2. Người sử dụng lao động có trách nhiệm tổ chức hoặc thuê đơn vị đủ năng lực tổ chức
+huấn luyện, sát hạch, cấp thẻ an toàn điện cho người lao động thuộc đối tượng tại khoản 1 Điều này.
+               3. Hoạt động huấn luyện an toàn điện được tổ chức riêng hoặc kết hợp với các hoạt động
+huấn luyện an toàn khác được pháp luật quy định.
+        Điều 24. Nội dung huấn luyện phần lý thuyết
+
+        Nội dung huấn luyện phần lý thuyết được xây dựng theo từng công việc cụ thể tương ứng
+với bậc an toàn điện quy định tại Điều 27 Nghị định này, bao gồm:
+        1. Nội dung huấn luyện chung
+        a) Hệ thống văn bản pháp luật về an toàn điện;
+        b) Sơ đồ hệ thống điện, các yêu cầu bảo đảm an toàn cho hệ thống điện;
+        c) Biện pháp tổ chức để bảo đảm an toàn khi tiến hành công việc: Khảo sát, lập biên bản hiện
+trường (nếu cần); lập kế hoạch; đăng ký lịch công tác; tổ chức các đơn vị công tác; làm việc theo
+Phiếu công tác hoặc Lệnh công tác; thủ tục cho phép làm việc; giám sát an toàn trong thời gian làm
+việc; thủ tục cho phép làm thủ tục kết thúc công việc và đóng điện trở lại;
+        d) Biện pháp kỹ thuật chuẩn bị nơi làm việc an toàn: cắt điện và ngăn chặn có điện trở lại nơi
+làm việc; kiểm tra không còn điện; nối đất; lập rào chắn, thiết lập vùng làm việc an toàn, treo biển
+cấm, biển báo;
+        đ) Cách nhận biết và biện pháp loại trừ nguy cơ gây sự cố, rủi ro và tai nạn tại nơi làm việc
+và phương pháp tách nạn nhân ra khỏi nguồn điện, sơ cấp cứu người bị tai nạn điện;
+        e) Tính năng, tác dụng, cách sử dụng, cách bảo quản, quy định về kiểm tra (thí nghiệm, kiểm
+định) các trang thiết bị an toàn, phương tiện, dụng cụ làm việc phù hợp với công việc của người lao
+động.
+        2. Nội dung huấn luyện cho người làm công việc vận hành đường dây điện
+        a) Nhận diện mối nguy và đưa ra biện pháp kiểm soát trong công việc vận hành đường dây;
+        b) Quy trình vận hành, quy trình xử lý sự cố đường dây điện;
+        c) An toàn trong việc: Kiểm tra đường dây điện; làm việc trên đường dây điện đã cắt điện
+hoặc có điện; chặt, tỉa cây trong và gần hành lang bảo vệ an toàn đường dây điện; làm việc trên cao.
+        3. Nội dung huấn luyện cho người làm công việc vận hành thiết bị, trạm điện:
+        a) Nhận diện mối nguy và đưa ra biện pháp kiểm soát trong công việc vận hành trạm điện;
+        b) Quy trình vận hành, quy trình xử lý sự cố, quy định an toàn cho thiết bị điện, trạm điện;
+        c) An toàn trong việc: Kiểm tra thiết bị điện; đưa thiết bị điện vào hoặc ngừng vận hành; làm
+việc với các thiết bị điện.
+        4. Nội dung huấn luyện cho người làm công việc xây lắp điện
+        a) Nhận diện mối nguy và đưa ra biện pháp kiểm soát trong công việc xây lắp điện;
+        b) An toàn trong việc đào, đổ móng cột; đào mương cáp ngầm;
+        c) An toàn trong việc lắp, dựng cột, xà, xứ;
+        d) An toàn trong việc rải, căng dây dẫn, dây chống sét;
+        đ) An toàn trong việc lắp đặt thiết bị điện.
+        5. Nội dung huấn luyện cho người làm công việc thí nghiệm điện, kiểm định
+        a) Nhận diện mối nguy và đưa ra biện pháp kiểm soát trong công việc thí nghiệm điện, kiểm
+định;
+        b) Quy trình kiểm định, quy trình thí nghiệm, quy định an toàn khi sử dụng các thiết bị khi
+thực hiện kiểm định, thí nghiệm;
+        c) An toàn điện trong việc tiến hành thử nghiệm, kiểm định các thiết bị, dụng cụ điện.
+        6. Nội dung huấn luyện cho người làm công việc sửa chữa đường dây điện, thiết bị điện
+        a) Nhận diện mối nguy và đưa ra biện pháp kiểm soát trong công việc sửa chữa đường dây
+điện, thiết bị điện;
+        b) Đối với đường dây điện: An toàn trong việc sửa chữa trên đường dây điện đã cắt điện
+hoặc có điện đi độc lập hoặc trong vùng ảnh hưởng của đường dây khác đang vận hành;
+        c) Đối với thiết bị điện: An toàn trong khi làm việc với từng loại thiết bị điện.
+
+        7. Nội dung huấn luyện cho người làm công việc treo, tháo, kiểm tra, kiểm định hệ thống đo,
+đếm điện năng tại vị trí lắp đặt:
+        a) Nhận diện mối nguy và đưa ra biện pháp kiểm soát trong công việc treo, tháo, kiểm tra,
+kiểm định hệ thống đo, đếm điện năng;
+        b) An toàn trong việc treo, tháo, kiểm tra, kiểm định hệ thống đo, đếm điện năng tại vị trí lắp
+đặt khi có điện hoặc không có điện.
+        8. Nội dung huấn luyện cho điều độ viên hệ thống điện
+        a) Nhận diện mối nguy và đưa ra biện pháp kiểm soát trong công việc điều độ viên;
+        b) Các quy trình quy định liên quan đến điều độ, thao tác, xử lý sự cố, các quy trình vận hành
+thiết bị thuộc quyền điều khiến;
+        c) An toàn khi thao tác, xử lý sự cố, giao nhận đường dây, thiết bị điện thuộc quyền điều
+khiển giữa điều độ viên với trực ban đơn vị quản lý vận hành.
+        Điều 25. Nội dung huấn luyện phần thực hành
+        1. Cách sử dụng, bảo quản, kiểm tra, thí nghiệm, kiểm định các trang thiết bị an toàn,
+phương tiện, dụng cụ làm việc phù hợp với công việc của người lao động.
+        2. Phương pháp tách người bị điện giật ra khỏi nguồn điện, đưa người bị nạn từ trên cao
+xuống và sơ cứu người bị tai nạn điện.
+        3. Những nội dung thao tác liên quan đến việc bảo đảm an toàn phù hợp với công việc của
+người lao động.
+        4. Những nội dung liên quan đến biện pháp tổ chức và biện pháp kỹ thuật khi thực hiện công
+việc.
+        Điều 26. Tổ chức huấn luyện
+        1. Người sử dụng lao động, đơn vị tổ chức huấn luyện có trách nhiệm:
+        a) Xây dựng tài liệu huấn luyện, sát hạch và quy định thời gian huấn luyện phù hợp với bậc
+an toàn và vị trí công việc của người lao động;
+        b) Lựa chọn người huấn luyện, sát hạch bảo đảm năng lực theo quy định tại khoản 2 Điều
+này;
+        c) Tổ chức huấn luyện, sát hạch, xếp bậc và cấp thẻ an toàn điện cho người lao động sau khi
+kiểm tra đạt yêu cầu. Trường hợp kết quả kiểm tra phần lý thuyết hoặc phần thực hành không đạt
+yêu cầu thì phải huấn luyện lại phần chưa đạt;
+        d) Quản lý, theo dõi công tác huấn luyện, sát hạch, xếp bậc và cấp thẻ an toàn điện tại đơn
+vị.
+        2. Người huấn luyện, sát hạch về an toàn điện
+        a) Người huấn luyện, sát hạch phần lý thuyết phải có trình độ đại học trở lên phù hợp với
+chuyên ngành huấn luyện và có ít nhất 05 năm kinh nghiệm công tác phù hợp với chuyên ngành đó;
+        b) Người huấn luyện, sát hạch phần thực hành có trình độ cao đẳng trở lên, thông thạo và có
+ít nhất 05 năm kinh nghiệm làm công việc phù hợp với chuyên ngành huấn luyện.
+        3. Hình thức và thời gian huấn luyện, sát hạch
+        a) Hình thức huấn luyện: Huấn luyện phần lý thuyết được thực hiện thông qua hình thức trực
+tiếp hoặc trực tuyến; huấn luyện phần thực hành được thực hiện thông qua hình thức trực tiếp;
+        b) Huấn luyện lần đầu: Thực hiện khi người lao động mới được tuyển dụng. Thời gian huấn
+luyện lần đầu ít nhất 24 giờ;
+        c) Huấn luyện định kỳ: Thực hiện trong hạn tối đa 2 năm kể từ ngày người lao động được
+huấn luyện lần gần nhất. Thời gian huấn luyện định kỳ ít nhất 08 giơ;
+        d) Huấn luyện lại: Khi người lao động chuyển đổi vị trí công việc hoặc thay đổi bậc an toàn
+hoặc có sự thay đổi thiết bị, công nghệ; khi kết quả kiểm tra của người lao động không đạt yêu cầu
+hoặc khi người lao động đã nghỉ làm việc từ 6 tháng trở lên sau đó trở lại làm việc. Thời gian huấn
+
+luyện lại ít nhất 08 giờ.
+        4. Tùy theo điều kiện cụ thể, người sử dụng lao động có thể tổ chức huấn luyện riêng về an
+toàn điện theo nội dung quy định tại Nghị định này hoặc kết hợp huấn luyện các nội dung về an toàn
+lao động, vệ sinh lao động, phòng cháy chữa cháy hoặc phối hợp với đơn vị huấn luyện khác được
+pháp luật quy định.
+        Điều 27. Bậc an toàn điện
+        Thẻ an toàn điện được phân thành 5 bậc an toàn, từ bậc 1/5 đến 5/5 với kết quả sát hạch cả
+lý thuyết và thực hành đều phải đạt từ 80% trở lên.
+        1. Yêu cầu đối với bậc 1/5:
+        a) Kết quả huấn luyện lần đầu về lý thuyết và thực hành đạt 80% trở lên;
+        b) Có kiến thức về những quy định chung để đảm bảo an toàn khi thực hiện công việc được
+giao;
+        c) Sử dụng và quản lý trang thiết bị an toàn, phương tiện, dụng cụ làm việc được giao đúng
+quy định;
+        d) Có kiến thức về sơ cứu người bị điện giật.
+        2. Yêu cầu đối với bậc 2/5:
+        a) Hiểu rõ những quy định chung và biện pháp bảo đảm an toàn khi thực hiện công việc
+được giao;
+        b) Sử dụng và quản lý trang thiết bị an toàn, phương tiện, dụng cụ làm việc được giao đúng
+quy định;
+        c) Hiểu rõ phương pháp tách nạn nhân ra khỏi nguồn điện;
+        d) Có kiến thức về sơ cứu người bị điện giật.
+        3. Yêu cầu đối với bậc 3/5:
+        a) Yêu cầu như đối với bậc 2/5;
+        b) Có khả năng phát hiện vi phạm, hành vi không an toàn;
+        c) Có kỹ năng kiểm tra, giám sát người làm việc ở đường dây hoặc thiết bị điện.
+        4. Yêu cầu đối với bậc 4/5
+        a) Yêu cầu như đối với bậc 3/5;
+        b) Hiểu rõ trách nhiệm, phạm vi thực hiện của từng đơn vị công tác khi cùng tham gia thực
+hiện công việc;
+        c) Có kỹ năng lập biện pháp an toàn để thực hiện công việc và tổ chức giám sát, theo dõi
+công nhân làm việc;
+        d) Có khả năng phân tích, điều tra sự cố, tai nạn điện.
+        5. Yêu cầu đối với bậc 5/5:
+        a) Yêu cầu như đối với bậc 4/5;
+        b) Có kỹ năng phối hợp với các đơn vị công tác khác, lãnh đạo công việc, tổ chức tiến hành
+các biện pháp an toàn và kiểm tra theo dõi thực hiện công việc.
+        Điều 28. Những công việc được làm theo bậc an toàn điện
+        1. Bậc 1/5 được làm những phần công việc sau:
+        a) Được làm các công việc không tiếp xúc với thiết bị hoặc dây dẫn mang điện;
+        b) Tham gia phụ việc cho đơn vị công tác làm việc trên thiết bị điện, đường dây điện.
+        2. Bậc 2/5 được làm những phần công việc sau:
+        a) Làm phần công việc của bậc 1/5;
+
+       b) Làm việc tại nơi đã được cắt điện hoàn toàn.
+       3. Bậc 3/5 được làm những phần công việc sau:
+       a) Làm phần công việc của bậc 2/5;
+       b) Làm việc tại nơi được cắt điện từng phần;
+       c) Làm việc trực tiếp với đường dây điện, thiết bị điện hạ áp đang mang điện;
+       d) Thực hiện thao tác trên lưới điện áp cao;
+       đ) Kiểm tra trạm điện, đường dây điện đang vận hành;
+       e) Cấp lệnh công tác, chỉ huy trực tiếp, cho phép đơn vị công tác vào làm việc, giám sát đơn
+vị công tác làm việc trên đường dây điện, thiết bị điện hạ áp.
+       4. Bậc 4/5 được làm những phần công việc sau:
+       a) Làm phần công việc của bậc 3/5;
+       b) Làm việc trực tiếp với đường dây điện, thiết bị điện áp cao đang mang điện;
+       c) Cấp phiếu công tác, lệnh công tác, chỉ huy trực tiếp, cho phép đơn vị công tác vào làm
+việc, giám sát đơn vị công tác làm việc trên đường dây điện, thiết bị điện áp cao.
+       5. Bậc 5/5 làm toàn bộ công việc thuộc phạm vi được giao.
+       Điều 29. Thẻ an toàn điện
+       1. Thẻ an toàn điện được cấp bằng thẻ giấy hoặc thẻ điện tử theo mẫu tại Phụ lục II ban
+hành kèm theo Nghị định này.
+       2. Người sử dụng lao động hoặc đơn vị tổ chức huấn luyện, sát hạch tiến hành cấp thẻ an
+toàn điện trong các trường hợp sau đây:
+       a) Sau khi người lao động được huấn luyện lần đầu và sát hạch đạt yêu cầu;
+       b) Khi người lao động chuyển đổi công việc;
+       c) Khi người lao động làm mất, làm hỏng thẻ;
+       d) Khi người lao động thay đổi bậc an toàn.
+       3. Sử dụng thẻ
+       a) Thời hạn sử dụng: Từ khi được cấp cho đến khi thu hồi;
+       b) Trong suốt quá trình làm việc, người lao động phải mang theo và xuất trình Thẻ an toàn
+điện theo yêu cầu của người cho phép, người sử dụng lao động và những người có thẩm quyền.
+       4. Thu hồi thẻ an toàn điện
+       Người sử dụng lao động tiến hành thu hồi thẻ an toàn điện đã cấp cho người lao động trong
+các trường hợp sau đây:
+       a) Khi người lao động chuyển làm công việc khác hoặc không tiếp tục làm việc tại tổ chức,
+đơn vị cũ;
+       b) Thẻ cũ, nát hoặc mờ ảnh hoặc các ký tự ghi trên thẻ;
+       c) Vi phạm quy trình, quy định về an toàn điện;
+       d) Khi được cấp thẻ mới.
+       5. Người sử dụng lao động, đơn vị huấn luyện có trách nhiệm lưu giữ đầy đủ hồ sơ huấn
+luyện trong thời gian tối thiểu 02 năm và xuất trình khi cơ quan quản lý nhà nước yêu cầu.
+                                           Chương V
+                              AN TOÀN CÔNG TRÌNH THỦY ĐIỆN
+       Điều 30. Phân loại công trình thủy điện
+       Công trình thủy điện được phân loại để phục vụ công tác quản lý, vận hành bảo đảm an toàn
+công trình:
+
+        1. Công trình thủy điện quan trọng đặc biệt thuộc một trong các trường hợp sau:
+        a) Đập có chiều cao từ 100 m trở lên hoặc công trình có hồ chứa quy định tại điểm b, điểm c
+khoản này;
+        b) Hồ chứa thủy điện có dung tích toàn bộ từ 1.000.000.000 m³ trở lên;
+        c) Hồ chứa thủy điện có dung tích từ 500.000.000 m³ đến dưới 1.000.000.000 m³ mà vùng hạ
+du đập là thành phố, thị xã, khu công nghiệp, công trình quan trọng liên quan đến an ninh quốc gia;
+        d) Nhà máy thủy điện có công suất lắp máy trên 1000 MW.
+        2. Công trình thủy điện lớn thuộc một trong các trường hợp sau:
+        a) Đập có chiều cao từ 15 m đến dưới 100 m hoặc công trình có hồ chứa nước quy định tại
+điểm c khoản này;
+        b) Đập có chiều cao từ 10 m đến dưới 15 m và chiều dài đập từ 500 m trở lên hoặc đập có
+chiều cao từ 10 m đến dưới 15 m và có lưu lượng tràn xả lũ thiết kế trên 2.000 m³/s;
+        c) Hồ chứa thủy điện có dung tích toàn bộ từ 3.000.000 m³ đến dưới 1.000.000.000 m³, trừ
+hồ chứa quy định tại điểm c khoản 1 Điều này;
+        d) Nhà máy thủy điện có công suất lắp máy từ trên 50 MW đến 1000 MW.
+        3. Công trình thủy điện vừa thuộc một trong các trường hợp sau:
+        a) Đập có chiều cao từ 10 m đến dưới 15 m hoặc đập của hồ chứa thủy điện quy định tại
+điểm b khoản này, trừ đập quy định tại điểm b khoản 2 Điều này;
+        b) Hồ chứa thủy điện có dung tích toàn bộ từ 500.000 m³ đến dưới 3.000.000 m³;
+        c) Nhà máy thủy điện có công suất lắp máy từ trên 30 MW đến 50 MW.
+        4. Công trình thủy điện nhỏ thuộc một trong các trường hợp sau
+        a) Đập có chiều cao từ 5 m đến dưới 10 m;
+        b) Hồ chứa thủy điện có dung tích toàn bộ từ 50.000 m³ đến dưới 500.000 m³;
+        c) Nhà máy thủy điện có công suất lắp máy từ 30 MW trở xuống.
+        5. Thẩm quyền quyết định danh mục công trình thủy điện
+        a) Bộ Công Thương chủ trì, phối hợp với Ủy ban nhân dân cấp tỉnh có công trình thủy điện
+trên địa bàn, trình Thủ tướng Chính phủ quyết định danh mục công trình thủy điện quan trọng đặc
+biệt;
+        b) Bộ trưởng Bộ Công Thương quyết định danh mục công trình thủy điện lớn, vừa, nhỏ được
+xây dựng trên địa bàn 02 tỉnh trở lên;
+        c) Ủy ban nhân dân cấp tỉnh quyết định danh mục công trình thủy điện trên địa bàn, trừ công
+trình thủy điện quy định tại điểm a, điểm b khoản này.
+        Điều 31. Phân cấp công trình thủy điện
+        Công trình thủy điện được phân cấp theo Quy chuẩn kỹ thuật quốc gia về thủy điện và phù
+hợp với quy định của pháp luật về xây dựng nhằm phục vụ công tác thiết kế, thi công, xây dựng,
+quan trắc, kiểm định an toàn, bảo trì, bảo dưỡng công trình thủy điện.
+        Điều 32. Quy trình vận hành hồ chứa thủy điện
+        1. Quy trình vận hành hồ chứa thủy điện phải tuân thủ quy định của pháp luật về điện lực, tài
+nguyên nước, pháp luật khác có liên quan và phù hợp với quy trình vận hành liên hồ chứa được cấp
+thẩm quyền phê duyệt.
+        2. Chủ đầu tư công trình thủy điện lập quy trình vận hành hồ chứa thủy điện, trình cơ quan
+nhà nước có thẩm quyền phê duyệt trước khi tích nước lần đầu và bàn giao cho đơn vị quản lý vận
+hành công trình thủy điện, các cơ quan quản lý nhà nước về thủy điện, tài nguyên nước và phòng,
+chống thiên tai;
+        3. Nội dung quy trình vận hành hồ chứa thủy điện
+        a) Cơ sở pháp lý để lập quy trình, nguyên tắc vận hành công trình, thông số kỹ thuật chủ yếu,
+
+nhiệm vụ công trình;
+        b) Quy định quy trình vận hành cửa van (nếu có); quy định cụ thể về vận hành hồ chứa thủy
+điện trong mùa lũ, mùa kiệt trong trường hợp bình thường và trong trường hợp xảy ra hạn hán, thiếu
+nước, xâm nhập mặn, lũ, ngập lụt, úng, ô nhiễm nguồn nước và trong tình huống khẩn cấp;
+              c) Quy định chế độ quan trắc, cung cấp thông tin về quan trắc khí tượng thủy văn chuyên
+dùng theo quy định;
+            d) Công tác cảnh báo khi vận hành cửa xả trong trường hợp bình thường và trong tình huống
+khẩn cấp, cảnh báo khi vận hành phát điện bao gồm: Quy định khoảng thời gian tối thiểu phải thông
+báo trước khi vận hành mở cửa xả đầu tiên; tín hiệu cảnh báo, thời điểm cảnh báo, vị trí cảnh báo;
+trách nhiệm của các tổ chức, cá nhân trong việc phát lệnh, truyền lệnh, thực hiện lệnh vận hành các
+cửa xả; trách nhiệm của các tổ chức, cá nhân trong việc phát tin, truyền tin, nhận tin cảnh báo
+đóng/mở cửa xả;
+        đ) Vận hành hồ chứa đảm bảo quy định về dòng chảy tối thiểu (nếu có);
+              e) Quy định trách nhiệm và quyền hạn của chủ sở hữu, đơn vị quản lý vận hành công trình
+thủy điện, các tổ chức cá nhân khác có liên quan trong việc thực hiện quy trình vận hành hồ chứa
+thủy điện;
+           g) Quy định về tổ chức thực hiện và trường hợp sửa đổi, bổ sung quy trình vận hành hồ chứa
+thủy điện.
+             4. Trách nhiệm thực hiện quy trình vận hành hồ chứa thủy điện đã được cấp thẩm quyền phê
+duyệt:
+          a) Đơn vị quản lý vận hành công trình thủy điện có trách nhiệm: vận hành theo quy trình vận
+hành hồ chứa thủy điện, quy trình vận hành liên hồ chứa được cơ quan nhà nước có thẩm quyền phê
+duyệt; tuân thủ các quy định của pháp luật về an toàn công trình thủy điện, tài nguyên nước; ghi chép
+hoạt động vận hành hồ chứa thủy điện vào nhật ký vận hành dưới hình thức bản giấy, bản điện tử
+hoặc phần mềm chuyên dụng khác do chủ sở hữu công trình quyết định;
+           b) Chủ sở hữu công trình thủy điện có trách nhiệm: công bố công khai quy trình vận hành hồ
+chứa đã được cấp thẩm quyền phê duyệt; tuân thủ các quy định của pháp luật về an toàn công trình
+thủy điện, tài nguyên nước; tổ chức kiểm tra, giám sát đơn vị quản lý vận hành thực hiện quy trình
+vận hành hồ chứa, quy trình vận hành liên hồ chứa đã được cấp thẩm quyền phê duyệt;
+        c) Chủ tịch Ủy ban nhân dân cấp tỉnh có trách nhiệm chỉ đạo kiểm tra, giám sát việc thực hiện
+quy trình vận hành hồ chứa, quy trình vận hành liên hồ chứa thuộc phạm vi quản lý của tỉnh; chỉ đạo
+việc đảm bảo an toàn, quyết định biện pháp xử lý các sự cố khẩn cấp đối với công trình thủy điện
+thuộc phạm vi quản lý; báo cáo Thủ tướng Chính phủ trong tình huống khẩn cấp vượt quá khả năng
+ứng phó của địa phương;
+             d) Trưởng Ban Chỉ huy phòng thủ dân sự cấp tỉnh có trách nhiệm tổ chức thường trực, theo
+dõi chặt chẽ diễn biến mưa, lũ, quyết định phương án điều tiết, ban hành lệnh vận hành hồ chứa và
+quyết định vận hành xả lũ khẩn cấp đối với công trình thủy điện trên địa bàn quản lý theo thẩm quyền
+và nhiệm vụ được giao; báo cáo Trưởng Ban Chỉ đạo Phòng thủ dân sự Quốc gia trong tình huống
+khẩn cấp vượt quá khả năng ứng phó của địa phương;
+              đ) Bộ trưởng Bộ Công Thương có trách nhiệm chỉ đạo, tổ chức kiểm tra việc thực hiện quy
+trình vận hành hồ chứa, quy trình vận hành liên hồ chứa đã được cơ quan nhà nước có thẩm quyền
+phê duyệt; chỉ đạo việc triển khai các biện pháp ứng phó trong tình huống khẩn cấp, quyết định biện
+pháp xử lý các sự cố khẩn cấp đối với công trình thủy điện theo thẩm quyền quản lý; báo cáo Thủ
+tướng Chính phủ và Trưởng Ban Chỉ đạo Phòng thủ dân sự Quốc gia trong tình huống khẩn cấp
+vượt quá khả năng ứng phó của bộ;
+               e) Trưởng Ban Chỉ đạo Phòng thủ dân sự Quốc gia có trách nhiệm chỉ đạo công tác phòng,
+chống lũ, ngập lụt vùng hạ du đập theo thẩm quyền và trách nhiệm được giao; chỉ đạo, hỗ trợ các
+biện pháp ứng phó với tình huống khẩn cấp trong trường hợp vượt quá khả năng của bộ, ngành, địa
+phương.
+        Điều 33. Hồ sơ, trình tự, thủ tục thẩm định, phê duyệt quy trình vận hành hồ chứa thủy
+điện
+        1. Hồ sơ trình thẩm định, phê duyệt quy trình vận hành hồ chứa thủy điện
+
+               Chủ sở hữu công trình thủy điện nộp 01 bộ hồ sơ đề nghị phê duyệt quy trình vận hành hồ
+chứa thủy điện trực tiếp hoặc gửi qua đường bưu điện hoặc gửi qua dịch vụ công trực tuyến đến cơ
+quan tiếp nhận hồ sơ theo quy định tại khoản 2 Điều này; chịu trách nhiệm về tính pháp lý, độ tin cậy,
+chính xác của các tài liệu sử dụng trong hồ sơ quy trình vận hành hồ chứa thủy điện. Hồ sơ bao gồm:
+       a) Tờ trình đề nghị phê duyệt quy trình vận hành hồ chứa thủy điện (bản chính);
+            b) Dự thảo quy trình vận hành hồ chứa thủy điện theo Mẫu tại Phụ lục III ban hành kèm theo
+Nghị định này (bản dự thảo đóng dấu giáp lai);
+       c) Báo cáo thuyết minh và phụ lục kết quả tính toán kỹ thuật (bản chính);
+              d) Mặt bằng tổng thể công trình thủy điện và các bản vẽ mặt bằng, mặt cắt chính thể hiện
+công trình, hạng mục công trình (đập, hồ chứa thủy điện, nhà máy, tuyến năng lượng) (bản sao y);
+               đ) Văn bản góp ý kiến của các tổ chức, đơn vị quản lý, vận hành công trình đập, hồ chứa
+nước trên cùng lưu vực (bản sao y);
+          e) Báo cáo thẩm tra kết quả tính toán quy trình vận hành hồ chứa thủy điện (nếu có) (bản sao
+y);
+       g) Các tài liệu liên quan khác kèm theo (bản sao y).
+       2. Cơ quan tiếp nhận hồ sơ, thẩm định quy trình vận hành hồ chứa thủy điện.
+              a) Cục Kỹ thuật an toàn và Môi trường công nghiệp tiếp nhận hồ sơ, tổ chức thẩm định quy
+trình vận hành hồ chứa thủy điện thuộc thẩm quyền phê duyệt của Bộ Công Thương;
+                  b) Sở Công Thương tiếp nhận hồ sơ, tổ chức thẩm định quy trình vận hành hồ chứa thủy
+điện thuộc thẩm quyền phê duyệt của Ủy ban nhân dân cấp tỉnh;
+                     c) Trường hợp Ủy ban nhân dân cấp tỉnh phân cấp cho Ủy ban nhân dân cấp huyện phê
+duyệt quy trình vận hành hồ chứa thủy điện trên địa bàn 01 huyện, thì Ủy ban nhân dân cấp huyện
+giao cơ quan chuyên môn thuộc phạm vi quản lý là cơ quan tiếp nhận hồ sơ, thẩm định quy trình vận
+hành hồ chứa thủy điện.
+       3. Trình tự thẩm định quy trình vận hành hồ chứa thủy điện
+             a) Trong thời hạn 03 ngày làm việc kể từ ngày nhận hồ sơ, cơ quan tiếp nhận xem xét, kiểm
+tra; trường hợp hồ sơ không hợp lệ, cơ quan tiếp nhận thông báo bằng văn bản cho tổ chức đề nghị
+phê duyệt quy trình vận hành hồ chứa để hoàn chỉnh theo quy định;
+             b) Trong thời hạn 30 ngày kể từ ngày nhận đủ hồ sơ hợp lệ, cơ quan tiếp nhận tổ chức thẩm
+định và trình cấp có thẩm quyền xem xét phê duyệt. Trường hợp không đủ điều kiện phê duyệt, cơ
+quan tiếp nhận thông báo bằng văn bản cho chủ sở hữu công trình để bổ sung, hoàn thiện hồ sơ.
+       4. Trong quá trình thẩm định, cơ quan thẩm định có trách nhiệm như sau:
+                a) Đối với quy trình vận hành hồ chứa thủy điện thuộc thẩm quyền phê duyệt của Bộ Công
+Thương, cơ quan thẩm định lấy ý kiến tổ chức có liên quan; trình cấp thẩm quyền lấy ý kiến các bộ,
+Ủy ban nhân dân cấp tỉnh có liên quan;
+                 b) Đối với quy trình vận hành hồ chứa thủy điện thuộc thẩm quyền phê duyệt của Ủy ban
+nhân dân cấp tỉnh, cơ quan thẩm định lấy ý kiến Ủy ban nhân dân cấp huyện, tổ chức liên quan;
+             c) Các bộ, Ủy ban nhân dân cấp tỉnh và các tổ chức có liên quan có trách nhiệm gửi ý kiến
+bằng văn bản trong thời hạn 7 ngày kể từ ngày nhận được văn bản đề nghị của cơ quan thẩm quyền
+thẩm định, phê duyệt quy trình vận hành hồ chứa thủy điện.
+                 5. Cơ quan thẩm quyền phê duyệt quy trình vận hành, chủ sở hữu có trách nhiệm công bố
+công khai quy trình vận hành hồ chứa thủy điện trên cổng thông tin điện tử hoặc trang thông tin điện
+tử của cơ quan phê duyệt, chủ sở hữu, trụ sở đơn vị quản lý vận hành và Ủy ban nhân dân cấp xã.
+           6. Hồ sơ, trình tự, thủ tục thẩm định, phê duyệt điều chỉnh quy trình vận hành hồ chứa thủy
+điện:
+          a) Hồ sơ trình thẩm định, phê duyệt bao gồm các tài liệu theo điểm a, điểm b, điểm c khoản 1
+Điều này.
+              b) Cơ quan tiếp nhận hồ sơ tại khoản 2 Điều này có trách nhiệm xem xét, thẩm định hồ sơ,
+trình cấp thẩm quyền phê duyệt theo trình tự tại khoản 3, khoản 4 Điều này.
+
+        7. Trường hợp quy trình vận hành hồ chứa thủy điện sau 5 năm thực hiện còn phù hợp,
+không có nội dung điều chỉnh, bổ sung thì chủ sở hữu công trình thủy điện có trách nhiệm báo cáo cơ
+quan thẩm quyền phê duyệt quy trình vận hành hồ chứa thủy điện cho phép tiếp tục được sử dụng
+quy trình vận hành hồ chứa thủy điện. Cơ quan thẩm quyền xem xét quyết định việc cho phép tiếp tục
+sử dụng quy trình vận hành đã được cấp thẩm quyền phê duyệt hoặc yêu cầu chủ sở hữu trình phê
+duyệt điều chỉnh quy trình vận hành hồ chứa thủy điện theo khoản 6 Điều này.
+        Điều 34. Phương án ứng phó tình huống khẩn cấp
+        1. Chủ sở hữu, đơn vị quản lý vận hành công trình thủy điện có trách nhiệm lập, trình cơ
+quan nhà nước có thẩm quyền phê duyệt phương án ứng phó tình huống khẩn cấp và tổ chức thực
+hiện phương án sau khi được phê duyệt.
+        2. Nội dung phương án ứng phó tình huống khẩn cấp
+        a) Kịch bản vận hành hồ chứa trong tình huống khẩn cấp hoặc vỡ đập;
+        b) Bản đồ ngập lụt vùng hạ du đập trong tình huống khẩn cấp hoặc vỡ đập:
+        Bản đồ ngập lụt vùng hạ du đập được xây dựng và công bố và bàn giao cho chủ sở hữu
+công trình thủy điện theo quy định của pháp luật về quản lý an toàn đập, hồ chứa nước.
+        Tại các khu vực chưa được cơ quan thẩm quyền phê duyệt và công bố bản đồ ngập lụt vùng
+hạ du đập, Chủ đầu tư công trình thủy điện có trách nhiệm khảo sát, tính toán, để xác định phạm vi
+vùng hạ du đập bị ảnh hưởng và mức độ ngập lụt vùng hạ du đập khi hồ chứa xả nước theo quy
+trình, xả lũ trong tình huống khẩn cấp hoặc vỡ đập phục vụ việc xây dựng phương án ứng phó tình
+huống khẩn cấp;
+        c) Các tình huống khẩn cấp hoặc vỡ đập; dự kiến và kế hoạch ứng phó;
+        d) Thống kê các đối tượng bị ảnh hưởng, mức độ ảnh hưởng theo các kịch bản;
+        đ) Quy định về chế độ, phương thức thông tin, cảnh báo, báo động đến chính quyền địa
+phương, cơ quan quản lý nhà nước, phòng chống thiên tai và người dân khu vực bị ảnh hưởng;
+        e) Kế hoạch ứng phó phù hợp với từng tình huống lũ, ngập lụt ở vùng hạ du công trình;
+        g) Nguồn lực tổ chức thực hiện phương án;
+        h) Trách nhiệm của chủ sở hữu, đơn vị quản lý công trình thủy điện, chính quyền các cấp và
+các cơ quan, đơn vị liên quan.
+        3. Hồ sơ trình thẩm định, phê duyệt phương án ứng phó tình huống khẩn cấp
+        Chủ sở hữu công trình thủy điện nộp 01 bộ hồ sơ trực tiếp hoặc gửi qua đường bưu điện
+hoặc qua cổng dịch vụ công trực tuyến đến cơ quan tiếp nhận hồ sơ quy định tại khoản 5 Điều này;
+chịu trách nhiệm về tính pháp lý, độ tin cậy, chính xác của các tài liệu sử dụng trong hồ sơ phương
+án ứng phó với tình huống khẩn cấp. Hồ sơ bao gồm:
+        a) Tờ trình đề nghị phê duyệt (bản chính).
+        b) Dự thảo phương án ứng phó với tình huống khẩn cấp theo mẫu phương án tại Phụ lục IV
+ban hành kèm theo Nghị định này (bản dự thảo đóng dấu giáp lai);
+        c) Báo cáo kết quả tính toán kỹ thuật (bản sao y);
+        d) Văn bản góp ý kiến của các cơ quan, đơn vị liên quan (bản sao y);
+        đ) Các tài liệu liên quan khác kèm theo (bản sao y).
+        4. Thẩm quyền phê duyệt phương án ứng phó với tình huống khẩn cấp
+        a) Ủy ban nhân dân cấp tỉnh phê duyệt phương án ứng phó tình huống khẩn cấp đối với công
+trình thủy điện trên địa bàn 01 tỉnh. Trường hợp công trình thủy điện thuộc địa bàn từ 02 tỉnh trở lên,
+thì Ủy ban nhân dân cấp tỉnh có thẩm quyền ra lệnh vận hành hồ chứa có trách nhiệm chủ trì phê
+duyệt phương án ứng phó tình huống khẩn cấp sau khi lấy ý kiến của Ủy ban nhân dân cấp tỉnh có
+liên quan;
+        b) Ủy ban nhân dân cấp tỉnh quyết định việc phân cấp Ủy ban nhân dân cấp huyện phê duyệt
+phương án ứng phó với tình huống khẩn cấp đối với công trình thủy điện trên địa bàn 01 huyện.
+        5. Cơ quan tiếp nhận hồ sơ, thẩm định phương án ứng phó với tình huống khẩn cấp
+
+               a) Sở Công Thương tiếp nhận hồ sơ, thẩm định phương án ứng phó với tình huống khẩn cấp
+hồ chứa thủy điện thuộc thẩm quyền phê duyệt của Ủy ban nhân dân cấp tỉnh;
+        b) Trường hợp Ủy ban nhân dân cấp tỉnh phân cấp cho Ủy ban nhân dân cấp huyện phê
+duyệt phương án ứng phó tình huống khẩn cấp công trình thủy điện trên địa bàn 01 huyện, thì Ủy ban
+nhân dân cấp huyện có trách nhiệm giao cơ quan chuyên môn thuộc phạm vi quản lý là cơ quan tiếp
+nhận hồ sơ, thẩm định phương án ứng phó với tình huống khẩn cấp.
+        6. Trình tự, thủ tục thẩm định, phê duyệt phương án ứng phó tình huống khẩn cấp.
+          a) Trong thời hạn 03 ngày làm việc, kể từ ngày nhận hồ sơ, cơ quan tiếp nhận hồ sơ có trách
+nhiệm xem xét, kiểm tra hồ sơ; trường hợp hồ sơ không hợp lệ, cơ quan tiếp nhận hồ sơ trả lại hồ sơ
+cho chủ sở hữu công trình và thông báo bằng văn bản lý do trả hồ sơ;
+        b) Trong thời hạn 20 ngày kể từ ngày nhận đủ hồ sơ hợp lệ, cơ quan tiếp nhận hồ sơ có
+trách nhiệm thẩm định phương án. Trường hợp đủ điều kiện thì trình cấp có thẩm quyền xem xét phê
+duyệt; trường hợp không đủ điều kiện phê duyệt, cơ quan tiếp nhận thông báo bằng văn bản cho chủ
+sở hữu công trình để hoàn chỉnh hồ sơ theo quy định;
+                c) Cơ quan thẩm quyền phê duyệt có trách nhiệm phê duyệt phương án ứng phó tình huống
+khẩn cấp trong thời hạn 05 ngày kể từ ngày nhận được hồ sơ trình phê duyệt của cơ quan thẩm định.
+        7. Trong quá trình thẩm định, cơ quan thẩm định có trách nhiệm như sau:
+        a) Đối với phương án ứng phó với tình huống khẩn cấp thuộc thẩm quyền phê duyệt của Ủy
+ban nhân dân cấp tỉnh, cơ quan thẩm định lấy ý kiến cơ quan chuyên môn về phòng chống thiên tai,
+tài nguyên nước, thủy lợi cấp tỉnh ở hạ du, Ủy ban nhân dân cấp tỉnh ở hạ du có liên quan và các tổ
+chức khác có liên quan;
+        b) Đối với phương án ứng phó với tình huống khẩn cấp thuộc thẩm quyền phê duyệt của Ủy
+ban nhân dân cấp huyện, cơ quan thẩm định lấy ý kiến cơ quan chuyên môn về thủy điện, phòng
+chống thiên tai, tài nguyên nước của tỉnh, Ủy ban nhân dân cấp xã và tổ chức khác có liên quan;
+           c) Các cơ quan, tổ chức có liên quan có trách nhiệm gửi ý kiến bằng văn bản trong thời hạn
+07 ngày kể từ ngày nhận được văn bản đề nghị của cơ quan thẩm quyền thẩm định, phê duyệt
+phương án ứng phó tình huống khẩn cấp.
+        8. Hồ sơ, trình tự, thủ tục thẩm định, phê duyệt điều chỉnh phương án ứng phó tình huống
+khẩn cấp:
+        a) Hồ sơ trình phê duyệt bao gồm tài liệu theo điểm a, điểm b, điểm c khoản 3 Điều này.
+        b) Cơ quan tiếp nhận hồ sơ tại khoản 5 Điều này có trách nhiệm thẩm định, trình cấp thẩm
+quyền phê duyệt theo khoản 6, khoản 7 Điều này.
+                 9. Trường hợp phương án ứng phó tình huống khẩn cấp sau 5 năm thực hiện còn phù hợp,
+không có nội dung điều chỉnh, bổ sung thì chủ sở hữu công trình thủy điện có trách nhiệm báo cáo cơ
+quan thẩm quyền phê duyệt phương án ứng phó tình huống khẩn cấp cho phép tiếp tục được sử
+dụng phương án ứng phó tình huống khẩn cấp. Cơ quan thẩm quyền xem xét quyết định việc cho
+phép tiếp tục sử dụng phương án ứng phó tình huống khẩn cấp đã được cấp thẩm quyền phê duyệt
+hoặc yêu cầu chủ sở hữu trình phê duyệt điều chỉnh phương án ứng phó tình huống khẩn cấp theo
+khoản 8 Điều này.
+        Điều 35. Phương án bảo vệ đập, hồ chứa thủy điện
+        1. Chủ sở hữu, đơn vị quản lý vận hành công trình thủy điện có trách nhiệm lập, trình cơ
+quan quản lý nhà nước có thẩm quyền phê duyệt phương án bảo vệ đập, hồ chứa thủy điện và tổ
+chức thực hiện phương án sau khi được phê duyệt.
+        2. Nội dung phương án bảo vệ đập, hồ chứa thủy điện
+        a) Đặc điểm địa hình, thông số thiết kế, sơ đồ mặt bằng bố trí công trình, chỉ giới cắm mốc
+phạm vi bảo vệ đập, hồ chứa thủy điện;
+        b) Tình hình quản lý, khai thác và bảo vệ đập, hồ chứa thủy điện;
+        c) Chế độ báo cáo, kiểm tra thường xuyên, định kỳ, đột xuất;
+        d) Quy định việc giới hạn hoặc cấm các loại phương tiện giao thông có tải trọng lớn lưu thông
+trong phạm vi bảo vệ công trình; quy định về phòng cháy chữa cháy; bảo vệ an toàn nơi lưu trữ tài
+
+liệu, kho tàng cất giữ vật liệu nổ, chất dễ cháy, chất độc hại;
+        đ) Tổ chức lực lượng và phân công trách nhiệm bảo vệ công trình thủy điện, trang thiết bị hỗ
+trợ công tác bảo vệ;
+        e) Tổ chức kiểm tra, kiểm soát người và phương tiện ra, vào công trình;
+        g) Phòng ngừa, phát hiện, ngăn chặn các hành vi xâm phạm, phá hoại công trình và vùng
+phụ cận của công trình thủy điện;
+        h) Bảo vệ, xử lý khi công trình thủy điện xảy ra sự cố hoặc có nguy cơ xảy ra sự cố;
+        i) Nguồn lực tổ chức thực hiện phương án;
+        k) Trách nhiệm của chủ sở hữu, đơn vị quản lý công trình thủy điện, chính quyền các cấp và
+các cơ quan, đơn vị liên quan.
+        3. Hồ sơ trình thẩm định, phê duyệt phương án:
+        Chủ sở hữu công trình thủy điện nộp 01 bộ hồ sơ trực tiếp hoặc gửi qua đường bưu điện
+hoặc qua cổng dịch vụ công trực tuyến đến cơ quan tiếp nhận hồ sơ quy định tại khoản 4 Điều này;
+chịu trách nhiệm về tính pháp lý, độ tin cậy, chính xác của các tài liệu sử dụng trong hồ sơ phương
+án ứng phó với tình huống khẩn cấp. Hồ sơ bao gồm:
+        a) Báo cáo thuyết minh phương án bảo vệ đập, hồ chứa thủy điện theo mẫu tại Phụ lục V
+ban hành kèm theo Nghị định này;
+        b) Bản vẽ tổng mặt bằng công trình và các hạng mục công trình cần bảo vệ;
+        c) Các tài liệu khác có liên quan.
+        4. Cơ quan tiếp nhận hồ sơ, thẩm định phương án bảo vệ đập, hồ chứa thủy điện
+        a) Cục Kỹ thuật an toàn và Môi trường công nghiệp tiếp nhận hồ sơ, tổ chức thẩm định
+phương án bảo vệ đập, hồ chứa thủy điện thuộc thẩm quyền phê duyệt của Bộ Công Thương;
+        b) Sở Công Thương tiếp nhận hồ sơ, tổ chức thẩm định phương án bảo vệ đập, hồ chứa
+thủy điện thuộc thẩm quyền phê duyệt của Ủy ban nhân dân cấp tỉnh;
+        c) Trường hợp Ủy ban nhân dân cấp tỉnh phân cấp cho Ủy ban nhân dân cấp huyện phê
+duyệt phương án bảo vệ đập, hồ chứa thủy điện trên địa bàn 01 huyện, thì Ủy ban nhân dân cấp
+huyện giao cơ quan chuyên môn thuộc phạm vi quản lý là cơ quan tiếp nhận hồ sơ, thẩm định
+phương án ứng bảo vệ đập, hồ chứa thủy điện.
+        5. Trình tự, thủ tục thẩm định, phê duyệt phương án bảo vệ đập, hồ chứa thủy điện
+        a) Trong thời hạn 03 ngày làm việc kể từ ngày nhận hồ sơ, cơ quan tiếp nhận xem xét, kiểm
+tra; trường hợp hồ sơ không hợp lệ, cơ quan tiếp nhận thông báo bằng văn bản cho tổ chức đề nghị
+phê duyệt phương án bảo vệ đập, hồ chứa thủy điện để hoàn chỉnh theo quy định;
+        b) Trong thời hạn 20 ngày kể từ ngày nhận đủ hồ sơ hợp lệ, cơ quan tiếp nhận tổ chức thẩm
+định và trình cấp có thẩm quyền xem xét phê duyệt. Trường hợp không đủ điều kiện phê duyệt, cơ
+quan tiếp nhận thông báo bằng văn bản cho tổ chức đề nghị phê duyệt để bổ sung, hoàn thiện hồ sơ;
+        c) Cơ quan thẩm quyền phê duyệt có trách nhiệm phê duyệt phương án bảo vệ đập, hồ chứa
+thủy điện trong thời hạn 5 ngày kể từ ngày nhận được hồ sơ trình phê duyệt của cơ quan thẩm định.
+        6. Trong quá trình thẩm định, cơ quan thẩm định có trách nhiệm như sau:
+        a) Đối với phương án bảo vệ đập, hồ chứa thủy điện thuộc thẩm quyền phê duyệt của Bộ
+Công Thương, cơ quan thẩm định lấy ý kiến tổ chức có liên quan và chuyên gia; trình cấp thẩm
+quyền lấy ý kiến các bộ, Ủy ban nhân dân cấp tỉnh;
+        b) Đối với quy trình vận hành hồ chứa thủy điện thuộc thẩm quyền phê duyệt của Ủy ban
+nhân dân cấp tỉnh, cơ quan thẩm định lấy ý kiến Ủy ban nhân dân cấp huyện, tổ chức liên quan và
+chuyên gia;
+        c) Các cơ quan, tổ chức có liên quan có trách nhiệm gửi ý kiến bằng văn bản trong thời hạn 7
+ngày kể từ ngày nhận được văn bản đề nghị của cơ quan thẩm quyền thẩm định, phê duyệt phương
+án bảo vệ đập, hồ chứa thủy điện.
+        7. Nội dung, hồ sơ, trình tự, thủ tục lập, phê duyệt điều chỉnh phương án bảo vệ đập, hồ
+
+chứa thủy điện thực hiện theo quy định tại khoản 2, khoản 3, khoản 5 Điều này.
+                        8. Trường hợp phương án bảo vệ đập, hồ chứa thủy điện sau 5 năm thực hiện còn phù hợp,
+không có nội dung điều chỉnh, bổ sung thì chủ sở hữu công trình thủy điện có trách nhiệm báo cáo cơ
+quan thẩm quyền phê duyệt phương án bảo vệ đập, hồ chứa thủy điện cho phép tiếp tục được sử
+dụng phương án bảo vệ đập, hồ chứa thủy điện. Cơ quan thẩm quyền xem xét quyết định việc cho
+phép tiếp tục sử dụng phương án bảo vệ đập, hồ chứa thủy điện đã được cấp thẩm quyền phê duyệt
+hoặc yêu cầu chủ sở hữu trình phê duyệt điều chỉnh phương án bảo vệ đập, hồ chứa thủy điện theo
+khoản 7 Điều này.
+       Điều 36. Phạm vi bảo vệ công trình thủy điện
+                     1. Phạm vi bảo vệ công trình thủy điện bao gồm công trình đập, hồ chứa, tuyến năng lượng,
+nhà máy, trạm điện, các công trình phụ trợ khác và vùng phụ cận.
+                    2. Trong phạm vi bảo vệ công trình thủy điện, các hoạt động phải đảm bảo không gây cản trở
+cho việc vận hành và bảo đảm an toàn công trình; phải có đường quản lý, mặt bằng để bảo trì và xử
+lý khi công trình xảy ra sự cố.
+       3. Vùng phụ cận được quy định như sau:
+                    a) Vùng phụ cận của tuyến đập có phạm vi được tính từ chân đập trở ra. Đối với đập cấp đặc
+biệt tối thiểu là 300 m; đập cấp I tối thiểu là 200 m; đập cấp II tối thiểu là 100 m; đập cấp III tối thiểu là
+50 m; đập cấp IV tối thiểu là 20 m;
+       b) Vùng phụ cận của tuyến năng lượng:
+                             Trường hợp nhà máy thủy điện dạng sau đập, lòng sông, vùng phụ cận của tuyến năng
+lượng được quy định như tại mục a khoản này.
+                            Trường hợp nhà máy thủy điện dạng đường dẫn hở từ cửa lấy nước đến hết kênh ra nhà
+máy thủy điện, vùng phụ cận của tuyến năng lượng được tính từ biên mái đào hoặc mái đắp trở ra tối
+đa là 5 m.
+                          Trường hợp các nhà máy thủy điện dạng hầm dẫn nước có cửa lấy nước, tháp điều áp hở,
+đường ống áp lực hở, nhà máy thủy điện, kênh ra nhà máy thủy điện thì vùng phụ cận của tuyến
+năng lượng được tính từ biên mái đào trở ra tối đa là 5 m.
+                    c) Vùng phụ cận của lòng hồ chứa thủy điện có phạm vi được tính từ đường biên có cao trình
+bằng cao trình đỉnh đập trở xuống phía lòng hồ, không bao gồm phần diện tích mặt hồ;
+                  d) Phạm vi bảo vệ đối với trạm điện, nhà máy thực hiện theo quy định tại Điều 6, Điều 7 Nghị
+định này.
+                     4. Công trình thủy điện khi điều chỉnh quy mô, mục đích sử dụng, phải điều chỉnh vùng phụ
+cận phù hợp với quy định tại khoản 3 Điều này. Cơ quan phê duyệt phương án bảo vệ đập, hồ chứa
+thủy điện có thẩm quyền phê duyệt điều chỉnh phạm vi vùng phụ cận bảo vệ công trình.
+       Điều 37. Phương án tích nước lần đầu
+                        1. Trước khi phê duyệt phương án tích nước lần đầu, chủ sở hữu công trình thủy điện có
+trách nhiệm tuân thủ các quy định pháp luật về xây dựng, đất đai, tài nguyên nước, lâm nghiệp, bảo
+vệ môi trường. Ngoài ra, chủ sở hữu công trình thủy điện tuân thủ các quy định pháp luật về an toàn
+công trình thủy điện như sau:
+       a) Hạng mục công trình, công trình tích nước đã được cơ quan quản lý nhà nước có văn bản
+thông báo kết quả kiểm tra công tác nghiệm thu đưa vào sử dụng;
+                        b) Quy trình vận hành hồ chứa thủy điện, phương án ứng phó tình huống khẩn cấp, phương
+án bảo vệ đập, hồ chứa thủy điện được cơ quan có thẩm quyền phê duyệt;
+                   c) Hoàn thành đầu tư, lắp đặt thiết bị cảnh báo vận hành xả nước, camera giám sát, thiết bị
+quan trắc mực nước, hệ thống truyền dẫn thông tin trực tiếp về các cơ quan quản lý về phòng chống
+thiên tai, công thương, tài nguyên nước;
+                    d) Có hệ thống bảo đảm duy trì dòng chảy tối thiểu ở hạ du tuân thủ quy định của pháp luật
+về tài nguyên nước;
+       đ) Hoàn thành các trách nhiệm, nghĩa vụ khác theo quy định của pháp luật có liên quan.
+
+        2. Chủ đầu tư công trình thủy điện có trách nhiệm lập, phê duyệt phương án tích nước lần
+đầu theo mẫu tại Phụ lục VI ban hành kèm theo Nghị định này gửi đến Cơ quan thẩm quyền phê
+duyệt quy trình vận hành hồ chứa thủy điện và Ủy ban nhân dân các cấp trên địa bàn trước 10 ngày
+kể từ ngày tích nước lần đầu.
+        3. Ủy ban nhân dân các cấp tại địa phương có trách nhiệm kiểm tra, giám sát việc thực hiện
+phương án tích nước lần đầu của chủ đầu tư. Trường hợp phát hiện phương án tích nước lần đầu do
+chủ đầu tư công trình thủy điện phê duyệt không đáp ứng quy định tại khoản 1 Điều này thì có văn
+bản yêu cầu chủ đầu tư dừng triển khai việc tích nước và xem xét xử lý theo quy định của pháp luật.
+        Điều 38. Kê khai đăng ký an toàn đập, hồ chứa thủy điện
+        1. Trách nhiệm kê khai đăng ký an toàn đập, hồ chứa thủy điện
+        a) Chủ sở hữu công trình thủy điện lập và gửi bản kê khai đăng ký an toàn đập, hồ chứa thủy
+điện đến cơ quan nhà nước có thẩm quyền trong thời hạn 30 ngày kể từ ngày nghiệm thu đưa vào
+khai thác;
+        b) Công trình thủy điện đang khai thác khi điều chỉnh quy mô, mục đích sử dụng; thay đổi chủ
+sở hữu, đơn vị quản lý công trình thủy điện phải điều chỉnh bản kê khai đăng ký an toàn đập, hồ chứa
+thủy điện và gửi cơ quan nhà nước có thẩm quyền trong thời hạn 15 ngày kể từ ngày có thay đổi.
+        2. Tờ khai đăng ký an toàn công trình, hồ chứa thủy điện theo mẫu tại Phụ lục VII Nghị định
+này.
+        3. Sở Công Thương có trách nhiệm tiếp nhận kê khai đăng ký an toàn công trình, hồ chứa
+thủy điện; tổng hợp, xây dựng cơ sở dữ liệu về thông số kỹ thuật, thông tin quản lý đập, hồ chứa thủy
+điện trên địa bàn; báo cáo Ủy ban nhân dân cấp tỉnh, Bộ Công Thương.
+        Điều 39. Quan trắc công trình đập, hồ chứa thủy điện
+        1. Chủ sở hữu đập thủy điện có trách nhiệm lắp đặt thiết bị quan trắc công trình đập, hồ chứa
+thủy điện theo quy chuẩn kỹ thuật tương ứng và quy định của pháp luật có liên quan.
+        2. Trách nhiệm của đơn vị quản lý vận hành công trình thủy điện
+        a) Quan trắc công trình đập, hồ chứa thủy điện và các công trình có liên quan theo quy định
+trong hồ sơ thiết kế và quy chuẩn kỹ thuật quốc gia để theo dõi liên tục tình trạng an toàn, ổn định
+của công trình;
+        b) Phân tích, đánh giá, xử lý số liệu quan trắc; phát hiện dấu hiệu bất thường để kịp thời xử
+lý; lưu trữ tài liệu quan trắc theo quy định;
+        c) Báo cáo chủ sở hữu công trình thủy điện kết quả quan trắc.
+        3. Trách nhiệm của chủ sở hữu công trình thủy điện
+        a) Trên cơ sở phân tích số liệu quan trắc công trình đập, hồ chứa thủy điện, chủ sở hữu công
+trình thủy điện có trách nhiệm lập và thực hiện kế hoạch bảo trì, bảo dưỡng công trình đập, hồ chứa
+thủy điện theo quy định tại Điều 42 Nghị định này;
+        b) Định kỳ tổ chức kiểm tra, kiểm định, đánh giá tình trạng hoạt động của các thiết bị quan
+trắc và có phương án sửa chữa, thay thế kịp thời các thiết bị hỏng hoặc không bảo đảm chất lượng.
+        Điều 40. Quan trắc khí tượng thủy văn chuyên dùng
+        1. Chủ sở hữu công trình thủy điện có trách nhiệm bảo đảm kinh phí thực hiện quan trắc khí
+tượng thủy văn chuyên dùng cho công trình đập, hồ chứa thủy điện.
+        2. Đơn vị quản lý vận hành công trình thủy điện phải thu thập tin dự báo, quan trắc khí tượng
+thủy văn chuyên dùng theo tiêu chuẩn, quy chuẩn kỹ thuật tương ứng và quy định của pháp luật về
+khí tượng thủy văn.
+        3. Nội dung quan trắc khí tượng thủy văn chuyên dùng
+        a) Đối với công trình thủy điện có cửa van điều tiết lũ, phải quan trắc lượng mưa trên lưu
+vực, quan trắc mực nước tại thượng lưu, hạ lưu đập; tính toán lưu lượng đến hồ, lưu lượng xả; dự
+báo lưu lượng đến hồ, khả năng gia tăng mực nước hồ chứa;
+        b) Đối với công trình thủy điện lớn có tràn tự do, phải quan trắc lượng mưa trên lưu vực, mực
+nước tại thượng lưu, hạ lưu đập; tính toán lưu lượng đến hồ, lưu lượng xả;
+
+        c) Đối với công trình thủy điện vừa có tràn tự do, phải quan trắc mực nước tại thượng lưu, hạ
+lưu đập, tính toán lưu lượng xả; khuyến khích áp dụng các quy định khác tại điểm b khoản này;
+        d) Đối với công trình thủy điện nhỏ có tràn tự do, phải quan trắc mực nước tại thượng lưu, hạ
+lưu đập và mực nước tại đập tràn.
+        4. Chế độ quan trắc
+        a) Đối với đập, hồ chứa nước có cửa van điều tiết lũ: Quan trắc 2 lần một ngày vào 07 giờ,
+19 giờ trong mùa kiệt; 4 lần một ngày vào 01 giờ, 07 giờ, 13 giờ và 19 giờ trong mùa lũ; trường hợp
+vận hành chống lũ, tần suất quan trắc, tính toán tối thiểu 01 giờ một lần, quan trắc 01 giờ 4 lần khi
+mực nước hồ chứa trên mực nước lũ thiết kế;
+        b) Đối với các đập, hồ chứa nước có tràn tự do: Quan trắc 2 lần một ngày vào 07 giờ, 19 giờ
+trong mùa kiệt; 4 lần một ngày vào 01 giờ, 07 giờ, 13 giờ và 19 giờ trong mùa lũ khi mực nước hồ
+thấp hơn ngưỡng tràn; 01 giờ một lần khi mực nước hồ bằng hoặc cao hơn ngưỡng tràn; 01 giờ 4
+lần khi mực nước hồ chứa trên mực nước lũ thiết kế.
+        5. Đơn vị quản lý vận hành công trình thủy điện phải cung cấp thông tin, dữ liệu quan trắc khí
+tượng thủy văn chuyên dùng và cập nhật lên trang thông tin điện tử của đơn vị quản lý công trình
+thủy điện theo quy định của pháp luật về khí tượng thủy văn và theo quy định sau:
+        a) Công trình thủy điện có cửa van điều tiết lũ và đập, hồ chứa nước quan trọng đặc biệt, lớn
+có tràn tự do: Cung cấp thông tin, dữ liệu quan trắc khí tượng thủy văn cho chủ sở hữu; cơ quan
+quản lý nhà nước về thủy điện, cơ quan phòng chống thiên tai các cấp nơi có công trình thủy điện,
+vùng hạ du đập; Bộ Nông nghiệp và Môi trường, Bộ Công Thương theo phạm vi quản lý của bộ; Ban
+Chỉ đạo phòng thủ dân sự quốc gia trong tình huống khẩn cấp;
+        b) Công trình thủy điện vừa và nhỏ có tràn tự do: Cung cấp thông tin, dữ liệu quan trắc khí
+tượng thủy văn cho chủ sở hữu công trình, cơ quan quản lý nhà nước về thủy điện, cơ quan phòng
+chống thiên tai các cấp nơi có công trình thủy điện, vùng hạ du đập.
+        6. Cung cấp thông tin, báo cáo
+        a) Việc cung cấp thông tin, báo cáo được thực hiện theo một trong các hình thức sau: gửi
+trực tiếp, bằng fax, bằng mạng vi tính, qua điện thoại, bằng máy thông tin vô tuyến điện (ICOM) hoặc
+các hình thức khác;
+        b) Văn bản phải được gửi đến chủ sở hữu, đơn vị quản lý công trình thủy điện để theo dõi và
+lưu trữ hồ sơ quản lý.
+        Điều 41. Kiểm định an toàn đập, hồ chứa thủy điện
+        1. Kiểm định lần đầu thực hiện trong năm thứ ba kể từ ngày tích nước vào công trình hoặc hồ
+chứa đạt đến mực nước dâng bình thường.
+        2. Kiểm định định kỳ 05 năm kể từ lần kiểm định gần nhất.
+        3. Kiểm định đột xuất.
+        a) Khi phát hiện có hư hỏng, xuống cấp, không đảm bảo an toàn cho đập, hồ chứa thủy điện;
+        b) Khi cần có cơ sở để quyết định kéo dài thời hạn sử dụng của công trình đối với đập, hồ
+chứa thủy điện hết tuổi thọ thiết kế hoặc làm cơ sở cho việc sửa chữa, nâng cấp đập, hồ chứa thủy
+điện;
+        c) Theo quyết định của cơ quan nhà nước có thẩm quyền quy định tại khoản 4 Điều này.
+        4. Thẩm quyền quyết định kiểm định đột xuất
+        a) Bộ Công Thương quyết định kiểm định đột xuất đập, hồ chứa thủy điện quan trọng đặc
+biệt và đập, hồ chứa thủy điện được xây dựng trên địa bàn 02 tỉnh trở lên;
+        b) Ủy ban nhân dân cấp tỉnh quyết định kiểm định đột xuất đập, hồ chứa thủy điện trên địa
+bàn tỉnh, trừ đập, hồ chứa thủy điện quy định tại điểm a khoản này.
+        5. Nội dung kiểm định an toàn đập, hồ chứa thủy điện
+        a) Đối với công trình thủy điện quan trọng đặc biệt và lớn: Kiểm tra, phân tích tài liệu quan
+trắc đập, hồ chứa thủy điện; khảo sát, thăm dò ẩn họa, khuyết tật công trình; kiểm tra tình trạng sạt
+lở, bồi lắng lòng hồ chứa thủy điện; kiểm tra khả năng xả lũ của hồ chứa thủy điện theo tiêu chuẩn,
+
+quy chuẩn kỹ thuật quốc gia hiện hành, tài liệu khí tượng thủy văn và thay đổi về lưu vực đã được
+cập nhật; đánh giá chất lượng và an toàn của công trình, hồ chứa thủy điện;
+        b) Đối với công trình thủy điện vừa, nhỏ: Khảo sát, thăm dò ẩn họa, khuyết tật công trình;
+kiểm tra tình trạng sạt lở, bồi lắng lòng hồ chứa thủy điện; kiểm tra khả năng xả lũ của hồ chứa thủy
+điện theo tiêu chuẩn, quy chuẩn kỹ thuật quốc gia hiện hành, tài liệu khí tượng thủy văn và các thay
+đổi về lưu vực đã được cập nhật; đánh giá chất lượng và an toàn của công trình, hồ chứa thủy điện.
+        6. Chủ sở hữu công trình thủy điện có trách nhiệm tổ chức kiểm định, phê duyệt đề cương và
+kết quả kiểm định theo quy định của pháp luật; báo cáo kết quả kiểm định về Sở Công Thương để
+tổng hợp báo cáo Ủy ban nhân dân cấp tỉnh nơi xây dựng đập, hồ chứa thủy điện và Bộ Công
+Thương.
+        Điều 42. Bảo trì, sửa chữa, nâng cấp, hiện đại hóa công trình và thiết bị
+        1. Công trình thủy điện phải được bảo trì, sửa chữa, nâng cấp, hiện đại hóa theo quy định
+của pháp luật về quản lý chất lượng và bảo trì công trình xây dựng, quy định của pháp luật khác có
+liên quan.
+        2. Công trình, hồ chứa thủy điện phải được sửa chữa, nâng cấp để bảo đảm an toàn công
+trình, hồ chứa thủy điện và vùng hạ du trước mùa mưa hàng năm trong các trường hợp sau:
+        a) Bị hư hỏng, xuống cấp, không đảm bảo an toàn;
+        b) Thiếu khả năng xả lũ theo tiêu chuẩn, quy chuẩn kỹ thuật;
+        c) Có nguy cơ xảy ra hiện tượng sạt lở, bồi lấp lòng hồ chứa thủy điện.
+        3. Khuyến khích lắp đặt thiết bị thông tin, cảnh báo an toàn cho công trình và vùng hạ du đối
+với đập, hồ chứa nước vừa, nhỏ có tràn tự do.
+        4. Chủ sở hữu công trình thủy điện chịu trách nhiệm bảo đảm kinh phí bảo trì sửa chữa, nâng
+cấp, hiện đại hóa, lắp đặt hệ thống giám sát vận hành, thiết bị thông tin, lập và thực hiện quy trình
+bảo trì công trình, cảnh báo an toàn cho đập, hồ chứa nước và vùng hạ du.
+        Điều 43. Kiểm tra, đánh giá an toàn đập, hồ chứa thủy điện
+        1. Chủ sở hữu công trình thủy điện, đơn vị quản lý vận hành công trình thủy điện có trách
+nhiệm:
+        a) Kiểm tra thường xuyên, quan sát trực quan tại hiện trường để nắm bắt kịp thời hiện trạng
+công trình, hồ chứa thủy điện;
+        b) Trước mùa mưa hàng năm, tổ chức kiểm tra, đánh giá an toàn công trình, hồ chứa thủy
+điện; thực hiện các biện pháp chủ động phòng, chống, xử lý kịp thời các hư hỏng để bảo đảm an toàn
+công trình, hồ chứa thủy điện;
+        c) Sau mùa mưa hàng năm, phải kiểm tra, đánh giá nhằm phát hiện các hư hỏng; theo dõi
+diễn biến các hư hỏng của công trình, hồ chứa thủy điện; rút kinh nghiệm công tác phòng, chống
+thiên tai; đề xuất biện pháp và kế hoạch sửa chữa, khắc phục các hư hỏng, xuống cấp;
+        d) Ngay sau khi có mưa, lũ lớn trên lưu vực hoặc động đất mạnh tại khu vực công trình thủy
+điện phải kiểm tra đánh giá hiện trạng an toàn công trình, hồ chứa thủy điện;
+        đ) Trường hợp phát hiện công trình, hồ chứa thủy điện có hư hỏng đột xuất, phải báo cáo
+ngay cho chủ sở hữu, cơ quan nhà nước có thẩm quyền, đồng thời phải thực hiện ngay biện pháp xử
+lý để bảo đảm an toàn công trình, hồ chứa thủy điện.
+        2. Nội dung kiểm tra, đánh giá an toàn đập, hồ chứa thủy điện bao gồm:
+        a) Đánh giá tình hình và dự báo khí tượng thủy văn;
+        b) Kết quả thực hiện quy trình vận hành hồ chứa, liên hồ chứa hàng năm;
+        c) Hiện trạng công trình gồm: Kiểm tra bằng trực quan hiện trạng công trình; phân tích, đánh
+giá kết quả quan trắc công trình; tình trạng vận hành thiết bị của các hạng mục công trình;
+        d) Hiện trạng hồ chứa thủy điện, tình hình sạt lở, tái tạo bờ và các hoạt động trong phạm vi
+bảo vệ công trình thủy điện;
+        đ) Kiểm tra hồ sơ và kết quả thực hiện các kiến nghị của đơn vị kiểm định công trình;
+
+        e) Công tác bảo trì, sửa chữa công trình.
+        3. Chế độ báo cáo an toàn đập, hồ chứa thủy điện trước và sau mùa mưa hàng năm
+        a) Trước mùa mưa lũ hằng năm, Chủ sở hữu công trình thủy điện có trách nhiệm báo cáo kết
+quả đánh giá an toàn đập, hồ chứa thủy điện theo mẫu tại Phụ lục VIII ban hành kèm theo Nghị định
+này gửi cơ quan thẩm quyền phê duyệt quy trình vận hành hồ chứa thủy điện và Sở Công Thương
+các tỉnh có liên quan. Thời gian mùa mưa lũ hằng năm tại các khu vực được xác định theo quy định
+của pháp luật về dự báo, cảnh báo, truyền tin thiên tai;
+        b) Trước ngày 31 tháng 12 hằng năm, Chủ sở hữu công trình thủy điện có trách nhiệm báo
+cáo hiện trạng an toàn đập, hồ chứa thủy điện theo mẫu tại Phụ lục IX ban hành kèm theo Nghị định
+này gửi cơ quan thẩm quyền phê duyệt quy trình vận hành hồ chứa và Sở Công Thương các tỉnh có
+liên quan. Thời hạn chốt số liệu báo cáo từ ngày 01 tháng 01 đến ngày 15 tháng 12 hằng năm;
+        c) Chủ sở hữu công trình thủy điện phải báo cáo ngay Ủy ban nhân dân, Ban Chỉ huy phòng
+thủ dân sự các cấp có công trình, hồ chứa thủy điện trên địa bàn và các cơ quan liên quan theo quy
+định khi xảy ra tình huống khẩn cấp.
+        Điều 44. Lắp đặt hệ thống cảnh báo vận hành phát điện, vận hành xả lũ
+        1. Chủ sở hữu công trình thủy điện có trách nhiệm lắp đặt và duy trì vận hành ổn định hệ
+thống thông tin, cảnh báo an toàn vận hành phát điện, vận hành xả lũ cho đập và vùng hạ du đập đáp
+ứng quy định sau:
+        a) Lắp đặt hệ thống còi hụ tại đập tràn và khu vực hạ lưu nhà máy đối với các nhà máy ở
+cách xa đập tràn từ 500 m trở lên;
+        b) Lắp đặt các trạm cảnh báo tại khu vực có dân cư sinh sống phía hạ du công trình thủy điện
+trong phạm vi tối thiểu 15 km tính từ đập xuống phía hạ du hoặc phối hợp với cơ quan chức năng tại
+địa phương để cảnh báo qua cơ sở hạ tầng hệ thống thông tin truyền thanh của các địa phương ở
+vùng hạ du;
+        c) Hệ thống thông tin, cảnh báo an toàn phải được trang bị nguồn điện dự phòng để bảo đảm
+vận hành tối thiểu 24 giờ sau khi mất nguồn điện chính.
+        2. Các trường hợp thực hiện cảnh báo và nội dung cảnh báo
+        a) Trường hợp cảnh báo đối với xả lũ qua đập tràn có cửa van khi: Mở cửa van đầu tiên;
+tăng/giảm lưu lượng xả qua 01 cửa van; khi xả nước khẩn cấp để đảm bảo an toàn công trình; đóng
+hoàn toàn cửa van cuối cùng;
+        b) Trường hợp cảnh báo đối với đập tràn tự do: Khi nước bắt đầu hay kết thúc chảy tràn qua
+đập tràn;
+        c) Trường hợp cảnh báo đối với vận hành phát điện khi: Bắt đầu vận hành phát điện tổ máy
+đầu tiên; dừng hoàn toàn phát điện.
+        3. Tùy thuộc vào vị trí công trình thủy điện và địa hình vùng hạ du đập thủy điện, Ban Chỉ huy
+phòng thủ dân sự cấp huyện và Ủy ban nhân dân cấp xã có trách nhiệm phối hợp và thống nhất với
+chủ sở hữu công trình thủy điện về nội dung lắp đặt hệ thống thông tin, cảnh báo an toàn vận hành.
+Các nội dung thống nhất gồm:
+        a) Vị trí lắp đặt;
+        b) Trang thiết bị cảnh báo lắp đặt tại từng vị trí;
+        c) Những trường hợp phải cảnh báo;
+        d) Thời điểm cảnh báo;
+        đ) Hình thức cảnh báo;
+        e) Quyền, trách nhiệm của từng tổ chức, cá nhân có liên quan đến việc cảnh báo.
+        4. Bộ Công Thương quy định về yêu cầu kỹ thuật đối với hệ thống thông tin, cảnh báo vận
+hành phát điện và vận hành xả lũ tại khoản 1 Điều này.
+        Điều 45. Lắp đặt hệ thống giám sát vận hành
+        1. Chủ đầu tư, đơn vị quản lý vận hành công trình thủy điện có trách nhiệm:
+
+               a) Lắp đặt và duy trì vận hành ổn định hệ thống camera giám sát, thiết bị quan trắc mực
+nước, hệ thống truyền dẫn thông tin dữ liệu trực tuyến theo quy định của pháp luật về tài nguyên
+nước và cập nhật dữ liệu vào cơ sở dữ liệu về vận hành công trình thủy điện;
+           b) Lắp đặt cột thủy chí hoặc trang thiết bị có tính năng tương tự để xác định được mực nước
+hạ lưu đập; trường hợp hạ lưu đập có trạm quan trắc khí tượng thủy văn thì được phép khai thác
+thông tin mực nước hạ du từ trạm quan trắc này thay cho cột thủy chí hoặc trang thiết bị có tính năng
+tương tự cột thủy chí.
+              2. Chủ sở hữu công trình thủy điện có trách nhiệm phối hợp với Ban Chỉ huy phòng thủ dân
+sự cấp tỉnh, Ủy ban nhân dân cấp huyện quyết định vị trí lắp đặt cột thủy chí hoặc trang thiết bị có
+tính năng tương tự cột thủy chí.
+       Điều 46. Lưu trữ hồ sơ công trình thủy điện
+            1. Việc lập, lưu trữ hồ sơ liên quan đến đầu tư, xây dựng, nghiệm thu công trình thủy điện
+được thực hiện theo quy định của pháp luật về lưu trữ, xây dựng.
+       2. Việc lưu trữ hồ sơ liên quan đến công tác quản lý an toàn công trình thủy điện, chủ sở hữu
+và đơn vị quản lý vận hành công trình thủy điện có trách nhiệm:
+               a) Lưu trữ các hồ sơ do cơ quan nhà nước có thẩm quyền phê duyệt và hồ sơ liên quan đến
+công tác quản lý, vận hành hồ chứa thủy điện theo quy định của pháp luật về lưu trữ;
+         b) Hình thức lưu trữ theo quy định của pháp luật về lưu trữ và phải có hồ sơ lưu trữ bằng bản
+điện tử.
+       Điều 47. Nhân sự làm công tác quản lý an toàn đập, hồ chứa thủy điện
+       1. Chủ đầu tư, đơn vị quản lý vận hành công trình thủy điện có trách nhiệm bố trí nhân sự
+làm công tác quản lý an toàn đập, hồ chứa thủy điện có chuyên môn phù hợp với các yêu cầu sau:
+       a) Đối với công trình, hồ chứa thủy điện quan trọng đặc biệt, phải có ít nhất 03 người có trình
+độ đại học thuộc chuyên ngành xây dựng, công trình thủy hoặc tương đương, có thâm niên quản lý,
+vận hành đập, hồ chứa thủy điện 05 năm trở lên;
+            b) Đối với công trình, hồ chứa thủy điện lớn có ít nhất 02 người có trình độ đại học thuộc
+chuyên ngành xây dựng, công trình thủy hoặc tương đương, có thâm niên quản lý, vận hành công
+trình, hồ chứa thủy điện từ 03 năm trở lên;
+           c) Đối với công trình, hồ chứa thủy điện vừa và nhỏ có ít nhất 01 người có trình độ đại học
+hoặc 02 người có trình độ cao đẳng thuộc chuyên ngành xây dựng, công trình thủy hoặc tương
+đương, có thâm niên quản lý, vận hành công trình, hồ chứa thủy điện từ 02 năm trở lên.
+               2. Chủ đầu tư, đơn vị quản lý vận hành công trình thủy điện có trách nhiệm tổ chức huấn
+luyện, bồi dưỡng định kỳ kiến thức, kỹ năng về quản lý an toàn đập, hồ chứa thủy điện cho người làm
+công tác an toàn đập, hồ chứa thủy điện thuộc phạm vi quản lý tối thiểu 2 năm 1 lần.
+                  3. Người có thẩm quyền ra lệnh vận hành hồ chứa thủy điện và người đứng đầu, cấp phó
+của người đứng đầu bộ phận quản lý vận hành công trình thủy điện phải được cơ quan quản lý nhà
+nước có thẩm quyền bồi dưỡng kiến thức, kỹ năng về quản lý an toàn đập, hồ chứa thủy điện định kỳ
+tối thiểu 2 năm 1 lần.
+             4. Nội dung huấn luyện, bồi dưỡng kiến thức về quản lý an toàn đập, hồ chứa thủy điện bao
+gồm:
+       a) Quy định của pháp luật về quản lý an toàn đập, hồ chứa thủy điện;
+              b) Tổ chức thực hiện quy trình vận hành hồ chứa thủy điện, phương án bảo vệ đập, hồ chứa
+thủy điện, phương án ứng phó tình huống khẩn cấp;
+              c) Các biện pháp quản lý, vận hành và bảo đảm an toàn công trình thủy điện theo quy định
+của pháp luật.
+                   5. Cơ quan nhà nước có thẩm quyền phê duyệt quy trình vận hành hồ chứa thủy điện có
+trách nhiệm phối hợp với chủ sở hữu, đơn vị quản lý vận hành công trình thủy điện tổ chức bồi
+dưỡng định kỳ kiến thức, kỹ năng về quản lý an toàn đập, hồ chứa thủy điện cho đối tượng tại khoản
+3 Điều này.
+                6. Hàng năm, Bộ Công Thương có trách nhiệm hướng dẫn về khung tài liệu bồi dưỡng, hình
+
+thức bồi dưỡng kiến thức, kỹ năng về quản lý an toàn đập, hồ chứa thủy điện cho đối tượng tại khoản
+3 Điều này.
+                      Điều 48. Trách nhiệm kiểm tra công tác đánh giá an toàn đập, hồ chứa thủy điện trước
+mùa mưa hàng năm
+                  1. Bộ Công Thương có trách nhiệm tổ chức kiểm tra công tác đánh giá an toàn đập, hồ chứa
+thủy điện của chủ sở hữu công trình thủy điện quan trọng đặc biệt và công trình thủy điện trên địa
+bàn 02 tỉnh trở lên, báo cáo Thủ tướng Chính phủ về kết quả kiểm tra.
+                2. Ủy ban nhân dân cấp tỉnh có trách nhiệm tổ chức kiểm tra công tác đánh giá an toàn đập,
+hồ chứa thủy điện của chủ sở hữu công trình thủy điện trên địa bàn tỉnh, trừ các công trình thủy điện
+quy định tại khoản 1 Điều này và báo cáo Bộ Công Thương kết quả kiểm tra.
+                  3. Cơ quan thẩm quyền kiểm tra quy định tại khoản 1, khoản 2 Điều này có trách nhiệm bảo
+đảm kinh phí thực hiện kiểm tra, đánh giá an toàn đập, hồ chứa thủy điện từ ngân sách nhà nước và
+các nguồn hợp pháp khác theo quy định của pháp luật.
+                       Điều 49. Nội dung yêu cầu về an toàn công trình, hồ chứa thủy điện đối với các hoạt
+động trong phạm vi bảo vệ công trình, hồ chứa thủy điện
+                  1. Trong phạm vi bảo vệ đập, hồ chứa thủy điện, các hoạt động phải bảo đảm không gây cản
+trở cho việc vận hành và bảo đảm các yêu cầu về an toàn công trình thủy điện sau:
+                   a) Tuân thủ các quy định pháp luật về xây dựng, bảo vệ môi trường, tài nguyên nước, đất
+đai, khoáng sản và các quy định khác của pháp luật;
+                 b) Không được ảnh hưởng đến phạm vi bảo vệ đập thủy điện; có biện pháp triệt tiêu nguy cơ
+xâm phạm vào phạm vi bảo vệ đập, cửa nhận nước của công trình thủy điện;
+                  c) Không gây sạt lở bờ hồ thủy điện, làm bồi lắng lòng hồ, tác động đến trầm tích đáy hồ
+chứa thủy điện;
+               d) Phối hợp với đơn vị quản lý vận hành công trình thủy điện trong công tác bảo đảm an toàn
+đập, hồ chứa thủy điện.
+                  2. Cơ quan có thẩm quyền khi xem xét chấp thuận chủ trương đầu tư, thẩm định thiết kế cơ
+sở, thẩm định thiết kế xây dựng triển khai sau thiết kế cơ sở, thẩm định báo cáo đánh giá tác động
+môi trường, giấy phép môi trường hoặc cấp phép cho các dự án, hoạt động trong phạm vi bảo vệ
+công trình thủy điện theo quy định pháp luật có trách nhiệm xem xét yếu tố ảnh hưởng đến an toàn
+công trình thủy điện và lấy ý kiến bằng văn bản của chủ sở hữu công trình thủy điện, Sở Công
+Thương các tỉnh có liên quan về tác động của dự án, hoạt động xin cấp phép đối với công trình thủy
+điện và yêu cầu các tổ chức, cá nhân có biện pháp bảo đảm an toàn công trình, hồ chứa thủy điện
+theo quy định.
+                 3. Tổ chức, cá nhân khi triển khai các hoạt động trong phạm vi bảo vệ công trình, hồ chứa
+thủy điện có trách nhiệm tuân thủ các quy định về an toàn công trình, hồ chứa thủy điện và thông báo
+bằng văn bản đến tổ chức quản lý, vận hành công trình thủy điện về các hoạt động trong phạm vi bảo
+vệ công trình thủy điện và phối hợp với các tổ chức quản lý, vận hành công trình thủy điện trong quá
+trình vận hành hồ chứa thủy điện.
+                    4. Công trình hiện có trong phạm vi bảo vệ công trình thủy điện không ảnh hưởng đến an
+toàn, năng lực phục vụ của công trình thủy điện được tiếp tục sử dụng nhưng không được mở rộng
+quy mô.
+               5. Công trình hiện có trong phạm vi bảo vệ công trình thủy điện ảnh hưởng đến an toàn, năng
+lực phục vụ của công trình thủy điện phải thực hiện các giải pháp khắc phục theo yêu cầu của cơ
+quan quản lý nhà nước tại địa phương; trường hợp không thể khắc phục phải dỡ bỏ hoặc di dời.
+       Điều 50. Hệ thống cơ sở dữ liệu về vận hành công trình thủy điện
+                1. Hệ thống cơ sở dữ liệu về vận hành công trình thủy điện để quản lý, vận hành, cập nhật,
+khai thác thông tin thủy điện trên phạm vi toàn quốc được Nhà nước bảo đảm kinh phí vận hành.
+       2. Các thành phần cơ bản của hệ thống:
+             a) Hạ tầng kỹ thuật công nghệ thông tin là hệ thống trang thiết bị phục vụ cho việc sản xuất,
+truyền đưa, thu thập, xử lý, lưu trữ và trao đổi thông tin số, bao gồm mạng Internet, mạng máy tính,
+thiết bị tính toán (máy chủ, máy trạm), thiết bị kết nối mạng, thiết bị an ninh an toàn, thiết bị ngoại vi
+
+và thiết bị phụ trợ;
+                b) Cơ sở dữ liệu vận hành công trình thủy điện bao gồm các trường thông tin chính: Thông
+số kỹ thuật chính của công trình thủy điện; Mức nước hồ, mực nước hạ lưu sau đập; lưu lượng xả
+qua nhà máy; lưu lượng xả qua tràn; lưu lượng xả dòng chảy tối thiểu.
+        c) Phần mềm của hệ thống cơ sở dữ liệu về vận hành công trình thủy điện.
+        3. Khai thác, sử dụng thông tin, dữ liệu thủy điện
+        a) Việc khai thác và sử dụng thông tin, dữ liệu thủy điện phải tuân thủ quy định của pháp luật
+về tiếp cận thông tin và các pháp luật khác có liên quan;
+              b) Cơ quan quản lý, vận hành Hệ thống cơ sở dữ liệu về vận hành công trình thủy điện quyết
+định việc phân quyền truy cập khai thác và sử dụng Hệ thống cơ sở dữ liệu về vận hành công trình
+thủy điện;
+                   c) Cơ quan quản lý Hệ thống cơ sở dữ liệu về vận hành công trình thủy điện không được
+chia sẻ, cung cấp các thông tin ảnh hưởng đến an ninh quốc gia, bí mật kinh doanh của doanh
+nghiệp, các thông tin mang tính cá nhân của người sử dụng trừ trường hợp phục vụ hoạt động điều
+tra, xác minh xử lý hành vi vi phạm pháp luật và phục vụ công tác quản lý nhà nước của cơ quan có
+thẩm quyền.
+                  4. Trách nhiệm xây dựng, quản lý, duy trì, vận hành Hệ thống cơ sở dữ liệu về vận hành
+công trình thủy điện.
+                  a) Bộ Công Thương xây dựng hạ tầng và vận hành hệ thống cơ sở dữ liệu về vận hành công
+trình thủy điện; thực hiện các hoạt động quản trị dữ liệu, quản trị chia sẻ, khai thác cơ sở dữ liệu; tổ
+chức điều tra, thu thập, tổng hợp và cập nhật dữ liệu thông tin điện lực; hướng dẫn các cơ quan, tổ
+chức liên quan cung cấp dữ liệu, danh mục dữ liệu để cơ quan nhà nước khai thác, sử dụng; quản lý
+sử dụng và cung cấp dữ liệu theo cấp độ chia sẻ dữ liệu; bảo đảm kinh phí xây dựng, nâng cấp, vận
+hành của hệ thống cơ sở dữ liệu về vận hành công trình thủy điện từ ngân sách nhà nước hàng năm
+và các nguồn vốn hợp pháp khác theo quy định của pháp luật;
+                 b) Sở Công Thương các tỉnh và các cơ quan, đơn vị liên quan cung cấp, chia sẻ, cập nhật
+các thông tin, dữ liệu về thủy điện quy định của Nghị định này vào Hệ thống cơ sở dữ liệu về vận
+hành công trình thủy điện;
+           c) Đơn vị quản lý vận hành công trình thủy điện có trách nhiệm cập nhật thông tin, số liệu về
+vận hành công trình thủy điện vào Hệ thống cơ sở dữ liệu về vận hành công trình thủy điện;
+                       d) Bộ Công Thương phối hợp với Bộ Nông nghiệp và Môi trường từng bước tích hợp Hệ
+thống cơ sở dữ liệu về vận hành công trình thủy điện cùng Hệ thống cơ sở dữ liệu quốc gia về tài
+nguyên nước để phục vụ chung cho công tác quản lý nhà nước về thủy điện, tài nguyên nước, thủy
+lợi và phòng chống thiên tai.
+                  5. Bộ trưởng Bộ Công Thương quy định về quản lý, vận hành và sử dụng hệ thống cơ sở dữ
+liệu về vận hành công trình thủy điện.
+                                           Chương VI
+                                     TỔ CHỨC THỰC HIỆN
+        Điều 51. Trách nhiệm quản lý nhà nước về bảo vệ công trình điện lực và an toàn trong
+lĩnh vực điện lực
+        1. Bộ Công Thương có trách nhiệm:
+                      a) Ban hành theo thẩm quyền hoặc trình cơ quan nhà nước có thẩm quyền ban hành, tổ
+chức thực hiện kế hoạch, chính sách và văn bản quy phạm pháp luật về bảo vệ công trình điện lực,
+an toàn điện và an toàn công trình thủy điện;
+                 b) Chủ trì, phối hợp với các bộ, ngành, địa phương thực hiện quản lý nhà nước về bảo vệ
+công trình điện lực, an toàn điện và an toàn công trình thủy điện;
+        c) Thẩm định, phê duyệt quy trình vận hành hồ chứa thủy điện, phương án bảo vệ đập, hồ
+chứa thủy điện thuộc thẩm quyền;
+             d) Thanh tra, kiểm tra chấp hành hành pháp luật về bảo vệ công trình điện lực, an toàn điện
+
+và an toàn công trình thủy điện; phát hiện, xử lý các hành vi vi phạm theo quy định của pháp luật;
+        đ) Xây dựng, quản lý, vận hành hệ thống cơ sở dữ liệu về vận hành công trình thủy điện;
+            e) Tổ chức thông tin, truyền thông, giáo dục nâng cao nhận thức của cộng đồng về an toàn
+đập, hồ chứa thủy điện; tổ chức thực hiện chương trình quốc gia về an toàn trong sử dụng điện; tổ
+chức bồi dưỡng nghiệp vụ, cập nhật kiến thức về quản lý an toàn đập, hồ chứa thủy điện;
+            g) Bố trí kinh phí hàng năm từ nguồn ngân sách cho nhiệm vụ quản lý an toàn đập, hồ chứa
+thủy điện thuộc thẩm quyền quản lý theo quy định tại Nghị định này và pháp luật có liên quan.
+               2. Bộ Khoa học và Công nghệ có trách nhiệm chủ trì việc thẩm định và công bố các tiêu
+chuẩn quốc gia về an toàn điện; an toàn công trình thủy điện theo đề nghị của Bộ Công Thương.
+             3. Bộ Xây dựng có trách nhiệm xây dựng, ban hành hoặc trình cấp thẩm quyền ban hành các
+tiêu chuẩn quốc gia, quy chuẩn kỹ thuật quốc gia về hệ thống điện trong nhà ở, công trình theo quy
+định của pháp luật về xây dựng.
+              4. Bộ, cơ quan ngang bộ trong phạm vi nhiệm vụ, quyền hạn của mình có trách nhiệm phối
+hợp với Bộ Công Thương thực hiện quản lý nhà nước về bảo vệ công trình điện lực, an toàn điện và
+an toàn công trình thủy điện.
+        5. Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương có trách nhiệm:
+           a) Thực hiện quản lý nhà nước về bảo vệ công trình điện lực, an toàn điện và an toàn công
+trình thủy điện trên địa bàn thuộc phạm vi quản lý;
+           b) Xây dựng và ban hành quy định về quản lý an toàn trong sử dụng điện; Tổ chức thực hiện
+Chương trình quốc gia về an toàn trong sử dụng điện;
+               c) Thẩm định, phê duyệt hoặc phân cấp cho cơ quan quản lý nhà nước thuộc phạm vi quản
+lý thẩm định, phê duyệt quy trình vận hành hồ chứa thủy điện, phương án ứng phó tình huống khẩn
+cấp, phương án bảo vệ đập, hồ chứa thủy điện theo thẩm quyền quản lý;
+             d) Xây dựng và ban hành quy định bồi thường, hỗ trợ hộ gia đình, cá nhân có nhà ở, công
+trình thuộc trường hợp quy định tại khoản 3, khoản 4 Điều 15 Nghị định này;
+          đ) Phát hiện, ngăn chặn và xử lý kịp thời những trường hợp công trình xây dựng lấn, chiếm,
+sử dụng trái phép hành lang bảo vệ an toàn lưới điện, phạm vi bảo vệ các hạng mục xây dựng của
+công trình điện lực;
+             e) Hướng dẫn, tuyên truyền phổ biến và tổ chức thực hiện các văn bản quy phạm pháp luật
+về bảo vệ công trình điện lực, an toàn điện và an toàn công trình thủy điện trên địa bàn;
+         g) Tổ chức thanh tra, kiểm tra, xử lý các vi phạm hành chính về bảo vệ công trình điện lực,
+an toàn điện và an toàn công trình thủy điện trên địa bàn;
+        h) Bố trí kinh phí hàng năm từ nguồn ngân sách địa phương cho nhiệm vụ quản lý an toàn
+đập, hồ chứa thủy điện thuộc thẩm quyền quản lý theo quy định tại Nghị định này và pháp luật có liên
+quan;
+             i) Tổ chức bồi dưỡng nghiệp vụ, cập nhật kiến thức về quản lý an toàn đập, hồ chứa thủy
+điện.
+        6. Ủy ban nhân dân cấp huyện có trách nhiệm:
+          a) Quản lý nhà nước về bảo vệ công trình điện lực, an toàn điện và an toàn công trình thủy
+điện theo thẩm quyền quản lý;
+             b) Tổ chức thẩm định, phê duyệt quy trình vận hành hồ chứa thủy điện, phương án ứng phó
+tình huống khẩn cấp, phương án bảo vệ đập, hồ chứa thủy điện theo phân cấp của Ủy ban nhân dân
+cấp tỉnh.
+        Điều 52. Điều khoản chuyển tiếp
+           1. Đối với quy trình vận hành hồ chứa thủy điện, phương án bảo vệ đập, hồ chứa thủy điện,
+phương án ứng phó với tình huống khẩn cấp được phê duyệt trước ngày Nghị định này có hiệu lực
+thi hành thì tiếp tục được thực hiện đến khi phê duyệt lại.
+           2. Đối với quy trình vận hành hồ chứa thủy điện, phương án bảo vệ đập, hồ chứa thủy điện,
+phương án ứng phó với tình huống khẩn cấp đã trình cơ quan có thẩm quyền phê duyệt trước ngày
+
+Nghị định này có hiệu lực thi hành thì tiếp tục được thẩm định, ban hành theo Nghị định số
+114/2018/NĐ-CP ngày 04 tháng 9 năm 2018 của Chính phủ quy định về quản lý an toàn đập, hồ
+chứa nước.
+          3. Đối với các công trình thủy điện nhỏ có đập cao từ 5 m đến dưới 10 m hoặc có dung tích
+hồ chứa từ 50.000 m³ đến dưới 500.000 m³ đã đi vào hoạt động trước ngày có hiệu lực của Nghị định
+này, chủ sở hữu công trình thủy điện có trách nhiệm lập, trình cơ quan nhà nước có thẩm quyền
+thẩm định, phê duyệt quy trình vận hành hồ chứa thủy điện, phương án bảo vệ đập, hồ chứa thủy
+điện và phương án ứng phó tình huống khẩn cấp trong thời gian tối đa 2 năm kể từ ngày Nghị định
+này có hiệu lực.
+             4. Đối với công trình thủy điện nhỏ có đập cao dưới 5 m hoặc hồ chứa có dung tích dưới
+50.000 m³, chủ đầu tư công trình thủy điện có trách nhiệm tự phê duyệt và chịu trách nhiệm về quy
+trình vận hành, phương án bảo vệ đập, phương án ứng phó tình huống khẩn cấp và các biện pháp
+quản lý an toàn đập, hồ chứa thủy điện và vùng hạ du đập phù hợp với quy định của pháp luật về
+điện lực và các quy định khác của pháp luật có liên quan.
+         5. Các tổ chức, cá nhân khi triển khai dự án, hoạt động sản xuất, kinh doanh trong phạm vi
+bảo vệ đập, hồ chứa thủy điện trước ngày có hiệu lực của Nghị định này phải bảo đảm đáp ứng các
+yêu cầu về an toàn đập, hồ chứa thủy điện tại khoản 1 Điều 47 Nghị định này mới được phép tiếp tục
+hoạt động.
+        Điều 53. Hiệu lực thi hành
+        1. Nghị định này có hiệu lực thi hành kể từ ngày ký ban hành.
+        2. Các Nghị định sau đây hết hiệu lực kể từ ngày Nghị định này có hiệu lực thi hành:
+            a) Nghị định số 14/2014/NĐ-CP ngày 26 tháng 02 năm 2014 của Chính phủ quy định chi tiết
+thi hành Luật Điện lực về an toàn điện;
+              b) Nghị định số 51/2020/NĐ-CP ngày 21 tháng 4 năm 2020 của Chính phủ sửa đổi, bổ sung
+một số điều của Nghị định số 14/2014/NĐ-CP ngày 26 tháng 02 năm 2014 của Chính phủ quy định
+chi tiết thi hành Luật Điện lực về an toàn điện.
+        Điều 54. Tổ chức thực hiện
+              1. Các bộ, Ủy ban nhân dân cấp tỉnh có trách nhiệm hướng dẫn thi hành các điều, khoản
+được giao trong Nghị định này và rà soát các văn bản đã ban hành để sửa đổi, bổ sung hoặc thay thế
+cho phù hợp với quy định tại Nghị định này để có hiệu lực đồng thời với Nghị định này.
+             2. Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ
+tịch Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương và các cơ quan, tổ chức, cá nhân có liên
+quan chịu trách nhiệm thi hành Nghị định này.
+ Nơi nhận:                                                        TM. CHÍNH PHỦ
+ - Ban Bí thư Trung ương Đảng;                                    KT. THỦ TƯỚNG
+ - Thủ tướng, các Phó Thủ tướng Chính phủ;                        PHÓ THỦ TƯỚNG
+ - Các bộ, cơ quan ngang bộ, cơ quan thuộc Chính
+ phủ;
+ - HĐND, UBND các tỉnh, thành phố trực thuộc trung
+ ương;
+ - Văn phòng Trung ương và các Ban của Đảng;                      Bùi Thanh Sơn
+ - Văn phòng Tổng Bí thư;
+ - Văn phòng Chủ tịch nước;
+ - Hội đồng Dân tộc và các Ủy ban của Quốc hội;
+ - Văn phòng Quốc hội;
+ - Tòa án nhân dân tối cao;
+ - Viện kiểm sát nhân dân tối cao;
+ - Kiểm toán nhà nước;
+ - Ngân hàng Chính sách xã hội;
+ - Ngân hàng Phát triển Việt Nam;
+ - Ủy ban trung ương Mặt trận Tổ quốc Việt Nam;
+ - Cơ quan trung ương của các đoàn thể;
+ - VPCP: BTCN, các PCN, Trợ lý TTg, TGĐ Cổng
+
+TTĐT, các Vụ, Cục, đơn vị trực thuộc, Công báo;
+- Lưu: VT, CN (2b).
+
+                                      Phụ lục I
+                  MẪU BÁO CÁO VỀ TAI NẠN ĐIỆN VÀ VI PHẠM HÀNH LANG
+                         BẢO VỆ AN TOÀN CÔNG TRÌNH ĐIỆN LỰC
+                        (Kèm theo Nghị định số 62/2025/NĐ-CP
+                      ngày 04 tháng 3 năm 2025 của Chính phủ)
+                                     __________
+   STT                                      Nội dung
+Mẫu số 01  Báo cáo nhanh tai nạn điện
+Mẫu số 02  Báo cáo vi phạm đối với hành lang bảo vệ an toàn công trình điện lực
+Mẫu số 03  Báo cáo định kỳ tai nạn điện (tính từ ngày... tháng... năm... đến ngày... tháng... năm ...)
+
+     Mẫu số 01. Báo cáo nhanh tai nạn điện
+     TÊN CƠ QUAN, TỔ CHỨC       CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+      CHỦ QUẢN TRỰC TIẾP              Độc lập - Tự do - Hạnh phúc
+     TÊN CƠ QUAN, TỔ CHỨC                  ______________________
+       BAN HÀNH VĂN BẢN          Tên địa danh, ngày……tháng……năm……
+          __________
+                       BÁO CÁO NHANH TAI NẠN ĐIỆN
+     Thời điểm xảy ra tai nạn:……………………………………………………………………….
+     Địa điểm xảy ra tai nạn: ………………………………………………………………………..
+     Thời tiết: …………………………………………………………………………………………
+     Tên nạn nhân:………………………………..…….Giới tính:……..Năm sinh:…………..….
+     Trú quán: ………………………………………………………………………………………..
+     Nghề nghiệp: ……………………………………………………………………………………
+     Tóm tắt diễn biến vụ việc: ……………………………………………………………………..
+     Mức độ thiệt hại: ………………………………………………………………………………..
+     Nguyên nhân sơ bộ: …………………………………………………………………………...
+     Biện pháp đã khắc phục: ………………………………………………………………………
+     Hướng giải quyết tiếp theo: ……………………………………………………………………
+     (Ghi tên cơ quan, tổ chức ban hành văn bản) báo cáo.
+Nơi nhận:                          Lãnh đạo cơ quan, tổ chức ban hành văn bản
+- ……….;                                       (Ký tên, đóng dấu)
+- ……….;
+- Lưu:
+
+     Mẫu số 02. Báo cáo vi phạm đối với hành lang bảo vệ an toàn công trình điện lực
+                                                 BÁO CÁO VI PHẠM ĐỐI VỚI HÀNH LANG
+                                                 BẢO VỆ AN TOÀN CÔNG TRÌNH ĐIỆN LỰC
+                                                                      Phân loại vụ vi phạm tồn cuối kỳ báo cáo (Vi phạm Điều ..., Điều...
+                                      Tổng số vụ vi phạm               Nghị định số .../2025/NĐ-CP; Điều... Luật Điện lực ngày
+STT     Đơn vị Cấp điện                                                                    30/11/2024,...)
+         trực  áp (kV)   Tồn   Phát sinh   Giảm      Giảm                                                            (Ghi vi phạm
+        thuộc           đầu kỳ   tăng    trong kỳ  trong kỳ Tồn cuối kỳ   (Ghi vi phạm Điều... của Văn bản QPPL...)    Văn bản
+                         báo   trong kỳ do cải tạo do xử lý   báo cáo                                                  QPPL...)
+                         cáo   báo cáo  lưới điện    khác              Khoản …   Khoản …    Khoản …    Khoản …   …   Điều …  ….
+(1)      (2)      (3)    (4)     (5)       (6)       (7)      (8=4+5-     (9)      (10)        (11)      (12)   ...    …      …
+                                                                6-7)
+ I                       Đường dây điện trên không
+ 1                6
+ 2                10
+                 ....
+ II   Đường cáp điện ngầm
+ 1                6
+                  …
+III   Trạm điện
+ 1                6
+                 ...
+      Cộng        6
+      (Theo cấp   10
+      điện áp     …
+                                                                                          Đơn vị báo cáo
+                                                                                         (Ký tên, đóng dấu)
+
+      Mẫu số 03. Báo cáo định kỳ tai nạn điện
+                           BÁO CÁO ĐỊNH KỲ TAI NẠN ĐIỆN
+                  (Tính từ ngày... tháng... năm đến ngày... tháng... năm ...)
+      Đơn vị - địa Họ và          Nghề    Ngày, giờ xảy   Nơi    Nguyên        Tình  Tổng số
+STT   phương có   tên nạn  Tuổi  nghiệp,  ra tai nạn, điện  xảy ra nhân, diễn trạng    ngày
+         tai nạn    nhân         bậc thợ  áp gây tai nạn  tai     biến        (nhẹ,  nghỉ vì
+                                                          nạn                 nặng,  tai nạn
+                                                                              chết)
+                                                               Đơn vị báo cáo
+                                                          (Ký tên, đóng dấu)
+
+                                           Phụ lục II
+                                      MẪU THẺ AN TOÀN ĐIỆN
+                              (Kèm theo Nghị định số 62/2025/NĐ-CP
+                            ngày 04 tháng 3 năm 2025 của Chính phủ)
+                                           __________
+                              Ảnh                THẺ
+                              2x3
+                             (đóng      AN TOÀN ĐI@N
+                              dấu)
+                                                 (3)/. Số     JTATĐ
+                                                        (4)
+                           Ho tên:           (5)
+                           Công việc , đơn vị công tác:  (6)
+                           Bâc an toàn:  15
+                           Cấp ngày    tháng    năm
+                                                   (Ký tên, đóng dấu)
+        Một số quy định cụ thể:
+        1. Kích thước (85x53)mm, nền cả hai mặt màu vàng nhạt.
+        2. Quy định về viết thẻ:
+        (1) : Tên cơ quan cấp trên của đơn vị cấp thẻ (nếu có);
+        (2) : Tên đơn vị cấp thẻ;
+        (3) : Số thứ tự Thẻ an toàn do đơn vị cấp thẻ cấp theo thứ tự từ 01 đến n, số thứ tự thẻ của
+mỗi người lao động được giữ nguyên sau mỗi lần cấp lại thẻ;
+        (4) : Chữ viết tắt của đơn vị cấp thẻ;
+        (5) : Họ tên của người được cấp thẻ;
+        (6): Công việc hiện đang làm của người được cấp thẻ (vận hành, thí nghiệm, xây lắp...) tại
+(ghi tên đơn vị công tác);
+        (7): Chức vụ của người cấp thẻ;
+        (8): Chữ ký của người cấp thẻ và dấu của đơn vị cấp thẻ.
+        3. Phông chữ:
+        a) Tại các vị trí (1), (2), (7) sử dụng phông chữ Arial, cỡ chữ 12, kiểu chữ in hoa có dấu, màu
+đen;
+        b) Các chữ “Thẻ an toàn điện” sử dụng phông chữ Arial, cỡ chữ 22, kiểu chữ in hoa, đậm, có
+dấu, màu đỏ;
+        c) Các nội dung còn lại sử dụng phông chữ Arial, cỡ chữ 12, kiểu chữ in thường, có dấu,
+màu đen.
+
+                        Phụ lục III
+          QUY TRÌNH VẬN HÀNH HỒ CHỨA THỦY ĐIỆN
+          (Kèm theo Nghị định số 62/2025/NĐ-CP
+        ngày 04 tháng 3 năm 2025 của Chính phủ)
+                     _____________
+          QUY TRÌNH VẬN HÀNH HỒ CHỨA THỦY ĐIỆN
+             TÊN CƠ QUAN CẤP TRÊN (nếu có)
+          TÊN CHỦ SỞ HỮU CÔNG TRÌNH THỦY ĐIỆN
+                  QUY TRÌNH VẬN HÀNH
+                   HỒ CHỨA THỦY ĐIỆN
+                 Tên công trình: …………….
+ĐƠN VỊ TƯ VẤN (nếu có)             CHỦ SỞ HỮU CÔNG TRÌNH
+  (Ký tên, đóng dấu)                     THỦY ĐIỆN
+                                       (Ký tên, đóng dấu)
+                  …….., tháng ….. năm …..
+
+                                            Chương I
+                                       QUY ĐỊNH CHUNG
+       1. Phạm vi điều chỉnh, đối tượng áp dụng.
+       2. Cơ sở pháp lý để xây dựng quy trình.
+       3. Thông số kỹ thuật chủ yếu của công trình.
+       4. Nhiệm vụ công trình theo thứ tự ưu tiên và nguyên tắc vận hành công trình.
+       5. Phân loại lũ và thời kỳ mùa lũ, mùa kiệt.
+       6. Trình tự thực hiện đóng, mở của van (nếu có).
+       7. Quan trắc, cung cấp thông tin quan trắc khí tượng thủy văn.
+       8. Phối hợp vận hành giữa chủ sở hữu, tổ chức, cá nhân khai thác đập, hồ chứa thủy điện
+với chủ sở hữu, tổ chức, cá nhân khai thác đập, hồ chứa thủy điện khác trên cùng lưu vực sông và
+các tổ chức, cơ quan, cá nhân có liên quan trong công tác vận hành đập, hồ chứa thủy điện.
+       9. Cảnh báo trước, trong quá trình vận hành xả lũ và vận hành phát điện, bao gồm:
+       a) Quy định khoảng thời gian tối thiểu phải thông báo trước khi vận hành mở cửa xả nước
+đầu tiên.
+       b) Tín hiệu cảnh báo, thời điểm cảnh báo, vị trí cảnh báo.
+       c) Trách nhiệm của các tổ chức, cá nhân trong việc phát lệnh, truyền lệnh, thực hiện lệnh vận
+hành cửa xả.
+       d) Trách nhiệm của các tổ chức, cá nhân trong việc phát tin, truyền tin, nhận tin cảnh báo
+đóng/mở cửa xả.
+       10. Vận hành hồ chứa thủy điện đảm bảo quy định về dòng chảy tối thiểu (nếu có).
+                                            Chương II
+                                  VẬN HÀNH HỒ CHỨA TRONG MÙA LŨ
+       1. Quy định về mực nước trước lũ, đón lũ.
+       2. Nguyên tắc vận hành hồ trong mùa lũ.
+       3. Vận hành hồ chứa tham gia cắt/giảm lũ cho hạ du, phát điện.
+       4. Vận hành hồ chứa bảo đảm an toàn cho công trình.
+       5. Tích nước cuối mùa lũ.
+                                            Chương III
+                                 VẬN HÀNH HỒ CHỨA TRONG MÙA KIỆT
+       1. Nguyên tắc vận hành hồ trong mùa kiệt.
+       2. Vận hành phát điện, xả nước trong mùa kiệt.
+       3. Vận hành bảo đảm mực nước trong mùa kiệt.
+       4. Vận hành điều tiết lũ trong mùa kiệt.
+                                            Chương IV
+                                   CÁC TRƯỜNG HỢP VẬN HÀNH KHÁC
+       1. Vận hành hồ chứa thủy điện khi khu vực hạ du có yêu cầu bất thường về nước.
+       2. Vận hành hồ chứa thủy điện khi xảy ra hạn hán, thiếu nước, ô nhiễm nguồn nước nghiêm
+trọng hoặc khi xảy ra các sự cố tai biến môi trường.
+       3. Vận hành hồ chứa thủy điện cấp nước cho thủy lợi.
+                                           Chương V
+
+                 TRÁCH NHIỆM CỦA CÁC TỔ CHỨC, CÁ NHÂN
+1. Nguyên tắc chung về trách nhiệm bảo đảm an toàn cho công trình.
+2. Trách nhiệm của người đứng đầu tổ chức quản lý vận hành công trình thủy điện.
+3. Trách nhiệm của người đứng đầu Chủ sở hữu công trình thủy điện.
+4. Trách nhiệm của Trưởng ban Chỉ huy phòng thủ dân sự các cấp.
+5. Trách nhiệm của Giám đốc Sở Công Thương tỉnh/các tỉnh có liên quan.
+6. Trách nhiệm của Chủ tịch Ủy ban nhân dân tỉnh/các tỉnh có liên quan.
+7. Trách nhiệm của Bộ trưởng, Thủ trưởng các ban, ngành có liên quan.
+8. Trách nhiệm của tổ chức, cá nhân có liên quan.
+9. Trách nhiệm thực hiện và trường hợp sửa đổi, bổ sung quy trình vận hành hồ chứa thủy điện.
+                                          Chương VI
+                                  CÁC PHỤ LỤC
+1. Thông số kỹ thuật chính của công trình.
+2. Số liệu và biểu đồ đặc trưng quan hệ hồ chứa (Quan hệ W-F-Z).
+3. Số liệu và biểu đồ quan hệ lưu lượng - mực nước hạ lưu đập.
+4. Số liệu và biểu đồ đường quan hệ độ mở cửa van (đối với công trình có cửa van điều tiết).
+5. Số liệu và biểu đồ quan hệ mực nước hồ chứa - lưu lượng xả qua tràn.
+6. Biểu đồ tần suất lũ thiết kế.
+7. Số liệu và biểu đồ điều phối vận hành hồ chứa.
+                                                  CHỦ SỞ HỮU CÔNG TRÌNH THỦY ĐIỆN
+                                                           (Ký, đóng dấu)
+
+                          Phụ lục IV
+          PHƯƠNG ÁN ỨNG PHÓ VỚI TÌNH HUỐNG KHẨN CẤP
+             (Kèm theo Nghị định số 62/2025/NĐ-CP
+           ngày 04 tháng 3 năm 2025 của Chính phủ)
+                        _____________
+          PHƯƠNG ÁN ỨNG PHÓ VỚI TÌNH HUỐNG KHẨN CẤP
+1. Trang bìa
+                TÊN CƠ QUAN CẤP TRÊN (nếu có)
+        TÊN CHỦ SỞ HỮU HOẶC TỔ CHỨC ĐƯỢC ỦY QUYỀN/GIAO
+                          PHƯƠNG ÁN
+               ỨNG PHÓ VỚI TÌNH HUỐNG KHẨN CẤP
+                    ĐẬP, HỒ CHỨA THỦY ĐIỆN
+                   Tên công trình: ……………..
+    ĐƠN VỊ TƯ VẤN (nếu có)          CHỦ SỞ HỮU CÔNG TRÌNH HOẶC
+       (Ký tên, đóng dấu)           CƠ QUAN ĐƯỢC ỦY QUYỀN/GIAO
+                                          (Ký tên, đóng dấu)
+                      ……., tháng ... năm ......
+
+        2. Nội dung phương án
+        a) Khái quát về chủ sở hữu và tổ chức quản lý vận hành công trình thủy điện
+        - Về chủ sở hữu công trình thủy điện
+        + Tên chủ đầu tư và cơ quan cấp trên (nếu có).
+        + Địa chỉ, số điện thoại, số fax, email, website.
+        - Về tổ chức khai thác đập, hồ chứa
+        + Tên tổ chức.
+        + Địa chỉ, số điện thoại, số fax, email, website.
+        b) Khái quát về công trình thủy điện
+        - Tên công trình thủy điện.
+        - Cấp công trình theo thiết kế được duyệt; cấp công trình theo tiêu chuẩn, quy chuẩn kỹ thuật
+hiện hành.
+        - Phân loại công trình thủy điện theo quy định tại Nghị định số ………./2025/NĐ-CP.
+        - Nhiệm vụ của công trình.
+        - Địa điểm xây dựng (xã, huyện, tỉnh).
+        - Thời điểm khởi công, thời điểm đưa công trình thủy điện vào khai thác.
+        c) Khái quát về địa hình, khí tượng thủy văn (lượng mưa, mùa mưa, lưu lượng lũ lớn nhất...),
+thảm thực vật lưu vực hồ chứa theo thiết kế; các hình thái thiên tai có thể xảy ra trong lưu vực hồ
+chứa
+        d) Đặc điểm vùng hạ du đập, hồ chứa
+        - Về địa hình.
+        - Về dân cư (số lượng, phân bố, khả năng tiếp cận tín hiệu cảnh báo).
+        - Những đối tượng bị ảnh hưởng, mức độ ảnh hưởng.
+        - Phạm vi ngập lụt vùng hạ du theo các tình huống xả lũ, vỡ đập tại bản đồ ngập lụt vùng hạ
+du được phê duyệt.
+        đ) Sơ đồ mặt bằng đập, hồ chứa thủy điện và vùng hạ du đập.
+        e) Các tình huống xả lũ khẩn cấp, tình huống vỡ đập và biện pháp ứng phó để bảo đảm an
+toàn cho vùng hạ du.
+        g) Thống kê các đối tượng bị ảnh hưởng, mức độ ảnh hưởng theo các kịch bản
+        h) Chế độ, phương thức thông tin, cảnh báo, báo động đến cơ quan chức năng và người dân
+khu vực bị ảnh hưởng.
+        i) Trách nhiệm của chủ sở hữu, tổ chức quản lý vận hành công trình thủy điện; các cơ quan
+chức năng của địa phương và các tổ chức, cá nhân khác có liên quan
+        k) Phương án huy động vật tư, phương tiện, nhân lực khi xảy ra tình huống khẩn cấp
+        I) Danh bạ điện thoại và các hình thức liên lạc khác giữa Chủ sở hữu công trình thủy điện; tổ
+chức khai thác đập, hồ chứa; chính quyền và các cơ quan chức năng của địa phương; các cơ quan
+khác có liên quan đến vận hành an toàn công trình, hồ chứa
+        3. Các tài liệu sử dụng để lập phương án
+        a) Báo cáo thuyết minh các tính toán kỹ thuật.
+        b) Các tài liệu khác liên quan
+
+                            Phụ lục V
+            PHƯƠNG ÁN BẢO VỆ ĐẬP, HỒ CHỨA THỦY ĐIỆN
+              (Kèm theo Nghị định số 62/2025/NĐ-CP
+            ngày 04 tháng 3 năm 2025 của Chính phủ)
+                        _______________
+            PHƯƠNG ÁN BẢO VỆ ĐẬP, HỒ CHỨA THỦY ĐIỆN
+1. Trang bìa
+                 TÊN CƠ QUAN CẤP TRÊN (nếu có)
+         TÊN CHỦ SỞ HỮU HOẶC TỔ CHỨC ĐƯỢC ỦY QUYỀN/GIAO
+                           PHƯƠNG ÁN
+                 BẢO VỆ ĐẬP, HỒ CHỨA THỦY ĐIỆN
+                    Tên công trình: ……………..
+    ĐƠN VỊ TƯ VẤN (nếu có)            CHỦ SỞ HỮU CÔNG TRÌNH HOẶC
+       (Ký tên, đóng dấu)             CƠ QUAN ĐƯỢC ỦY QUYỀN/GIAO
+                                            (Ký tên, đóng dấu)
+                       ………, tháng... năm ...
+
+        2. Nội dung phương án
+        a) Khái quát về Chủ sở hữu công trình thủy điện và tổ chức quản lý, vận hành công trình thủy
+điện
+        - Về chủ sở hữu công trình thủy điện
+        + Tên chủ đầu tư và cơ quan cấp trên (nếu có).
+        + Địa chỉ, số điện thoại, số fax, email, website.
+        - Về tổ chức quản lý vận hành công trình thủy điện
+        + Tên tổ chức.
+        + Địa chỉ, số điện thoại, số fax, email, website.
+        b) Khái quát về công trình thủy điện
+        - Tên công trình thủy điện.
+        - Cấp công trình theo thiết kế được duyệt; cấp công trình theo tiêu chuẩn, quy chuẩn kỹ thuật
+hiện hành.
+        - Phân loại công trình thủy điện theo quy định tại Nghị định số ………/2025/NĐ-CP.
+        - Nhiệm vụ của công trình.
+        - Địa điểm xây dựng (xã, huyện, tỉnh).
+        - Thời điểm khởi công, thời điểm đưa công trình thủy điện vào khai thác, sử dụng.
+        c) Khái quát tình hình dân cư và an ninh trật tự nơi xây dựng đập, hồ chứa
+        d) Sơ đồ phạm vi bảo vệ đập, hồ chứa và bố trí lực lượng bảo vệ
+        đ) Nội dung bảo vệ đập, hồ chứa
+        - Đặc điểm địa hình, thông số thiết kế, sơ đồ mặt bằng bố trí công trình và chỉ giới cắm mốc
+phạm vi bảo vệ đập, hồ chứa thủy điện.
+        - Tình hình quản lý, khai thác và bảo vệ đập, hồ chứa thủy điện.
+        - Chế độ báo cáo, kiểm tra thường xuyên, định kỳ, đột xuất.
+        - Quy định việc giới hạn hoặc cấm các loại phương tiện giao thông có tải trọng lớn lưu thông
+trong phạm vi bảo vệ công trình; quy định về phòng cháy, chữa cháy; bảo vệ an toàn nơi lưu trữ tài
+liệu, kho tàng cất giữ vật liệu nổ, chất dễ cháy, chất độc hại.
+        - Tổ chức lực lượng và phân công trách nhiệm bảo vệ đập, hồ chứa thủy điện; trang thiết bị
+hỗ trợ công tác bảo vệ.
+        - Tổ chức kiểm tra, kiểm soát người và phương tiện ra, vào công trình.
+        - Phòng ngừa, phát hiện, ngăn chặn các hành vi xâm phạm, phá hoại công trình và vùng phụ
+cận của đập, hồ chứa thủy điện.
+        - Bảo vệ, xử lý khi đập, hồ chứa thủy điện xảy ra sự cố hoặc có nguy cơ xảy ra sự cố.
+        - Nguồn lực tổ chức thực hiện phương án.
+        - Trách nhiệm của chủ sở hữu, tổ chức, cá nhân khai thác đập, hồ chứa thủy điện, chính
+quyền các cấp và các cơ quan, đơn vị liên quan.
+        3. Tài liệu sử dụng để lập phương án
+
+                                            Phụ lục VI
+                                   PHƯƠNG ÁN TÍCH NƯỚC LẦN ĐẦU
+                                    CỦA ĐẬP, HỒ CHỨA THỦY ĐIỆN
+                               (Kèm theo Nghị định số 62/2025/NĐ-CP
+                             ngày 04 tháng 03 năm 2025 của Chính phủ)
+                                          ______________
+                                   PHƯƠNG ÁN TÍCH NƯỚC LẦN ĐẦU
+                                    CỦA ĐẬP, HỒ CHỨA THỦY ĐIỆN
+                                Kính gửi: Ủy ban nhân dân………..
+        1. Nội dung Kế hoạch
+        a) Khái quát về chủ đầu tư và công trình
+        - Về chủ đầu tư:
+        + Tên chủ đầu tư và cơ quan cấp trên (nếu có).
+        + Địa chỉ, số điện thoại, số fax, email, website.
+        - Về công trình
+        + Tên công trình/dự án.
+        + Cấp công trình theo thiết kế được duyệt; cấp công trình theo tiêu chuẩn, quy chuẩn kỹ thuật
+hiện hành.
+        + Phân loại công trình thủy điện theo quy định tại Nghị định số ..../2025/NĐ-CP.
+        + Nhiệm vụ của công trình.
+        + Địa điểm xây dựng (xã, huyện, tỉnh).
+        + Tên, địa chỉ các nhà thầu.
+        b) Khái quát vùng hồ chứa
+        - Về địa hình.
+        - Về dân cư, những công trình xây dựng hiện hữu có thể bị ảnh hưởng.
+        c) Khái quát về địa hình, khí tượng thủy văn (lượng mưa, mùa mưa, lưu lượng lũ lớn nhất...)
+lưu vực hồ chứa theo thiết kế; các hình thái thiên tai có thể xảy ra trong lưu vực hồ chứa.
+        d) Tiến độ tích nước hồ chứa
+        - Thời điểm khởi công, thời điểm dự kiến tích nước lần đầu.
+        - Thời điểm kết thúc quá trình tích nước lần đầu.
+        đ) Trách nhiệm của chủ đầu tư, tổ chức, cá nhân có liên quan trong triển khai kế hoạch tích
+nước lần đầu.
+        e) Cam kết của chủ đầu tư xây dựng đập khi tích nước hồ chứa lần đầu.
+        - Thực hiện đảm bảo dòng chảy tối thiểu ở hạ lưu đập trong thời gian tích nước.
+        - Đảm bảo tích đúng mực nước được phép. Trường hợp xả lũ ngay trong thời gian tích nước
+lần đầu thực hiện đúng theo quy trình vận hành hồ chứa thủy điện được cơ quan có thẩm quyền phê
+duyệt.
+        g) Danh bạ điện thoại và các hình thức liên lạc khác giữa chủ sở hữu; tổ chức, cá nhân khai
+thác đập, hồ chứa thủy điện với chính quyền và các cơ quan chức năng của địa phương; các cơ
+quan khác có liên quan.
+        2. Đề xuất, kiến nghị
+        3. Các hồ sơ, tài liệu kèm theo
+        a) Kết quả kiểm tra công tác nghiệm thu các hạng mục công trình của cơ quan quản lý nhà
+nước có thẩm quyền.
+
+        b) Kết quả phê duyệt Quy trình vận hành hồ chứa thủy điện, phương án ứng phó tình huống
+khẩn cấp, phương án bảo vệ đập, hồ chứa thủy điện của cơ quan có thẩm quyền.
+        c) Kết quả đầu tư, lắp đặt thiết bị cảnh báo vận hành xả nước, camera giám sát, thiết bị quan
+trắc mực nước, hệ thống truyền dẫn thông tin trực tiếp về các cơ quan quản lý về phòng chống thiên
+tai, công thương, tài nguyên nước.
+        d) Thông tin về hệ thống bảo đảm duy trì dòng chảy tối thiểu ở hạ du theo quy định của pháp
+luật về tài nguyên nước.
+        đ) Kết quả thực hiện trách nhiệm, nghĩa vụ khác theo quy định của pháp luật có liên quan.
+                                                         CHỦ SỞ HỮU CÔNG TRÌNH THỦY ĐIỆN
+                                                                (Ký tên, đóng dấu)
+
+                                          Phụ lục VII
+                                      MẪU TỜ KHAI ĐĂNG KÝ
+                             AN TOÀN CÔNG TRÌNH, HỒ CHỨA THỦY ĐIỆN
+                              (Kèm theo Nghị định số 62/2025/NĐ-CP
+                            ngày 04 tháng 3 năm 2025 của Chính phủ)
+                                         _____________
+                               CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+                                  Độc lập - Tự do - Hạnh phúc
+                                        ________________________
+                                  ………ngày ....tháng.... năm………
+                                            TỜ KHAI
+                              Đăng ký an toàn công trình thủy điện
+        1. Tên công trình thủy điện:
+        2. Địa điểm xây dựng thuộc tỉnh         , huyện        , xã
+        3. Nhiệm vụ chính: Cấp nước tưới □ Phát điện □ Cắt, giảm lũ □
+        Cấp nước sinh hoạt □ Cấp nước cho công nghiệp □
+        4. Thời gian xây dựng: Năm bắt đầu ……………….; Năm kết thúc ………………….
+        5. Kinh phí xây dựng: …………………………………………
+        6. Nguồn vốn đầu tư xây dựng: ……………………………………………………
+        7. Tên chủ sở hữu công trình thủy điện
+        Địa chỉ: ………………………………………………………………………………..
+        Điện thoại: ……………………………………………….Fax:……………………
+        Email: …………………………………………………………………………………
+        Website: …………………………………………………..…………………………
+        8. Tổ chức, cá nhân quản lý vận hành công trình thủy điện (có liên quan đến công tác quản lý
+đập):
+        Địa chỉ: …………………………………………………………………………………
+        Điện thoại: …………………………………………….Fax: ………………………..
+        Email: …………………………………………………………………………………..
+        9. Hồ chứa
+        a) Cấp công trình: ………………………………………………………………………..
+        b) Vị trí (xã, huyện, tỉnh): ………………………………………………………………
+        c) Diện tích lưu vực (Km²): ……………………………………………………………
+        d) Dung tích ứng với MNDBT (10⁶m³): ……………………………………………….
+        đ) Dung tích hữu ích (10⁶m³): ……………………………………………………………
+        e) Dung tích phòng lũ (10⁶m³): ……………………………………………………………
+        g) Mực nước lũ thiết kế (m): ………………………………………………………………
+        h) Mực nước lũ kiểm tra (m): ………………………………………………………………
+        i) Mực nước dâng bình thường (m): …………………………………………………….
+        k) Mực nước chết (m): …………………………………………………………………….
+        l) Mực nước lớn nhất đã xảy ra (m): …………………………………………………………
+        m) Mực nước thấp nhất (m): ……………………………………………………………..
+
+10. Đập chính
+a) Chiều dài đỉnh đập (m): …………………………………………………………….
+b) Chiều cao lớn nhất (m): ……………………………………………………………
+c) Cao trình đỉnh đập (m): …………………………………………………………….
+d) Cao trình đỉnh tường chắn sóng (m): ………………………………………………..
+đ) Loại đập (đập đất, đập bê tông trọng lực, đập đá đổ...): ………………………..
+e) Tình trạng chất lượng:          Bình thường □ Hư hỏng □
+Mô tả hư hỏng (nếu có): …………………………………………………………….
+11. Các đập phụ
+a) Chiều dài (m): ……………………………………………………………….
+b) Chiều cao (m): ………………………………………………………………
+c) Cao trình đỉnh đập (m): …………………………………………………
+d) Cao trình đỉnh tường chắn sóng (m): ……………………………………..
+đ) Kết cấu: ………………………………………………………………………
+e) Tình trạng chất lượng: Bình thường □      Hư hỏng □
+Mô tả hư hỏng (nếu có): ……………………………………………………………
+12. Các cổng lấy nước
+a) Tên cống: ………………………………………………………………
+b) Vị trí (dưới đập nào?): ………………………………………………..
+c) Lưu lượng thiết kế (Qₜₖ m³/s):
+d) Vật liệu: ………………………………………………………………….
+đ) Chế độ chảy:         Không áp □              Có áp □
+e) Chiều dài cổng (m): ………………………………………………………………
+g) Kích thước cống (m): ……………………………………………………………
+h) Cao trình đáy cổng (m): ……………………………………………………….
+i) Tình trạng chất lượng:      Tốt □          Hư hỏng □
+Mô tả hư hỏng (nếu có): …………………………………………………………
+13. Tràn xả lũ
+a) Tên tràn: ……………………………………………………………………..
+b) Vị trí: ………………………………………………………………………..
+c) Lưu lượng xả thiết kế (Qxảtk m³/s): ………………………………………
+d) Cao trình ngưỡng tràn (m): ………………………………………………….
+đ) Chiều rộng tràn (m): …………………………………………………………..
+Số khoang: …………………………..Bề rộng khoang tràn: ………………….
+e) Kết cấu: ………………………………………………………………..
+g) Hình thức: ………………………………………………………………..
+h) Hình thức tiêu năng: …………………………………………………….
+i) Hình thức đóng mở: ……………………………………………………..
+k) Tình trạng chất lượng:          Tốt □       Hư hỏng □
+Mô tả hư hỏng (nếu có): ………………………………………………….
+
+14. Công trình tháo nước khác
+a) Tên công trình: ………………………………………………………………
+b) Lưu lượng thiết kế (Qₜₖ m³/s): ……………………………………………
+c) Kết cấu: …………………………………………………………………………..
+d) Chế độ chảy:             Không áp □             Có áp □
+đ) Chiều dài (m): …………………………………………………………………..
+e) Kích thước (m): ………………………………………………………………..
+g) Cao trình ngưỡng (m): ………………………………………………………..
+h) Tình trạng chất lượng: Bình thường □          Hư hỏng □
+Mô tả hư hỏng (nếu có): …………………………………………………………….
+15. Đường quản lý:                  Có □            không có □
+a) Chiều dài: ……………………………….(m)
+b) Mặt đường: Đất □  Cấp phối □   Nhựa, bê tông □
+c) Chất lượng đường: Tốt □    Xấu □     Bình thường □
+16. Các loại quan trắc
+a) Quan trắc công trình
+Quan trắc thấm □       Quan trắc chuyển vị □     Ứng suất □
+b) Quan trắc khí tượng thủy văn chuyên dùng
+Đo mưa                 Tự động □                  Thủ công □
+Số lượng trạm: ……………………………………………………………
+Mô tả hiện trạng: ……………………………………………………………..
+Đo mực nước:             Tự động □            Thủ công □
+Số lượng trạm: ……………………………………………………………..
+Mô tả hiện trạng: …………………………………………………………..
+17. Hệ thống giám sát vận hành
+                     Có □         Không □
+Mô tả hiện trạng: …………………………………………………………….
+18. Cơ sở dữ liệu đập, hồ chứa thủy điện
+                  Có □            Không □
+Mô tả hiện trạng: …………………………………………………………………………….
+19. Quy trình vận hành                   Có □            Không □
+a) Năm phê duyệt:
+b) Năm điều chỉnh:
+20. Phương án bảo vệ            Có □              Không □
+a) Năm phê duyệt: ………………………………………………………..
+b) Năm điều chỉnh: ………………………………………………………….
+21. Cắm mốc chỉ giới phạm vi bảo vệ đập, hồ chứa
+                  Có □               Không □
+22. Phương án ứng phó với tình huống khẩn cấp
+                  Có □               Không □
+
+a) Năm phê duyệt: ……………………………………………………………
+b) Năm điều chỉnh: ……………………………………………………………
+23. Phương án ứng phó thiên tai
+                  Có □                   Không □
+a) Năm phê duyệt: ………………………………………………………………
+b) Năm điều chỉnh: ……………………………………………………………...
+24. Kiểm định an toàn công trình, hồ chứa thủy điện
+a) Số lần kiểm định: ……………………………………………………………..
+b) Năm thực hiện: ……………………………………………………………..
+25. Lưu trữ hồ sơ đập, hồ chứa thủy điện:
+Đầy đủ □              Không đầy đủ □               Không có □
+26. Thiết bị thông tin cảnh báo an toàn cho đập và vùng hạ du đập:
+                Có □            Không có □
+27. Quy trình vận hành cửa van, quy trình bảo trì công trình
+a) Quy trình vận hành cửa van
+                Có □            Không có □
+b) Quy trình bảo trì công trình
+                Có □             Không có □
+28. Quá trình quản lý khai thác
+Tóm tắt các sự cố lớn, nội dung sửa chữa nâng cấp đã được thực hiện, năm thực hiện.
+29. Đánh giá chung về an toàn công trình
+a) Đánh giá chung
+b) Đề nghị
+                                                   Ngày..... tháng..... năm …
+                                                (Tổ chức, cá nhân khai thác đập
+                                                        ký tên, đóng dấu)
+
+                                          Phụ lục VIII
+                  BÁO CÁO ĐÁNH GIÁ AN TOÀN ĐẬP, HỒ CHỨA THỦY ĐIỆN
+                              (Kèm theo Nghị định số 62/2025/NĐ-CP
+                            ngày 04 tháng 3 năm 2025 của Chính phủ)
+                                        _______________
+          TÊN ĐƠN VỊ CHỦ QUẢN                     CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+           TÊN ĐƠN VỊ BÁO CÁO                        Độc lập - Tự do - Hạnh phúc
+               Số: …../….                              ________________________
+             _____________                          ….., ngày …. tháng …. năm …..
+                  Số:
+                                            BÁO CÁO
+                        KẾT QUẢ KIỂM TRA, ĐÁNH GIÁ AN TOÀN ĐẬP, HỒ CHỨA
+                                      Tên công trình: …….
+                                    Kính gửi: ………………..
+        Thực hiện Nghị định số ..../2025/NĐ-CP ngày... tháng ... năm 2025 của Chính phủ quy định
+chi tiết thi hành Luật Điện lực về bảo vệ công trình điện lực và an toàn trong  lĩnh vực điện lực và
+Thông tư số .../2025/TT-BCT ngày …. tháng 01 năm 2025 của Bộ Công Thương quy định về bảo vệ
+công trình điện lực và an toàn trong lĩnh vực điện lực, ………. báo cáo tình hình thực hiện công tác
+quản lý an toàn đập, hồ chứa thủy điện ……… như sau:
+        1. Tình hình khí tượng thủy văn
+        Báo cáo tóm tắt những thông tin chính, tổng quát về tình hình thủy văn trong kỳ báo cáo,
+gồm:
+        a) Tình hình khí hậu, mưa trên lưu vực.
+        b) Tình hình lũ về hồ chứa (số trận lũ, thời điểm xuất hiện, tổng lưu lượng về hồ, lưu lượng
+đỉnh lũ lớn nhất).
+        c) Diễn biến mực nước hồ chứa (mực nước hồ lớn nhất, thời điểm; mực nước hồ nhỏ nhất,
+thời điểm),
+        d) Tình hình vận hành xả lũ (số lần xả, thời điểm xả, lưu lượng xả lớn nhất, tổng lượng nước
+xả về hạ du).
+        2. Hiện trạng đập
+        a) Kết quả kiểm tra đập bằng mắt thường
+        b) Kết quả quan trắc đập
+        - Các hạng mục quan trắc.
+        - Số lượng từng loại thiết bị quan trắc.
+        - Kết quả quan trắc so với giá trị tính toán thiết kế.
+        c) Tình trạng thiết bị vận hành đập
+        - Các thiết bị vận hành đập.
+        - Kết quả thực hiện bảo trì, bảo dưỡng, sửa chữa định kỳ thiết bị
+        - Đánh giá Tình tình trạng vận hành, hoạt động của thiết bị.
+        - Kiểm tra, đánh giá việc vận hành ổn định hệ thống thông tin, cảnh báo an toàn vận hành
+phát điện, vận hành xả lũ cho đập, vùng hạ du đập.
+        d) Về kiểm định đập
+        - Đập đã đến kỳ kiểm định hay chưa.
+        - Nếu đã đến kỳ kiểm định thì cập nhật thông tin: Đập đã được kiểm định chưa, nếu chưa thì
+nêu rõ lý do; nếu đã được kiểm định thì nêu rõ kết luận, kiến nghị của tổ chức kiểm định và kết quả
+
+thực hiện kiến nghị của tổ chức kiểm định.
+       đ) Các hoạt động đang được triển khai thực hiện thuộc phạm vi bảo vệ đập
+       3. Hiện trạng hồ chứa
+       a) Tình hình sạt lở, tái tạo bờ hồ chứa.
+       b) Tình hình bồi lắng lòng hồ.
+       c) Các hoạt động đang được triển khai thực hiện thuộc phạm vi bảo vệ hồ chứa.
+       4. Kết quả thực hiện các yêu cầu của cơ quan thẩm quyền.
+       5. Đánh giá của chủ sở hữu đập, hồ chứa thủy điện về tình trạng đập, hồ chứa.
+       6. Kiến nghị của chủ sở hữu đập, hồ chứa
+ Nơi nhận:                                                           GIÁM ĐỐC
+                                                                (Ký tên, đóng dấu)
+
+                                                           Phụ lục IX
+                                                            BÁO CÁO
+                                        HIỆN TRẠNG AN TOÀN CÔNG TRÌNH, HỒ CHỨA THỦY ĐIỆN
+                                              (Kèm theo Nghị định số 62/2025/NĐ-CP
+                                            ngày 04 tháng 3 năm 2025 của Chính phủ)
+                                                        _______________
+          TÊN ĐƠN VỊ CHỦ QUẢN                       CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+           TÊN ĐƠN VỊ BÁO CÁO                          Độc lập - Tự do - Hạnh phúc
+             _____________                               ________________________
+                Số: …/…                                 ……, ngày … tháng … năm ….
+                                                            BÁO CÁO
+                    HIỆN TRẠNG AN TOÀN CÔNG TRÌNH THỦY ĐIỆN………..
+                                                             NĂM………
+                                                        Kính gửi: ………………
+        I. THÔNG TIN CỦA ĐƠN VỊ BÁO CÁO
+        1. Tên đơn vị:
+        2. Địa chỉ:
+        3. Điện thoại:                  Fax:
+        4. Email:                       Web:
+        II. NỘI DUNG BÁO CÁO
+        1. Kết quả quan trắc đập, hồ chứa
+        a) Đối với hồ chứa
+        - Mực nước cao nhất/thấp nhất trong kỳ báo cáo (m): …../….
+        - Tình hình lũ
+        + Số trận lũ trong kỳ báo cáo.
+        + Thông tin về dòng chảy lũ của từng trận lũ
+        Lưu lượng đỉnh lũ (m³/s):
+        Tổng lượng nước về hồ (m³):
+        Mực nước hồ cao nhất (m):
+        Tóm tắt quá trình lũ:
+        Thời điểm xuất hiện, thời điểm kết thúc lũ:
+        b) Đối với đập
+        - Các hạng mục quan trắc theo thiết kế:
+        - Các hạng mục quan trắc thực tế lắp đặt:
+        - Tình hình hoạt động của thiết bị quan trắc:
+        - Kết quả quan trắc của từng hạng mục quan trắc (sau khi được phân tích, xử lý) so với giá trị
+tính toán thiết kế.
+        2. Kết quả kiểm tra đập, hồ chứa trước và sau mùa mưa lũ
+        a) Đối với hồ chứa
+        - Thời điểm kiểm tra (ngày, tháng, năm):
+        - Kết quả từng đợt kiểm tra:
+        - Xử lý sau từng đợt kiểm tra:
+
+      b) Đối với đập chính, đập phụ, cửa nhận nước, tràn xả lũ
+      - Thời điểm kiểm tra (ngày, tháng, năm):
+      - Kết quả từng đợt kiểm tra:
+      - Xử lý sau từng đợt kiểm tra:
+      3. Các hoạt động thuộc phạm vi bảo vệ đập, hồ chứa
+      a) Các hoạt động trong kỳ báo cáo (Tên các hoạt động và chủ đầu tư).
+      b) Đánh giá ảnh hưởng của các hoạt động đến công tác quản lý an toàn công trình, hồ chứa.
+      4. Đánh giá và kiến nghị
+      a) Đánh giá hiện trạng đập, hồ chứa thủy điện sau khi kết thúc mùa lũ.
+      b) Kiến nghị với cơ quan có thẩm quyền.
+Nơi nhận:                                                           GIÁM ĐỐC
+                                                               (Ký tên, đóng dấu)
